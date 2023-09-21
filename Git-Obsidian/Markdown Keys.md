@@ -28,6 +28,10 @@ inizia con 1.
 	2. 2
 2. eh si
 
+- [ ] checkbox
+
+\ - [ ] titolo checkbox
+
 Code snippets
 ``` js
 while(true){
@@ -62,4 +66,5 @@ caratteri speciali
 ![[Arrows.png]]
 
 ![[MiscellaneousSymbols.png]]
+
 ![[BinaryOperation_RelationSymbols.png]]
