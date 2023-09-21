@@ -53,10 +53,43 @@ $$A\triangle B=(A\cup B) \setminus (B\cap A)$$
 - Dati due insiemi $A$ e $B$ il prodotto fra i due è l'insieme delle coppie ordinate
 $$A\times B = \{(a,b)|a\in A \wedge b\in B\}$$
 $$A\times B \neq B\times A$$
-
+## Quantificatori
+- Per ogni
+	- $\forall$
+- Esiste
+	- $\exists$
+- Non esiste
+	- $\nexists$
+- Esiste ed è unico
+	- $\exists !$
+###### Es
+$$\forall \space x \in \mathbb{N}, \exists \space y \in \mathbb{N} : y>x$$
+$$\forall \space x \in \mathbb{N}, \exists !\space y \in \mathbb{N} : y=2x$$
 ## Definizioni e Proposizioni
 #### Definizione
 - Quando si introduce un concetto nuovo
 #### Proposizione
 - Affermazione della quale si può dire se è vera o falsa
 ###### Relazione di implicazione
+$$p\Rightarrow q$$
+- $q$ e $p$ sono proposizioni
+	- Il fatto che la proposizione $p$ è vera implica che anche $q$ è vera
+	- se $q$ è vera non posso dire nulla su $p$
+	- se $q$ è falsa allora $p$ è sicuramente falsa
+	- se $p$ è falsa non posso dire nulla su $q$
+- Nel caso in cui contemporaneamente $p \Rightarrow q$ e $q \Rightarrow p$  diciamo che $p$ e $q$ sono equivalenti
+	- $p$ è vera ***se e solo se*** $q$ è vera
+$$p \Leftrightarrow q$$
+#Tipologie_Dimostrazioni
+## Teorema
+#### Enunciato
+- Fatto da 2 parti
+###### Ipotesi
+- Quello che assumo che sia vero
+###### Tesi
+- Quello che voglio verificare che sia vero
+
+#### Dimostrazione
+- Processo di deduzione che, partendo da premesse assunte come valide (ipotesi), determina la necessaria validità di una nuova proposizione in virtù della correttezza formale del ragionamento
+
+[[Tipologie di Dimostrazioni]]

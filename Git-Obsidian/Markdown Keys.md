@@ -41,11 +41,15 @@ while(true){
 
 # Latex formulas
 doppio dollaro per aprire chiudere
-
+$$x^n + y^n = z^n$$
 \\displaystyle{ argomenti } 
 - display go brrr
 
-$$x^n + y^n = z^n$$
+Spaces
+- `\;` - a thick space
+- `\:` - a medium space
+- `\,` - a thin space
+- `\!` - a negative thin space
 
 - radici
 	- \\sqrt{ * **formula** * }
@@ -76,3 +80,5 @@ caratteri speciali
 ![[Geometry.png]]
 
 ![[Set Notation.png]]
+
+![[Miscellaneous Symbols.png]]
