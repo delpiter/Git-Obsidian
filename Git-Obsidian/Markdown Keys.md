@@ -6,9 +6,9 @@
 ###### Titoli
 Cancelletti da 1 a 6 per grandezze differenti
 
-[[Analisi]]
+\[\[Analisi]]
 Links
-Doppia quadra
+Doppia quadra  => [[README]]
 
 The tag.
 

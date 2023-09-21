@@ -11,11 +11,28 @@
             "id": "edd1c6cd62e5efde",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Git-Obsidian/Markdown Keys.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fd4efba72cd6f4f1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git-Obsidian/Analisi/Insiemi.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -81,6 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Git-Obsidian/Analisi/Insiemi.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Git-Obsidian/Analisi/Insiemi.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +137,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Git-Obsidian/Analisi/Insiemi.md"
+              }
             }
           }
         ]
@@ -138,8 +159,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "65f66281e682b0b2",
+  "active": "fd4efba72cd6f4f1",
   "lastOpenFiles": [
+    "Git-Obsidian/Markdown Keys.md",
+    "Git-Obsidian/Attatchments/Insiemi.md",
+    "Git-Obsidian/Analisi/Insiemi.md",
+    "Git-Obsidian/Analisi",
+    "README.md",
     "Git-Obsidian/Attatchments/MiscellaneousSymbols.png",
     "Git-Obsidian/Attatchments/GreekLetters.png",
     "Git-Obsidian/Attatchments/BinaryOperation_RelationSymbols.png",
@@ -151,9 +177,7 @@
     "Images/Arrows.png",
     "Images",
     "Git-Obsidian/FinalTest.md",
-    "Git-Obsidian/Markdown Keys.md",
     "Git-Obsidian",
-    "README.md",
     "Git-Obsidian/README.md"
   ]
 }
