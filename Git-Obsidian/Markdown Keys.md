@@ -65,6 +65,14 @@ caratteri speciali
 
 ![[Arrows.png]]
 
-![[MiscellaneousSymbols.png]]
+![[Relation operators.png]]
 
-![[BinaryOperation_RelationSymbols.png]]
+![[Relation Operators 2.png]]
+
+![[Binary Operators.png]]
+
+![[Negated Binary Relations.png]]
+
+![[Geometry.png]]
+
+![[Set Notation.png]]

@@ -4,23 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "562c430529b6cafd",
+        "id": "84e64470ed81146e",
         "type": "tabs",
         "children": [
           {
-            "id": "fd4efba72cd6f4f1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git-Obsidian/Analisi/Funzioni.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e0011216f08818a2",
+            "id": "4dc3b65114daa6f1",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -31,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -159,24 +146,25 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "65f66281e682b0b2",
+  "active": "4dc3b65114daa6f1",
   "lastOpenFiles": [
-    "Git-Obsidian/Analisi/Funzioni.md",
-    "Git-Obsidian/Analisi/Concetti Base.md",
-    "Git-Obsidian/Analisi/Insiemi.md",
     "Git-Obsidian/Markdown Keys.md",
+    "Git-Obsidian/Analisi/Concetti Base.md",
+    "Git-Obsidian/Attatchments/Set Notation.png",
+    "Git-Obsidian/Attatchments/Geometry.png",
+    "Git-Obsidian/Attatchments/Negated Binary Relations.png",
+    "Git-Obsidian/Attatchments/Binary Operators.png",
+    "Git-Obsidian/Attatchments/Relation Operators 2.png",
+    "Git-Obsidian/Attatchments/Arrows.png",
+    "Git-Obsidian/Attatchments/Relation operators.png",
+    "Git-Obsidian/Attatchments/MiscellaneousSymbols.png",
+    "Git-Obsidian/Attatchments/GreekLetters.png",
+    "Git-Obsidian/Analisi/Funzioni.md",
+    "Git-Obsidian/Analisi/Insiemi Numerici.md",
     "Git-Obsidian/Attatchments/Insiemi.md",
     "Git-Obsidian/Analisi",
     "README.md",
-    "Git-Obsidian/Attatchments/MiscellaneousSymbols.png",
-    "Git-Obsidian/Attatchments/GreekLetters.png",
-    "Git-Obsidian/Attatchments/BinaryOperation_RelationSymbols.png",
-    "Git-Obsidian/Attatchments/Arrows.png",
     "Git-Obsidian/Attatchments",
-    "Images/GreekLetters.png",
-    "Images/MiscellaneousSymbols.png",
-    "Images/BinaryOperation_RelationSymbols.png",
-    "Images/Arrows.png",
     "Images",
     "Git-Obsidian/FinalTest.md",
     "Git-Obsidian",
