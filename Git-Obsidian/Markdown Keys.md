@@ -38,7 +38,31 @@ while(true){
 	console.log("triplo apice => ``` ")
 }
 ```
+Blockquotes
+aggiungi un > davanti al paragrafo
 
+> Asta la vista, *** Camionista
+
+possibile fare anche innestati
+>Asd
+>>Sus
+
+Tabelle
+\| inizio colonna \| seconda colonna \|
+- - - - - - - -
+\| inizio colonna \| seconda colonna \|
+
+
+
+| Syntax      | Description |
+| ----------- | ----------- |
+| Header      | Title       |
+| Paragraph   | Text        |
+
+
+linee separazione (\*\ * \*) (- - -) (\_ \_ \_)
+in una linea da soli 
+- - -
 # Latex formulas
 doppio dollaro per aprire chiudere
 $$x^n + y^n = z^n$$

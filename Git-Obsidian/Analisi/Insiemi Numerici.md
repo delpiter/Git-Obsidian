@@ -1,1 +1,49 @@
+[[Concetti Base#Insieme | Insiemi]]
 
+## Tipologie
+- Numeri Naturali
+	- Tutti i numeri ottenuti aggiungendo di volta in volta una unità, partendo da 0
+$$\mathbb{N} = \{0,1,2,...\}$$
+- Numeri Interi
+	- Corrispondono all'insieme ottenuto unendo i numeri naturali e i numeri negativi
+$$\mathbb{Z} = \{0,-1,1,-2,2,...\}$$
+- Numeri Razionali
+	- Tutti i numeri che si ottengono dal rapporto di numeri interi
+$$\mathbb{Q} = \{\displaystyle{\frac{m}{p}|m,\;p \in \mathbb{Z},\;p\neq0}\}$$
+- Numeri Reali
+	- Numeri descritti mediante una rappresentazione decimale limitata o illimitata, periodica o non periodica
+	- Sono tutti i numeri razionali e irrazionali
+	- Ha una proprietà caratteristica
+		- ***La Completezza***
+$$\mathbb{R}$$
+ ---
+## Insiemi Separati
+- Siano $A$ e $B \subseteq \mathbb{R}$, diciamo che $A$ e $B$ sono **separati** se
+$$\forall \;a \in A, \forall \;b \in B$$
+- Si ha $a \leq b$
+## Assioma di completezza
+- L'insieme $\mathbb{R}$ soddisfa l'assioma  di completezza ($\mathbb{R}$ è completo), cioè
+$$\forall \; A,B \subseteq \mathbb{R} \; separati$$
+$$\exists \;c \in \mathbb{R}: a\leq c \leq b$$
+## Cardinalità
+- La cardinalità rappresenta il numero di elementi all'interno di un insieme
+- Nella teoria degli insiemi un insieme viene detto numerabile se:
+	- I suoi elementi sono in numero finito
+	- Possono essere messi in [[corrispondenza biunivoca]] con i numeri naturali
+#### Lista di insiemi numerabili
+- $\mathbb{N}$
+- $\mathbb{Z}$
+- $\mathbb{Q}$
+- $\mathbb{R}$ ***NON È NUMERABILE***
+###### Osservazione
+$\mathbb{Q}$ è denso in $\mathbb{R}$ cioè
+$$\forall \; x,y \in \mathbb{R},\;x<y,\; \exists \;q \in \mathbb{Q}, \exists d \in \mathbb{R}\setminus\mathbb{Q}:x<q<y, x<d<y $$
+
+## Massimo e Minimo di $A \subseteq B$
+Sia $A$ incluso in $\mathbb{R}$ e $A \neq \varnothing$, diciamo che
+- $M \in \mathbb{R}$ è massimo di $A$ se
+	- $M \in A$
+	- $M \geq a, \forall a \in A$
+- $m \in \mathbb{R}$ è minimo di $A$ se
+	- $m \in A$
+	- $m \leq a, \forall a \in A$

@@ -1,4 +1,4 @@
-#Tipologie_Dimostrazioni 
+[[Concetti Base#Dimostrazione]]
 ## Dimostrazione per Assurdo
 #### Es Teorema
 - Ipotesi
@@ -22,3 +22,4 @@ $$m^2 = 2p^2$$
 	- ###### CONTRADDIZIONE
 		- $\displaystyle{\frac{n}{m}}$ era già ridotta ai minimi termini
 		- Non possono avere fattori in comune
+# ⨳
