@@ -35,3 +35,23 @@ $$\forall y \in f(A), \exists! \;x \in A | f(x)=y$$
 $$f^-1:B\rightarrow A$$
 - Definita come segue
 	- $\forall y\in B,f^-1(y)$ è l'unica soluzione dell'equazione $f(x)=y$
+
+## Composizione
+>Siano $f:A\rightarrow B, \;g:C\rightarrow D$
+>Supponiamo che $f(A)\subseteq C$ (se $f(x)$ esce dal dominio di $g$ non è possibile)
+>chiamiamo funzione composta
+>$$g_of \;A\rightarrow D$$
+>La funzione:
+$$(g_of)(x)=g(f(x))$$
+- Importante l'ordine con cui si compongono
+	- Non è sempre detto sia possibile farlo in entrambi i versi ($g_of$ e $f_og$)
+	- E anche se fosse possibile in generale $g_of\neq f_og$
+
+#### Funzione Identità
+>La funzione identità è una particolare funzione che associa ad ogni $x$ la $x$ stessa
+$$Id_a: A\rightarrow A$$
+$$x\mapsto x$$
+###### Osservazione
+- Sia $f$ una funzione invertibile allora
+$$(f_of^{-1})(x) = x \;\; \forall x \in B$$
+$$(f^{-1}_of)(x) = x \;\; \forall x \in A$$
