@@ -1,4 +1,4 @@
-[[Concetti Base#Dimostrazione]]
+[[Concetti Base#Teorema|Teoremi]]
 ## Dimostrazione per Assurdo
 #### Es Teorema
 - Ipotesi

@@ -6,6 +6,7 @@
       {
         "id": "d1dffd49286a1769",
         "type": "tabs",
+        "dimension": 30.96446700507614,
         "children": [
           {
             "id": "a5c642ab400b749d",
@@ -13,8 +14,27 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Obsidian/Analisi/Concetti Base.md",
-                "mode": "preview",
+                "file": "Git-Obsidian/Markdown Keys.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "7f0649098fa6f91f",
+        "type": "tabs",
+        "dimension": 69.03553299492386,
+        "children": [
+          {
+            "id": "59a7f81e24cd008f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git-Obsidian/Analisi/Funzioni.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -85,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Analisi/Concetti Base.md",
+                "file": "Git-Obsidian/Analisi/Funzioni.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Analisi/Concetti Base.md",
+                "file": "Git-Obsidian/Analisi/Funzioni.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git-Obsidian/Analisi/Concetti Base.md"
+                "file": "Git-Obsidian/Analisi/Funzioni.md"
               }
             }
           }
@@ -146,14 +166,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a5c642ab400b749d",
+  "active": "59a7f81e24cd008f",
   "lastOpenFiles": [
-    "Git-Obsidian/Analisi/Funzioni.md",
-    "Git-Obsidian/Analisi/Insiemi Numerici.md",
     "Git-Obsidian/Markdown Keys.md",
-    "Git-Obsidian/Definitions/corrispondenza biunivoca.md",
+    "Git-Obsidian/Analisi/Funzioni.md",
     "Git-Obsidian/Analisi/Tipologie di Dimostrazioni.md",
     "Git-Obsidian/Analisi/Concetti Base.md",
+    "Git-Obsidian/Analisi/Insiemi Numerici.md",
+    "Git-Obsidian/Definitions/corrispondenza biunivoca.md",
     "Git-Obsidian/Definitions",
     "Git-Obsidian/Analisi/Tipologie_Dimostrazioni.md",
     "Git-Obsidian/Attatchments/Miscellaneous Symbols.png",
