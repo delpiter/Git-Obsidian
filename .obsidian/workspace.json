@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "a261c62cfaa246be",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git-Obsidian/Analisi/Teoria.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Analisi/Funzioni.md",
+                "file": "Git-Obsidian/Analisi/Teoria.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Analisi/Funzioni.md",
+                "file": "Git-Obsidian/Analisi/Teoria.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git-Obsidian/Analisi/Funzioni.md"
+                "file": "Git-Obsidian/Analisi/Teoria.md"
               }
             }
           }
@@ -146,11 +159,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3d0d4473caf2a1c6",
+  "active": "a261c62cfaa246be",
   "lastOpenFiles": [
+    "Git-Obsidian/Analisi/Funzioni.md",
+    "Git-Obsidian/Analisi/Teoria.md",
+    "Programmazione",
     "Git-Obsidian/Analisi/Tipologie di Dimostrazioni.md",
     "Git-Obsidian/Markdown Keys.md",
-    "Git-Obsidian/Analisi/Funzioni.md",
     "Git-Obsidian/Analisi/Concetti Base.md",
     "Git-Obsidian/Analisi/Insiemi Numerici.md",
     "Git-Obsidian/Definitions/corrispondenza biunivoca.md",
