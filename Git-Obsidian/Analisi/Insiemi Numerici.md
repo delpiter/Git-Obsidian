@@ -47,3 +47,39 @@ Sia $A$ incluso in $\mathbb{R}$ e $A \neq \varnothing$, diciamo che
 - $m \in \mathbb{R}$ è minimo di $A$ se
 	- $m \in A$
 	- $m \leq a, \forall a \in A$
+##### Osservazione
+Sia $A \subseteq \mathbb{R}$ se $A$ ammette un massimo o un minimo allora esso  unico
+###### Dimostrazione
+Siano $M_1$ e $M_2$ massimi di $A$
+- Allora per definizione di massimo si ha $M_1\geq M_2$
+- Ma anche $M_2\geq M_1$ 
+- Perciò $M_1=M_2$
+## Maggiorante e minorante
+- Elementi più grandi o più piccoli dell'insieme di partenza
+	- Non è sempre detto che ci siano
+	- Possono essere più di uno a differenza del massimo e del minimo
+### Maggiorante
+> Sia $A\subseteq \mathbb{R}$ diciamo che $\mu \in \mathbb{R}$  **Maggiorante** $A$ se
+> $$\mu \geq a\;\;\;\; \forall a\in A$$
+### Minorante
+> Sia $A\subseteq \mathbb{R}$ diciamo che $\lambda \in \mathbb{R}$  **Minorante** $A$ se
+> $$\lambda \leq a\;\;\;\; \forall a\in A$$
+## Insiemi Limitati
+### Superiore
+>Se un insieme $A$ ammette elementi maggioranti si dice che tale insieme è limitato superiormente
+##### Teorema
+- Sia $A \subseteq \mathbb{R}$ allora l'insieme dei maggioranti ammette sempre un minimio
+	- Viene chiamato estremo superiore di $A$ ($supA$)
+
+### Inferiore
+>Se un insieme $A$ ammette elementi minoranti si dice che tale insieme è limitato inferiormente
+##### Teorema
+- Sia $A \subseteq \mathbb{R}$ allora l'insieme dei minoranti ammette sempre un massimo
+	- Viene chiamato estremo inferiore di $A$ ($supA$)
+
+#### Insieme limitato
+> Se un insieme ammette sia elementi minoranti che maggioranti
+
+
+
+Ultimo Teorema - Insiemi numerici

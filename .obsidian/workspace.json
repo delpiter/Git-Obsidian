@@ -4,35 +4,47 @@
     "type": "split",
     "children": [
       {
-        "id": "c01cf5531d5906db",
+        "id": "bdf95fe81ca316c9",
         "type": "tabs",
         "children": [
           {
-            "id": "3d0d4473caf2a1c6",
+            "id": "9a673107656f832d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Obsidian/Analisi/Funzioni.md",
+                "file": "Git-Obsidian/Analisi/Concetti Base.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "a261c62cfaa246be",
+            "id": "cd1b67d20ad0e10e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Git-Obsidian/Analisi/Funzioni di una variabile Reale.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a477b60d629ee11b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git-Obsidian/Analisi/Breve ripasso.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Git-Obsidian/Analisi/Breve ripasso.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Git-Obsidian/Analisi/Breve ripasso.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Git-Obsidian/Analisi/Breve ripasso.md"
               }
             }
           }
@@ -159,29 +171,31 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a261c62cfaa246be",
+  "active": "a477b60d629ee11b",
   "lastOpenFiles": [
-    "Git-Obsidian/Analisi/Teoria.md",
+    "Git-Obsidian/Analisi/Funzioni di una variabile Reale.md",
+    "Git-Obsidian/Analisi/Breve ripasso.md",
+    "Git-Obsidian/Analisi/Concetti Base.md",
+    "Git-Obsidian/Attatchments/Miscellaneous Symbols.png",
+    "Git-Obsidian/Attatchments/GreekLetters.png",
+    "Git-Obsidian/Attatchments/Geometry.png",
+    "Git-Obsidian/Attatchments/Binary Operators.png",
+    "Git-Obsidian/Attatchments/Arrows.png",
+    "Git-Obsidian/Teoria.md",
     "Git-Obsidian/Analisi/Funzioni.md",
+    "Git-Obsidian/Analisi/Insiemi Numerici.md",
+    "Git-Obsidian/Markdown Keys.md",
+    "README.md",
     "Programmazione",
     "Git-Obsidian/Analisi/Tipologie di Dimostrazioni.md",
-    "Git-Obsidian/Markdown Keys.md",
-    "Git-Obsidian/Analisi/Concetti Base.md",
-    "Git-Obsidian/Analisi/Insiemi Numerici.md",
     "Git-Obsidian/Definitions/corrispondenza biunivoca.md",
     "Git-Obsidian/Definitions",
     "Git-Obsidian/Analisi/Tipologie_Dimostrazioni.md",
-    "Git-Obsidian/Attatchments/Miscellaneous Symbols.png",
-    "README.md",
     "Git-Obsidian/Attatchments/Set Notation.png",
-    "Git-Obsidian/Attatchments/Geometry.png",
     "Git-Obsidian/Attatchments/Negated Binary Relations.png",
-    "Git-Obsidian/Attatchments/Binary Operators.png",
     "Git-Obsidian/Attatchments/Relation Operators 2.png",
-    "Git-Obsidian/Attatchments/Arrows.png",
     "Git-Obsidian/Attatchments/Relation operators.png",
     "Git-Obsidian/Attatchments/MiscellaneousSymbols.png",
-    "Git-Obsidian/Attatchments/GreekLetters.png",
     "Git-Obsidian/Attatchments/Insiemi.md",
     "Git-Obsidian/Analisi",
     "Git-Obsidian/Attatchments",

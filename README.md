@@ -4,4 +4,3 @@ File Analisi modificati oggi:
 	- Maggiorante e minorante
 - Funzione di una variabile reale
 - Breve ripasso
-- 
