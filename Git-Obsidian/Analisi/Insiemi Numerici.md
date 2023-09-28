@@ -82,4 +82,14 @@ Siano $M_1$ e $M_2$ massimi di $A$
 
 
 
-Ultimo Teorema - Insiemi numerici
+### Teorema
+>Sia $A \subseteq \mathbb{R}$ allora l'insieme dei magigoranti ammette sempre un minimo
+>>Viene chiamato estremo superiore di $A$ o $supA$
+
+Analogamente
+
+>Sia $A \subseteq \mathbb{R}$ allora l'insieme dei minoranti ammette sempre un massimo
+>>Viene chiamato estremo inferiore di $A$ o $infA$
+
+- Per convenzione se $A$ non è limitato superiormente poniamo $supA =+\infty$
+- Per convenzione se $A$ non è limitato superiormente poniamo $supA =-\infty$
