@@ -186,3 +186,13 @@ $$
 x=2\text{ Punto di minimo di }f
 \end{array}
 $$
+
+## Funzioni Monotone
+- - -
+- Sia $A \subseteq \mathbb{R},\; f:A \to \mathbb{R}$
+### Crescente
+> Diciamo che $f$ è una funzione **crescente** se $\forall x_1,x_2 \in A$ con $x_{1}\leq x_{2}$ si ha che i corrispondenti delle funzioni devono essere uguali
+$$
+f(x_{1})\leq f(x_{2})
+$$
+### Decrescente
