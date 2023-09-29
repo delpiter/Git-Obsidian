@@ -92,7 +92,7 @@ bounds: [-2,2,-2,2]
 disableZoom: true
 grid: true
 ---
-f(x)=x>0?1:-1
+f(x)=sign(x)
 ```
 ## Parte intera
 - - -
@@ -139,7 +139,8 @@ grid: true
 f(x)=x-floor(x)
 ```
 ## Funzione Esponenziale
->[!tldr] $a^p, p\in\mathbb{Q}$
+>[!info] Definizione
+>$a^p, p\in\mathbb{Q}$
 >Per la priprietà di densità di $\mathbb{Q}$ in $\mathbb{R}$, posso estendere tale definizione da $p \in \mathbb{Q}$ a $p \in \mathbb{R}$
 
 ### Proprietà
@@ -192,4 +193,48 @@ f(x)=(1/2)^x
 >$$
 ### Proprietà
 - $\forall x,y \in \mathbb{R}^+\setminus\{0\}, \log_{a}(x\cdot y)=\log_{a}x + \log_{a}y$
-- 
+- $\log_{a}x^\alpha=\alpha\log_{a}x \ \ \ \ \ \alpha\in\mathbb{R}$
+
+#### Dimostrazione proprietà 1
+> Voglio dimostrare che $\log_{a}(x\cdot y)=\log_{a}x+\log_{a}y$
+- Per la proprietà della [[Intro#Funzione Identità|funzione identità]]
+	- $\huge{a^{\log_{a}(x\cdot y)}=a^{\log_{a}x}\cdot a^{\log_{a}y}}$
+	- Per la proprietà della funzione esponenziale
+	- $\huge{a^{\log_{a}x}\cdot a^{\log_{a}y}=a^{\log_{a}x+\log_{a}y}}$
+	- Poichè la funzione è iniettiva i due esponenti devono essere per forza uguali
+### Grafici
+$$
+\boxed{a>1}
+$$
+
+```functionplot
+---
+title: 
+xLabel: 
+yLabel: 
+bounds: [-10,10,-10,10]
+disableZoom: true
+grid: true
+---
+f(x)=log(x)
+```
+$$
+\boxed{0<a<1}
+$$
+
+```functionplot
+---
+title: 
+xLabel: 
+yLabel: 
+bounds: [-10,10,-10,10]
+disableZoom: true
+grid: true
+---
+f(x)=log(x)/log(1/2)
+```
+#### Osservazione
+- Esponenziale e logaritmo sono specchiati rispetto alla bisettrice
+	- In generale $f$ e $f^{-1}$ sono simmetriche rispetto alla retta $y=x$
+
+## Funzioni trigonometriche
