@@ -239,7 +239,7 @@ body {
 
 strong {
     font-weight: 600;
-    color: chocolate;
+    color: chocolate !important;
 }
 
 a,
