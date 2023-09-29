@@ -6,6 +6,27 @@
 ###### Titoli
 Cancelletti da 1 a 6 per grandezze differenti
 
+#### Callouts
+
+>[!tldr] Cose
+>>[!info] Sotto cose
+
+\>\[!tldr\] Cose
+\>\[!info\]Sotto cose
+
+##### Tutti i callouts:
+- !tldr
+- !info
+- !todo
+- !tip
+- !done
+- !faq
+- !warning
+- !error
+- !bug
+- !example
+- !quote
+
 \[\[Analisi]]
 Links
 Doppia quadra  => [[README]]
@@ -87,6 +108,10 @@ Spaces
 	- semplici frazioni
 		- $ 2/3 $ 
 			- $2/3$ 
+nun se sa mai
+><font color="CornflowerBlue">$f(x) = x$ </font>
+><font color="red">$f(x) = x$ </font>
+><font color="green">$f(x)= x$</font>
 
 caratteri speciali
 ![[GreekLetters.png]]

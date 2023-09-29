@@ -293,24 +293,69 @@ f(x) = x
 
 ## Operazioni sul grafico
 - - -
-> $$
-\begin{array}
-/f(x) = x^2 \\
-f(x)+k = (x^2)+2\\
-f(x)-k= (x^2)-2
-\end{array}
-$$
+><font color="CornflowerBlue">$f(x) = x^2$ </font>
+><font color="red">$f(x)+k = (x^2)+2$ </font>
+><font color="green">$f(x)-k= (x^2)-2$</font>
 
 ```functionplot
 ---
 title: 
 xLabel: 
 yLabel: 
-bounds: [-10,10,-3,7]
+bounds: [-5,5,-3,7]
 disableZoom: true
 grid: true
 --- 
 f(x)=x^2
 g(x)=(x^2)+2
 c(x)=(x^2)-2
+```
+><font color="CornflowerBlue">$f(x) = x^2$</font>
+><font color="red">$f(x+k) = (x+2)^2$</font>
+><font color="green">$f(x-k)= (x-2)^2$</font>
+
+```functionplot
+---
+title: 
+xLabel: 
+yLabel: 
+bounds: [-5,5,-1,9]
+disableZoom: true
+grid: true
+---
+f(x) = x^2
+f(x+k) = (x+2)^2
+f(x-k)= (x-2)^2
+```
+>[[Breve ripasso#Valore assoluto|Definizione valore assoluto]]
+><font color="CornflowerBlue">$f(x) = (x-2)^2-2$</font>
+><font color="red">$f(|x|) = (|x|-2)^2-2$</font>
+
+
+```functionplot
+---
+title: 
+xLabel: 
+yLabel: 
+bounds: [-5,5,-3,7]
+disableZoom: true
+grid: true
+---
+f(x) = (x-2)^2-2
+g(x)=(abs(x)-2)^2-2
+```
+><font color="CornflowerBlue">$f(x) = x^2-2$</font>
+><font color="red">$|f(x)| = |x^2-2|$</font>
+
+```functionplot
+---
+title: 
+xLabel: 
+yLabel: 
+bounds: [-5,5,-3,7]
+disableZoom: true
+grid: true
+---
+f(x) = x^2-2
+g(x) = abs(x^2-2)
 ```
