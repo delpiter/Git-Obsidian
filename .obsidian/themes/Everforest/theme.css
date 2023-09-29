@@ -618,3 +618,8 @@ input.task-list-item-checkbox:checked {
     position: absolute;
     border-right: 1px solid var(--dim-blue);
 }
+
+.cm-strong,
+.markdown-preview-section strong {
+    color: #6cb3c6 !important;
+}
