@@ -4,4 +4,4 @@ $Y$, tale che ad ogni elemento di $X$ corrisponda uno ed un solo elemento di $Y$
 >In particolare, la corrispondenza biunivoca è una relazione di equivalenza.
 
 ## Circonferenza Goniometrica
-![[Pasted image 20230930103554.png]]
+![[Pasted image 20230930115346.png]]

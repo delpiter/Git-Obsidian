@@ -229,6 +229,20 @@ $$
 - $sen^2(\alpha)+cos^2(\alpha)=1 \ \ \ \ \forall\alpha\in\mathbb{R}$
 - $cos(\alpha)=cos(-\alpha) \to \text{funzione pari}$
 - $cos(\alpha)=-cos(\pi-\alpha)$
+#### Grafico
+
+```functionplot
+---
+title: 
+xLabel: 
+yLabel: 
+bounds: [-5,5,-5,5]
+disableZoom: true
+grid: true
+---
+f(x)=cos(x)
+```
+
 ### Seno
 $$
 \begin{array}
@@ -242,11 +256,8 @@ $$
 - $sen^2(\alpha)+cos^2(\alpha)=1 \ \ \ \ \forall\alpha\in\mathbb{R}$
 - $sen(\alpha)=-sen(-\alpha) \to \text{funzione dispari}$
 - $sen(\alpha)=sen(\pi-\alpha)$
+#### Grafico
 
-### Grafici
-
-<font color="CornflowerBlue">$f(x)=cos(x)$ </font>
-<font color="red">$f(x)=sen(x)$</font>
 ```functionplot
 ---
 title: 
@@ -257,7 +268,6 @@ disableZoom: true
 grid: true
 ---
 f(x)=sin(x)
-g(x)=cos(x)
 ```
 ### Formule Seno e Coseno
 $$
@@ -269,3 +279,46 @@ $$
 \end{array}
 $$
 ### Tangente
+>[!info] Definizione [[Definizioni#Circonferenza Goniometrica|Tangente]]
+>La tangente è una funzione $\pi\text{-periodica}$ ed è definita nel dominio:
+>$tan:\{\alpha\in\mathbb{R}|\alpha \neq \displaystyle{\frac{\pi}{2}+k\pi},k\in\mathbb{Z}\}$
+>$tan:\mathbb{R}\setminus\left\{ \displaystyle{\frac{\pi}{2}}+k\pi,k\in\mathbb{Z} \right\}\to\mathbb{R}$
+- La tangente può essere scritta anche come rapporto fra seno e coseno
+- $tan(\alpha)=\displaystyle{\frac{sen(\alpha)}{cos(\alpha)}}$
+- La tangente è una funzione dispari
+
+#### Grafico
+
+```functionplot
+---
+title: 
+xLabel: 
+yLabel: 
+bounds: [-10,10,-10,10]
+disableZoom: true
+grid: true
+---
+f(x)=tan(x)
+```
+
+### Cotangente
+>[!info] Definizione
+>Reciproco della funzione Tangente, la tangente sarà posta sull'asse delle $y$ al contrario della tangente
+>$cotan:\mathbb{R}\setminus\left\{ k\pi,k\in\mathbb{Z} \right\}\to\mathbb{R}$
+>$cotan(\alpha) =\displaystyle{\frac{cos(\alpha)}{sen(\alpha)}}=\displaystyle{\frac{1}{tan(\alpha)}}$
+
+- La cotangente è una funzione dispari
+#### Grafico
+
+```functionplot
+---
+title: 
+xLabel: 
+yLabel: 
+bounds: [-10,10,-10,10]
+disableZoom: true
+grid: true
+---
+f(x)=cos(x)/sin(x)
+```
+### Funzioni Inverse
