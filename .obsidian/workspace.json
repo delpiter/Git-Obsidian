@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Obsidian/Analisi/Funzioni/Intro.md",
+                "file": "Git-Obsidian/Analisi/Funzioni/Funzioni di una variabile Reale.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "794f48053d42a657",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git-Obsidian/Markdown Keys.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +60,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#DaChiedere",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Analisi/Funzioni/Intro.md",
+                "file": "Git-Obsidian/Analisi/Funzioni/Funzioni di una variabile Reale.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Analisi/Funzioni/Intro.md",
+                "file": "Git-Obsidian/Analisi/Funzioni/Funzioni di una variabile Reale.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git-Obsidian/Analisi/Funzioni/Intro.md"
+                "file": "Git-Obsidian/Analisi/Funzioni/Funzioni di una variabile Reale.md"
               }
             }
           }
@@ -148,11 +160,13 @@
   },
   "active": "ba2b0d0b3d6b0b82",
   "lastOpenFiles": [
+    "Git-Obsidian/Markdown Keys.md",
+    "Git-Obsidian/Analisi/Funzioni/Funzioni di una variabile Reale.md",
+    "Git-Obsidian/Definitions/Definizioni.md",
+    "Git-Obsidian/Attatchments/Pasted image 20230930103554.png",
+    "Git-Obsidian/Analisi/Funzioni/Intro.md",
     "New Documento di testo.txt",
     "README.md",
-    "Git-Obsidian/Analisi/Funzioni/Intro.md",
-    "Git-Obsidian/Analisi/Funzioni/Funzioni di una variabile Reale.md",
-    "Git-Obsidian/Definitions/corrispondenza biunivoca.md",
     "Git-Obsidian/Programmazione/Teoria.md",
     "Git-Obsidian/Attatchments/Set Notation.png",
     "Git-Obsidian/Attatchments/Relation operators.png",
@@ -168,7 +182,6 @@
     "Git-Obsidian/Analisi/Concetti Base.md",
     "Git-Obsidian/Analisi/Funzioni",
     "Git-Obsidian/Analisi/Breve ripasso.md",
-    "Git-Obsidian/Markdown Keys.md",
     "Git-Obsidian/Definitions",
     "Git-Obsidian/Programmazione",
     "Git-Obsidian/Attatchments",
@@ -179,7 +192,6 @@
     "Appunti/Git-Obsidian/Analisi/Funzioni/Funzioni di una variabile Reale.md",
     "Appunti/Git-Obsidian/Programmazione/Teoria.md",
     "Appunti/Git-Obsidian/Definitions/corrispondenza biunivoca.md",
-    "Appunti/Git-Obsidian/Attatchments/Set Notation.png",
     "Appunti/Git-Obsidian/Analisi/Tipologie di Dimostrazioni.md",
     "Appunti/Git-Obsidian/Analisi/Insiemi Numerici.md",
     "Appunti/Git-Obsidian/Analisi/Funzioni",
@@ -188,7 +200,6 @@
     "Appunti/Git-Obsidian/Markdown Keys.md",
     "Appunti/Git-Obsidian/Programmazione",
     "Appunti/Git-Obsidian/Definitions",
-    "Appunti/Git-Obsidian/Attatchments",
     "Git-Obsidian/Analisi/Teoria.md",
     "Git-Obsidian/Analisi/Tipologie_Dimostrazioni.md",
     "Git-Obsidian/Attatchments/Insiemi.md",
