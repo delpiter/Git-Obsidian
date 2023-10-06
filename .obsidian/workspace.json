@@ -4,28 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "c01cf5531d5906db",
+        "id": "7c7c9f5174f51bf3",
         "type": "tabs",
         "children": [
           {
-            "id": "3d0fe4127cfba9d9",
+            "id": "6eaf3aee3ed7c284",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Obsidian/Analisi/Funzioni/Funzioni di una variabile Reale.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "02c4015dd793a360",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git-Obsidian/Analisi/Funzioni/Intro.md",
+                "file": "Git-Obsidian/Analisi/Insiemi/Numeri Complessi.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Analisi/Funzioni/Funzioni di una variabile Reale.md",
+                "file": "Git-Obsidian/Analisi/Insiemi/Numeri Complessi.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Analisi/Funzioni/Funzioni di una variabile Reale.md",
+                "file": "Git-Obsidian/Analisi/Insiemi/Numeri Complessi.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,15 +125,24 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git-Obsidian/Analisi/Funzioni/Funzioni di una variabile Reale.md"
+                "file": "Git-Obsidian/Analisi/Insiemi/Numeri Complessi.md"
               }
             }
+          },
+          {
+            "id": "defbf6dd90601390",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 328.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -155,21 +152,25 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "3d0fe4127cfba9d9",
+  "active": "6eaf3aee3ed7c284",
   "lastOpenFiles": [
-    "Git-Obsidian/Analisi/Funzioni/Intro.md",
-    "Git-Obsidian/Analisi/Funzioni/Funzioni di una variabile Reale.md",
-    "Git-Obsidian/Analisi/Breve ripasso.md",
     "Git-Obsidian/Definitions/Definizioni.md",
+    "Git-Obsidian/Analisi/Funzioni/Funzioni di una variabile Reale.md",
+    "Git-Obsidian/Analisi/Insiemi/Insiemi Numerici.md",
+    "Git-Obsidian/Analisi/Insiemi/Numeri Complessi.md",
+    "Git-Obsidian/Analisi/Insiemi",
+    "Git-Obsidian/Analisi/Funzioni/Intro.md",
     "Git-Obsidian/Markdown Keys.md",
+    "Git-Obsidian/Programmazione/Teoria.md",
+    "Git-Obsidian/Analisi/Breve ripasso.md",
     "Git-Obsidian/Attatchments/Pasted image 20230930115346.png",
     "Git-Obsidian/Attatchments/Pasted image 20230930103554.png",
     "New Documento di testo.txt",
     "README.md",
-    "Git-Obsidian/Programmazione/Teoria.md",
     "Git-Obsidian/Attatchments/Set Notation.png",
     "Git-Obsidian/Attatchments/Relation operators.png",
     "Git-Obsidian/Attatchments/Relation Operators 2.png",
@@ -179,7 +180,6 @@
     "Git-Obsidian/Attatchments/Geometry.png",
     "Git-Obsidian/Attatchments/Binary Operators.png",
     "Git-Obsidian/Analisi/Tipologie di Dimostrazioni.md",
-    "Git-Obsidian/Analisi/Insiemi Numerici.md",
     "Git-Obsidian/Analisi/Concetti Base.md",
     "Git-Obsidian/Analisi/Funzioni",
     "Git-Obsidian/Definitions",
@@ -199,7 +199,6 @@
     "Appunti/Git-Obsidian/Analisi/Breve ripasso.md",
     "Appunti/Git-Obsidian/Markdown Keys.md",
     "Appunti/Git-Obsidian/Programmazione",
-    "Appunti/Git-Obsidian/Definitions",
     "Git-Obsidian/Analisi/Teoria.md",
     "Git-Obsidian/Analisi/Tipologie_Dimostrazioni.md",
     "Git-Obsidian/Attatchments/Insiemi.md",

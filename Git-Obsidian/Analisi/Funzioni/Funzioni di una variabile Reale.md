@@ -8,21 +8,17 @@ f(x) =k, \; k \in \mathbb{R}
 \end{array}
 >$$
 
-$$
- 
-
-$$
 
 ```functionplot
 ---
 title: 
 xLabel: 
 yLabel: 
-bounds: [-10,10,-10,10]
+bounds: [-5,5,-5,5]
 disableZoom: true
 grid: true
 ---
-y=7
+f(x)=3
 ```
 ## Polinomi
 - - -
@@ -213,6 +209,7 @@ g(x)=log(x)/log(1/2)
 >[!info] Definizione [[Definizioni#Circonferenza Goniometrica|Circonferenza goniometrica]]
 >Sia $U=\{(x,y)\in\mathbb{R}\times\mathbb{R}|x^2+y^2=1\}$
 >La circonferenza goniometrica è una circonferenza di raggio $1$
+>[[Definizioni#Valori Notevoli|Alcuni valori notevoli]]
 
 
 ### Coseno
@@ -345,9 +342,9 @@ f(x)=asin(x)
 #### Arcocoseno
 >[!info] Definizione
 >Il coseno nell'intervallo:
->$sen:[0,\pi] \to[-1,1]$ è invertibile
+>$cos:[0,\pi] \to[-1,1]$ è invertibile
 >>[!tldr] Funzione inversa
->>$arcsin:[-1,1]\to  [0,\pi]$
+>>$arcos:[-1,1]\to  [0,\pi]$
 ##### Grafico
 
 ```functionplot
@@ -364,9 +361,9 @@ f(x)=acos(x)
 #### Arcotangente
 >[!info] Definizione
 >La tangente nell'intervallo:
->$sen:\left[ -\displaystyle{\frac{\pi}{2}}, \displaystyle{\frac{\pi}{2}}\right] \to\mathbb{R}$ è invertibile
+>$tan:\left[ -\displaystyle{\frac{\pi}{2}}, \displaystyle{\frac{\pi}{2}}\right] \to\mathbb{R}$ è invertibile
 >>[!tldr] Funzione inversa
->>$arcsin:\mathbb{R}\to  \left[ -\displaystyle{\frac{\pi}{2}}, \displaystyle{\frac{\pi}{2}}\right]$
+>>$arctan:\mathbb{R}\to  \left[ -\displaystyle{\frac{\pi}{2}}, \displaystyle{\frac{\pi}{2}}\right]$
 
 
 ```functionplot
@@ -380,3 +377,18 @@ grid: true
 ---
 f(x)=atan(x)
 ```
+#### Es
+$$sen(x)=\displaystyle{\frac{3}{4}}$$
+>Nell'intervallo $\left[ -\displaystyle{\frac{\pi}{2}},\displaystyle{\frac{\pi}{2}} \right]$ c'è una sola soluzione trovata applicando la funzione inversa
+$$
+x = arcsen\left( \displaystyle{\frac{3}{4}} \right)
+$$
+- Applicando la funzione inversa si vanno a "perdere" tutte le soluzioni periodiche a causa del restringimento del dominio
+- Per indicare tutte le soluzioni:
+$$
+\begin{array}
+/x = arcsen\left( \frac{3}{4} \right) + 2k\pi, k\in\mathbb{Z}\ \text{ e }\ x = \pi-arcsen\left( \frac{3}{4} \right) + 2k\pi, k\in\mathbb{Z} \\
+\text{Riassumendo: } \\
+\left\{ arcsen\left( \frac{3}{4} \right)+2k\pi,\ k\in\mathbb{Z} \right\} \cup\{\pi-arcsen\left( \frac{3}{4} \right)+2k\pi,\ k\in\mathbb{Z}\}
+\end{array}
+$$
