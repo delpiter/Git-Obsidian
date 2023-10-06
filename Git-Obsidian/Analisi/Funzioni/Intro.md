@@ -13,8 +13,8 @@ $$\forall x \in A, \exists y \in B : y = f(x)$$
 #### Immagine
 >Il sottoinsieme di $y$ costituito dai valori effettivamente assunti dalla funzione $f$ è invece detto immagine
 $$f(A)=\{y\in B\;|\;\exists; x\in A:f(x)=y\}$$
----
 ## Grafico di una Funzione
+- - -
 >Siano $A$ e $B \neq \varnothing$, sia $f: A \rightarrow B$ chiamiamo grafico di $f$, l'insieme 
 $$y_f =\{(a,b) \in A\times B \; | b=f(a)\}$$
 

@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "c01cf5531d5906db",
+        "id": "24bf0e12608888f9",
         "type": "tabs",
         "children": [
           {
-            "id": "ba2b0d0b3d6b0b82",
+            "id": "58f845c1cbd45834",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git-Obsidian/Analisi/Funzioni/Intro.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Analisi/Funzioni/Intro.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Analisi/Funzioni/Intro.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Git-Obsidian/Analisi/Funzioni/Intro.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -138,6 +130,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -146,53 +139,38 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ba2b0d0b3d6b0b82",
+  "active": "58f845c1cbd45834",
   "lastOpenFiles": [
-    "New Documento di testo.txt",
-    "README.md",
-    "Git-Obsidian/Analisi/Funzioni/Intro.md",
+    "Git-Obsidian/Markdown Keys.md",
     "Git-Obsidian/Analisi/Funzioni/Funzioni di una variabile Reale.md",
-    "Git-Obsidian/Definitions/corrispondenza biunivoca.md",
-    "Git-Obsidian/Programmazione/Teoria.md",
-    "Git-Obsidian/Attatchments/Set Notation.png",
-    "Git-Obsidian/Attatchments/Relation operators.png",
-    "Git-Obsidian/Attatchments/Relation Operators 2.png",
-    "Git-Obsidian/Attatchments/Negated Binary Relations.png",
+    "Git-Obsidian/Analisi/Breve ripasso.md",
+    "Git-Obsidian/Analisi/Insiemi Numerici.md",
+    "Git-Obsidian/Analisi/Concetti Base.md",
+    "Git-Obsidian/Analisi/Funzioni.md",
+    "Git-Obsidian/Analisi/Funzioni di una variabile Reale.md",
+    "README.md",
     "Git-Obsidian/Attatchments/Miscellaneous Symbols.png",
     "Git-Obsidian/Attatchments/GreekLetters.png",
     "Git-Obsidian/Attatchments/Geometry.png",
     "Git-Obsidian/Attatchments/Binary Operators.png",
     "Git-Obsidian/Attatchments/Arrows.png",
+    "Git-Obsidian/Teoria.md",
+    "Programmazione",
     "Git-Obsidian/Analisi/Tipologie di Dimostrazioni.md",
-    "Git-Obsidian/Analisi/Insiemi Numerici.md",
-    "Git-Obsidian/Analisi/Concetti Base.md",
-    "Git-Obsidian/Analisi/Funzioni",
-    "Git-Obsidian/Analisi/Breve ripasso.md",
-    "Git-Obsidian/Markdown Keys.md",
+    "Git-Obsidian/Definitions/corrispondenza biunivoca.md",
     "Git-Obsidian/Definitions",
-    "Git-Obsidian/Programmazione",
-    "Git-Obsidian/Attatchments",
-    "Git-Obsidian/Analisi",
-    "Git-Obsidian",
-    "Appunti/README.md",
-    "Appunti/Git-Obsidian/Analisi/Funzioni/Intro.md",
-    "Appunti/Git-Obsidian/Analisi/Funzioni/Funzioni di una variabile Reale.md",
-    "Appunti/Git-Obsidian/Programmazione/Teoria.md",
-    "Appunti/Git-Obsidian/Definitions/corrispondenza biunivoca.md",
-    "Appunti/Git-Obsidian/Attatchments/Set Notation.png",
-    "Appunti/Git-Obsidian/Analisi/Tipologie di Dimostrazioni.md",
-    "Appunti/Git-Obsidian/Analisi/Insiemi Numerici.md",
-    "Appunti/Git-Obsidian/Analisi/Funzioni",
-    "Appunti/Git-Obsidian/Analisi/Concetti Base.md",
-    "Appunti/Git-Obsidian/Analisi/Breve ripasso.md",
-    "Appunti/Git-Obsidian/Markdown Keys.md",
-    "Appunti/Git-Obsidian/Programmazione",
-    "Appunti/Git-Obsidian/Definitions",
-    "Appunti/Git-Obsidian/Attatchments",
-    "Git-Obsidian/Analisi/Teoria.md",
     "Git-Obsidian/Analisi/Tipologie_Dimostrazioni.md",
+    "Git-Obsidian/Attatchments/Set Notation.png",
+    "Git-Obsidian/Attatchments/Negated Binary Relations.png",
+    "Git-Obsidian/Attatchments/Relation Operators 2.png",
+    "Git-Obsidian/Attatchments/Relation operators.png",
+    "Git-Obsidian/Attatchments/MiscellaneousSymbols.png",
     "Git-Obsidian/Attatchments/Insiemi.md",
+    "Git-Obsidian/Analisi",
+    "Git-Obsidian/Attatchments",
+    "Images",
     "Git-Obsidian/FinalTest.md",
+    "Git-Obsidian",
     "Git-Obsidian/README.md"
   ]
 }
