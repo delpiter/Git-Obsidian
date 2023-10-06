@@ -322,3 +322,61 @@ grid: true
 f(x)=cos(x)/sin(x)
 ```
 ### Funzioni Inverse
+- Per ottenere le [[Intro#Funzione inversa|funzioni inverse]] di funzioni periodiche è necessario restringere il dominio
+#### Arcoseno
+>[!info] Definizione
+>Il seno nell'intervallo:
+>$sen:\left[ -\displaystyle{\frac{\pi}{2}}, \displaystyle{\frac{\pi}{2}}\right] \to[-1,1]$ è invertibile
+>>[!tldr] Funzione inversa
+>>$arcsin:[-1,1]\to  \left[ -\displaystyle{\frac{\pi}{2}}, \displaystyle{\frac{\pi}{2}}\right]$
+##### Grafico
+
+```functionplot
+---
+title: 
+xLabel: 
+yLabel: 
+bounds: [-2,2,-2,2]
+disableZoom: true
+grid: true
+---
+f(x)=asin(x)
+```
+#### Arcocoseno
+>[!info] Definizione
+>Il coseno nell'intervallo:
+>$sen:[0,\pi] \to[-1,1]$ è invertibile
+>>[!tldr] Funzione inversa
+>>$arcsin:[-1,1]\to  [0,\pi]$
+##### Grafico
+
+```functionplot
+---
+title: 
+xLabel: 
+yLabel: 
+bounds: [-3,3,-2,4]
+disableZoom: true
+grid: true
+---
+f(x)=acos(x)
+```
+#### Arcotangente
+>[!info] Definizione
+>La tangente nell'intervallo:
+>$sen:\left[ -\displaystyle{\frac{\pi}{2}}, \displaystyle{\frac{\pi}{2}}\right] \to\mathbb{R}$ è invertibile
+>>[!tldr] Funzione inversa
+>>$arcsin:\mathbb{R}\to  \left[ -\displaystyle{\frac{\pi}{2}}, \displaystyle{\frac{\pi}{2}}\right]$
+
+
+```functionplot
+---
+title: 
+xLabel: 
+yLabel: 
+bounds: [-5,5,-5,5]
+disableZoom: true
+grid: true
+---
+f(x)=atan(x)
+```
