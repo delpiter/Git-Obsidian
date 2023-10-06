@@ -2,6 +2,10 @@
   "obsidian-git",
   "obsidian-latex-suite",
   "obsidian-functionplot",
+<<<<<<< HEAD
   "table-editor-obsidian",
   "obsidian-desmos"
+=======
+  "table-editor-obsidian"
+>>>>>>> origin/main
 ]

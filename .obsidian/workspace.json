@@ -156,12 +156,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "6eaf3aee3ed7c284",
+  "active": "65f66281e682b0b2",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "Git-Obsidian/Analisi/Insiemi/Numeri Complessi.md",
     "Git-Obsidian/Definitions/Definizioni.md",
     "Git-Obsidian/Analisi/Funzioni/Funzioni di una variabile Reale.md",
     "Git-Obsidian/Analisi/Insiemi/Insiemi Numerici.md",
-    "Git-Obsidian/Analisi/Insiemi/Numeri Complessi.md",
     "Git-Obsidian/Analisi/Insiemi",
     "Git-Obsidian/Analisi/Funzioni/Intro.md",
     "Git-Obsidian/Markdown Keys.md",
@@ -202,7 +203,6 @@
     "Git-Obsidian/Analisi/Teoria.md",
     "Git-Obsidian/Analisi/Tipologie_Dimostrazioni.md",
     "Git-Obsidian/Attatchments/Insiemi.md",
-    "Git-Obsidian/FinalTest.md",
-    "Git-Obsidian/README.md"
+    "Git-Obsidian/FinalTest.md"
   ]
 }
