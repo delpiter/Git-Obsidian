@@ -8,18 +8,6 @@
 \end{array}
 >>$$
 
-```functionplot
----
-title: 
-xLabel: 
-yLabel: 
-bounds: [-10,10,-10,10]
-disableZoom: true
-grid: true
----
-
-```
-
 #### Osservazione
 - $\mathbb{R}$ è un sottoinsieme di $\mathbb{C}$ in quanto $(a,0)\to\mathbb{R}$
 ## Operazioni
