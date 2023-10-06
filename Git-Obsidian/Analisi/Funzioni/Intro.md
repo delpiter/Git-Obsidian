@@ -40,8 +40,6 @@ $$\forall x \in B, \exists \; x \in A | f(x)=y$$
 	- Basta restringere il codominio
 ###### Iniettività $[f\;1-1]$
 
-^ae9c34
-
 >Diciamo che $f$ è iniettiva se:
 >>Ogni elemento del dominio ha una immagine distinta
 $$\forall y \in f(A), \exists! \;x \in A | f(x)=y$$

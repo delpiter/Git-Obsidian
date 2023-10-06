@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "24bf0e12608888f9",
+        "id": "05b36827fcd6d6cd",
         "type": "tabs",
         "children": [
           {
-            "id": "58f845c1cbd45834",
+            "id": "0dfcc32a23f0c195",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -139,8 +139,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "58f845c1cbd45834",
+  "active": "0dfcc32a23f0c195",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "Git-Obsidian/Attatchments/Pasted image 20230930115346.png",
     "Git-Obsidian/Markdown Keys.md",
     "Git-Obsidian/Analisi/Funzioni/Funzioni di una variabile Reale.md",
     "Git-Obsidian/Analisi/Breve ripasso.md",
@@ -164,7 +166,6 @@
     "Git-Obsidian/Attatchments/Negated Binary Relations.png",
     "Git-Obsidian/Attatchments/Relation Operators 2.png",
     "Git-Obsidian/Attatchments/Relation operators.png",
-    "Git-Obsidian/Attatchments/MiscellaneousSymbols.png",
     "Git-Obsidian/Attatchments/Insiemi.md",
     "Git-Obsidian/Analisi",
     "Git-Obsidian/Attatchments",

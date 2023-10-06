@@ -29,7 +29,7 @@ $$\exists \;c \in \mathbb{R}: a\leq c \leq b$$
 - La cardinalità rappresenta il numero di elementi all'interno di un insieme
 - Nella teoria degli insiemi un insieme viene detto numerabile se:
 	- I suoi elementi sono in numero finito
-	- Possono essere messi in [[corrispondenza biunivoca]] con i numeri naturali
+	- Possono essere messi in [[Definizioni]] con i numeri naturali
 #### Lista di insiemi numerabili
 - $\mathbb{N}$
 - $\mathbb{Z}$
