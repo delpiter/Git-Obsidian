@@ -21,3 +21,11 @@ x=1
 | --- | --- |:-------------------------------------:|:-------------------------------------:|:-------------------------------------:|:------------------------------:|
 | sen | $0$ |     $\displaystyle{\frac{1}{2}}$      | $\displaystyle{\frac{\sqrt{ 2 }}{2}}$ | $\displaystyle{\frac{\sqrt{ 3 }}{2}}$ |              $1$               |
 | cos | $1$ | $\displaystyle{\frac{\sqrt{ 3 }}{2}}$ | $\displaystyle{\frac{\sqrt{ 2 }}{2}}$ |     $\displaystyle{\frac{1}{2}}$      |              $0$               |
+
+## Notazione
+>[!info] Def
+>$$
+\rho(cos(\theta)+isin(\theta)):=\rho e^{i\theta} \\
+$$
+#### Osservazione
+- $e^{i\pi}=-1\Leftrightarrow e^{i\pi}+1 = 0$
