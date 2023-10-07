@@ -132,6 +132,8 @@ $$
 - Dato un numero complesso $w$, diremo che $z$ è una radica $n-esima$ di $w$ se risulta $z^n=w$
 >[!info] Teorema
 >Sia $w\in\mathbb{C}, w\neq0$ e $n\in\mathbb{N}$, esistono precisamente n radici n-esime complesse di $w$
+
+[[Definizioni#Notazione|Notazione]]
 - Voglio risolvere $z^n=w$
 	- Sia $w=r(cos(\rho)+isin(\rho))=re^{i\rho}$
 	- Sia $z=\rho e^{i\theta} \implies z^n=\rho^ne^{in\theta}$

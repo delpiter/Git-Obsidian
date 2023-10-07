@@ -26,6 +26,6 @@ x=1
 >[!info] Def
 >$$
 \rho(cos(\theta)+isin(\theta)):=\rho e^{i\theta} \\
-$$
+>$$
 #### Osservazione
-- $e^{i\pi}=-1\Leftrightarrow e^{i\pi}+1 = 0$
+$e^{i\pi}=-1\Leftrightarrow e^{i\pi}+1 = 0$
