@@ -23,7 +23,7 @@ x=1
 | cos | $1$ | $\displaystyle{\frac{\sqrt{ 3 }}{2}}$ | $\displaystyle{\frac{\sqrt{ 2 }}{2}}$ |     $\displaystyle{\frac{1}{2}}$      |              $0$               |
 
 ## Notazione
->[!info] Def
+>[!info] Definizione
 >$$
 \rho(cos(\theta)+isin(\theta)):=\rho e^{i\theta} \\
 >$$

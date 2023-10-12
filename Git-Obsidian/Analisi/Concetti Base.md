@@ -1,3 +1,4 @@
+[[Analisi matematica (notion.site)](https://giogar.notion.site/giogar/Analisi-matematica-3d97a09580554ce3863c5a5e153cd773)]
 ## Insieme
 Collezione di elementi finita o infinita
 - Deve essere possibile descrivere un criterio che permette di decidere senza alcun dubbio se un qualunque elemento fa o no parte del raggruppamento.
