@@ -206,12 +206,11 @@ g(x)=log(x)/log(1/2)
 
 ## Funzioni trigonometriche
 - - -
->[!info] Definizione [[Definizioni#Circonferenza Goniometrica|Circonferenza goniometrica]]
+>[!info] Definizione Circonferenza goniometrica
 >Sia $U=\{(x,y)\in\mathbb{R}\times\mathbb{R}|x^2+y^2=1\}$
 >La circonferenza goniometrica è una circonferenza di raggio $1$
->[[Definizioni#Valori Notevoli|Alcuni valori notevoli]]
 
-
+[[Definizioni#Valori Notevoli|Alcuni valori notevoli]]
 ### Coseno
 
 $$
