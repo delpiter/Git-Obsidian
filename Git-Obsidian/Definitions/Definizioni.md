@@ -3,19 +3,11 @@ In matematica una corrispondenza biunivoca tra due insiemi $X$ e $Y$, è una rel
 $Y$, tale che ad ogni elemento di $X$ corrisponda uno ed un solo elemento di $Y$, e viceversa
 >In particolare, la corrispondenza biunivoca è una relazione di equivalenza.
 
-## Circonferenza Goniometrica
+## Seno e Coseno
 
-```desmos-graph
-left=-3; right=3;
-top=2; bottom=-2;
----
-y^2+x^2 = 1
-y=x
-y=\frac{\sqrt{2}}{2}|dashed
-x=\frac{\sqrt{2}}{2}|dashed
-x=1
-```
-
+![[Untitled.png]]
+## Tangente
+![[Untitled (1).png]]
 ## Valori Notevoli
 |     | 0   |    $\displaystyle{\frac{\pi}{6}}$     |    $\displaystyle{\frac{\pi}{4}}$     |    $\displaystyle{\frac{\pi}{3}}$     | $\displaystyle{\frac{\pi}{2}}$ |
 | --- | --- |:-------------------------------------:|:-------------------------------------:|:-------------------------------------:|:------------------------------:|

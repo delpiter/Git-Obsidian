@@ -4,6 +4,7 @@
 f: \mathbb{N}\to A
 $$
 #### Notazione
+- Definizione
 $$
 \underbrace{a_{n}}_{\text{termine n-esimo}} := a(n)
 $$
@@ -24,7 +25,10 @@ $$
 $$
 
 ### Es
-- $a_{n}=\displaystyle{\frac{1}{n}}$
+$a_{n}=\displaystyle{\frac{1}{n}}$
 - Verifichiamo che $\lim\limits_{n\to+\infty} \displaystyle{\frac{1}{n}} =0$
 ###### Infatti
-- $\forall \mathcal{E} \in \mathbb{R}^+ \setminus \{0\}$
+$\forall \mathcal{E} \in \mathbb{R}^+\setminus\{0\}, \exists m_{\mathcal{E}}\in\mathbb{N} : \forall n\geq m_{\mathcal{E}} \text{ si ha } |\displaystyle{\frac{1}{n}}|\leq\mathcal{E}$
+$$
+\ |\displaystyle{\frac{1}{n}}|\leq\mathcal{E} \Leftrightarrow \displaystyle{\frac{1}{n}}\leq\mathcal{E}\Leftrightarrow n\geq \displaystyle{\frac{1}{\mathcal{E}}}
+$$
