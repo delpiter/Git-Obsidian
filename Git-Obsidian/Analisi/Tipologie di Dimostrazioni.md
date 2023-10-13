@@ -55,7 +55,6 @@ Allora
 $$\sum_{k=0}^{n+1} k = \frac{(n+1)(n+2)}{2}$$
 $$\sum_{k=0}^{n+1} k = \sum_{k=0}^{n} k + n+1 = \frac{n(n+1)}{2} +n+1$$
 $$(n+1)\left( \frac{n+2}{2}\right)$$
-# ⨳
 
 ##### Disuguaglianza di Bernoulli
 >$\forall x \in \mathbb{R}, x>-1$ si ha che $$(1+x)^n \geq 1+nx \;\;\;\; \forall n\in \mathbb{N}$$

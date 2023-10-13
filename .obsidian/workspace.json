@@ -25,7 +25,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Obsidian/Analisi/Successioni/Limiti di Successioni.md",
+                "file": "Git-Obsidian/Analisi/Successioni/Tipologie di Successioni.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cc0ca37fa00129ae",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git-Obsidian/Markdown Keys.md",
                 "mode": "source",
                 "source": false
               }
@@ -38,7 +50,7 @@
               "type": "markdown",
               "state": {
                 "file": "Git-Obsidian/Analisi/Tipologie di Dimostrazioni.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               }
             }
@@ -110,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Analisi/Successioni/Limiti di Successioni.md",
+                "file": "Git-Obsidian/Analisi/Successioni/Tipologie di Successioni.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Analisi/Successioni/Limiti di Successioni.md",
+                "file": "Git-Obsidian/Analisi/Successioni/Tipologie di Successioni.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git-Obsidian/Analisi/Successioni/Limiti di Successioni.md"
+                "file": "Git-Obsidian/Analisi/Successioni/Tipologie di Successioni.md"
               }
             }
           },
@@ -183,11 +195,15 @@
   },
   "active": "f0d90d838d6dfe4b",
   "lastOpenFiles": [
+    "Git-Obsidian/Markdown Keys.md",
     "Git-Obsidian/Analisi/Tipologie di Dimostrazioni.md",
+    "Git-Obsidian/Analisi/Successioni/Tipologie di Successioni.md",
+    "Git-Obsidian/Attatchments/Pasted image 20231013182133.png",
+    "Git-Obsidian/Attatchments/Pasted image 20231013181733.png",
+    "Git-Obsidian/Attatchments/Pasted image 20231013181132.png",
     "Git-Obsidian/Analisi/Successioni/Limiti di Successioni.md",
     "Git-Obsidian/Analisi/Insiemi/Insiemi Numerici.md",
     "Git-Obsidian/Analisi/Successioni/Successioni.md",
-    "Git-Obsidian/Markdown Keys.md",
     "Git-Obsidian/Definitions/Definizioni.md",
     "README.md",
     "Git-Obsidian/Attatchments/Pasted image 20231013095115.png",
@@ -208,9 +224,6 @@
     "Git-Obsidian/Attatchments/Pasted image 20230930115346.png",
     "Git-Obsidian/Attatchments/Pasted image 20230930103554.png",
     "New Documento di testo.txt",
-    "Git-Obsidian/Attatchments/Set Notation.png",
-    "Git-Obsidian/Attatchments/Relation operators.png",
-    "Git-Obsidian/Attatchments/Relation Operators 2.png",
     "Git-Obsidian/Analisi/Funzioni",
     "Git-Obsidian/Definitions",
     "Git-Obsidian/Programmazione",
@@ -226,7 +239,6 @@
     "Appunti/Git-Obsidian/Analisi/Insiemi Numerici.md",
     "Appunti/Git-Obsidian/Analisi/Concetti Base.md",
     "Appunti/Git-Obsidian/Analisi/Breve ripasso.md",
-    "Appunti/Git-Obsidian/Markdown Keys.md",
-    "Git-Obsidian/Analisi/Teoria.md"
+    "Appunti/Git-Obsidian/Markdown Keys.md"
   ]
 }
