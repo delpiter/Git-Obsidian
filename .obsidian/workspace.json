@@ -8,49 +8,37 @@
         "type": "tabs",
         "children": [
           {
-            "id": "fa0a860f30f21742",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git-Obsidian/Definitions/Definizioni.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2b3c625726c59bdc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "48b67e22cf35da63",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Obsidian/Analisi/Successioni/Successioni e Limiti.md",
+                "file": "Git-Obsidian/Analisi/Successioni/Successioni.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "176e205d8a3e9548",
+            "id": "f0d90d838d6dfe4b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Obsidian/Markdown Keys.md",
+                "file": "Git-Obsidian/Analisi/Successioni/Limiti di Successioni.md",
                 "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "19d217bf3da7d82b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git-Obsidian/Analisi/Tipologie di Dimostrazioni.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -122,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Git-Obsidian/Analisi/Successioni/Limiti di Successioni.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Git-Obsidian/Analisi/Successioni/Limiti di Successioni.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Git-Obsidian/Analisi/Successioni/Limiti di Successioni.md"
               }
             }
           },
@@ -193,26 +181,26 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "2b3c625726c59bdc",
+  "active": "f0d90d838d6dfe4b",
   "lastOpenFiles": [
+    "Git-Obsidian/Analisi/Tipologie di Dimostrazioni.md",
     "Git-Obsidian/Analisi/Successioni/Limiti di Successioni.md",
-    "Git-Obsidian/Analisi/Successioni/Successioni e Limiti.md",
-    "Git-Obsidian/Attatchments/Pasted image 20231013095115.png",
-    "Git-Obsidian/Definitions/Definizioni.md",
+    "Git-Obsidian/Analisi/Insiemi/Insiemi Numerici.md",
+    "Git-Obsidian/Analisi/Successioni/Successioni.md",
     "Git-Obsidian/Markdown Keys.md",
+    "Git-Obsidian/Definitions/Definizioni.md",
+    "README.md",
+    "Git-Obsidian/Attatchments/Pasted image 20231013095115.png",
     "Git-Obsidian/Analisi/Concetti Base.md",
     "Git-Obsidian/Attatchments/Pasted image 20231013110411.png",
     "Git-Obsidian/Analisi/Funzioni/Funzioni di una variabile Reale.md",
     "Git-Obsidian/Attatchments/Untitled (1).png",
     "Git-Obsidian/Attatchments/Untitled.png",
-    "Git-Obsidian/Analisi/Insiemi/Insiemi Numerici.md",
     "Git-Obsidian/Analisi/Funzioni/Intro.md",
     "Git-Obsidian/Definitions/Latex-suite.txt",
     "Git-Obsidian/Attatchments/Pasted image 20231013094149.png",
     "Git-Obsidian/Programmazione/Teoria.md",
-    "Git-Obsidian/Analisi/Tipologie di Dimostrazioni.md",
     "Git-Obsidian/Analisi/Breve ripasso.md",
-    "README.md",
     "Git-Obsidian/Analisi/Successioni",
     "Git-Obsidian/Analisi/Insiemi/Numeri Complessi.md",
     "conflict-files-obsidian-git.md",

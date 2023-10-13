@@ -87,7 +87,7 @@ Siano $M_1$ e $M_2$ massimi di $A$
 - Sia $A \subseteq \mathbb{R}$ allora l'insieme dei minoranti ammette sempre un massimo
 	- Viene chiamato estremo inferiore di $A$ ($supA$)
 
-#### Insieme limitato
+### Insieme limitato
 > Se un insieme ammette sia elementi minoranti che maggioranti
 
 

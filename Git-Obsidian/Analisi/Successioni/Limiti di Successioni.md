@@ -1,9 +1,28 @@
 >[!info] Definizione Limite
->Sia $(a_{n})_{n\in\mathbb{N}}$ una successione reale, sia $l\in \mathbb{R} diciamo che $\lim\limits_{n\to+\infty}a_{n}=l$ se :
->$$
+>>[!tldr] Convergente
+>>Sia $(a_{n})_{n\in\mathbb{N}}$ una [[Successioni|successione]] reale, sia $l\in \mathbb{R}$ diciamo che $\lim\limits_{n\to+\infty}a_{n}=l$ se :
+>>$$
 \forall\mathcal{E}>0, \exists m_{\mathcal{E}}\in\mathbb{N} : |a_{n}-l|\leq\mathcal{E} \ \forall n\geq m_{\mathcal{E}}
->$$
-##### Es
+>>$$
+>
+>>[!example] Divergente
+>>Sia $(a_{n})_{n\in\mathbb{N}}$ una [[Successioni|successione]] reale, diciamo che $\lim\limits_{n\to+\infty}a_{n}=+\infty$ se :
+>>$$
+\forall k>0, \exists m_k\in\mathbb{N} : a_{n}\geq k \ \forall n\geq m_{k}
+>>$$
+>>Sia $(a_{n})_{n\in\mathbb{N}}$ una [[Successioni|successione]] reale, diciamo che $\lim\limits_{n\to+\infty}a_{n}=-\infty$ se :
+>>$$
+\forall k>0, \exists m_k\in\mathbb{N} : a_{n}\leq k \ \forall n\geq m_{k}
+>>$$
+#### Terminologia
+- Se
+	- $\lim\limits_{n\to+\infty}a_{n}=l \to$ la successione è convergente
+- Se
+	- $\lim\limits_{n\to+\infty}a_{n}=\pm\infty \to$ la successione è divergente
+
+- $a_{n}$ si dice regolare se ha limite o convergente o divergente
+	- Denoto $\overline{R}=\{\text{insieme di tutti i possibili limiti}\}=\mathbb{R}\cup\{+\infty,-\infty\}$
+#### Es
 $a_{n}=\displaystyle{\frac{2n+1}{n+2}}$
 - Verifica che $\lim\limits_{n\to+\infty}a_{n}=2$
 - Dato $\mathcal{E}>0$
@@ -16,12 +35,31 @@ n\implies \displaystyle{\frac{3}{\mathcal{E}}}-2
 \end{array}
 $$
 #### Osservazione
-> Non tutte le successioni hanno un limite
+>Non tutte le successioni hanno un limite
 ##### Es
 - $a_{n}=(-1)^n$
 ![[Pasted image 20231013095115.png]]
 - Oscilla fra $1$ e $-1$
-
+## Successioni Limitate/Illimitate
+- - -
+>[!tldr] Definizione
+>Sia $(a_{n})n\in\mathbb{N}$ in $\mathbb{R}$ diciamo che $(a_{n})$ è illimitata/[[Insiemi Numerici#Superiore|limitata superiormente]]/[[Insiemi Numerici#Inferiore|limitata inferiormente]]limitata inferiormente se lo è l'insieme dei suoi termini
+#### Termini
+- $sup(a_{n})_{n\in\mathbb{N}}:=sup(a_{n}|n\in\mathbb{N})$
+- $inf(a_{n})_{n\in\mathbb{N}}:=inf(a_{n}|n\in\mathbb{N})$
+#### Esempi
+- $(a_{n})$ è convergente $\implies (a_{n})$ è limitata
+- $(a_{n}) \to +\infty$ $\implies (a_{n})$ è illimitata superiormente e limitata inferiormente
+- $(a_{n}) \to -\infty$ $\implies (a_{n})$ è illimitata inferiormente e limitata superiormente
+##### Osservazione
+- $(a_{n})$ Limitata $\neq(a_{n})$ convergente
+	- Es $(a_{n})=(-1)^n$
+- $(a_{n})$è Illimitata superiormente $\neq(a_{n})$ divergente
+	- Es 
+$$(a_{n})\begin{cases}
+n\text{ se n è pari} \\
+0\text{ se n è dispari}
+\end{cases}$$
 ## Unicità del Limite
 - - -
 >[!info] Teorema
@@ -71,3 +109,63 @@ $$
 $$
 ||a_{n}|-|l||\leq|a_{n}-l|
 $$
+#### Osservazione
+- Non è sempre vero l'opposto
+
+## Teorema del Confronto
+- - -
+>[!info] Definizione
+>Siano $(a_{n})_{n\in\mathbb{N}},(b_{n})_{n\in\mathbb{N}}$ successioni regolari
+>Siano $l,m\in \overline{\mathbb{R}}$ tali che:
+> $$
+\begin{array}
+\ \lim\limits_{n\to+\infty}a_{n}=l \\
+\lim\limits_{n\to+\infty}b_{n}=m
+\end{array}
+>$$
+>>[!tldr] Supponiamo
+>>$a_{n}\geq b_{n}$
+>>Allora
+>>$l\geq m$
+### Dimostrazione
+- Consideriamo solo il caso $l,m\in\mathbb{R}$ poichè tutti gli altri casi si deducono usando [[Limiti di Successioni#Successioni Limitate/Illimitate|la terminologia]] precedentemente descritta
+#### Dimostrazione per assurdo
+- Voglio dimostrare che $l\geq m$, assumo per assurdo
+$$
+l<m
+$$
+- Scelgo $\mathcal{E}>0$ tale che
+	- $l<l+\mathcal{E}< \displaystyle{\frac{l+m}{2}}<m+\mathcal{E}<m$
+- Ma per ipotesi
+$$
+\begin{array}\
+\exists p_{\mathcal{E}} \in \mathbb{N}:l-\mathcal{E}\leq a_{n}\leq l+\mathcal{E} \\
+\exists q_{\mathcal{E}} \in \mathbb{N}:m-\mathcal{E}\leq b_{n}\leq m+\mathcal{E}
+\end{array}
+$$
+- Quindi
+$$
+\begin{array}\
+\forall n \geq max\{p_{\mathcal{E}},q_{\mathcal{E}}\}\text{ si ha: } \\
+a_{n}\leq l+\mathcal{E}< \displaystyle{\frac{l+m}{2}}<m-\mathcal{E}\leq b_{n}
+\end{array}
+$$
+- Ciò implica che $a_{n}<b_{n} \to$ contraddizione perchè per ipotesi $a_{n}\geq b_{n}$
+
+## Teorema della permanenza dei segni
+- - -
+>[!info] Definizione
+>Sia $(a_{n})_{n\in\mathbb{N}}$ una successione in $\mathbb{R}$, $l\in\overline{\mathbb{R}}: \lim\limits_{n\to+\infty}=l$
+>Se $l>0 \implies\exists m_{\mathcal{E}}\in\mathbb{N}:a_{n}>0 \ \ \forall n \in m_{\mathcal{E}}$
+>Se $l<0 \implies\exists m_{\mathcal{E}}\in\mathbb{N}:a_{n}<0 \ \ \forall n \in m_{\mathcal{E}}$
+## Teorema dei due Carabinieri
+- - -
+>[!info] Definizione
+>Siano $(a_{n}),(b_{n}),(c_{n})_{n\in\mathbb{N}}$ successioni reali supponiamo che
+> $$
+a_{n}\leq b_{n}\leq c_{n} \text{ e } l \in\mathbb{R} \ \ \ \forall n\in\mathbb{N}
+>$$
+>supponiamo anche che:
+>$\lim\limits_{n\to+\infty}a_{n}=l,  \lim\limits_{n\to+\infty}c_{n}=l$
+>Allora: $\lim\limits_{n\to+\infty}b_{n}=l$
+- Dimostrato tramite il teorema del confronto
