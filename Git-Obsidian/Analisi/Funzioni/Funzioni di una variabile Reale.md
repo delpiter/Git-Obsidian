@@ -145,10 +145,10 @@ f(x)=x-floor(x)
 - $(a^x)^y=a^{x\cdot y}$
 - $a^x\cdot b^x=(ab)^x\ \ \ \ \ \ \ \ a,b\in\mathbb{R}^+\setminus\{0,1\}$
 - Se $a >1$
-	- $exp_{a}$ è [[Intro#Crescente|strettamente crescente]]
+	- $exp_{a}$ è [[Introduzione Funzioni#Crescente|strettamente crescente]]
 - Se $0<a<1$
-	- $exp_{a}$ è [[Intro#Decrescente|strettamente descrescente]]
-- $exp_{a}:\mathbb{R}\to\mathbb{R}^+\setminus\{0\} \to$ [[Intro#Iniettività e surriettività|Invertibile]]
+	- $exp_{a}$ è [[Introduzione Funzioni#Decrescente|strettamente descrescente]]
+- $exp_{a}:\mathbb{R}\to\mathbb{R}^+\setminus\{0\} \to$ [[Introduzione Funzioni#Iniettività e surriettività|Invertibile]]
 ### Grafici
 <font color="CornflowerBlue">$\boxed{a>1}$ </font>
 <font color="red">$\boxed{0<a<1}$</font>
@@ -178,7 +178,7 @@ g(x)=(1/2)^x
 
 #### Dimostrazione proprietà 1
 > Voglio dimostrare che $\log_{a}(x\cdot y)=\log_{a}x+\log_{a}y$
-- Per la proprietà della [[Intro#Funzione Identità|funzione identità]]
+- Per la proprietà della [[Introduzione Funzioni#Funzione Identità|funzione identità]]
 	- $\huge{a^{\log_{a}(x\cdot y)}=a^{\log_{a}x}\cdot a^{\log_{a}y}}$
 	- Per la proprietà della funzione esponenziale
 	- $\huge{a^{\log_{a}x}\cdot a^{\log_{a}y}=a^{\log_{a}x+\log_{a}y}}$
@@ -318,7 +318,7 @@ grid: true
 f(x)=cos(x)/sin(x)
 ```
 ### Funzioni Inverse
-- Per ottenere le [[Intro#Funzione inversa|funzioni inverse]] di funzioni periodiche è necessario restringere il dominio
+- Per ottenere le [[Introduzione Funzioni#Funzione inversa|funzioni inverse]] di funzioni periodiche è necessario restringere il dominio
 #### Arcoseno
 >[!info] Definizione
 >Il seno nell'intervallo:

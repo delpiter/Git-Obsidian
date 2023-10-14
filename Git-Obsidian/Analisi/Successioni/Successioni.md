@@ -33,3 +33,48 @@ $$
 \ |\displaystyle{\frac{1}{n}}|\leq\mathcal{E} \Leftrightarrow \displaystyle{\frac{1}{n}}\leq\mathcal{E}\Leftrightarrow n\geq \displaystyle{\frac{1}{\mathcal{E}}}
 $$
 - Posso scegliere come $m_{\mathcal{E}}=\lfloor \displaystyle{\frac{1}{\mathcal{E}}}\rfloor+1$
+## Successione Monotona
+- - -
+>[!info] Definizione
+>Sia $(a_{n})_{n\in\mathbb{N}}$ una successione in $\mathbb{R}$ diciamo che $(a_{n})$ è [[Introduzione Funzioni#Crescente|crescente]] se
+> $$
+a_{n\leq a_{n+1}}
+>$$
+>Sia $(a_{n})_{n\in\mathbb{N}}$ una successione in $\mathbb{R}$ diciamo che $(a_{n})$ è [[Introduzione Funzioni#Decrescente|decrescente]] se
+> $$
+a_{n\geq a_{n+1}}
+>$$
+>Analogamente strettamente crescente e strettamente decrescente
+
+#### Esempi
+- $a_{n}=n \nearrow$
+- $a_{n}=\frac{1}{n} \searrow$
+- $a_{n}=2^n \nearrow$
+- $a_{n}=(\frac{1}{2})^n \searrow$
+### Osservazione
+> Se $a_{n}$ è una successione crescente allora $a_{n}$ è inferiormente limitata e $inf(a_{n})=a_{0}$
+> Se $a_{n}$ è una successione decrescente allora $a_{n}$ è superiormente limitata e $sup(a_{n})=a_{0}$
+
+## Limiti di Successioni Monotone
+- - -
+>[!info] Teorema
+>Sia $(a_{n})_{n\in\mathbb{N}}$ successione in $\mathbb{R}$ monotona, allora $a_{n}$ è regolare
+>Più precisamente
+>$$
+\begin{array}
+\ \text{se }a_{n}\nearrow \implies\lim\limits_{n\to+\infty}a_{n}=sup(a_{n}) \\
+\text{se }a_{n}\searrow \implies\lim\limits_{n\to+\infty}a_{n}=inf(a_{n})
+\end{array}
+>$$
+
+## Criterio del Rapporto
+- - -
+>[!info] Teorema
+>Sia $(a_{n})_{n\in\mathbb{N}}$ successione in $\mathbb{R}^+\setminus\{0\}$ e supponiamo che $\displaystyle{\frac{a_{n+1}}{a_{n}}}$ sia regolare
+> $$
+\lim\limits_{n\to+\infty} \displaystyle{\frac{a_{n+1}}{a_{n}}}= \begin{cases}
+\text{se }l>1 \implies \lim\limits_{n\to+\infty}a_{n}=+\infty \\
+\text{se }0\leq l<1 \implies \lim\limits_{n\to+\infty}a_{n}=0
+\end{cases}
+>$$
+### Dimostrazione

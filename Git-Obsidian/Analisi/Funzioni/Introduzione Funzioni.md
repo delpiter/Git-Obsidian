@@ -232,7 +232,7 @@ $$
 
 ### Teorema #DaChiedere
 - Sia $f:A \to \mathbb{R}$
->Se $f$ è strettamente monotona allora $f$ è [[Intro#Iniettività $[f ;1-1]$|iniettiva]] e $f^{-1}:f(A)\to A$ sono strettamente monotone della stessa monotonia
+>Se $f$ è strettamente monotona allora $f$ è [[Introduzione Funzioni#Iniettività $[f ;1-1]$|iniettiva]] e $f^{-1}:f(A)\to A$ sono strettamente monotone della stessa monotonia
 #### Dimostrazione
 - Voglio dimostrare che se $f(x_{1})=f(x_{2}) \implies x_{1}=x_{2}$
 	- Ciò è vero infatti:

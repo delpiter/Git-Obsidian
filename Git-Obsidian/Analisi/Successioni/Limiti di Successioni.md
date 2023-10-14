@@ -6,11 +6,11 @@
 >>$$
 >
 >>[!example] Divergente
->>Sia $(a_{n})_{n\in\mathbb{N}}$ una [[Successioni|successione]] reale, diciamo che $\lim\limits_{n\to+\infty}a_{n}=+\infty$ se :
+>>Sia $(a_{n})_{n\in\mathbb{N}}$ una successione reale, diciamo che $\lim\limits_{n\to+\infty}a_{n}=+\infty$ se :
 >>$$
 \forall k>0, \exists m_k\in\mathbb{N} : a_{n}\geq k \ \forall n\geq m_{k}
 >>$$
->>Sia $(a_{n})_{n\in\mathbb{N}}$ una [[Successioni|successione]] reale, diciamo che $\lim\limits_{n\to+\infty}a_{n}=-\infty$ se :
+>>Sia $(a_{n})_{n\in\mathbb{N}}$ una successione reale, diciamo che $\lim\limits_{n\to+\infty}a_{n}=-\infty$ se :
 >>$$
 \forall k>0, \exists m_k\in\mathbb{N} : a_{n}\leq k \ \forall n\geq m_{k}
 >>$$

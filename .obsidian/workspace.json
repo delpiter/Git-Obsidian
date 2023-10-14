@@ -4,47 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "7c7c9f5174f51bf3",
+        "id": "9ba1d0e396a8912f",
         "type": "tabs",
         "children": [
           {
-            "id": "48b67e22cf35da63",
+            "id": "0336823fb9639947",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Obsidian/Analisi/Successioni/Successioni.md",
+                "file": "Git-Obsidian/Analisi/Successioni/Operazioni con i Limiti.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "f0d90d838d6dfe4b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git-Obsidian/Analisi/Successioni/Tipologie di Successioni.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cc0ca37fa00129ae",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git-Obsidian/Markdown Keys.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "19d217bf3da7d82b",
+            "id": "0d55022226cf71a6",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -54,9 +30,32 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "8b1388e41e82928e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git-Obsidian/Analisi/Funzioni/Introduzione Funzioni.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "88fa01cd2c21ccd9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git-Obsidian/Markdown Keys.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -122,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Analisi/Successioni/Tipologie di Successioni.md",
+                "file": "Git-Obsidian/Analisi/Successioni/Operazioni con i Limiti.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Analisi/Successioni/Tipologie di Successioni.md",
+                "file": "Git-Obsidian/Analisi/Successioni/Operazioni con i Limiti.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git-Obsidian/Analisi/Successioni/Tipologie di Successioni.md"
+                "file": "Git-Obsidian/Analisi/Successioni/Operazioni con i Limiti.md"
               }
             }
           },
@@ -193,17 +192,22 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "f0d90d838d6dfe4b",
+  "active": "0336823fb9639947",
   "lastOpenFiles": [
-    "Git-Obsidian/Markdown Keys.md",
-    "Git-Obsidian/Analisi/Tipologie di Dimostrazioni.md",
+    "Git-Obsidian/Analisi/Successioni/Limiti di Successioni.md",
+    "Git-Obsidian/Analisi/Successioni/Operazioni con i Limiti.md",
+    "Git-Obsidian/Analisi/Successioni/Successioni.md",
+    "Git-Obsidian/Analisi/Successioni/Numero di Nepero.md",
     "Git-Obsidian/Analisi/Successioni/Tipologie di Successioni.md",
+    "Git-Obsidian/Analisi/Tipologie di Dimostrazioni.md",
+    "Git-Obsidian/Analisi/Funzioni/Introduzione Funzioni.md",
+    "Git-Obsidian/Analisi/Funzioni/Intro 1.md",
+    "Git-Obsidian/Markdown Keys.md",
+    "Git-Obsidian/Analisi/Insiemi/Numeri Complessi.md",
+    "Git-Obsidian/Analisi/Insiemi/Insiemi Numerici.md",
     "Git-Obsidian/Attatchments/Pasted image 20231013182133.png",
     "Git-Obsidian/Attatchments/Pasted image 20231013181733.png",
     "Git-Obsidian/Attatchments/Pasted image 20231013181132.png",
-    "Git-Obsidian/Analisi/Successioni/Limiti di Successioni.md",
-    "Git-Obsidian/Analisi/Insiemi/Insiemi Numerici.md",
-    "Git-Obsidian/Analisi/Successioni/Successioni.md",
     "Git-Obsidian/Definitions/Definizioni.md",
     "README.md",
     "Git-Obsidian/Attatchments/Pasted image 20231013095115.png",
@@ -212,13 +216,11 @@
     "Git-Obsidian/Analisi/Funzioni/Funzioni di una variabile Reale.md",
     "Git-Obsidian/Attatchments/Untitled (1).png",
     "Git-Obsidian/Attatchments/Untitled.png",
-    "Git-Obsidian/Analisi/Funzioni/Intro.md",
     "Git-Obsidian/Definitions/Latex-suite.txt",
     "Git-Obsidian/Attatchments/Pasted image 20231013094149.png",
     "Git-Obsidian/Programmazione/Teoria.md",
     "Git-Obsidian/Analisi/Breve ripasso.md",
     "Git-Obsidian/Analisi/Successioni",
-    "Git-Obsidian/Analisi/Insiemi/Numeri Complessi.md",
     "conflict-files-obsidian-git.md",
     "Git-Obsidian/Analisi/Insiemi",
     "Git-Obsidian/Attatchments/Pasted image 20230930115346.png",
@@ -237,8 +239,6 @@
     "Appunti/Git-Obsidian/Definitions/corrispondenza biunivoca.md",
     "Appunti/Git-Obsidian/Analisi/Tipologie di Dimostrazioni.md",
     "Appunti/Git-Obsidian/Analisi/Insiemi Numerici.md",
-    "Appunti/Git-Obsidian/Analisi/Concetti Base.md",
-    "Appunti/Git-Obsidian/Analisi/Breve ripasso.md",
-    "Appunti/Git-Obsidian/Markdown Keys.md"
+    "Appunti/Git-Obsidian/Analisi/Concetti Base.md"
   ]
 }
