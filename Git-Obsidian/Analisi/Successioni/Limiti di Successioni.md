@@ -155,9 +155,11 @@ $$
 ## Teorema della permanenza dei segni
 - - -
 >[!info] Definizione
->Sia $(a_{n})_{n\in\mathbb{N}}$ una successione in $\mathbb{R}$, $l\in\overline{\mathbb{R}}: \lim\limits_{n\to+\infty}=l$
->Se $l>0 \implies\exists m_{\mathcal{E}}\in\mathbb{N}:a_{n}>0 \ \ \forall n \in m_{\mathcal{E}}$
->Se $l<0 \implies\exists m_{\mathcal{E}}\in\mathbb{N}:a_{n}<0 \ \ \forall n \in m_{\mathcal{E}}$
+>Sia $(a_{n})_{n\in\mathbb{N}}$ una successione regolare in $\mathbb{R}$, $l\in\overline{\mathbb{R}}: \lim\limits_{n\to+\infty}a_{n}=l$
+>Se $l>0 \implies\exists \overline{n}\in\mathbb{N}:a_{n}>0 \ \ \forall n \geq \overline{n}$
+>Se $l<0 \implies\exists \overline{n}\in\mathbb{N}:a_{n}<0 \ \ \forall \geq \overline{n}$
+>>[!done] In breve
+>>Se il limite di una funzione è diverso da $0$, allora la funzione è localmente concorde con il llimite
 ## Teorema dei due Carabinieri
 - - -
 >[!info] Definizione
@@ -170,7 +172,7 @@ a_{n}\leq b_{n}\leq c_{n} \text{ e } l \in\mathbb{R} \ \ \ \forall n\in\mathbb{N
 >Allora: $\lim\limits_{n\to+\infty}b_{n}=l$
 - Dimostrato tramite il teorema del confronto
 
-## Criterio del rapporto [cerca video spiegazione]
+## Criterio del rapporto
 ---
 >[!info] Teorema
 >Sia $(a_{n})_{n\in\mathbb{N}}$ in $\mathbb{R}^+\setminus\{0\}$ supponiamo che $\left( \displaystyle{\frac{a_{n+1}}{a_{n}}} \right)$ sia regolare
@@ -187,15 +189,22 @@ a_{n}\leq b_{n}\leq c_{n} \text{ e } l \in\mathbb{R} \ \ \ \forall n\in\mathbb{N
 >$$
 \exists \overline{n}\in\mathbb{N}:\forall n\geq\overline{n}\text{ si ha } \displaystyle{\frac{a_{n+1}}{a_{n}}}<m
 >$$
-!!! sistema teorema della permanenza dei segni
-
+#### Dimostrazione
 $$
 \begin{array}
-\ n=\overline{n}\ \ \ \ \ \ \displaystyle{\frac{a_{\overline{n}+1}}{a_{\overline{n}}}}<m \Leftrightarrow a_{\overline{n}+1}<ma_{\overline{n}} \\
-n=\overline{n}+1 \ \ \ \displaystyle{\frac{a_{\overline{n}+2}}{a_{\overline{n+1}}}}<m \Leftrightarrow a_{\overline{n}+2}<m^2a_{\overline{n}}, \ (ma_{\overline{n}+1}<ma_{n})
+\ n=\overline{n}\ \ \ \ \ \ \displaystyle{\frac{a_{\overline{n}+1}}{a_{\overline{n}}}}<m \Leftrightarrow a_{\overline{n}+1}<m\cdot a_{\overline{n}} \\
+n=\overline{n}+1 \ \ \ \displaystyle{\frac{a_{\overline{n}+2}}{a_{\overline{n}+1}}}<m \Leftrightarrow a_{\overline{n}+2}<m^2\cdot a_{\overline{n}}, \ (m\cdot a_{\overline{n}+1}<m\cdot a_{n})
 \end{array}
 $$
 - Quindi
 $$
-n=\overline{n}+k-1 \implies a_{n+k}<m^ka_{n}, \forall k>0
+n=\overline{n}+k-1 \implies a_{n+k}<m^k\cdot a_{n}, \forall k>0
+$$
+- Chiamo
+$$
+n=\overline{n}+k:a_{n}<\underbrace{m^{n-\overline{n}}\cdot a_{\overline{n}}}_{\displaystyle{=m^n\cdot \displaystyle{\frac{a_{\overline{n}}}{m^\overline{n}}}}}
+$$
+#### Riassumiamo
+$$
+0<a_{n}<\underbrace{m^n\cdot\frac{a_{\overline{n}}}{m^\overline{n}}}_{\displaystyle\text{tende a 0 perche 0<m<1}}
 $$
