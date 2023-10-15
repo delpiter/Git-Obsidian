@@ -41,3 +41,5 @@ $$
 $$
 e:=\lim\limits_{n\to+\infty}\left( 1+\displaystyle{\frac{1}{n}} \right)^n
 $$
+
+

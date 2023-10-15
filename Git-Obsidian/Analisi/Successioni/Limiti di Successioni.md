@@ -169,3 +169,33 @@ a_{n}\leq b_{n}\leq c_{n} \text{ e } l \in\mathbb{R} \ \ \ \forall n\in\mathbb{N
 >$\lim\limits_{n\to+\infty}a_{n}=l,  \lim\limits_{n\to+\infty}c_{n}=l$
 >Allora: $\lim\limits_{n\to+\infty}b_{n}=l$
 - Dimostrato tramite il teorema del confronto
+
+## Criterio del rapporto [cerca video spiegazione]
+---
+>[!info] Teorema
+>Sia $(a_{n})_{n\in\mathbb{N}}$ in $\mathbb{R}^+\setminus\{0\}$ supponiamo che $\left( \displaystyle{\frac{a_{n+1}}{a_{n}}} \right)$ sia regolare
+><u>Allora</u>
+>se $\lim\limits_{n\to+\infty} \displaystyle{\frac{a_{n+1}}{a_{n}}}=l>1\implies \lim\limits_{n\to+\infty}a_{n}=+\infty$
+>se $\lim\limits_{n\to+\infty} \displaystyle{\frac{a_{n+1}}{a_{n}}}=0\leq l<1\implies \lim\limits_{n\to+\infty}a_{n}=0$
+
+### Dimostrazione proprietà 1
+### Dimostrazione proprietà 2
+>[!note] Assunzioni
+>Assumo $\lim\limits_{n\to+\infty} \displaystyle{\frac{a_{n+1}}{a_{n}}}=l<1$
+>Sia $m:l<m<1$
+>Per il [[Limiti di Successioni#Teorema della permanenza dei segni|teorema della permanenza dei segni]] (applicato a $\displaystyle{\frac{a_{n+1}}{a_{n}}}-m$)
+>$$
+\exists \overline{n}\in\mathbb{N}:\forall n\geq\overline{n}\text{ si ha } \displaystyle{\frac{a_{n+1}}{a_{n}}}<m
+>$$
+!!! sistema teorema della permanenza dei segni
+
+$$
+\begin{array}
+\ n=\overline{n}\ \ \ \ \ \ \displaystyle{\frac{a_{\overline{n}+1}}{a_{\overline{n}}}}<m \Leftrightarrow a_{\overline{n}+1}<ma_{\overline{n}} \\
+n=\overline{n}+1 \ \ \ \displaystyle{\frac{a_{\overline{n}+2}}{a_{\overline{n+1}}}}<m \Leftrightarrow a_{\overline{n}+2}<m^2a_{\overline{n}}, \ (ma_{\overline{n}+1}<ma_{n})
+\end{array}
+$$
+- Quindi
+$$
+n=\overline{n}+k-1 \implies a_{n+k}<m^ka_{n}, \forall k>0
+$$

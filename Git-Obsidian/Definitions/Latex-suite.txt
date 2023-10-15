@@ -51,7 +51,7 @@
 	{trigger: "_", replacement: "_{$0}$1", options: "mA"},
 	{trigger: "sts", replacement: "_\\text{$0}", options: "rmA"},
 	{trigger: "sq", replacement: "\\sqrt{ $0 }$1", options: "mA"},
-	{trigger: "//", replacement: "\\displaystyle{\\frac{}{}}", options: "mA"},
+	{trigger: "//", replacement: "\\displaystyle{\\frac{$0}{}}", options: "mA"},
 	{trigger: "ee", replacement: "e^{ $0 }$1", options: "mA"},
 	{trigger: "rm", replacement: "\\mathrm{$0}$1", options: "mA"},
 	{trigger: "conj", replacement: "^{*}", options: "mA"},
@@ -125,7 +125,7 @@
 	{trigger: "nabl", replacement: "\\nabla", options: "mA"},
 	{trigger: "del", replacement: "\\nabla", options: "mA"},
 	{trigger: "xx", replacement: "\\times", options: "mA"},
-	{trigger: "**", replacement: "\\cdot", options: "mA"},
+	{trigger: "*", replacement: "\\cdot$0", options: "mA"},
 	{trigger: "para", replacement: "\\parallel", options: "mA"},
 
 
