@@ -50,3 +50,26 @@ $$
 \nexists \text{ se } a\leq-1
 \end{cases}
 $$
+## Ordini di Grandezza
+---
+>[!tldr] Condizioni
+>Siano $p>0$ e $a>1$
+>Esistono i seguenti ordini di grandezza:
+>$$n^p<a^n<n!<n^n$$
+
+## Successioni Trascurabili
+---
+>[!info] Definizione
+>Siano $(a_{n}),(b_{n})_{n\in\mathbb{N}}$ successioni reali, diciamo che $a_{n}$ è **trascurabile** rispetto a $b_{n}$ se:
+> $$
+\lim\limits_{n\to+\infty} \displaystyle{\frac{a_{n}}{b_{n}}}=0
+>$$
+>In tal caso scriviamo:
+>$a_{n}=\small_{o}(b_{n})$
+>>[!done] In breve
+>>La successioni $a_{n}$ è trascurabile rispetto a $b_{n}$ quando il limite del rapporto $\displaystyle{\frac{a_{n}}{b_{n}}}$ è uguale a $0$
+
+### Calcoli con $_{o}(\dots)$
+- se $a_{n}=_{o}(b_{n}),c_{n}=_{o}(b_{n}) \implies a_{n}+c_{n}=_{o}()b_{n}$
+- se $a_{n}=_{o}(b_{n}),c_{n}=_{o}(d_{n})\implies a_{n}\cdot c_{n}=_{o}(b_{n}\cdot d_{n})$
+- se $a_{n}=_{o}(b_{n}),a_{n}\cdot c_{n}=_{o}(b_{n}\cdot c_{n})$
