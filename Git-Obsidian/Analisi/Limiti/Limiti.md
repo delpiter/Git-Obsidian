@@ -36,5 +36,17 @@
 >>Sia $I$ un [[Introduzione Funzioni#Intervallo|intervallo]] o un [[Introduzione Funzioni#Intervallo Forato|intervallo forato]]
 >>Sia $f:I\to \mathbb{R},c\in[inf(I),sup(I)]$ ([[Insiemi Numerici#Insiemi Limitati|limitazioni]]),$l\in\overline{\mathbb{R}}$
 >>Diciamo che $\exists\lim\limits_{x\to+\infty}f(x)=l$ se:
->>$$\forall \mathrm{V} \text{ intorno di } l, \exists \mathrm{U}_{\mathrm{V}}$$
+>>$$\forall \mathrm{V} \text{ intorno di } l, \exists \mathrm{U}_{\mathrm{V}}\text{ intorno di }c: \forall x\in\mathrm{U}_{\mathrm{V}}\setminus\{c\}$$
+>>Si ha: $f(x)\in\mathrm{V}$
 
+#### Teorema del "ponte"
+- Il teorema del ponte enuncia che le due definizioni precedenti sono equivalenti
+##### Esempio
+###### Caso $l,c\in\mathbb{R}$
+$$
+\forall\mathcal{E}>0,\exists \delta_{\mathcal{E}}>0:\text{ se }|x-c|<\delta_{\mathcal{E}} \text{ si ha }|f(x)-l|<\mathcal{E}, x\neq c
+$$
+###### Caso $l,c\in\overline{\mathbb{R}}$
+
+
+#### Esercizio
