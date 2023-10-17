@@ -8,12 +8,36 @@
         "type": "tabs",
         "children": [
           {
-            "id": "0336823fb9639947",
+            "id": "07e9cf6eb47eade3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Obsidian/Analisi/Successioni/Tipologie di Successioni.md",
+                "file": "Git-Obsidian/Analisi/Limiti/Limiti.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4123cfa5c60e0e77",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git-Obsidian/Analisi/Successioni/Limiti di Successioni.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ed93e3db2980add0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git-Obsidian/Markdown Keys.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Analisi/Successioni/Tipologie di Successioni.md",
+                "file": "Git-Obsidian/Analisi/Limiti/Limiti.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Analisi/Successioni/Tipologie di Successioni.md",
+                "file": "Git-Obsidian/Analisi/Limiti/Limiti.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git-Obsidian/Analisi/Successioni/Tipologie di Successioni.md"
+                "file": "Git-Obsidian/Analisi/Limiti/Limiti.md"
               }
             }
           },
@@ -156,34 +180,37 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "0336823fb9639947",
+  "active": "07e9cf6eb47eade3",
   "lastOpenFiles": [
+    "Git-Obsidian/Programmazione/Funzioni Ricorsive.md",
     "Git-Obsidian/Analisi/Successioni/Limiti di Successioni.md",
+    "Git-Obsidian/Analisi/Limiti/Limiti.md",
+    "Git-Obsidian/Programmazione/Teoria.md",
+    "Git-Obsidian/Analisi/Insiemi/Insiemi Numerici.md",
+    "Git-Obsidian/Markdown Keys.md",
+    "Git-Obsidian/Analisi/Breve ripasso.md",
+    "Git-Obsidian/Analisi/Concetti Base.md",
+    "Git-Obsidian/Analisi/Funzioni/Introduzione Funzioni.md",
     "Git-Obsidian/Analisi/Successioni/Tipologie di Successioni.md",
+    "Git-Obsidian/Analisi/Funzioni/Funzioni di una variabile Reale.md",
+    "Git-Obsidian/Analisi/Limiti",
     "Git-Obsidian/Analisi/Successioni/Successioni.md",
     "Git-Obsidian/Analisi/Successioni/Operazioni con i Limiti.md",
     "Git-Obsidian/Analisi/Successioni/Numero di Nepero.md",
-    "Git-Obsidian/Markdown Keys.md",
     "Git-Obsidian/Analisi/Tipologie di Dimostrazioni.md",
-    "Git-Obsidian/Analisi/Funzioni/Introduzione Funzioni.md",
     "Git-Obsidian/Analisi/Funzioni/Intro 1.md",
     "Git-Obsidian/Analisi/Insiemi/Numeri Complessi.md",
-    "Git-Obsidian/Analisi/Insiemi/Insiemi Numerici.md",
     "Git-Obsidian/Attatchments/Pasted image 20231013182133.png",
     "Git-Obsidian/Attatchments/Pasted image 20231013181733.png",
     "Git-Obsidian/Attatchments/Pasted image 20231013181132.png",
     "Git-Obsidian/Definitions/Definizioni.md",
     "README.md",
     "Git-Obsidian/Attatchments/Pasted image 20231013095115.png",
-    "Git-Obsidian/Analisi/Concetti Base.md",
     "Git-Obsidian/Attatchments/Pasted image 20231013110411.png",
-    "Git-Obsidian/Analisi/Funzioni/Funzioni di una variabile Reale.md",
     "Git-Obsidian/Attatchments/Untitled (1).png",
     "Git-Obsidian/Attatchments/Untitled.png",
     "Git-Obsidian/Definitions/Latex-suite.txt",
     "Git-Obsidian/Attatchments/Pasted image 20231013094149.png",
-    "Git-Obsidian/Programmazione/Teoria.md",
-    "Git-Obsidian/Analisi/Breve ripasso.md",
     "Git-Obsidian/Analisi/Successioni",
     "conflict-files-obsidian-git.md",
     "Git-Obsidian/Analisi/Insiemi",
@@ -195,14 +222,11 @@
     "Git-Obsidian/Programmazione",
     "Git-Obsidian/Attatchments",
     "Git-Obsidian/Analisi",
-    "Git-Obsidian",
     "Appunti/README.md",
     "Appunti/Git-Obsidian/Analisi/Funzioni/Intro.md",
     "Appunti/Git-Obsidian/Analisi/Funzioni/Funzioni di una variabile Reale.md",
     "Appunti/Git-Obsidian/Programmazione/Teoria.md",
     "Appunti/Git-Obsidian/Definitions/corrispondenza biunivoca.md",
-    "Appunti/Git-Obsidian/Analisi/Tipologie di Dimostrazioni.md",
-    "Appunti/Git-Obsidian/Analisi/Insiemi Numerici.md",
-    "Appunti/Git-Obsidian/Analisi/Concetti Base.md"
+    "Appunti/Git-Obsidian/Analisi/Tipologie di Dimostrazioni.md"
   ]
 }

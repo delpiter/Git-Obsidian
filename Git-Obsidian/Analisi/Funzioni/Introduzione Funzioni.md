@@ -25,7 +25,7 @@ title: Piano Cartesiano
 xLabel: 
 yLabel: 
 bounds: [-10,10,-10,10]
-disableZoom: false
+disableZoom: true
 grid: true
 ---
 
@@ -101,7 +101,6 @@ $$
 $$
 A={x \in \mathbb{R} | x<1 \vee x > 7}
 $$
-
 ### Notazioni
 > Dati $a,b \in \mathbb{R}$
 - $]a,b[ = \{x \in \mathbb{R} | a<x<b\}$
@@ -112,6 +111,15 @@ $$
 - $+ \infty$ non è un numero reale è solo una notazioni
 	- Per convenzione quindi è escluso dalla notazione
 	- $[a,+\infty[ = \{x \in \mathbb{R} | x\geq a\}$
+## Intervallo Forato
+---
+>[!info] Definizione
+>Diciamo che $J\subseteq\mathbb{R}$ è un intervallo forato se:
+>$$\exists c\in\mathbb{R}\setminus J:J\cup\{ c \}$$
+>È un intervallo
+#### Es
+- $J=(0,1)\cup(1,2)$
+	- L'insieme $J$ è un intervallo forato in $1$
 
 ## Limitazioni
 - - -

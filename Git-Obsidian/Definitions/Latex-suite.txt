@@ -91,7 +91,7 @@
 	{trigger: "ooo", replacement: "\\infty", options: "mA"},
 	{trigger: "sum", replacement: "\\sum", options: "mA"},
 	{trigger: "prod", replacement: "\\prod", options: "mA"},
-	{trigger: "lim", replacement: "\\lim\\limits_{n\\to+\\infty}", options: "mA"},
+	{trigger: "lim", replacement: "\\lim\\limits_{$0\\to $1}", options: "mA"},
 	{trigger: "([^\\\\])pm", replacement: "[[0]]\\pm", options: "rm"},
 	{trigger: "([^\\\\])mp", replacement: "[[0]]\\mp", options: "rm"},
 	{trigger: "+-", replacement: "\\pm", options: "mA"},

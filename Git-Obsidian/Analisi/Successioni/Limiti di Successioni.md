@@ -1,3 +1,5 @@
+## Definizioni
+---
 >[!info] Definizione Limite
 >>[!tldr] Convergente
 >>Sia $(a_{n})_{n\in\mathbb{N}}$ una [[Successioni|successione]] reale, sia $l\in \mathbb{R}$ diciamo che $\lim\limits_{n\to+\infty}a_{n}=l$ se :
@@ -14,7 +16,7 @@
 >>$$
 \forall k>0, \exists m_k\in\mathbb{N} : a_{n}\leq k \ \forall n\geq m_{k}
 >>$$
-#### Terminologia
+## Terminologia
 - Se
 	- $\lim\limits_{n\to+\infty}a_{n}=l \to$ la successione è convergente
 - Se

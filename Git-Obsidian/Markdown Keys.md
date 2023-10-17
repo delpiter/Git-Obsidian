@@ -9,7 +9,7 @@ Cancelletti da 1 a 6 per grandezze differenti
 #### Callouts
 
 >[!tldr] Cose
->>[!info] Sotto cose
+>>[!todo] Sotto cose
 
 \>\[!tldr\] Cose
 \>\[!info\]Sotto cose
