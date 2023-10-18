@@ -210,8 +210,8 @@ g(x)=log(x)/log(1/2)
 >Sia $U=\{(x,y)\in\mathbb{R}\times\mathbb{R}|x^2+y^2=1\}$
 >La circonferenza goniometrica è una circonferenza di raggio $1$
 
-[[Definizioni#Valori Notevoli|Alcuni valori notevoli]]
-### [[Definizioni#Seno e Coseno|Coseno]]
+[[Definizioni_Analisi#Valori Notevoli|Alcuni valori notevoli]]
+### [[Definizioni_Analisi#Seno e Coseno|Coseno]]
 
 $$
 \begin{array}
@@ -239,7 +239,7 @@ grid: true
 f(x)=cos(x)
 ```
 
-### [[Definizioni#Seno e Coseno|Seno]]
+### [[Definizioni_Analisi#Seno e Coseno|Seno]]
 $$
 \begin{array}
 /Sen:\mathbb{R}\to\mathbb{R} \\
@@ -275,7 +275,7 @@ $$
 \end{array}
 $$
 ### Tangente
->[!info] Definizione [[Definizioni#Circonferenza Goniometrica|Tangente]]
+>[!info] Definizione [[Definizioni_Analisi#Circonferenza Goniometrica|Tangente]]
 >La tangente è una funzione $\pi\text{-periodica}$ ed è definita nel dominio:
 >$tan:\{\alpha\in\mathbb{R}|\alpha \neq \displaystyle{\frac{\pi}{2}+k\pi},k\in\mathbb{Z}\}$
 >$tan:\mathbb{R}\setminus\left\{ \displaystyle{\frac{\pi}{2}}+k\pi,k\in\mathbb{Z} \right\}\to\mathbb{R}$

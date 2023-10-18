@@ -1,4 +1,4 @@
-## Limiti per funzioni Variabile Reale
+## Limiti per funzioni ad una Variabile Reale
 ---
 ### Intorni
 >[!info] Definizione
@@ -50,3 +50,45 @@ $$
 
 
 #### Esercizio
+
+## Proprietà dei limiti
+---
+- Le proprietà dei limiti di funzione sono analoghe a quelle per le successioni
+### Unicità del limite
+>[!info] Definizione
+>Sia $I$ un [[Introduzione Funzioni#Intervallo|intervallo]] o un [[Introduzione Funzioni#Intervallo Forato|intervallo forato]]
+>Sia $f:I\to \mathbb{R},c\in[inf(I),sup(I)]$ ,$m,l\in\overline{\mathbb{R}}$
+>Se $$\lim\limits_{x\to c}f(x)=l \text{ e } \lim\limits_{x\to c}f(x)=m$$
+><u>Allora</u>
+>$l=m$
+
+### Teorema della permanenza del segno
+>[!info] Definizione
+>Sia $I$ un [[Introduzione Funzioni#Intervallo|intervallo]] o un [[Introduzione Funzioni#Intervallo Forato|intervallo forato]]
+>Sia $f:I\to \mathbb{R},c\in[inf(I),sup(I)]$ ,$l\in\overline{\mathbb{R}}$
+>Supponiamo che $$\lim\limits_{x\to c}f(x)=l$$
+><u>Allora</u>
+>Se $l>0$
+>$$\exists \text{ un intorno }\mathrm{U} \text{ di c }:f(x)>0\ \ \forall x\in\mathrm{U}\cap I \setminus\{ c \}$$
+>Se $l<0$
+>$$\exists \text{ un intorno }\mathrm{U} \text{ di c }:f(x)<0\ \ \forall x\in\mathrm{U}\cap I \setminus\{ c \}$$
+
+### Teorema dei due Carabinieri
+>[!info] Definizione
+>Sia $I$ un [[Introduzione Funzioni#Intervallo|intervallo]] o un [[Introduzione Funzioni#Intervallo Forato|intervallo forato]]
+>Sia $f,g,h:I\to \mathbb{R},c\in[inf(I),sup(I)]$ ,$l\in\mathbb{R}$
+>Se $$\lim\limits_{x\to c}f(x)=l,\ \ \lim\limits_{x\to c}=h(x)=l$$
+>E $$\exists \text{ un intorno } \mathrm{U}\text{ di c }:f(x)\leq g(x) \leq h(x), \forall x \in \mathrm{U}\cap\setminus\{ c \}$$
+><u>Allora</u>
+>$$\lim\limits_{x\to c}g(x)=l$$
+
+### Limiti unilateri
+>[!info] Definizione
+>Sia $I$ un [[Introduzione Funzioni#Intervallo|intervallo]] o un [[Introduzione Funzioni#Intervallo Forato|intervallo forato]]
+>Sia $f:I\to \mathbb{R},c\in[inf(I),sup(I)]\cap\mathbb{R}$ ,$l\in\overline{\mathbb{R}}$
+>Diciamo che $f$ ha limite per $x\to c$ da sinistra (scriviamo $x\to c^-$)
+>Se ([[Definizioni_Analisi#Notazione Restrizione del dominio|notazione]]) $$\lim\limits_{x\to c}f(x)_{\displaystyle{|_{I\cap(-\infty,c)}}}=l$$
+>>[!example] Teorema
+>>$$\exists \lim\limits_{x\to c}f(x)\Leftrightarrow \begin{cases}\exists \lim\limits_{x\to c^-}f(x)\\ \lim\limits_{x\to c^+}f(x)\end{cases}$$
+>>Tali limiti coincidono
+
