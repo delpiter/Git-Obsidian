@@ -31,4 +31,3 @@ $e^{i\pi}=-1\Leftrightarrow e^{i\pi}+1 = 0$
 >In una funzione $$f:A\to \mathbb{R}$$
 >La notazione $$f_{\displaystyle{|_{A\cap B}}}$$
 >Significa guardare $f$ solo in $A\cap B$
-
