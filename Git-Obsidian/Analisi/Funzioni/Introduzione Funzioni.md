@@ -231,14 +231,14 @@ f \text{ è } \searrow \;\Leftrightarrow\;m\leq 0
 \end{cases} 
 \end{array}
 $$
-### Teorema
+### Monotonia funzioni composte
 >Siano $f:A\to \mathbb{R}, g:B\to \mathbb{R} \ \ \ \ \ \ f(A) \subseteq B$
 >se $f$ e $g$ sono monotone allora anche la composizione ($g_{o}f$) è monotona
 - In particolare
 	- $f_{o}g$ è $\nearrow$ se $f$ e $g$ hanno la stessa monotonia
 	- $f_{o}g$ è $\searrow$ se $f$ e $g$ hanno monotonia contraria
 
-### Teorema #DaChiedere
+### Proprietà monotonia
 - Sia $f:A \to \mathbb{R}$
 >Se $f$ è strettamente monotona allora $f$ è [[Introduzione Funzioni#Iniettività $[f ;1-1]$|iniettiva]] e $f^{-1}:f(A)\to A$ sono strettamente monotone della stessa monotonia
 #### Dimostrazione
