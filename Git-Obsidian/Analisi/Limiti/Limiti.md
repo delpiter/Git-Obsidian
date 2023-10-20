@@ -46,9 +46,12 @@
 $$
 \forall\mathcal{E}>0,\exists \delta_{\mathcal{E}}>0:\text{ se }|x-c|<\delta_{\mathcal{E}} \text{ si ha }|f(x)-l|<\mathcal{E}, x\neq c
 $$
+###### Spiegazione grafica
+![[Pasted image 20231020102454.png]]
+Fissato un $\mathcal{E} >0$, esiste un $\delta>0$
+- Tale che $\forall x$ nell'intervallo $(c-\delta,c+\delta)$ si ha che $f(x)$ deve cadere nell'intervallo $(l-\mathcal{E},l+\mathcal{E})$
 ###### Caso $l,c\in\overline{\mathbb{R}}$
-
-
+?
 #### Esercizio
 
 ## Proprietà dei limiti

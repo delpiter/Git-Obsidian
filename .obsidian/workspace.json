@@ -4,16 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "0f69a0fb86e88b33",
+        "id": "fe4f6424fdc91882",
         "type": "tabs",
         "children": [
           {
-            "id": "fbebf9304b52833a",
+            "id": "b47202bbaaff97ba",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Obsidian/Analisi/Funzioni/Introduzione Funzioni.md",
+                "file": "Git-Obsidian/Analisi/Limiti/Limiti.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "08747c845cefef07",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git-Obsidian/Analisi/Funzioni/Funzioni di una variabile Reale.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +60,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "dachie",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,8 +77,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -86,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Analisi/Funzioni/Introduzione Funzioni.md",
+                "file": "Git-Obsidian/Analisi/Limiti/Limiti.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Analisi/Funzioni/Introduzione Funzioni.md",
+                "file": "Git-Obsidian/Analisi/Limiti/Limiti.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git-Obsidian/Analisi/Funzioni/Introduzione Funzioni.md"
+                "file": "Git-Obsidian/Analisi/Limiti/Limiti.md"
               }
             }
           },
@@ -157,9 +168,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "fbebf9304b52833a",
+  "active": "b47202bbaaff97ba",
   "lastOpenFiles": [
+    "Git-Obsidian/Attatchments/Pasted image 20231020102454.png.~tmp",
+    "Git-Obsidian/Attatchments/Pasted image 20231020102454.png",
+    "Git-Obsidian/Analisi/Funzioni/Funzioni di una variabile Reale.md",
     "Git-Obsidian/Analisi/Limiti/Limiti.md",
+    "Git-Obsidian/Analisi/Funzioni/Introduzione Funzioni.md",
     "Git-Obsidian/Analisi/Successioni/Limiti di Successioni.md",
     "Git-Obsidian/Definitions/Definizioni_Analisi.md",
     "Git-Obsidian/Programmazione/Funzioni Ricorsive.md",
@@ -168,9 +183,7 @@
     "Git-Obsidian/Analisi/Insiemi/Insiemi Numerici.md",
     "Git-Obsidian/Analisi/Breve ripasso.md",
     "Git-Obsidian/Analisi/Concetti Base.md",
-    "Git-Obsidian/Analisi/Funzioni/Introduzione Funzioni.md",
     "Git-Obsidian/Analisi/Successioni/Tipologie di Successioni.md",
-    "Git-Obsidian/Analisi/Funzioni/Funzioni di una variabile Reale.md",
     "Git-Obsidian/Analisi/Limiti",
     "Git-Obsidian/Analisi/Successioni/Successioni.md",
     "Git-Obsidian/Analisi/Successioni/Operazioni con i Limiti.md",
@@ -192,7 +205,6 @@
     "conflict-files-obsidian-git.md",
     "Git-Obsidian/Analisi/Insiemi",
     "Git-Obsidian/Attatchments/Pasted image 20230930115346.png",
-    "Git-Obsidian/Attatchments/Pasted image 20230930103554.png",
     "New Documento di testo.txt",
     "Git-Obsidian/Analisi/Funzioni",
     "Git-Obsidian/Definitions",
@@ -203,7 +215,6 @@
     "Appunti/Git-Obsidian/Analisi/Funzioni/Intro.md",
     "Appunti/Git-Obsidian/Analisi/Funzioni/Funzioni di una variabile Reale.md",
     "Appunti/Git-Obsidian/Programmazione/Teoria.md",
-    "Appunti/Git-Obsidian/Definitions/corrispondenza biunivoca.md",
-    "Appunti/Git-Obsidian/Analisi/Tipologie di Dimostrazioni.md"
+    "Appunti/Git-Obsidian/Definitions/corrispondenza biunivoca.md"
   ]
 }
