@@ -56,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Analisi/Limiti/Calcolo dei Limiti.md",
+                "file": "Git-Obsidian/Analisi/Funzioni/Funzioni di una variabile Reale.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Analisi/Limiti/Calcolo dei Limiti.md",
+                "file": "Git-Obsidian/Analisi/Funzioni/Funzioni di una variabile Reale.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git-Obsidian/Analisi/Limiti/Calcolo dei Limiti.md"
+                "file": "Git-Obsidian/Analisi/Funzioni/Funzioni di una variabile Reale.md"
               }
             }
           },
@@ -193,11 +193,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "7304eafbcf398a75",
+  "active": "08747c845cefef07",
   "lastOpenFiles": [
+    "Git-Obsidian/Analisi/Limiti/Calcolo dei Limiti.md",
     "Git-Obsidian/Attatchments/Pasted image 20231023173515.png",
     "Git-Obsidian/Analisi/Limiti/Limiti.md",
-    "Git-Obsidian/Analisi/Limiti/Calcolo dei Limiti.md",
     "Git-Obsidian/Markdown Keys.md",
     "Git-Obsidian/Analisi/Successioni/Operazioni con i Limiti.md",
     "Git-Obsidian/Attatchments/Pasted image 20231020102454.png.~tmp",
@@ -231,7 +231,6 @@
     "Git-Obsidian/Analisi/Successioni",
     "conflict-files-obsidian-git.md",
     "Git-Obsidian/Analisi/Insiemi",
-    "Git-Obsidian/Attatchments/Pasted image 20230930115346.png",
     "New Documento di testo.txt",
     "Git-Obsidian/Analisi/Funzioni",
     "Git-Obsidian/Definitions",
