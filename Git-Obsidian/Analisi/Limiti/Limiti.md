@@ -95,3 +95,11 @@ Fissato un $\mathcal{E} >0$, esiste un $\delta>0$
 >>$$\exists \lim\limits_{x\to c}f(x)\Leftrightarrow \begin{cases}\exists \lim\limits_{x\to c^-}f(x)\\ \lim\limits_{x\to c^+}f(x)\end{cases}$$
 >>Tali limiti coincidono
 
+### Cambio di variabile dei Limiti
+>[!info] Teorema
+>Siano $I,J$ intervalli o intervalli forati, $f:I\to\mathbb{R}, g:J\to\mathbb{R},f(I)\subseteq J$
+>Siano $x_{0}\in[inf(I),sup(I)], l\in[inf(J),sup(J)]$
+>Se $$\lim\limits_{x\to x_{0}}f(x)=l\text{ e } \lim\limits_{y\to l}g(y)=k$$
+>Supponiamo che $\exists$ un intorno $\mathrm{U} \text{ di } x_{0}:f(x)\neq l\in\mathrm{U}\setminus\{x_{0}\}$
+><u>Allora</u>
+>$$\lim\limits_{y\to x_{0}}g(\underbrace{f(x)}_{l})=k$$
