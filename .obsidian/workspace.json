@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Obsidian/Programmazione/Teoria.md",
+                "file": "Git-Obsidian/Analisi/Limiti/Calcolo dei Limiti.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Programmazione/Teoria.md",
+                "file": "Git-Obsidian/Analisi/Limiti/Calcolo dei Limiti.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Programmazione/Teoria.md",
+                "file": "Git-Obsidian/Analisi/Limiti/Calcolo dei Limiti.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git-Obsidian/Programmazione/Teoria.md"
+                "file": "Git-Obsidian/Analisi/Limiti/Calcolo dei Limiti.md"
               }
             }
           },
@@ -142,8 +142,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 328.5,
-    "collapsed": true
+    "width": 328.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -158,15 +157,16 @@
   },
   "active": "16b9fe77fca243d8",
   "lastOpenFiles": [
-    "Git-Obsidian/Markdown Keys.md",
+    "Git-Obsidian/Definitions/Definizioni_Analisi.md",
+    "Git-Obsidian/Analisi/Limiti/Calcolo dei Limiti.md",
+    "Git-Obsidian/Analisi/Limiti/Limiti.md",
     "Git-Obsidian/Programmazione/Teoria.md",
+    "Git-Obsidian/Markdown Keys.md",
     "Git-Obsidian/Programmazione/Strutture di Controllo",
     "Git-Obsidian/Programmazione/Espressioni e Operatori",
     "Git-Obsidian/Programmazione/Alfabeto e Lessico",
     "Git-Obsidian/Programmazione/Tipologie di Variabili",
     "Git-Obsidian/Programmazione/Funzioni",
-    "Git-Obsidian/Analisi/Limiti/Limiti.md",
-    "Git-Obsidian/Analisi/Limiti/Calcolo dei Limiti.md",
     "Git-Obsidian/Analisi/Funzioni/Funzioni di una variabile Reale.md",
     "Git-Obsidian/Attatchments/Pasted image 20231023173515.png",
     "Git-Obsidian/Analisi/Successioni/Operazioni con i Limiti.md",
@@ -174,7 +174,6 @@
     "Git-Obsidian/Attatchments/Pasted image 20231020102454.png",
     "Git-Obsidian/Analisi/Funzioni/Introduzione Funzioni.md",
     "Git-Obsidian/Analisi/Successioni/Limiti di Successioni.md",
-    "Git-Obsidian/Definitions/Definizioni_Analisi.md",
     "Git-Obsidian/Programmazione/Funzioni/Funzioni Ricorsive.md",
     "Git-Obsidian/Analisi/Insiemi/Insiemi Numerici.md",
     "Git-Obsidian/Analisi/Breve ripasso.md",

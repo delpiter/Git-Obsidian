@@ -183,3 +183,16 @@ $$
 $$
 1\leq |\displaystyle{\frac{x}{sen(x)}}|\leq \displaystyle{\frac{1}{|cos(x)|}}, x\in\left( - \displaystyle{\frac{\pi}{2}}, \displaystyle{\frac{\pi}{2}} \right)\setminus\{0\}
 $$
+- Per il [[Limiti#Teorema dei due Carabinieri|teorema dei due carabinieri]]
+$$
+\begin{array}
+\ \lim\limits_{x\to 0}1 = 1 \\
+\lim\limits_{x\to 0} \displaystyle{\frac{1}{|cos(x)|}}=1 \\
+\text{Quindi} \\
+\lim\limits_{x\to 0} \displaystyle{\frac{|x|}{|sen(x)|}}=1
+\end{array}
+$$
+- In fine, facciamo l'inverso, quindi:
+$$
+\lim\limits_{x\to 0} \displaystyle{\frac{sen(x)}{x}}=1
+$$
