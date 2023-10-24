@@ -121,6 +121,29 @@ $$
 - $J=(0,1)\cup(1,2)$
 	- L'insieme $J$ è un intervallo forato in $1$
 
+## Continuità
+>[!info] Definizione
+>Sia $\mathrm{I}$ intervallo di $\mathbb{R},f:\mathrm{I}\to \mathbb{R}$
+>Sia $c\in\mathrm{I}$
+>Diciamo che $f$ è continua in $c$ se esiste il [[Limiti#Definizione Limite|limite]] e vale $f(c)$
+>$$\exists\lim\limits_{x\to c}f(x) = f(c)$$
+>Diciamo che $f$ è continua in $\mathrm{I}$ se è continua in ogni suo punto
+>>[!bug] Errore
+>>Non è vero che una funzione è continua se per disegnarla basta non staccare mai la penna
+
+### Es
+$$
+f(x)=\begin{cases}
+1 \text{ se } x>0 \\
+0 \text{ se }x \leq 0
+\end{cases}
+$$
+- La funzione è continua in $\mathbb{R}\setminus\{0\}$
+$$
+f:\mathbb{R}\setminus\{0\}\to\mathbb{R}, f(x)=\frac{1}{x}
+$$
+- La funzione è continua nel dominio
+
 ## Limitazioni
 - - -
 >Siano $A \subseteq \mathbb{R}, \;f:A\to\mathbb{R}$ diciamo che $f$ è limitata superiormente o inferiormente se lo è $f(A)$ (l'immagine)

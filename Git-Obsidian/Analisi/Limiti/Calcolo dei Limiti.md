@@ -158,7 +158,7 @@ $$
 - $\lim\limits_{x\to 0} \displaystyle{\frac{e^{2x}-1}{ln(1+3x)}}\Leftrightarrow \lim\limits_{x\to 0} \displaystyle{\frac{\not1+2x-\not1+\circ(x)}{3x+\circ(x)}}= \displaystyle{\frac{2}{3}}$
 
 ### Funzioni trigonometriche
->[!info] Dimostrazione
+>[!info] Seno
 >Dimostriamo che
 >$$\lim\limits_{x\to 0} \displaystyle{\frac{sen(x)}{x}}=1$$
 
@@ -195,4 +195,22 @@ $$
 - In fine, facciamo l'inverso, quindi:
 $$
 \lim\limits_{x\to 0} \displaystyle{\frac{sen(x)}{x}}=1
+$$
+>[!info] Coseno
+>$\lim\limits_{x\to 0} \displaystyle{\frac{1-cos(x)}{x^2}}= \displaystyle{\frac{1}{2}}$
+
+- Dimostraimolo tramite il limite precedente
+$$
+\lim\limits_{x\to 0} \displaystyle{\frac{1-cos(x)}{x^2}}\cdot \displaystyle{\frac{1+cos(x)}{1+cos(x)}}=\lim\limits_{x\to 0} \displaystyle{\frac{1+cos(x)}{x^2}}\cdot \displaystyle{\frac{1}{1+cos(x)}}= \displaystyle{\frac{1}{2}}
+$$
+## Riassumendo
+---
+$$
+\begin{cases}
+e^x=1+x+\circ(x) \text{ per }x\to 0 \\
+log(1+x) = x+\circ(x) \text{ per }x \to 0 \\
+sen(x)=x+\circ(x) \text{ per }x\to 0 \\
+cos(x)=1- \displaystyle{\frac{x^2}{2}}+\circ(x) \text{ per }x\to 0 \\
+tan(x)=x+\circ(x) \text{ per }x\to 0
+\end{cases}
 $$

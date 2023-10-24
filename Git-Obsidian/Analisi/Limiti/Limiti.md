@@ -103,3 +103,26 @@ Fissato un $\mathcal{E} >0$, esiste un $\delta>0$
 >Supponiamo che $\exists$ un intorno $\mathrm{U} \text{ di } x_{0}:f(x)\neq l\in\mathrm{U}\setminus\{x_{0}\}$
 ><u>Allora</u>
 >$$\lim\limits_{y\to x_{0}}g(\underbrace{f(x)}_{l})=k$$
+
+
+## Teorema degli Zeri
+>[!info] Teorema
+>Sia $f:[a,b]\to \mathbb{R}$ [[Introduzione Funzioni#Continuità|continua]]
+>e supponiamo: $f(a)\cdot f(b)<0$
+><u>Allora</u>
+>$$\exists c\in(a,b):f(c)=0$$
+>>[!done] In breve
+>>Se in una funzione continua e limitata gli estremi della stessa sono discordi allora esiste un valore della $x$ per cui la $y$ assume il valore $0$
+### Dimostrazione
+Assumiamo $f(a)<0<f(b)$
+- Sia $c_{0} = \displaystyle{\frac{a+b}{2}}$ il punto medio di $(a,b)$ ($c_{0}$ è il "passo 0")
+- Si procede con il concetto di **Bisezione** (in informatica ricerca binaria)
+Si 
+- Si hanno 3 possibilità
+	1. $f(c_{0})=0\to$ Dimostrazione finita
+	2. $f(c_{0})>0\to$ Osservo che $f(a)<0<f(c_{0})$
+	3. $f(c_{0})<0\to$ Osservo che $f(c_{0})<0<f(b)$
+- Nei casi 2 e 3 continuo la ricerca
+	- Nel caso 2 considero l'intervallo $(a,c_{0}), a_{1}=a,b_{1}=c_{0}$
+	- Nel caso 3 considero l'intervallo $(c_{0},b), a_{1}=c_{0},b_{1}=b$
+- Vado avanti finchè non mi trovo nella condizione 1
