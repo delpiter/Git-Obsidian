@@ -4,59 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "fe4f6424fdc91882",
+        "id": "ff78456beb7ecfd6",
         "type": "tabs",
         "children": [
           {
-            "id": "b47202bbaaff97ba",
+            "id": "16b9fe77fca243d8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Obsidian/Analisi/Limiti/Limiti.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7304eafbcf398a75",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git-Obsidian/Analisi/Limiti/Calcolo dei Limiti.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "11f5f837dc79f373",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git-Obsidian/Markdown Keys.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "08747c845cefef07",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git-Obsidian/Analisi/Funzioni/Funzioni di una variabile Reale.md",
+                "file": "Git-Obsidian/Programmazione/Teoria.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -122,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Analisi/Funzioni/Funzioni di una variabile Reale.md",
+                "file": "Git-Obsidian/Programmazione/Teoria.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Analisi/Funzioni/Funzioni di una variabile Reale.md",
+                "file": "Git-Obsidian/Programmazione/Teoria.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git-Obsidian/Analisi/Funzioni/Funzioni di una variabile Reale.md"
+                "file": "Git-Obsidian/Programmazione/Teoria.md"
               }
             }
           },
@@ -193,21 +156,26 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "08747c845cefef07",
+  "active": "16b9fe77fca243d8",
   "lastOpenFiles": [
-    "Git-Obsidian/Analisi/Limiti/Calcolo dei Limiti.md",
-    "Git-Obsidian/Attatchments/Pasted image 20231023173515.png",
-    "Git-Obsidian/Analisi/Limiti/Limiti.md",
     "Git-Obsidian/Markdown Keys.md",
+    "Git-Obsidian/Programmazione/Teoria.md",
+    "Git-Obsidian/Programmazione/Strutture di Controllo",
+    "Git-Obsidian/Programmazione/Espressioni e Operatori",
+    "Git-Obsidian/Programmazione/Alfabeto e Lessico",
+    "Git-Obsidian/Programmazione/Tipologie di Variabili",
+    "Git-Obsidian/Programmazione/Funzioni",
+    "Git-Obsidian/Analisi/Limiti/Limiti.md",
+    "Git-Obsidian/Analisi/Limiti/Calcolo dei Limiti.md",
+    "Git-Obsidian/Analisi/Funzioni/Funzioni di una variabile Reale.md",
+    "Git-Obsidian/Attatchments/Pasted image 20231023173515.png",
     "Git-Obsidian/Analisi/Successioni/Operazioni con i Limiti.md",
     "Git-Obsidian/Attatchments/Pasted image 20231020102454.png.~tmp",
     "Git-Obsidian/Attatchments/Pasted image 20231020102454.png",
-    "Git-Obsidian/Analisi/Funzioni/Funzioni di una variabile Reale.md",
     "Git-Obsidian/Analisi/Funzioni/Introduzione Funzioni.md",
     "Git-Obsidian/Analisi/Successioni/Limiti di Successioni.md",
     "Git-Obsidian/Definitions/Definizioni_Analisi.md",
-    "Git-Obsidian/Programmazione/Funzioni Ricorsive.md",
-    "Git-Obsidian/Programmazione/Teoria.md",
+    "Git-Obsidian/Programmazione/Funzioni/Funzioni Ricorsive.md",
     "Git-Obsidian/Analisi/Insiemi/Insiemi Numerici.md",
     "Git-Obsidian/Analisi/Breve ripasso.md",
     "Git-Obsidian/Analisi/Concetti Base.md",
@@ -231,11 +199,6 @@
     "Git-Obsidian/Analisi/Successioni",
     "conflict-files-obsidian-git.md",
     "Git-Obsidian/Analisi/Insiemi",
-    "New Documento di testo.txt",
-    "Git-Obsidian/Analisi/Funzioni",
-    "Git-Obsidian/Definitions",
-    "Git-Obsidian/Programmazione",
-    "Git-Obsidian/Attatchments",
     "Appunti/README.md",
     "Appunti/Git-Obsidian/Analisi/Funzioni/Intro.md",
     "Appunti/Git-Obsidian/Analisi/Funzioni/Funzioni di una variabile Reale.md",
