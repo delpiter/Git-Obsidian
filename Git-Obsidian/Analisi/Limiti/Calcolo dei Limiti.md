@@ -84,11 +84,6 @@ $$
 ### $0<a<1,p>0$
 - $\lim\limits_{x\to +\infty} a^x\cdot x^p=0$
 - $\lim\limits_{x\to -\infty} \displaystyle{\frac{a^x}{|x|^p}}=+\infty$
-## Gerarchie degli infiniti
----
-$$
-log_{a}(x)<x^p<a^x
-$$
 ## Limiti Notevoli
 ---
 ### Logaritmi e Esponenziali

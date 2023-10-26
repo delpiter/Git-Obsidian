@@ -65,4 +65,12 @@ $$(n+1)\left( \frac{n+2}{2}\right)$$
 	- $(1+x)^{n+1} = (1+x) ^n\cdot( 1+x)$
 	- Per ipotesi:
 	- $(1+x) ^n\cdot( 1+x) \geq (1+nx)\cdot(1+x)$
-	- 
+
+## Metodo di bisezione
+---
+>[!done] Definizione
+>Il metodo di bisezione è un procedimento numerico iterativo consiste nel dividere l’intervallo assegnato in due sottointervalli mediante il punto medio $c$
+
+Esempio
+
+![[Limiti#Teorema degli Zeri]]

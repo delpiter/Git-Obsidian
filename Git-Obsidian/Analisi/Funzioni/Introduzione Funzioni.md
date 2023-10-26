@@ -143,7 +143,23 @@ $$
 f:\mathbb{R}\setminus\{0\}\to\mathbb{R}, f(x)=\frac{1}{x}
 $$
 - La funzione è continua nel dominio
-
+### Teorema
+- Siano $f,g:I\to\mathbb{R}$ funzioni continue
+- <u>Allora</u>
+$$
+\begin{cases}
+f+g \text{ è continua} \\
+f\cdot g \text{ è continua} \\
+\displaystyle{\frac{f}{g}} \text{ è continua}
+\end{cases}
+$$
+- Inoltre 
+	- $f:I\to\mathbb{R},g:J\to\mathbb{R}$
+		- Se $f(I)\subset J$ e se $f$ è continua su $I$ e $g$ è continua su $J$
+		- Allora $g_{o}f$ è continua su $I$
+	- $f:I\to f(I)$  
+		- Se $f$ è invertibile e continua
+		- Allora $f^-1$ è continua
 ## Limitazioni
 - - -
 >Siano $A \subseteq \mathbb{R}, \;f:A\to\mathbb{R}$ diciamo che $f$ è limitata superiormente o inferiormente se lo è $f(A)$ (l'immagine)
@@ -218,7 +234,28 @@ $$
 x=2\text{ Punto di minimo di }f
 \end{array}
 $$
+## Teorema di Weierstruss
+---
+>[!info] Teorema
+>Sia $f:[a,b]\to\mathbb{R}$ [[Introduzione Funzioni#Continuità|continua]]
+><u>Allora</u>
+>$f$ ammette massimo e minimo
 
+È possibile dimostrarlo utilizzando il metodo di bisezione
+### Esempi
+- Alcuni esempi del perchè servono tutte le condizioni
+#### Dominio chiuso
+$f:(0,5)\to\mathbb{R}$
+$x\mapsto \displaystyle{\frac{1}{x}}$
+>[!done] In breve
+>$f$ non ha ne $MAX$ ne $min$
+>Non ha il $MAX$ perchè a $0$ la funzione assume il valore $+\infty$
+>Non ha il $min$ perchè il valore $5$ dovrebbe essere il minimo della funzione ma è escluso dal dominio
+#### Continuità
+$f:(-1,1)\setminus\{0\}\to\mathbb{R}$
+$x\mapsto x^2$
+>[!done] In breve
+>$f$ non ha il $min$ poichè la funzione non è definita nel suo valore minimo
 ## Funzioni Monotone
 - - -
 - Sia $A \subseteq \mathbb{R},\; f:A \to \mathbb{R}$

@@ -117,12 +117,90 @@ Fissato un $\mathcal{E} >0$, esiste un $\delta>0$
 Assumiamo $f(a)<0<f(b)$
 - Sia $c_{0} = \displaystyle{\frac{a+b}{2}}$ il punto medio di $(a,b)$ ($c_{0}$ è il "passo 0")
 - Si procede con il concetto di **Bisezione** (in informatica ricerca binaria)
-Si 
-- Si hanno 3 possibilità
-	1. $f(c_{0})=0\to$ Dimostrazione finita
-	2. $f(c_{0})>0\to$ Osservo che $f(a)<0<f(c_{0})$
-	3. $f(c_{0})<0\to$ Osservo che $f(c_{0})<0<f(b)$
+#### 3 Possibilità
+1. $f(c_{0})=0\to$ Dimostrazione finita 
+2. $f(c_{0})>0\to$ Osservo che $f(a)<0<f(c_{0})$
+3. $f(c_{0})<0\to$ Osservo che $f(c_{0})<0<f(b)$ 
+
 - Nei casi 2 e 3 continuo la ricerca
 	- Nel caso 2 considero l'intervallo $(a,c_{0}), a_{1}=a,b_{1}=c_{0}$
 	- Nel caso 3 considero l'intervallo $(c_{0},b), a_{1}=c_{0},b_{1}=b$
-- Vado avanti finchè non mi trovo nella condizione 1
+- Rinomino gli estremi e ripeto il procedimento
+#### 2 conclusioni possibili
+Iterando il ragionamento (Metodo di Bisezione) si hanno 2 possibilità
+1. Trovo, dopo un numero finito di iterazioni, uno zero di una funzione
+	- $f(c_{k}) = 0$ per qualche $k$
+2. Il procedimento continua indefinitivamente
+	- In questo caso ho costruito due successioni $a_{n}$ e $b_{n}$ con le seguenti proprietà:
+>[!tldr] Proprietà delle successioni
+>$1) \ \ a\leq a_{n} \leq b_{n} \leq b, \forall n\in\mathbb{N}$
+>$2) \ \ a_{n+1} \geq a_{n} \forall n \in\mathbb{N} \text{ cioè } a_{n} \nearrow$
+>$3) \ \ b_{n+1} \leq b_{n} \forall n \in\mathbb{N} \text{ cioè } b_{n} \searrow$
+>$4) \ \ b_{n}-a_{n} = \displaystyle{\frac{b-a}{2^n}}$
+>>[!done] In Breve
+>>La distanza fra i punti delle due successioni tende a $0$
+>
+>$5) \ \ f(a_{n}) < 0 < f(b_{n}) \forall n\in\mathbb{N}$
+>>[!done] In Breve
+>>La funzione nei punti delle successioni è concorde (stesso segno) rispetto al punto nel suo estremo
+
+- Date queste proprietà:
+	- Dalle proprietà 2,3 segue che $\exists\lim\limits_{n\to +\infty} a_{n},b_{n}$ inoltre dalla proprietà numero 1 segue che tali limiti sono numeri reali
+	- Dalla proprietà numero 4 ho che $\lim\limits_{n\to +\infty}b_{n}-a_{n} = 0$ quindi per forza i due limiti sono uguali
+		- $\lim\limits_{n\to +\infty}a_{n} = \lim\limits_{n\to +\infty}b_{n} = c$
+	- Infine dalla priprietà 5, usando il [[Limiti di Successioni#Teorema del Confronto|teorema del confronto]] ho che
+		- $\lim\limits_{n\to +\infty}f(a_{n})\leq0$
+		- E analogamente
+		- $\lim\limits_{n\to +\infty}f(b_{n})\geq0$
+- Poichè $f$ è continua si ha che:
+	- $\lim\limits_{n\to +\infty}f(a_{n})=f(c)\leq0$
+	- $\lim\limits_{n\to +\infty}f(b_{n})=f(c)\geq0$
+- Ne deduciamo quindi che $f(c) = 0\ \ \ \ \ \ \ \ \  \#$
+
+## Teorema dei valori Intermedi
+---
+>[!info] Teorema
+>Sia $I$ intervallo di $\mathbb{R}$, sia $f:I\to\mathbb{R}$ [[Introduzione Funzioni#Continuità|continua]] 
+><u>Allora</u>
+>$f(I)$ è a sua volta un intervallo (o [[Definizioni_Analisi#Intervallo degenere|intervallo degenere]])
+
+### Dimostrazione
+#### $f$ Costante
+Se $f$ è costante $=k \implies f(I)=\{ k \}\implies$ Intervallo degenere
+#### f Non Costante
+Se $f$ non è costante:
+$$
+\exists y_{1},y_{2}\in f(I) \text{ con } y_{1}\neq y_{2}
+$$
+- <u>Devo mostrare che</u>
+$$
+\forall y :y_{1}<y<y_{2}c\text{ si ha che } y\in f(I)
+$$
+##### Dimostrazione
+Siano: $$x_{1},x_{2}\in I:\begin{cases}
+f(x_{1}) = y_{1} \\
+f(x_{2}) = y_{2}
+\end{cases}$$
+- Osserviamo che $x_{1}\neq x_{2}$ poichè $f$ è una funzione
+- Supponiamo che $x_{1}<x_{2}$
+- Introduco una funzione
+$$
+\begin{array}
+\ g:[x_{1},x_{2}]\to\mathbb{R} \\
+g(x) = f(x)-y, \ \ \ \ y_{1}<y<y_{2}
+\end{array}
+$$
+- Verifichiamo che la funzione $g(x)$ soddisfi le ipotesi del teorema degli zeri
+	- Infatti:
+$$
+\begin{array}
+\ g(x_{1})=f(x_{1})-y = y_{1}-y < 0 \\
+g(x_{2})=f(x_{2})-y = y_{2}-y > 0
+\end{array}
+$$
+Quindi
+- $g$ è continua in $[x_{1},x_{2}]$ perchè lo è $f$ su $I$
+- Applico il teorema degli zeri a $g$ e deduco che
+$$
+\exists c \in(x_{1},x_{2}):g(c)=0 \Leftrightarrow f(c)-y = 0\Leftrightarrow f(c)=y
+$$
