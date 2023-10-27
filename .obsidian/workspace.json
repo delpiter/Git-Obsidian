@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Obsidian/Analisi/Funzioni/Introduzione Funzioni.md",
+                "file": "Git-Obsidian/Analisi/Calcolo Differenziale/Derivate.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 240.5
   },
   "right": {
     "id": "3561446b8c4d05ef",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Analisi/Funzioni/Introduzione Funzioni.md",
+                "file": "Git-Obsidian/Analisi/Calcolo Differenziale/Derivate.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Analisi/Funzioni/Introduzione Funzioni.md",
+                "file": "Git-Obsidian/Analisi/Calcolo Differenziale/Derivate.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git-Obsidian/Analisi/Funzioni/Introduzione Funzioni.md"
+                "file": "Git-Obsidian/Analisi/Calcolo Differenziale/Derivate.md"
               }
             }
           },
@@ -158,8 +158,21 @@
   },
   "active": "a8e50e088d78eef6",
   "lastOpenFiles": [
-    "Git-Obsidian/Analisi/Limiti/Limiti.md",
+    "Git-Obsidian/Attatchments/Pasted image 20231027102103.png",
     "Git-Obsidian/Analisi/Funzioni/Introduzione Funzioni.md",
+    "Git-Obsidian/Analisi/Calcolo Differenziale/Derivate.md",
+    "Git-Obsidian/Attatchments/Relation operators.png",
+    "Git-Obsidian/Attatchments/Pasted image 20231027100008.png",
+    "Git-Obsidian/Attatchments/Pasted image 20231023173515.png",
+    "Git-Obsidian/Attatchments/Pasted image 20231020102454.png",
+    "Git-Obsidian/Attatchments/Pasted image 20231013182133.png",
+    "Git-Obsidian/Attatchments/Pasted image 20231013181733.png",
+    "Git-Obsidian/Attatchments/Pasted image 20231013181132.png",
+    "Git-Obsidian/Attatchments/Pasted image 20231013110411.png",
+    "Git-Obsidian/Attatchments/Pasted image 20231013095115.png",
+    "Git-Obsidian/Attatchments/Pasted image 20231013094149.png",
+    "Git-Obsidian/Analisi/Calcolo Differenziale",
+    "Git-Obsidian/Analisi/Limiti/Limiti.md",
     "Git-Obsidian/Definitions/Definizioni_Analisi.md",
     "Git-Obsidian/Analisi/Tipologie di Dimostrazioni.md",
     "Git-Obsidian/Markdown Keys.md",
@@ -177,31 +190,19 @@
     "Git-Obsidian/Programmazione/Tipologie di Variabili",
     "Git-Obsidian/Programmazione/Funzioni",
     "Git-Obsidian/Analisi/Funzioni/Funzioni di una variabile Reale.md",
-    "Git-Obsidian/Attatchments/Pasted image 20231023173515.png",
     "Git-Obsidian/Analisi/Successioni/Operazioni con i Limiti.md",
     "Git-Obsidian/Attatchments/Pasted image 20231020102454.png.~tmp",
-    "Git-Obsidian/Attatchments/Pasted image 20231020102454.png",
     "Git-Obsidian/Programmazione/Funzioni/Funzioni Ricorsive.md",
     "Git-Obsidian/Analisi/Insiemi/Insiemi Numerici.md",
     "Git-Obsidian/Analisi/Limiti",
     "Git-Obsidian/Analisi/Funzioni/Intro 1.md",
     "Git-Obsidian/Analisi/Insiemi/Numeri Complessi.md",
-    "Git-Obsidian/Attatchments/Pasted image 20231013182133.png",
-    "Git-Obsidian/Attatchments/Pasted image 20231013181733.png",
-    "Git-Obsidian/Attatchments/Pasted image 20231013181132.png",
     "README.md",
-    "Git-Obsidian/Attatchments/Pasted image 20231013095115.png",
-    "Git-Obsidian/Attatchments/Pasted image 20231013110411.png",
-    "Git-Obsidian/Attatchments/Untitled (1).png",
-    "Git-Obsidian/Attatchments/Untitled.png",
     "Git-Obsidian/Definitions/Latex-suite.txt",
-    "Git-Obsidian/Attatchments/Pasted image 20231013094149.png",
     "Git-Obsidian/Analisi/Successioni",
     "conflict-files-obsidian-git.md",
-    "Git-Obsidian/Analisi/Insiemi",
     "Appunti/README.md",
     "Appunti/Git-Obsidian/Analisi/Funzioni/Intro.md",
-    "Appunti/Git-Obsidian/Analisi/Funzioni/Funzioni di una variabile Reale.md",
-    "Appunti/Git-Obsidian/Programmazione/Teoria.md"
+    "Appunti/Git-Obsidian/Analisi/Funzioni/Funzioni di una variabile Reale.md"
   ]
 }
