@@ -36,3 +36,16 @@ $e^{i\pi}=-1\Leftrightarrow e^{i\pi}+1 = 0$
 ---
 >[!info] Definizione
 >Si dicono intervalli degeneri gli insiemi del tipo $I=\{ a \}$ ove $a\in\mathbb{R}$
+
+## Coefficiente Binomiale
+---
+>[!info] Notazione
+>$$\binom{n}{k} = \displaystyle{\frac{n!}{k!(n-k)!}}$$
+## Formula del Binomio di Newton
+---
+>[!info] Formula
+>$$(a+b)^n=\sum^n_{k=0}\binom{n}{k} \underbrace{ a^{n-k}b^k }_{ \text{*} }$$ 
+>>[!done] \*
+>>Tutte le coppie di esponenti la cui somma è $n$
+
+- Dimostrabile per induzione

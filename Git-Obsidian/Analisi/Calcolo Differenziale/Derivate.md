@@ -24,6 +24,10 @@ $$
 >E in tal caso indichiamo tale [[Limiti#Definizione Limite|limite]] con $f'(c)$ come  derivata di $f$ in $c$
 >>[!done] Significato Geometrico
 >>La derivata è il coefficente angolare della retta tangente al grafico di $f$ nel punto $(c,f(c))$
+### Alternativa
+È possibile scrivere il limite del rapporto incrementale anche in un altra modalità
+>[!tip] Formula
+>$$\lim\limits_{h\to 0} \displaystyle{\frac{f(c+h)-f(c)}{h}}$$
 
 ### Osservazione sul grafico
 - Con $c$ che tende sempre di più al valore di $x$ la retta secante fra i due punti tenderà smpre di più a diventare la tangente
@@ -46,6 +50,29 @@ $$
 \begin{array}
 \ \lim\limits_{x\to c} \displaystyle{\frac{f(x)-f(c)}{x-c}}=l \Leftrightarrow \lim\limits_{x\to c} \displaystyle{\frac{f(x)-f(c)}{x-c}}-l = 0 \\
 f(x)-f(c) = l(x-c)+\circ(x-c) \text{ per } x\to c \\
-f(x) = l(x-c)+\circ(x-c) \text{ per } x\to c
+f(x) =f(c) + l(x-c)+\circ(x-c) \text{ per } x\to c
 \end{array}
+$$
+#### Osservazione
+$f$ derivabile in $c \implies f$ continua in $c$
+- Infatti dal secondo punto del criterio, passando al limite:
+$$
+\underbrace{\lim\limits_{x\to c}f(x)=\lim\limits_{x\to c}(f(c)}_{\displaystyle{\text{def. Continuità}}}+l(x-c)+\circ(x-c))
+$$
+##### Caso contrario
+- Non è vero il caso contrario
+$f$ continua in $c \cancel{ \implies }f$ derivabile in $c$
+###### Es
+$$f(x)=|x|=\begin{cases}
+x \text{ se } x\geq 0 \\
+-x \text{ se }x\leq 0
+\end{cases}$$
+- $f$ continua in $\mathbb{R}$ (in particolare anche in $0$) ma non è derivabile in $0$
+	- Infatti
+$$
+\lim\limits_{x\to 0} \displaystyle{\frac{f(x)-f(0)}{x-0}}=\lim\limits_{x\to 0} \displaystyle{\frac{|x|}{x}}
+$$
+- Il limite non esiste poichè:
+$$
+\lim\limits_{x\to 0^+} \displaystyle{\frac{x}{x}} =1,\lim\limits_{x\to 0^-} \displaystyle{\frac{-x}{x}}
 $$

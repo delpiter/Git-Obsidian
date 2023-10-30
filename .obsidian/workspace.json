@@ -13,7 +13,31 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Obsidian/Analisi/Calcolo Differenziale/Derivate.md",
+                "file": "Git-Obsidian/Analisi/Calcolo Differenziale/Derivate di Funzioni Elementari.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fb4ddba97e8a3948",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git-Obsidian/Markdown Keys.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f36a6beb9bf1c0a7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git-Obsidian/Definitions/Definizioni_Analisi.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Analisi/Calcolo Differenziale/Derivate.md",
+                "file": "Git-Obsidian/Analisi/Calcolo Differenziale/Derivate di Funzioni Elementari.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Analisi/Calcolo Differenziale/Derivate.md",
+                "file": "Git-Obsidian/Analisi/Calcolo Differenziale/Derivate di Funzioni Elementari.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git-Obsidian/Analisi/Calcolo Differenziale/Derivate.md"
+                "file": "Git-Obsidian/Analisi/Calcolo Differenziale/Derivate di Funzioni Elementari.md"
               }
             }
           },
@@ -158,9 +182,13 @@
   },
   "active": "a8e50e088d78eef6",
   "lastOpenFiles": [
-    "Git-Obsidian/Attatchments/Pasted image 20231027102103.png",
-    "Git-Obsidian/Analisi/Funzioni/Introduzione Funzioni.md",
     "Git-Obsidian/Analisi/Calcolo Differenziale/Derivate.md",
+    "Git-Obsidian/Markdown Keys.md",
+    "Git-Obsidian/Definitions/Definizioni_Analisi.md",
+    "Git-Obsidian/Analisi/Calcolo Differenziale/Derivate di Funzioni Elementari.md",
+    "Git-Obsidian/Analisi/Funzioni/Introduzione Funzioni.md",
+    "Git-Obsidian/Analisi/Funzioni/Funzioni di una variabile Reale.md",
+    "Git-Obsidian/Attatchments/Pasted image 20231027102103.png",
     "Git-Obsidian/Attatchments/Relation operators.png",
     "Git-Obsidian/Attatchments/Pasted image 20231027100008.png",
     "Git-Obsidian/Attatchments/Pasted image 20231023173515.png",
@@ -170,12 +198,9 @@
     "Git-Obsidian/Attatchments/Pasted image 20231013181132.png",
     "Git-Obsidian/Attatchments/Pasted image 20231013110411.png",
     "Git-Obsidian/Attatchments/Pasted image 20231013095115.png",
-    "Git-Obsidian/Attatchments/Pasted image 20231013094149.png",
     "Git-Obsidian/Analisi/Calcolo Differenziale",
     "Git-Obsidian/Analisi/Limiti/Limiti.md",
-    "Git-Obsidian/Definitions/Definizioni_Analisi.md",
     "Git-Obsidian/Analisi/Tipologie di Dimostrazioni.md",
-    "Git-Obsidian/Markdown Keys.md",
     "Git-Obsidian/Analisi/Limiti/Calcolo dei Limiti.md",
     "Git-Obsidian/Analisi/Successioni/Tipologie di Successioni.md",
     "Git-Obsidian/Analisi/Successioni/Limiti di Successioni.md",
@@ -189,7 +214,6 @@
     "Git-Obsidian/Programmazione/Alfabeto e Lessico",
     "Git-Obsidian/Programmazione/Tipologie di Variabili",
     "Git-Obsidian/Programmazione/Funzioni",
-    "Git-Obsidian/Analisi/Funzioni/Funzioni di una variabile Reale.md",
     "Git-Obsidian/Analisi/Successioni/Operazioni con i Limiti.md",
     "Git-Obsidian/Attatchments/Pasted image 20231020102454.png.~tmp",
     "Git-Obsidian/Programmazione/Funzioni/Funzioni Ricorsive.md",
