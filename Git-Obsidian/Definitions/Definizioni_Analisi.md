@@ -49,3 +49,9 @@ $e^{i\pi}=-1\Leftrightarrow e^{i\pi}+1 = 0$
 >>Tutte le coppie di esponenti la cui somma è $n$
 
 - Dimostrabile per induzione
+
+## Punto interno in un Intervallo
+---
+>[!info] Definizione
+>Un punto interno ad un [[Introduzione Funzioni#Intervallo|intervallo]] $I$ qualsiasi è un punto che sta dentro all'intervallo $I$ tranne gli estremi dell'intervallo
+>$$c\in I\setminus \{ inf(f),sup(f) \}$$

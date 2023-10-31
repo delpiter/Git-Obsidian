@@ -82,7 +82,35 @@ $$
 ><u>Allora</u>
 >Posto $y=f(c)$, si ha:
 >$$(f^{-1})'(y)= \displaystyle{\frac{1}{\underbrace{ f'(f^{-1}(y)) }_{ c }}}$$
-
+### Dimostrazione Geometrica
+![[Pasted image 20231031153153.png]]
+- Equazione di $r : y=\underbrace{ m }_{ f'(x) }x+q$
+	- $x= \displaystyle{\frac{y-q}{m}}$
+- Equazione di $s:y= \displaystyle{\frac{x}{m}}- \displaystyle{\frac{q}{m}}$
+- Quindi il coefficiente angolare di $s$ è $\displaystyle{\frac{1}{m}} \implies \displaystyle{\frac{1}{f'(x)}}$
+### Osservazione
+Considero $f(x)=x^b, x>0,b\in\mathbb{R}$
+$$
+f(x)=e^{ln(x^b)} \implies f'(x) = \underbrace{ e^{b\cdot ln(x)} }_{ \displaystyle g'(f(x)) }\cdot \displaystyle{\underbrace{ \frac{b}{x} }_{ f'(x) }}=x^b\cdot \displaystyle{\frac{b}{x}} = bx^{b-1}
+$$
+$$
+\lim\limits_{h\to 0^+} \displaystyle{\frac{h^b}{h}} = \begin{cases}
+0 \text{ se }b>1 \\
+1 \text{ se }b=1 \\
++\infty \text{ se } 0<b<1
+\end{cases}
+$$
+>[!done] In Breve
+>$x^b$ è derivabile in $0$ se $b\geq 1$
+## Logaritmo
+>[!tip] Funzione
+>$$f(x)=ln(x)=(exp)^{-1}(x)$$
+### Dimostrazione
+$$
+\begin{array}
+\ (ln)'(x) = \displaystyle{\frac{1}{exp(ln(x))}} = \displaystyle{\frac{1}{x}}
+\end{array}
+$$
 ## Funzioni Trigonometriche
 ---
 ### Seno
@@ -105,5 +133,52 @@ $$
 \begin{array}
 \ f'(c)= \lim\limits_{h\to 0} \displaystyle{\frac{cos(c+h)-cos(c)}{h}} = \lim\limits_{h\to 0} \displaystyle{\frac{cos(c)cos(h)-sen(c)sen(h)-cos(c)}{h}} \\
 \lim\limits_{h\to 0} cos(c)\displaystyle{\frac{cos(h)-1}{h}}- \displaystyle{\frac{sen(c)sen(h)}{h}}
+\end{array}
+$$
+### Tangente
+>[!tip] Funzione
+>$$f(x)=tan(x) =\displaystyle{\frac{sen(x)}{cos(x)}},x\neq \displaystyle{\frac{\pi}{2}}+k\pi, k\in\mathbb{Z}$$
+
+#### Dimostrazione
+$$
+\begin{array}
+\ f'(x)= \displaystyle{\frac{cos(x)\cdot cos(x)-(-sen(x)\cdot sen(x))}{cos^2(x)}}= \\
+= \displaystyle{\frac{cos^2(x)+sen^2(x)}{cos^2(x)}}= \displaystyle{\frac{1}{cos^2(x)}}=1+ tan^2(x)
+\end{array}
+$$
+
+### Arcoseno
+>[!tip] Funzione
+>$$f(x)=arcsen(x), \ \ \ \ arcsen(x)\in\left[ - \displaystyle{\frac{\pi}{2}}; \displaystyle{\frac{\pi}{2}} \right]$$
+
+#### Dimostrazione
+$$
+\begin{array}
+\ f'(x)= \displaystyle{\frac{1}{sen'(arcsen(x))}} = \displaystyle{\frac{1}{cos(arcsen(x))}}=\displaystyle{\frac{1}{\sqrt{ 1-x^2 }}}
+\end{array}
+$$
+
+>[!done] $cos(arcsen(x))$
+>Il coseno dell'arcoseno di $x$ è il valore del coseno dell'angolo ottenuto facendo l'arcoseno di $x$
+>$cos^2(x)=1-sen^2(x)$
+>Ma l'arcoseno di $x$ non è altro che il risultato di $sin(x)$ quindi nel nostro caso:
+>$cos(x)=\sqrt{ 1-x^2 }$
+
+### Arcocoseno
+>[!tip] Funzione
+>$$f(x)= arccos(x),\ \ \ \ \ arccos(x)\in\left[ 0;\pi \right]$$
+
+#### Dimostrazione
+$$
+f'(x) = \displaystyle{\frac{1}{cos'(arccos(x))}} = \displaystyle{\frac{1}{-sen(arccos(x))}}=- \displaystyle{\frac{1}{\sqrt{ 1-x^2 }}}
+$$
+### Arcotangente
+>[!tip] Funzione
+>$$f(x)=arctan(x)$$
+
+#### Dimostrazione
+$$
+\begin{array}
+\ f'(x)= \displaystyle{\frac{1}{tan'(arctan(x))}}= \displaystyle{\frac{1}{1+\underbrace{ tan^2(arctan(x)) }_{ \displaystyle x^2 }}} = \displaystyle{\frac{1}{1+x^2}}
 \end{array}
 $$
