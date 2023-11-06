@@ -68,19 +68,6 @@ possibile fare anche innestati
 >Asd
 >>Sus
 
-Tabelle
-\| inizio colonna \| seconda colonna \|
-- - - - - - - -
-\| inizio colonna \| seconda colonna \|
-
-
-
-| Syntax      | Description |
-| ----------- | ----------- |
-| Header      | Title       |
-| Paragraph   | Text        |
-
-
 linee separazione (\*\ * \*) (- - -) (\_ \_ \_)
 in una linea da soli 
 - - -

@@ -88,10 +88,12 @@ $$(f^{-1}_of)(x) = x \;\; \forall x \in A$$
 
 ## Intervallo
 - - -
+>[!info] Definizione
 >Diciamo che $I \subseteq \mathbb{R}$ è un intervallo se $\forall x,y \in I$ ($x>y$) e $\forall z \in \mathbb{R}: x<z<y$
 >si ha $z \in I$
->	Presi due numeri $x\; e \;y$ all'interno dell'insieme si dice intervallo se per ogni $z$ preso fra $x$ e $y$
->	anche $z$ è interno all'insieme
+>
+>>[!done] In Breve
+>>Presi due numeri $x\; e \;y$ all'interno dell'insieme si dice intervallo se per ogni $z$ preso fra $x$ e $y$, anche $z$ è interno all'insieme
 ###### Es
 - È un intervallo:
 $$

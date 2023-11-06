@@ -40,10 +40,10 @@ $$
 $$
 ###### Abbiamo 2 casi:
 - $f(x)-f(c)\geq0$ poichè $c$ è un punto di minimo
-- Con $\forall x \in(c,c+\delta)$
+- Caso $\forall x \in(c,c+\delta)$
 	- $x-c\geq 0$
 	- Quindi il rapporto incrementale è sempre $\geq 0$
-- Con $\forall x \in(c-\delta,c)$
+- Caso $\forall x \in(c-\delta,c)$
 	- $x-c\leq 0$
 	- Quindi il rapporto incrementale è sempre $\leq0$
 
@@ -79,7 +79,7 @@ $$
 f'(x)=0\ \ \ \ \ \ \forall x\in[a,b]
 $$
 #### $max$ o $min$ assunti internamente
-Se almeno uno, trs $max$ e $min$, è assunto all'interno di $(a,b)$ allora in tale punto $c$ posso applicare il [[#Teorema di Fermat]] e dedurre che:
+Se almeno uno, tra $max$ e $min$, è assunto all'interno di $(a,b)$ allora in tale punto $c$ posso applicare il [[#Teorema di Fermat]] e dedurre che:
 $$
 f'(c)=0
 $$
