@@ -153,7 +153,16 @@ a_{n}\leq l+\mathcal{E}< \displaystyle{\frac{l+m}{2}}<m-\mathcal{E}\leq b_{n}
 \end{array}
 $$
 - Ciò implica che $a_{n}<b_{n} \to$ contraddizione perchè per ipotesi $a_{n}\geq b_{n}$
-
+#### Osservazione
+Se avessi come ipotesi $a_{n}>b_{n}$ non potrei dedurre $l>m$ ma solo $m\geq l$
+##### Esempio
+$$
+\begin{array}
+\ a_{n}=\frac{1}{n}\ \ \ \ \ \ \ \ \ b_{n}=0 \\
+a_{n}>b_{n} \\
+l=0\geq m=0
+\end{array}
+$$
 ## Teorema della permanenza dei segni
 - - -
 >[!info] Definizione

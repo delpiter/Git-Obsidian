@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Obsidian/Analisi/Calcolo Differenziale/Teoremi basati sulle Derivate.md",
+                "file": "Git-Obsidian/Analisi/Successioni/Limiti di Successioni.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "confronto",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Analisi/Calcolo Differenziale/Teoremi basati sulle Derivate.md",
+                "file": "Git-Obsidian/Analisi/Successioni/Limiti di Successioni.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Analisi/Calcolo Differenziale/Teoremi basati sulle Derivate.md",
+                "file": "Git-Obsidian/Analisi/Successioni/Limiti di Successioni.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git-Obsidian/Analisi/Calcolo Differenziale/Teoremi basati sulle Derivate.md"
+                "file": "Git-Obsidian/Analisi/Successioni/Limiti di Successioni.md"
               }
             }
           },
@@ -159,8 +159,18 @@
   },
   "active": "a8e50e088d78eef6",
   "lastOpenFiles": [
-    "Git-Obsidian/Analisi/Funzioni/Introduzione Funzioni.md",
     "Git-Obsidian/Analisi/Calcolo Differenziale/Teoremi basati sulle Derivate.md",
+    "Git-Obsidian/Analisi/Concetti Base.md",
+    "Git-Obsidian/Spiegazione.md",
+    "Spiegazione.pdf",
+    "Spiegazione2.pdf",
+    "Spiegazione3.pdf",
+    "Git-Obsidian/Attatchments/Pasted image 20231106163613.png",
+    "Git-Obsidian/Attatchments/matching.png",
+    "Git-Obsidian/Attatchments/Pasted image 20231106162326.png",
+    "Git-Obsidian/Attatchments/Pasted image 20231106160726.png",
+    "Git-Obsidian/Attatchments/Pasted image 20231106155053.png",
+    "Git-Obsidian/Analisi/Funzioni/Introduzione Funzioni.md",
     "Git-Obsidian/Attatchments/Pasted image 20231106151842.png",
     "Git-Obsidian/Attatchments/Pasted image 20231106151817.png",
     "Git-Obsidian/Definitions/Definizioni_Analisi.md",
@@ -172,12 +182,7 @@
     "Git-Obsidian/Attatchments/Pasted image 20230930115346.png",
     "Git-Obsidian/Attatchments/Pasted image 20231031153153.png",
     "Git-Obsidian/Analisi/Calcolo Differenziale/Pasted image 20231031152728.png.md",
-    "Git-Obsidian/Attatchments/Pasted image 20231031152728.png",
     "Git-Obsidian/Markdown Keys.md",
-    "Git-Obsidian/Attatchments/Pasted image 20231027102103.png",
-    "Git-Obsidian/Attatchments/Relation operators.png",
-    "Git-Obsidian/Attatchments/Pasted image 20231027100008.png",
-    "Git-Obsidian/Attatchments/Pasted image 20231023173515.png",
     "Git-Obsidian/Analisi/Calcolo Differenziale",
     "Git-Obsidian/Analisi/Limiti/Limiti.md",
     "Git-Obsidian/Analisi/Tipologie di Dimostrazioni.md",
@@ -186,7 +191,6 @@
     "Git-Obsidian/Analisi/Successioni/Limiti di Successioni.md",
     "Git-Obsidian/Analisi/Successioni/Successioni.md",
     "Git-Obsidian/Analisi/Successioni/Numero di Nepero.md",
-    "Git-Obsidian/Analisi/Concetti Base.md",
     "Git-Obsidian/Analisi/Breve ripasso.md",
     "Git-Obsidian/Programmazione/Teoria.md",
     "Git-Obsidian/Programmazione/Strutture di Controllo",
@@ -197,12 +201,8 @@
     "Git-Obsidian/Analisi/Successioni/Operazioni con i Limiti.md",
     "Git-Obsidian/Attatchments/Pasted image 20231020102454.png.~tmp",
     "Git-Obsidian/Analisi/Insiemi/Insiemi Numerici.md",
-    "Git-Obsidian/Analisi/Limiti",
     "Git-Obsidian/Analisi/Funzioni/Intro 1.md",
     "Git-Obsidian/Analisi/Insiemi/Numeri Complessi.md",
-    "README.md",
-    "Git-Obsidian/Definitions/Latex-suite.txt",
-    "Git-Obsidian/Analisi/Successioni",
-    "conflict-files-obsidian-git.md"
+    "README.md"
   ]
 }

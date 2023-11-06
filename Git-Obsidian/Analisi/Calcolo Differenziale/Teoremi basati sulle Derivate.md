@@ -124,3 +124,39 @@ $$
 ><u>Allora</u>
 >$f \text{ è }\nearrow \text{ in }I\Leftrightarrow f'(x)\geq0 \ \ \forall x\in I$
 >$f \text{ è }\searrow \text{ in }I\Leftrightarrow f'(x)\leq0 \ \ \forall x\in I$
+
+### Dimostrazione
+È necessario dimostrare l'implicazione reciproca
+#### Supponiamo $f \nearrow$ in $I$
+- Siano $x,c \in I, x\neq c$
+	- Si ha che per definizione di funzione [[Introduzione Funzioni#Crescente|crescente]]
+$$
+\displaystyle{\frac{f(x)-f(c)}{x-c}}\geq 0
+$$
+Passando al limite per $x\to c$, deduco che:
+$$
+f'(c)=\lim\limits_{x\to c} \displaystyle{\frac{f(x)-f(c)}{x-c}}\geq 0
+$$
+- Per il teorema del confronto
+#### Supponiamo $f'(x)\geq 0$, $\forall x \in I$
+- Siano $x_{1},x_{2} \in I$ con $x_{1}\leq x_{2}$, allora si ha che:
+$$
+f_{\displaystyle|_{x_{1},x_{2}}}:[x_{1},x_{2}]\to\mathbb{R}
+$$
+- $f$ soddisfa le ipotesi del [[#Teorema di Lagrange|teorema di lagrange]] e dunque
+$$
+\exists c \in(x_{1},x_{2}): \displaystyle{\frac{f(x_{2})-f(x_{1})}{x_{2}-x_{1}}}=f'(c)
+$$
+- Per ipotesi quindi otteniamo: $f'(c)\geq 0$
+Ciò implica $f(x_{1})\leq f(x_{2})$ cioè $f\nearrow$
+### Osservazione
+Considerando la monotonia strettamente crescente o decrescente
+- Vale lo stesso la relazione di equivalenza?
+$$
+f\nearrow \text{ strettamente e }f'(x)>0, \forall x \in I
+$$
+- In generale non vale
+	- Continua a valere la relazione solo da una parte
+	- $f'(x)>0, \forall x \in I  \implies f \nearrow \text{strettamente}$
+	- Invece non è vero
+	- $f \nearrow \text{strettamente}   \implies f'(x)>0, \forall x \in I$
