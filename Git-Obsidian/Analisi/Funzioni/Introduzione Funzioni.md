@@ -150,7 +150,7 @@ $$
 \begin{cases}
 f+g \text{ è continua} \\
 f\cdot g \text{ è continua} \\
-\displaystyle{\frac{f}{g}} \text{ è continua}
+\displaystyle{\frac{f}{g}} \text{ è continua, }g\neq0 
 \end{cases}
 $$
 - Inoltre 

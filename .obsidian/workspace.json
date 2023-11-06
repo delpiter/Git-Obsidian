@@ -20,12 +20,36 @@
             }
           },
           {
+            "id": "26b52bd74fe04d16",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git-Obsidian/Analisi/Funzioni/Introduzione Funzioni.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "edf084a44dd60e8a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Git-Obsidian/Definitions/Definizioni_Analisi.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "49ed3672cb471bb9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git-Obsidian/Analisi/Funzioni/Introduzione Funzioni.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,7 +85,7 @@
               "type": "search",
               "state": {
                 "query": "",
-                "matchingCase": true,
+                "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -77,7 +101,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -170,15 +195,15 @@
   },
   "active": "a8e50e088d78eef6",
   "lastOpenFiles": [
-    "Git-Obsidian/Programmazione/Funzioni/Funzioni Ricorsive.md",
+    "Git-Obsidian/Analisi/Funzioni/Introduzione Funzioni.md",
     "Git-Obsidian/Analisi/Calcolo Differenziale/Teoremi basati sulle Derivate.md",
-    "Git-Obsidian/Analisi/Funzioni/Funzioni di una variabile Reale.md",
     "Git-Obsidian/Definitions/Definizioni_Analisi.md",
+    "Git-Obsidian/Programmazione/Funzioni/Funzioni Ricorsive.md",
+    "Git-Obsidian/Analisi/Funzioni/Funzioni di una variabile Reale.md",
     "Git-Obsidian/Analisi/Calcolo Differenziale/Derivate di Funzioni Elementari.md",
     "Git-Obsidian/Analisi/Calcolo Differenziale/Derivate.md",
     "Git-Obsidian/Attatchments/Pasted Image 202304523.jpg",
     "Git-Obsidian/Attatchments/Pasted image 20230930115346.png",
-    "Git-Obsidian/Analisi/Funzioni/Introduzione Funzioni.md",
     "Git-Obsidian/Attatchments/Pasted image 20231031153153.png",
     "Git-Obsidian/Analisi/Calcolo Differenziale/Pasted image 20231031152728.png.md",
     "Git-Obsidian/Attatchments/Pasted image 20231031152728.png",
