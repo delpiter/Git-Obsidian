@@ -84,6 +84,7 @@ $$
 f'(c)=0
 $$
 ### Visualizzazione Grafica
+![[Pasted image 20231106151817.png]]
 
 ## Teorema di Lagrange
 ---
@@ -114,3 +115,12 @@ g'(c)=0 \Leftrightarrow f'(c)=\displaystyle{\frac{f(b)-f(a)}{b-a}}
 $$
 
 ### Visualizzazione Grafica
+![[Pasted image 20231106151842.png]]
+
+## Teorema test di Monotonia
+---
+>[!info] Teorema
+>Sia $I$ intervallo di $\mathbb{R}$, $f:I\to\mathbb{R}$, derivabile
+><u>Allora</u>
+>$f \text{ è }\nearrow \text{ in }I\Leftrightarrow f'(x)\geq0 \ \ \forall x\in I$
+>$f \text{ è }\searrow \text{ in }I\Leftrightarrow f'(x)\leq0 \ \ \forall x\in I$
