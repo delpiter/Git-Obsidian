@@ -14,25 +14,25 @@
               "type": "markdown",
               "state": {
                 "file": "Git-Obsidian/Analisi/Calcolo Differenziale/Teoremi basati sulle Derivate.md",
-                "mode": "preview",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7d42fff80ef2095c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git-Obsidian/Analisi/Funzioni/Studio di Funzioni.md",
+                "mode": "source",
                 "source": false
               }
             }
           },
           {
             "id": "889b820d4d3a3bd5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git-Obsidian/Analisi/Funzioni/Introduzione Funzioni.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "399eaef51b6f7d05",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -93,8 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240.5,
-    "collapsed": true
+    "width": 240.5
   },
   "right": {
     "id": "3561446b8c4d05ef",
@@ -183,8 +182,11 @@
   },
   "active": "a8e50e088d78eef6",
   "lastOpenFiles": [
-    "Git-Obsidian/Analisi/Funzioni/Introduzione Funzioni.md",
+    "Git-Obsidian/Analisi/Funzioni/Studio di Funzioni.md",
+    "Git-Obsidian/Attatchments/concavita 1.png",
+    "Git-Obsidian/Attatchments/concavita.png",
     "Git-Obsidian/Analisi/Calcolo Differenziale/Teoremi basati sulle Derivate.md",
+    "Git-Obsidian/Analisi/Funzioni/Introduzione Funzioni.md",
     "Git-Obsidian/Markdown Keys.md",
     "Git-Obsidian/Analisi/Calcolo Differenziale/Derivate di Funzioni Elementari.md",
     "Git-Obsidian/Attatchments/Pasted image 20231106155053.png",
@@ -201,8 +203,6 @@
     "Git-Obsidian/Spiegazione.md",
     "Spiegazione2.pdf",
     "Spiegazione3.pdf",
-    "Git-Obsidian/Attatchments/matching.png",
-    "Git-Obsidian/Attatchments/Pasted image 20231106151817.png",
     "Git-Obsidian/Definitions/Definizioni_Analisi.md",
     "Git-Obsidian/Programmazione/Funzioni/Funzioni Ricorsive.md",
     "Git-Obsidian/Analisi/Funzioni/Funzioni di una variabile Reale.md",
@@ -226,7 +226,6 @@
     "Git-Obsidian/Attatchments/Pasted image 20231020102454.png.~tmp",
     "Git-Obsidian/Analisi/Insiemi/Insiemi Numerici.md",
     "Git-Obsidian/Analisi/Funzioni/Intro 1.md",
-    "Git-Obsidian/Analisi/Insiemi/Numeri Complessi.md",
-    "README.md"
+    "Git-Obsidian/Analisi/Insiemi/Numeri Complessi.md"
   ]
 }

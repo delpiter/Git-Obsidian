@@ -160,3 +160,37 @@ $$
 	- $f'(x)>0, \forall x \in I  \implies f \nearrow \text{strettamente}$
 	- Invece non è vero
 	- $f \nearrow \text{strettamente}   \implies f'(x)>0, \forall x \in I$
+
+## Test di concavità
+---
+>[!info] Teorema
+>Sia $f:I\to\mathbb{R}$ [[Introduzione Funzioni#Intervallo|intervallo]] di $\mathbb{R}$, con $f$ derivabile
+><u>Allora</u>
+>$f$ convessa su $I\Leftrightarrow f' \nearrow$ su $I$
+>$f$ concava su $I\Leftrightarrow f' \searrow$ su $I$
+
+### Dimostrazione
+#### Assumo $f$ convessa si $I$
+$$
+\forall x,y \in I \begin{cases}
+f(x)\geq f(y)+f'(y)(x-y) \\
+f(y)\geq f(x)+f'(x)(y-x)
+\end{cases}
+$$
+- Sommando membro a membro si ha
+$$
+\cancel{ f(x) }+\cancel{ f(y) }\leq \cancel{ f(x) }+\cancel{ f(y) }+(x-y)(f'(y)-f'(x))
+$$
+$$
+(f'(y)-f'(x))(y-x)\geq 0 \Leftrightarrow f' \nearrow
+$$
+#### Assumo $f'\nearrow$ in $I$
+Siano $c,x \in I$, $c<x$
+- $f$ soddisfa le ipotesi del [[#Teorema di Lagrange|teorema di Lagrange]] nell'intervallo $[c,x]$ e dunque
+$$
+\exists d\in (c,x):(x-c) f(x)-f(c)=f'(d)(x-c)
+$$
+- Poichè $f'$ è $\nearrow$
+$$
+f(x)-f(c)\geq f'(c)(x-c)
+$$
