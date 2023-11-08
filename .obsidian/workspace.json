@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Obsidian/Analisi/Formula di Taylor/Polinomio Di Taylor.md",
+                "file": "Git-Obsidian/Analisi/Funzioni/Funzioni di una variabile Reale.md",
                 "mode": "source",
                 "source": false
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Analisi/Formula di Taylor/Polinomio Di Taylor.md",
+                "file": "Git-Obsidian/Analisi/Funzioni/Funzioni di una variabile Reale.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Analisi/Formula di Taylor/Polinomio Di Taylor.md",
+                "file": "Git-Obsidian/Analisi/Funzioni/Funzioni di una variabile Reale.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git-Obsidian/Analisi/Formula di Taylor/Polinomio Di Taylor.md"
+                "file": "Git-Obsidian/Analisi/Funzioni/Funzioni di una variabile Reale.md"
               }
             }
           },
@@ -207,8 +207,8 @@
   },
   "active": "1b97e983750d2f24",
   "lastOpenFiles": [
-    "Git-Obsidian/Analisi/Calcolo Differenziale/Teoremi basati sulle Derivate.md",
     "Git-Obsidian/Analisi/Formula di Taylor/Polinomio Di Taylor.md",
+    "Git-Obsidian/Analisi/Calcolo Differenziale/Teoremi basati sulle Derivate.md",
     "Git-Obsidian/Analisi/Formula di Taylor",
     "Git-Obsidian/Analisi/Funzioni/Studio di Funzioni.md",
     "Git-Obsidian/Analisi/Limiti/Calcolo dei Limiti.md",
