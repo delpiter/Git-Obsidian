@@ -70,6 +70,6 @@ $$
 >>La successioni $a_{n}$ è trascurabile rispetto a $b_{n}$ quando il limite del rapporto $\displaystyle{\frac{a_{n}}{b_{n}}}$ è uguale a $0$
 
 ### Calcoli con $_{o}(\dots)$
-- se $a_{n}=_{o}(b_{n}),c_{n}=_{o}(b_{n}) \implies a_{n}+c_{n}=_{o}()b_{n}$
+- se $a_{n}=\circ(b_{n}),c_{n}=\circ(b_{n}) \implies a_{n}+c_{n}=\circ(b_{n})$
 - se $a_{n}=_{o}(b_{n}),c_{n}=_{o}(d_{n})\implies a_{n}\cdot c_{n}=_{o}(b_{n}\cdot d_{n})$
 - se $a_{n}=_{o}(b_{n}),a_{n}\cdot c_{n}=_{o}(b_{n}\cdot c_{n})$

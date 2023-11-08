@@ -13,8 +13,32 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Obsidian/Analisi/Calcolo Differenziale/Teoremi basati sulle Derivate.md",
+                "file": "Git-Obsidian/Analisi/Funzioni/Studio di Funzioni.md",
                 "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1b97e983750d2f24",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git-Obsidian/Analisi/Formula di Taylor/Polinomio Di Taylor.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6bcaefb7bafe28f6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git-Obsidian/Analisi/Successioni/Tipologie di Successioni.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -43,7 +67,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -72,7 +97,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "confronto",
+                "query": "Trascu",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -109,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Analisi/Calcolo Differenziale/Teoremi basati sulle Derivate.md",
+                "file": "Git-Obsidian/Analisi/Formula di Taylor/Polinomio Di Taylor.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Analisi/Calcolo Differenziale/Teoremi basati sulle Derivate.md",
+                "file": "Git-Obsidian/Analisi/Formula di Taylor/Polinomio Di Taylor.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git-Obsidian/Analisi/Calcolo Differenziale/Teoremi basati sulle Derivate.md"
+                "file": "Git-Obsidian/Analisi/Formula di Taylor/Polinomio Di Taylor.md"
               }
             }
           },
@@ -180,12 +205,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a8e50e088d78eef6",
+  "active": "1b97e983750d2f24",
   "lastOpenFiles": [
+    "Git-Obsidian/Analisi/Calcolo Differenziale/Teoremi basati sulle Derivate.md",
+    "Git-Obsidian/Analisi/Formula di Taylor/Polinomio Di Taylor.md",
+    "Git-Obsidian/Analisi/Formula di Taylor",
     "Git-Obsidian/Analisi/Funzioni/Studio di Funzioni.md",
+    "Git-Obsidian/Analisi/Limiti/Calcolo dei Limiti.md",
+    "Git-Obsidian/Analisi/Successioni/Tipologie di Successioni.md",
+    "Git-Obsidian/Analisi/Limiti/Limiti.md",
+    "Git-Obsidian/Definitions/Definizioni_Analisi.md",
     "Git-Obsidian/Attatchments/concavita 1.png",
     "Git-Obsidian/Attatchments/concavita.png",
-    "Git-Obsidian/Analisi/Calcolo Differenziale/Teoremi basati sulle Derivate.md",
     "Git-Obsidian/Analisi/Funzioni/Introduzione Funzioni.md",
     "Git-Obsidian/Markdown Keys.md",
     "Git-Obsidian/Analisi/Calcolo Differenziale/Derivate di Funzioni Elementari.md",
@@ -203,16 +234,12 @@
     "Git-Obsidian/Spiegazione.md",
     "Spiegazione2.pdf",
     "Spiegazione3.pdf",
-    "Git-Obsidian/Definitions/Definizioni_Analisi.md",
     "Git-Obsidian/Programmazione/Funzioni/Funzioni Ricorsive.md",
     "Git-Obsidian/Analisi/Funzioni/Funzioni di una variabile Reale.md",
     "Git-Obsidian/Analisi/Calcolo Differenziale/Derivate.md",
     "Git-Obsidian/Analisi/Calcolo Differenziale/Pasted image 20231031152728.png.md",
     "Git-Obsidian/Analisi/Calcolo Differenziale",
-    "Git-Obsidian/Analisi/Limiti/Limiti.md",
     "Git-Obsidian/Analisi/Tipologie di Dimostrazioni.md",
-    "Git-Obsidian/Analisi/Limiti/Calcolo dei Limiti.md",
-    "Git-Obsidian/Analisi/Successioni/Tipologie di Successioni.md",
     "Git-Obsidian/Analisi/Successioni/Successioni.md",
     "Git-Obsidian/Analisi/Successioni/Numero di Nepero.md",
     "Git-Obsidian/Analisi/Breve ripasso.md",
@@ -223,7 +250,6 @@
     "Git-Obsidian/Programmazione/Tipologie di Variabili",
     "Git-Obsidian/Programmazione/Funzioni",
     "Git-Obsidian/Analisi/Successioni/Operazioni con i Limiti.md",
-    "Git-Obsidian/Attatchments/Pasted image 20231020102454.png.~tmp",
     "Git-Obsidian/Analisi/Insiemi/Insiemi Numerici.md",
     "Git-Obsidian/Analisi/Funzioni/Intro 1.md",
     "Git-Obsidian/Analisi/Insiemi/Numeri Complessi.md"

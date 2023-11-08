@@ -161,7 +161,7 @@ $$
 	- Invece non è vero
 	- $f \nearrow \text{strettamente}   \implies f'(x)>0, \forall x \in I$
 
-## Test di concavità
+## Test di convessità 1
 ---
 >[!info] Teorema
 >Sia $f:I\to\mathbb{R}$ [[Introduzione Funzioni#Intervallo|intervallo]] di $\mathbb{R}$, con $f$ derivabile
@@ -194,3 +194,19 @@ $$
 $$
 f(x)-f(c)\geq f'(c)(x-c)
 $$
+## Test di Convessità 2
+---
+>[!info] Teorema
+>Sia $f:I\to\mathbb{R}$, derivabile 2 volte su $I$
+><u>Allora</u>
+>$f$ convessa $\Leftrightarrow f''(x)\leq0, \forall x \in I$
+>$f$ concava $\Leftrightarrow f''(x)\geq0, \forall x \in I$
+- I punti dove cambia la convessità si chiamano punti di flesso
+## Condizione sufficiente per estremanti locali
+---
+>[!info] Definizione
+>Sia $I$ [[Introduzione Funzioni#Intervallo|intervallo]] di $\mathbb{R}$, $f:I\to\mathbb{R}$
+>Sia $c\in I$, supponiamo $f$ derivabile 2 volte in $c$
+>> Se $f'(c)=0 \text{ e } f''(c)>0 \implies c$ è punto di minimo locale
+>> Se $f'(c)=0 \text{ e } f''(c)<0 \implies c$ è punto di massimo locale
+
