@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Obsidian/Analisi/Funzioni/Funzioni di una variabile Reale.md",
+                "file": "Git-Obsidian/Game Programming/Introduction.md",
                 "mode": "source",
                 "source": false
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Analisi/Funzioni/Funzioni di una variabile Reale.md",
+                "file": "Git-Obsidian/Game Programming/Introduction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Analisi/Funzioni/Funzioni di una variabile Reale.md",
+                "file": "Git-Obsidian/Game Programming/Introduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git-Obsidian/Analisi/Funzioni/Funzioni di una variabile Reale.md"
+                "file": "Git-Obsidian/Game Programming/Introduction.md"
               }
             }
           },
@@ -207,6 +207,9 @@
   },
   "active": "1b97e983750d2f24",
   "lastOpenFiles": [
+    "Git-Obsidian/Analisi/Funzioni/Funzioni di una variabile Reale.md",
+    "Git-Obsidian/Game Programming/Introduction.md",
+    "Git-Obsidian/Game Programming",
     "Git-Obsidian/Analisi/Formula di Taylor/Polinomio Di Taylor.md",
     "Git-Obsidian/Analisi/Calcolo Differenziale/Teoremi basati sulle Derivate.md",
     "Git-Obsidian/Analisi/Formula di Taylor",
@@ -235,7 +238,6 @@
     "Spiegazione2.pdf",
     "Spiegazione3.pdf",
     "Git-Obsidian/Programmazione/Funzioni/Funzioni Ricorsive.md",
-    "Git-Obsidian/Analisi/Funzioni/Funzioni di una variabile Reale.md",
     "Git-Obsidian/Analisi/Calcolo Differenziale/Derivate.md",
     "Git-Obsidian/Analisi/Calcolo Differenziale/Pasted image 20231031152728.png.md",
     "Git-Obsidian/Analisi/Calcolo Differenziale",
@@ -248,10 +250,8 @@
     "Git-Obsidian/Programmazione/Espressioni e Operatori",
     "Git-Obsidian/Programmazione/Alfabeto e Lessico",
     "Git-Obsidian/Programmazione/Tipologie di Variabili",
-    "Git-Obsidian/Programmazione/Funzioni",
     "Git-Obsidian/Analisi/Successioni/Operazioni con i Limiti.md",
     "Git-Obsidian/Analisi/Insiemi/Insiemi Numerici.md",
-    "Git-Obsidian/Analisi/Funzioni/Intro 1.md",
-    "Git-Obsidian/Analisi/Insiemi/Numeri Complessi.md"
+    "Git-Obsidian/Analisi/Funzioni/Intro 1.md"
   ]
 }
