@@ -1,3 +1,4 @@
+
 ## Formula di Taylor con Resto di Peano
 >[!info] Teorema
 >Sia $I$ [[Introduzione Funzioni#Intervallo|intervallo]] di $\mathbb{R}$, $f:I\to\mathbb{R},c\in I,n \in\mathbb{N}$
@@ -41,6 +42,16 @@ $$
 ##### Applico il valore assoluto
 $$
 \begin{array}
-\ \left|\displaystyle{\frac{R(x)-R(0)}{x^2}}\right|=\left| \displaystyle\frac{R'(d_{x})}{x} \right|\leq \left| \displaystyle\frac{R'(d_{x})}{d_{x}} \right| 
+\ 0\leq\left|\displaystyle{\frac{R(x)-R(0)}{x^2}}\right|=\left| \displaystyle\frac{R'(d_{x})}{x} \right|\leq \underbrace{ \left| \displaystyle\frac{R'(d_{x})}{d_{x}} \right| }_{ \text{ tende a 0 per }x\to0 }  \\
 \end{array}
+$$
+- Dato che $d_{x}$ è compreso tra $x$ e $-x$ se $x\to 0$ anche $d_{x}\to0$
+Per il [[Limiti di Successioni#Teorema dei due Carabinieri|teorema dei due carabinieri]] deduco che:
+$$
+\displaystyle{\frac{R(x)}{x^2}} \to 0 \text{ per } x\to0
+$$
+### Osservazione
+Il polinomio di Taylor $T_{c,n}(x)$, di punto iniziale $c$ e di ordine $n$ è l'unico polinomio con la seguente proprietà:
+$$
+T^{(k)}_{c,n}(c) = f^{(k)}(c), \forall k=\{ 0,1,2,\dots,n \}
 $$

@@ -18,6 +18,18 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "59bd579934e66b00",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git-Obsidian/Analisi/Taylor/Polinomio Di Taylor.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ]
       }
@@ -158,6 +170,7 @@
   },
   "active": "d845dc214872a4fb",
   "lastOpenFiles": [
+    "Git-Obsidian/Analisi/Taylor/Formule di Taylor di Funzioni Elementari.md",
     "Git-Obsidian/Analisi/Taylor/Polinomio Di Taylor.md",
     "Git-Obsidian/Analisi/Taylor/Formula di Taylor.md",
     "Git-Obsidian/Analisi/Limiti/Calcolo dei Limiti.md",
@@ -202,7 +215,6 @@
     "Git-Obsidian/Programmazione/Strutture di Controllo",
     "Git-Obsidian/Programmazione/Espressioni e Operatori",
     "Git-Obsidian/Programmazione/Alfabeto e Lessico",
-    "Git-Obsidian/Programmazione/Tipologie di Variabili",
-    "Git-Obsidian/Analisi/Successioni/Operazioni con i Limiti.md"
+    "Git-Obsidian/Programmazione/Tipologie di Variabili"
   ]
 }

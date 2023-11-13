@@ -189,7 +189,11 @@
 	{trigger: "array", replacement: "\\begin{array}\n$0\n\\end{array}", options: "mA"},
 	{trigger: "matrix", replacement: "\\begin{matrix}\n$0\n\\end{matrix}", options: "mA"},
 
-
+	{trigger: "lr(", replacement: "\\left( $0 \\right) $1", options: "mA"},
+	{trigger: "lr|", replacement: "\\left| $0 \\right| $1", options: "mA"},
+	{trigger: "lr{", replacement: "\\left\\{ $0 \\right\\} $1", options: "mA"},
+	{trigger: "lr[", replacement: "\\left[ $0 \\right] $1", options: "mA"},
+	{trigger: "lra", replacement: "\\left< $0 \\right> $1", options: "mA"},
 
 	// Brackets
 	{trigger: "avg", replacement: "\\langle $0 \\rangle $1", options: "mA"},
