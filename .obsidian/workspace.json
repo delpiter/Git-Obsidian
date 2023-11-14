@@ -4,34 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "642350e74d91027c",
+        "id": "0a90430153f63c4e",
         "type": "tabs",
         "children": [
           {
-            "id": "d845dc214872a4fb",
+            "id": "b1a2984234b3e388",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Obsidian/Analisi/Taylor/Formula di Taylor.md",
-                "mode": "source",
+                "file": "Git-Obsidian/Analisi/Insiemi/Insiemi Numerici.md",
+                "mode": "preview",
                 "source": false
               }
             }
           },
           {
-            "id": "59bd579934e66b00",
+            "id": "cdbdd8c4e1b6d427",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Obsidian/Analisi/Taylor/Polinomio Di Taylor.md",
+                "file": "Git-Obsidian/Todesco/Relazione.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -97,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Analisi/Taylor/Formula di Taylor.md",
+                "file": "Git-Obsidian/Todesco/Relazione.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Analisi/Taylor/Formula di Taylor.md",
+                "file": "Git-Obsidian/Todesco/Relazione.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git-Obsidian/Analisi/Taylor/Formula di Taylor.md"
+                "file": "Git-Obsidian/Todesco/Relazione.md"
               }
             }
           },
@@ -168,27 +169,35 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d845dc214872a4fb",
+  "active": "cdbdd8c4e1b6d427",
   "lastOpenFiles": [
+    "Git-Obsidian/Todesco/Attatchements/anchors.png",
+    "Git-Obsidian/Todesco/Relazione.md",
+    "Git-Obsidian/Todesco/Attatchements",
+    "Git-Obsidian/Analisi/Insiemi/Insiemi Numerici.md",
+    "Git-Obsidian/Todesco",
+    "Insiemi Numerici.pdf",
+    "Git-Obsidian/Analisi/Calcolo Differenziale/Teoremi basati sulle Derivate.md",
+    "Git-Obsidian/Analisi/Calcolo Differenziale/Derivate di Funzioni Elementari.md",
+    "Git-Obsidian/Analisi/Calcolo Differenziale/Derivate.md",
+    "Git-Obsidian/Analisi/Concetti Base.md",
     "Git-Obsidian/Analisi/Taylor/Formule di Taylor di Funzioni Elementari.md",
+    "Git-Obsidian/Analisi/Funzioni/Introduzione Funzioni.md",
     "Git-Obsidian/Analisi/Taylor/Polinomio Di Taylor.md",
     "Git-Obsidian/Analisi/Taylor/Formula di Taylor.md",
     "Git-Obsidian/Analisi/Limiti/Calcolo dei Limiti.md",
     "Git-Obsidian/Analisi/Taylor/Resto di Peano.md",
     "Git-Obsidian/Analisi/Successioni/Tipologie di Successioni.md",
     "Git-Obsidian/Analisi/Limiti/Limiti.md",
-    "Git-Obsidian/Analisi/Funzioni/Introduzione Funzioni.md",
     "Git-Obsidian/Analisi/Funzioni/Studio di Funzioni.md",
     "Git-Obsidian/Game Programming/Introduction.md",
     "Git-Obsidian/Analisi/Funzioni/Funzioni di una variabile Reale.md",
     "Git-Obsidian/Game Programming",
-    "Git-Obsidian/Analisi/Calcolo Differenziale/Teoremi basati sulle Derivate.md",
     "Git-Obsidian/Analisi/Taylor",
     "Git-Obsidian/Definitions/Definizioni_Analisi.md",
     "Git-Obsidian/Attatchments/concavita 1.png",
     "Git-Obsidian/Attatchments/concavita.png",
     "Git-Obsidian/Markdown Keys.md",
-    "Git-Obsidian/Analisi/Calcolo Differenziale/Derivate di Funzioni Elementari.md",
     "Git-Obsidian/Attatchments/Pasted image 20231106155053.png",
     "Git-Obsidian/Attatchments/Pasted image 20231106163613.png",
     "Git-Obsidian/Attatchments/Pasted image 20231106151842.png",
@@ -196,25 +205,16 @@
     "Git-Obsidian/Attatchments/Pasted image 20231106160726.png",
     "Git-Obsidian/Attatchments/Relation operators.png",
     "Git-Obsidian/Attatchments/Untitled.png",
-    "Git-Obsidian/Attatchments/Untitled (1).png",
     "Git-Obsidian/Analisi/Successioni/Limiti di Successioni.md",
     "Spiegazione.pdf",
-    "Git-Obsidian/Analisi/Concetti Base.md",
     "Git-Obsidian/Spiegazione.md",
     "Spiegazione2.pdf",
     "Spiegazione3.pdf",
     "Git-Obsidian/Programmazione/Funzioni/Funzioni Ricorsive.md",
-    "Git-Obsidian/Analisi/Calcolo Differenziale/Derivate.md",
     "Git-Obsidian/Analisi/Calcolo Differenziale/Pasted image 20231031152728.png.md",
     "Git-Obsidian/Analisi/Calcolo Differenziale",
     "Git-Obsidian/Analisi/Tipologie di Dimostrazioni.md",
     "Git-Obsidian/Analisi/Successioni/Successioni.md",
-    "Git-Obsidian/Analisi/Successioni/Numero di Nepero.md",
-    "Git-Obsidian/Analisi/Breve ripasso.md",
-    "Git-Obsidian/Programmazione/Teoria.md",
-    "Git-Obsidian/Programmazione/Strutture di Controllo",
-    "Git-Obsidian/Programmazione/Espressioni e Operatori",
-    "Git-Obsidian/Programmazione/Alfabeto e Lessico",
-    "Git-Obsidian/Programmazione/Tipologie di Variabili"
+    "Git-Obsidian/Programmazione/Strutture di Controllo"
   ]
 }

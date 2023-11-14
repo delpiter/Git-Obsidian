@@ -16,7 +16,7 @@ T_{c,n}(x)=\sum^n_{k=0} \displaystyle{\frac{1}{k!}}(x)^k=1+x+\displaystyle{\frac
 $$
 #### Formula di Taylor
 >[!tldr] Formula
->$$e^x=1+x+\displaystyle{\frac{x^2}{2}}+\displaystyle{\frac{x^3}{3}}+\displaystyle{\frac{x^4}{4}}\dots +\displaystyle{\frac{x^n}{n}}+\circ(x^n)$$
+>$$e^x=1+x+\displaystyle{\frac{x^2}{2}}+\displaystyle{\frac{x^3}{3!}}+\displaystyle{\frac{x^4}{4!}}\dots +\displaystyle{\frac{x^n}{n!}}+\circ(x^n)$$
 
 ## Logaritmo
 ---
