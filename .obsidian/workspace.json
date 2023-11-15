@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Obsidian/Todesco/Relazione.md",
+                "file": "Git-Obsidian/Analisi/Calcolo Integrale/Introduzione Integrali.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Todesco/Relazione.md",
+                "file": "Git-Obsidian/Analisi/Calcolo Integrale/Introduzione Integrali.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Todesco/Relazione.md",
+                "file": "Git-Obsidian/Analisi/Calcolo Integrale/Introduzione Integrali.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git-Obsidian/Todesco/Relazione.md"
+                "file": "Git-Obsidian/Analisi/Calcolo Integrale/Introduzione Integrali.md"
               }
             }
           },
@@ -158,9 +158,15 @@
   },
   "active": "eef4fb4b2e195652",
   "lastOpenFiles": [
-    "Git-Obsidian/Todesco/Attatchements/colors.png",
+    "Git-Obsidian/Attatchments/Pasted image 20231115144148.png",
+    "Git-Obsidian/Attatchments/Pasted image 20231115133951.png",
+    "Git-Obsidian/Attatchments/Pasted image 20231115133900.png",
+    "Git-Obsidian/Analisi/Funzioni/Funzioni di una variabile Reale.md",
+    "Git-Obsidian/Analisi/Funzioni/Introduzione Funzioni.md",
     "Git-Obsidian/Todesco/Relazione.md",
-    "Git-Obsidian/Analisi/Calcolo Integrale/Integrali.md",
+    "Git-Obsidian/Analisi/Calcolo Integrale/Introduzione Integrali.md",
+    "Git-Obsidian/Attatchments/Pasted image 20231115132555.png",
+    "Git-Obsidian/Todesco/Attatchements/colors.png",
     "Git-Obsidian/Analisi/Taylor/Formule di Taylor di Funzioni Elementari.md",
     "Git-Obsidian/Analisi/Calcolo Integrale",
     "Git-Obsidian/Analisi/Insiemi/Insiemi Numerici.md",
@@ -172,7 +178,6 @@
     "Git-Obsidian/Analisi/Calcolo Differenziale/Derivate di Funzioni Elementari.md",
     "Git-Obsidian/Analisi/Calcolo Differenziale/Derivate.md",
     "Git-Obsidian/Analisi/Concetti Base.md",
-    "Git-Obsidian/Analisi/Funzioni/Introduzione Funzioni.md",
     "Git-Obsidian/Analisi/Taylor/Polinomio Di Taylor.md",
     "Git-Obsidian/Analisi/Taylor/Formula di Taylor.md",
     "Git-Obsidian/Analisi/Limiti/Calcolo dei Limiti.md",
@@ -181,7 +186,6 @@
     "Git-Obsidian/Analisi/Limiti/Limiti.md",
     "Git-Obsidian/Analisi/Funzioni/Studio di Funzioni.md",
     "Git-Obsidian/Game Programming/Introduction.md",
-    "Git-Obsidian/Analisi/Funzioni/Funzioni di una variabile Reale.md",
     "Git-Obsidian/Game Programming",
     "Git-Obsidian/Analisi/Taylor",
     "Git-Obsidian/Definitions/Definizioni_Analisi.md",
@@ -191,9 +195,6 @@
     "Git-Obsidian/Attatchments/Pasted image 20231106155053.png",
     "Git-Obsidian/Attatchments/Pasted image 20231106163613.png",
     "Git-Obsidian/Attatchments/Pasted image 20231106151842.png",
-    "Git-Obsidian/Attatchments/Pasted image 20231106162326.png",
-    "Git-Obsidian/Attatchments/Pasted image 20231106160726.png",
-    "Git-Obsidian/Attatchments/Relation operators.png",
     "Git-Obsidian/Analisi/Successioni/Limiti di Successioni.md",
     "Spiegazione.pdf",
     "Git-Obsidian/Spiegazione.md",
