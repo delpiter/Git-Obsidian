@@ -29,23 +29,36 @@ Dato che i colori sono molto simili ma non uguali, per calcolare il colore domin
 ##### Media Colori
 Una volta trovati gli insiemi di colori "simili", prendiamo l'insieme più numeroso e calcoliamo la media dei colori, utilizzando la seguente formula:
 $$
-C_{medio} = \displaystyle{\frac{\displaystyle\sum^n_{k=0}\text{color[n][0]}}{n}}+\displaystyle{\frac{\displaystyle\sum^n_{k=0}\text{color[n][1]}}{n}}+\displaystyle{\frac{\displaystyle\sum^n_{k=0}\text{color[n][2]}}{n}}
+C_{medio} = \displaystyle{\frac{\displaystyle\sum^n_{k=0}\text{color[n][R]}}{n}}+\displaystyle{\frac{\displaystyle\sum^n_{k=0}\text{color[n][G]}}{n}}+\displaystyle{\frac{\displaystyle\sum^n_{k=0}\text{color[n][B]}}{n}}
 $$
 Dove $n$ è il numero di colori presenti nell'insieme più numeroso trovato e $\text{color}$ è un array dove ogni cella contiene un ulteriore array contenente i valori $RGB$ per ogni colore.
 
 Ottenendo così il colore medio dominante all'interno dell'ancora
-![[colors.png|500]]
-
+![[colors.png]]
 ### Ricerca Compatibilità
 Consideriamo un insieme di ancore adiacenti.
 - Esse vengono confrontate con un insieme di ancore di ugual lunghezza del frammento confrontato
-- Viene calcolato un punteggio basato sulla corrispondenza dei colori
-- Finchè questo punteggio è superiore ad una data soglia il processo viene reiterato aumentando il numero di ancore
-Una volta usciti da questo ciclo verrà sommato al punteggio un valore basato sulla corrispondenza
-della forma delle due porzioni di bordo dei frammenti
-Questo processo di calcolo di punteggio verrà ripetuto per ogni combinazione di ancore possibile, per
-poi salvare il punteggio più alto ottenuto
+- Viene calcolato un punteggio basato sulla corrispondenza dei colori, calcolando la distanza tra i colori di ancore corrispondenti 
+- Finchè questo punteggio è superiore ad una data soglia il processo viene reiterato aumentando il numero di ancore su entrambe le porzioni
 
-Rotazione frammenti
-Infine viene calcolata la rotazione necessaria per accostare i due frammenti
-Successivamente, il frammento, verrà ruotato e traslato.
+Una volta usciti da questo ciclo verrà sommato al punteggio un valore basato sulla corrispondenza della forma delle due porzioni di bordo dei frammenti.
+
+Questo processo di calcolo di punteggio verrà ripetuto per ogni combinazione di porzione di ancore possibili, per poi salvare il punteggio più alto ottenuto.
+
+Da qui in avanti ci riferiremo a questa porzione come "porzione di matching".
+![[test2.png]]
+![[test1.png]]
+### Rotazione frammenti
+
+Viene poi calcolata la rotazione necessaria per accostare i due frammenti sulla porzione di matching.
+Successivamente, il frammento, verrà ruotato e traslato evitando sovrapposizioni.
+#inserisci_immagine
+
+### Unione dei Frammenti
+Per riunire i due frammenti in un unico pezzo:
+- Partendo dalla porzione di matching troviamo gli estremi dei lati combacianti.
+- Eliminiamo tutte le ancore comprese tra questi estremi e uniamo le restanti in un unico **bordo**
+ 
+
+
+![[merged.jpg]]
