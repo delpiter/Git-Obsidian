@@ -21,12 +21,20 @@ Analizzando il bordo del frammento posizioniamo dei punti a distanza regolare.
 Chiameremo "ancore" i punti appena posizionati
 ![[anchors.png|500]]
 #### Calcolo colore dominante
-Per ogni ancora consideriamo il colore di ogni pixel nel suo raggio
-1. Raggruppiamo i colori simili tra di loro, considerando la distanza dei valori RGB
-2. Considerando il gruppo con più colori presenti, calcoliamo la media dei singoli valori RGB
-3. Ottenendo così il colore medio dominante all'interno della ancora
+Per ogni ancora consideriamo il colore di ogni pixel in un raggio predefinito
+##### Raggruppamento colori
+Dato che i colori sono molto simili ma non uguali, per calcolare il colore dominante abbiamo raggruppato i colori simili tra loro in base alla loro distanza.
+- Per trovare la distanza fra due colori abbiamo considerato i tre valori $RGB$ dei colori come punti in un piano a tre dimensioni
+	- Quindi la distanza fra i due colori sarà semplicemente calcolata come la distanza euclidea fra due punti in un piano tridimensionale
+##### Media Colori
+Una volta trovati gli insiemi di colori "simili", prendiamo l'insieme più numeroso e calcoliamo la media dei colori, utilizzando la seguente formula:
+$$
+C_{medio} = \displaystyle{\frac{\displaystyle\sum^n_{k=0}\text{color[0]}}{n}}+\displaystyle{\frac{\displaystyle\sum^n_{k=0}\text{color[1]}}{n}}+\displaystyle{\frac{\displaystyle\sum^n_{k=0}\text{color[2]}}{n}}
+$$
+Ottenendo così il colore medio dominante all'interno dell'ancora
+![[colors.png|500]]
 
-Ricerca Compatibilità
+### Ricerca Compatibilità
 Consideriamo un insieme di ancore adiacenti.
 Esse vengono confrontate con un insieme di ancore di ugual lunghezza del frammento
 confrontato

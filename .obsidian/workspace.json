@@ -4,23 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "0a90430153f63c4e",
+        "id": "42527a9b47c53b19",
         "type": "tabs",
         "children": [
           {
-            "id": "b1a2984234b3e388",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git-Obsidian/Analisi/Insiemi/Insiemi Numerici.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cdbdd8c4e1b6d427",
+            "id": "eef4fb4b2e195652",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -31,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -169,19 +156,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cdbdd8c4e1b6d427",
+  "active": "eef4fb4b2e195652",
   "lastOpenFiles": [
-    "Git-Obsidian/Todesco/Attatchements/anchors.png",
+    "Git-Obsidian/Todesco/Attatchements/colors.png",
     "Git-Obsidian/Todesco/Relazione.md",
-    "Git-Obsidian/Todesco/Attatchements",
+    "Git-Obsidian/Analisi/Calcolo Integrale/Integrali.md",
+    "Git-Obsidian/Analisi/Taylor/Formule di Taylor di Funzioni Elementari.md",
+    "Git-Obsidian/Analisi/Calcolo Integrale",
     "Git-Obsidian/Analisi/Insiemi/Insiemi Numerici.md",
+    "Git-Obsidian/Todesco/Attatchements/anchors.png",
+    "Git-Obsidian/Todesco/Attatchements",
     "Git-Obsidian/Todesco",
     "Insiemi Numerici.pdf",
     "Git-Obsidian/Analisi/Calcolo Differenziale/Teoremi basati sulle Derivate.md",
     "Git-Obsidian/Analisi/Calcolo Differenziale/Derivate di Funzioni Elementari.md",
     "Git-Obsidian/Analisi/Calcolo Differenziale/Derivate.md",
     "Git-Obsidian/Analisi/Concetti Base.md",
-    "Git-Obsidian/Analisi/Taylor/Formule di Taylor di Funzioni Elementari.md",
     "Git-Obsidian/Analisi/Funzioni/Introduzione Funzioni.md",
     "Git-Obsidian/Analisi/Taylor/Polinomio Di Taylor.md",
     "Git-Obsidian/Analisi/Taylor/Formula di Taylor.md",
@@ -204,7 +194,6 @@
     "Git-Obsidian/Attatchments/Pasted image 20231106162326.png",
     "Git-Obsidian/Attatchments/Pasted image 20231106160726.png",
     "Git-Obsidian/Attatchments/Relation operators.png",
-    "Git-Obsidian/Attatchments/Untitled.png",
     "Git-Obsidian/Analisi/Successioni/Limiti di Successioni.md",
     "Spiegazione.pdf",
     "Git-Obsidian/Spiegazione.md",
@@ -213,8 +202,6 @@
     "Git-Obsidian/Programmazione/Funzioni/Funzioni Ricorsive.md",
     "Git-Obsidian/Analisi/Calcolo Differenziale/Pasted image 20231031152728.png.md",
     "Git-Obsidian/Analisi/Calcolo Differenziale",
-    "Git-Obsidian/Analisi/Tipologie di Dimostrazioni.md",
-    "Git-Obsidian/Analisi/Successioni/Successioni.md",
-    "Git-Obsidian/Programmazione/Strutture di Controllo"
+    "Git-Obsidian/Analisi/Tipologie di Dimostrazioni.md"
   ]
 }
