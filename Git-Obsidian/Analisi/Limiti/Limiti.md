@@ -163,6 +163,9 @@ Iterando il ragionamento (Metodo di Bisezione) si hanno 2 possibilità
 >Sia $I$ intervallo di $\mathbb{R}$, sia $f:I\to\mathbb{R}$ [[Introduzione Funzioni#Continuità|continua]] 
 ><u>Allora</u>
 >$f(I)$ è a sua volta un intervallo (o [[Definizioni_Analisi#Intervallo degenere|intervallo degenere]])
+>
+>>[!done] In Breve
+>>Se una funzione è continua, la sua immagine assume tutti i valori fra il massimo e il minimo della funzione
 
 ### Dimostrazione
 #### $f$ Costante

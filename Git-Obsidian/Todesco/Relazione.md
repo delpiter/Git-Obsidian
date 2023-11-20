@@ -7,19 +7,21 @@ Per la risoluzione del progetto Ercole con il fine di riassemblare dei frammenti
 	- Confronto colore
 	- Confronto bordo
 - Calcolo della rotazione del frammento
+- Unione dei due frammenti migliori
 ### Analisi Immagine
 #### Tracciamento bordo del Frammento
 Il processo del tracciamento del bordo è stato diviso in più parti:
 ##### Rimozione sfondo
 Con l'assunzione che l'immagine in input sia:
 - Il frammento centrale con uno sfondo bianco "perfetto", valori $RGB=(255,255,255)$
+
 Calcoliamo tramite una libreria di python l'immagine in scala di grigi.
-- Trasformiamo poi l'immagine in bianco e nero per avere una distinzione precisa tra frammento e sfondo.
+- Trasformiamo poi l'immagine in una maschera per avere una distinzione precisa tra frammento e sfondo.
 Infine sovrapponiamo le due immagini ottenute mettendo al posto dello sfondo pixel trasparenti.
 ##### Tracciamento bordo
 Analizzando il bordo del frammento posizioniamo dei punti a distanza regolare.
 Chiameremo "ancore" i punti appena posizionati
-![[anchors.png|500]]
+![anchors|300](anchors.png)
 #### Calcolo colore dominante
 Per ogni ancora consideriamo il colore di ogni pixel in un raggio predefinito
 ##### Raggruppamento colori
@@ -31,10 +33,8 @@ Una volta trovati gli insiemi di colori "simili", prendiamo l'insieme più numer
 $$
 C_{medio} = \displaystyle{\frac{\displaystyle\sum^n_{k=0}\text{color[n][R]}}{n}}+\displaystyle{\frac{\displaystyle\sum^n_{k=0}\text{color[n][G]}}{n}}+\displaystyle{\frac{\displaystyle\sum^n_{k=0}\text{color[n][B]}}{n}}
 $$
-Dove $n$ è il numero di colori presenti nell'insieme più numeroso trovato e $\text{color}$ è un array dove ogni cella contiene un ulteriore array contenente i valori $RGB$ per ogni colore.
-
-Ottenendo così il colore medio dominante all'interno dell'ancora
-![[colors.png]]
+Dove $n$ è il numero di colori presenti nell'insieme più numeroso trovato e $\text{color}$ è un array contente i valori RGB di ogni colore, ottenendo così il colore medio dominante all'interno dell'ancora
+![colors|300](colors.png)
 ### Ricerca Compatibilità
 Consideriamo un insieme di ancore adiacenti.
 - Esse vengono confrontate con un insieme di ancore di ugual lunghezza del frammento confrontato
@@ -46,19 +46,20 @@ Una volta usciti da questo ciclo verrà sommato al punteggio un valore basato su
 Questo processo di calcolo di punteggio verrà ripetuto per ogni combinazione di porzione di ancore possibili, per poi salvare il punteggio più alto ottenuto.
 
 Da qui in avanti ci riferiremo a questa porzione come "porzione di matching".
-![[test2.png]]
-![[test1.png]]
+![match|500](match.png)
 ### Rotazione frammenti
-
 Viene poi calcolata la rotazione necessaria per accostare i due frammenti sulla porzione di matching.
 Successivamente, il frammento, verrà ruotato e traslato evitando sovrapposizioni.
-#inserisci_immagine
-
+![merged_with_portions|500](merged_with_portions.png)
 ### Unione dei Frammenti
 Per riunire i due frammenti in un unico pezzo:
 - Partendo dalla porzione di matching troviamo gli estremi dei lati combacianti.
-- Eliminiamo tutte le ancore comprese tra questi estremi e uniamo le restanti in un unico **bordo**
- 
-
-
-![[merged.jpg]]
+- Eliminiamo tutte le ancore comprese tra questi estremi e uniamo le restanti in un unico bordo
+![merged_with_borders|500](merged_with_borders.png)
+### Ricostruzione del dataset
+L'unione dei frammenti precedente viene considerata come un unico frammento e l'algoritmo viene reiterato finché non rimarrà una sola immagine contenente tutti i frammenti disposti in maniera che combacino tra di loro
+![full|500](full.png)
+## Criticità dell'algoritmo
+L'algoritmo presenta criticità in alcune fasi
+- Le sovrapposizioni vengono evitate solo successivamente alla fase di comparazione delle ancore, quindi al confronto delle porzioni del bordo possono capitare combinazioni per le quali i frammenti si sovrappongono su parti non appartenenti a quelle combacianti.
+- Nel caso dovesse verificarsi il problema precedentemente esposto, in fase di unione dei bordi tra i frammenti, vengo eliminate erroneamente ancore che dovrebbero essere mantenute.

@@ -4,17 +4,29 @@
     "type": "split",
     "children": [
       {
-        "id": "42527a9b47c53b19",
+        "id": "54703fab514d36dd",
         "type": "tabs",
         "children": [
           {
-            "id": "eef4fb4b2e195652",
+            "id": "927a34a927e85e3a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Obsidian/Todesco/Relazione.md",
+                "file": "Git-Obsidian/Analisi/Calcolo Integrale/Calcolo Integrale.md",
                 "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4457bdf7b3cf131b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git-Obsidian/Analisi/Calcolo Differenziale/Teoremi basati sulle Derivate.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -29,7 +41,7 @@
     "type": "split",
     "children": [
       {
-        "id": "d97743c1a5b6d169",
+        "id": "173224768a4ffc77",
         "type": "tabs",
         "children": [
           {
@@ -41,14 +53,20 @@
                 "sortOrder": "alphabetical"
               }
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "d97743c1a5b6d169",
+        "type": "tabs",
+        "children": [
           {
             "id": "b7bbd0cf1ff52e07",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "Trascu",
+                "query": "lagra",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Todesco/Relazione.md",
+                "file": "Git-Obsidian/Analisi/Calcolo Integrale/Calcolo Integrale.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Todesco/Relazione.md",
+                "file": "Git-Obsidian/Analisi/Calcolo Integrale/Calcolo Integrale.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git-Obsidian/Todesco/Relazione.md"
+                "file": "Git-Obsidian/Analisi/Calcolo Integrale/Calcolo Integrale.md"
               }
             }
           },
@@ -156,30 +174,33 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "eef4fb4b2e195652",
+  "active": "927a34a927e85e3a",
   "lastOpenFiles": [
+    "Git-Obsidian/Analisi/Calcolo Integrale/Introduzione Integrali.md",
+    "Git-Obsidian/Analisi/Calcolo Integrale/Calcolo Integrale.md",
+    "Git-Obsidian/Analisi/Calcolo Differenziale/Teoremi basati sulle Derivate.md",
+    "Git-Obsidian/Attatchments/WhatsApp Image 2023-11-20 at 15.22.49_0bd300f7.jpg",
+    "Git-Obsidian/Analisi/Calcolo Integrale/Proprietà degli Integrali.md",
+    "Git-Obsidian/Analisi/Limiti/Limiti.md",
+    "Git-Obsidian/Todesco/Relazione.md",
+    "Relazione.pdf",
     "Git-Obsidian/Todesco/Attatchements/merged.jpg",
     "Git-Obsidian/Attatchments/Untitled (1).png",
     "Git-Obsidian/Attatchments/Untitled.png",
-    "Git-Obsidian/Todesco/Relazione.md",
     "Git-Obsidian/Todesco/Attatchements/test1.png",
     "Git-Obsidian/Todesco/Attatchements/test2.png",
-    "Git-Obsidian/Analisi/Calcolo Integrale/Introduzione Integrali.md",
     "Git-Obsidian/Attatchments/Pasted image 20231115144148.png",
     "Git-Obsidian/Attatchments/Pasted image 20231115133951.png",
     "Git-Obsidian/Attatchments/Pasted image 20231115133900.png",
     "Git-Obsidian/Analisi/Funzioni/Funzioni di una variabile Reale.md",
     "Git-Obsidian/Analisi/Funzioni/Introduzione Funzioni.md",
     "Git-Obsidian/Attatchments/Pasted image 20231115132555.png",
-    "Git-Obsidian/Todesco/Attatchements/colors.png",
     "Git-Obsidian/Analisi/Taylor/Formule di Taylor di Funzioni Elementari.md",
     "Git-Obsidian/Analisi/Calcolo Integrale",
     "Git-Obsidian/Analisi/Insiemi/Insiemi Numerici.md",
-    "Git-Obsidian/Todesco/Attatchements/anchors.png",
     "Git-Obsidian/Todesco/Attatchements",
     "Git-Obsidian/Todesco",
     "Insiemi Numerici.pdf",
-    "Git-Obsidian/Analisi/Calcolo Differenziale/Teoremi basati sulle Derivate.md",
     "Git-Obsidian/Analisi/Calcolo Differenziale/Derivate di Funzioni Elementari.md",
     "Git-Obsidian/Analisi/Calcolo Differenziale/Derivate.md",
     "Git-Obsidian/Analisi/Concetti Base.md",
@@ -188,7 +209,6 @@
     "Git-Obsidian/Analisi/Limiti/Calcolo dei Limiti.md",
     "Git-Obsidian/Analisi/Taylor/Resto di Peano.md",
     "Git-Obsidian/Analisi/Successioni/Tipologie di Successioni.md",
-    "Git-Obsidian/Analisi/Limiti/Limiti.md",
     "Git-Obsidian/Analisi/Funzioni/Studio di Funzioni.md",
     "Git-Obsidian/Game Programming/Introduction.md",
     "Git-Obsidian/Game Programming",
@@ -200,9 +220,6 @@
     "Git-Obsidian/Spiegazione.md",
     "Spiegazione2.pdf",
     "Spiegazione3.pdf",
-    "Git-Obsidian/Programmazione/Funzioni/Funzioni Ricorsive.md",
-    "Git-Obsidian/Analisi/Calcolo Differenziale/Pasted image 20231031152728.png.md",
-    "Git-Obsidian/Analisi/Calcolo Differenziale",
-    "Git-Obsidian/Analisi/Tipologie di Dimostrazioni.md"
+    "Git-Obsidian/Programmazione/Funzioni/Funzioni Ricorsive.md"
   ]
 }
