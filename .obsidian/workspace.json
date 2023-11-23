@@ -8,25 +8,25 @@
         "type": "tabs",
         "children": [
           {
-            "id": "4457bdf7b3cf131b",
+            "id": "1de990aa0b376397",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Obsidian/Analisi/Calcolo Differenziale/Teoremi basati sulle Derivate.md",
+                "file": "Git-Obsidian/Analisi/Insiemi/Numeri Complessi.md",
                 "mode": "preview",
                 "source": false
               }
             }
           },
           {
-            "id": "1de990aa0b376397",
+            "id": "b164e5cfe3d97ece",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Obsidian/Analisi/Calcolo Integrale/Calcolo Integrale.md",
-                "mode": "source",
+                "file": "Git-Obsidian/Analisi/Funzioni/Funzioni di una variabile Reale.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -67,7 +67,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "lagra",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -88,7 +88,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240.5
+    "width": 240.5,
+    "collapsed": true
   },
   "right": {
     "id": "3561446b8c4d05ef",
@@ -104,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Analisi/Calcolo Integrale/Calcolo Integrale.md",
+                "file": "Git-Obsidian/Analisi/Funzioni/Funzioni di una variabile Reale.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Analisi/Calcolo Integrale/Calcolo Integrale.md",
+                "file": "Git-Obsidian/Analisi/Funzioni/Funzioni di una variabile Reale.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git-Obsidian/Analisi/Calcolo Integrale/Calcolo Integrale.md"
+                "file": "Git-Obsidian/Analisi/Funzioni/Funzioni di una variabile Reale.md"
               }
             }
           },
@@ -176,14 +177,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1de990aa0b376397",
+  "active": "b164e5cfe3d97ece",
   "lastOpenFiles": [
-    "Git-Obsidian/Analisi/Calcolo Differenziale/Teoremi basati sulle Derivate.md",
+    "Git-Obsidian/Analisi/Insiemi/Numeri Complessi.md",
+    "Git-Obsidian/Analisi/Limiti/Limiti.md",
+    "Git-Obsidian/Analisi/Insiemi/Insiemi Numerici.md",
+    "Git-Obsidian/Definitions/Definizioni_Analisi.md",
+    "Git-Obsidian/Analisi/Tipologie di Dimostrazioni.md",
+    "Git-Obsidian/Analisi/Concetti Base.md",
+    "Git-Obsidian/Analisi/Breve ripasso.md",
+    "Git-Obsidian/Analisi/Calcolo Differenziale/Derivate di Funzioni Elementari.md",
     "Git-Obsidian/Analisi/Calcolo Integrale/Calcolo Integrale.md",
+    "Git-Obsidian/Analisi/Calcolo Differenziale/Teoremi basati sulle Derivate.md",
     "Git-Obsidian/Analisi/Calcolo Integrale/Introduzione Integrali.md",
     "Git-Obsidian/Attatchments/WhatsApp Image 2023-11-20 at 15.22.49_0bd300f7.jpg",
     "Git-Obsidian/Analisi/Calcolo Integrale/Proprietà degli Integrali.md",
-    "Git-Obsidian/Analisi/Limiti/Limiti.md",
     "Git-Obsidian/Todesco/Relazione.md",
     "Relazione.pdf",
     "Git-Obsidian/Todesco/Attatchements/merged.jpg",
@@ -199,13 +207,10 @@
     "Git-Obsidian/Attatchments/Pasted image 20231115132555.png",
     "Git-Obsidian/Analisi/Taylor/Formule di Taylor di Funzioni Elementari.md",
     "Git-Obsidian/Analisi/Calcolo Integrale",
-    "Git-Obsidian/Analisi/Insiemi/Insiemi Numerici.md",
     "Git-Obsidian/Todesco/Attatchements",
     "Git-Obsidian/Todesco",
     "Insiemi Numerici.pdf",
-    "Git-Obsidian/Analisi/Calcolo Differenziale/Derivate di Funzioni Elementari.md",
     "Git-Obsidian/Analisi/Calcolo Differenziale/Derivate.md",
-    "Git-Obsidian/Analisi/Concetti Base.md",
     "Git-Obsidian/Analisi/Taylor/Polinomio Di Taylor.md",
     "Git-Obsidian/Analisi/Taylor/Formula di Taylor.md",
     "Git-Obsidian/Analisi/Limiti/Calcolo dei Limiti.md",
@@ -215,13 +220,10 @@
     "Git-Obsidian/Game Programming/Introduction.md",
     "Git-Obsidian/Game Programming",
     "Git-Obsidian/Analisi/Taylor",
-    "Git-Obsidian/Definitions/Definizioni_Analisi.md",
     "Git-Obsidian/Markdown Keys.md",
     "Git-Obsidian/Analisi/Successioni/Limiti di Successioni.md",
     "Spiegazione.pdf",
-    "Git-Obsidian/Spiegazione.md",
     "Spiegazione2.pdf",
-    "Spiegazione3.pdf",
-    "Git-Obsidian/Programmazione/Funzioni/Funzioni Ricorsive.md"
+    "Spiegazione3.pdf"
   ]
 }

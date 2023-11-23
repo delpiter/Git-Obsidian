@@ -45,7 +45,7 @@ $$
 ##### Somma
 $$
 \begin{array}
-\ (a+ib)+(c+id)=a+c+i(c+d) \\
+\ (a+ib)+(c+id)=a+c+i(b+d) \\
 (a,b)+(c,d)=(a+c,b+d)
 \end{array}
 $$
@@ -71,7 +71,7 @@ $$
 ### Proprietà
 $$
 \begin{array}
-\ \overline{z_{1}}+\overline{z_{2}}=z_{1}+z_{2} \\
+\ \overline{z_{1}}+\overline{z_{2}}=\overline{z_{1}+z_{2}}\\
 \overline{z_{1}}\cdot\overline{z_{2}}=\overline{z_{1}\cdot z_{2}}
 \end{array}
 $$
@@ -80,7 +80,8 @@ $$
 - - -
 >[!info] Definizione
 >Si chiama _modulo_ di $z=a+ib$ il numero reale non negativo $\sqrt{ a^2+b^2 }$ che si indica con $\mid z\mid$
-- Può essere visto come la distanza di un punto dall'origine del piano
+>> [!done] In breve
+>>Può essere visto come la distanza di un punto dall'origine del piano
 ### Proprietà
 1. $\mid z\mid \geq 0$ e $\mid z\mid = 0 \Leftrightarrow z=0$
 2. $\mid z\mid = \mid \overline{z}\mid$
@@ -91,8 +92,9 @@ $$
 - - -
 >[!info] Coordinate polari
 >I punti del piano possono essere individuati, oltre che dalle loro _coordinate cartesiane_, anche dalle loro _coordinate polari_
->$\rho$ Raggio polare, distanza del punto dall'origine
->$\theta$ Angolo polare, l'angolo che la retta congiungente il punto con l'origine forma con l'asse delle ascisse positive con $\rho \in [0,2\pi]$
+>>[!tldr] \
+>>$\rho$ Raggio polare, distanza del punto dall'origine
+>>$\theta$ Angolo polare, l'angolo che la retta congiungente il punto con l'origine forma con l'asse delle ascisse positive con $\rho \in [0,2\pi]$
 
 - Dato un numero complesso $z$ il suo modulo $|z|$ coincide con il raggio polare del punto
 - Chiamiamo _argomento_ di $z$ ($arg(z)$) l'angolo $\theta$ relativo al punto $z$

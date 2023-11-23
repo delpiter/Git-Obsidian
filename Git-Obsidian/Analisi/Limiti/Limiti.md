@@ -132,6 +132,7 @@ Iterando il ragionamento (Metodo di Bisezione) si hanno 2 possibilità
 	- $f(c_{k}) = 0$ per qualche $k$
 2. Il procedimento continua indefinitivamente
 	- In questo caso ho costruito due successioni $a_{n}$ e $b_{n}$ con le seguenti proprietà:
+
 >[!tldr] Proprietà delle successioni
 >$1) \ \ a\leq a_{n} \leq b_{n} \leq b, \forall n\in\mathbb{N}$
 >$2) \ \ a_{n+1} \geq a_{n} \forall n \in\mathbb{N} \text{ cioè } a_{n} \nearrow$

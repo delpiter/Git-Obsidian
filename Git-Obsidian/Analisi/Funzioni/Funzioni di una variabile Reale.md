@@ -211,7 +211,7 @@ g(x)=log(x)/log(1/2)
 >La circonferenza goniometrica è una circonferenza di raggio $1$
 
 [[Definizioni_Analisi#Valori Notevoli|Alcuni valori notevoli]]
-### [[Definizioni_Analisi#Seno e Coseno|Coseno]]
+### Coseno
 
 $$
 \begin{array}
@@ -239,7 +239,7 @@ grid: true
 f(x)=cos(x)
 ```
 
-### [[Definizioni_Analisi#Seno e Coseno|Seno]]
+### Seno
 $$
 \begin{array}
 /Sen:\mathbb{R}\to\mathbb{R} \\
