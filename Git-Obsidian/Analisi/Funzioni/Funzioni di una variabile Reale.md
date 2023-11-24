@@ -275,7 +275,7 @@ $$
 \end{array}
 $$
 ### Tangente
->[!info] Definizione [[Definizioni_Analisi#Circonferenza Goniometrica|Tangente]]
+>[!info] Definizione Tangente
 >La tangente è una funzione $\pi\text{-periodica}$ ed è definita nel dominio:
 >$tan:\{\alpha\in\mathbb{R}|\alpha \neq \displaystyle{\frac{\pi}{2}+k\pi},k\in\mathbb{Z}\}$
 >$tan:\mathbb{R}\setminus\left\{ \displaystyle{\frac{\pi}{2}}+k\pi,k\in\mathbb{Z} \right\}\to\mathbb{R}$

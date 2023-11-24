@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -105,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Analisi/Funzioni/Funzioni di una variabile Reale.md",
+                "file": "Git-Obsidian/Analisi/Insiemi/Numeri Complessi.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Analisi/Funzioni/Funzioni di una variabile Reale.md",
+                "file": "Git-Obsidian/Analisi/Insiemi/Numeri Complessi.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git-Obsidian/Analisi/Funzioni/Funzioni di una variabile Reale.md"
+                "file": "Git-Obsidian/Analisi/Insiemi/Numeri Complessi.md"
               }
             }
           },
@@ -177,9 +176,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b164e5cfe3d97ece",
+  "active": "1de990aa0b376397",
   "lastOpenFiles": [
+    "Git-Obsidian/Analisi/Funzioni/Funzioni di una variabile Reale.md",
     "Git-Obsidian/Analisi/Insiemi/Numeri Complessi.md",
+    "Git-Obsidian/Analisi/Funzioni/Studio di Funzioni.md",
+    "Git-Obsidian/Analisi/Funzioni/Introduzione Funzioni.md",
     "Git-Obsidian/Analisi/Limiti/Limiti.md",
     "Git-Obsidian/Analisi/Insiemi/Insiemi Numerici.md",
     "Git-Obsidian/Definitions/Definizioni_Analisi.md",
@@ -202,8 +204,6 @@
     "Git-Obsidian/Attatchments/Pasted image 20231115144148.png",
     "Git-Obsidian/Attatchments/Pasted image 20231115133951.png",
     "Git-Obsidian/Attatchments/Pasted image 20231115133900.png",
-    "Git-Obsidian/Analisi/Funzioni/Funzioni di una variabile Reale.md",
-    "Git-Obsidian/Analisi/Funzioni/Introduzione Funzioni.md",
     "Git-Obsidian/Attatchments/Pasted image 20231115132555.png",
     "Git-Obsidian/Analisi/Taylor/Formule di Taylor di Funzioni Elementari.md",
     "Git-Obsidian/Analisi/Calcolo Integrale",
@@ -216,7 +216,6 @@
     "Git-Obsidian/Analisi/Limiti/Calcolo dei Limiti.md",
     "Git-Obsidian/Analisi/Taylor/Resto di Peano.md",
     "Git-Obsidian/Analisi/Successioni/Tipologie di Successioni.md",
-    "Git-Obsidian/Analisi/Funzioni/Studio di Funzioni.md",
     "Git-Obsidian/Game Programming/Introduction.md",
     "Git-Obsidian/Game Programming",
     "Git-Obsidian/Analisi/Taylor",

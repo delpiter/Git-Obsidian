@@ -131,11 +131,11 @@ z_{1}z_{2}=\rho_{1}\rho_{2}[cos(\theta_{1})cos(\theta_{2})sin(\theta_{1})sin(\th
 $$
 ## Radci N-esime
 - - -
-- Dato un numero complesso $w$, diremo che $z$ è una radica $n-esima$ di $w$ se risulta $z^n=w$
+- Dato un numero complesso $w$, diremo che $z$ è una radice $n-esima$ di $w$ se risulta $z^n=w$
 >[!info] Teorema
 >Sia $w\in\mathbb{C}, w\neq0$ e $n\in\mathbb{N}$, esistono precisamente n radici n-esime complesse di $w$
 
-[[Definizioni_Analisi#Notazione|Notazione]]
+[[Definizioni_Analisi#Notazione numeri complessi in forma goniometrica|Notazione]]
 - Voglio risolvere $z^n=w$
 	- Sia $w=r(cos(\rho)+isin(\rho))=re^{i\rho}$
 	- Sia $z=\rho e^{i\theta} \implies z^n=\rho^ne^{in\theta}$
