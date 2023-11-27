@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Obsidian/Analisi/Insiemi/Numeri Complessi.md",
-                "mode": "preview",
+                "file": "Git-Obsidian/Analisi/Calcolo Integrale/Calcolo Integrale.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -87,8 +87,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240.5,
-    "collapsed": true
+    "width": 240.5
   },
   "right": {
     "id": "3561446b8c4d05ef",
@@ -104,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Analisi/Insiemi/Numeri Complessi.md",
+                "file": "Git-Obsidian/Analisi/Calcolo Integrale/Calcolo Integrale.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Analisi/Insiemi/Numeri Complessi.md",
+                "file": "Git-Obsidian/Analisi/Calcolo Integrale/Calcolo Integrale.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git-Obsidian/Analisi/Insiemi/Numeri Complessi.md"
+                "file": "Git-Obsidian/Analisi/Calcolo Integrale/Calcolo Integrale.md"
               }
             }
           },
@@ -178,7 +177,10 @@
   },
   "active": "1de990aa0b376397",
   "lastOpenFiles": [
+    "Git-Obsidian/Analisi/Calcolo Integrale/Introduzione Integrali.md",
+    "Git-Obsidian/Analisi/Calcolo Integrale/Proprietà degli Integrali.md",
     "Git-Obsidian/Analisi/Funzioni/Funzioni di una variabile Reale.md",
+    "Git-Obsidian/Analisi/Calcolo Integrale/Calcolo Integrale.md",
     "Git-Obsidian/Analisi/Insiemi/Numeri Complessi.md",
     "Git-Obsidian/Analisi/Funzioni/Studio di Funzioni.md",
     "Git-Obsidian/Analisi/Funzioni/Introduzione Funzioni.md",
@@ -189,11 +191,8 @@
     "Git-Obsidian/Analisi/Concetti Base.md",
     "Git-Obsidian/Analisi/Breve ripasso.md",
     "Git-Obsidian/Analisi/Calcolo Differenziale/Derivate di Funzioni Elementari.md",
-    "Git-Obsidian/Analisi/Calcolo Integrale/Calcolo Integrale.md",
     "Git-Obsidian/Analisi/Calcolo Differenziale/Teoremi basati sulle Derivate.md",
-    "Git-Obsidian/Analisi/Calcolo Integrale/Introduzione Integrali.md",
     "Git-Obsidian/Attatchments/WhatsApp Image 2023-11-20 at 15.22.49_0bd300f7.jpg",
-    "Git-Obsidian/Analisi/Calcolo Integrale/Proprietà degli Integrali.md",
     "Git-Obsidian/Todesco/Relazione.md",
     "Relazione.pdf",
     "Git-Obsidian/Todesco/Attatchements/merged.jpg",

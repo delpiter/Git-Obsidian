@@ -1,4 +1,4 @@
-## Teorema Fondamentale del Calcolo Integrale
+## Teorema Fondamentale del Calcolo Integrale $I$
 ---
 >[!info] Teorema
 >Sia $f\in C^1([a,b],\mathbb{R})$
@@ -20,6 +20,27 @@ $$
 - Passo al limite
 $$
 f(b)-f(a)=\int _{a}^b f'(x) \, dx 
+$$
+
+## Teorema Fondamentale del Calcolo Integrale $II$
+---
+>[!info] Teorema
+>Sia $f\in C([a,b],\mathbb{R})$
+>Sia $F(x)=\int _{a}^x f(t) \, dt \to$ la funzione "_Integrale_" 
+><u>Allora</u>
+>$F$ è derivabile e $f'(c) = F(c), \forall c \in[a,b]$
+
+### Dimostrazione
+Sia $c\in[a,b]$
+$$
+\lim\limits_{x\to c} \displaystyle{\frac{F(x)-F(c)}{x-c}} = \displaystyle{\frac{\lim\limits_{x\to c} \int _{a}^x f(t) \, dt -\lim\limits_{x\to c} \int _{a}^c f(t) \, dt}{x-c}} = \lim\limits_{x\to c} \underbrace{ \displaystyle{\frac{\int _{c}^x f(t)\, dt }{x-c}} }_{ \text{media integrale} }
+$$
+- Osserviamo che il risultato ottenuto è analogo alla [[Introduzione Integrali#Teorema della Media Integrale|media integrale]]
+	- Applico il teorema
+$\exists d_{x} in (c,x): \displaystyle{\frac{1}{x-c}} \int _{c}^x f(t)\, dt = f(d_{x})$
+- Passiamo poi al Limite
+$$
+\underbrace{ \lim\limits_{x\to c} \displaystyle{\frac{F(x)-F(c)}{x-c}} }_{ \displaystyle F'(c) } =\lim\limits_{x\to c} \displaystyle{\frac{1}{x-c}} \int _{c}^x f(t)\, dt =\lim\limits_{x\to c} =  f(d_{x}) = f(c)
 $$
 ## Integrazione per Parti
 ---
@@ -64,4 +85,60 @@ $$
 - Usando il teorema fondamentale di Integrazione
 $$
 \int _{\varphi(\alpha)}^{\varphi(\beta)} f(x) \, dx =F(\varphi(\beta))-F(\varphi(\alpha)) =\int _{\alpha}^\beta (F_{o}\varphi)'(t)\, dx = \int _{\alpha}^\beta f(\varphi(t))\cdot \varphi'(t)\, dx 
+$$
+## Integrazione di Funzioni Razionali
+---
+Consideriamo il seguente integrale:
+>[!tip] Integrale
+>$$\int _{a}^b  \displaystyle{\frac{P_{n}(x)}{{Q_{m}(x)}}}\, dx, n,m \in\mathbb{N}$$
+>Dove:
+>$P_{n}(x)$ è un polinomio di grado n,
+>$Q_{m}(x)$ è un polinomio di grado m.
+
+- Consideriamo il caso $m>n$, poichè altrimenti bastava fare la divisione.
+### Caso $m=2,n<2$
+Dato $Q_{m}(x)=Q_{2}(x) = ax^2+bx+c$
+- Ho 3 casi
+#### Caso $\triangle = b^2-4ac > 0$
+Ho due radici distinte al denominatore
+##### Es
+$$
+\int _{4}^5 \displaystyle{\frac{x+1}{x^2-4x+3}} \, dx 
+$$
+- Osservo che il denominatore si può scomporre
+$$
+\int _{4}^5 \displaystyle{\frac{x+1}{(x-3)(x+1)}} \, dx 
+$$
+- Ora cerco due numeri $A,B\in\mathbb{R}:$
+$$
+\displaystyle{\frac{x+1}{(x-3)(x+1)}} = \displaystyle{\frac{A}{x-3}}+ \displaystyle{\frac{B}{x+1}}
+$$
+- Questo processo si chiama scomposizione in fratti semplici
+	- Applico il denominatore comune
+$$
+= \displaystyle{\frac{A(x+1)+B(x-3)}{(x-3)(x+1)}}
+$$
+- Questa frazione è uguale a quella originale se e solo se:
+$$
+\begin{array}
+\ x+1 = Ax-A +Bx-3B \\
+\Leftrightarrow x+1=x(A+B) -A-3B
+\end{array}
+$$
+- Ora risolvo il sistema a due incognite
+$$
+\begin{array}
+\ \Leftrightarrow\begin{cases}
+A+B = 1 \to A=-B+1\\
+-A-3B = 1 \to B-1-3B = 1 
+\end{cases} \\
+\Leftrightarrow\begin{cases}
+A=2 \\
+B=-1 
+\end{cases}
+\end{array}
+$$
+- Quindi
+$$
+\int_{4}^{5} \displaystyle{\frac{2}{x-3}} \, dx -\int_{4}^{5} \displaystyle{\frac{1}{x+1}} \, dx = [2log(x-3)-log(x-1)] _{4}^5
 $$
