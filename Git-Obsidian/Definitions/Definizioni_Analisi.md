@@ -55,3 +55,8 @@ $e^{i\pi}=-1\Leftrightarrow e^{i\pi}+1 = 0$
 >[!info] Definizione
 >Un punto interno ad un [[Introduzione Funzioni#Intervallo|intervallo]] $I$ qualsiasi è un punto che sta dentro all'intervallo $I$ tranne gli estremi dell'intervallo
 >$$c\in I\setminus \{ inf(f),sup(f) \}$$
+
+## Rette Sghembe
+---
+>[!info] Definizione
+>Due rette sono sghembe se non hanno punti in comune e se non esiste alcun piano che le contiene entrambe

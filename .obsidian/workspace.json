@@ -11,8 +11,12 @@
             "id": "254e3e70fdfd5878",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Git-Obsidian/Analisi/Funzioni a due Variabili/Elementi di Algebra Lineare e Geometria Analitica.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -89,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Git-Obsidian/Analisi/Funzioni a due Variabili/Elementi di Algebra Lineare e Geometria Analitica.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,6 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Git-Obsidian/Analisi/Funzioni a due Variabili/Elementi di Algebra Lineare e Geometria Analitica.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +132,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Git-Obsidian/Analisi/Funzioni a due Variabili/Elementi di Algebra Lineare e Geometria Analitica.md"
+              }
             }
           },
           {
@@ -159,18 +167,23 @@
   },
   "active": "254e3e70fdfd5878",
   "lastOpenFiles": [
+    "Git-Obsidian/Definitions/Definizioni_Analisi.md",
+    "Git-Obsidian/Analisi/Funzioni a due Variabili/Elementi di Algebra Lineare e Geometria Analitica.md",
+    "Git-Obsidian/Attatchments/Pasted image 20231129180244.png",
+    "Git-Obsidian/Attatchments/Pasted image 20231129175601.png",
+    "Git-Obsidian/Attatchments/Pasted image 20231129170609.png",
+    "Git-Obsidian/Attatchments/Pasted image 20231129170605.png",
+    "Git-Obsidian/Attatchments/Pasted image 20231129165951.png",
     "Git-Obsidian/Analisi/Successioni/Successioni.md",
     "Git-Obsidian/Analisi/Insiemi/Numeri Complessi.md",
     "Git-Obsidian/Analisi/Successioni/Tipologie di Successioni.md",
     "Git-Obsidian/Analisi/Successioni/Operazioni con i Limiti.md",
     "Git-Obsidian/Analisi/Successioni/Limiti successioni.md",
-    "Git-Obsidian/Analisi/Funzioni a due Variabili/Elementi di Algebra Lineare e Geometria Analitica.md",
     "Git-Obsidian/Attatchments/Pasted image 20231128170944.png",
     "Git-Obsidian/Attatchments/Pasted image 20231128170345.png",
     "Git-Obsidian/Attatchments/Pasted image 20231128165050.png",
     "Git-Obsidian/Attatchments/Pasted image 20231128164523.png",
     "Git-Obsidian/Attatchments/Pasted image 20231128164443.png",
-    "Git-Obsidian/Attatchments/Pasted image 20231128163911.png",
     "Git-Obsidian/Analisi/Funzioni a due Variabili",
     "Git-Obsidian/Analisi/Funzioni/Funzioni di una variabile Reale.md",
     "Git-Obsidian/Analisi/Calcolo Integrale/Calcolo Integrale.md",
@@ -180,18 +193,13 @@
     "Git-Obsidian/Analisi/Funzioni/Introduzione Funzioni.md",
     "Git-Obsidian/Analisi/Limiti/Limiti.md",
     "Git-Obsidian/Analisi/Insiemi/Insiemi Numerici.md",
-    "Git-Obsidian/Definitions/Definizioni_Analisi.md",
     "Git-Obsidian/Analisi/Tipologie di Dimostrazioni.md",
     "Git-Obsidian/Analisi/Concetti Base.md",
     "Git-Obsidian/Analisi/Breve ripasso.md",
     "Git-Obsidian/Analisi/Calcolo Differenziale/Derivate di Funzioni Elementari.md",
     "Git-Obsidian/Analisi/Calcolo Differenziale/Teoremi basati sulle Derivate.md",
-    "Git-Obsidian/Attatchments/WhatsApp Image 2023-11-20 at 15.22.49_0bd300f7.jpg",
     "Git-Obsidian/Todesco/Relazione.md",
     "Relazione.pdf",
-    "Git-Obsidian/Todesco/Attatchements/merged.jpg",
-    "Git-Obsidian/Attatchments/Untitled (1).png",
-    "Git-Obsidian/Attatchments/Untitled.png",
     "Git-Obsidian/Analisi/Taylor/Formule di Taylor di Funzioni Elementari.md",
     "Git-Obsidian/Analisi/Calcolo Integrale",
     "Git-Obsidian/Todesco/Attatchements",
@@ -200,7 +208,6 @@
     "Git-Obsidian/Analisi/Calcolo Differenziale/Derivate.md",
     "Git-Obsidian/Analisi/Taylor/Polinomio Di Taylor.md",
     "Git-Obsidian/Analisi/Taylor/Formula di Taylor.md",
-    "Git-Obsidian/Analisi/Limiti/Calcolo dei Limiti.md",
     "Git-Obsidian/Game Programming",
     "Git-Obsidian/Analisi/Taylor",
     "Spiegazione.pdf",
