@@ -57,15 +57,19 @@ $$\sum_{k=0}^{n+1} k = \sum_{k=0}^{n} k + n+1 = \frac{n(n+1)}{2} +n+1$$
 $$(n+1)\left( \frac{n+2}{2}\right)$$
 
 ##### Disuguaglianza di Bernoulli
->$\forall x \in \mathbb{R}, x>-1$ si ha che $$(1+x)^n \geq 1+nx \;\;\;\; \forall n\in \mathbb{N}$$
-###### Passo 0
-- $P(0)$ è vera infatti $1 = 1$
-###### Passo Induttivo
-- Verifichiamo che se $(1+x)^n \geq 1+nx$ allora $(1+x)^{n+1} \geq 1+(n+1)x$
-	- $(1+x)^{n+1} = (1+x) ^n\cdot( 1+x)$
-	- Per ipotesi:
-	- $(1+x) ^n\cdot( 1+x) \geq (1+nx)\cdot(1+x)$
-
+>[!info] Ipotesi
+>Sia $x \in\mathbb{R}:x>-1$ e $n\in\mathbb{N}$ si ha che:
+>$$(1+x)^n \geq 1+nx, \forall n\in\mathbb{N}$$
+###### Dimostrazione
+1. $P(0)$ è vera, infatti: $1\geq1$
+2. Verifichiamo che se $(1+x)^n\geq 1+nx$ allora $(1+x)^{n+1}\geq 1+(1+n)x$
+$$
+(1+x)^{n+1} = (1+x)^{n}(1+x) \underbrace{ \geq }_{ * } (1+nx)(1+x)
+$$
+- La direzione della disugualianza rimane uguale poichè $1+x$  è sempre maggiore di $0$
+- Risolvo la disugualianza
+$$
+1+x+nx+nx^2\geq 1+x(n+1)$$
 ## Metodo di bisezione
 ---
 >[!done] Definizione

@@ -8,18 +8,43 @@
         "type": "tabs",
         "children": [
           {
-            "id": "254e3e70fdfd5878",
+            "id": "1a37cb03855de447",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Obsidian/Analisi/Funzioni a due Variabili/Elementi di Algebra Lineare e Geometria Analitica.md",
-                "mode": "source",
+                "file": "Git-Obsidian/Analisi/Successioni/Limiti di Successioni.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "dc2fe8278544b49c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git-Obsidian/Analisi/Successioni/Numero di Nepero.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c891d22ce0162175",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git-Obsidian/Analisi/Tipologie di Dimostrazioni.md",
+                "mode": "preview",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -77,7 +102,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240.5
+    "width": 240.5,
+    "collapsed": true
   },
   "right": {
     "id": "3561446b8c4d05ef",
@@ -93,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Analisi/Funzioni a due Variabili/Elementi di Algebra Lineare e Geometria Analitica.md",
+                "file": "Git-Obsidian/Analisi/Tipologie di Dimostrazioni.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Analisi/Funzioni a due Variabili/Elementi di Algebra Lineare e Geometria Analitica.md",
+                "file": "Git-Obsidian/Analisi/Tipologie di Dimostrazioni.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git-Obsidian/Analisi/Funzioni a due Variabili/Elementi di Algebra Lineare e Geometria Analitica.md"
+                "file": "Git-Obsidian/Analisi/Tipologie di Dimostrazioni.md"
               }
             }
           },
@@ -165,19 +191,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "254e3e70fdfd5878",
+  "active": "c891d22ce0162175",
   "lastOpenFiles": [
-    "Git-Obsidian/Definitions/Definizioni_Analisi.md",
+    "Git-Obsidian/Analisi/Successioni/Numero di Nepero.md",
+    "Git-Obsidian/Analisi/Successioni/Successioni.md",
+    "Git-Obsidian/Analisi/Successioni/Limiti di Successioni.md",
+    "Git-Obsidian/Analisi/Successioni/Operazioni con i Limiti.md",
+    "Git-Obsidian/Analisi/Successioni/Tipologie di Successioni.md",
+    "Git-Obsidian/Analisi/Taylor/Resto di Peano.md",
     "Git-Obsidian/Analisi/Funzioni a due Variabili/Elementi di Algebra Lineare e Geometria Analitica.md",
+    "Git-Obsidian/Definitions/Definizioni_Analisi.md",
     "Git-Obsidian/Attatchments/Pasted image 20231129180244.png",
     "Git-Obsidian/Attatchments/Pasted image 20231129175601.png",
     "Git-Obsidian/Attatchments/Pasted image 20231129170609.png",
     "Git-Obsidian/Attatchments/Pasted image 20231129170605.png",
     "Git-Obsidian/Attatchments/Pasted image 20231129165951.png",
-    "Git-Obsidian/Analisi/Successioni/Successioni.md",
     "Git-Obsidian/Analisi/Insiemi/Numeri Complessi.md",
-    "Git-Obsidian/Analisi/Successioni/Tipologie di Successioni.md",
-    "Git-Obsidian/Analisi/Successioni/Operazioni con i Limiti.md",
     "Git-Obsidian/Analisi/Successioni/Limiti successioni.md",
     "Git-Obsidian/Attatchments/Pasted image 20231128170944.png",
     "Git-Obsidian/Attatchments/Pasted image 20231128170345.png",
@@ -206,8 +235,6 @@
     "Git-Obsidian/Todesco",
     "Insiemi Numerici.pdf",
     "Git-Obsidian/Analisi/Calcolo Differenziale/Derivate.md",
-    "Git-Obsidian/Analisi/Taylor/Polinomio Di Taylor.md",
-    "Git-Obsidian/Analisi/Taylor/Formula di Taylor.md",
     "Git-Obsidian/Game Programming",
     "Git-Obsidian/Analisi/Taylor",
     "Spiegazione.pdf",

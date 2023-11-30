@@ -17,7 +17,7 @@
 
 ### Funzioni Trascurabili
 ---
-- Analoghe alle [[Tipologie di Successioni#Successioni Trascurabili|successioni]]
+- Analoghe alle successioni
 >[!info] o Piccoli
 >Siano $f,g:I\to\mathbb{R}$ [[Introduzione Funzioni#Intervallo|intervalli]] o un [[Introduzione Funzioni#Intervallo Forato|intervalli forati]], $c\in[inf(I),sup(I)]$
 >Diciamo che $f$ è trascurabile rispetto a $g$ e scriviamo $f(x)=\circ(g(x))$ per $x\to c$

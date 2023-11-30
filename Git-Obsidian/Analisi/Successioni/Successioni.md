@@ -1,5 +1,5 @@
 >[!info] Definizione
->Sia $a\neq 0$ chiamiamo successione in $A$ una qualsiasi funzione
+>Sia $A\neq 0,A\subseteq\mathbb{R}$ chiamiamo successione in $A$ una qualsiasi funzione
 > $$
 f: \mathbb{N}\to A
 >$$
