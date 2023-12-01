@@ -23,7 +23,7 @@
 	- $\lim\limits_{n\to+\infty}a_{n}=\pm\infty \to$ la successione è divergente
 
 - $a_{n}$ si dice regolare se ha limite o convergente o divergente
-	- Denoto $\overline{R}=\{\text{insieme di tutti i possibili limiti}\}=\mathbb{R}\cup\{+\infty,-\infty\}$
+	- Denoto $\overline{\mathbb{R}}=\{\text{insieme di tutti i possibili limiti}\}=\mathbb{R}\cup\{+\infty,-\infty\}$
 #### Es
 $a_{n}=\displaystyle{\frac{2n+1}{n+2}}$
 - Verifica che $\lim\limits_{n\to+\infty}a_{n}=2$
@@ -33,7 +33,7 @@ $$
 \ |a_{n}-l|=|\displaystyle{\frac{2n+1}{n+2}}-2|\leq \mathcal{E} \\
 | \displaystyle{\frac{2n+1-2n-4}{n+2}}|\leq\mathcal{E} \\
 \displaystyle{\frac{3}{n+2}}\leq\mathcal{E} \Leftrightarrow n+2\geq \displaystyle{\frac{3}{\mathcal{E}}} \\
-n\implies \displaystyle{\frac{3}{\mathcal{E}}}-2
+n\geq \displaystyle{\frac{3}{\mathcal{E}}}-2
 \end{array}
 $$
 #### Osservazione
@@ -45,7 +45,7 @@ $$
 ## Successioni Limitate/Illimitate
 - - -
 >[!tldr] Definizione
->Sia $(a_{n})n\in\mathbb{N}$ in $\mathbb{R}$ diciamo che $(a_{n})$ è illimitata/[[Insiemi Numerici#Superiore|limitata superiormente]]/[[Insiemi Numerici#Inferiore|limitata inferiormente]]limitata inferiormente se lo è l'insieme dei suoi termini
+>Sia $(a_{n})_{n\in\mathbb{N}}$ in $\mathbb{R}$ diciamo che $(a_{n})$ è illimitata/[[Insiemi Numerici#Superiore|limitata superiormente]]/[[Insiemi Numerici#Inferiore|limitata inferiormente]] se lo è l'insieme dei suoi termini
 #### Termini
 - $sup(a_{n})_{n\in\mathbb{N}}:=sup(a_{n}|n\in\mathbb{N})$
 - $inf(a_{n})_{n\in\mathbb{N}}:=inf(a_{n}|n\in\mathbb{N})$
@@ -95,6 +95,7 @@ $$
 
 ## Valore assoluto del Limite
 - - -
+>[!info] Teorema
 >Sia $(a_{n})n\in\mathbb{R}:\lim\limits_{n\to+\infty}a_{n}=l$
 >Allora
 >$\lim\limits_{n\to+\infty}|a_{n}|=|l|$
@@ -137,7 +138,7 @@ $$
 l<m
 $$
 - Scelgo $\mathcal{E}>0$ tale che
-	- $l<l+\mathcal{E}< \displaystyle{\frac{l+m}{2}}<m+\mathcal{E}<m$
+	- $l<l+\mathcal{E}< \displaystyle{\frac{l+m}{2}}<m-\mathcal{E}<m$
 - Ma per ipotesi
 $$
 \begin{array}\
@@ -168,7 +169,7 @@ $$
 >[!info] Definizione
 >Sia $(a_{n})_{n\in\mathbb{N}}$ una successione regolare in $\mathbb{R}$, $l\in\overline{\mathbb{R}}: \lim\limits_{n\to+\infty}a_{n}=l$
 >Se $l>0 \implies\exists \overline{n}\in\mathbb{N}:a_{n}>0 \ \ \forall n \geq \overline{n}$
->Se $l<0 \implies\exists \overline{n}\in\mathbb{N}:a_{n}<0 \ \ \forall \geq \overline{n}$
+>Se $l<0 \implies\exists \overline{n}\in\mathbb{N}:a_{n}<0 \ \ \forall n\geq \overline{n}$
 >>[!done] In breve
 >>Se il limite di una funzione è diverso da $0$, allora la funzione è localmente concorde con il llimite
 ## Teorema dei due Carabinieri
@@ -182,40 +183,3 @@ a_{n}\leq b_{n}\leq c_{n} \text{ e } l \in\mathbb{R} \ \ \ \forall n\in\mathbb{N
 >$\lim\limits_{n\to+\infty}a_{n}=l,  \lim\limits_{n\to+\infty}c_{n}=l$
 >Allora: $\lim\limits_{n\to+\infty}b_{n}=l$
 - Dimostrato tramite il teorema del confronto
-
-## Criterio del rapporto
----
->[!info] Teorema
->Sia $(a_{n})_{n\in\mathbb{N}}$ in $\mathbb{R}^+\setminus\{0\}$ supponiamo che $\left( \displaystyle{\frac{a_{n+1}}{a_{n}}} \right)$ sia regolare
-><u>Allora</u>
->se $\lim\limits_{n\to+\infty} \displaystyle{\frac{a_{n+1}}{a_{n}}}=l>1\implies \lim\limits_{n\to+\infty}a_{n}=+\infty$
->se $\lim\limits_{n\to+\infty} \displaystyle{\frac{a_{n+1}}{a_{n}}}=0\leq l<1\implies \lim\limits_{n\to+\infty}a_{n}=0$
-
-### Dimostrazione proprietà 1
-### Dimostrazione proprietà 2
->[!note] Assunzioni
->Assumo $\lim\limits_{n\to+\infty} \displaystyle{\frac{a_{n+1}}{a_{n}}}=l<1$
->Sia $m:l<m<1$
->Per il [[Limiti di Successioni#Teorema della permanenza dei segni|teorema della permanenza dei segni]] (applicato a $\displaystyle{\frac{a_{n+1}}{a_{n}}}-m$)
->$$
-\exists \overline{n}\in\mathbb{N}:\forall n\geq\overline{n}\text{ si ha } \displaystyle{\frac{a_{n+1}}{a_{n}}}<m
->$$
-#### Dimostrazione
-$$
-\begin{array}
-\ n=\overline{n}\ \ \ \ \ \ \displaystyle{\frac{a_{\overline{n}+1}}{a_{\overline{n}}}}<m \Leftrightarrow a_{\overline{n}+1}<m\cdot a_{\overline{n}} \\
-n=\overline{n}+1 \ \ \ \displaystyle{\frac{a_{\overline{n}+2}}{a_{\overline{n}+1}}}<m \Leftrightarrow a_{\overline{n}+2}<m^2\cdot a_{\overline{n}}, \ (m\cdot a_{\overline{n}+1}<m\cdot a_{n})
-\end{array}
-$$
-- Quindi
-$$
-n=\overline{n}+k-1 \implies a_{n+k}<m^k\cdot a_{n}, \forall k>0
-$$
-- Chiamo
-$$
-n=\overline{n}+k:a_{n}<\underbrace{m^{n-\overline{n}}\cdot a_{\overline{n}}}_{\displaystyle{=m^n\cdot \displaystyle{\frac{a_{\overline{n}}}{m^\overline{n}}}}}
-$$
-#### Riassumiamo
-$$
-0<a_{n}<\underbrace{m^n\cdot\frac{a_{\overline{n}}}{m^\overline{n}}}_{\displaystyle\text{tende a 0 perche 0<m<1}}
-$$

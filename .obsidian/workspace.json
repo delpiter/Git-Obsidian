@@ -4,47 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "56d4d131d08e4c1b",
+        "id": "32aded1c83496293",
         "type": "tabs",
         "children": [
           {
-            "id": "1a37cb03855de447",
+            "id": "407a241dfd18ddba",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Obsidian/Analisi/Successioni/Limiti di Successioni.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "dc2fe8278544b49c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git-Obsidian/Analisi/Successioni/Numero di Nepero.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c891d22ce0162175",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git-Obsidian/Analisi/Tipologie di Dimostrazioni.md",
+                "file": "Git-Obsidian/Analisi/Funzioni/Introduzione Funzioni.md",
                 "mode": "preview",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -81,7 +56,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "permanenz",
+                "query": "regolare",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -102,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240.5,
-    "collapsed": true
+    "width": 240.5
   },
   "right": {
     "id": "3561446b8c4d05ef",
@@ -119,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Analisi/Tipologie di Dimostrazioni.md",
+                "file": "Git-Obsidian/Analisi/Funzioni/Introduzione Funzioni.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Analisi/Tipologie di Dimostrazioni.md",
+                "file": "Git-Obsidian/Analisi/Funzioni/Introduzione Funzioni.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git-Obsidian/Analisi/Tipologie di Dimostrazioni.md"
+                "file": "Git-Obsidian/Analisi/Funzioni/Introduzione Funzioni.md"
               }
             }
           },
@@ -191,14 +165,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c891d22ce0162175",
+  "active": "407a241dfd18ddba",
   "lastOpenFiles": [
-    "Git-Obsidian/Analisi/Successioni/Numero di Nepero.md",
-    "Git-Obsidian/Analisi/Successioni/Successioni.md",
+    "Git-Obsidian/Analisi/Funzioni/Funzioni di una variabile Reale.md",
+    "Git-Obsidian/Analisi/Funzioni/Studio di Funzioni.md",
+    "Git-Obsidian/Analisi/Funzioni/Introduzione Funzioni.md",
+    "Git-Obsidian/Analisi/Limiti/Limiti.md",
+    "Git-Obsidian/Analisi/Limiti/Calcolo dei Limiti.md",
     "Git-Obsidian/Analisi/Successioni/Limiti di Successioni.md",
-    "Git-Obsidian/Analisi/Successioni/Operazioni con i Limiti.md",
+    "Git-Obsidian/Analisi/Successioni/Criterio del Rapporto.md",
+    "Git-Obsidian/Analisi/Successioni/Successioni.md",
+    "Git-Obsidian/Analisi/Insiemi/Insiemi Numerici.md",
     "Git-Obsidian/Analisi/Successioni/Tipologie di Successioni.md",
     "Git-Obsidian/Analisi/Taylor/Resto di Peano.md",
+    "Git-Obsidian/Attatchments/Screenshot 2023-11-28 184638.png",
+    "Git-Obsidian/Analisi/Successioni/Numero di Nepero.md",
+    "Git-Obsidian/Analisi/Tipologie di Dimostrazioni.md",
+    "Git-Obsidian/Analisi/Successioni/Operazioni con i Limiti.md",
     "Git-Obsidian/Analisi/Funzioni a due Variabili/Elementi di Algebra Lineare e Geometria Analitica.md",
     "Git-Obsidian/Definitions/Definizioni_Analisi.md",
     "Git-Obsidian/Attatchments/Pasted image 20231129180244.png",
@@ -212,29 +195,20 @@
     "Git-Obsidian/Attatchments/Pasted image 20231128170345.png",
     "Git-Obsidian/Attatchments/Pasted image 20231128165050.png",
     "Git-Obsidian/Attatchments/Pasted image 20231128164523.png",
-    "Git-Obsidian/Attatchments/Pasted image 20231128164443.png",
     "Git-Obsidian/Analisi/Funzioni a due Variabili",
-    "Git-Obsidian/Analisi/Funzioni/Funzioni di una variabile Reale.md",
     "Git-Obsidian/Analisi/Calcolo Integrale/Calcolo Integrale.md",
     "Git-Obsidian/Analisi/Calcolo Integrale/Introduzione Integrali.md",
     "Git-Obsidian/Analisi/Calcolo Integrale/Proprietà degli Integrali.md",
-    "Git-Obsidian/Analisi/Funzioni/Studio di Funzioni.md",
-    "Git-Obsidian/Analisi/Funzioni/Introduzione Funzioni.md",
-    "Git-Obsidian/Analisi/Limiti/Limiti.md",
-    "Git-Obsidian/Analisi/Insiemi/Insiemi Numerici.md",
-    "Git-Obsidian/Analisi/Tipologie di Dimostrazioni.md",
     "Git-Obsidian/Analisi/Concetti Base.md",
     "Git-Obsidian/Analisi/Breve ripasso.md",
     "Git-Obsidian/Analisi/Calcolo Differenziale/Derivate di Funzioni Elementari.md",
     "Git-Obsidian/Analisi/Calcolo Differenziale/Teoremi basati sulle Derivate.md",
     "Git-Obsidian/Todesco/Relazione.md",
     "Relazione.pdf",
-    "Git-Obsidian/Analisi/Taylor/Formule di Taylor di Funzioni Elementari.md",
     "Git-Obsidian/Analisi/Calcolo Integrale",
     "Git-Obsidian/Todesco/Attatchements",
     "Git-Obsidian/Todesco",
     "Insiemi Numerici.pdf",
-    "Git-Obsidian/Analisi/Calcolo Differenziale/Derivate.md",
     "Git-Obsidian/Game Programming",
     "Git-Obsidian/Analisi/Taylor",
     "Spiegazione.pdf",

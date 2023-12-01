@@ -21,7 +21,7 @@
 
 ### Definizione Limite
 >[!info] Definizioni
->Elenchiamo di seguito 2 definizioni uguale di limite
+>Elenchiamo di seguito 2 definizioni uguali di limite
 >>[!example] Definizione con definizione di [[Limiti di Successioni#Definizioni|successione]]
 >>Sia $I$ un [[Introduzione Funzioni#Intervallo|intervallo]] o un [[Introduzione Funzioni#Intervallo Forato|intervallo forato]]
 >>Sia $f:I\to \mathbb{R},c\in[inf(I),sup(I)]$ ([[Insiemi Numerici#Insiemi Limitati|limitazioni]]),$l\in\overline{\mathbb{R}}$

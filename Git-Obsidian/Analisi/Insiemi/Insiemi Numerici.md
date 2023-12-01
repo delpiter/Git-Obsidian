@@ -93,7 +93,7 @@ Siano $M_1$ e $M_2$ massimi di $A$
 
 
 #### Teorema
->Sia $A \subseteq \mathbb{R}$ allora l'insieme dei magigoranti ammette sempre un minimo
+>Sia $A \subseteq \mathbb{R}$ allora l'insieme dei maggioranti ammette sempre un minimo
 >>Viene chiamato estremo superiore di $A$ o $supA$
 
 Analogamente

@@ -1,16 +1,19 @@
-> Siano $A$ e $B \neq \varnothing$  chiamiamo funzione da $A$ a $B$ una legge che ad ogni elemento di $A$ associa uno ed un solo elemento di $B$
- 
+>[!info] Definizione
+>Siano $A$ e $B \neq \varnothing$  chiamiamo funzione da $A$ a $B$ una legge che ad ogni elemento di $A$ associa uno ed un solo elemento di $B$ 
 $$f:A\rightarrow B$$
 - Dove $A$ rappresenta il dominio della funzione e $B$ il codominio
 $$\forall x \in A, \exists y \in B : y = f(x)$$
 ## Dominio e Codominio e Immagine
-#### Dominio
+---
+>[!info] Dominio
 >L'insieme dei valori possibili che la variabile $x$ può assumere
-- L'insieme su cui è definita la funzione.
-#### Codominio
+>>[!done] In Breve
+>>L'insieme su cui è definita la funzione.
+
+>[!info] Codominio
 >È l'insieme dove sono contenute tutte le immagini della funzione
 
-#### Immagine
+>[!info] Immagine
 >Il sottoinsieme di $y$ costituito dai valori effettivamente assunti dalla funzione $f$ è invece detto immagine
 $$f(A)=\{y\in B\;|\;\exists; x\in A:f(x)=y\}$$
 ## Grafico di una Funzione
@@ -32,28 +35,39 @@ grid: true
 ```
 
 #### Iniettività e surriettività
-###### Surriettività $[f\;su]$
+##### Funzione Surriettiva
+>[!info] Surriettività $[f\;su]$
 >Diciamo che $f$ è surriettiva se $f(A)=B$
->>Cioè se per ogni elemento del codominio, c'è almeno un elemento del domino associato
-$$\forall x \in B, \exists \; x \in A | f(x)=y$$
+>>[!done] In Breve
+>>Se per ogni elemento del codominio, c'è almeno un elemento del domino associato
+>
+>Sia $f:A\to B$
+>$$\forall x \in B, \exists \; x \in A | f(x)=y$$
 - Tutte le funzioni possono essere surriettive
 	- Basta restringere il codominio
-###### Iniettività $[f\;1-1]$
 
+##### Funzione Iniettiva
+>[!info] Iniettività $[f\;1-1]$
 >Diciamo che $f$ è iniettiva se:
+>$$\forall y \in f(A), \exists! \;x \in A | f(x)=y$$
+>>[!done] In Breve
 >>Ogni elemento del dominio ha una immagine distinta
-$$\forall y \in f(A), \exists! \;x \in A | f(x)=y$$
+
 - Oppure se $f(x_1) = f(x_2) \Rightarrow x_1=x_2$
-###### Funzione invertibile
+
+##### Funzione Biunivoca
+>[!info] Funzione invertibile
 >Diciamo che $f$ è invertibile (Biettiva o Biunivoca) se è sia iniettiva che surriettiva
 
-###### Funzione inversa
-> Sia $f:A\rightarrow B$ invertibile chiamiamo funzione inversa di $f$ la funzione
-$$f^-1:B\rightarrow A$$
-- Definita come segue
-	- $\forall y\in B,f^-1(y)$ è l'unica soluzione dell'equazione $f(x)=y$
+##### Funzione inversa
+>[!info] Definizione
+>Sia $f:A\rightarrow B$ invertibile chiamiamo funzione inversa di $f$ la funzione $$f^-1:B\rightarrow A$$
+>>[!done] In Breve
+>>$\forall y\in B,f^-1(y)$ è l'unica soluzione dell'equazione $f(x)=y$
 
 ## Composizione
+---
+>[!info] Definizione
 >Siano $f:A\rightarrow B, \;g:C\rightarrow D$
 >Supponiamo che $f(A)\subseteq C$ (se $f(x)$ esce dal dominio di $g$ non è possibile)
 >chiamiamo funzione composta
@@ -64,7 +78,8 @@ $$(g_of)(x)=g(f(x))$$
 	- Non è sempre detto sia possibile farlo in entrambi i versi ($g_of$ e $f_og$)
 	- E anche se fosse possibile in generale $g_of\neq f_og$
 
-#### Funzione Identità
+## Funzione Identità
+---
 >La funzione identità è una particolare funzione che associa ad ogni $x$ la $x$ stessa
 $$Id_a: A\rightarrow A$$
 $$x\mapsto x$$
@@ -93,15 +108,15 @@ $$(f^{-1}_of)(x) = x \;\; \forall x \in A$$
 >si ha $z \in I$
 >
 >>[!done] In Breve
->>Presi due numeri $x\; e \;y$ all'interno dell'insieme si dice intervallo se per ogni $z$ preso fra $x$ e $y$, anche $z$ è interno all'insieme
+>>Presi due numeri $x\; e \;y$ all'interno dell'insieme si dice intervallo se qualsiasi $z$ preso fra $x$ e $y$, anche $z$ è interno all'insieme
 ###### Es
 - È un intervallo:
 $$
-I={x \in \mathbb{R} | 1<x<52}
+I=\{x \in \mathbb{R} | 1<x<52\}
 $$
 - Non è un intervallo
 $$
-A={x \in \mathbb{R} | x<1 \vee x > 7}
+A=\{x \in \mathbb{R} | x<1 \vee x > 7\}
 $$
 ### Notazioni
 > Dati $a,b \in \mathbb{R}$
@@ -124,6 +139,7 @@ $$
 	- L'insieme $J$ è un intervallo forato in $1$
 
 ## Continuità
+---
 >[!info] Definizione
 >Sia $\mathrm{I}$ intervallo di $\mathbb{R},f:\mathrm{I}\to \mathbb{R}$
 >Sia $c\in\mathrm{I}$
@@ -146,15 +162,16 @@ f:\mathbb{R}\setminus\{0\}\to\mathbb{R}, f(x)=\frac{1}{x}
 $$
 - La funzione è continua nel dominio
 ### Teorema
-- Siano $f,g:I\to\mathbb{R}$ funzioni continue
-- <u>Allora</u>
-$$
+>[!info] Teorema
+>Siano $f,g:I\to\mathbb{R}$ funzioni continue
+><u>Allora</u>
+>$$
 \begin{cases}
 f+g \text{ è continua} \\
 f\cdot g \text{ è continua} \\
 \displaystyle{\frac{f}{g}} \text{ è continua, }g\neq0 
 \end{cases}
-$$
+>$$
 - Inoltre 
 	- $f:I\to\mathbb{R},g:J\to\mathbb{R}$
 		- Se $f(I)\subset J$ e se $f$ è continua su $I$ e $g$ è continua su $J$
@@ -164,6 +181,7 @@ $$
 		- Allora $f^-1$ è continua
 ## Limitazioni
 - - -
+>[!info] Definizione
 >Siano $A \subseteq \mathbb{R}, \;f:A\to\mathbb{R}$ diciamo che $f$ è limitata superiormente o inferiormente se lo è $f(A)$ (l'immagine)
 ###### Es
 $$
@@ -309,6 +327,7 @@ $$
 	- supponiamo $f$ sia strettamente crescente
 
 ## Funzioni Pari e Dispari
+---
 >Sia $A \subseteq \mathbb{R}$ simmetrico rispetto all'oirgine (cioè se $x \in A \implies -x \in A$)
 >	Sia $f:A\to\mathbb{R}$, diciamo che $f$ è **pari** se $\forall x \in A, f(x)=f(-x)$
 >	Sia $f:A\to\mathbb{R}$, diciamo che $f$ è **dispari** se $\forall x \in A, f(x)=-f(-x)$
@@ -395,7 +414,7 @@ f(x) = x^2
 f(x+k) = (x+2)^2
 f(x-k)= (x-2)^2
 ```
->[[Breve ripasso#Valore assoluto|Definizione valore assoluto]]
+>[[Breve ripasso#Valore assoluto|Valore Assoluto]]
 ><font color="CornflowerBlue">$f(x) = (x-2)^2-2$</font>
 ><font color="red">$f(|x|) = (|x|-2)^2-2$</font>
 
