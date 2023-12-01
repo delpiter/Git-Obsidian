@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Obsidian/Analisi/Funzioni/Introduzione Funzioni.md",
+                "file": "Git-Obsidian/Analisi/Calcolo Differenziale/Teoremi basati sulle Derivate.md",
                 "mode": "preview",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Analisi/Funzioni/Introduzione Funzioni.md",
+                "file": "Git-Obsidian/Analisi/Calcolo Differenziale/Teoremi basati sulle Derivate.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Analisi/Funzioni/Introduzione Funzioni.md",
+                "file": "Git-Obsidian/Analisi/Calcolo Differenziale/Teoremi basati sulle Derivate.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git-Obsidian/Analisi/Funzioni/Introduzione Funzioni.md"
+                "file": "Git-Obsidian/Analisi/Calcolo Differenziale/Teoremi basati sulle Derivate.md"
               }
             }
           },
@@ -167,9 +167,10 @@
   },
   "active": "407a241dfd18ddba",
   "lastOpenFiles": [
+    "Git-Obsidian/Analisi/Calcolo Differenziale/Derivate di Funzioni Elementari.md",
+    "Git-Obsidian/Analisi/Funzioni/Introduzione Funzioni.md",
     "Git-Obsidian/Analisi/Funzioni/Funzioni di una variabile Reale.md",
     "Git-Obsidian/Analisi/Funzioni/Studio di Funzioni.md",
-    "Git-Obsidian/Analisi/Funzioni/Introduzione Funzioni.md",
     "Git-Obsidian/Analisi/Limiti/Limiti.md",
     "Git-Obsidian/Analisi/Limiti/Calcolo dei Limiti.md",
     "Git-Obsidian/Analisi/Successioni/Limiti di Successioni.md",
@@ -201,7 +202,6 @@
     "Git-Obsidian/Analisi/Calcolo Integrale/Proprietà degli Integrali.md",
     "Git-Obsidian/Analisi/Concetti Base.md",
     "Git-Obsidian/Analisi/Breve ripasso.md",
-    "Git-Obsidian/Analisi/Calcolo Differenziale/Derivate di Funzioni Elementari.md",
     "Git-Obsidian/Analisi/Calcolo Differenziale/Teoremi basati sulle Derivate.md",
     "Git-Obsidian/Todesco/Relazione.md",
     "Relazione.pdf",
