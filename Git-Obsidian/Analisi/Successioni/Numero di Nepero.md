@@ -1,45 +1,74 @@
-## Numero di Nepero
-- - -
->[!info] Dimostrazione
->Sia $f(n)_{n\in\mathbb{N}}=\left( 1+ \displaystyle{\frac{1}{n}} \right)^n$
->Dimostro che $f_{n}\nearrow$
->Devo mostrare che:
->$$
-\displaystyle{\frac{f(n+1)}{f(n)}}\geq_{1}, \forall n\in\mathbb{N} \setminus\{0\}
->$$
-
+## Dimostrazione
+### $f_{n}$ crescente
+Sia
 $$
-\begin{array}
-\ \displaystyle{\frac{\left( 1+ \displaystyle{\frac{1}{n+1}} \right)^{n+1}}{\left(1+ \displaystyle{\frac{1}{n}}\right)^n}}=\left( \displaystyle{\frac{n+2}{n+1}} \right)^{n+1}\cdot\left( \displaystyle{\frac{n}{n+1}} \right)^n= \\
-=\left( \displaystyle{\frac{n+2}{n+1}} \right)^{n+1}\cdot\left( \displaystyle{\frac{n}{n+1}} \right)^{n+1}\cdot\left( \displaystyle{\frac{n+1}{n}} \right)= \\
-=\left( \displaystyle{\frac{n^2+n}{(n+1)^2}} \right)^{n+1}\cdot\left( \displaystyle{\frac{n+1}{n}} \right)= \\
-=\left( \displaystyle{\frac{(n+1)^2-1}{(n+1)^2}} \right)^{n+1}\cdot\left( \displaystyle{\frac{n+1}{n}} \right)=
-\end{array}
+\large (f_{n})_{n\in \mathbb{N}} = \left( 1+ \frac{1}{n} \right)^{n}
 $$
-- Applicazione della [[Tipologie di Dimostrazioni#Disuguaglianza di Bernoulli|disugualianza di Bernoulli]]
+Dimostriamo che $f_{n} \nearrow$
 $$
-\begin{array} \\
-\text{prendo come "x" }-\displaystyle{\frac{1}{(n+1)^2}} \\
-\ \left( 1-\displaystyle{\frac{1}{(n+1)^2}} \right)\cdot\left( \displaystyle{\frac{n+1}{n}} \right)\underbrace\geq_{\text{Bernoulli}}\left(1- \displaystyle{\frac{(n+1)}{(n+1)^2}} \right)\cdot\left( \displaystyle{\frac{n+1}{n}} \right)\\
-\left( \displaystyle{\frac{n}{n+1}} \right)\cdot\left( \displaystyle{\frac{n+1}{n}} \right)=1
-\end{array}
+\large  \frac{f_{n+1}}{f_{n}}\geq 1 \qquad \forall n \in \mathbb{N} \setminus \{ 0 \}
 $$
->[!info] Continuazione
->Sia $h_{m}=\left( 1+\displaystyle{\frac{1}{n}} \right)^{n+1}$
->È possibile dimostrare in modo simile che $h_{m}\searrow$
-### Osservazione
-- $h_{m}=\left( 1+\displaystyle{\frac{1}{n}} \right)^n\cdot\left( 1+\displaystyle{\frac{1}{n}} \right)=f_{n}\cdot\left( 1+\displaystyle{\frac{1}{n}} \right)\geq f_{n}$
-- Quindi $f_{n}\geq h_{n}$
+#### Procedimento
 $$
-2=f_{1}\leq f_{n}\leq h_{n} \leq h_{1}=4, \forall n\in\mathbb{N}\setminus\{0\}
+\begin{align}
+& \frac{f_{n+1}}{f_{n}} = \frac{\left( 1+\frac{1}{n+1} \right)^{n+1}}{\left( 1+\frac{1}{n} \right)^{n}}= \frac{\left( \frac{n+2}{n+1} \right)^{n+1}}{\left( \frac{n+1}{n} \right)^{n}}= \left( \frac{n+2}{n+1} \right)^{n+1} \cdot \left( \frac{n}{n+1} \right)^{n} = 
+\end{align}
 $$
-### Conclusione
-- $f_{n}$  e $h_{n}$ sono regolari e limitate, quindi sono convergenti.
-- Inoltre, poichè $h_{m}=f_{n}\left( 1+ \displaystyle{\frac{1}{n}} \right)$
-	- Si ha $\lim\limits_{n\to+\infty}h_{m}=\lim\limits_{n\to+\infty}f_{n}$
-- E per il [[Limiti di Successioni#Teorema del Confronto|teorema del confronto]] tale valore è compreso tra $2$ e $4$
+Trasformiamo l'esponente di $\left( \frac{n}{n+1} \right)^{n}$ per poter sfruttare la [[Funzione esponenziale#Proprietà potenze|moltiplicazione con uguale esponente]]
 $$
-e:=\lim\limits_{n\to+\infty}\left( 1+\displaystyle{\frac{1}{n}} \right)^n
+\displaylines{
+\begin{align}
+& \left( \frac{n+2}{n+1} \right)^{n+1} \cdot \left( \frac{n}{n+1} \right)^{n+1}\cdot \frac{n+1}{n}= \\
+& =\left( \frac{n^{2}+2n+1-1}{(n+1)^{2}} \right)^{n+1}\left( \frac{n+1}{n} \right) = \left( \frac{(n+1)^{2}-1}{(n+1)^{2}} \right)\left( \frac{n+1}{n} \right)
+\end{align} \\ \\
+= \left( 1-\frac{1}{(n+1)^{2}} \right)^{n+1}\left( \frac{n+1}{n} \right)
+}
+$$
+Sfruttiamo poi la [[Principio di induzione#Disuguaglianza di Bernoulli|disuguaglianza di Bernoulli]] ponendo
+- $x = \frac{1}{(n+1)^{2}}$
+- $n = n+1$
+$$
+\left( 1-\frac{1}{(n+1)^{2}} \right)^{n+1}\left( \frac{n+1}{n} \right) \geq \left( 1-\frac{n+1}{(n+1)^{2}} \right)\left( \frac{n+1}{n} \right)
 $$
 
+Scomponiamo il secondo membro
+$$
+\begin{align}
+& \left( 1-\frac{n+1}{(n+1)^{2}} \right)\left( \frac{n+1}{n} \right) = \\
+&= \left( 1-\frac{1}{n+1} \right)\left( \frac{n+1}{n} \right) \\ \\
+&\large = \left( \frac{n\cancel{ +1-1 }}{n+1} \right)\left( \frac{n+1}{n} \right) = 1
+\end{align}
+$$
+### $h_{n}$ decrescente
+Sia
+$$
+\large (h_{n})_{n\in \mathbb{N}} = \left( 1+ \frac{1}{n} \right)^{n+1}
+$$
+Possiamo dimostrare [[#$f_{n}$ crescente|analogamente]] che 
+$$
+\large h_{n} \searrow
+$$
+#### Osservazione
+$$
+\displaylines{
+h_{n} = \left( 1+ \frac{1}{n} \right)^{n+1} = \left( 1+\frac{1}{n} \right)^{n}\left( 1+\frac{1}{n} \right)=f_{n}\left( 1+\frac{1}{n} \right)
+}
+$$
+Sapendo che $\left( 1+\frac{1}{n} \right) \rightarrow 1$
+$$
+\large h_{n}\geq f_{n}
+$$
+Di conseguenza, crescenze e decrescenze di $f_{n}$ e $h_{n}$
+$$
+\large 2 = f_{1}\leq f_{n}\leq h_{n}\leq h_{1} = 4 \qquad \forall n \in \mathbb{N} \setminus \{ 0 \}
+$$
+$h_{n}$ e $f_{n}$ sono [[Limiti successioni#Terminologia|regolari]] e [[Funzioni a una variabile reale#Limitazione|limitate]], quindi sono [[Limiti successioni#Terminologia|convergenti]].
 
+Inoltre, poichè $h_{n}=f_{n}\left( 1+\frac{1}{n} \right)$ con $\left( 1+\frac{1}{n} \right) \rightarrow 1$
+$$
+\large \lim_{ n \to \infty } h_{n}  = \lim_{ n \to \infty } f_{n}
+$$
+E quindi per il teorema del confronto il valore è $2<x<4$ e lo definiamo
+$$
+\large e: \lim_{ n \to +\infty } \left( 1+\frac{1}{n} \right)^{n}
+$$

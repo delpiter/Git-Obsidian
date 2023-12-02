@@ -373,7 +373,10 @@ f(x) = x
 ## Funzione Periodica
 - - -
 ### Definizione Periodo
+>[!info] Periodo
 >Sia $T\in\mathbb{R}^+ \setminus \{0\},$ diciamo che $A\subseteq \mathbb{R}$ è T-periodica se $\forall x \in A, \forall k \in \mathbb{Z}$ si ha che $x + kT\in A$
+>>[!done] In Breve
+>>Ogni $T$ volte il valore della $x$ si ripete
 
 ### Definizione funzione periodica
 >Sia $A\subseteq\mathbb{R}$ T-Periodico, $f:a\to\mathbb{R}$ diciamo che f è T-periodico se $\forall x \in A:f(x)=f(x+T)$
