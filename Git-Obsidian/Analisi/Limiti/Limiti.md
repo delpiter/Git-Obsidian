@@ -143,6 +143,7 @@ Iterando il ragionamento (Metodo di Bisezione) si hanno 2 possibilità
 >$3) \ \ b_{n+1} \leq b_{n} \forall n \in\mathbb{N} \text{ cioè } b_{n} \searrow$
 >$4) \ \ b_{n}-a_{n} = \displaystyle{\frac{b-a}{2^n}}$
 >>[!done] In Breve
+>>Dopo ogni "passaggio" la lunghezza si dimezza, quindi al passaggio $n$ la lunghezza è uguale alla distanza originale diviso $2^n$
 >>La distanza fra i punti delle due successioni tende a $0$
 >
 >$5) \ \ f(a_{n}) < 0 < f(b_{n}) \forall n\in\mathbb{N}$
