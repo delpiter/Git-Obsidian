@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Obsidian/Analisi/Argomenti Studiati.md",
-                "mode": "source",
+                "file": "Git-Obsidian/Analisi/Limiti/Limiti.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Analisi/Argomenti Studiati.md",
+                "file": "Git-Obsidian/Analisi/Limiti/Limiti.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Analisi/Argomenti Studiati.md",
+                "file": "Git-Obsidian/Analisi/Limiti/Limiti.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git-Obsidian/Analisi/Argomenti Studiati.md"
+                "file": "Git-Obsidian/Analisi/Limiti/Limiti.md"
               }
             }
           },
@@ -167,8 +167,14 @@
   },
   "active": "78ad4532be39b454",
   "lastOpenFiles": [
-    "Git-Obsidian/Analisi/Funzioni/Introduzione Funzioni.md",
+    "Git-Obsidian/Analisi/Limiti/Calcolo dei Limiti.md",
+    "Git-Obsidian/Analisi/Taylor/Formule di Taylor di Funzioni Elementari.md",
+    "Git-Obsidian/Analisi/Taylor/Polinomio Di Taylor.md",
+    "Git-Obsidian/Programmazione/Teoria.md",
+    "Git-Obsidian/Programmazione/Funzioni/Funzioni Ricorsive.md",
+    "Git-Obsidian/Analisi/Limiti/Limiti.md",
     "Git-Obsidian/Analisi/Argomenti Studiati.md",
+    "Git-Obsidian/Analisi/Funzioni/Introduzione Funzioni.md",
     "Git-Obsidian/Analisi/Successioni/Numero di Nepero.md",
     "Git-Obsidian/Analisi/Successioni/Limiti di Successioni.md",
     "Git-Obsidian/Analisi/Successioni/Criterio del Rapporto.md",
@@ -177,8 +183,6 @@
     "Git-Obsidian/Analisi/Calcolo Differenziale/Derivate di Funzioni Elementari.md",
     "Git-Obsidian/Analisi/Funzioni/Funzioni di una variabile Reale.md",
     "Git-Obsidian/Analisi/Funzioni/Studio di Funzioni.md",
-    "Git-Obsidian/Analisi/Limiti/Limiti.md",
-    "Git-Obsidian/Analisi/Limiti/Calcolo dei Limiti.md",
     "Git-Obsidian/Analisi/Insiemi/Insiemi Numerici.md",
     "Git-Obsidian/Analisi/Successioni/Tipologie di Successioni.md",
     "Git-Obsidian/Analisi/Taylor/Resto di Peano.md",
@@ -200,10 +204,6 @@
     "Git-Obsidian/Attatchments/Pasted image 20231128164523.png",
     "Git-Obsidian/Analisi/Funzioni a due Variabili",
     "Git-Obsidian/Analisi/Calcolo Integrale/Calcolo Integrale.md",
-    "Git-Obsidian/Analisi/Calcolo Integrale/Introduzione Integrali.md",
-    "Git-Obsidian/Analisi/Calcolo Integrale/Proprietà degli Integrali.md",
-    "Git-Obsidian/Analisi/Concetti Base.md",
-    "Git-Obsidian/Analisi/Breve ripasso.md",
     "Relazione.pdf",
     "Git-Obsidian/Analisi/Calcolo Integrale",
     "Git-Obsidian/Todesco/Attatchements",

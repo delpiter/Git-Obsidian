@@ -7,7 +7,7 @@
 >Chiamiamo invece intorno di $+\infty$ un qualsiasi intervallo della forma 
 >$$(a,+\infty)$$
 >Chiamiamo invece intorno di $-\infty$ un qualsiasi intervallo della forma
->$$(a,-\infty)$$
+>$$(-\infty,a)$$
 
 #### Osservazione
 >$U$ è un intorno di $c$ se $$\exists r>0:U=(c-r,c+r)$$
@@ -28,7 +28,7 @@
 >>Diciamo che $\exists\lim\limits_{x\to+\infty}f(x)=l$ se:
 >>$$\forall(a_{n})_{n\in\mathbb{N}}\text{ successione in }I\setminus\{ c \}:\lim\limits_{n\to+\infty}a_{n}=c$$
 >>Si ha
->>$$\lim\limits_{n\to +\infty}=l$$
+>>$$\lim\limits_{n\to +\infty}f(a_{n})=l$$
 >>>[!done] In breve
 >>>Comunque io scelga una successione di punti che tende a $c$, quando ad $a_{n}$ applico la funzione il valore deve tendere a $l$
 >
@@ -48,11 +48,14 @@ $$
 $$
 ###### Spiegazione grafica
 ![[Pasted image 20231020102454.png]]
-Fissato un $\mathcal{E} >0$, esiste un $\delta>0$
-- Tale che $\forall x$ nell'intervallo $(c-\delta,c+\delta)$ si ha che $f(x)$ deve cadere nell'intervallo $(l-\mathcal{E},l+\mathcal{E})$
-###### Caso $l,c\in\overline{\mathbb{R}}$
-?
-#### Esercizio
+>[!done] In Breve
+>Fissato un $\mathcal{E} >0$, esiste un $\delta>0$
+>Tale che $\forall x$ nell'intervallo $(c-\delta,c+\delta)$ si ha che $f(x)$ deve cadere nell'intervallo $(l-\mathcal{E},l+\mathcal{E})$
+###### Caso $l,c = +\infty$
+!!!!!??
+$$
+\forall \mathcal{E}> 0,\exists\delta_{\mathcal{E}}>0 :\text{ se }\delta_{\mathcal{E}}>c, f(x)>\mathcal{E}
+$$
 
 ## Proprietà dei limiti
 ---
@@ -91,9 +94,10 @@ Fissato un $\mathcal{E} >0$, esiste un $\delta>0$
 >Sia $f:I\to \mathbb{R},c\in[inf(I),sup(I)]\cap\mathbb{R}$ ,$l\in\overline{\mathbb{R}}$
 >Diciamo che $f$ ha limite per $x\to c$ da sinistra (scriviamo $x\to c^-$)
 >Se ([[Definizioni_Analisi#Notazione Restrizione del dominio|notazione]]) $$\lim\limits_{x\to c}f(x)_{\displaystyle{|_{I\cap(-\infty,c)}}}=l$$
->>[!example] Teorema
->>$$\exists \lim\limits_{x\to c}f(x)\Leftrightarrow \begin{cases}\exists \lim\limits_{x\to c^-}f(x)\\ \lim\limits_{x\to c^+}f(x)\end{cases}$$
->>Tali limiti coincidono
+
+>[!example] Osservazione
+>$$\exists \lim\limits_{x\to c}f(x)\Leftrightarrow \begin{cases}\exists \lim\limits_{x\to c^-}f(x)\\ \lim\limits_{x\to c^+}f(x)\end{cases}$$
+>Tali limiti coincidono
 
 ### Cambio di variabile dei Limiti
 >[!info] Teorema
@@ -146,10 +150,10 @@ Iterando il ragionamento (Metodo di Bisezione) si hanno 2 possibilità
 >>La funzione nei punti delle successioni è concorde (stesso segno) rispetto al punto nel suo estremo
 
 - Date queste proprietà:
-	- Dalle proprietà 2,3 segue che $\exists\lim\limits_{n\to +\infty} a_{n},b_{n}$ inoltre dalla proprietà numero 1 segue che tali limiti sono numeri reali
+	- Dalle proprietà 2,3 segue che per il [[Successioni#Limiti di Successioni Monotone|teorema del limite di successioni monotone]] $\exists\lim\limits_{n\to +\infty} a_{n},b_{n}$ inoltre dalla proprietà numero 1 segue che tali limiti sono numeri reali
 	- Dalla proprietà numero 4 ho che $\lim\limits_{n\to +\infty}b_{n}-a_{n} = 0$ quindi per forza i due limiti sono uguali
 		- $\lim\limits_{n\to +\infty}a_{n} = \lim\limits_{n\to +\infty}b_{n} = c$
-	- Infine dalla priprietà 5, usando il [[Limiti di Successioni#Teorema del Confronto|teorema del confronto]] ho che
+	- Infine dalla proprietà 5, usando il [[Limiti di Successioni#Teorema del Confronto|teorema del confronto]] ho che
 		- $\lim\limits_{n\to +\infty}f(a_{n})\leq0$
 		- E analogamente
 		- $\lim\limits_{n\to +\infty}f(b_{n})\geq0$
