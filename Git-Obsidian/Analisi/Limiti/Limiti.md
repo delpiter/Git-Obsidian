@@ -143,8 +143,8 @@ Iterando il ragionamento (Metodo di Bisezione) si hanno 2 possibilità
 >$3) \ \ b_{n+1} \leq b_{n} \forall n \in\mathbb{N} \text{ cioè } b_{n} \searrow$
 >$4) \ \ b_{n}-a_{n} = \displaystyle{\frac{b-a}{2^n}}$
 >>[!done] In Breve
->>Dopo ogni "passaggio" la lunghezza si dimezza, quindi al passaggio $n$ la lunghezza è uguale alla distanza originale diviso $2^n$
->>La distanza fra i punti delle due successioni tende a $0$
+>>Dopo ogni "passaggio" la distanza fra i due punti si dimezza, quindi al passaggio $n$ la lunghezza è uguale alla distanza originale diviso $2^n$
+>>La distanza fra i punti delle due successioni tende a $0$ per $n\to+\infty$
 >
 >$5) \ \ f(a_{n}) < 0 < f(b_{n}) \forall n\in\mathbb{N}$
 >>[!done] In Breve
@@ -158,7 +158,7 @@ Iterando il ragionamento (Metodo di Bisezione) si hanno 2 possibilità
 		- $\lim\limits_{n\to +\infty}f(a_{n})\leq0$
 		- E analogamente
 		- $\lim\limits_{n\to +\infty}f(b_{n})\geq0$
-- Poichè $f$ è continua si ha che:
+- Poichè $f$ è [[Introduzione Funzioni#Continuità|continua]] si ha che:
 	- $\lim\limits_{n\to +\infty}f(a_{n})=f(c)\leq0$
 	- $\lim\limits_{n\to +\infty}f(b_{n})=f(c)\geq0$
 - Ne deduciamo quindi che $f(c) = 0\ \ \ \ \ \ \ \ \  \#$
@@ -183,7 +183,7 @@ $$
 $$
 - <u>Devo mostrare che</u>
 $$
-\forall y :y_{1}<y<y_{2}c\text{ si ha che } y\in f(I)
+\forall y :y_{1}<y<y_{2}, \text{ si ha che } y\in f(I)
 $$
 ##### Dimostrazione
 Siano: $$x_{1},x_{2}\in I:\begin{cases}
