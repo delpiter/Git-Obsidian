@@ -201,6 +201,7 @@ g(x) = f(x)-y, \ \ \ \ y_{1}<y<y_{2}
 $$
 - Verifichiamo che la funzione $g(x)$ soddisfi le ipotesi del teorema degli zeri
 	- Infatti:
+
 $$
 \begin{array}
 \ g(x_{1})=f(x_{1})-y = y_{1}-y < 0 \\
