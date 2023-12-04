@@ -143,6 +143,7 @@ Dati due punti $P_{0}(x_{0},y_{0},z_{0})$ e $P_{1}(x_{1},y_{1},z_{1})$
 ![[Pasted image 20231129180244.png]]
 
 ## Piano in $\mathbb{R}^3$
+---
 Un piano in $\mathbb{R}^3$ può essere rappresentato in $3$ modi:
 >[!info] Rappresentazione
 >Un piano in $\mathbb{R}^3$ è individuato da:
@@ -150,3 +151,26 @@ Un piano in $\mathbb{R}^3$ può essere rappresentato in $3$ modi:
 >2) Tre punti
 >3) Due rette non [[Definizioni_Analisi#Rette Sghembe|sghembe]]
 
+### Punto e vettore Ortogonale
+>[!tip] 1
+>Dato $P_{0}=(x_{0},y_{0},z_{0}),\,\,V\in(a,b,c)$
+>Un generico punto $P=(x_{1},y_{1},z_{1})$ appartenente al piano deve soddisfare che:
+>1) $(P-P_{0})\perp V \Leftrightarrow(P-P_{0})\cdot V = 0$
+#### Equazione del piano
+>[!info] Definizione
+>Sia $P_{0}(x_{0},y_{0},z_{0})$
+>Sia $V=(a,b,c)$
+>L'equazione passante per $P_{0}$ e $\perp$ a $V$ è:
+>$$a(x-x_{0})+b(y-y_{0})+c(z-z_{0})$$
+
+### Piani Particolari
+- $x=0\implies$ Piano $y-z$
+- $y=0\implies$ Piano $x-z$
+- $z=0\implies$ Piano $x-y$
+#### Osservazione
+Siano $\pi$ e $\pi'$
+- $\pi:ax+bx+cz+d=0$
+- $\pi':a'x+b'x+c'z+d'=0$
+>[!tip] Oss
+>$\pi$ e $\pi'$ sono $\parallel\Leftrightarrow(a,b,c)\parallel (a',b',c')$
+>$\pi$ e $\pi'$ sono $\perp\Leftrightarrow(a,b,c)\perp (a',b',c')$
