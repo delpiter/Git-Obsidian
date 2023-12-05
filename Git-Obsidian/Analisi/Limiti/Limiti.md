@@ -176,7 +176,7 @@ Iterando il ragionamento (Metodo di Bisezione) si hanno 2 possibilità
 ### Dimostrazione
 #### $f$ Costante
 Se $f$ è costante $=k \implies f(I)=\{ k \}\implies$ Intervallo degenere
-#### f Non Costante
+#### $f$ Non Costante
 Se $f$ non è costante:
 $$
 \exists y_{1},y_{2}\in f(I) \text{ con } y_{1}\neq y_{2}

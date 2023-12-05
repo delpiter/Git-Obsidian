@@ -7,4 +7,6 @@
 
 ### [[Introduzione Funzioni|Funzioni]]
 
+### [[Limiti]]
+
 
