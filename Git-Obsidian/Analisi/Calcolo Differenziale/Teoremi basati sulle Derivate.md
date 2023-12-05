@@ -40,10 +40,10 @@ $$
 $$
 ###### Abbiamo 2 casi:
 - $f(x)-f(c)\geq0$ poichè $c$ è un punto di minimo
-- Caso $\forall x \in(c,c+\delta)$
+- Caso $x \in(c,c+\delta)$
 	- $x-c\geq 0$
 	- Quindi il rapporto incrementale è sempre $\geq 0$
-- Caso $\forall x \in(c-\delta,c)$
+- Caso $x \in(c-\delta,c)$
 	- $x-c\leq 0$
 	- Quindi il rapporto incrementale è sempre $\leq0$
 

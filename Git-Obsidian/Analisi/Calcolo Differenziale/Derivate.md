@@ -70,10 +70,11 @@ x \text{ se } x\geq 0 \\
 \end{cases}$$
 - $f$ continua in $\mathbb{R}$ (in particolare anche in $0$) ma non è derivabile in $0$
 	- Infatti
+
 $$
 \lim\limits_{x\to 0} \displaystyle{\frac{f(x)-f(0)}{x-0}}=\lim\limits_{x\to 0} \displaystyle{\frac{|x|}{x}}
 $$
 - Il limite non esiste poichè:
 $$
-\lim\limits_{x\to 0^+} \displaystyle{\frac{x}{x}} =1,\lim\limits_{x\to 0^-} \displaystyle{\frac{-x}{x}}
+\lim\limits_{x\to 0^+} \displaystyle{\frac{x}{x}} =1,\lim\limits_{x\to 0^-} \displaystyle{\frac{-x}{x}}=-1
 $$
