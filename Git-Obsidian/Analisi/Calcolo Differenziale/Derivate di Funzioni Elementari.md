@@ -33,6 +33,16 @@ $$f'(c)=\lim\limits_{x\to c} \displaystyle{\frac{e^x-e^c}{x-c}}=\lim\limits_{x\t
 >$(kf)'(c) = kf'(c)$
 
 ### Dimostrazione Proprietà 1
+$$
+\begin{array}
+\ \displaystyle{\frac{(f+g)(x)-(f+g)(c)}{x-c}} = \displaystyle{\frac{f(x)+g(x)-f(c)-f(x)}{x-c}} =\\
+= \displaystyle{\frac{f(x)-f(c)}{x-c}} + \displaystyle{\frac{g(x)-g(c)}{x-c}} \\
+\end{array}
+$$
+- Passiamo al limite per $x\to c$
+- $$
+\lim\limits_{x\to c}\underbrace{ \displaystyle{\frac{f(x)-f(c)}{x-c}} }_{ \displaystyle f'(c) } +\lim\limits_{x\to c} \underbrace{ \displaystyle{\frac{g(x)-g(c)}{x-c}} }_{ \displaystyle g'(c) }
+$$
 ### Dimostrazione  Proprietà 2
 $$
 \begin{array}
@@ -45,7 +55,11 @@ $$
 \lim\limits_{x\to c} \underbrace{ f(x) }_{ f(c) }\underbrace{ \displaystyle{\frac{(g(x)-g(c))}{x-c}} }_{ g'(x) }+g(c) \underbrace{ \displaystyle{\frac{(f(x)-f(c))}{x-c}} }_{ f'(x) }
 $$
 ### Dimostrazione Proprietà 3
-
+$$
+\begin{array}
+\ \displaystyle{\frac{\left( \frac{f}{g} \right)(x)-\left( \frac{f}{g} \right)(c)}{x-c}} = \displaystyle{\frac{\displaystyle{\frac{f(x)}{g(x)}}-\displaystyle{\frac{f(x)}{g(c)}}+\displaystyle{\frac{f(x)}{g(c)}}-\displaystyle{\frac{f(c)}{g(c)}}}{x-c}}
+\end{array}
+$$
 ## Derivate di Funzioni Composte
 ---
 >[!info] Teorema

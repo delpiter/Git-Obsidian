@@ -38,8 +38,10 @@ $$
 $$
 \displaystyle{\frac{f(x)-f(c)}{x-c}}
 $$
-###### Abbiamo 2 casi:
+###### Numeratore:
 - $f(x)-f(c)\geq0$ poichè $c$ è un punto di minimo
+###### Denominatore
+Abbiamo due casi
 - Caso $x \in(c,c+\delta)$
 	- $x-c\geq 0$
 	- Quindi il rapporto incrementale è sempre $\geq 0$
@@ -47,7 +49,7 @@ $$
 	- $x-c\leq 0$
 	- Quindi il rapporto incrementale è sempre $\leq0$
 
-###### Passando al Limite
+##### Passando al Limite
 
 $\lim\limits_{x\to c^+} \displaystyle{\frac{f(x)-f(c)}{x-c}}\geq0$
 e
@@ -97,15 +99,21 @@ $$
 >>Esiste un punto nella funzione per cui il coefficiente angolare della retta tangente passante per quel punto è uguale al coefficiente angolare della retta secante passante per i punti $(a,f(a))$ e $(b,f(b))$
 
 ### Dimostrazione
+
 Considero la funzione:
 $g(x)=f(x)-f(a)- \displaystyle{\frac{f(b)-f(a)}{b-a}}(x-a)$
 >[!done] $g(x)$
->$g(x)$ è la differenza fra la funzione originale $f(x)$ e la funzione della retta secante passante per gli estremi
+>$g(x)$ è la differenza fra la funzione originale $f(x)$ e la funzione della retta secante passante per gli estremi. La formula viene da qui:
+>$y−y1​=m⋅(x−x1​) \Leftrightarrow y =f(a) +\displaystyle{\frac{f(b)-f(a)}{b-a}}(x-a)$
 
 - $g$ è derivabile in $(a,b)$ e [[Introduzione Funzioni#Continuità|continua]] in $[a,b]$ per somma e differenza di funzioni continue e derivabili
 Inoltre
 - $g(a)=\cancel{ f(a)-f(a) }- \cancel{ \displaystyle{\frac{f(b)-f(a)}{b-a}}(a-a) }=0$
 - $g(b)=f(b)-f(a)- \displaystyle{\frac{f(b)-f(a)}{\cancel{ b-a }}}\cancel{ (b-a) }=0$
+La derivata di $g$ per la somma di funzioni derivabili sarà:
+$$
+g'(x) = f'(x)- \displaystyle{\frac{f(b)-f(a)}{b-a}}
+$$
 Adesso è possibile applicare il [[#Teorema di Rolle]] a $g$ e deduco che
 $$
 \begin{array}
@@ -113,6 +121,7 @@ $$
 g'(c)=0 \Leftrightarrow f'(c)=\displaystyle{\frac{f(b)-f(a)}{b-a}}
 \end{array}
 $$
+
 
 ### Visualizzazione Grafica
 ![[Pasted image 20231106151842.png]]
@@ -130,6 +139,7 @@ $$
 #### Supponiamo $f \nearrow$ in $I$
 - Siano $x,c \in I, x\neq c$
 	- Si ha che per definizione di funzione [[Introduzione Funzioni#Crescente|crescente]]
+
 $$
 \displaystyle{\frac{f(x)-f(c)}{x-c}}\geq 0
 $$
@@ -138,6 +148,7 @@ $$
 f'(c)=\lim\limits_{x\to c} \displaystyle{\frac{f(x)-f(c)}{x-c}}\geq 0
 $$
 - Per il teorema del confronto
+$$f'(c)\geq 0$$
 #### Supponiamo $f'(x)\geq 0$, $\forall x \in I$
 - Siano $x_{1},x_{2} \in I$ con $x_{1}\leq x_{2}$, allora si ha che:
 $$
@@ -160,7 +171,13 @@ $$
 	- $f'(x)>0, \forall x \in I  \implies f \nearrow \text{strettamente}$
 	- Invece non è vero
 	- $f \nearrow \text{strettamente}   \implies f'(x)>0, \forall x \in I$
+		- Poichè per il [[Limiti di Successioni#Teorema del Confronto|teorema del confronto]] 
 
+$$
+f'(c)=\lim\limits_{x\to c} \displaystyle{\frac{f(x)-f(c)}{x-c}}> 0
+$$
+- Diventa
+$$f'(c)\geq 0$$
 ## Test di convessità 1
 ---
 >[!info] Teorema
@@ -170,7 +187,8 @@ $$
 >$f$ concava su $I\Leftrightarrow f' \searrow$ su $I$
 
 ### Dimostrazione
-#### Assumo $f$ convessa si $I$
+
+#### Assumo $f$ [[Studio di Funzioni#Concavità di Funzioni|convessa]] su $I$
 $$
 \forall x,y \in I \begin{cases}
 f(x)\geq f(y)+f'(y)(x-y) \\
@@ -202,11 +220,3 @@ $$
 >$f$ convessa $\Leftrightarrow f''(x)\leq0, \forall x \in I$
 >$f$ concava $\Leftrightarrow f''(x)\geq0, \forall x \in I$
 - I punti dove cambia la convessità si chiamano punti di flesso
-## Condizione sufficiente per estremanti locali
----
->[!info] Definizione
->Sia $I$ [[Introduzione Funzioni#Intervallo|intervallo]] di $\mathbb{R}$, $f:I\to\mathbb{R}$
->Sia $c\in I$, supponiamo $f$ derivabile 2 volte in $c$
->> Se $f'(c)=0 \text{ e } f''(c)>0 \implies c$ è punto di minimo locale
->> Se $f'(c)=0 \text{ e } f''(c)<0 \implies c$ è punto di massimo locale
-

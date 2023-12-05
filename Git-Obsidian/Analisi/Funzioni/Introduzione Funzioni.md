@@ -280,18 +280,23 @@ $x\mapsto x^2$
 - - -
 - Sia $A \subseteq \mathbb{R},\; f:A \to \mathbb{R}$
 ### Crescente
-> Diciamo che $f$ è una funzione **crescente** se $\forall x_1,x_2 \in A$ con $x_{1}\leq x_{2}$ si ha che:
-$$
+>[!info] Definizione
+>Diciamo che $f$ è una funzione **crescente** se 
+>$\forall x_1,x_2 \in A$ con $x_{1}\leq x_{2}$ si ha che:
+>$$
 f(x_{1})\leq f(x_{2})
-$$
+>$$
+
 - Si indica con una freccia verso l'alto: $\nearrow$
 - Si dice che $f$ è **strettamente crescente** se
-	- $\forall x_{1},x_{2} \in A, \;x_{1}<x_{2},\; \text{si ha }f(x_{1})>f(x_{2})$
+	- $\forall x_{1},x_{2} \in A, \;x_{1}<x_{2},\; \text{si ha }f(x_{1})<f(x_{2})$
 ### Decrescente
-> Diciamo che $f$ è una funzione **decrescente** se $\forall x_1,x_2 \in A$ con $x_{1}\leq x_{2}$ si ha che
-$$
+>[!info] Definizione
+>Diciamo che $f$ è una funzione **decrescente** se $\forall x_1,x_2 \in A$ con $x_{1}\leq x_{2}$ si ha che
+>$$
 f(x_{1})\geq f(x_{2})
-$$
+>$$
+
 - Si indica con una freccia verso il basso: $\searrow$
 - Si dice che $f$ è **strettamente crescente** se
 	- $\forall x_{1},x_{2} \in A, \;x_{1}<x_{2},\; \text{si ha }f(x_{1})>f(x_{2})$
