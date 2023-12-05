@@ -174,3 +174,25 @@ Siano $\pi$ e $\pi'$
 >[!tip] Oss
 >$\pi$ e $\pi'$ sono $\parallel\Leftrightarrow(a,b,c)\parallel (a',b',c')$
 >$\pi$ e $\pi'$ sono $\perp\Leftrightarrow(a,b,c)\perp (a',b',c')$
+
+
+## Insiemi Aperti e Chiusi
+---
+>[!info] Definizioni
+>>[!example] Aperto
+>>Sia $A\subseteq\mathbb{R}^2$, diciamo che $A$ è **Aperto** se
+>>$\exists$ un intorno $\mathrm{U}_{(x_{0},y_{0})}:$
+>>$$\mathrm{U}_{(x_{0},y_{0})}\subset A$$ 
+>
+>>[!example] Chiuso
+>>Sia $A\subseteq\mathbb{R}^2$, diciamo che $A$ è **Chiuso** se
+>>$$\mathbb{R}^2 \setminus A$$
+>>È aperto
+
+## Insiemi Limitati
+---
+>[!info] Definizione
+>Sia $A\subseteq\mathbb{R}^2$ diciamo che $A$ è limitato se:
+>$$\exists B_{R(x_{0},y_{0})}: A \subset B_{R(x_{0},y_{0})}$$
+>>[!done] In Breve
+>>$A$ è limitato se esiste un cerchio di raggio $R$ e centro in $(x_{0},y_{0})$ che contenga interamente l'insieme $A$
