@@ -6,7 +6,7 @@
 \lim\limits_{n\to+\infty} \displaystyle{\frac{a_{n}}{b_{n}}}=0
 >$$
 >In tal caso scriviamo:
->$a_{n}=\small_{o}(b_{n})$
+>$a_{n}=\(b_{n})$
 >>[!done] In breve
 >>La successioni $a_{n}$ è trascurabile rispetto a $b_{n}$ quando il limite del rapporto $\displaystyle{\frac{a_{n}}{b_{n}}}$ è uguale a $0$
 

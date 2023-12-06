@@ -118,7 +118,8 @@ Adesso è possibile applicare il [[#Teorema di Rolle]] a $g$ e deduco che
 $$
 \begin{array}
 \ \exists c \in(a,b)t.c. \\
-g'(c)=0 \Leftrightarrow f'(c)=\displaystyle{\frac{f(b)-f(a)}{b-a}}
+g'(c)=0 \implies g'(x)=f'(x)-0- \displaystyle{\frac{f(b)-f(a)}{b-a}}-0\\
+\Leftrightarrow f'(c)=\displaystyle{\frac{f(b)-f(a)}{b-a}}
 \end{array}
 $$
 
