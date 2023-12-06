@@ -23,3 +23,10 @@ $$
 $$
 \displaystyle{\frac{df}{dy}}(x,y)2x^2e^{ xy }
 $$
+### Derivabilità
+>[!tip] Definizione
+>Diciamo che $f$ è derivabile in $(x_{0},y_{0})$ se esistono le due derivate parziali:
+>$$\displaystyle{\frac{df}{dx}}, \displaystyle{\frac{df}{dy}}$$
+
+#### Osservazione
+Sia $f$ derivabile in $(x_{0},y_{0})$ non implica che $f$ sia continua
