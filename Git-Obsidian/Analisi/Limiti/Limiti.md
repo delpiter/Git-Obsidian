@@ -25,7 +25,7 @@
 >>[!example] Definizione con definizione di [[Limiti di Successioni#Definizioni|successione]]
 >>Sia $I$ un [[Introduzione Funzioni#Intervallo|intervallo]] o un [[Introduzione Funzioni#Intervallo Forato|intervallo forato]]
 >>Sia $f:I\to \mathbb{R},c\in[inf(I),sup(I)]$ ([[Insiemi Numerici#Insiemi Limitati|limitazioni]]),$l\in\overline{\mathbb{R}}$
->>Diciamo che $\exists\lim\limits_{x\to+\infty}f(x)=l$ se:
+>>Diciamo che $\exists\lim\limits_{x\to+c}f(x)=l$ se:
 >>$$\forall(a_{n})_{n\in\mathbb{N}}\text{ successione in }I\setminus\{ c \}:\lim\limits_{n\to+\infty}a_{n}=c$$
 >>Si ha
 >>$$\lim\limits_{n\to +\infty}f(a_{n})=l$$
@@ -35,7 +35,7 @@
 >>[!example] Definizione 2
 >>Sia $I$ un [[Introduzione Funzioni#Intervallo|intervallo]] o un [[Introduzione Funzioni#Intervallo Forato|intervallo forato]]
 >>Sia $f:I\to \mathbb{R},c\in[inf(I),sup(I)]$ ([[Insiemi Numerici#Insiemi Limitati|limitazioni]]),$l\in\overline{\mathbb{R}}$
->>Diciamo che $\exists\lim\limits_{x\to+\infty}f(x)=l$ se:
+>>Diciamo che $\exists\lim\limits_{x\to+c}f(x)=l$ se:
 >>$$\forall \mathrm{V} \text{ intorno di } l, \exists \mathrm{U}_{\mathrm{V}}\text{ intorno di }c: \forall x\in\mathrm{U}_{\mathrm{V}}\setminus\{c\}$$
 >>Si ha: $f(x)\in\mathrm{V}$
 

@@ -32,31 +32,31 @@
             }
           },
           {
+            "id": "405985a0af4d2400",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git-Obsidian/Analisi/Limiti/Limiti.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "8d7f70af68009d15",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Git-Obsidian/Analisi/Calcolo Differenziale/Derivate di Funzioni Elementari.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a65b5ba70867448a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git-Obsidian/Analisi/Funzioni a due Variabili/Differenziabilità.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Analisi/Funzioni a due Variabili/Differenziabilità.md",
+                "file": "Git-Obsidian/Analisi/Limiti/Limiti.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Analisi/Funzioni a due Variabili/Differenziabilità.md",
+                "file": "Git-Obsidian/Analisi/Limiti/Limiti.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git-Obsidian/Analisi/Funzioni a due Variabili/Differenziabilità.md"
+                "file": "Git-Obsidian/Analisi/Limiti/Limiti.md"
               }
             }
           },
@@ -202,20 +202,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a65b5ba70867448a",
+  "active": "405985a0af4d2400",
   "lastOpenFiles": [
+    "Git-Obsidian/Analisi/Calcolo Differenziale/Teoremi basati sulle Derivate.md",
+    "Git-Obsidian/Analisi/Calcolo Differenziale/Derivate.md",
+    "Git-Obsidian/Analisi/Calcolo Differenziale/Derivate di Funzioni Elementari.md",
+    "Git-Obsidian/Analisi/Funzioni a due Variabili/Differenziabilità.md",
     "Git-Obsidian/Attatchments/Untitled-removebg-preview.png",
     "Git-Obsidian/Attatchments/Untitled 1.png",
     "Git-Obsidian/Attatchments/pngegg.png",
     "Git-Obsidian/Attatchments/Pasted image 20231206135147.png",
     "Git-Obsidian/Analisi/Funzioni a due Variabili/Calcolo Differenziale.md",
-    "Git-Obsidian/Analisi/Funzioni a due Variabili/Differenziabilità.md",
-    "Git-Obsidian/Analisi/Calcolo Differenziale/Derivate di Funzioni Elementari.md",
-    "Git-Obsidian/Analisi/Calcolo Differenziale/Teoremi basati sulle Derivate.md",
     "Git-Obsidian/Definitions/Definizioni_Analisi.md",
     "Git-Obsidian/Analisi/Funzioni/Studio di Funzioni.md",
     "Git-Obsidian/Analisi/Funzioni/Introduzione Funzioni.md",
-    "Git-Obsidian/Analisi/Calcolo Differenziale/Derivate.md",
     "Git-Obsidian/Analisi/Insiemi/Numeri Complessi.md",
     "Git-Obsidian/Analisi/Funzioni a due Variabili/Calcolo Infinitesimale.md",
     "Git-Obsidian/Analisi/Funzioni a due Variabili/Elementi di Algebra Lineare e Geometria Analitica.md",
@@ -239,7 +239,6 @@
     "Git-Obsidian/Analisi/Successioni/Numero di Nepero.md",
     "Git-Obsidian/Analisi/Successioni/Criterio del Rapporto.md",
     "Git-Obsidian/Analisi/Successioni/Successioni.md",
-    "Git-Obsidian/Attatchments/Screenshot 2023-11-28 184638.png",
     "Git-Obsidian/Analisi/Funzioni a due Variabili",
     "Relazione.pdf",
     "Git-Obsidian/Analisi/Calcolo Integrale",
