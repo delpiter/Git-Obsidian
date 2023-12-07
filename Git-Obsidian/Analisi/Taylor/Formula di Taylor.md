@@ -20,7 +20,7 @@ Consideriamo la funzione Resto:
 - Scopo: $R(x)=\circ(x^2) \text{ per }x\to0$
 ##### Calcolo $R'(x)$
 $$
-R'(x)=f'(x)-f(0)-f''(0)x
+R'(x)=f'(x)-f'(0)-f''(0)x
 $$
 - Poichè $f$ è derivabile 2 volte possiamo affermare che $f'$ è derivabile una volta e dunque posso applicare il [[Derivate#Teorema di Caratterizzazione delle Funzioni Derivabili|teorema di caratterizzazione delle funzioni derivabili]]
 - $f'(x)=f'(0)+f''(0)x+\circ(x)$
@@ -33,7 +33,7 @@ $$
 Ora applico il [[Teoremi basati sulle Derivate#Teorema di Lagrange|teorema di Lagrange]] alla funzione Resto nell'intervallo $[0,x]$ (o $[x,0]$, dipende se $x>0$ o $x<0$)
 - Quindi:
 $$
-\exists d_{x}\in(0,x)\text{ t.c. } \displaystyle{\frac{R(x)-R(0)}{x}=R'(x)}
+\exists d_{x}\in(0,x)\text{ t.c. } \displaystyle{\frac{R(x)-R(0)}{x}=R'(d_{x})}
 $$
 - Divido tutto per $x$
 $$
@@ -51,6 +51,7 @@ Per il [[Limiti di Successioni#Teorema dei due Carabinieri|teorema dei due carab
 $$
 \displaystyle{\frac{R(x)}{x^2}} \to 0 \text{ per } x\to0
 $$
+- Quindi $R(x) = \circ (x^2) \text{ per } x\to0$
 ### Osservazione
 Il polinomio di Taylor $T_{c,n}(x)$, di punto iniziale $c$ e di ordine $n$ è l'unico polinomio con la seguente proprietà:
 $$
