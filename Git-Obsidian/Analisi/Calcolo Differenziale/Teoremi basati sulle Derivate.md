@@ -60,7 +60,7 @@ E poichè $f$ è derivabile $$f'(c) = \lim\limits_{x\to c} \displaystyle{\frac{f
 ### Esempio di $c$ interno ipotesi necessaria
 Prendiamo $f(x)=x$ nell'intervallo $[0,1]$
 - In questo caso $0$ è punto di minimo, tra l'altro anche assoluto, ma la sua derivata vale $1$
-- Il punto $1$ è un punto di massimo, anche assoluto, ma la sua derivata vale $1$
+- Il punto $1$ è un punto di massimo, anche esso assoluto, ma la sua derivata vale $1$
 
 ## Teorema di Rolle
 ---
@@ -110,11 +110,14 @@ $g(x)=f(x)-f(a)- \displaystyle{\frac{f(b)-f(a)}{b-a}}(x-a)$
 Inoltre
 - $g(a)=\cancel{ f(a)-f(a) }- \cancel{ \displaystyle{\frac{f(b)-f(a)}{b-a}}(a-a) }=0$
 - $g(b)=f(b)-f(a)- \displaystyle{\frac{f(b)-f(a)}{\cancel{ b-a }}}\cancel{ (b-a) }=0$
+
+Adesso è possibile applicare il [[#Teorema di Rolle]] a $g$ e deduco che
+
 La derivata di $g$ per la somma di funzioni derivabili sarà:
 $$
 g'(x) = f'(x)- \displaystyle{\frac{f(b)-f(a)}{b-a}}
 $$
-Adesso è possibile applicare il [[#Teorema di Rolle]] a $g$ e deduco che
+- Quindi
 $$
 \begin{array}
 \ \exists c \in(a,b)t.c. \\
@@ -144,11 +147,11 @@ $$
 $$
 \displaystyle{\frac{f(x)-f(c)}{x-c}}\geq 0
 $$
-Passando al limite per $x\to c$, deduco che:
+Passando al limite per $x\to c$, deduco che, per il [[Limiti di Successioni#Teorema del Confronto|teorema del confronto]]:
 $$
 f'(c)=\lim\limits_{x\to c} \displaystyle{\frac{f(x)-f(c)}{x-c}}\geq 0
 $$
-- Per il teorema del confronto
+- Quindi:
 $$f'(c)\geq 0$$
 #### Supponiamo $f'(x)\geq 0$, $\forall x \in I$
 - Siano $x_{1},x_{2} \in I$ con $x_{1}\leq x_{2}$, allora si ha che:

@@ -78,3 +78,8 @@ $$
 $$
 \lim\limits_{x\to 0^+} \displaystyle{\frac{x}{x}} =1,\lim\limits_{x\to 0^-} \displaystyle{\frac{-x}{x}}=-1
 $$
+## Derivata n-Esima
+---
+>[!info] Definizione
+> Sia $f:I\to\mathbb{R}$, $c \in I$
+> diciamo che $f$ è derivabile $n$ volte se la derivata se la derivata di ordine $(n-1)$ è derivabile in $c$ e indichiamo con $f^{(n)}(c)$ la derivata n-Esima

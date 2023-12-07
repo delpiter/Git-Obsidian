@@ -1,5 +1,6 @@
 
 ## Formula di Taylor con Resto di Peano
+---
 >[!info] Teorema
 >Sia $I$ [[Introduzione Funzioni#Intervallo|intervallo]] di $\mathbb{R}$, $f:I\to\mathbb{R},c\in I,n \in\mathbb{N}$
 >Se $f$ è derivabile $n$ volte,
