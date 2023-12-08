@@ -1,7 +1,12 @@
 ## Monomio
 ---
 >[!tip] Funzione
->$$f(x) = x^n, n\in\mathbb{N}$$
+>$$
+\begin{array}
+\ f(x) = x^n, n\in\mathbb{N} \\
+f'(x)=nx^{n-1}
+\end{array}
+>$$
 - Utilizzando la [[Definizioni_Analisi#Formula del Binomio di Newton|formula del binomio di newton]] voglio calcolare $f'(c), \forall c\in\mathbb{R}$
 ### Dimostrazione
 $$
@@ -17,7 +22,12 @@ $$
 ## Esponenziale
 ---
 >[!tip] Funzione
->$$f(x)=e^x, c\in\mathbb{R}$$
+>$$
+\begin{array}
+\ f(x)=e^x, c\in\mathbb{R} \\
+f'(x) = e^{ x }
+\end{array}
+>$$
 
 ### Dimostrazione
 $$f'(c)=\lim\limits_{x\to c} \displaystyle{\frac{e^x-e^c}{x-c}}=\lim\limits_{x\to c} \displaystyle{\frac{e^c(e^x-c-1)}{x-c}} = e^c$$
@@ -118,7 +128,12 @@ $$
 >$x^b$ è derivabile in $0$ se $b\geq 1$
 ## Logaritmo
 >[!tip] Funzione
->$$f(x)=ln(x)=(exp)^{-1}(x)$$
+>$$
+\begin{array}
+\ f(x)=ln(x)=(exp)^{-1}(x) \\
+f'(x) = \displaystyle{\frac{1}{x}}
+\end{array}
+>$$
 ### Dimostrazione
 $$
 \begin{array}
@@ -129,7 +144,12 @@ $$
 ---
 ### Seno
 >[!tip] Funzione
->$$f(x)=sen(x)$$
+>$$
+\begin{array}
+\ f(x)=sin(x) \\
+f'(x) = cos(x)
+\end{array}
+>$$
 
 #### Dimostrazione
 $$
@@ -141,7 +161,12 @@ $$
 $$
 ### Coseno
 >[!tip] Funzione
->$$f(x)=cos(x)$$
+>$$
+\begin{array}
+\ f(x)=cos(x) \\
+f'(x) = -sin(x)
+\end{array}
+>$$
 #### Dimostrazione
 $$
 \begin{array}
@@ -151,7 +176,12 @@ $$
 $$
 ### Tangente
 >[!tip] Funzione
->$$f(x)=tan(x) =\displaystyle{\frac{sen(x)}{cos(x)}},x\neq \displaystyle{\frac{\pi}{2}}+k\pi, k\in\mathbb{Z}$$
+>$$
+\begin{array}
+\ f(x)=tan(x) =\displaystyle{\frac{sen(x)}{cos(x)}},x\neq \displaystyle{\frac{\pi}{2}}+k\pi, k\in\mathbb{Z} \\
+f'(x)= \displaystyle{\frac{1}{cos^2(x)}} = 1+tan^2(x)
+\end{array}
+>$$
 
 #### Dimostrazione
 $$
@@ -163,7 +193,12 @@ $$
 
 ### Arcoseno
 >[!tip] Funzione
->$$f(x)=arcsen(x), \ \ \ \ arcsen(x)\in\left[ - \displaystyle{\frac{\pi}{2}}; \displaystyle{\frac{\pi}{2}} \right]$$
+>$$
+\begin{array}
+\ f(x)=arcsen(x), \ \ \ \ arcsen(x)\in\left[ - \displaystyle{\frac{\pi}{2}}; \displaystyle{\frac{\pi}{2}} \right] \\
+f'(x) = \displaystyle{\frac{1}{\sqrt{ 1-x^2 }}}
+\end{array}
+>$$
 
 #### Dimostrazione
 $$
@@ -180,7 +215,12 @@ $$
 
 ### Arcocoseno
 >[!tip] Funzione
->$$f(x)= arccos(x),\ \ \ \ \ arccos(x)\in\left[ 0;\pi \right]$$
+>$$
+\begin{array}
+\ f(x)= arccos(x),\ \ \ \ \ arccos(x)\in\left[ 0;\pi \right] \\
+f'(x) = - \displaystyle{\frac{1}{\sqrt{ 1-x^2 }}}
+\end{array}
+>$$
 
 #### Dimostrazione
 $$
@@ -188,7 +228,12 @@ f'(x) = \displaystyle{\frac{1}{cos'(arccos(x))}} = \displaystyle{\frac{1}{-sen(a
 $$
 ### Arcotangente
 >[!tip] Funzione
->$$f(x)=arctan(x)$$
+>$$
+\begin{array}
+\ f(x)=arctan(x) \\
+f'(x) = \displaystyle{\frac{1}{1+x^2}}
+\end{array}
+>$$
 
 #### Dimostrazione
 $$
