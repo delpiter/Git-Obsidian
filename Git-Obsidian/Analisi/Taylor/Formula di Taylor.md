@@ -13,7 +13,7 @@
 ### Dimostrazione
 #### Caso $c=0,n=2$
 Voglio dimostrare che, se $f$ è derivabile 2 volte, allora:
-$$f(x)=f(0)+f'(0)\cdot(x-0)+ \displaystyle{\frac{f''(0)}{2}}(x^2+0)+\circ(x^2+0)$$
+$$f(x)=f(0)+f'(0)\cdot(x-0)+ \displaystyle{\frac{f''(0)}{2}}(x+0)^2+\circ(x+0)^2$$
 Consideriamo la funzione Resto:
 >[!tldr] $R(x)$
 >$$R(x):= f(x)-f(0)-f'(0)x- \displaystyle{\frac{f''(0)}{2}}x^2$$
