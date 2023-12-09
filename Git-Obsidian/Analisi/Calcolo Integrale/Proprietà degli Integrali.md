@@ -19,7 +19,7 @@
 ### Proprietà di Additività
 >[!tip] Additività
 >Sia $c\in(a,b)$
->$$\int _{a}b^b f(x)\, dx = \int _{a}^c f(x)\, dx+ \int _{c}^b f(x)\, dx $$
+>$$\int _{a}^b f(x)\, dx = \int _{a}^c f(x)\, dx+ \int _{c}^b f(x)\, dx $$
 
 #### Osservazione
 Per la proprietà dell'additività:

@@ -6,14 +6,25 @@
 >$$\int _{a}^b f'(x)\, dx =f(b)-f(a)$$
 
 ### Dimostrazione
-
-Si ha che:
+Suddividendo l'intervallo $[a,b]$ in n parti uguali ottengo che:
 $$
-f(b)-f(a) = \underbrace{ \sum^n_{i=1}(f(x_{i})-f(x_{i-1})) }_{ \text{Somma Telescopica} }
+\displaylines{
+f(b) - f(a) = \\
+\underbrace{ \sum_{i = 1}^{n} (f(x_{i}) - f(x_{i-1})) }_{ \displaystyle{\cancel{ f(x_{1}) } - f(a) \cancel{ + f(x_{2}) } \cancel{ - f(x_{1}) } + \cancel{ \dots } \cancel{ + f(x_{n-1}) } + f(b) \cancel{ - f(x_{n-1}) }} }
+}
 $$
 
-Per il [[Teoremi basati sulle Derivate#Teorema di Lagrange|teorema di Lagrange]]
+- Anche chiamata "Somma Telescopica".
+
+Per il [[Teoremi basati sulle Derivate#Teorema di Lagrange|teorema di Lagrange]] ad ogni intervallo $[x_{i},x_{i-1}]$
 $\exists c_{i}\in[x_{i},x_{i-1}]:$
+$$
+\begin{array}
+\ f'(c_{i}) = \displaystyle{\frac{f(x_{i})-f(x_{i-1})}{x_{i}-x_{i-1}}}\\
+f(x_{i}-)f(x_{i-1})=f'(c_{i})(x_{i}-x_{i-1})
+\end{array}
+$$
+- Di conseguenza, ottengo:
 $$
 \underbrace{ \sum^n_{i=1}(f'(c_{i})(x_{i}-x_{i-1})) }_{\text{Def. Somma Reiman} }
 $$
@@ -28,19 +39,24 @@ $$
 >Sia $f\in C([a,b],\mathbb{R})$
 >Sia $F(x)=\int _{a}^x f(t) \, dt \to$ la funzione "_Integrale_" 
 ><u>Allora</u>
->$F$ è derivabile e $f'(c) = F(c), \forall c \in[a,b]$
+>$F$ è derivabile e $F'(c) = f(c), \forall c \in[a,b]$
 
 ### Dimostrazione
 Sia $c\in[a,b]$
 $$
-\lim\limits_{x\to c} \displaystyle{\frac{F(x)-F(c)}{x-c}} = \displaystyle{\frac{\lim\limits_{x\to c} \int _{a}^x f(t) \, dt -\lim\limits_{x\to c} \int _{a}^c f(t) \, dt}{x-c}} = \lim\limits_{x\to c} \underbrace{ \displaystyle{\frac{\int _{c}^x f(t)\, dt }{x-c}} }_{ \text{media integrale} }
+\lim\limits_{x\to c} \displaystyle{\frac{F(x)-F(c)}{x-c}} = \lim\limits_{x\to c}\displaystyle{\frac{\int _{a}^x f(t) \, dt - \int _{a}^c f(t) \, dt}{x-c}} = \lim\limits_{x\to c} \underbrace{ \displaystyle{\frac{\int _{c}^x f(t)\, dt }{x-c}} }_{ \text{media integrale} }
 $$
 - Osserviamo che il risultato ottenuto è analogo alla [[Introduzione Integrali#Teorema della Media Integrale|media integrale]]
 	- Applico il teorema
-$\exists d_{x} in (c,x): \displaystyle{\frac{1}{x-c}} \int _{c}^x f(t)\, dt = f(d_{x})$
+
+$\exists d_{x} \in (c,x): \displaystyle{\frac{1}{x-c}} \int _{c}^x f(t)\, dt = f(d_{x})$
 - Passiamo poi al Limite
 $$
-\underbrace{ \lim\limits_{x\to c} \displaystyle{\frac{F(x)-F(c)}{x-c}} }_{ \displaystyle F'(c) } =\lim\limits_{x\to c} \displaystyle{\frac{1}{x-c}} \int _{c}^x f(t)\, dt =\lim\limits_{x\to c} =  f(d_{x}) = f(c)
+\underbrace{ \lim\limits_{x\to c} \displaystyle{\frac{F(x)-F(c)}{x-c}} }_{ \displaystyle F'(c) } =\lim\limits_{x\to c} \displaystyle{\frac{1}{x-c}} \int _{c}^x f(t)\, dt =\lim\limits_{x\to c} f(d_{x})
+$$
+- Ma dato che $d_{x}$ è compreso fra $x$ e $c$, quando x$x\to c$ anche $d_{x}\to c$, quindi
+$$
+F'(c)=f(c)
 $$
 ## Integrazione per Parti
 ---
@@ -115,6 +131,7 @@ $$
 $$
 - Questo processo si chiama scomposizione in fratti semplici
 	- Applico il denominatore comune
+
 $$
 = \displaystyle{\frac{A(x+1)+B(x-3)}{(x-3)(x+1)}}
 $$

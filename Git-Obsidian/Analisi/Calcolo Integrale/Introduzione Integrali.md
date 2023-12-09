@@ -20,7 +20,7 @@ $$
 ![[Pasted image 20231115144148.png]]
 ## Integrale di Funzioni Continue
 ---
->[!info] ?
+>[!info] Definizione
 >Sia $f:[a,b]\to\mathbb{R}$ [[Introduzione Funzioni#Continuità|continua]]
 >Suddivido $[a,b]$ in $n$ intervalli della forma $[x_{i-1},x_{i}]$ dove:
 >$$
@@ -32,7 +32,7 @@ x_{i}-x_{i-1} = \displaystyle{\frac{b-a}{n}}
 >$$
 
 ### Somma di RIEMANN di $f$
->[!info] ?
+>[!info] Definizione
 >Sia $c_{i}\in[x_{i-1},x_{i}] \forall i =1,2,3,\dots,n$
 >Chiamiamo somma di RIEMANN di $f$
 >$$S_{R}(f,c_{1},c_{2},\dots,c_{n})=\sum^n_{i=1}f(c_{i})\cdot \displaystyle{\frac{b-a}{n}}$$
@@ -79,7 +79,7 @@ $$
 Il $\max\limits_{[a,b]}$ e il $\min\limits_{[a,b]}$ esistono in $f$ per il [[Introduzione Funzioni#Teorema di Weierstruss|teorema di Weierstruss]]
 - Si ha:
 $$
-\min\limits_{[a,b]}\leq f(x) \leq \max\limits_{[a,b]}, \forall x \in\mathbb{R}
+\min\limits_{[a,b]}\leq f(x) \leq \max\limits_{[a,b]}, \forall x \in[a,b]
 $$
 - Integro in $[a,b]$, e ottengo:
 $$
