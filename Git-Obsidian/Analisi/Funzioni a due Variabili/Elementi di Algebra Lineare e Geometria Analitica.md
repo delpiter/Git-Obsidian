@@ -196,3 +196,108 @@ Siano $\pi$ e $\pi'$
 >$$\exists B_{R(x_{0},y_{0})}: A \subset B_{R(x_{0},y_{0})}$$
 >>[!done] In Breve
 >>$A$ è limitato se esiste un cerchio di raggio $R$ e centro in $(x_{0},y_{0})$ che contenga interamente l'insieme $A$
+
+## Matrici su $\mathbb{R}$ di tipo $(m,n)$
+---
+>[!info] Definizione
+>Una Matrice è una tabella di $m\cdot n$ numeri reali disposti su $m$ righe e $n$ colonne
+>>[!example] Esempio
+>>$$
+A=\begin{pmatrix}
+2 & 3 & 1 \\
+\pi & 0 & 7 \\
+\frac{7}{5}  & 5  & 23
+\end{pmatrix}
+>>$$
+
+### In generale
+$$
+A=\begin{pmatrix}
+a_{11} & a_{12}  & \dots  & a_{1n} \\
+a_{21} & a_{22}  & \dots  & a_{2n} \\
+\dots & \dots & \dots & \dots \\
+a_{m1} & a_{m2}  & \dots  & a_{mn}
+\end{pmatrix}
+$$
+### Operazioni fra Matrici
+#### Tra Matrici dello stesso tipo
+- Posso definire:
+##### Somma
+$$
+A=\begin{pmatrix}
+a_{11} & a_{12}  & \dots  & a_{1n} \\
+a_{21} & a_{22}  & \dots  & a_{2n} \\
+\dots & \dots & \dots & \dots \\
+a_{m1} & a_{m2}  & \dots  & a_{mn}
+\end{pmatrix}
+B=\begin{pmatrix}
+b_{11} & b_{12}  & \dots  & b_{1n} \\
+b_{21} & b_{22}  & \dots  & b_{2n} \\
+\dots & \dots & \dots & \dots \\
+b_{m1} & b_{m2}  & \dots  & b_{mn}
+\end{pmatrix}
+$$
+$$
+A+B=\begin{pmatrix}
+a_{11}+b_{11} & a_{12}+b_{12}  & \dots  & a_{1n}+b_{1n} \\
+a_{21}+b_{21} & a_{22}+b_{22}  & \dots  & a_{2n}+b_{2n} \\
+\dots & \dots & \dots & \dots \\
+a_{m1}+b_{m1} & a_{m2}+b_{m2}  & \dots  & a_{mn}+b_{mn} \\
+\end{pmatrix}
+$$
+
+##### Prodotto per Scalare
+- Dato $t\in\mathbb{R}$
+$$
+A=\begin{pmatrix}
+a_{11} & a_{12}  & \dots  & a_{1n} \\
+a_{21} & a_{22}  & \dots  & a_{2n} \\
+\dots & \dots & \dots & \dots \\
+a_{m1} & a_{m2}  & \dots  & a_{mn}
+\end{pmatrix}
+tA=\begin{pmatrix}
+ta_{11} & ta_{12}  & \dots  & ta_{1n} \\
+ta_{21} & ta_{22}  & \dots  & ta_{2n} \\
+\dots & \dots & \dots & \dots \\
+ta_{m1} & ta_{m2}  & \dots  & ta_{mn}
+\end{pmatrix}
+$$
+
+#### Prodotto tra Matrici (Riga $\times$ Colonna)
+>[!info] Definizione
+>Siano $A=\text{matrice}(m,n)$ e $B=\text{matrice}(n,P)$
+>Posso dire $C = A\cdot B$
+>>[!done] Descrizione elementi
+>>L'elemento $C_{i,j}$, di posto colonna $i$ e riga $j$ è dato dal prodotto scalare tra la $i-$esima riga della matrice $A$ e la $j-$esima colonna della matrice $B$
+
+##### Esempio
+- $C=A\cdot B =\text{matrice}(m,P)$
+$$
+A=\begin{pmatrix}
+1 & 2 \\
+3 & 1
+\end{pmatrix}
+\ \ \ \ \ \ 
+B=\begin{pmatrix}
+2 & 0 & 1 \\
+1 & 1 & 3
+\end{pmatrix}
+$$
+$$
+C=\begin{pmatrix}
+1\cdot 2+2\cdot 1  & 1\cdot 0+2\cdot 1  & 1\cdot 1 +2\cdot 3 \\
+3\cdot 2+1\cdot 1  & 3\cdot 0 +1\cdot1  & 3\cdot1 +1\cdot 3
+\end{pmatrix}=
+\begin{pmatrix}
+4 & 2 & 7 \\
+7 & 1 & 6
+\end{pmatrix}
+$$
+### Determinante di una Matrice $(2,2)$
+$$
+A=\begin{pmatrix}
+a_{11}  & a_{12} \\
+a_{21}  & a_{22}
+\end{pmatrix}
+$$
+- $detA = a_{11}\cdot a_{22} -a_{12}\cdot a_{21}$

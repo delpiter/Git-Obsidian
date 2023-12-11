@@ -37,14 +37,14 @@ $$
 ---
 >[!info] Teorema
 >Sia $f\in C([a,b],\mathbb{R})$
->Sia $F(x)=\int _{a}^x f(t) \, dt \to$ la funzione "_Integrale_" 
+>Sia $F(x)=\displaystyle \int _{a}^x f(t) \, dt \to$ la funzione "_Integrale_" 
 ><u>Allora</u>
 >$F$ è derivabile e $F'(c) = f(c), \forall c \in[a,b]$
 
 ### Dimostrazione
 Sia $c\in[a,b]$
 $$
-\lim\limits_{x\to c} \displaystyle{\frac{F(x)-F(c)}{x-c}} = \lim\limits_{x\to c}\displaystyle{\frac{\int _{a}^x f(t) \, dt - \int _{a}^c f(t) \, dt}{x-c}} = \lim\limits_{x\to c} \underbrace{ \displaystyle{\frac{\int _{c}^x f(t)\, dt }{x-c}} }_{ \text{media integrale} }
+\lim\limits_{x\to c} \displaystyle{\frac{F(x)-F(c)}{x-c}} = \lim\limits_{x\to c}\displaystyle{\frac{\displaystyle \int _{a}^x f(t) \, dt - \int _{a}^c f(t) \, dt}{x-c}} = \lim\limits_{x\to c} \underbrace{ \displaystyle{\frac{\displaystyle \int _{c}^x f(t)\, dt }{x-c}} }_{ \text{media integrale} }
 $$
 - Osserviamo che il risultato ottenuto è analogo alla [[Introduzione Integrali#Teorema della Media Integrale|media integrale]]
 	- Applico il teorema
