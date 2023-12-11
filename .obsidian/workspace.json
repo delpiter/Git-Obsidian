@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "61e039cbb3ef56d1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git-Obsidian/Analisi/Taylor/Formula di Taylor.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "f181b6288e5a93e1",
             "type": "leaf",
             "state": {
@@ -37,43 +49,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Obsidian/Analisi/Calcolo Integrale/Calcolo Integrale.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f70470824a9bae27",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git-Obsidian/Analisi/Funzioni a due Variabili/Elementi di Algebra Lineare e Geometria Analitica.md",
+                "file": "Git-Obsidian/Analisi/Funzioni a due Variabili/Differenziabilità.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "f9207d29b3a69c21",
+            "id": "a96177b542ab00b2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Git-Obsidian/Analisi/Funzioni a due Variabili/Calcolo Differenziale.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a550e60ad81d004d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git-Obsidian/Markdown Keys.md",
                 "mode": "preview",
                 "source": false
               }
@@ -226,21 +214,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f9207d29b3a69c21",
+  "active": "a96177b542ab00b2",
   "lastOpenFiles": [
-    "Git-Obsidian/Analisi/Funzioni a due Variabili/Elementi di Algebra Lineare e Geometria Analitica.md",
-    "Git-Obsidian/Analisi/Funzioni a due Variabili/Calcolo Differenziale.md",
-    "Git-Obsidian/Markdown Keys.md",
     "Git-Obsidian/Analisi/Funzioni a due Variabili/Differenziabilità.md",
+    "Git-Obsidian/Analisi/Calcolo Integrale/Proprietà degli Integrali.md",
+    "Git-Obsidian/Analisi/Funzioni a due Variabili/Calcolo Differenziale.md",
+    "Git-Obsidian/Analisi/Funzioni a due Variabili/Elementi di Algebra Lineare e Geometria Analitica.md",
+    "Git-Obsidian/Analisi/Funzioni a due Variabili/Funzioni di due Variabili Reali.md",
     "Git-Obsidian/Analisi/Funzioni a due Variabili/Calcolo Infinitesimale.md",
     "Git-Obsidian/Analisi/Calcolo Integrale/Calcolo Integrale.md",
-    "Git-Obsidian/Analisi/Calcolo Integrale/Proprietà degli Integrali.md",
+    "Git-Obsidian/Analisi/Taylor/Formula di Taylor.md",
     "Git-Obsidian/Analisi/Calcolo Integrale/Introduzione Integrali.md",
+    "Git-Obsidian/Markdown Keys.md",
     "Git-Obsidian/Analisi/Calcolo Differenziale/Derivate.md",
     "Git-Obsidian/Analisi/Calcolo Differenziale/Derivate di Funzioni Elementari.md",
     "Git-Obsidian/Analisi/Calcolo Differenziale/Teoremi basati sulle Derivate.md",
     "Git-Obsidian/Analisi/Taylor/Polinomio Di Taylor.md",
-    "Git-Obsidian/Analisi/Taylor/Formula di Taylor.md",
     "Git-Obsidian/Analisi/Taylor/Formule di Taylor di Funzioni Elementari.md",
     "Git-Obsidian/Analisi/Concetti Base.md",
     "Git-Obsidian/Definitions/Definizioni_Analisi.md",
@@ -260,7 +249,6 @@
     "Git-Obsidian/Attatchments/Pasted image 20231204162755.png",
     "Git-Obsidian/Attatchments/Pasted image 20231204162426.png",
     "Git-Obsidian/Programmazione/Recursive Functions.md",
-    "Git-Obsidian/Analisi/Limiti/Calcolo dei Limiti.md",
     "Git-Obsidian/Attatchments/Pasted image 20231204153727.png",
     "Git-Obsidian/Attatchments/Pasted image 20231204153447.png",
     "Git-Obsidian/Attatchments/Pasted image 20231204152624.png",
