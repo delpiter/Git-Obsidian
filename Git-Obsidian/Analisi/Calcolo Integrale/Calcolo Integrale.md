@@ -21,7 +21,7 @@ $\exists c_{i}\in[x_{i},x_{i-1}]:$
 $$
 \begin{array}
 \ f'(c_{i}) = \displaystyle{\frac{f(x_{i})-f(x_{i-1})}{x_{i}-x_{i-1}}}\\
-f(x_{i}-)f(x_{i-1})=f'(c_{i})(x_{i}-x_{i-1})
+f(x_{i})-f(x_{i-1})=f'(c_{i})(x_{i}-x_{i-1})
 \end{array}
 $$
 - Di conseguenza, ottengo:
@@ -54,7 +54,7 @@ $\exists d_{x} \in (c,x): \displaystyle{\frac{1}{x-c}} \int _{c}^x f(t)\, dt = f
 $$
 \underbrace{ \lim\limits_{x\to c} \displaystyle{\frac{F(x)-F(c)}{x-c}} }_{ \displaystyle F'(c) } =\lim\limits_{x\to c} \displaystyle{\frac{1}{x-c}} \int _{c}^x f(t)\, dt =\lim\limits_{x\to c} f(d_{x})
 $$
-- Ma dato che $d_{x}$ è compreso fra $x$ e $c$, quando x$x\to c$ anche $d_{x}\to c$, quindi
+- Ma dato che $d_{x}$ è compreso fra $x$ e $c$, quando $x\to c$ anche $d_{x}\to c$, quindi
 $$
 F'(c)=f(c)
 $$
