@@ -26,6 +26,18 @@
               "type": "markdown",
               "state": {
                 "file": "Git-Obsidian/Analisi/Calcolo Integrale/Calcolo Integrale.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "407a85db41a97b64",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git-Obsidian/Analisi/Successioni/Criterio del Rapporto.md",
                 "mode": "preview",
                 "source": false
               }
@@ -42,45 +54,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "2a56630d1193481c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git-Obsidian/Analisi/Funzioni a due Variabili/Tayolor per funzioni a due Variabili.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "db09ee5617287f4c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git-Obsidian/Analisi/Funzioni a due Variabili/Elementi di Algebra Lineare e Geometria Analitica.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9523bc6e2516a31b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git-Obsidian/Markdown Keys.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -154,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Analisi/Funzioni a due Variabili/Tayolor per funzioni a due Variabili.md",
+                "file": "Git-Obsidian/Analisi/Successioni/Criterio del Rapporto.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Analisi/Funzioni a due Variabili/Tayolor per funzioni a due Variabili.md",
+                "file": "Git-Obsidian/Analisi/Successioni/Criterio del Rapporto.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git-Obsidian/Analisi/Funzioni a due Variabili/Tayolor per funzioni a due Variabili.md"
+                "file": "Git-Obsidian/Analisi/Successioni/Criterio del Rapporto.md"
               }
             }
           },
@@ -226,16 +202,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2a56630d1193481c",
+  "active": "407a85db41a97b64",
   "lastOpenFiles": [
-    "Git-Obsidian/Analisi/Funzioni a due Variabili/Elementi di Algebra Lineare e Geometria Analitica.md",
+    "Git-Obsidian/Analisi/Calcolo Integrale/Calcolo Integrale.md",
+    "Git-Obsidian/Analisi/Taylor/Formule di Taylor di Funzioni Elementari.md",
     "Git-Obsidian/Analisi/Funzioni a due Variabili/Tayolor per funzioni a due Variabili.md",
+    "Git-Obsidian/Analisi/Funzioni a due Variabili/Elementi di Algebra Lineare e Geometria Analitica.md",
     "Git-Obsidian/Markdown Keys.md",
     "Git-Obsidian/Analisi/Insiemi/Numeri Complessi.md",
-    "Git-Obsidian/Analisi/Taylor/Formule di Taylor di Funzioni Elementari.md",
     "Git-Obsidian/Analisi/Limiti/Calcolo dei Limiti.md",
     "Git-Obsidian/Analisi/Calcolo Integrale/Introduzione Integrali.md",
-    "Git-Obsidian/Analisi/Calcolo Integrale/Calcolo Integrale.md",
     "Git-Obsidian/Analisi/Calcolo Integrale/Proprietà degli Integrali.md",
     "Git-Obsidian/Analisi/Funzioni/Introduzione Funzioni.md",
     "Git-Obsidian/Analisi/Limiti/Limiti.md",

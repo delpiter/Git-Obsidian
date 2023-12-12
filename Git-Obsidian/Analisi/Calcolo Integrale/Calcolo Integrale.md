@@ -159,3 +159,33 @@ $$
 $$
 \int_{4}^{5} \displaystyle{\frac{2}{x-3}} \, dx -\int_{4}^{5} \displaystyle{\frac{1}{x+1}} \, dx = [2log(x-3)-log(x-1)] _{4}^5
 $$
+
+#### Caso $\triangle = b^2-4ac = 0$
+Procedimento analogo al precedente
+$$
+\int _{4}^5 \displaystyle{\frac{x+1}{(x+3)^2}} \, dx 
+$$
+- Separiamo il denominatore come:
+$$
+\int _{4}^5 \displaystyle{\frac{A}{x+3}}+\displaystyle{\frac{B}{(x+3)^2}}
+$$
+
+Occasionalmente è possibile procedere anche con il metodo della sostituzione
+
+#### Caso $\triangle = b^2-4ac < 0$
+In questo caso notiamo che il denominatore non si può scomporre.
+- È necessario infatti cercare di ricondursi ad una arcotangente
+$$
+\begin{array}
+\ \displaystyle \int_{1}^{2} \displaystyle{\frac{2x +1}{2+x^2}} \, dx \\
+\displaystyle\int_{1}^{2} \displaystyle{\frac{2x}{2+x^2}}  \, dx + \displaystyle \int_{1}^{2} \displaystyle{\frac{1}{2+x^2}} \, dx  
+\end{array}
+$$
+- Raccolgo il $2$ in modo da riportarmi alla forma: $1+x^2$
+$$
+\int_{1}^{2} \displaystyle{\frac{1}{2\left( 1+\left( \displaystyle{\frac{x}{\sqrt{ 2 }}} \right)^2 \right)}} \, dx 
+$$
+- A patto di moltiplicare e dividere per $\sqrt{ 2 }$ otteniamo:
+$$
+\displaystyle{\frac{\sqrt{ 2 }}{2}}\left[ arctan\left( \displaystyle{\frac{x}{\sqrt{ 2 }}} \right) \right]_{1}^2
+$$
