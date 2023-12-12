@@ -47,7 +47,7 @@ Sia $f$ derivabile in $(x_{0},y_{0})$ non implica che $f$ sia continua
 >
 >Considero il rapporto incrementale di $f$
 >$$\displaystyle{\frac{f(x_{0}+tcos(\theta),y_{0}+tsin(\theta))-f(x_{0},y_{0})}{t}}$$
->a
+>
 >>[!done] In Breve
 >>Se esiste il limite per $t\to0$ del rapporto incrementale ed è in $\mathbb{R}$ dico che $f$ è derivabile lungo la direzione $V$ nel punto $(x_{0},y_{0})$
 >$$\lim\limits_{h\to 0}\displaystyle{\frac{f(x_{0}+tcos(\theta),y_{0}+tsin(\theta))-f(x_{0},y_{0})}{t}} = 0$$
