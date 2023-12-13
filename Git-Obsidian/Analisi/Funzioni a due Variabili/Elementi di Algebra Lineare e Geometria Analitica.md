@@ -13,10 +13,8 @@ Fissato un sistema di riferimento con origine $o(0,0)$:
 ![[Pasted image 20231128164523.png]]
 
 #### Vettori Speciali
-Esistono per convenzione due vettori "_particolari_":
+Esistono per convenzione vettori "_particolari_":
 - Vettori di lunghezza $1$
-- Direzione, quella degli assi del piano cartesiano
-- Verso, "verso" i numeri $>0$
 ![[Pasted image 20231128165050.png]]
 
 - Chiamati **versori**, sempre per convenzione denominati come $i$ e $j$
@@ -70,12 +68,12 @@ $$
 |V|=\sqrt{ x_{p}^2+y^2_{p}+z^2_{p} }
 $$
 ![[Pasted image 20231129170609.png]]
-#### Somma di Vettori e Prodotto Scalara
+#### Somma di Vettori e Prodotto Scalare
 - Analoghi ad $\mathbb{R}^2$
 
 ### Prodotto Scalare fra Vettori
 >[!info] Definizione
->Definiamo il prodotto scalare tr $V$ e $W$ come:
+>Definiamo il prodotto scalare tra $V$ e $W$ come:
 >$$V\cdot W = |V| |W| cos(\alpha)$$
 >Dove $\alpha$ è l'angolo tra $V$ e $W$ compreso tra $0$ e $\pi$
 
@@ -121,6 +119,7 @@ $$
 - Chiamate equazioni Parametriche di una retta in $\mathbb{R}$
 	- Sono vere se $a,b,c\neq 0$
 	- Es con una coordinata che si annulla
+
 $$
 \begin{cases}
 x=x_{p0} \\
@@ -181,7 +180,7 @@ Siano $\pi$ e $\pi'$
 >[!info] Definizioni
 >>[!example] Aperto
 >>Sia $A\subseteq\mathbb{R}^2$, diciamo che $A$ è **Aperto** se
->>$\exists$ un intorno $\mathrm{U}_{(x_{0},y_{0})}:$
+>>$\forall(x_{0},y_{0})\in A,\ \ \exists$ un intorno $\mathrm{U}_{(x_{0},y_{0})}:$
 >>$$\mathrm{U}_{(x_{0},y_{0})}\subset A$$ 
 >
 >>[!example] Chiuso

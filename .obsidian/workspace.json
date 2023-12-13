@@ -4,11 +4,47 @@
     "type": "split",
     "children": [
       {
-        "id": "97a385848b8555c3",
+        "id": "da6984401dc83ccc",
         "type": "tabs",
         "children": [
           {
-            "id": "067bfc652c970337",
+            "id": "f24e979f9b033621",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git-Obsidian/Analisi/Funzioni a due Variabili/Elementi di Algebra Lineare e Geometria Analitica.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7487e6a0c7bfa085",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git-Obsidian/Analisi/Funzioni a due Variabili/Funzioni di due Variabili Reali.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cfd96a419521e7e0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git-Obsidian/Analisi/Funzioni a due Variabili/Calcolo Infinitesimale.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4ef5aed93e7917a6",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,7 +56,19 @@
             }
           },
           {
-            "id": "9dc67b1ab14b316b",
+            "id": "3f40267589609400",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git-Obsidian/Analisi/Funzioni a due Variabili/Tayolor per funzioni a due Variabili.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4a7724edb9f84fa5",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -30,45 +78,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "27e02e0e1e7ec620",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git-Obsidian/Analisi/Funzioni a due Variabili/Tayolor per funzioni a due Variabili.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c1d542bece32ef1c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git-Obsidian/Analisi/Funzioni a due Variabili/Funzioni di due Variabili Reali.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "295048531caeaaec",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git-Obsidian/Analisi/Funzioni a due Variabili/Calcolo Differenziale.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -126,8 +138,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240.5,
-    "collapsed": true
+    "width": 240.5
   },
   "right": {
     "id": "3561446b8c4d05ef",
@@ -143,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Analisi/Funzioni a due Variabili/Punti Critici.md",
+                "file": "Git-Obsidian/Analisi/Funzioni a due Variabili/Calcolo Infinitesimale.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,7 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Analisi/Funzioni a due Variabili/Punti Critici.md",
+                "file": "Git-Obsidian/Analisi/Funzioni a due Variabili/Calcolo Infinitesimale.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -183,7 +194,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git-Obsidian/Analisi/Funzioni a due Variabili/Punti Critici.md"
+                "file": "Git-Obsidian/Analisi/Funzioni a due Variabili/Calcolo Infinitesimale.md"
               }
             }
           },
@@ -215,12 +226,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9dc67b1ab14b316b",
+  "active": "cfd96a419521e7e0",
   "lastOpenFiles": [
-    "Git-Obsidian/Analisi/Funzioni a due Variabili/Tayolor per funzioni a due Variabili.md",
-    "Git-Obsidian/Analisi/Funzioni a due Variabili/Punti Critici.md",
+    "Git-Obsidian/Attatchments/geogebra-export.png",
     "Git-Obsidian/Analisi/Funzioni a due Variabili/Funzioni di due Variabili Reali.md",
+    "Git-Obsidian/Analisi/Funzioni a due Variabili/Elementi di Algebra Lineare e Geometria Analitica.md",
+    "Git-Obsidian/Analisi/Funzioni a due Variabili/Punti Critici.md",
+    "Git-Obsidian/Analisi/Funzioni a due Variabili/Tayolor per funzioni a due Variabili.md",
     "Git-Obsidian/Analisi/Funzioni a due Variabili/Calcolo Differenziale.md",
+    "Git-Obsidian/Analisi/Funzioni a due Variabili/Calcolo Infinitesimale.md",
     "Git-Obsidian/Analisi/Calcolo Differenziale/Teoremi basati sulle Derivate.md",
     "Git-Obsidian/Attatchments/Pasted image 20231213145237.png",
     "Git-Obsidian/Analisi/Taylor/Formule di Taylor di Funzioni Elementari.md",
@@ -229,7 +243,6 @@
     "Git-Obsidian/Analisi/Calcolo Integrale/Introduzione Integrali.md",
     "Git-Obsidian/Analisi/Calcolo Integrale/Calcolo Integrale.md",
     "Git-Obsidian/Analisi/Successioni/Criterio del Rapporto.md",
-    "Git-Obsidian/Analisi/Funzioni a due Variabili/Elementi di Algebra Lineare e Geometria Analitica.md",
     "Git-Obsidian/Markdown Keys.md",
     "Git-Obsidian/Analisi/Insiemi/Numeri Complessi.md",
     "Git-Obsidian/Analisi/Limiti/Calcolo dei Limiti.md",
@@ -240,7 +253,6 @@
     "Git-Obsidian/Analisi/Argomenti Studiati.md",
     "Git-Obsidian/Analisi/Taylor/Formula di Taylor.md",
     "Git-Obsidian/Analisi/Funzioni a due Variabili/Differenziabilità.md",
-    "Git-Obsidian/Analisi/Funzioni a due Variabili/Calcolo Infinitesimale.md",
     "Git-Obsidian/Analisi/Calcolo Differenziale/Derivate.md",
     "Git-Obsidian/Analisi/Calcolo Differenziale/Derivate di Funzioni Elementari.md",
     "Git-Obsidian/Analisi/Taylor/Polinomio Di Taylor.md",

@@ -12,7 +12,7 @@
 ### Grafico di una Funzione in $\mathbb{R}^3$
 >[!tip] Definizione
 >$$
-G_{f}=\{ (x,y,z)\in\mathbb{R}^2 :f(x,y)\}
+G_{f}=\{ (x,y,z)\in\mathbb{R}^2 :z=f(x,y)\}
 >$$
 
 ### Curva di Livello
@@ -67,7 +67,7 @@ $$
 ### Fermat per funzioni a due Variabili
 >[!info] Teorema
 >Sia $A\subseteq\mathbb{R}^2,f:A\to\mathbb{R}$, $A$ [[Elementi di Algebra Lineare e Geometria Analitica#Insiemi Aperti e Chiusi|aperto]]
->Sia $(x_{0},y_{0})\in A$ e supponiamo che $f$ sia derivabile in $(x_{0},y_{0})$
+>Sia $(x_{0},y_{0})\in A$ e supponiamo che $f$ sia [[Calcolo Differenziale#Derivabilità|derivabile]] in $(x_{0},y_{0})$
 >Se $(x_{0},y_{0})$ è estremante locale:
 ><u>Allora</u>
 >$$\nabla f(x_{0},y_{0})=(0,0)$$
