@@ -7,8 +7,9 @@
 
 ## Trovare il Piano Tangente al Grafico
 ---
-#### Primo Passo
 - Determinare, nel caso ci sia, l'equazione del piano tangente al grafico di una funzione $f$ nel punto $(x_{0},y_{0})$
+#### Primo Passo
+
 >[!info] Svolgimento
 >>[!tip] Intersezione Piano $y=y_{0}$
 >>Seziono (o interseco) il grafico della funzione con il piano $y=y_{0}$

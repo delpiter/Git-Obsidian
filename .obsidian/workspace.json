@@ -38,7 +38,7 @@
               "type": "markdown",
               "state": {
                 "file": "Git-Obsidian/Analisi/Funzioni a due Variabili/Calcolo Infinitesimale.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -50,6 +50,18 @@
               "type": "markdown",
               "state": {
                 "file": "Git-Obsidian/Analisi/Funzioni a due Variabili/Calcolo Differenziale.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "aecff6c346708912",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git-Obsidian/Analisi/Funzioni a due Variabili/Differenziabilità.md",
                 "mode": "preview",
                 "source": false
               }
@@ -80,7 +92,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -154,7 +166,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Analisi/Funzioni a due Variabili/Calcolo Infinitesimale.md",
+                "file": "Git-Obsidian/Analisi/Funzioni a due Variabili/Differenziabilità.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +183,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Analisi/Funzioni a due Variabili/Calcolo Infinitesimale.md",
+                "file": "Git-Obsidian/Analisi/Funzioni a due Variabili/Differenziabilità.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,7 +206,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git-Obsidian/Analisi/Funzioni a due Variabili/Calcolo Infinitesimale.md"
+                "file": "Git-Obsidian/Analisi/Funzioni a due Variabili/Differenziabilità.md"
               }
             }
           },
@@ -226,15 +238,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cfd96a419521e7e0",
+  "active": "aecff6c346708912",
   "lastOpenFiles": [
+    "Git-Obsidian/Analisi/Funzioni a due Variabili/Calcolo Differenziale.md",
+    "Git-Obsidian/Analisi/Funzioni a due Variabili/Differenziabilità.md",
+    "Git-Obsidian/Analisi/Funzioni a due Variabili/Calcolo Infinitesimale.md",
     "Git-Obsidian/Attatchments/geogebra-export.png",
     "Git-Obsidian/Analisi/Funzioni a due Variabili/Funzioni di due Variabili Reali.md",
     "Git-Obsidian/Analisi/Funzioni a due Variabili/Elementi di Algebra Lineare e Geometria Analitica.md",
     "Git-Obsidian/Analisi/Funzioni a due Variabili/Punti Critici.md",
     "Git-Obsidian/Analisi/Funzioni a due Variabili/Tayolor per funzioni a due Variabili.md",
-    "Git-Obsidian/Analisi/Funzioni a due Variabili/Calcolo Differenziale.md",
-    "Git-Obsidian/Analisi/Funzioni a due Variabili/Calcolo Infinitesimale.md",
     "Git-Obsidian/Analisi/Calcolo Differenziale/Teoremi basati sulle Derivate.md",
     "Git-Obsidian/Attatchments/Pasted image 20231213145237.png",
     "Git-Obsidian/Analisi/Taylor/Formule di Taylor di Funzioni Elementari.md",
@@ -252,7 +265,6 @@
     "Git-Obsidian/Analisi/Funzioni/Funzioni di una variabile Reale.md",
     "Git-Obsidian/Analisi/Argomenti Studiati.md",
     "Git-Obsidian/Analisi/Taylor/Formula di Taylor.md",
-    "Git-Obsidian/Analisi/Funzioni a due Variabili/Differenziabilità.md",
     "Git-Obsidian/Analisi/Calcolo Differenziale/Derivate.md",
     "Git-Obsidian/Analisi/Calcolo Differenziale/Derivate di Funzioni Elementari.md",
     "Git-Obsidian/Analisi/Taylor/Polinomio Di Taylor.md",
@@ -265,7 +277,6 @@
     "Git-Obsidian/Attatchments/Pasted image 20231204162755.png",
     "Git-Obsidian/Attatchments/Pasted image 20231204162426.png",
     "Git-Obsidian/Attatchments/Pasted image 20231204153727.png",
-    "Git-Obsidian/Attatchments/Pasted image 20231204153447.png",
     "Git-Obsidian/Analisi/Funzioni a due Variabili",
     "Relazione.pdf",
     "Git-Obsidian/Analisi/Calcolo Integrale",
