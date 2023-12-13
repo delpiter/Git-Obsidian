@@ -59,29 +59,7 @@ $$
 +\circ(t^2) \text{ per }t\to0
 \end{array}
 $$
-## Forme Quadratiche
----
->[!info] Definizione
->Una forma quadratica su $\mathbb{R}^2$ è un polinomio omogeneo di grado 2 in $(h,k)$:
->$$q(h,k)=a_{11}h^2+a_{12}hk+a_{21}hk+a_{22}k^2$$
->>[!done] In oltre
->>Posso assegnargli una matrice
->>$$
-A=\begin{pmatrix}
-a_{11}  & a_{12} \\
-a_{21}  & a_{22}
-\end{pmatrix}
->>$$
->>Nel senso che:
->>$$q(h,k)=(h,k)\cdot \begin{pmatrix}
-a_{11}  & a_{12} \\
-a_{21}  & a_{22}
-\end{pmatrix} \cdot \begin{pmatrix}
-h \\
-k
-\end{pmatrix}
->>$$
-
-
-
-
+#### Formula di Taylor
+$$
+f(x_{0}+th,y_{0}+tk) = f(x_{0},y_{0})+df_{(x_{0},y_{0})}(h,k)t+d^2f_{(x_{0},y_{0})}(h,k)t^2 +\circ(t^2)
+$$

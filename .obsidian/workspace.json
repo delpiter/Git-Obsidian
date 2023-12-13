@@ -14,12 +14,61 @@
               "type": "markdown",
               "state": {
                 "file": "Git-Obsidian/Analisi/Funzioni a due Variabili/Calcolo Differenziale.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9dc67b1ab14b316b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git-Obsidian/Analisi/Funzioni a due Variabili/Punti Critici.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "27e02e0e1e7ec620",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git-Obsidian/Analisi/Funzioni a due Variabili/Tayolor per funzioni a due Variabili.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "c1d542bece32ef1c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git-Obsidian/Analisi/Funzioni a due Variabili/Funzioni di due Variabili Reali.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "295048531caeaaec",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git-Obsidian/Analisi/Funzioni a due Variabili/Calcolo Differenziale.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -56,7 +105,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "intermedi",
+                "query": "gradiente",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -77,7 +126,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240.5
+    "width": 240.5,
+    "collapsed": true
   },
   "right": {
     "id": "3561446b8c4d05ef",
@@ -93,7 +143,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Analisi/Funzioni a due Variabili/Calcolo Differenziale.md",
+                "file": "Git-Obsidian/Analisi/Funzioni a due Variabili/Punti Critici.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +160,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Analisi/Funzioni a due Variabili/Calcolo Differenziale.md",
+                "file": "Git-Obsidian/Analisi/Funzioni a due Variabili/Punti Critici.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +183,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git-Obsidian/Analisi/Funzioni a due Variabili/Calcolo Differenziale.md"
+                "file": "Git-Obsidian/Analisi/Funzioni a due Variabili/Punti Critici.md"
               }
             }
           },
@@ -155,6 +205,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-file-cleaner:Clean files": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -164,15 +215,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "067bfc652c970337",
+  "active": "9dc67b1ab14b316b",
   "lastOpenFiles": [
+    "Git-Obsidian/Analisi/Funzioni a due Variabili/Tayolor per funzioni a due Variabili.md",
+    "Git-Obsidian/Analisi/Funzioni a due Variabili/Punti Critici.md",
+    "Git-Obsidian/Analisi/Funzioni a due Variabili/Funzioni di due Variabili Reali.md",
+    "Git-Obsidian/Analisi/Funzioni a due Variabili/Calcolo Differenziale.md",
+    "Git-Obsidian/Analisi/Calcolo Differenziale/Teoremi basati sulle Derivate.md",
+    "Git-Obsidian/Attatchments/Pasted image 20231213145237.png",
     "Git-Obsidian/Analisi/Taylor/Formule di Taylor di Funzioni Elementari.md",
     "Untitled 1.canvas",
     "Untitled.canvas",
     "Git-Obsidian/Analisi/Calcolo Integrale/Introduzione Integrali.md",
     "Git-Obsidian/Analisi/Calcolo Integrale/Calcolo Integrale.md",
     "Git-Obsidian/Analisi/Successioni/Criterio del Rapporto.md",
-    "Git-Obsidian/Analisi/Funzioni a due Variabili/Tayolor per funzioni a due Variabili.md",
     "Git-Obsidian/Analisi/Funzioni a due Variabili/Elementi di Algebra Lineare e Geometria Analitica.md",
     "Git-Obsidian/Markdown Keys.md",
     "Git-Obsidian/Analisi/Insiemi/Numeri Complessi.md",
@@ -183,16 +239,12 @@
     "Git-Obsidian/Analisi/Funzioni/Funzioni di una variabile Reale.md",
     "Git-Obsidian/Analisi/Argomenti Studiati.md",
     "Git-Obsidian/Analisi/Taylor/Formula di Taylor.md",
-    "Git-Obsidian/Analisi/Funzioni a due Variabili/Calcolo Differenziale.md",
     "Git-Obsidian/Analisi/Funzioni a due Variabili/Differenziabilità.md",
-    "Git-Obsidian/Analisi/Funzioni a due Variabili/Funzioni di due Variabili Reali.md",
     "Git-Obsidian/Analisi/Funzioni a due Variabili/Calcolo Infinitesimale.md",
     "Git-Obsidian/Analisi/Calcolo Differenziale/Derivate.md",
     "Git-Obsidian/Analisi/Calcolo Differenziale/Derivate di Funzioni Elementari.md",
-    "Git-Obsidian/Analisi/Calcolo Differenziale/Teoremi basati sulle Derivate.md",
     "Git-Obsidian/Analisi/Taylor/Polinomio Di Taylor.md",
     "Git-Obsidian/Analisi/Concetti Base.md",
-    "Git-Obsidian/Definitions/Definizioni_Analisi.md",
     "Git-Obsidian/Attatchments/Untitled-removebg-preview.png",
     "Git-Obsidian/Attatchments/Untitled 1.png",
     "Git-Obsidian/Attatchments/pngegg.png",
@@ -202,7 +254,6 @@
     "Git-Obsidian/Attatchments/Pasted image 20231204162426.png",
     "Git-Obsidian/Attatchments/Pasted image 20231204153727.png",
     "Git-Obsidian/Attatchments/Pasted image 20231204153447.png",
-    "Git-Obsidian/Attatchments/Pasted image 20231204152624.png",
     "Git-Obsidian/Analisi/Funzioni a due Variabili",
     "Relazione.pdf",
     "Git-Obsidian/Analisi/Calcolo Integrale",
