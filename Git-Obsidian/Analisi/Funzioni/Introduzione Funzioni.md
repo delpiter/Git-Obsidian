@@ -15,7 +15,7 @@ $$\forall x \in A, \exists y \in B : y = f(x)$$
 
 >[!info] Immagine
 >Il sottoinsieme di $y$ costituito dai valori effettivamente assunti dalla funzione $f$ è invece detto immagine
-$$f(A)=\{y\in B\;|\;\exists; x\in A:f(x)=y\}$$
+$$f(A)=\{y\in B\;|\;\exists x\in A:f(x)=y\}$$
 ## Grafico di una Funzione
 - - -
 >Siano $A$ e $B \neq \varnothing$, sia $f: A \rightarrow B$ chiamiamo grafico di $f$, l'insieme 
@@ -97,7 +97,8 @@ y=x
 ```
 
 ###### Osservazione
-- Sia $f$ una funzione invertibile allora
+- Sia $f$ una funzione invertibile, $f:A\to B$
+	- Allora
 $$(f_of^{-1})(x) = x \;\; \forall x \in B$$
 $$(f^{-1}_of)(x) = x \;\; \forall x \in A$$
 

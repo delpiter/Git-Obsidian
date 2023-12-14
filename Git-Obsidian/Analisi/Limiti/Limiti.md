@@ -14,10 +14,10 @@
 - Cioè $x\in U \Leftrightarrow |x-c|<r$
 
 >$U$ è un intorno di $+\infty$ se $$\exists a>0:U=(a,+\infty)$$
-- Cioè $x\in U \Leftrightarrow a<+\infty$
+- Cioè $x\in U \Leftrightarrow x>a$
 
 >$U$ è un intorno di $-\infty$ se $$\exists b>0:U=(-\infty,b)$$
-- Cioè $x\in U \Leftrightarrow b>-\infty$
+- Cioè $x\in U \Leftrightarrow x<b$
 
 ### Definizione Limite
 >[!info] Definizioni
@@ -38,6 +38,9 @@
 >>Diciamo che $\exists\lim\limits_{x\to+c}f(x)=l$ se:
 >>$$\forall \mathrm{V} \text{ intorno di } l, \exists \mathrm{U}_{\mathrm{V}}\text{ intorno di }c: \forall x\in\mathrm{U}_{\mathrm{V}}\setminus\{c\}$$
 >>Si ha: $f(x)\in\mathrm{V}$
+>>a
+>>>[!done] In Breve
+>>>Qualsiasi intorno di $l$ che io prenda, esiste un intorno del punto $c$ tale che l'insieme di valori ottenuti da $f(x), x\in\mathrm{U}c$ è un sottoinsieme dell'intorno di $l$
 
 #### Teorema del "ponte"
 - Il teorema del ponte enuncia che le due definizioni precedenti sono equivalenti
@@ -52,7 +55,6 @@ $$
 >Fissato un $\mathcal{E} >0$, esiste un $\delta>0$
 >Tale che $\forall x$ nell'intervallo $(c-\delta,c+\delta)$ si ha che $f(x)$ deve cadere nell'intervallo $(l-\mathcal{E},l+\mathcal{E})$
 ###### Caso $l,c = +\infty$
-!!!!!??
 $$
 \forall \mathcal{E}> 0,\exists\delta_{\mathcal{E}}>0 :\text{ se }\delta_{\mathcal{E}}>c, f(x)>\mathcal{E}
 $$
