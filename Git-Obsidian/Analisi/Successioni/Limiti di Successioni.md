@@ -164,14 +164,6 @@ a_{n}>b_{n} \\
 l=0\geq m=0
 \end{array}
 $$
-## Teorema della permanenza dei segni
-- - -
->[!info] Definizione
->Sia $(a_{n})_{n\in\mathbb{N}}$ una successione regolare in $\mathbb{R}$, $l\in\overline{\mathbb{R}}: \lim\limits_{n\to+\infty}a_{n}=l$
->Se $l>0 \implies\exists \overline{n}\in\mathbb{N}:a_{n}>0 \ \ \forall n \geq \overline{n}$
->Se $l<0 \implies\exists \overline{n}\in\mathbb{N}:a_{n}<0 \ \ \forall n\geq \overline{n}$
->>[!done] In breve
->>Se il limite di una funzione è diverso da $0$, allora la funzione è localmente concorde con il llimite
 ## Teorema dei due Carabinieri
 - - -
 >[!info] Definizione
@@ -183,3 +175,12 @@ a_{n}\leq b_{n}\leq c_{n} \text{ e } l \in\mathbb{R} \ \ \ \forall n\in\mathbb{N
 >$\lim\limits_{n\to+\infty}a_{n}=l,  \lim\limits_{n\to+\infty}c_{n}=l$
 >Allora: $\lim\limits_{n\to+\infty}b_{n}=l$
 - Dimostrato tramite il teorema del confronto
+
+## Teorema della permanenza dei segni
+- - -
+>[!info] Definizione
+>Sia $(a_{n})_{n\in\mathbb{N}}$ una successione regolare in $\mathbb{R}$, $l\in\overline{\mathbb{R}}: \lim\limits_{n\to+\infty}a_{n}=l$
+>Se $l>0 \implies\exists \overline{n}\in\mathbb{N}:a_{n}>0 \ \ \forall n \geq \overline{n}$
+>Se $l<0 \implies\exists \overline{n}\in\mathbb{N}:a_{n}<0 \ \ \forall n\geq \overline{n}$
+>>[!done] In breve
+>>Se il limite di una funzione è diverso da $0$, allora la funzione è localmente concorde con il llimite
