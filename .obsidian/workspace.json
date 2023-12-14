@@ -50,13 +50,13 @@
               "type": "markdown",
               "state": {
                 "file": "Git-Obsidian/Analisi/Limiti/Limiti.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Analisi/Limiti/Limiti.md",
+                "file": "Git-Obsidian/Analisi/Funzioni/Introduzione Funzioni.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Analisi/Limiti/Limiti.md",
+                "file": "Git-Obsidian/Analisi/Funzioni/Introduzione Funzioni.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git-Obsidian/Analisi/Limiti/Limiti.md"
+                "file": "Git-Obsidian/Analisi/Funzioni/Introduzione Funzioni.md"
               }
             }
           },
@@ -202,8 +202,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3bef793ac262dd98",
+  "active": "46663bbfe97ce0fd",
   "lastOpenFiles": [
+    "Git-Obsidian/Analisi/Limiti/Limiti.md",
     "Git-Obsidian/Analisi/Funzioni/Introduzione Funzioni.md",
     "Git-Obsidian/Analisi/Argomenti Studiati.md",
     "Git-Obsidian/Analisi/Insiemi/Numeri Complessi.md",
@@ -228,7 +229,6 @@
     "Git-Obsidian/Markdown Keys.md",
     "Git-Obsidian/Analisi/Limiti/Calcolo dei Limiti.md",
     "Git-Obsidian/Analisi/Calcolo Integrale/Proprietà degli Integrali.md",
-    "Git-Obsidian/Analisi/Limiti/Limiti.md",
     "Git-Obsidian/Analisi/Funzioni/Funzioni di una variabile Reale.md",
     "Git-Obsidian/Analisi/Taylor/Formula di Taylor.md",
     "Git-Obsidian/Analisi/Calcolo Differenziale/Derivate.md",

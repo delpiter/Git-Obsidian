@@ -54,9 +54,9 @@ $$
 >[!done] In Breve
 >Fissato un $\mathcal{E} >0$, esiste un $\delta>0$
 >Tale che $\forall x$ nell'intervallo $(c-\delta,c+\delta)$ si ha che $f(x)$ deve cadere nell'intervallo $(l-\mathcal{E},l+\mathcal{E})$
-###### Caso $l,c = +\infty$
+###### Caso $l = +\infty, c\in\mathbb{R}$
 $$
-\forall \mathcal{E}> 0,\exists\delta_{\mathcal{E}}>0 :\text{ se }\delta_{\mathcal{E}}>c, f(x)>\mathcal{E}
+\forall \mathcal{E}> 0,\exists\delta_{\mathcal{E}}>0 :\text{ se }|x-c|<\delta_{\mathcal{E}}, f(x)>\mathcal{E}
 $$
 
 ## Proprietà dei limiti
