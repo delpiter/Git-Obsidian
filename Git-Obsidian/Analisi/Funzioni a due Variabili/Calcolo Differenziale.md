@@ -42,7 +42,7 @@ Sia $f$ derivabile in $(x_{0},y_{0})$ non implica che $f$ sia continua
 ## Derivata Direzionale
 ---
 >[!info] Definizione
->Sia $(x_{0},y_{0})\in\mathbb{R}^2, \underbrace{ V }_{ Versore }=1(cos(\theta),sin(\theta)), \theta \in[o,2\pi]$
+>Sia $(x_{0},y_{0})\in\mathbb{R}^2, \underbrace{ V }_{ Versore }=1(cos(\theta),sin(\theta)), \theta \in[0,2\pi]$
 >Data $f:\mathbb{R}^2\to\mathbb{R}$
 >
 >>[!done] A Parole
