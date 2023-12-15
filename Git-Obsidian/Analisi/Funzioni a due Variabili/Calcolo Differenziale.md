@@ -21,7 +21,7 @@ $$
 \displaystyle{\frac{df}{dx}}(x,y)=2e^{ xy }+ye^{ xy }2x
 $$
 $$
-\displaystyle{\frac{df}{dy}}(x,y)2x^2e^{ xy }
+\displaystyle{\frac{df}{dy}}(x,y)=2x^2e^{ xy }
 $$
 ### Derivabilità
 >[!tip] Definizione

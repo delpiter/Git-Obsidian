@@ -62,7 +62,7 @@ $$
 ---
 >[!info] Teorema
 >Sia $f\in C([a,b],\mathbb{R})$ e sia $g\in C^1([a,b],\mathbb{R})$
->Sia $F$ una primitiva di $f$
+>Sia $F$ una [[Introduzione Integrali#Primitive|primitiva]] di $f$
 ><u>Allora</u>
 >$$\int _{a}^b f(x)g(x) \, dx = [F(x)g(x)]_{a}^b - \int _{b}^a F(x)-g'(x)\, dx  $$
 
