@@ -35,6 +35,9 @@ Sia $f$ derivabile in $(x_{0},y_{0})$ non implica che $f$ sia continua
 >[!info] Definizione
 >$$\nabla f(x_{0},y_{0}) = \left( \displaystyle\frac{ \partial f }{ \partial x }(x_{0},y_{0}) ,\displaystyle\frac{ \partial f }{ \partial y }(x_{0},y_{0})  \right)$$
 >
+>>[!done] In Breve
+>>Il gradiente indica la direzione di massima pendenza della funzione in un punto.
+>>In altre parole, il gradiente punta nella direzione in cui la funzione cresce più rapidamente
 
 ## Derivata Direzionale
 ---
