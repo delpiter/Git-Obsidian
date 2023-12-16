@@ -81,10 +81,13 @@ $$
 - Passo al limite per $t\to0$
 $$D_{v}f(x_{0},y_{0})=\partial xf(x_{0},y_{0})cos(\theta)+\partial yf(x_{0},y_{0})sin(\theta) = \nabla f(x_{0},y_{0})\cdot V$$
 #### Osservazione
-Da tale formula si osserva che $D_{v}f(x_{0},y_{0})$ è massima quando $V=D_{v}f(x_{0},y_{0})$
+Da tale formula si osserva che $D_{v}f(x_{0},y_{0})$ è massima quando $V=\nabla f(x_{0},y_{0})$
 >[!done] In Breve
 >$\nabla f(x_{0},y_{0})$ indica la direzione di massima crescita
 
+$$
+D_{v}f max \Leftrightarrow \nabla f\cdot Vmax \Leftrightarrow \nabla f \parallel V \Leftrightarrow \text{ direzione }\nabla f = \text{ direzione }V \Leftrightarrow D_{v}f max = \text{ dir } \nabla f
+$$
 #### Osservazione
 Se guardo la variazione di $f$ lungo un vettore $V$ tangente ad una [[Funzioni di due Variabili Reali#Curva di Livello|linea di livello]] "vedo" una $f$ costante e dunque:
 $$

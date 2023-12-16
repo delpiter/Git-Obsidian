@@ -57,7 +57,7 @@ z=f(x_{0},y_{0})+ \displaystyle{\frac{df}{dx}}(x_{0},y_{0})(x-x_{0})+ \displayst
 ---
 >[!info] Definizione
 >Sia $f:\mathbb{R}^2\to\mathbb{R}$ o $f:A\to\mathbb{R}, A\subseteq\mathbb{R}^2 \text{ Aperto}$
->Sua $(x_{0},y_{0})\in\mathbb{R}^2$, supponiamo $f$ sia derivabile
+>Sia $(x_{0},y_{0})\in\mathbb{R}^2$, supponiamo $f$ sia derivabile
 >Diciamo che $f$ è differenziabile in $(x_{0},y_{0})$ se:
 >$$f(x,y)=f(x_{0},y_{0})+\displaystyle{\frac{df}{dx}}(x_{0},y_{0})(x-x_{0})+ \displaystyle{\frac{df}{dy}}(x_{0},y_{0})(y-y_{0})+ \underbrace{ \circ(|(x,y)-(x_{0},y_{0})|) }_{\displaystyle \circ( \sqrt{ (x-x_{0})^2 +(y-y_{0})^2}) }$$
 >Per $(x,y)\to (x_{0},y_{0})$
@@ -66,7 +66,7 @@ z=f(x_{0},y_{0})+ \displaystyle{\frac{df}{dx}}(x_{0},y_{0})(x-x_{0})+ \displayst
 >[!tip] Equivalente
 >$$f(x_{0}+h,y_{0}+k)=f(x_{0},y_{0})+\displaystyle{\frac{df}{dx}}(x_{0},y_{0})h+ \displaystyle{\frac{df}{dy}}(x_{0},y_{0})k+ \circ(\sqrt{ h^2+k^2 })$$
 >Per $(h,k)\to(0,0)$
->a
+>
 >>[!example] Differenziale
 >>Chiamo differenziale di $f$ nel punto $(x_{0},y_{0})$
 >>La funzione lineare
@@ -108,11 +108,11 @@ $$
 
 ### Dimostrazione
 Passo al limite nella definizione di differenziabilità
->$$f(x,y)=f(x_{0},y_{0})+\displaystyle{\frac{df}{dx}}(x_{0},y_{0})(x-x_{0})+ \displaystyle{\frac{df}{dy}}(x_{0},y_{0})(y-y_{0})+ \underbrace{ \circ(|(x,y)-(x_{0},y_{0})|) }_{\displaystyle \circ( \sqrt{ (x-x_{0})^2 +(y-y_{0})^2}) }$$
->Per $(x,y)\to (x_{0},y_{0})$
+>$$f(x_{0}+h,y_{0}+k)=f(x_{0},y_{0})+\displaystyle{\frac{df}{dx}}(x_{0},y_{0})h+ \displaystyle{\frac{df}{dy}}(x_{0},y_{0})k+ \circ(\sqrt{ h^2+k^2 })$$
+>Per $(h,k)\to(0,0)$
 
 $$
-\lim\limits_{(h,k)\to (0,0)}f(x_{0}+h,y_{0}+k)=f(x_{0},y_{9})
+\lim\limits_{(h,k)\to (0,0)}f(x_{0}+h,y_{0}+k)=f(x_{0},y_{0})
 $$
 #### Esercizi Esempio
 Determinare l'equazione del piano tangente al grafico di $f$ nel punto $(P_{0},f(P_{0}))$

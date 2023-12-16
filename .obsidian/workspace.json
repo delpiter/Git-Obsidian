@@ -92,7 +92,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -166,7 +166,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Analisi/Funzioni a due Variabili/Calcolo Differenziale.md",
+                "file": "Git-Obsidian/Analisi/Funzioni a due Variabili/Tayolor per funzioni a due Variabili.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -183,7 +183,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Analisi/Funzioni a due Variabili/Calcolo Differenziale.md",
+                "file": "Git-Obsidian/Analisi/Funzioni a due Variabili/Tayolor per funzioni a due Variabili.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -206,7 +206,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git-Obsidian/Analisi/Funzioni a due Variabili/Calcolo Differenziale.md"
+                "file": "Git-Obsidian/Analisi/Funzioni a due Variabili/Tayolor per funzioni a due Variabili.md"
               }
             }
           },
@@ -228,7 +228,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-file-cleaner:Clean files": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -238,15 +237,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7d74ae406c0a3d92",
+  "active": "6ea11979455f3c5d",
   "lastOpenFiles": [
-    "Git-Obsidian/Analisi/Funzioni a due Variabili/Calcolo Infinitesimale.md",
+    "Git-Obsidian/Analisi/Funzioni a due Variabili/Differenziabilità.md",
+    "Git-Obsidian/Analisi/Funzioni a due Variabili/Tayolor per funzioni a due Variabili.md",
+    "Git-Obsidian/Analisi/Funzioni a due Variabili/Calcolo Differenziale.md",
+    "Git-Obsidian/Markdown Keys.md",
     "Git-Obsidian/Analisi/Funzioni a due Variabili/Funzioni di due Variabili Reali.md",
     "Git-Obsidian/Analisi/Funzioni a due Variabili/Elementi di Algebra Lineare e Geometria Analitica.md",
+    "Git-Obsidian/Analisi/Funzioni a due Variabili/Calcolo Infinitesimale.md",
     "Git-Obsidian/Analisi/Funzioni a due Variabili/Punti Critici.md",
-    "Git-Obsidian/Analisi/Funzioni a due Variabili/Tayolor per funzioni a due Variabili.md",
-    "Git-Obsidian/Analisi/Funzioni a due Variabili/Differenziabilità.md",
-    "Git-Obsidian/Analisi/Funzioni a due Variabili/Calcolo Differenziale.md",
     "Git-Obsidian/Analisi/Calcolo Integrale/Introduzione Integrali.md",
     "Git-Obsidian/Analisi/Calcolo Integrale/Proprietà degli Integrali.md",
     "Git-Obsidian/Analisi/Calcolo Integrale/Calcolo Integrale.md",
@@ -266,7 +266,6 @@
     "Git-Obsidian/Analisi/Taylor/Formule di Taylor di Funzioni Elementari.md",
     "Untitled 1.canvas",
     "Untitled.canvas",
-    "Git-Obsidian/Markdown Keys.md",
     "Git-Obsidian/Analisi/Limiti/Calcolo dei Limiti.md",
     "Git-Obsidian/Analisi/Taylor/Formula di Taylor.md",
     "Git-Obsidian/Analisi/Calcolo Differenziale/Derivate di Funzioni Elementari.md",
