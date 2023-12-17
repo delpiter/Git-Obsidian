@@ -24,14 +24,14 @@ k
 ### Categorie di Forme Quadratiche
 >[!info] Definizione
 >Data una forma quadratica $q(h,k)$, diciamo che essa è:
->-  Definita:
+>1)  Definita:
 >-  **Definita Positiva** se $q(h,k)>0 \forall (h,k)\in\mathbb{R}^2$
->b) **Definita Negativa** $q(h,k)<0 \forall (h,k)\in\mathbb{R}^2$
+>- **Definita Negativa** $q(h,k)<0 \forall (h,k)\in\mathbb{R}^2$
 >2) Semi Definita:
 >- **Semidefinita Positiva** se $q(h,k)\leq0$
 >- **Semidefinita Negativa** se $q(h,k)\geq0$
 >	- $\forall(h,k)\in\mathbb{R}^2,\exists(h,k)\neq(0,0) :q(h,k)=0$
->3)**Indefinita** se $\exists(h_{1},k_{1})\in\mathbb{R}^2:q(h_{1},k_{1})>0$ e $\exists(h_{2},k_{2})\in\mathbb{R}^2:q(h_{2},k_{2})>0$
+>3) **Indefinita** se $\exists(h_{1},k_{1})\in\mathbb{R}^2:q(h_{1},k_{1})>0$ e $\exists(h_{2},k_{2})\in\mathbb{R}^2:q(h_{2},k_{2})>0$
 
 ---
 
@@ -88,7 +88,7 @@ q \text{ è indefinita }\Leftrightarrow \det A<0
 ![[Tayolor per funzioni a due Variabili#Formula di Taylor]]
 Osserviamo che se $(x_{0},y_{0})$ è punto critico $df_{(x_{0},y_{0})}(h,k)t$ si annulla
 ##### Osservazione
-Se $d^2f_{(x_{0},y_{0})}$ è [[#Forme Quadratiche |definito positovo o negativo]], posso dedurre che $(x_{0},y_{0})$ è un [[Funzioni di due Variabili Reali#Estremanti Locali|estremante locale]]
+Se $d^2f_{(x_{0},y_{0})}$ è [[#Forme Quadratiche |definito positIvo o negativo]], posso dedurre che $(x_{0},y_{0})$ è un [[Funzioni di due Variabili Reali#Estremanti Locali|estremante locale]]
 
 ---
 >[!info] Teorema
