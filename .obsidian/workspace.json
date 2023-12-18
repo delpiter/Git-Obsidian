@@ -90,21 +90,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "23bffa7933fcc93a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git-Obsidian/Analisi/Insiemi/Numeri Complessi.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 7
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -162,7 +150,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240.5
+    "width": 240.5,
+    "collapsed": true
   },
   "right": {
     "id": "3561446b8c4d05ef",
@@ -178,7 +167,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Analisi/Insiemi/Numeri Complessi.md",
+                "file": "Git-Obsidian/Analisi/Funzioni a due Variabili/Punti Critici.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -195,7 +184,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Analisi/Insiemi/Numeri Complessi.md",
+                "file": "Git-Obsidian/Analisi/Funzioni a due Variabili/Punti Critici.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -218,7 +207,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git-Obsidian/Analisi/Insiemi/Numeri Complessi.md"
+                "file": "Git-Obsidian/Analisi/Funzioni a due Variabili/Punti Critici.md"
               }
             }
           },
@@ -250,16 +239,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "23bffa7933fcc93a",
+  "active": "95ea3ac5106283eb",
   "lastOpenFiles": [
-    "Git-Obsidian/Analisi/Funzioni a due Variabili/Punti Critici.md",
-    "Git-Obsidian/Analisi/Funzioni a due Variabili/Calcolo Differenziale.md",
-    "Git-Obsidian/Analisi/Taylor/Formula di Taylor.md",
-    "Git-Obsidian/Analisi/Funzioni a due Variabili/Differenziabilità.md",
-    "Git-Obsidian/Analisi/Funzioni a due Variabili/Calcolo Infinitesimale.md",
-    "Git-Obsidian/Analisi/Funzioni a due Variabili/Elementi di Algebra Lineare e Geometria Analitica.md",
-    "Git-Obsidian/Analisi/Funzioni a due Variabili/Funzioni di due Variabili Reali.md",
     "Git-Obsidian/Analisi/Funzioni a due Variabili/Tayolor per funzioni a due Variabili.md",
+    "Git-Obsidian/Analisi/Funzioni a due Variabili/Differenziabilità.md",
+    "Git-Obsidian/Analisi/Funzioni a due Variabili/Calcolo Differenziale.md",
+    "Git-Obsidian/Analisi/Funzioni a due Variabili/Calcolo Infinitesimale.md",
+    "Git-Obsidian/Analisi/Funzioni a due Variabili/Funzioni di due Variabili Reali.md",
+    "Git-Obsidian/Analisi/Funzioni a due Variabili/Punti Critici.md",
+    "Git-Obsidian/Analisi/Insiemi/Numeri Complessi.md",
+    "Git-Obsidian/Analisi/Taylor/Formula di Taylor.md",
+    "Git-Obsidian/Analisi/Funzioni a due Variabili/Elementi di Algebra Lineare e Geometria Analitica.md",
     "Git-Obsidian/Markdown Keys.md",
     "Git-Obsidian/Analisi/Calcolo Integrale/Introduzione Integrali.md",
     "Git-Obsidian/Analisi/Calcolo Integrale/Proprietà degli Integrali.md",
@@ -271,7 +261,6 @@
     "Git-Obsidian/Analisi/Limiti/Limiti.md",
     "Git-Obsidian/Analisi/Funzioni/Introduzione Funzioni.md",
     "Git-Obsidian/Analisi/Argomenti Studiati.md",
-    "Git-Obsidian/Analisi/Insiemi/Numeri Complessi.md",
     "Git-Obsidian/Analisi/Successioni/Criterio del Rapporto.md",
     "Git-Obsidian/Analisi/Successioni/Limiti di Successioni.md",
     "Git-Obsidian/Analisi/Taylor/Resto di Peano.md",

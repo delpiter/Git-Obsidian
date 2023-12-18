@@ -74,9 +74,9 @@ Considero la definizione di derivata direzionale:
 $$
 \displaystyle{\frac{f(x_{0}+\overbrace{tcos(\theta)}^{h},y_{0}+\overbrace{tsin(\theta)}^{k})-f(x_{0},y_{0})}{t}}
 $$
-- Uso la definizione di differenziabilità:
+- Uso la definizione di [[Differenziabilità#Funzione Differenziabile|differenziabilità]]:
 $$
-\displaystyle{\frac{\cancel{ f(x_{0},y_{0}) }+\partial xf(x_{0}+tcos(\theta),y_{0})\cancel{ t }cos(\theta)+\partial yf(x_{0},y_{0}+tsin(\theta))\cancel{ t }sin(\theta)-\cancel{ f(x_{0},y_{0}) }+\circ(t)}{\cancel{ t }}}
+\displaystyle{\frac{\cancel{ f(x_{0},y_{0}) }+\partial xf(x_{0},y_{0})\cancel{ t }cos(\theta)+\partial yf(x_{0},y_{0})\cancel{ t }sin(\theta)-\cancel{ f(x_{0},y_{0}) }+\circ(t)}{\cancel{ t }}}
 $$
 - Passo al limite per $t\to0$
 $$D_{v}f(x_{0},y_{0})=\partial xf(x_{0},y_{0})cos(\theta)+\partial yf(x_{0},y_{0})sin(\theta) = \nabla f(x_{0},y_{0})\cdot V$$
