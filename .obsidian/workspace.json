@@ -90,9 +90,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "23bffa7933fcc93a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git-Obsidian/Analisi/Insiemi/Numeri Complessi.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -166,7 +178,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Analisi/Funzioni a due Variabili/Calcolo Differenziale.md",
+                "file": "Git-Obsidian/Analisi/Insiemi/Numeri Complessi.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -183,7 +195,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Analisi/Funzioni a due Variabili/Calcolo Differenziale.md",
+                "file": "Git-Obsidian/Analisi/Insiemi/Numeri Complessi.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -206,7 +218,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git-Obsidian/Analisi/Funzioni a due Variabili/Calcolo Differenziale.md"
+                "file": "Git-Obsidian/Analisi/Insiemi/Numeri Complessi.md"
               }
             }
           },
@@ -238,15 +250,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7d74ae406c0a3d92",
+  "active": "23bffa7933fcc93a",
   "lastOpenFiles": [
-    "Git-Obsidian/Analisi/Taylor/Formula di Taylor.md",
+    "Git-Obsidian/Analisi/Funzioni a due Variabili/Punti Critici.md",
     "Git-Obsidian/Analisi/Funzioni a due Variabili/Calcolo Differenziale.md",
+    "Git-Obsidian/Analisi/Taylor/Formula di Taylor.md",
     "Git-Obsidian/Analisi/Funzioni a due Variabili/Differenziabilità.md",
     "Git-Obsidian/Analisi/Funzioni a due Variabili/Calcolo Infinitesimale.md",
     "Git-Obsidian/Analisi/Funzioni a due Variabili/Elementi di Algebra Lineare e Geometria Analitica.md",
     "Git-Obsidian/Analisi/Funzioni a due Variabili/Funzioni di due Variabili Reali.md",
-    "Git-Obsidian/Analisi/Funzioni a due Variabili/Punti Critici.md",
     "Git-Obsidian/Analisi/Funzioni a due Variabili/Tayolor per funzioni a due Variabili.md",
     "Git-Obsidian/Markdown Keys.md",
     "Git-Obsidian/Analisi/Calcolo Integrale/Introduzione Integrali.md",

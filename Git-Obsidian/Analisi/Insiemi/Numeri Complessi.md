@@ -132,7 +132,7 @@ $$
 ## Radci N-esime
 - - -
 - Dato un numero complesso $w$, diremo che $z$ è una radice $n-esima$ di $w$ se risulta $z^n=w$
->[!info] Teorema
+>[!info] Teorema Fondamentale dell'Algebra
 >Sia $w\in\mathbb{C}, w\neq0$ e $n\in\mathbb{N}$, esistono precisamente n radici n-esime complesse di $w$
 
 [[Definizioni_Analisi#Notazione numeri complessi in forma goniometrica|Notazione]]
