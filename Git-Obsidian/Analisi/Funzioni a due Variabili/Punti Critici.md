@@ -95,7 +95,9 @@ Se $d^2f_{(x_{0},y_{0})}$ è [[#Forme Quadratiche |definito positIvo o negativo]
 >Sia $A\subseteq\mathbb{R}^2$ [[Elementi di Algebra Lineare e Geometria Analitica#Insiemi Aperti e Chiusi|aperto]], $f:A\to\mathbb{R}$
 >Sia $(x_{0},y_{0})$ punto critico di $f$
 ><u>Allora</u>
->1) Se $d^2f_{(x_{0},y_{0})}$ è definito positivo $\implies(x_{0},y_{0})$ è punto ti Minimo Locale
->2) Se $d^2f_{(x_{0},y_{0})}$ è definito negativo $\implies(x_{0},y_{0})$ è punto ti Massimo Locale
->3) Se $d^2f_{(x_{0},y_{0})}$ è indefinito $\implies(x_{0},y_{0})$ non è ne Max ne Min Locale e lo chiamiamo punto **Sella**
->4) Se $d^2f_{(x_{0},y_{0})}$ è semi definito $\implies$ caso dubbio
+>
+>>[!tip] Classificazione
+>>1) Se $d^2f_{(x_{0},y_{0})}$ è definito positivo $\implies(x_{0},y_{0})$ è punto di Minimo Locale
+>>2) Se $d^2f_{(x_{0},y_{0})}$ è definito negativo $\implies(x_{0},y_{0})$ è punto di Massimo Locale
+>>3) Se $d^2f_{(x_{0},y_{0})}$ è indefinito $\implies(x_{0},y_{0})$ non è ne Max ne Min Locale e lo chiamiamo punto **Sella**
+>>4) Se $d^2f_{(x_{0},y_{0})}$ è semi definito $\implies$ caso dubbio
