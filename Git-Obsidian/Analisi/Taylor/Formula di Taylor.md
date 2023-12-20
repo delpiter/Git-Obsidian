@@ -5,7 +5,7 @@
 >Sia $I$ [[Introduzione Funzioni#Intervallo|intervallo]] di $\mathbb{R}$, $f:I\to\mathbb{R},c\in I,n \in\mathbb{N}$
 >Se $f$ è derivabile $n$ volte,
 ><u>Allora</u>
->$$f(x)=\underbrace{ \sum^n_{k=0} \displaystyle{\frac{f^{(k)(c)}}{k!}}(x-c)^k }_{\displaystyle T_{c,n}(x) } + \circ(x-c)^k \text{ per }x\to0$$
+>$$f(x)=\underbrace{ \sum^n_{k=0} \displaystyle{\frac{f^{(k)(c)}}{k!}}(x-c)^k }_{\displaystyle T_{c,n}(x) } + \circ(x-c)^n \text{ per }x\to c$$
 >
 >>[!done] In breve
 >>Posso approssimare la funzione con un polinomio più una parte trascurabile di grado $n$

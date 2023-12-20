@@ -42,7 +42,7 @@ grid: true
 >>Se per ogni elemento del codominio, c'è almeno un elemento del domino associato
 >
 >Sia $f:A\to B$
->$$\forall x \in B, \exists \; x \in A | f(x)=y$$
+>$$\forall y \in B, \exists \; x \in A | f(x)=y$$
 - Tutte le funzioni possono essere surriettive
 	- Basta restringere il codominio
 

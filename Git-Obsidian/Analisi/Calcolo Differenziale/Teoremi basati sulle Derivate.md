@@ -187,8 +187,8 @@ $$f'(c)\geq 0$$
 >[!info] Teorema
 >Sia $f:I\to\mathbb{R}$ [[Introduzione Funzioni#Intervallo|intervallo]] di $\mathbb{R}$, con $f$ derivabile
 ><u>Allora</u>
->$f$ convessa su $I\Leftrightarrow f' \nearrow$ su $I$
->$f$ concava su $I\Leftrightarrow f' \searrow$ su $I$
+>$f$ [[Studio di Funzioni#Concavità di Funzioni|convessa]] su $I\Leftrightarrow f' \nearrow$ su $I$
+>$f$ [[Studio di Funzioni#Concavità di Funzioni|concava]] su $I\Leftrightarrow f' \searrow$ su $I$
 
 ### Dimostrazione
 
