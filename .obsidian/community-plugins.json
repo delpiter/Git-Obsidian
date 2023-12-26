@@ -4,5 +4,7 @@
   "obsidian-functionplot",
   "obsidian-git",
   "obsidian-file-cleaner",
-  "obsidian-image-toolkit"
+  "obsidian-image-toolkit",
+  "obsidian-tikzjax",
+  "drawio-obsidian"
 ]
