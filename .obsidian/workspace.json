@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Obsidian/Programmazione/Introduzione/Linguaggio C.md",
-                "mode": "source",
+                "file": "Git-Obsidian/Programmazione/Variabili/4.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Programmazione/Introduzione/Linguaggio C.md",
+                "file": "Git-Obsidian/Programmazione/Variabili/4.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Programmazione/Introduzione/Linguaggio C.md",
+                "file": "Git-Obsidian/Programmazione/Variabili/4.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git-Obsidian/Programmazione/Introduzione/Linguaggio C.md"
+                "file": "Git-Obsidian/Programmazione/Variabili/4.md"
               }
             }
           },
@@ -139,11 +139,12 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 328.5
+    "width": 328.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -158,8 +159,12 @@
   },
   "active": "3d226e7d09d706c5",
   "lastOpenFiles": [
-    "Git-Obsidian/Definitions/Definizioni_Programmazione.md",
+    "Git-Obsidian/Programmazione/Teoria.md",
+    "Git-Obsidian/Programmazione/Variabili/4.md",
+    "Git-Obsidian/Programmazione/Variabili/Introduzione Variabili.md",
     "Git-Obsidian/Programmazione/Introduzione/Linguaggio C.md",
+    "Git-Obsidian/Programmazione/Variabili",
+    "Git-Obsidian/Definitions/Definizioni_Programmazione.md",
     "Git-Obsidian/Markdown Keys.md",
     "Git-Obsidian/Programmazione/Introduzione/Linguaggi.md",
     "2023-12-26.md",
@@ -170,7 +175,6 @@
     "Git-Obsidian/Programmazione/Introduzione",
     "Git-Obsidian/Programmazione/Recursive Functions.md",
     "Git-Obsidian/Programmazione/Funzioni/Funzioni Ricorsive.md",
-    "Git-Obsidian/Programmazione/Teoria.md",
     "Git-Obsidian/Analisi/Funzioni/Studio di Funzioni.md",
     "Git-Obsidian/Analisi/Calcolo Differenziale/Teoremi basati sulle Derivate.md",
     "Git-Obsidian/Analisi/Taylor/Formula di Taylor.md",
@@ -187,8 +191,6 @@
     "Git-Obsidian/Analisi/Successioni/Limiti di Successioni.md",
     "Git-Obsidian/Analisi/Funzioni/Introduzione Funzioni.md",
     "Git-Obsidian/Analisi/Limiti/Limiti.md",
-    "Git-Obsidian/Analisi/Funzioni/Funzioni di una variabile Reale.md",
-    "Git-Obsidian/Analisi/Successioni/Criterio del Rapporto.md",
     "Git-Obsidian/Attatchments/geogebra-export.png",
     "Git-Obsidian/Attatchments/Pasted image 20231213145237.png",
     "Git-Obsidian/Attatchments/Untitled-removebg-preview.png",
@@ -205,7 +207,6 @@
     "Git-Obsidian/Todesco",
     "Insiemi Numerici.pdf",
     "Git-Obsidian/Game Programming",
-    "Git-Obsidian/Analisi/Taylor",
-    "Spiegazione.pdf"
+    "Git-Obsidian/Analisi/Taylor"
   ]
 }

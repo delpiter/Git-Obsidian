@@ -140,3 +140,59 @@ Un identificatore può essere usato per denotare:
 2. Un membro o _tag_ di una struct, union, enum
 3. Un nome di tipo, definito con il _typedef_
 4. Un nome di macro o parametro di una macro
+
+### Costanti Letterali
+>[!tldr]
+>In C esistono diversi tipi do costanti letterali:
+
+#### Costanti intere
+>[!example] Definizione
+>Una costante intera è definita come una sequenza di cifre e lettere
+>Il primo carattere deve essere una cifra
+>Possono essere precedute dai simboli + o -
+
+##### Esempi
+| Base     | Alfabeto                       | Costante | Valore |
+| -------- | ------------------------------ | -------- | ------ |
+| Decimale | `0, 1, 2, 3, 4, 5, 6, 7, 8, 9` | 78       | 78     |
+| Ottale   | `0, 1, 2, 3, 4, 5, 6, 7`       | 0116     | 78     |
+| Esadecimale         | `0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F`                               | 0x4E         | 78       |
+
+#### Costanti Decimali
+>[!example] Definizione
+>Una costante numerica decimale o in **virgola mobile** rappresenta un numero reale che può essere scritto in forma decimale oppure mediante la notazione scientifica:
+>`[<integer part>][.<decimal part>][E[<sign>]<exponent>]`
+>Possono essere precedute dal segno + o -
+
+##### Esempi
+| Costante | Valore |
+| -------- | ------ |
+| 0.0      | 0      |
+| 0.1      | 0.1    |
+| $480E+4$         | $4800000=480\times 10^4$       |
+
+#### Costanti Carattere
+>[!example] Definizione
+>Le costanti a carattere sono singoli simboli racchiusi tra apici  \'\'
+>`'a', 'b', 'c', ..., 'A', 'B', ..., '0', '1',...`
+>>[!warning] Attenzione
+>>La costante carattere `'1'` è diversa dalla costante intera 1
+
+- È possibile utilizzare in C caratteri speciali, generalmente non stampabili.
+	- Questi caratteri costanti vengono chiamati **_sequenze o caratteri di escape_**
+	- Precedute dal simbolo: `\`
+
+| Sequenza di Escape | Descrizione                                        |
+| ------------------ | -------------------------------------------------- |
+| `'\a'`             | Segnale sonoro (beep)                              |
+| `'\b'`             | Una battuta indietro (backspace)                   |
+| `'\f'`             | Salto Pagina (form feed)                           |
+| `'\n'`             | Nuova Riga (new line)                              |
+| `'\r'`             | Ritorno a capo della stessa riga (carriage return) |
+| `'\t'`             | Tabulazione orizzontale                            |
+| `'\v'`             | Tabulazione verticale                              |
+| `'\\'`             | Back Slash                                         |
+| `'\''`             | Singolo Apice                                      |
+| `'\?'`             | Punto di Domanda                                   |
+| `'\"'`             | Doppio Apice                                       |
+| `'\0'`                   | NULL (carattere nullo di fine stringa)                                                   |

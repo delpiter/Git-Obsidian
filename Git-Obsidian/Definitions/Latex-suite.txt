@@ -4,6 +4,7 @@
 	{trigger: "dm", replacement: "$$\n$0\n$$", options: "tAw"},
 	{trigger: "beg", replacement: "\\begin{$0}\n$1\n\\end{$0}", options: "mA"},
 	{trigger: "cd", replacement: "```$0\n$1\n```", options: "tAw"},
+	{trigger: "cs", replacement: "`$0`", options: "tA"},
 
 
 	// Greek letters
