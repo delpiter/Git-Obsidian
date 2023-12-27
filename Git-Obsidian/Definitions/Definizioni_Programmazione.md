@@ -35,9 +35,9 @@
 | `!=`                   | Non Ugualianza                          | `x != y`           | $\implies$    | 7          |
 | `&`                    | _Bitwise_  AND                          | `x & y`            | $\implies$    | 8          |
 | `^`                    | _Bitwise_  XOR                          | `x ^ y`            | $\implies$    | 9          |
-| \|                    | _Bitwise_  OR                           | `x` \| `y`            | $\implies$    | 10         |
+| <code>\|</code>                    | _Bitwise_  OR                           | <code>x \| y</code>            | $\implies$    | 10         |
 | `&&`                   | AND Logico                              | `x && y`           | $\implies$    | 11         |
-| \|\|                   | OR Logico                               | `x` \|\| `y`            | $\implies$    | 12         |
+| <code>\|\|</code>                  | OR Logico                               | <code>x \|\| y</code>           | $\implies$    | 12         |
 | `? :`                  | Operatore Condizionale                  | `x ? y : z`        | $\impliedby$  | 13         |
 | `=`                    | Assegnamento                            | `x = y`            | $\impliedby$  | 14         |
 | `*=  /=  %=  +=  -=`   | Assegnamenti Composti                   | `x <op>= y` | $\impliedby$  | 14         |
