@@ -59,6 +59,17 @@ while(true){
 	console.log("triplo apice => ``` ")
 }
 ```
+## Mermaid diagrams
+---
+```mermaid
+sequenceDiagram
+Alice->>Jhon: Hello Jhon, how are you?
+Alice->>Jhon: Hello Jhon, how are you?
+Alice->>Jhon: Hello Jhon, how are you?
+Alice->>Jhon: Hello Jhon, how are you?
+```
+
+
 Blockquotes
 aggiungi un > davanti al paragrafo
 
@@ -70,6 +81,8 @@ possibile fare anche innestati
 
 linee separazione (\*\ * \*) (- - -) (\_ \_ \_)
 in una linea da soli 
+
+
 - - -
 # Latex formulas
 doppio dollaro per aprire chiudere
