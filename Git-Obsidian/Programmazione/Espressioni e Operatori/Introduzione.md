@@ -51,3 +51,5 @@ x = x + 1;
 	- **Binari**, due operandi
 	- **Ternari**, tre operandi
 - Gli operatori sono soggetti a regole, precedenze e ordini di valutazione
+
+![[Definizioni_Programmazione#Precedenze e Associatività]]

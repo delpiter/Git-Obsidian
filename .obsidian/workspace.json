@@ -20,19 +20,18 @@
             }
           },
           {
-            "id": "cb845f8591cdbbc7",
+            "id": "2df6278445599d54",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Obsidian/Markdown Keys.md",
-                "mode": "source",
+                "file": "Git-Obsidian/Programmazione/Espressioni e Operatori/Introduzione.md",
+                "mode": "preview",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -99,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Markdown Keys.md",
+                "file": "Git-Obsidian/Definitions/Definizioni_Programmazione.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Markdown Keys.md",
+                "file": "Git-Obsidian/Definitions/Definizioni_Programmazione.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git-Obsidian/Markdown Keys.md"
+                "file": "Git-Obsidian/Definitions/Definizioni_Programmazione.md"
               }
             }
           },
@@ -170,10 +169,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "cb845f8591cdbbc7",
+  "active": "230d74783d654f57",
   "lastOpenFiles": [
-    "Git-Obsidian/Definitions/Definizioni_Programmazione.md",
     "Git-Obsidian/Programmazione/Espressioni e Operatori/Introduzione.md",
+    "Git-Obsidian/Definitions/Definizioni_Programmazione.md",
+    "Git-Obsidian/Markdown Keys.md",
     "Git-Obsidian/Programmazione/Tipi di Dati/Tipi di Variabili.md",
     "Git-Obsidian/Programmazione/Espressioni e Operatori",
     "Git-Obsidian/Programmazione/Variabili/Untitled.md",
@@ -184,7 +184,6 @@
     "Git-Obsidian/Programmazione/Tipi di Dati/Introduzione Variabili.md",
     "Git-Obsidian/Programmazione/Introduzione/Linguaggio C.md",
     "Git-Obsidian/Programmazione/Tipi di Dati",
-    "Git-Obsidian/Markdown Keys.md",
     "Git-Obsidian/Programmazione/Introduzione/Linguaggi.md",
     "2023-12-26.md",
     "Untitled 2.canvas",

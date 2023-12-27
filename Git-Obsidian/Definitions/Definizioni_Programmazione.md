@@ -43,5 +43,3 @@
 | `*=  /=  %=  +=  -=`   | Assegnamenti Composti                   | `x <op>= y` | $\impliedby$  | 14         |
 | `<<=  <<=  &=  \|=  ^=` | Assegnamenti Composti                   | `x <op>= y` | $\impliedby$  | 14         |
 | `,`                    | Operatore di Concatenazione             | `x, y`             | $\implies$    | 15           |
-
-
