@@ -4,7 +4,8 @@
 >Le strutture di controllo **Iterative** permettono di specificare che un dato blocco di istruzioni sia eseguito **ripetutamente**, fintanto che determinate **condizioni di permanenza nel ciclo** siano soddisfatte
 
 - Un linguaggio che ammette unicamente strutture sequenziali e condizionali ha un potere espressivo **limitato**
-
+- È importante riconoscere **l'equivalenza** tra i costrutti iterativi
+	- Un codice sorgente scritto con un qualsiasi costrutto iterativo si può traaformare per avere lo stesso risultato con un altro costrutto iterativo
 ### Costrutto `for`
 >[!tldr]
 >Il costrutto `for` serve per realizzare un **loop**, cioè l'esecuzione dello stesso insieme di istruzioni per un certo numero di volte.

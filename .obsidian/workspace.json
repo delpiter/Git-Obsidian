@@ -4,23 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "d132997bbd95f392",
+        "id": "bdf6e91c297fb4b9",
         "type": "tabs",
         "children": [
           {
-            "id": "25c59b15e78ed0ad",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git-Obsidian/Programmazione/Strutture di Controllo/Condizionali.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "766e95cbd70f379c",
+            "id": "ec90e062a44d6b5c",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -30,21 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "038386f25918dba8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git-Obsidian/Programmazione/Strutture di Controllo/Sequenziali.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -191,11 +166,11 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "766e95cbd70f379c",
+  "active": "ec90e062a44d6b5c",
   "lastOpenFiles": [
-    "Git-Obsidian/Programmazione/Strutture di Controllo/Condizionali.md",
     "Git-Obsidian/Programmazione/Strutture di Controllo/Sequenziali.md",
     "Git-Obsidian/Programmazione/Strutture di Controllo/Iterative.md",
+    "Git-Obsidian/Programmazione/Strutture di Controllo/Condizionali.md",
     "Git-Obsidian/Analisi/Funzioni/Funzioni di una variabile Reale.md",
     "Git-Obsidian/Programmazione/Strutture di Controllo",
     "Git-Obsidian/Programmazione/Espressioni e Operatori/Conversioni.md",
