@@ -17,11 +17,11 @@ if(<expression>){
 flowchart LR
 A[Start]
 A --> C{expression}
-C -->|True| D[Istruction Block]
+C -->|True| D[Instruction Block]
 D -->E[End]
 C -->|False| E
 ```
-- Se l'espressione `<espression>` è **vera** allora si esegue il blocco di istruzioni definito in `<Istruction Block>`, altrimenti si prosegue con l'elaborazione della riga successiva
+- Se l'espressione `<espression>` è **vera** allora si esegue il blocco di istruzioni definito in `<Instruction Block>`, altrimenti si prosegue con l'elaborazione della riga successiva
 
 ### Costrutto `if-else`
 >[!tldr]
@@ -29,10 +29,10 @@ C -->|False| E
 
 ```c
 if(<expression>){
-	<Istruction Block 1>
+	<Instruction Block 1>
 }else
 {
-	<Istruction Block 2>
+	<Instruction Block 2>
 }
 ```
 
@@ -40,13 +40,13 @@ if(<expression>){
 flowchart LR
 A[Start]
 A --> C{expression}
-C -->|True| D[Istruction Block 1]
-C -->|False| E[Istruction Block 2]
+C -->|True| D[Instruction Block 1]
+C -->|False| E[Instruction Block 2]
 D -->F[End]
 E -->F
 ```
-- Le istruzioni in `Istruction Block 1` sono eseguite solo se l'espressione in `espression` è **vera**
-- In caso contrario, sono eseguite le istruzioni in `Istruction Block 2`
+- Le istruzioni in `Instruction Block 1` sono eseguite solo se l'espressione in `espression` è **vera**
+- In caso contrario, sono eseguite le istruzioni in `Instruction Block 2`
 
 ### Costrutto `switch`
 >[!tldr]
@@ -54,11 +54,11 @@ E -->F
 
 ```c
 switch(<int expression>){
-	case <int-const1>: <Istruction Block1> [break;]
-	case <int-const2>: <Istruction Block2> [break;]
-	case <int-const3>: <Istruction Block3> [break;]
+	case <int-const1>: <Instruction Block1> [break;]
+	case <int-const2>: <Instruction Block2> [break;]
+	case <int-const3>: <Instruction Block3> [break;]
 	...
-	default: <Default Istruction Block> [break;]
+	default: <Default Instruction Block> [break;]
 }
 ```
 

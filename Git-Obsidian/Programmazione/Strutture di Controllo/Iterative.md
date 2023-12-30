@@ -11,7 +11,7 @@
 
 ```c
 for(<expr1>;<expr2>;<expr3>){
-	<Istruction Block>
+	<Instruction Block>
 }
 ```
 
@@ -20,7 +20,7 @@ flowchart LR
 A[Start]
 A --> B{expr2}
 B -->|False| E[End]
-B -->|True| D[Istruction Block]
+B -->|True| D[Instruction Block]
 D -->F[expr3]
 F -->B
 ```
@@ -31,13 +31,31 @@ Il costrutto `for` è composto da 3 parti
 
 #### Test
 - L'espressione `expr2` è una **condizione di permanenza** nel ciclo
-	- Le istruzioni nell'`Istruction Block` sono eseguite solo se `expr2` è vera
+	- Le istruzioni nell'`Instruction Block` sono eseguite solo se `expr2` è vera
 	- Diversamente il ciclo termina
 
 #### Incremento
-- L'espressione `expr3` viene valutata al termine di **ogni iterazione** dopo aver eseguito le istruzioni nell'`Istruction Block`
+- L'espressione `expr3` viene valutata al termine di **ogni iterazione** dopo aver eseguito le istruzioni nell'`Instruction Block`
 
 ### Costrutto `while`
+>[!tldr]
+>Il costrutto `while` come il costrutto `for` server per realizzare un **ciclo**
 
+```c
+while(<expression>){
+	<Instruction Block>
+}
+```
 
+```mermaid
+flowchart LR
+A["Start"]
+A --> B{expression}
+B -->|False| E[End]
+B -->|True| C[Instruction Block]
+C --> B
+```
+- Le istruzioni nell'`istruction Block` sono eseguite fintanto che `expression` è vera
+- L'espressione `expression` viene valutata prima di eseguire le istruzioni nel blocco
+	- L'`Instruction Block` quindi potrebbe non essere mai eseguito
 ### Costrutto `do-while`
