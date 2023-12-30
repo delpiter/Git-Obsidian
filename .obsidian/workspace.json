@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "1b3a968c5e20b772",
+        "id": "d132997bbd95f392",
         "type": "tabs",
         "children": [
           {
-            "id": "2df6278445599d54",
+            "id": "25c59b15e78ed0ad",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git-Obsidian/Programmazione/Espressioni e Operatori/Conversioni.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -86,7 +82,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Programmazione/Espressioni e Operatori/Conversioni.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +98,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Programmazione/Espressioni e Operatori/Conversioni.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,9 +119,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Git-Obsidian/Programmazione/Espressioni e Operatori/Conversioni.md"
-              }
+              "state": {}
             }
           },
           {
@@ -157,11 +149,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "2df6278445599d54",
+  "active": "25c59b15e78ed0ad",
   "lastOpenFiles": [
+    "Git-Obsidian/Programmazione/Espressioni e Operatori/Conversioni.md",
     "Git-Obsidian/Programmazione/Espressioni e Operatori/Introduzione.md",
     "Git-Obsidian/Programmazione/Introduzione/Linguaggi.md",
-    "Git-Obsidian/Programmazione/Espressioni e Operatori/Conversioni.md",
     "Git-Obsidian/Definitions/Definizioni_Programmazione.md",
     "Git-Obsidian/Analisi/Funzioni/Funzioni di una variabile Reale.md",
     "Git-Obsidian/Definitions/Definizioni_Analisi.md",
