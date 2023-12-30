@@ -59,3 +59,23 @@ C --> B
 - L'espressione `expression` viene valutata prima di eseguire le istruzioni nel blocco
 	- L'`Instruction Block` quindi potrebbe non essere mai eseguito
 ### Costrutto `do-while`
+
+>[!tldr]
+>Il costrutto `do-while` come i costrutti `for` e `while`, serve per realizzare un **ciclo**
+
+```c
+do{
+	<Instruction Block>
+}while(<expression>);
+```
+
+```mermaid
+flowchart LR
+A[Start]
+A --> B[Instruction Block]
+B --> C{expression}
+C --> |False|D[End]
+C --> |True| B
+```
+- A differenza del costrutto `while`, l' `Instruction Bloc` viene eseguito sempre almeno una volta
+	- Importante notare il `;` dopo il `while`
