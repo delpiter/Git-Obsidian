@@ -84,4 +84,8 @@ La **Visibilità** di una funzione dipende dal punto in cui è dichiarata/defini
 Una funzione può fare uso di **parametri** (o **argomenti**) per svolgere il proprio compito
 1. **Parametri Formali**: Parametri dichiarati nella definizione/dichiarazione
 2. **Parametri Attuali**: Parametri passati al momento della chiamata
-- In C il **passagio dei parametri** avviene secondo la modalità del **passaggio per valore**
+- In C il **passagio dei parametri** avviene secondo la modalità del [[Definizioni_Programmazione#Passaggio per Valore e per Riferimento|passaggio per valore]]
+
+##### Ordine di Valutazione
+Lo standard [[Definizioni_Programmazione#ISO|ISO]] non impone nessuna regola sull'ordine di valutazione dei parametri attuali di una funzione
+- L'ordine di valutazione degli argomenti **non è specificato**

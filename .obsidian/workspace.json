@@ -18,21 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "f958f527697e8049",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git-Obsidian/Definitions/Definizioni_Programmazione.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -99,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Definitions/Definizioni_Programmazione.md",
+                "file": "Git-Obsidian/Programmazione/Funzioni/Funzioni in C.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Definitions/Definizioni_Programmazione.md",
+                "file": "Git-Obsidian/Programmazione/Funzioni/Funzioni in C.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git-Obsidian/Definitions/Definizioni_Programmazione.md"
+                "file": "Git-Obsidian/Programmazione/Funzioni/Funzioni in C.md"
               }
             }
           },
@@ -179,12 +166,12 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "f958f527697e8049",
+  "active": "269750faa8e82453",
   "lastOpenFiles": [
+    "Git-Obsidian/Definitions/Definizioni_Programmazione.md",
     "Git-Obsidian/Programmazione/Funzioni/Funzioni in C.md",
     "Git-Obsidian/Programmazione/Funzioni/Introduzione Funzioni.md",
     "Git-Obsidian/Programmazione/Introduzione/Untitled.md",
-    "Git-Obsidian/Definitions/Definizioni_Programmazione.md",
     "Git-Obsidian/Analisi/Funzioni a due Variabili/Differenziabilità.md",
     "Git-Obsidian/Programmazione/Strutture di Controllo/Iterative.md",
     "Git-Obsidian/Programmazione/Strutture di Controllo/Sequenziali.md",
