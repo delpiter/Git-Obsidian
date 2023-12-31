@@ -44,7 +44,13 @@ int seconds(int h,int m, int s);
 >>1. Dichiarazione di variabili locali
 >>2. Istruzioni
 >>3. Istruzione return con eventuale valore di ritorno
-
+>>```
+>><type> <func name>(<type1> [<Arg1>],...,<typeN> [<ArgN>]){
+>>	[<local variables>]
+>>	[<instruction block>]
+>>	[return [<expression>];]
+>>}
+>>```
 
 ##### Funzioni variadiche
 >[!tldr]
