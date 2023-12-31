@@ -1,6 +1,6 @@
 ### Le Funzioni in C
 >[!tldr]
->Un programma in C è costituito da un insieme di funzioni
+>Un programma in C è costituito da un insieme di [[Git-Obsidian/Programmazione/Funzioni/Introduzione Funzioni|Introduzione Funzioni]]
 >>[!done] Main
 >>Il `main()` è una funzione, ogni programma deve contenere esattamente una funzione `main()`
 >>In particolare, la funzione `main()` è il punto di ingresso di ogni programma C
