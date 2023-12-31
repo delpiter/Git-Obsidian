@@ -1,7 +1,7 @@
 ## Tipizzazione
 ---
 >[!tldr]
->Il C è un linguaggio **tipizzato**, ovvero richiede che venga associato un tipo ad ogni dato utilizzato nel codice
+>Il C è un linguaggio **tipizzato**, ovvero richiede che venga associato un tipo ad ogni dato ([[Introduzione Variabili#Variabile|variabile]]) utilizzato nel codice
 >>[!done] In Breve
 >>La tipizzazione permette al compilatore di:
 >>1. Capire come interpretare il contenuto della locazione di memoria

@@ -10,7 +10,7 @@ Calcoliamo $T_{c,n}(x)$ con $c=0$
 - $f''(0)=e^0=1$
 - $f'''(0)=e^0=1$
 - $f^{(n)}(0)=e^0=1$
-#### Applico il polinomio di Taylor
+#### Applico il [[Polinomio Di Taylor|polinomio di Taylor]]
 $$
 T_{c,n}(x)=\sum^n_{k=0} \displaystyle{\frac{1}{k!}}(x)^k=1+x+\displaystyle{\frac{x^2}{2}}+\displaystyle{\frac{x^3}{3}}+\displaystyle{\frac{x^4}{4}}\dots +\displaystyle{\frac{x^n}{n}}
 $$

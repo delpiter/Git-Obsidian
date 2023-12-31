@@ -1,3 +1,4 @@
+- Elenchiamo di seguito le proprietà degli [[Introduzione Integrali|integrali]]
 ## Proprietà
 ---
 >[!info] Condizioni comuni

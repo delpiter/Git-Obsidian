@@ -57,12 +57,14 @@ processInput()
 Controlla la coda dei comandi e li processa uno alla volta
 - Coda dei comandi è un parametro privato del game engine
 - Sarà il gestore dell'interfaccia grafica che ascolterà i comandi
-	- Nel nostro caso [[[Swing (Java) - Wikipedia](https://en.wikipedia.org/wiki/Swing_(Java))|swing]]
+	- Nel nostro caso [swing](https://en.wikipedia.org/wiki/Swing_(Java))
+
 Pattern mvc
 - La view notifica il controller che un evento è accaduto
 - Il game engine è il controller che gestisce le notifiche della view
 	- Esso accoderà il comando alla coda dei comandi
 	- Il model andrà a gestire gli eventi
+
 Ogni sistema con una gui ha un thread specifico che gestisce gli eventi input
 - EventDispatcher
 
