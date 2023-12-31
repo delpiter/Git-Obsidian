@@ -43,3 +43,11 @@
 | `*=  /=  %=  +=  -=`   | Assegnamenti Composti                   | `x <op>= y` | $\impliedby$  | 14         |
 | `<<=  <<=  &=  \|=  ^=` | Assegnamenti Composti                   | `x <op>= y` | $\impliedby$  | 14         |
 | `,`                    | Operatore di Concatenazione             | `x, y`             | $\implies$    | 15           |
+
+## Passaggio per Valore e per Riferimento
+---
+>[!info] Passaggio per Valore
+>Nel passaggio per valore, il valore di una variabile viene **copiato e passato** alla funzione. Ciò significa che la funzione riceve una **copia del valore originale** e **non può modificarlo**. Qualsiasi modifica effettuata all'interno della funzione rimarrà **confinata alla copia locale** della variabile e non influenzerà la variabile originale nell'ambito chiamante
+
+>[!info] Passaggio per Riferimento
+>Il passaggio per **riferimento** si riferisce alla modalità con cui le funzioni accedono ai parametri attraverso un **riferimento** (o **puntatore**) alla **variabile originale**, piuttosto che attraverso una copia del valore

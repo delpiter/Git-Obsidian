@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Obsidian/Programmazione/Funzioni/Introduzione Funzioni.md",
+                "file": "Git-Obsidian/Programmazione/Funzioni/Funzioni in C.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f958f527697e8049",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git-Obsidian/Definitions/Definizioni_Programmazione.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Programmazione/Funzioni/Introduzione Funzioni.md",
+                "file": "Git-Obsidian/Definitions/Definizioni_Programmazione.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Programmazione/Funzioni/Introduzione Funzioni.md",
+                "file": "Git-Obsidian/Definitions/Definizioni_Programmazione.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git-Obsidian/Programmazione/Funzioni/Introduzione Funzioni.md"
+                "file": "Git-Obsidian/Definitions/Definizioni_Programmazione.md"
               }
             }
           },
@@ -166,10 +179,11 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "269750faa8e82453",
+  "active": "f958f527697e8049",
   "lastOpenFiles": [
-    "Git-Obsidian/Programmazione/Introduzione/Untitled.md",
+    "Git-Obsidian/Programmazione/Funzioni/Funzioni in C.md",
     "Git-Obsidian/Programmazione/Funzioni/Introduzione Funzioni.md",
+    "Git-Obsidian/Programmazione/Introduzione/Untitled.md",
     "Git-Obsidian/Definitions/Definizioni_Programmazione.md",
     "Git-Obsidian/Analisi/Funzioni a due Variabili/Differenziabilità.md",
     "Git-Obsidian/Programmazione/Strutture di Controllo/Iterative.md",
@@ -204,7 +218,6 @@
     "Git-Obsidian/Programmazione/Introduzione Programmazione",
     "Git-Obsidian/Programmazione/Funzioni/Recursive Functions.md",
     "Git-Obsidian/Programmazione/Funzioni/Funzioni Ricorsive.md",
-    "Git-Obsidian/Analisi/Funzioni/Studio di Funzioni.md",
     "Git-Obsidian/Attatchments/geogebra-export.png",
     "Git-Obsidian/Attatchments/Pasted image 20231213145237.png",
     "Git-Obsidian/Attatchments/Untitled-removebg-preview.png",
