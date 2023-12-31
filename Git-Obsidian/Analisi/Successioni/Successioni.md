@@ -40,11 +40,11 @@ $$
 ## Successione Monotona
 - - -
 >[!info] Definizione
->Sia $(a_{n})_{n\in\mathbb{N}}$ una successione in $\mathbb{R}$ diciamo che $(a_{n})$ è [[Introduzione Funzioni#Crescente|crescente]] se
+>Sia $(a_{n})_{n\in\mathbb{N}}$ una successione in $\mathbb{R}$ diciamo che $(a_{n})$ è [[Git-Obsidian/Analisi/Funzioni/Introduzione Funzioni#Crescente|crescente]] se
 > $$
 a_{n}\leq a_{n+1}, \,\,\,\ \forall n\in\mathbb{N}
 >$$
->Sia $(a_{n})_{n\in\mathbb{N}}$ una successione in $\mathbb{R}$ diciamo che $(a_{n})$ è [[Introduzione Funzioni#Decrescente|decrescente]] se
+>Sia $(a_{n})_{n\in\mathbb{N}}$ una successione in $\mathbb{R}$ diciamo che $(a_{n})$ è [[Git-Obsidian/Analisi/Funzioni/Introduzione Funzioni#Decrescente|decrescente]] se
 > $$
 a_{n} \geq a_{n+1}, \,\,\,\ \forall n\in\mathbb{N}
 >$$

@@ -66,13 +66,13 @@ Prendiamo $f(x)=x$ nell'intervallo $[0,1]$
 ---
 
 >[!info] Teorema
->Sia $f:[a,b]\to\mathbb{R}$, una funzione [[Introduzione Funzioni#Continuità|continua]] in $[a,b]$ e derivabile in $(a,b)$
+>Sia $f:[a,b]\to\mathbb{R}$, una funzione [[Git-Obsidian/Analisi/Funzioni/Introduzione Funzioni#Continuità|continua]] in $[a,b]$ e derivabile in $(a,b)$
 >Supponiamo che $f(a)=f(b)$
 ><u>Allora</u>
 >$$\exists c\in (a,b):f'(c)=0$$
 
 ### Dimostrazione
-Dato che $f$ è derivabile su $[a,b]$, per il [[Introduzione Funzioni#Teorema di Weierstruss|teorema di Weierstruss]] esistono $max$ e $min$ di $f$
+Dato che $f$ è derivabile su $[a,b]$, per il [[Git-Obsidian/Analisi/Funzioni/Introduzione Funzioni#Teorema di Weierstruss|teorema di Weierstruss]] esistono $max$ e $min$ di $f$
 - Ho due possibilità:
 #### $max$ e $min$ negli estremi
 Se $max(f)$ e $min(f)$ sono entrambe assunti negli estremi
@@ -91,7 +91,7 @@ $$
 ## Teorema di Lagrange
 ---
 >[!info] Teorema
->Sia $f:[a,b]\to\mathbb{R}$, una funzione [[Introduzione Funzioni#Continuità|continua]] in $[a,b]$ e derivabile in $(a,b)$
+>Sia $f:[a,b]\to\mathbb{R}$, una funzione [[Git-Obsidian/Analisi/Funzioni/Introduzione Funzioni#Continuità|continua]] in $[a,b]$ e derivabile in $(a,b)$
 ><u>Allora</u>
 >$$\exists c\in(a,b):f'(c)= \displaystyle{\frac{f(b)-f(a)}{b-a}}$$
 >
@@ -106,7 +106,7 @@ $g(x)=f(x)-f(a)- \displaystyle{\frac{f(b)-f(a)}{b-a}}(x-a)$
 >$g(x)$ è la differenza fra la funzione originale $f(x)$ e la funzione della retta secante passante per gli estremi. La formula viene da qui:
 >$y−y1​=m⋅(x−x1​) \Leftrightarrow y =f(a) +\displaystyle{\frac{f(b)-f(a)}{b-a}}(x-a)$
 
-- $g$ è derivabile in $(a,b)$ e [[Introduzione Funzioni#Continuità|continua]] in $[a,b]$ per somma e differenza di funzioni continue e derivabili
+- $g$ è derivabile in $(a,b)$ e [[Git-Obsidian/Analisi/Funzioni/Introduzione Funzioni#Continuità|continua]] in $[a,b]$ per somma e differenza di funzioni continue e derivabili
 Inoltre
 - $g(a)=\cancel{ f(a)-f(a) }- \cancel{ \displaystyle{\frac{f(b)-f(a)}{b-a}}(a-a) }=0$
 - $g(b)=f(b)-f(a)- \displaystyle{\frac{f(b)-f(a)}{\cancel{ b-a }}}\cancel{ (b-a) }=0$
@@ -142,7 +142,7 @@ $$
 È necessario dimostrare l'implicazione reciproca
 #### Supponiamo $f \nearrow$ in $I$
 - Siano $x,c \in I, x\neq c$
-	- Si ha che per definizione di funzione [[Introduzione Funzioni#Crescente|crescente]]
+	- Si ha che per definizione di funzione [[Git-Obsidian/Analisi/Funzioni/Introduzione Funzioni#Crescente|crescente]]
 
 $$
 \displaystyle{\frac{f(x)-f(c)}{x-c}}\geq 0
@@ -185,7 +185,7 @@ $$f'(c)\geq 0$$
 ## Test di convessità 1
 ---
 >[!info] Teorema
->Sia $f:I\to\mathbb{R}$ [[Introduzione Funzioni#Intervallo|intervallo]] di $\mathbb{R}$, con $f$ derivabile
+>Sia $f:I\to\mathbb{R}$ [[Git-Obsidian/Analisi/Funzioni/Introduzione Funzioni#Intervallo|intervallo]] di $\mathbb{R}$, con $f$ derivabile
 ><u>Allora</u>
 >$f$ [[Studio di Funzioni#Concavità di Funzioni|convessa]] su $I\Leftrightarrow f' \nearrow$ su $I$
 >$f$ [[Studio di Funzioni#Concavità di Funzioni|concava]] su $I\Leftrightarrow f' \searrow$ su $I$

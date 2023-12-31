@@ -53,7 +53,7 @@ $e^{i\pi}=-1\Leftrightarrow e^{i\pi}+1 = 0$
 ## Punto interno in un Intervallo
 ---
 >[!info] Definizione
->Un punto interno ad un [[Introduzione Funzioni#Intervallo|intervallo]] $I$ qualsiasi è un punto che sta dentro all'intervallo $I$ tranne gli estremi dell'intervallo
+>Un punto interno ad un [[Git-Obsidian/Analisi/Funzioni/Introduzione Funzioni#Intervallo|intervallo]] $I$ qualsiasi è un punto che sta dentro all'intervallo $I$ tranne gli estremi dell'intervallo
 >$$c\in I\setminus \{ inf(f),sup(f) \}$$
 
 ## Rette Sghembe

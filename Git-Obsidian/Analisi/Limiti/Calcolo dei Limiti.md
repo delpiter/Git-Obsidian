@@ -162,7 +162,7 @@ $$
 = \displaystyle{\frac{sen(x)}{2}\leq \displaystyle{\frac{x}{2}}}\leq \displaystyle{\frac{tg(x)}{2}}, x\in\left[ 0, \displaystyle{\frac{\pi}{2}} \right]
 \end{array}
 $$
-- Poichè tutte le funzioni sono [[Introduzione Funzioni#Funzioni Pari e Dispari|dispari]]
+- Poichè tutte le funzioni sono [[Git-Obsidian/Analisi/Funzioni/Introduzione Funzioni#Funzioni Pari e Dispari|dispari]]
 $$
 |sen(x)| \leq |x| \leq |tg(x)|
 $$

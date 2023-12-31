@@ -21,7 +21,7 @@ $$
 ## Integrale di Funzioni Continue
 ---
 >[!info] Definizione
->Sia $f:[a,b]\to\mathbb{R}$ [[Introduzione Funzioni#Continuità|continua]]
+>Sia $f:[a,b]\to\mathbb{R}$ [[Git-Obsidian/Analisi/Funzioni/Introduzione Funzioni#Continuità|continua]]
 >Suddivido $[a,b]$ in $n$ intervalli della forma $[x_{i-1},x_{i}]$ dove:
 >$$
 \begin{cases}
@@ -38,7 +38,7 @@ x_{i}-x_{i-1} = \displaystyle{\frac{b-a}{n}}
 >$$S_{R}(f,c_{1},c_{2},\dots,c_{n})=\sum^n_{i=1}f(c_{i})\cdot \displaystyle{\frac{b-a}{n}}$$
 
 >[!info] Teorema
->Sia $f:[a,b]\to\mathbb{R}$ [[Introduzione Funzioni#Continuità|continua]]
+>Sia $f:[a,b]\to\mathbb{R}$ [[Git-Obsidian/Analisi/Funzioni/Introduzione Funzioni#Continuità|continua]]
 ><u>Allora</u>
 >$$\exists \lim\limits_{n\to +\infty}S_{R}(f,c_{1},c_{2},\dots,c_{n})\in\mathbb{R}$$
 >E non dipende dalla scelta di $c_{i}$
@@ -76,7 +76,7 @@ $$
 >>$c$ può essere considerato come "altezza media" della funzione
 
 ### Dimostrazione
-Il $\max\limits_{[a,b]}$ e il $\min\limits_{[a,b]}$ esistono in $f$ per il [[Introduzione Funzioni#Teorema di Weierstruss|teorema di Weierstruss]]
+Il $\max\limits_{[a,b]}$ e il $\min\limits_{[a,b]}$ esistono in $f$ per il [[Git-Obsidian/Analisi/Funzioni/Introduzione Funzioni#Teorema di Weierstruss|teorema di Weierstruss]]
 - Si ha:
 $$
 \min\limits_{[a,b]}\leq f(x) \leq \max\limits_{[a,b]}, \forall x \in[a,b]

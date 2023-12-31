@@ -258,7 +258,7 @@ $$
 ## Teorema di Weierstruss
 ---
 >[!info] Teorema
->Sia $f:[a,b]\to\mathbb{R}$ [[Introduzione Funzioni#Continuità|continua]]
+>Sia $f:[a,b]\to\mathbb{R}$ [[Git-Obsidian/Analisi/Funzioni/Introduzione Funzioni#Continuità|continua]]
 ><u>Allora</u>
 >$f$ ammette massimo e minimo
 
@@ -326,7 +326,7 @@ $$
 
 ### Proprietà monotonia
 - Sia $f:A \to \mathbb{R}$
->Se $f$ è strettamente monotona allora $f$ è [[Introduzione Funzioni#Iniettività $[f ;1-1]$|iniettiva]] e $f^{-1}:f(A)\to A$ sono strettamente monotone della stessa monotonia
+>Se $f$ è strettamente monotona allora $f$ è [[Git-Obsidian/Analisi/Funzioni/Introduzione Funzioni#Iniettività $[f ;1-1]$|iniettiva]] e $f^{-1}:f(A)\to A$ sono strettamente monotone della stessa monotonia
 #### Dimostrazione
 - Voglio dimostrare che se $f(x_{1})=f(x_{2}) \implies x_{1}=x_{2}$
 	- Ciò è vero infatti:

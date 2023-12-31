@@ -73,7 +73,7 @@ $$
 ## Derivate di Funzioni Composte
 ---
 >[!info] Teorema
->Siano $I,J$ [[Introduzione Funzioni#Intervallo|intervalli]] di $\mathbb{R}$, $f:I\to\mathbb{R}$, $g:J\to\mathbb{R},f(I)\subseteq J$
+>Siano $I,J$ [[Git-Obsidian/Analisi/Funzioni/Introduzione Funzioni#Intervallo|intervalli]] di $\mathbb{R}$, $f:I\to\mathbb{R}$, $g:J\to\mathbb{R},f(I)\subseteq J$
 >Sia $c\in I$
 >Supponiamo $f$ derivabile in $c$ e $g$ sia derivabile in $f(c)$
 ><u>Allora</u>
@@ -101,7 +101,7 @@ $$
 ## Derivata della Funzione Inversa
 ---
 >[!info] Teorema
->Sia $I$ [[Introduzione Funzioni#Intervallo|intervallo]] di $\mathbb{R}$, $f:I\to\mathbb{R}$ invertibile e derivabile in $c\in I$
+>Sia $I$ [[Git-Obsidian/Analisi/Funzioni/Introduzione Funzioni#Intervallo|intervallo]] di $\mathbb{R}$, $f:I\to\mathbb{R}$ invertibile e derivabile in $c\in I$
 >Supponiamo $f'(c)\neq 0$
 ><u>Allora</u>
 >Posto $y=f(c)$, si ha:

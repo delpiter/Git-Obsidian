@@ -2,7 +2,7 @@
 ## Formula di Taylor con Resto di Peano
 ---
 >[!info] Teorema
->Sia $I$ [[Introduzione Funzioni#Intervallo|intervallo]] di $\mathbb{R}$, $f:I\to\mathbb{R},c\in I,n \in\mathbb{N}$
+>Sia $I$ [[Git-Obsidian/Analisi/Funzioni/Introduzione Funzioni#Intervallo|intervallo]] di $\mathbb{R}$, $f:I\to\mathbb{R},c\in I,n \in\mathbb{N}$
 >Se $f$ è derivabile $n$ volte,
 ><u>Allora</u>
 >$$f(x)=\underbrace{ \sum^n_{k=0} \displaystyle{\frac{f^{(k)(c)}}{k!}}(x-c)^k }_{\displaystyle T_{c,n}(x) } + \circ(x-c)^n \text{ per }x\to c$$
