@@ -78,7 +78,7 @@ $$
 
 ### Funzione Differenziabile 2 volte
 >[!info] Definizione
->Diciamo che $f$ è derivabile $2$ volte in $(x_{0},y_{0})$ se $f$ è derivabile e $\partial xf$ e $\partial yf$ sono [[#Derivabilità|derivabili]]
+>Diciamo che $f$ è derivabile $2$ volte in $(x_{0},y_{0})$ se $f$ è derivabile e $\partial xf$ e $\partial yf$ sono [[Calcolo Differenziale#Derivabilità|derivabili]]
 >E le indico come:
 >>[!tip] Notazione
 >>$$\displaystyle\frac{ \partial^2 f }{ \partial x^2 } = \displaystyle\frac{ \partial  }{ \partial x } \left( \displaystyle\frac{ \partial f }{ \partial x }  \right) \ \ \ |\ \ \ \displaystyle\frac{ \partial^2 f }{ \partial y^2 } = \displaystyle\frac{ \partial  }{ \partial y } \left( \displaystyle\frac{ \partial f }{ \partial y }  \right) \ \ \ |\ \ \ \displaystyle\frac{ \partial^2 f }{ \partial x \partial y } = \displaystyle\frac{ \partial  }{ \partial x } \left( \displaystyle\frac{ \partial f }{ \partial y }  \right) \ \ \ |\ \ \ \displaystyle\frac{ \partial^2 f }{ \partial x \partial y } = \displaystyle\frac{ \partial  }{ \partial y } \left( \displaystyle\frac{ \partial f }{ \partial x }  \right) 
