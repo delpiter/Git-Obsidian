@@ -10,7 +10,7 @@
 #### Dichiarazione
 >[!tldr]
 >Una ***dichiarazione*** di una funzione, detta anche **prototipo**, specifica:
->1. Il [[Tipi di Variabili#Tipizzazione|tipo di dato]] *restituito* dalla funzione
+>1. Il [[Tipi di Dati#Tipizzazione|tipo di dato]] *restituito* dalla funzione
 >2. Il *nome* (identificatore) della funzione
 >3. I tipi e i nomi degli eventuali *argomenti* della funzione
 >`<type> <func name>(<type1> [<Arg1>],...,<typeN> [<ArgN>]);`
