@@ -57,20 +57,20 @@
 
 ```mermaid
 mindmap
-  root((Tipi di Dati))
-    Tipi Scalari
-      Tipi Aritmetici
-        Tipi Interi
-            int
-            char
-            enum
-        Tipi in Virgola Mobile
-            float
-            double
-    void
-    funzione
-    union
-    Tipi Aggregati
-        struct
-        array
+root(Tipi di Dati)
+	Tipi Scalari
+		Tipi Aritmetici
+			Tipi Interi
+				int
+				char
+				enum
+		Tipi in Virgola Mobile
+			float
+			double
+	void
+	funzione
+	union
+	Tipi Aggregati
+		struct
+		array
 ```
