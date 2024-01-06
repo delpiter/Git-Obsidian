@@ -54,6 +54,7 @@
 
 ## Classificazione dei Tipi di Dati in C
 ---
+
 ```mermaid
 mindmap
   root((Tipi di Dati))
