@@ -83,4 +83,168 @@ flag3 = flag1 / flag2 ; // 0 ( int divison )
 ```
 
 ## Il Tipo `struct`
+---
+>[!info] Definizione
+>Le *strutture* sono tipi di dato che permettono di **raggruppare** una o più variabili di uno o più **tipi differenti**.
+>Le strutture aiutano ad **organizzare dati complessi**.
+>Permettono di trattare come **un’entità unica** insiemi di variabili logicamente correlate tra di loro
+>Nel linguaggio C, possiamo definire strutture utilizzando la parola chiave `struct`
+
+### Dichiarazione di Tipi `struct`
+>[!tldr]
+>In C una **dichiarazione di struttura** è definita com una **collezione di dichiarazioni** di variabili (chiamate campi o membri), racchiusa tra parentesi graffe e preceduta dalla parola chiave `struct`
+
+```c
+struct Tag{
+	Type1 Name1;
+	Type2 Name2;
+	...
+	TypeN NameN;
+};
+```
+
+- Il nome della struttura (`tag`) è opzionale
+```c
+struct point {
+	int x; // x- axis coord
+	int y; // y- axis coord
+};
+```
+- Come per i tipi `enum`, la dichiarazione **non riserva memoria**, ma dichiara semplicemente l’esistenza di un nuovo tipo di dato.
+- È possibile **annidare** strutture all'interno di strutture
+
+```c
+struct point {
+	int x; // x- axis coord
+	int y; // y- axis coord
+};
+	
+struct line {
+	struct point coord1;
+	struct point coord2 ;
+	} line1 , line2 ;
+```
+
+- Limiti dello standard [[Definizioni_Programmazione#ISO|ISO C89]]
+	- Massimo 15 i **livelli di annidamento** in una singola dichiarazione di struttura;
+	- Massimo 127 **membri** in una singola dichiarazione di struttura.
+
+A differenza del tipo `enum`, le dichiarazioni vuote di un tipo `struct` possono essere utilizzate per **dichiarare la struttura** prima della sua **definizione** (forward declaration).
+- Parliamo di ***dichiarazione opaca di struttura***.
+
+```c
+struct point p1; // forward declaration
+
+struct point { int x; int y; }; // struct declaration
+```
+
+- Concetto simile ai [[Funzioni in C#Dichiarazione|prototipi]] per le funzioni
+- Permette anche di definire strutture ***autoreferenziali***
+	- Strutture che contengono campi il cui **tipo è la struttura stessa**
+	- La *limitazione* che ci impone il linguaggio C è che tali campi debbano essere di tipo ***puntatore alla struttura***
+### Spazio di Allineamento del tipo `struct`
+>[!example] Memoria
+>In memoria i campi di una struttura sono allocati in **modo contiguo** e nello **stesso ordine** definito dalla dichiarazione.
+>A seconda del calcolatore, ***tra un campo e il successivo*** possono essere inseriti degli spazi di memoria di allineamento. Tali **bit di padding** non possono essere utilizzati.
+>Serve per rendere la dimensione di memoria della struttura un **multiplo di byte**
+
+```c
+struct s {
+	char x;
+	int y;
+};
+```
+- Tipicamente, `sizeof(struct s)`  $>$  `sizeof(char)+sizeof(int)`
+- E’ possibile inizializzare una variabile di tipo struct facendo seguire alla propria dichiarazione un’istruzione di assegnamento con:
+	- Una lista di valori tra parentesi graffe
+	- Una variabile dello stesso tipo
+
+```c
+struct point {
+	int x;
+	int y;
+};
+
+struct line {
+	struct point coord1 ;
+	struct point coord2 ;
+};
+
+struct line l1 = {1}; //(1 ,0) & (0 ,0)
+struct line l2 = {1 ,0}; //(1 ,0) & (0 ,0)
+```
+
+>[!bug]
+>1. Non possiamo inizializzare i membri di una struttura **nella sua dichiarazione**
+>2. Possiamo inizializzare con lista di valori una variabile di tipo struct solo al **momento della sua definizione**.
+>3. Strutture (anche anonime) dichiarate con gli stessi campi, **sono tipi di dato differente**
+
+```c
+struct point {
+	int x = 0; // Syntax Error
+	int y = 0; // Syntax Error
+};
+```
+
+```c
+struct point { int x; int y ;};
+
+struct point p1 = {0 ,0}; // OK
+
+struct point p2;
+p2 = {0 ,0}; // Syntax Error
+```
+
+```c
+struct { int x; int y;} p1;
+struct { int x; int y;} p2 = p1; // Error
+struct S1 { int x; int y;} p3 = p1; // Error
+struct S2 { int x; int y;} p4 = p3; // Error
+```
+
+### Operazioni
+>[!tldr]
+>Per accedere ai campi di un tipo di dato struct, usiamo l’operatore `.`
+
+- Possiamo assegnare ad un variabile di tipo struct il contenuto di una **variabile dello stesso tipo**
+- Non è possibile utilizzare gli altri **operatori** con un tipo di dato `struct`, ma possiamo farlo con i **campi della struttura**.
+
+```c
+struct point { int x; int y; } p1 = {0 ,1} , p2 = {1 ,0};
+
+p1 = p2; // OK
+p1 = p1 + p2; // Syntax Error
+p1.x = p1.x + p2.x; // OK
+
+p1.y = p1.y + p2.y; // OK
+if(p1 == p2) // Syntax Error
+	printf (" Same coord \n");
+if(p1.x== p2.x && p1.y== p2.y) // OK
+	printf (" Same coord \n");
+```
+
+#### Bit-Field
+>[!tldr]
+>I **bit-field** sono locazioni di memoria contigue di bit
+
+- Possono rappresentare valori di tipo int (`signed` o  `unsigned`).
+- Utilizzati per *salvare spazio di memoria* quando l'insieme di valori da rappresentare è di **molto inferiore** al numero di **valori rappresentabili** con un dato intero
+- Possiamo definire *bit-field* in strutture, specificando dopo il nome del campo il simbolo `:` seguito dai numero di bit da utilizzare
+
+```c
+struct card_bf {
+	unsigned int value : 4; // 13 cards
+	unsigned int seed : 2; // 4 seeds
+	unsigned int color : 1; // 2 colors
+};
+
+struct card {
+	unsigned int value ; // cards
+	unsigned int seed ; // seeds
+	unsigned int color ; // colors
+};
+```
+
+- La prima struttura avrà tipicamente dimensione `sizeof(int)` mentre la seconda `3*sizeof(int)`
+
 ## Il Tipo `union`
