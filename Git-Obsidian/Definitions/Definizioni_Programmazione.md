@@ -51,3 +51,25 @@
 
 >[!info] Passaggio per Riferimento
 >Il passaggio per **riferimento** si riferisce alla modalità con cui le funzioni accedono ai parametri attraverso un **riferimento** (o **puntatore**) alla **variabile originale**, piuttosto che attraverso una copia del valore
+
+## Classificazione dei Tipi di Dati in C
+---
+```mermaid
+mindmap
+  root((Tipi di Dati))
+    Tipi Scalari
+      Tipi Aritmetici
+        Tipi Interi
+            int
+            char
+            enum
+        Tipi in Virgola Mobile
+            float
+            double
+    void
+    funzione
+    union
+    Tipi Aggregati
+        struct
+        array
+```

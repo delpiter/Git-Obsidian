@@ -4,22 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "82dee3405f52a1a0",
+        "id": "d8aefaa366ded0f9",
         "type": "tabs",
         "children": [
           {
-            "id": "92993e763dfc3100",
+            "id": "6d627a977a5273b5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Obsidian/Programmazione/Introduzione Programmazione/Spazio di Indirizzamento Virtuale.md",
+                "file": "Git-Obsidian/Programmazione/Variabili/Tipi di Dati Avanzati.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "849cf6ccc5d73c6b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git-Obsidian/Definitions/Definizioni_Programmazione.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Programmazione/Introduzione Programmazione/Spazio di Indirizzamento Virtuale.md",
+                "file": "Git-Obsidian/Definitions/Definizioni_Programmazione.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Programmazione/Introduzione Programmazione/Spazio di Indirizzamento Virtuale.md",
+                "file": "Git-Obsidian/Definitions/Definizioni_Programmazione.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git-Obsidian/Programmazione/Introduzione Programmazione/Spazio di Indirizzamento Virtuale.md"
+                "file": "Git-Obsidian/Definitions/Definizioni_Programmazione.md"
               }
             }
           },
@@ -166,38 +179,39 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "92993e763dfc3100",
+  "active": "849cf6ccc5d73c6b",
   "lastOpenFiles": [
+    "Git-Obsidian/Programmazione/Variabili/Tipi di Dati Avanzati.md",
+    "Git-Obsidian/Definitions/Definizioni_Analisi.md",
+    "Git-Obsidian/Definitions/Definizioni_Programmazione.md",
+    "Git-Obsidian/The Bible/48 - Galatians/Gal-05.md",
+    "Git-Obsidian/The Bible/48 - Galatians/Gal-04.md",
+    "Git-Obsidian/The Bible/48 - Galatians/Gal-03.md",
+    "Git-Obsidian/The Bible/48 - Galatians/Gal-02.md",
+    "Git-Obsidian/The Bible/48 - Galatians/Gal-01.md",
+    "Git-Obsidian/The Bible/01 - Genesis/Gen-09.md",
+    "Git-Obsidian/The Bible/01 - Genesis/Gen-08.md",
+    "Git-Obsidian/The Bible/01 - Genesis/Gen-07.md",
+    "Git-Obsidian/The Bible/01 - Genesis/Gen-06.md",
+    "Git-Obsidian/The Bible/01 - Genesis/Gen-05.md",
+    "Git-Obsidian/The Bible/01 - Genesis/Gen-04.md",
+    "Git-Obsidian/The Bible/01 - Genesis/Gen-03.md",
+    "Git-Obsidian/The Bible/01 - Genesis/Gen-02.md",
+    "Git-Obsidian/The Bible/01 - Genesis/Gen-01.md",
+    "Git-Obsidian/The Bible/01 - Genesis/Genesis.md",
+    "Git-Obsidian/Bible Study Kit (v1)/Book Note.md",
+    "Git-Obsidian/Bible Study Kit (v1)/+Overview.md",
+    "Git-Obsidian/Bible Study Kit (v1)/010 Faith MOC.md",
+    "Git-Obsidian/The Bible/55 - 2 Timothy/2 Tim-02.md",
+    "Git-Obsidian/The Bible/54 - 1 Timothy/1 Tim-02.md",
+    "Git-Obsidian/The Bible/03 - Leviticus/Lev-18.md",
+    "Git-Obsidian/The Bible/03 - Leviticus/Lev-17.md",
+    "Git-Obsidian/The Bible/03 - Leviticus/Lev-16.md",
     "Git-Obsidian/Attatchments/Pasted image 20240102165537.png",
-    "Git-Obsidian/Programmazione/Introduzione Programmazione/Linguaggio C.md",
-    "Git-Obsidian/Programmazione/Introduzione Programmazione/Spazio di Indirizzamento Virtuale.md",
     "Git-Obsidian/Attatchments/virtual-address-space-physical-address-extension-memory-management-unit-memory-address-32-bit-5942642b52599a1086c9a0f61fba91c0.png",
     "Git-Obsidian/Attatchments/Pasted image 20240102164753.jpg",
     "Git-Obsidian/Programmazione/Memoria",
-    "Git-Obsidian/Programmazione/Variabili/Introduzione Variabili.md",
-    "Git-Obsidian/Programmazione/Variabili/Visibilità e Tempo di Vita.md",
-    "Git-Obsidian/Programmazione/Introduzione Programmazione/Linguaggi.md",
-    "Git-Obsidian/Programmazione/Variabili/Tipi di Dati.md",
-    "Git-Obsidian/Programmazione/Funzioni/Funzioni in C.md",
-    "Git-Obsidian/Game Programming/Introduction.md",
-    "Git-Obsidian/Analisi/Successioni/Numero di Nepero.md",
-    "Git-Obsidian/Analisi/Successioni/Limiti di Successioni.md",
-    "Git-Obsidian/Analisi/Funzioni/Introduzione Funzioni.md",
-    "Git-Obsidian/Analisi/Funzioni/Funzioni di una variabile Reale.md",
-    "Git-Obsidian/Analisi/Taylor/Formule di Taylor di Funzioni Elementari.md",
-    "Git-Obsidian/Analisi/Calcolo Integrale/Proprietà degli Integrali.md",
-    "Git-Obsidian/Markdown Keys.md",
-    "Git-Obsidian/Programmazione/Funzioni/Introduzione Funzioni.md",
-    "Git-Obsidian/Definitions/Definizioni_Programmazione.md",
-    "Git-Obsidian/Programmazione/Introduzione/Untitled.md",
-    "Git-Obsidian/Analisi/Funzioni a due Variabili/Differenziabilità.md",
-    "Git-Obsidian/Programmazione/Strutture di Controllo/Iterative.md",
-    "Git-Obsidian/Programmazione/Strutture di Controllo/Sequenziali.md",
-    "Git-Obsidian/Programmazione/Strutture di Controllo/Condizionali.md",
     "Git-Obsidian/Programmazione/Strutture di Controllo",
-    "Git-Obsidian/Programmazione/Espressioni e Operatori/Conversioni.md",
-    "Git-Obsidian/Programmazione/Espressioni e Operatori/Intro Espressioni e Operatori.md",
-    "Git-Obsidian/Definitions/Definizioni_Analisi.md",
     "Git-Obsidian/Programmazione/Espressioni e Operatori",
     "Git-Obsidian/Attatchments/Diagram.svg",
     "Git-Obsidian/Attatchments/Diagram.svg.xml",
@@ -212,7 +226,6 @@
     "Git-Obsidian/Attatchments/Pasted image 20231213145237.png",
     "Git-Obsidian/Attatchments/Untitled-removebg-preview.png",
     "Git-Obsidian/Attatchments/Untitled 1.png",
-    "Git-Obsidian/Attatchments/pngegg.png",
     "Git-Obsidian/Analisi/Funzioni a due Variabili",
     "Relazione.pdf",
     "Git-Obsidian/Analisi/Calcolo Integrale",
