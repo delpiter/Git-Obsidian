@@ -4,43 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "d8aefaa366ded0f9",
+        "id": "837f4576c5fc972c",
         "type": "tabs",
         "children": [
           {
-            "id": "6d627a977a5273b5",
+            "id": "3aedfa211a9e323c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git-Obsidian/Programmazione/Variabili/Riutilizzo degli Identificatori.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "256dc4382638eeb8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git-Obsidian/Programmazione/Variabili/Tipi di Dati Avanzati.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "849cf6ccc5d73c6b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git-Obsidian/Definitions/Definizioni_Programmazione.md",
-                "mode": "preview",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -190,7 +162,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "6d627a977a5273b5",
+  "active": "f2ffaf6360de317d",
   "lastOpenFiles": [
     "Git-Obsidian/Programmazione/Variabili/Tipi di Dati Avanzati.md",
     "Git-Obsidian/Programmazione/Variabili/Riutilizzo degli Identificatori.md",
