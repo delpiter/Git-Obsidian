@@ -43,8 +43,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -111,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Programmazione/Variabili/Tipi di Dati Avanzati.md",
+                "file": "Git-Obsidian/Programmazione/Variabili/Riutilizzo degli Identificatori.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Programmazione/Variabili/Tipi di Dati Avanzati.md",
+                "file": "Git-Obsidian/Programmazione/Variabili/Riutilizzo degli Identificatori.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git-Obsidian/Programmazione/Variabili/Tipi di Dati Avanzati.md"
+                "file": "Git-Obsidian/Programmazione/Variabili/Riutilizzo degli Identificatori.md"
               }
             }
           },
@@ -191,10 +190,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "256dc4382638eeb8",
+  "active": "6d627a977a5273b5",
   "lastOpenFiles": [
-    "Git-Obsidian/Programmazione/Variabili/Riutilizzo degli Identificatori.md",
     "Git-Obsidian/Programmazione/Variabili/Tipi di Dati Avanzati.md",
+    "Git-Obsidian/Programmazione/Variabili/Riutilizzo degli Identificatori.md",
     "Git-Obsidian/Definitions/Definizioni_Programmazione.md",
     "Git-Obsidian/Definitions/Definizioni_Analisi.md",
     "Git-Obsidian/The Bible/48 - Galatians/Gal-05.md",
