@@ -248,3 +248,68 @@ struct card {
 - La prima struttura avrà tipicamente dimensione `sizeof(int)` mentre la seconda `3*sizeof(int)`
 
 ## Il Tipo `union`
+>[!info] Definizione
+>Nei linguaggi di programmazione una *unione* è un tipo di dato che permette di contenere tipi di dato differenti nella stessa **locazione di memoria**
+>Un tipo di dato `union` può essere dichiarato con diversi campi differenti ma solo uno di questi campi può **contenere un valore in un dato momento**
+
+- Nel linguaggio C possiamo dicharare unioni con la parola chiave `union`
+- La sintassi è praticamente uguale a quella del costrutto `struct`
+
+```c
+union Tag{
+	Type1 Name1;
+	Type2 Name2;
+	...
+	TypeN NameN;
+};
+```
+
+- Come per `enum` e `struct` il `tag` delle `union` è opzionale e la dichiarazione del tipo non riserva memoria
+- La dimensione di memoria del tipo di dat union sarà grande a sufficienza per poter contenere **il più grande dei tipi specificati**
+
+```c
+union xtype{
+	char ctype;
+	int itype;
+	float ftype
+	double dtype;
+};
+```
+
+Tipicamente, in questo esempio `sizeof(type)` sarà uguale la `sizeof(double)`
+
+### Operazioni
+Gli operatori utilizzabili con le `union` sono gli stessi visti per le `struct`
+- Valgono gli stessi limiti di annidamento e numero di campi
+- La dichiarazione di tipi `union` segue le regole dei tipi `enum` e `struct`
+- È possibilie inizializzare **solo il primo membro** nella dichiarazione di variabile
+- Il programmatore deve avere cura di ricordare quale campo sta utilizzando
+
+## L'operatore `typedef`
+>[!info] Definizione
+>L'operatore `typedef` (keyword) permette di creare **nuovi nomi** per i tipi di dato
+>La dichiarazione del nuovo tipo è identica alla dichiarazione di una variabile, tranne per il fatto che la dichiarazione è preceduta dalla parola chiave `typedef`
+>Il nome dichiarato diventa un *sinonimo* per il tipo di dato dichiarato
+
+```c
+typedef double length; // new type length synonym of double
+typedef double weight; // new type weight synonym of double
+```
+
+- I nuovi tipi sono trattati dal compilatore come **equivalenti ai tipi originali**
+
+L'operatore `typedef` cambia completamente la **semantica delle dichiarazioni**
+
+```c
+struct {
+	int x;
+	int y;
+} point1, point2; // variables
+```
+
+```c
+typedef struct {
+	int x;
+	int y;
+} point1, point2; // types
+```
