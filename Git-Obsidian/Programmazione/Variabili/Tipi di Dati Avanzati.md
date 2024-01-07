@@ -1,4 +1,6 @@
 ![[Definizioni_Programmazione#Classificazione dei Tipi di Dati in C]] 
+
+
 Il Tipo `enum`
 ---
 >[!info] Definizione

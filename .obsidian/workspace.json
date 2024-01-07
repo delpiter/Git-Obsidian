@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "256dc4382638eeb8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git-Obsidian/Programmazione/Variabili/Tipi di Dati Avanzati.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "849cf6ccc5d73c6b",
             "type": "leaf",
             "state": {
@@ -31,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -98,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Programmazione/Variabili/Riutilizzo degli Identificatori.md",
+                "file": "Git-Obsidian/Programmazione/Variabili/Tipi di Dati Avanzati.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Programmazione/Variabili/Riutilizzo degli Identificatori.md",
+                "file": "Git-Obsidian/Programmazione/Variabili/Tipi di Dati Avanzati.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git-Obsidian/Programmazione/Variabili/Riutilizzo degli Identificatori.md"
+                "file": "Git-Obsidian/Programmazione/Variabili/Tipi di Dati Avanzati.md"
               }
             }
           },
@@ -178,10 +191,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "6d627a977a5273b5",
+  "active": "256dc4382638eeb8",
   "lastOpenFiles": [
-    "Git-Obsidian/Programmazione/Variabili/Tipi di Dati Avanzati.md",
     "Git-Obsidian/Programmazione/Variabili/Riutilizzo degli Identificatori.md",
+    "Git-Obsidian/Programmazione/Variabili/Tipi di Dati Avanzati.md",
     "Git-Obsidian/Definitions/Definizioni_Programmazione.md",
     "Git-Obsidian/Definitions/Definizioni_Analisi.md",
     "Git-Obsidian/The Bible/48 - Galatians/Gal-05.md",
