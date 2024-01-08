@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "837f4576c5fc972c",
+        "id": "48f1ef9809d631c3",
         "type": "tabs",
         "children": [
           {
-            "id": "3aedfa211a9e323c",
+            "id": "6c594d912152105a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Git-Obsidian/Programmazione/Puntatori/Introduzione Puntatori.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -82,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Programmazione/Variabili/Riutilizzo degli Identificatori.md",
+                "file": "Git-Obsidian/Programmazione/Puntatori/Introduzione Puntatori.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Programmazione/Variabili/Riutilizzo degli Identificatori.md",
+                "file": "Git-Obsidian/Programmazione/Puntatori/Introduzione Puntatori.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -122,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git-Obsidian/Programmazione/Variabili/Riutilizzo degli Identificatori.md"
+                "file": "Git-Obsidian/Programmazione/Puntatori/Introduzione Puntatori.md"
               }
             }
           },
@@ -143,7 +147,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -162,8 +166,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "f2ffaf6360de317d",
+  "active": "6c594d912152105a",
   "lastOpenFiles": [
+    "Git-Obsidian/Attatchments/pngwing.com.png",
+    "Git-Obsidian/Programmazione/Funzioni/Funzioni in C.md",
+    "Git-Obsidian/Programmazione/Puntatori/Introduzione Puntatori.md",
+    "Git-Obsidian/Programmazione/Puntatori",
     "Git-Obsidian/Programmazione/Variabili/Tipi di Dati Avanzati.md",
     "Git-Obsidian/Programmazione/Variabili/Riutilizzo degli Identificatori.md",
     "Git-Obsidian/Definitions/Definizioni_Programmazione.md",
@@ -187,9 +195,6 @@
     "Git-Obsidian/Bible Study Kit (v1)/+Overview.md",
     "Git-Obsidian/Bible Study Kit (v1)/010 Faith MOC.md",
     "Git-Obsidian/The Bible/55 - 2 Timothy/2 Tim-02.md",
-    "Git-Obsidian/The Bible/54 - 1 Timothy/1 Tim-02.md",
-    "Git-Obsidian/The Bible/03 - Leviticus/Lev-18.md",
-    "Git-Obsidian/The Bible/03 - Leviticus/Lev-17.md",
     "Git-Obsidian/Attatchments/Pasted image 20240102165537.png",
     "Git-Obsidian/Attatchments/virtual-address-space-physical-address-extension-memory-management-unit-memory-address-32-bit-5942642b52599a1086c9a0f61fba91c0.png",
     "Git-Obsidian/Attatchments/Pasted image 20240102164753.jpg",
@@ -211,7 +216,6 @@
     "Git-Obsidian/Attatchments/Untitled 1.png",
     "Git-Obsidian/Analisi/Funzioni a due Variabili",
     "Relazione.pdf",
-    "Git-Obsidian/Analisi/Calcolo Integrale",
-    "Git-Obsidian/Todesco/Attatchements"
+    "Git-Obsidian/Analisi/Calcolo Integrale"
   ]
 }
