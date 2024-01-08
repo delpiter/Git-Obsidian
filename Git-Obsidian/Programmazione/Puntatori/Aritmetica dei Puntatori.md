@@ -14,3 +14,23 @@
 	- Le altre operazioni aritmetiche
 	- Operazioni `bitwise`
 
+### Assegnamento
+- Operazioni valide
+```c
+void *p = 0;
+int *q = p;
+int *r = q;
+void *s = r;
+```
+- Operazioni Non valide
+```c
+void *p = 1.2; //Syntax Error
+int *q = 1.2; //Syntax Error
+float *r = 1.2; //Syntax Error
+```
+- Operazioni *non sicure*
+```c
+int *p = -10; // Warning
+int *q = 100; // Warning
+float *r = q; // Warning
+```
