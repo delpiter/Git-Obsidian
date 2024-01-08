@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Obsidian/Programmazione/Puntatori/Introduzione Puntatori.md",
+                "file": "Git-Obsidian/Programmazione/Puntatori/Aritmetica dei Puntatori.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Programmazione/Puntatori/Introduzione Puntatori.md",
+                "file": "Git-Obsidian/Programmazione/Puntatori/Aritmetica dei Puntatori.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Programmazione/Puntatori/Introduzione Puntatori.md",
+                "file": "Git-Obsidian/Programmazione/Puntatori/Aritmetica dei Puntatori.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git-Obsidian/Programmazione/Puntatori/Introduzione Puntatori.md"
+                "file": "Git-Obsidian/Programmazione/Puntatori/Aritmetica dei Puntatori.md"
               }
             }
           },
@@ -168,9 +168,10 @@
   },
   "active": "6c594d912152105a",
   "lastOpenFiles": [
+    "Git-Obsidian/Programmazione/Puntatori/Introduzione Puntatori.md",
+    "Git-Obsidian/Programmazione/Puntatori/Aritmetica dei Puntatori.md",
     "Git-Obsidian/Attatchments/pngwing.com.png",
     "Git-Obsidian/Programmazione/Funzioni/Funzioni in C.md",
-    "Git-Obsidian/Programmazione/Puntatori/Introduzione Puntatori.md",
     "Git-Obsidian/Programmazione/Puntatori",
     "Git-Obsidian/Programmazione/Variabili/Tipi di Dati Avanzati.md",
     "Git-Obsidian/Programmazione/Variabili/Riutilizzo degli Identificatori.md",
@@ -213,7 +214,6 @@
     "Git-Obsidian/Attatchments/geogebra-export.png",
     "Git-Obsidian/Attatchments/Pasted image 20231213145237.png",
     "Git-Obsidian/Attatchments/Untitled-removebg-preview.png",
-    "Git-Obsidian/Attatchments/Untitled 1.png",
     "Git-Obsidian/Analisi/Funzioni a due Variabili",
     "Relazione.pdf",
     "Git-Obsidian/Analisi/Calcolo Integrale"
