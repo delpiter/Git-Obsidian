@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Obsidian/Programmazione/Puntatori/Aritmetica dei Puntatori.md",
+                "file": "Git-Obsidian/Programmazione/I File/Introduzione ai Files.md",
                 "mode": "source",
                 "source": false
               }
@@ -70,8 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 269.5,
-    "collapsed": true
+    "width": 269.5
   },
   "right": {
     "id": "3561446b8c4d05ef",
@@ -87,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Programmazione/Puntatori/Aritmetica dei Puntatori.md",
+                "file": "Git-Obsidian/Programmazione/I File/Introduzione ai Files.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Programmazione/Puntatori/Aritmetica dei Puntatori.md",
+                "file": "Git-Obsidian/Programmazione/I File/Introduzione ai Files.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git-Obsidian/Programmazione/Puntatori/Aritmetica dei Puntatori.md"
+                "file": "Git-Obsidian/Programmazione/I File/Introduzione ai Files.md"
               }
             }
           },
@@ -157,7 +156,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-file-cleaner:Clean files": false,
+      "mermaid-tools:Open Mermaid Toolbar": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -169,8 +168,10 @@
   },
   "active": "6c594d912152105a",
   "lastOpenFiles": [
-    "Git-Obsidian/Programmazione/Puntatori/Introduzione Puntatori.md",
     "Git-Obsidian/Programmazione/Puntatori/Aritmetica dei Puntatori.md",
+    "Git-Obsidian/Programmazione/I File/Introduzione ai Files.md",
+    "Git-Obsidian/Programmazione/I File",
+    "Git-Obsidian/Programmazione/Puntatori/Introduzione Puntatori.md",
     "Git-Obsidian/Attatchments/pngwing.com.png",
     "Git-Obsidian/Programmazione/Funzioni/Funzioni in C.md",
     "Git-Obsidian/Programmazione/Puntatori",
@@ -196,7 +197,6 @@
     "Git-Obsidian/Bible Study Kit (v1)/Book Note.md",
     "Git-Obsidian/Bible Study Kit (v1)/+Overview.md",
     "Git-Obsidian/Bible Study Kit (v1)/010 Faith MOC.md",
-    "Git-Obsidian/The Bible/55 - 2 Timothy/2 Tim-02.md",
     "Git-Obsidian/Attatchments/Pasted image 20240102165537.png",
     "Git-Obsidian/Attatchments/virtual-address-space-physical-address-extension-memory-management-unit-memory-address-32-bit-5942642b52599a1086c9a0f61fba91c0.png",
     "Git-Obsidian/Attatchments/Pasted image 20240102164753.jpg",
@@ -216,7 +216,6 @@
     "Git-Obsidian/Attatchments/Pasted image 20231213145237.png",
     "Git-Obsidian/Attatchments/Untitled-removebg-preview.png",
     "Git-Obsidian/Analisi/Funzioni a due Variabili",
-    "Relazione.pdf",
-    "Git-Obsidian/Analisi/Calcolo Integrale"
+    "Relazione.pdf"
   ]
 }
