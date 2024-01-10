@@ -44,7 +44,7 @@ x = x + 1;
 >3. Operatori Logici
 >4. Operatori di Assegnamento
 >5. Operatori _Bitwise_
->6. Operatori di Accesso e Puntatori
+>6. Operatori di Accesso e [[Introduzione Puntatori|puntatori]]
 
 - Gli operatori in C possono essere:
 	- **Unari**, solo un operando
