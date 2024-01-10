@@ -18,45 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "e102abdc05d38655",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git-Obsidian/Definitions/Definizioni_Programmazione.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "adce618b42e6ac33",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git-Obsidian/Programmazione/Espressioni e Operatori/Intro Espressioni e Operatori.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "70bfaac5cf8ab90f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git-Obsidian/Programmazione/Variabili/Tipi di Dati Avanzati.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -123,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Programmazione/Variabili/Tipi di Dati Avanzati.md",
+                "file": "Git-Obsidian/Programmazione/I File/Tipo di dato FILE.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Programmazione/Variabili/Tipi di Dati Avanzati.md",
+                "file": "Git-Obsidian/Programmazione/I File/Tipo di dato FILE.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git-Obsidian/Programmazione/Variabili/Tipi di Dati Avanzati.md"
+                "file": "Git-Obsidian/Programmazione/I File/Tipo di dato FILE.md"
               }
             }
           },
@@ -184,12 +147,11 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 382.5,
-    "collapsed": true
+    "width": 382.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -203,10 +165,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "70bfaac5cf8ab90f",
+  "active": "6c594d912152105a",
   "lastOpenFiles": [
-    "Git-Obsidian/Programmazione/Espressioni e Operatori/Intro Espressioni e Operatori.md",
     "Git-Obsidian/Definitions/Definizioni_Programmazione.md",
+    "Git-Obsidian/Programmazione/Espressioni e Operatori/Intro Espressioni e Operatori.md",
+    "Git-Obsidian/Programmazione/Variabili/Tipi di Dati Avanzati.md",
     "Git-Obsidian/Programmazione/I File/Tipo di dato FILE.md",
     "Git-Obsidian/Programmazione/I File/Introduzione ai Files.md",
     "Git-Obsidian/Programmazione/Puntatori/Aritmetica dei Puntatori.md",
@@ -215,7 +178,6 @@
     "Git-Obsidian/Attatchments/pngwing.com.png",
     "Git-Obsidian/Programmazione/Funzioni/Funzioni in C.md",
     "Git-Obsidian/Programmazione/Puntatori",
-    "Git-Obsidian/Programmazione/Variabili/Tipi di Dati Avanzati.md",
     "Git-Obsidian/Programmazione/Variabili/Riutilizzo degli Identificatori.md",
     "Git-Obsidian/Definitions/Definizioni_Analisi.md",
     "Git-Obsidian/The Bible/48 - Galatians/Gal-05.md",
