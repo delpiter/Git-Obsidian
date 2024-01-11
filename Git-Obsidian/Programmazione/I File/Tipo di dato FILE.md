@@ -100,3 +100,18 @@ int fputs(const char *s, FILE *stream);
 
 Le funzioni sono interamente equivalenti alle funzioni `printf()`, `putc()` e `puts()`
 - Per poterle utilizzare come stream di output è sufficiente passare `stdout` o `stderr` come argomento `stream`
+
+### Lettura
+>[!tldr]
+>Per poter leggere il contenuto di un file possiamo utilizzare le seguenti funzioni della libreria `stdio.h`
+
+```c
+int fscanf(FILE *stream, const char *format, ...);
+
+int fgetc(FILE *stream);
+
+char *fgets(char *s, int n, FILE *stream);
+```
+
+Le funzioni sono *quasi* equivalento aòòe funzioni `scanf()`, `getc()` e `gets()`
+- Per poterle utilizzare come stream di output è sufficiente passare `stdout` o `stderr` come argomento `stream`
