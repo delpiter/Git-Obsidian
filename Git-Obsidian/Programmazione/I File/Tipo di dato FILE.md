@@ -115,3 +115,39 @@ char *fgets(char *s, int n, FILE *stream);
 
 Le funzioni sono *quasi* equivalento aòòe funzioni `scanf()`, `getc()` e `gets()`
 - Per poterle utilizzare come stream di output è sufficiente passare `stdout` o `stderr` come argomento `stream`
+
+## Esempi
+---
+```c
+// lc.c: line count
+#include <stdio.h>
+
+int lc( char * filename ) {
+	int c, n = 0;
+	FILE *in;
+	
+	if (( in = fopen ( filename ,"r")) != NULL )
+	while ((c = fgetc (in )) != EOF )
+	n += c == ’\n’; // increment counter if the character is a new line
+	
+	fclose (in);
+	return n;
+}
+```
+
+```c
+// cc.c: character count
+#include <stdio .h>
+
+int cc( char * filename ) {
+	int c, n = 0;
+	FILE *in;
+	
+	if ((in = fopen(filename ,"r")) != NULL)
+	while ((c = fgetc(in)) != EOF)
+	n ++; // increment counter for every character
+	
+	fclose (in);
+	return n;
+}
+```
