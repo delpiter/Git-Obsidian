@@ -34,3 +34,16 @@ int *p = -10; // Warning
 int *q = 100; // Warning
 float *r = q; // Warning
 ```
+
+### Somma e Sottrazione con tipi Numerici
+
+- Utilizzato principalmente per lavorare con array
+```c
+int A[] = {1, 2, 3};
+int *p = &A[0];
+
+p++;
+printf("%d\n", *(p-1)); // 1
+printf("%d\n", *(p));   // 2
+printf("%d\n", *(p+1)); // 3
+```

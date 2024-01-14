@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "4854189f34b32ad0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Programmazione/Variabili/Tipi di Dati.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Programmazione/Variabili/Tipi di Dati.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git-Obsidian/Programmazione/Variabili/Tipi di Dati.md"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           },
@@ -166,8 +179,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "6c594d912152105a",
+  "active": "4854189f34b32ad0",
   "lastOpenFiles": [
+    "Git-Obsidian/Programmazione/Variabili/Tipi di Dati.md",
+    "conflict-files-obsidian-git.md",
+    "Git-Obsidian/Programmazione/I File/Tipo di dato FILE.md",
+    "Git-Obsidian/Programmazione/I File/Introduzione ai Files.md",
+    "Git-Obsidian/Programmazione/I File",
     "Git-Obsidian/Programmazione/Variabili/Riutilizzo degli Identificatori.md",
     "Git-Obsidian/Definitions/Definizioni_Programmazione.md",
     "Git-Obsidian/Programmazione/Puntatori/Aritmetica dei Puntatori.md",
@@ -192,10 +210,6 @@
     "Git-Obsidian/The Bible/01 - Genesis/Gen-02.md",
     "Git-Obsidian/The Bible/01 - Genesis/Gen-01.md",
     "Git-Obsidian/The Bible/01 - Genesis/Genesis.md",
-    "Git-Obsidian/Bible Study Kit (v1)/Book Note.md",
-    "Git-Obsidian/Bible Study Kit (v1)/+Overview.md",
-    "Git-Obsidian/Bible Study Kit (v1)/010 Faith MOC.md",
-    "Git-Obsidian/The Bible/55 - 2 Timothy/2 Tim-02.md",
     "Git-Obsidian/Attatchments/Pasted image 20240102165537.png",
     "Git-Obsidian/Attatchments/virtual-address-space-physical-address-extension-memory-management-unit-memory-address-32-bit-5942642b52599a1086c9a0f61fba91c0.png",
     "Git-Obsidian/Attatchments/Pasted image 20240102164753.jpg",
@@ -215,7 +229,6 @@
     "Git-Obsidian/Attatchments/Pasted image 20231213145237.png",
     "Git-Obsidian/Attatchments/Untitled-removebg-preview.png",
     "Git-Obsidian/Analisi/Funzioni a due Variabili",
-    "Relazione.pdf",
-    "Git-Obsidian/Analisi/Calcolo Integrale"
+    "Relazione.pdf"
   ]
 }

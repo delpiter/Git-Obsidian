@@ -143,7 +143,7 @@ struct point { int x; int y; }; // struct declaration
 - Concetto simile ai [[Funzioni in C#Dichiarazione|prototipi]] per le funzioni
 - Permette anche di definire strutture ***autoreferenziali***
 	- Strutture che contengono campi il cui **tipo è la struttura stessa**
-	- La *limitazione* che ci impone il linguaggio C è che tali campi debbano essere di tipo ***puntatore alla struttura***
+	- La *limitazione* che ci impone il linguaggio C è che tali campi debbano essere di tipo [[Introduzione Puntatori|puntatore]] ***alla struttura***
 ### Spazio di Allineamento del tipo `struct`
 >[!example] Memoria
 >In memoria i campi di una struttura sono allocati in **modo contiguo** e nello **stesso ordine** definito dalla dichiarazione.
