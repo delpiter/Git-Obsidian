@@ -52,7 +52,7 @@
 ```c
 int main()
 {
-	short int x ) 4294967295;
+	short int x = 4294967295;
 
 	return 0;
 }

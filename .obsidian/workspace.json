@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Obsidian/Programmazione/Puntatori/Aritmetica dei Puntatori.md",
-                "mode": "source",
+                "file": "Git-Obsidian/Programmazione/Variabili/Tipi di Dati.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -70,8 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 269.5,
-    "collapsed": true
+    "width": 269.5
   },
   "right": {
     "id": "3561446b8c4d05ef",
@@ -87,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Programmazione/Puntatori/Aritmetica dei Puntatori.md",
+                "file": "Git-Obsidian/Programmazione/Variabili/Tipi di Dati.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Programmazione/Puntatori/Aritmetica dei Puntatori.md",
+                "file": "Git-Obsidian/Programmazione/Variabili/Tipi di Dati.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git-Obsidian/Programmazione/Puntatori/Aritmetica dei Puntatori.md"
+                "file": "Git-Obsidian/Programmazione/Variabili/Tipi di Dati.md"
               }
             }
           },
@@ -169,14 +168,14 @@
   },
   "active": "6c594d912152105a",
   "lastOpenFiles": [
-    "Git-Obsidian/Programmazione/Puntatori/Introduzione Puntatori.md",
+    "Git-Obsidian/Programmazione/Variabili/Riutilizzo degli Identificatori.md",
+    "Git-Obsidian/Definitions/Definizioni_Programmazione.md",
     "Git-Obsidian/Programmazione/Puntatori/Aritmetica dei Puntatori.md",
+    "Git-Obsidian/Programmazione/Puntatori/Introduzione Puntatori.md",
     "Git-Obsidian/Attatchments/pngwing.com.png",
     "Git-Obsidian/Programmazione/Funzioni/Funzioni in C.md",
     "Git-Obsidian/Programmazione/Puntatori",
     "Git-Obsidian/Programmazione/Variabili/Tipi di Dati Avanzati.md",
-    "Git-Obsidian/Programmazione/Variabili/Riutilizzo degli Identificatori.md",
-    "Git-Obsidian/Definitions/Definizioni_Programmazione.md",
     "Git-Obsidian/Definitions/Definizioni_Analisi.md",
     "Git-Obsidian/The Bible/48 - Galatians/Gal-05.md",
     "Git-Obsidian/The Bible/48 - Galatians/Gal-04.md",
