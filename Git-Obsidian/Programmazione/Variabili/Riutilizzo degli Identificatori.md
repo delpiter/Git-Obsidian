@@ -18,7 +18,7 @@ Vediamo le regole generali che ci permettono di riutilizzare un identificatore i
 >> 1. I *tag* di `struct`, `union` e `enum`
 >> 2. I *campi* di `struct` e `union`
 >> 3. Le *label* per il costrutto `goto`
->> 4. Tutti gli altri **identificatori**
+>> 4. Tutti gli altri **identificatori** (variabili e costanti enumerative)
 >> 5. Un `namespace` a parte per macro e argomenti di macro
 
 È possibile riutilizzare gli stessi identificatori **se appartengono a namespace diversi**

@@ -137,13 +137,13 @@ Ci sono diverse regole per la creazione di identificatori:
 ##### Utilizzo
 Un identificatore può essere usato per denotare:
 1. Un nome di una variabile o funzione
-2. Un membro o _tag_ di una struct, union, enum
+2. Un membro o _tag_ di [[Tipi di Dati Avanzati#Il Tipo `struct`|strutture]], [[Tipi di Dati Avanzati#Il Tipo `union`|unioni]] e [[Tipi di Dati Avanzati#Il Tipo `enum`|enumerazioni]]
 3. Un nome di tipo, definito con il _typedef_
 4. Un nome di macro o parametro di una macro
 
 ### Costanti Letterali
 >[!tldr]
->In C esistono diversi tipi do costanti letterali:
+>In C esistono diversi tipi di costanti letterali:
 
 #### Costanti intere
 >[!example] Definizione

@@ -13,13 +13,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Obsidian/Programmazione/Variabili/Tipi di Dati.md",
+                "file": "Git-Obsidian/Definitions/Definizioni_Programmazione.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cb31bbc4dcb115ea",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git-Obsidian/Programmazione/Variabili/Riutilizzo degli Identificatori.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5fe49d85efc09c1e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git-Obsidian/Programmazione/Introduzione Programmazione/Linguaggio C.md",
                 "mode": "preview",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Programmazione/Variabili/Tipi di Dati.md",
+                "file": "Git-Obsidian/Programmazione/Variabili/Riutilizzo degli Identificatori.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Programmazione/Variabili/Tipi di Dati.md",
+                "file": "Git-Obsidian/Programmazione/Variabili/Riutilizzo degli Identificatori.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git-Obsidian/Programmazione/Variabili/Tipi di Dati.md"
+                "file": "Git-Obsidian/Programmazione/Variabili/Riutilizzo degli Identificatori.md"
               }
             }
           },
@@ -166,15 +191,16 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "6c594d912152105a",
+  "active": "cb31bbc4dcb115ea",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
+    "Git-Obsidian/Programmazione/Introduzione Programmazione/Linguaggio C.md",
+    "Git-Obsidian/Programmazione/Variabili/Riutilizzo degli Identificatori.md",
+    "Git-Obsidian/Definitions/Definizioni_Programmazione.md",
     "Git-Obsidian/Programmazione/Variabili/Tipi di Dati.md",
+    "conflict-files-obsidian-git.md",
     "Git-Obsidian/Programmazione/I File/Tipo di dato FILE.md",
     "Git-Obsidian/Programmazione/I File/Introduzione ai Files.md",
     "Git-Obsidian/Programmazione/I File",
-    "Git-Obsidian/Programmazione/Variabili/Riutilizzo degli Identificatori.md",
-    "Git-Obsidian/Definitions/Definizioni_Programmazione.md",
     "Git-Obsidian/Programmazione/Puntatori/Aritmetica dei Puntatori.md",
     "Git-Obsidian/Programmazione/Puntatori/Introduzione Puntatori.md",
     "Git-Obsidian/Attatchments/pngwing.com.png",
@@ -196,7 +222,6 @@
     "Git-Obsidian/The Bible/01 - Genesis/Gen-03.md",
     "Git-Obsidian/The Bible/01 - Genesis/Gen-02.md",
     "Git-Obsidian/The Bible/01 - Genesis/Gen-01.md",
-    "Git-Obsidian/The Bible/01 - Genesis/Genesis.md",
     "Git-Obsidian/Attatchments/Pasted image 20240102165537.png",
     "Git-Obsidian/Attatchments/virtual-address-space-physical-address-extension-memory-management-unit-memory-address-32-bit-5942642b52599a1086c9a0f61fba91c0.png",
     "Git-Obsidian/Attatchments/Pasted image 20240102164753.jpg",
