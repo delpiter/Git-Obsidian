@@ -4,12 +4,15 @@
 - - -
 - Numeri Naturali
 	- Tutti i numeri ottenuti aggiungendo di volta in volta una unità, partendo da 0
+
 $$\mathbb{N} = \{0,1,2,...\}$$
 - Numeri Interi
 	- Corrispondono all'insieme ottenuto unendo i numeri naturali e i numeri negativi
+
 $$\mathbb{Z} = \{0,-1,1,-2,2,...\}$$
 - Numeri Razionali
 	- Tutti i numeri che si ottengono dal rapporto di numeri interi
+
 $$\mathbb{Q} = \{\displaystyle{\frac{m}{p}|m,\;p \in \mathbb{Z},\;p\neq0}\}$$
 - Numeri Reali
 	- Numeri descritti mediante una rappresentazione decimale limitata o illimitata, periodica o non periodica
@@ -19,7 +22,7 @@ $$\mathbb{Q} = \{\displaystyle{\frac{m}{p}|m,\;p \in \mathbb{Z},\;p\neq0}\}$$
 $$\mathbb{R}$$
 - [[Numeri Complessi]]
 $$
-\mathbb{C}
+\mathbb{C} = \{ a+ib, a,b\in\mathbb{R} \}
 $$
 ## Insiemi Separati
 - - -

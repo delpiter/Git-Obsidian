@@ -1,11 +1,11 @@
-[[Analisi matematica (notion.site)](https://giogar.notion.site/giogar/Analisi-matematica-3d97a09580554ce3863c5a5e153cd773)]
 ## Insieme
-Collezione di elementi finita o infinita
-- Deve essere possibile descrivere un criterio che permette di decidere senza alcun dubbio se un qualunque elemento fa o no parte del raggruppamento.
+>[!tip] Definizione
+>Collezione di elementi finita o infinita
+> - Deve essere possibile descrivere un criterio che permette di decidere senza alcun dubbio se un qualunque elemento fa o no parte del raggruppamento.
 - Rappresentati con lettere maiuscole
 	- $A, B, C, ...$
 - Elementi
-	- Oggetti dell'insieme
+ - Oggetti dell'insieme
 	- Rappresentati con le lettere minuscole
 		- $a, b, c,...$
 - Gli [[Insiemi Numerici]] sono particolari insiemi infiniti

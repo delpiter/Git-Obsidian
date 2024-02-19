@@ -4,28 +4,52 @@
     "type": "split",
     "children": [
       {
-        "id": "48f1ef9809d631c3",
+        "id": "325203f888e399c3",
         "type": "tabs",
         "children": [
           {
-            "id": "6c594d912152105a",
+            "id": "7aa59945229957ba",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Obsidian/Definitions/Definizioni_Programmazione.md",
+                "file": "Git-Obsidian/Algebra e Geometria/Introduzione.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4a729e980b27176c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git-Obsidian/Analisi/Concetti Base.md",
                 "mode": "preview",
                 "source": false
               }
             }
           },
           {
-            "id": "5fe49d85efc09c1e",
+            "id": "5bed97680c125c8f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Obsidian/Programmazione/Introduzione Programmazione/Linguaggio C.md",
+                "file": "Git-Obsidian/Analisi/Insiemi/Insiemi Numerici.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4916aa9323f53bc5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git-Obsidian/Analisi/Insiemi/Insiemi Numerici.md",
                 "mode": "preview",
                 "source": false
               }
@@ -98,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Definitions/Definizioni_Programmazione.md",
+                "file": "Git-Obsidian/Algebra e Geometria/Introduzione.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Definitions/Definizioni_Programmazione.md",
+                "file": "Git-Obsidian/Algebra e Geometria/Introduzione.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git-Obsidian/Definitions/Definizioni_Programmazione.md"
+                "file": "Git-Obsidian/Algebra e Geometria/Introduzione.md"
               }
             }
           },
@@ -178,12 +202,18 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "6c594d912152105a",
+  "active": "7aa59945229957ba",
   "lastOpenFiles": [
+    "Git-Obsidian/Analisi/Insiemi/Insiemi Numerici.md",
+    "Git-Obsidian/Algebra e Geometria/Introduzione.md",
+    "Git-Obsidian/Analisi/Concetti Base.md",
+    "Git-Obsidian/Analisi/Insiemi/Numeri Complessi.md",
+    "Git-Obsidian/Analisi/Calcolo Differenziale/Derivate.md",
+    "Git-Obsidian/Definitions/Definizioni_Programmazione.md",
+    "Git-Obsidian/Algebra e Geometria",
     "Git-Obsidian/Programmazione.zip",
     "Git-Obsidian/Programmazione/Variabili/Riutilizzo degli Identificatori.md",
     "Git-Obsidian/Programmazione/Introduzione Programmazione/Linguaggio C.md",
-    "Git-Obsidian/Definitions/Definizioni_Programmazione.md",
     "Git-Obsidian/Programmazione/Variabili/Tipi di Dati.md",
     "conflict-files-obsidian-git.md",
     "Git-Obsidian/Programmazione/I File/Tipo di dato FILE.md",
@@ -205,10 +235,6 @@
     "Git-Obsidian/The Bible/01 - Genesis/Gen-08.md",
     "Git-Obsidian/The Bible/01 - Genesis/Gen-07.md",
     "Git-Obsidian/The Bible/01 - Genesis/Gen-06.md",
-    "Git-Obsidian/The Bible/01 - Genesis/Gen-05.md",
-    "Git-Obsidian/The Bible/01 - Genesis/Gen-04.md",
-    "Git-Obsidian/The Bible/01 - Genesis/Gen-03.md",
-    "Git-Obsidian/The Bible/01 - Genesis/Gen-02.md",
     "Git-Obsidian/Attatchments/Pasted image 20240102165537.png",
     "Git-Obsidian/Attatchments/virtual-address-space-physical-address-extension-memory-management-unit-memory-address-32-bit-5942642b52599a1086c9a0f61fba91c0.png",
     "Git-Obsidian/Attatchments/Pasted image 20240102164753.jpg",
@@ -226,8 +252,6 @@
     "Git-Obsidian/Programmazione/Introduzione Programmazione",
     "Git-Obsidian/Attatchments/geogebra-export.png",
     "Git-Obsidian/Attatchments/Pasted image 20231213145237.png",
-    "Git-Obsidian/Attatchments/Untitled-removebg-preview.png",
-    "Git-Obsidian/Analisi/Funzioni a due Variabili",
-    "Relazione.pdf"
+    "Git-Obsidian/Attatchments/Untitled-removebg-preview.png"
   ]
 }
