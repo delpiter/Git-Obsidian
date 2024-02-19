@@ -2,28 +2,42 @@
 
 ## Tipologie
 - - -
-- Numeri Naturali
-	- Tutti i numeri ottenuti aggiungendo di volta in volta una unità, partendo da 0
+### Numeri Naturali
+- Tutti i numeri ottenuti aggiungendo di volta in volta una unità, partendo da 0
 
 $$\mathbb{N} = \{0,1,2,...\}$$
-- Numeri Interi
-	- Corrispondono all'insieme ottenuto unendo i numeri naturali e i numeri negativi
+
+Operazioni possibili:
+- Somma
+- Prodotto
+Mancanza:
+- Non è possibile fare sottrazioni, mancano gli **opposti**
+### Numeri Interi
+- Corrispondono all'insieme ottenuto unendo i numeri **naturali e i numeri negativi**
 
 $$\mathbb{Z} = \{0,-1,1,-2,2,...\}$$
-- Numeri Razionali
-	- Tutti i numeri che si ottengono dal rapporto di numeri interi
+Mancanza:
+- Mancano gli **inversi**
+### Numeri Razionali
+- Tutti i numeri che si ottengono dal rapporto di numeri interi
 
 $$\mathbb{Q} = \{\displaystyle{\frac{m}{p}|m,\;p \in \mathbb{Z},\;p\neq0}\}$$
-- Numeri Reali
-	- Numeri descritti mediante una rappresentazione decimale limitata o illimitata, periodica o non periodica
-	- Sono tutti i numeri razionali e irrazionali
-	- Ha una proprietà caratteristica
-		- ***La Completezza***
+Mancanza:
+- Non è possibile fare i [[Limiti|limiti]]
+### Numeri Reali
+- Numeri descritti mediante una rappresentazione decimale limitata o illimitata, periodica o non periodica
+- Sono tutti i numeri razionali e irrazionali
+- Ha una proprietà caratteristica
+	- ***La Completezza***
 $$\mathbb{R}$$
-- [[Numeri Complessi]]
+Mancanze:
+- Alcune equazioni ancora non hanno soluzione ($x^2+1=0$)
+### [[Numeri Complessi]]
 $$
 \mathbb{C} = \{ a+ib, a,b\in\mathbb{R} \}
 $$
+#### Teorema Fondamentale dell'Algebra
+Ogni equazione polinomiale a coefficienti in $\mathbb{R}$ o $\mathbb{C}$ ha soluzioni in $\mathbb{C}$
 ## Insiemi Separati
 - - -
 - Siano $A$ e $B \subseteq \mathbb{R}$, diciamo che $A$ e $B$ sono **separati** se
