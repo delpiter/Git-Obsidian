@@ -1,4 +1,4 @@
-La [[Concetti Base#Insieme|terminologia]] è uguale
+La [[Concetti Base#Insieme|terminologia]] degli insiemi è sempre la stessa
 
 ## Relazione
 >[!info] Definizione
@@ -27,11 +27,11 @@ Una relazione $R$ è una **relazione di equivalenza** se valgono le seguenti pro
 - Essere uguali è una relazione di equivalenza
 
 ### Esempi
-- Ugualianza fra Numero
+- Uguaglianza fra Numero
 - Avere la stessa età in un gruppo di persone
 - Parallelismo tra rette (*coincidenti*)
 ### Controesempi
-- Disugualianza
+- Disuguaglianza
 - Gruppo di persone che abitano tutte a meno di 10 km di distanza
 - L'amicizia
 - Perpendicolarità
