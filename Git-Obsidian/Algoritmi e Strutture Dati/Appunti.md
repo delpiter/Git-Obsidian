@@ -80,3 +80,8 @@ for i=2 to n
 	if max < ai then max = ai
 ```
 
+
+#### Sommatorie
+$$
+\sum^5_{i=2} i
+$$
