@@ -1,15 +1,11 @@
 ## `20/02/2024`
-**Hardware**:
-- indica l’insieme dei dispositivi che compongono il calcolatore. L’hardware si compone di oggetti tangibili: circuiti integrati, memorie, stampanti, ecc.
-**Software**:
-- indica l’insieme delle istruzioni e delle informazioni necessarie per risolvere i problemi a cui il sistema è preposto. Un insieme di istruzioni, codificate in termini comprensibili a un calcolatore, sufficienti a risolvere un problema viene detto programma. 
+
 
 Il software richiede un apposito hardware per essere eseguito, viceversa l’hardware è pressoché inutile se non si dispone di un apposito software che ne sfrutti le potenzialità per risolvere problemi. 
 
-Programmare un calcolatore significa scrivere la sequenza di istruzioni (algoritmo) necessaria a risolvere un problema. 
 
-**Firmware**:
-- software integrato in un componente elettronico (es. chip) o dispositivo (es. smartphone), in grado (almeno) di avviare il componente stesso e di farlo interagire con altri componenti.
+
+
 
 **Linguaggio macchina ($L0$)**: insieme di istruzioni che l'hardware è in grado di eseguire
 - Solitamente molto limitato
