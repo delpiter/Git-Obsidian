@@ -208,3 +208,78 @@ Siano $v_{1},v_{2} \in U$ e $a_{1},a_{2} \in \mathbb{K}$
 Siano $v_{1},v_{2}\in U$ poichè $a_{1}v_{1}+a_{2}v_{2}\in U \forall a_{1},a_{2} \in \mathbb{K}$
 - Scegliendo $a_{1}=1,a_{2}=1$ ho che $v_{1}+v_{2}\in U$
 - Scegliendo $a_{2}=0$ ho che $a_{1}v_{1}\in U \forall a_{1}\in\mathbb{K}$
+
+### Combinazioni Lineari
+>[!info] Definizione
+>Sia $V$ uno *spazio vettoriale* e siano $v_{1},v_{2},\dots,v_{n}\in V$
+>Diciamo che $\mathrm{v}\in V$ è **combinazione lineare** di $v_{1},v_{2},\dots,v_{n}$ se $\exists a_{1},a_{2},\dots,a_{n}\in \mathbb{K}:\mathrm{v}=a_{1}v_{1}+a_{2}v_{2}+\dots+a_{n}v_{n}$
+
+#### Esempi
+>Siano $\mathbb{K}=\mathbb{R}, V= \mathbb{R}^2$
+>Siano $v_{1}=(2,0),v_{2}=(0,-1)$
+
+Allora
+- $\mathrm{v}=(1,3)$ è **combinazione lineare** di $v_{1},v_{2}$
+Perchè:
+$$
+\frac{1}{2}v_{1}+(-3)v_{2} = (1,0)+(0,3) = (1,3) = \mathrm{v}
+$$
+Se non si vede ad occhio:
+$$
+a_{1}v_{1}+a_{2}v_{2} = (2a_{1},0)+(0,-a_{2})=(2a_{1},-a_{2})
+$$
+- Imposto di conseguenza il sistema
+$$
+\begin{cases}
+2a_{1} = 1 \\
+-a_{2} = 3
+\end{cases}
+\Leftrightarrow
+\begin{cases}
+a_{1}=\frac{1}{2} \\
+a_{2}=-3
+\end{cases}
+$$
+#### Esempio di non combinazione
+>$u_{1}=(2,0),u_{2}=(-1,0)$
+>$\mathrm{u} =(1,3)$
+
+>[!question] $\mathrm{u}$ è una combinazione lineare di $u_{1},u_{2}$?? 
+
+$$
+\begin{array}
+\ \forall a_{1}, a_{2}\in\mathbb{R},a_{1}u_{1}+a_{2}u_{2}= \\
+(2a_{1},0)+(-a_{2},0)=(2a_{1}-a_{2},0) = (1,3)
+\end{array}
+$$
+- Imposto il sistema
+$$
+\begin{cases}
+2a_{1}-2a_{2}=1 \\
+\cancel{ 0=3 }
+\end{cases}
+$$
+E poichè il sistema non ha soluzione, qualsiasi siano $a_{1}$ e $a_{2}$
+>[!danger] $\mathrm{u}$ NON è una combinazione lineare di $u_{1},u_{2}$
+
+### Span
+>[!info] Definizione
+>Diciamo che un *sottospazio vettoriale* $U$ di $V$ è **generato** da $v_{1},\dots,v_{n}$ se ogni $u\in U$ è combinazione lineare di $v_{1},\dots, v_{n}$
+>In questo caso diciamo che $U$ è lo **span** did $v_{1},\dots,v_{n}$ e scriviamo
+>$$U=<v_{1},\dots,v_{n}>$$
+
+#### Esempio
+>$V = \mathbb{R}^4=\{ (x_{1},x_{2},x_{3},x_{4}),x_{i}\in \mathbb{R} \}$
+>$v_{1}=(2,0,0,0),v_{2}=(0,-1,1,0)$
+>$<v_{1},v_{2}>=\{ a_{1}v_{1}+a_{2}v_{2}, \ a_{1},a_{2}\in \mathbb{R} \}$
+
+$$
+\begin{array}
+\ =\{ (2a_{1},0,0,0)+(0,a_{2},-a_{2},0) ,\ a_{1},a_{2} \in \mathbb{R}\} \\
+=\{ (2a_{1},a_{2},-a_{2},0) ,\ a_{1},a_{2} \in \mathbb{R}\} \\
+=\{ (x_{1},x_{2},x_{3},x_{4})\in \mathbb{R}^4 :\begin{cases}
+x_{2}+x_{3} = 0 \\
+x_{4} = 0
+\end{cases}\}
+\end{array}
+$$
