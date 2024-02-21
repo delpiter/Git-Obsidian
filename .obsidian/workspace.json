@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Obsidian/Architettura degli Elaboratori/Appunti.md",
+                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Appunti.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Architettura degli Elaboratori/Appunti.md",
+                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Appunti.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Architettura degli Elaboratori/Appunti.md",
+                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Appunti.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git-Obsidian/Architettura degli Elaboratori/Appunti.md"
+                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Appunti.md"
               }
             }
           },
@@ -168,8 +168,8 @@
   },
   "active": "4d4d41b4e0bf5949",
   "lastOpenFiles": [
-    "Git-Obsidian/Definitions/Definizioni_Programmazione.md",
     "Git-Obsidian/Architettura degli Elaboratori/Appunti.md",
+    "Git-Obsidian/Definitions/Definizioni_Programmazione.md",
     "Git-Obsidian/Architettura degli Elaboratori/Introduzione alle Basi.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Appunti.md",
     "Git-Obsidian/Algebra e Geometria/Campi e Spazi Vettoriali.md",
