@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Obsidian/Algebra e Geometria/Campi e Spazi Vettoriali.md",
+                "file": "Git-Obsidian/Architettura degli Elaboratori/Appunti.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Algebra e Geometria/Campi e Spazi Vettoriali.md",
+                "file": "Git-Obsidian/Architettura degli Elaboratori/Appunti.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Algebra e Geometria/Campi e Spazi Vettoriali.md",
+                "file": "Git-Obsidian/Architettura degli Elaboratori/Appunti.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git-Obsidian/Algebra e Geometria/Campi e Spazi Vettoriali.md"
+                "file": "Git-Obsidian/Architettura degli Elaboratori/Appunti.md"
               }
             }
           },
@@ -168,8 +168,9 @@
   },
   "active": "4d4d41b4e0bf5949",
   "lastOpenFiles": [
-    "Git-Obsidian/Architettura degli Elaboratori/Introduzione alle Basi.md",
+    "Git-Obsidian/Definitions/Definizioni_Programmazione.md",
     "Git-Obsidian/Architettura degli Elaboratori/Appunti.md",
+    "Git-Obsidian/Architettura degli Elaboratori/Introduzione alle Basi.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Appunti.md",
     "Git-Obsidian/Algebra e Geometria/Campi e Spazi Vettoriali.md",
     "Git-Obsidian/Attatchments/Pasted image 20240220175558.png",
@@ -183,7 +184,6 @@
     "Git-Obsidian/Analisi/Concetti Base.md",
     "Git-Obsidian/Analisi/Insiemi/Numeri Complessi.md",
     "Git-Obsidian/Analisi/Calcolo Differenziale/Derivate.md",
-    "Git-Obsidian/Definitions/Definizioni_Programmazione.md",
     "Git-Obsidian/Algebra e Geometria",
     "Git-Obsidian/Programmazione.zip",
     "Git-Obsidian/Programmazione/Variabili/Riutilizzo degli Identificatori.md",
