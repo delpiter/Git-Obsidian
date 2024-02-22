@@ -60,3 +60,19 @@ $e^{i\pi}=-1\Leftrightarrow e^{i\pi}+1 = 0$
 ---
 >[!info] Definizione
 >Due rette sono sghembe se non hanno punti in comune e se non esiste alcun piano che le contiene entrambe
+
+## Numeri Congrui a Modulo $n$
+---
+>[!info] Definizione
+>Sia $n\in\mathbb{Z}, n\geq 2$, siano $a,b \in \mathbb{Z}$
+>Definisco $a\equiv b(n)$
+>>[!done] A parole
+>>"$a$ congruo a $b$ modulo $n$"
+>Se $a-b$ è multiplo di $n$, cioè
+>$$\exists h\in\mathbb{Z}:a-b=hn$$
+
+### Esempi
+> $n=5$
+
+- $23\equiv8 \ (5)$
+- $23 \cancel{ \equiv } 20(5)$

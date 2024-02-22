@@ -130,10 +130,11 @@ Chiamiamo invece *vettori* gli elementi dello spazio vettoriale $V$
 >[!info] Definizione
 >Sia $\mathbb{K}$ un *campo* e sia $V$ uno *spazio vettoriale* su $\mathbb{K}$
 >Un **Sottospazio Vettoriale** di $V$ è un sottoinsieme $U$ di $V$ non vuoto che è chiuso rispetto a tali operazioni
->>[!done] Cioè
->>$$U\subseteq V:\ \forall v_{1},v_{2}\in U,v_{1}+v_{2}\in U$$
->>e
->>$$\forall a \in\mathbb{K}, \forall v\in U, av\in U$$
+>$$U\subseteq V:\ \forall v_{1},v_{2}\in U,v_{1}+v_{2}\in U$$
+>e
+>$$\forall a \in\mathbb{K}, \forall v\in U, av\in U$$
+>>[!done] In Breve
+>>I risultati delle operazioni $+$ e $\cdot$ sono anche essi interni al sottoinsieme di $V$
 
 ### Esempi
 #### Esempio 1
@@ -213,6 +214,9 @@ Siano $v_{1},v_{2}\in U$ poichè $a_{1}v_{1}+a_{2}v_{2}\in U \forall a_{1},a_{2}
 >[!info] Definizione
 >Sia $V$ uno *spazio vettoriale* e siano $v_{1},v_{2},\dots,v_{n}\in V$
 >Diciamo che $\mathrm{v}\in V$ è **combinazione lineare** di $v_{1},v_{2},\dots,v_{n}$ se $\exists a_{1},a_{2},\dots,a_{n}\in \mathbb{K}:\mathrm{v}=a_{1}v_{1}+a_{2}v_{2}+\dots+a_{n}v_{n}$
+>
+>>[!done] In Breve
+>>Se esistono una serie di valori del campo che moltiplicati per i corrispettivi vettori e, successivamente sommati fra di loro danno come risultato il vettore $\mathrm{v}$
 
 #### Esempi
 >Siano $\mathbb{K}=\mathbb{R}, V= \mathbb{R}^2$
@@ -267,6 +271,10 @@ E poichè il sistema non ha soluzione, qualsiasi siano $a_{1}$ e $a_{2}$
 >Diciamo che un *sottospazio vettoriale* $U$ di $V$ è **generato** da $v_{1},\dots,v_{n}$ se ogni $u\in U$ è combinazione lineare di $v_{1},\dots, v_{n}$
 >In questo caso diciamo che $U$ è lo **span** did $v_{1},\dots,v_{n}$ e scriviamo
 >$$U=<v_{1},\dots,v_{n}>$$
+><u>Oppure</u>
+>
+>Dati $n$ vettori $v_{1},v_{2},\dots,v_{n}$ di uno spazio vettoriale $V$ su un campo $\mathbb{K}$ si definisce **Span** l'insieme di tutti i vettori che si possono scrivere come *combinazione lineare* di $v_{1},v_{2},\dots,v_{n}$
+>>Lo **span** è un sottospazio vettoriale di $V$ ed è anche chiamato il **sottospazio vettoriale generato** da $v_{1},v_{2},\dots,v_{n}$
 
 #### Esempio
 >$V = \mathbb{R}^4=\{ (x_{1},x_{2},x_{3},x_{4}),x_{i}\in \mathbb{R} \}$

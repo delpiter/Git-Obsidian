@@ -38,6 +38,20 @@ $$
 $$
 #### Teorema Fondamentale dell'Algebra
 Ogni equazione polinomiale a coefficienti in $\mathbb{R}$ o $\mathbb{C}$ ha soluzioni in $\mathbb{C}$
+
+### Classe e Classe di Resto
+>[!info] Definizione Classe
+>Dato $n\in\mathbb{N}, n\geq 2$, dato $a \in \mathbb{Z}$, definisco:
+>$$\overline{a}=\{ b\in\mathbb{Z}:b\equiv a(n) \}$$
+>E lo chiamo classe di $a$
+
+>[!info] Definizione Classi di Resto
+>Sia $\mathbb{Z}_{n}=\{ \overline{0},\overline{1},\dots,\overline{n-1} \}$,
+>Chiamo $\mathbb{Z}_{n}$ *insieme delle classi di [[Definizioni_Analisi#Numeri Congrui a Modulo $n$|resto modulo]] $n$*
+
+>[!done] Fatto
+
+$\mathbb{Z}_{n}$ è un [[Campi e Spazi Vettoriali#Campo|campo]] $\Leftrightarrow$ $n$ è primo
 ## Insiemi Separati
 - - -
 - Siano $A$ e $B \subseteq \mathbb{R}$, diciamo che $A$ e $B$ sono **separati** se
