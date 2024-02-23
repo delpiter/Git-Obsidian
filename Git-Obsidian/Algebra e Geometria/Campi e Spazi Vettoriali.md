@@ -291,3 +291,13 @@ x_{4} = 0
 \end{cases}\}
 \end{array}
 $$
+### Dipendenza Lineare
+>[!info] Linearmente Indipendente
+>Un insieme di vettori $v_{1},\dots,v_{n}$ è **linearmente indipendente** se nessuno di loro è combinazione lineare degli altri
+> <u>Oppure</u>
+> Un insieme di vettori $v_{1},\dots,v_{n}$ è **linearmente indipendente** se gli unici $a_{1},\dots,a_{n} \in \mathbb{K}$ tali che $a_{1}v_{1},\dots,a_{n}v_{n}=\underline{0}$ è $a_{1}=0,\dots,a_{n=0}$
+
+>[!info] Linearmente Dipendenti
+>Un insieme di vettori $v_{1},\dots,v_{n}$ è **linearmente dipendente** se non è linearmente indipendente
+>>[!done] In Breve
+>>Esiste almeno un vettore che è combinazione lineare degli altri
