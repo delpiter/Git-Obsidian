@@ -301,3 +301,96 @@ $$
 >Un insieme di vettori $v_{1},\dots,v_{n}$ è **linearmente dipendente** se non è linearmente indipendente
 >>[!done] In Breve
 >>Esiste almeno un vettore che è combinazione lineare degli altri
+
+#### Esempio
+>$v_{1}=(2,0), v_{2}=(-1,0)$
+
+Sono *linearmente dipendenti* perchè $v_{1} =2v_{2}$
+- $v_{1}$ è combinazione lineare di $v_{2}$
+	- Ovvero: $\exists a_{1}=1,a_{2}=2$ tali che $a_{1}v_{1}+a_{2}v_{2}=1(2,0)+2(-1,0) = (0,0)=\underline{0}$
+
+>$u_{1=}(2,0), u_{2}=(0,-1)$
+
+ Sono *linearmente indipendenti* perchè $a_{1}u_{1}\neq u_{2}$
+ - Ovvero $a_{1}u_{1}+a_{1}u_{2}=\underline{0}\Leftrightarrow a_{1}=0,a_{2}=0$
+
+### Base
+>[!info] Definizione
+>Un insieme $v_{1},\dots v_{n}\in V$ è una **base** di $V$ se $v_{1},\dots v_{n}$ sono linearmente indipendenti e generano $V$
+
+### Esempi
+>$V=\mathbb{R}^2\ v_{1}=(1,0),v_{2}=(0,1),v_{3}=(2,1)$
+
+I vettori generano $V$ ma non sono *linearmente indipendenti*
+- Quindi non sono una base
+- $v_{3}=2v_{1}+v_{2}$
+
+$v_{1},v_{2}$ generano e sono linearmente indipendenti $\to$ sono una *base*
+
+>$V=\mathbb{R}^3 \ u_{1}=(1,0,0),u_{2} =(0,1,1)$
+
+I vettori sono linearmente indipendenti ma non generano $\mathbb{R}^3$
+- $<u_{1},u_{2}> =\{ a_{1}u_{1}+a_{2}u_{2} \}=\{(a_{1},a_{2},a_{2}), a_{1},a_{2}\in\mathbb{R}\}$
+- $\{ (x,y,z)\in \mathbb{R}^3:y=z \}$ 
+	- $u_{1},u_{2}$ non è una base
+
+>[!question] $v_{1}=(1,1,0),v_{2}=(0,1,1),v_{3}=(1,0,1)$ è una base di $\mathbb{R}^3$?
+
+$$
+\begin{array}
+a_{1}(1,1,0)+a_{2}(0,1,1)+a_{3}(1,0,1) = (a_{1}+a_{3},a_{1}+a_{2},a_{2}+a_{3}) \\
+\begin{cases}
+a_{1}+a_{3}=0 \\
+a_{1}+a_{2}=0 \\
+a_{2}+a_{3}=0 \\
+
+\end{cases} \\
+\begin{cases}
+a_{1}=0 \\
+a_{2}=0 \\
+a_{3}=0
+\end{cases}
+\end{array}
+$$
+$v_{1},v_{2},v_{3}$ è linearmente indipendente
+
+>[!question] $v_{1},v_{2},v_{3}$ generano $\mathbb{R}^3$?
+
+È vero che ogni vettore $(x,y,z)\in \mathbb{R}^3$ si scrive come $a_{1}v_{1}+a_{2}v_{2}+a_{3}v_{3}$ per qualche $a_{1},a_{2},a_{3}\in\mathbb{R}$?
+- $(a_{1}+a_{3},a_{1}+a_{2},a_{2}+a_{3}) = (x,y,z)$
+$$
+\begin{cases}
+a_{1}+a_{3}=x \\
+a_{1}+a_{2}=y \\
+a_{2}+a_{3}=z \\
+\end{cases}\Leftrightarrow
+\begin{cases}
+a_{1}-a_{2} = x-z \\
+a_{1}+a_{2}=y \\
+a_{3}=z-a_{2} \\
+\end{cases}\Leftrightarrow
+\begin{cases}
+2a_{1}=x+y-z \\
+-2a_{2} = x-y-z \\
+a_{3}=z+\displaystyle{\frac{x-y-z}{2}}
+\end{cases}
+$$
+ESISTE una soluzione
+- $v_{1},v_{2},v_{3}$ generano $\mathbb{R}^3$, quindi sono una *base*
+
+### Completare la Base
+Se ho vettori linearmente indipendenti che non generano $V$, posso "*completarli a una base*"
+- Cioè aggiungere vettori fino a ottenere una base
+>$v_{1}=(1,0,0),v_{2}=(0,1,0)$ non sono una base di $\mathbb{R}^3$
+
+- $<v_{1},v_{2}> =\{ (x,y,z):z=0 \}$
+Ma $v_{1},v_{2},v_{3} = (0,0,1)$ è una base di $\mathbb{R}^3$
+- Andrebbe bene un qualunque vettore con $z\neq 0$
+
+Se ho vettori che generano $V$, posso "*estrarre una base di $V$*"
+- Cioè scartare vettori linearmente dipendenti fino ad ottenere una base
+>$V=\mathbb{R}^2,v_{1}=(1,0),v_{2}=(2,0),v_{3}=(0,1),v_{4}=(2,5)$
+
+Generano $\mathbb{R}^2$, ma non sono linearmente indipendenti
+- $v_{1},v_{3}$ è una base
+- $v_{1},v_{2}$ non è una base
