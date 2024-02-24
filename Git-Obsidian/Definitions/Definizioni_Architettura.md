@@ -42,3 +42,30 @@ Il **firmware** è un software integrato in un componente elettronico in grado d
 > Carica il programma in memoria e trasforma i riferimenti tra le istruzioni  in indirizzi di memoria
 > - "Genera" il programma in esecuzione
 
+## Unnità di Misura e Prefissi
+---
+| Prefissi     | Unità | Prefissi Binari|
+| ------------ | ----- |-----|
+| Yotta        |     $10^{24}$  |Yotta `byte`$\to 2^{80}=1.2089258e+24$|
+| Zetta        |     $10^{21}$  |Zetta `byte`$\to 2^{70}=1.1805916e+21$|
+| Exa          |       $10^{18}$|Exa `byte`$\to 2^{60}=1.1529215e+18$|
+| Peta         |       $10^{15}$|Peta `byte`$\to 2^{50}=1.258999e+15$|
+| Tera         |       $10^{12}$|Tera `byte`$\to 2^{40}=1.0995116+12$|
+| Giga         |       $10^{9}$|Giga `byte`$\to 2^{30}=1073741824$|
+| Mega         |       $10^{6}$|Mega `byte`$\to 2^{20}=1048576$|
+| Kilo         |       $10^{3}$|Yottta `byte`$\to 2^{10}=1024$|
+| Milli        | $10^{-3}$      |`/`|
+| Micro        |       $10^{-6}$|`/`|
+| Nano| $10^{-9}$|`/`|
+|Pico |       $10^{-12}$|`/`|
+| Femto        |       $10^{-15}$|`/`|
+| Atto         |       $10^{-18}$|`/`|
+| Zepto        |       $10^{-21}$|`/`|
+| Yocto        |       $10^{-24}$|`/`|
+
+
+> [!warning] Attenzione
+> I prefissi del sistema binario non corrispondono ai prefissi del sistema decimale
+> - Secondo lo standard `IEEE 1541` ai prefissi binari andrebbe aggiunta una `i` per evitare confusione
+>>[!example] Esempio
+>>`1024 Bytes` andrebbero indicati come `1 KiB`
