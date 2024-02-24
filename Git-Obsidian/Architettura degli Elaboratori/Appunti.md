@@ -1,13 +1,4 @@
 ## `21/02/2024`
-### Sistema posizionale
-Sistemi posizionali utilizzati
-- Sistema decimale
-- Sistema binario
-- Sistema ottale
-- Sistema Esadecimale
-
-
-
 ### Byte
 - I byte sono composti da 8 bit
 	- Nel byte il bit più a destra è detto il bit meno significativo
