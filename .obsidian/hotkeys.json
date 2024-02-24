@@ -22,5 +22,14 @@
       ],
       "key": "Tab"
     }
-  ]
+  ],
+  "editor:insert-callout": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "L"
+    }
+  ],
+  "editor:toggle-checklist-status": []
 }

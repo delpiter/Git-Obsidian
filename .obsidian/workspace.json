@@ -4,40 +4,48 @@
     "type": "split",
     "children": [
       {
-        "id": "e8f9239a07c9a618",
+        "id": "3bba40142ce96697",
         "type": "tabs",
+        "dimension": 43.23056300268097,
         "children": [
           {
-            "id": "4d4d41b4e0bf5949",
+            "id": "c8a28b073b37cef2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Obsidian/Algebra e Geometria/Campi e Spazi Vettoriali.md",
+                "file": "Git-Obsidian/Architettura degli Elaboratori/Appunti.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "31eaad976b8f7a79",
+        "type": "tabs",
+        "dimension": 56.76943699731903,
+        "children": [
+          {
+            "id": "bf232f6badff0638",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git-Obsidian/Architettura degli Elaboratori/Introduzione alle Basi.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "beece7d4ca33dcec",
+            "id": "6c2eada9ffa6cc5e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Obsidian/Analisi/Insiemi/Insiemi Numerici.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b32614fe2dfd217c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git-Obsidian/Definitions/Definizioni_Analisi.md",
+                "file": "Git-Obsidian/Definitions/Definizioni_Architettura.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Algebra e Geometria/Campi e Spazi Vettoriali.md",
+                "file": "Git-Obsidian/Architettura degli Elaboratori/Introduzione alle Basi.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Algebra e Geometria/Campi e Spazi Vettoriali.md",
+                "file": "Git-Obsidian/Architettura degli Elaboratori/Introduzione alle Basi.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git-Obsidian/Algebra e Geometria/Campi e Spazi Vettoriali.md"
+                "file": "Git-Obsidian/Architettura degli Elaboratori/Introduzione alle Basi.md"
               }
             }
           },
@@ -190,16 +198,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "4d4d41b4e0bf5949",
+  "active": "bf232f6badff0638",
   "lastOpenFiles": [
-    "Git-Obsidian/Analisi/Insiemi/Insiemi Numerici.md",
-    "Git-Obsidian/Definitions/Definizioni_Analisi.md",
-    "Git-Obsidian/Algebra e Geometria/Introduzione.md",
-    "Git-Obsidian/Algebra e Geometria/Campi e Spazi Vettoriali.md",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Appunti.md",
     "Git-Obsidian/Architettura degli Elaboratori/Appunti.md",
-    "Git-Obsidian/Definitions/Definizioni_Programmazione.md",
     "Git-Obsidian/Architettura degli Elaboratori/Introduzione alle Basi.md",
+    "Git-Obsidian/Definitions/Definizioni_Programmazione.md",
+    "Git-Obsidian/Definitions/Definizioni_Architettura.md",
+    "Git-Obsidian/Definitions/Definizioni_Analisi.md",
+    "Git-Obsidian/Analisi/Insiemi/Insiemi Numerici.md",
+    "Git-Obsidian/Algebra e Geometria/Campi e Spazi Vettoriali.md",
+    "Git-Obsidian/Algebra e Geometria/Introduzione.md",
+    "Git-Obsidian/Algoritmi e Strutture Dati/Appunti.md",
     "Git-Obsidian/Attatchments/Pasted image 20240220175558.png",
     "Git-Obsidian/Markdown Keys.md",
     "Git-Obsidian/Algebra e Geometria/Untitled.md",
@@ -226,7 +235,6 @@
     "Git-Obsidian/Programmazione/Variabili/Tipi di Dati Avanzati.md",
     "Git-Obsidian/The Bible/48 - Galatians/Gal-05.md",
     "Git-Obsidian/The Bible/48 - Galatians/Gal-04.md",
-    "Git-Obsidian/The Bible/48 - Galatians/Gal-03.md",
     "Git-Obsidian/Attatchments/Pasted image 20240102165537.png",
     "Git-Obsidian/Attatchments/virtual-address-space-physical-address-extension-memory-management-unit-memory-address-32-bit-5942642b52599a1086c9a0f61fba91c0.png",
     "Git-Obsidian/Attatchments/Pasted image 20240102164753.jpg",

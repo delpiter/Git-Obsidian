@@ -8,5 +8,8 @@
   "obsidian-tikzjax",
   "obsidian-diagrams-net",
   "mermaid-tools",
-  "pseudocode-in-obs"
+  "pseudocode-in-obs",
+  "obsidian-minimal-settings",
+  "obsidian-hider",
+  "obsidian-style-settings"
 ]
