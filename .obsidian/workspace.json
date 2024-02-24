@@ -4,17 +4,29 @@
     "type": "split",
     "children": [
       {
-        "id": "f0ee902f26ed2e14",
+        "id": "aafa528f43275645",
         "type": "tabs",
-        "dimension": 52.21179624664879,
+        "dimension": 50,
         "children": [
           {
-            "id": "91935695ecc8564a",
+            "id": "c8a28b073b37cef2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Git-Obsidian/Architettura degli Elaboratori/Appunti.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "47fe6aebd447142d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git-Obsidian/Definitions/Definizioni_Architettura.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,22 +37,10 @@
       {
         "id": "31eaad976b8f7a79",
         "type": "tabs",
-        "dimension": 47.78820375335121,
+        "dimension": 50,
         "children": [
           {
             "id": "6c2eada9ffa6cc5e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git-Obsidian/Definitions/Definizioni_Architettura.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c8a28b073b37cef2",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -51,8 +51,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -103,8 +102,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 269.5,
-    "collapsed": true
+    "width": 269.5
   },
   "right": {
     "id": "3561446b8c4d05ef",
@@ -200,7 +198,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "c8a28b073b37cef2",
+  "active": "6c2eada9ffa6cc5e",
   "lastOpenFiles": [
     "Git-Obsidian/Architettura degli Elaboratori/Appunti.md",
     "Git-Obsidian/Architettura degli Elaboratori/Rappresentazione dell'Informazione.md",

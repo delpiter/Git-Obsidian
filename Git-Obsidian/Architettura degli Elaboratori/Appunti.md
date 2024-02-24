@@ -1,23 +1,8 @@
 ## `21/02/2024`
 ### Byte
-- I byte sono composti da 8 bit
-	- Nel byte il bit più a destra è detto il bit meno significativo
-	- Quello a sinistra è detto il bit puìiù significativo
 
-Sequenze più lunghe di byte (16/32,etc) sono chiamate **WORD**
 
-Intervallo di interi positivi rappresentabili con $n$ bit:
-- 1 bit
-- 8 bit
-- 16 bit
-- 32 bit
-- 64 bit
 
-Intervallo di interi positivi e negativi rappresentabili con $n$ bit
-- Rappresentazione Ideale:
-	- Una sola rappresentazione per lo $0$
-	- Lo stesso insieme di valori positivi e negativi rappresentabili
-- Entrambi le proprietà sono impossibili da ottenere insieme
 
 #### Modalità di rappresentazione negativi
 >[!tip] Grandezza e segno

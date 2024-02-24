@@ -51,9 +51,9 @@ Il **firmware** è un software integrato in un componente elettronico in grado d
 | Exa          |       $10^{18}$|Exa `byte`$\to 2^{60}=1.1529215e+18$|
 | Peta         |       $10^{15}$|Peta `byte`$\to 2^{50}=1.258999e+15$|
 | Tera         |       $10^{12}$|Tera `byte`$\to 2^{40}=1.0995116+12$|
-| Giga         |       $10^{9}$|Giga `byte`$\to 2^{30}=1073741824$|
-| Mega         |       $10^{6}$|Mega `byte`$\to 2^{20}=1048576$|
-| Kilo         |       $10^{3}$|Yottta `byte`$\to 2^{10}=1024$|
+| Giga         |       $10^{9}$|Giga `byte`$\to 2^{30}=1.073.741.824$|
+| Mega         |       $10^{6}$|Mega `byte`$\to 2^{20}=1.048.576$|
+| Kilo         |       $10^{3}$|Yottta `byte`$\to 2^{10}=1.024$|
 | Milli        | $10^{-3}$      |`/`|
 | Micro        |       $10^{-6}$|`/`|
 | Nano| $10^{-9}$|`/`|
