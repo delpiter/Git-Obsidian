@@ -4,28 +4,8 @@
     "type": "split",
     "children": [
       {
-        "id": "457e12348fb2318d",
-        "type": "tabs",
-        "dimension": 40.34369885433715,
-        "children": [
-          {
-            "id": "1b2c9a5667e5e639",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Appunti.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
         "id": "601e55d14fd8584a",
         "type": "tabs",
-        "dimension": 59.65630114566285,
         "children": [
           {
             "id": "e60b6f27026581f6",

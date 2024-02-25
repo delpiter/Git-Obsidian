@@ -211,6 +211,9 @@
 
 	{trigger: "procedure", replacement: "\\Procedure{$0}{\$ $1\ $}\n$2\n \\EndProcedure", options: "c"},
 	{trigger: "if", replacement: "\\If{\$ $0 \ $}\n $1 \n \\EndIf", options: "c"},
+	{trigger: "else", replacement: "\\Else \n $0", options:"c"},
+	{trigger: "elif", replacement: "\\Elsif{\$ $0 \$} \n $1", options:"c"},
 	{trigger: "for", replacement: "\\For{\$ $0\ $}\n $1 \n \\EndFor", options: "c"},
-	{trigger: "state", replacement: "\\State \$ $0 \$", options:"c"}
+	{trigger: "state", replacement: "\\State \$ $0 \$", options:"c"},
+	{trigger: "return", replacement: "\\Return \$ $0 \$", options:"c"}
 ]
