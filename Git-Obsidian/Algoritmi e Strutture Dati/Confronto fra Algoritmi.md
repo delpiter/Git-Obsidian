@@ -193,7 +193,27 @@ L'**ordine di grandezza** di $T(n)$ dipende solo dal termine che cresce di più 
 $f(x) = x^3+6x^2+9x+10$
 $$O(f(x)) = O(x^3)$$
 Un algoritmo $O(n^3)$ non può essere usato per istanze molto grandi, mentre un algoritmo $O(n)$ è utilizzabile per istanze di dati molto grandi
+#### Crescita delle Funzioni
+>[!info]
+>La crescita delle funzioni può essere descritta con la notazione ***O Grande***
+>>[!tip] Definizione
+>>Siano $f$ e $g$ due funzioni da $\mathbb{R}$ a $\mathbb{R}$
+>>Diciamo che $f(x)$ è $O(g(x))$ se esistono due costanti $C$ e $K$ tali per cui 
+>>$$f(x)\leq C\cdot g(x)$$ quando $x>k$
+>
+>Quando si analizza la crescita di **funzioni di complessità**, $f(x), g(x)$ si assumono sempre positive
+>Quando si vuole dimostrare che $f(x)$ è $O(g(x))$, è sufficiente trovare una coppia $(C,K)$ per cui vale la relazione.
+>- Notare che ce ne possono essere infinite
 
+##### Esempio
+>Dimostrare che $f(x)=x^2+2x+1$ è $O(x^2)$
+
+Per $x>1$ abbiamo:
+$$
+x^2+2x+1 \leq 2x^2+ x^2 \implies x^2 +2x+1 \leq4x^2
+$$
+- Quindi per $C=4$ e $K=1:f(x)\leq Cx^2$ quando $x>k$
+- $f(x)$ è $O(x^2)$
 ### Caso ottimo, medio, pessimo
 
 Spesso il tempo di esecuzione dipende dai valori letti in input, ***non dalla dimensione dell'input***.
