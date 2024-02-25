@@ -207,5 +207,10 @@
 	{trigger: "{", replacement: "{${VISUAL}}", options: "mA"},
 	{trigger: "(", replacement: "($0)$1", options: "mA"},
 	{trigger: "{", replacement: "{$0}$1", options: "mA"},
-	{trigger: "[", replacement: "[$0]$1", options: "mA"}
+	{trigger: "[", replacement: "[$0]$1", options: "mA"},
+
+	{trigger: "procedure", replacement: "\\Procedure{$0}{\$ $1\ $}\n$2\n \\EndProcedure", options: "c"},
+	{trigger: "if", replacement: "\\If{\$ $0 \ $}\n $1 \n \\EndIf", options: "c"},
+	{trigger: "for", replacement: "\\For{\$ $0\ $}\n $1 \n \\EndFor", options: "c"},
+	{trigger: "state", replacement: "\\State \$ $0 \$", options:"c"}
 ]
