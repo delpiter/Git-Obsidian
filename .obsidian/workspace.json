@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/Teoremi su Spazi Vettoriali.md",
+                "file": "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/Forme Parametriche e Cartesiane.md",
                 "mode": "source",
                 "source": false
               }
@@ -124,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/Teoremi su Spazi Vettoriali.md",
+                "file": "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/Forme Parametriche e Cartesiane.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/Teoremi su Spazi Vettoriali.md",
+                "file": "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/Forme Parametriche e Cartesiane.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -164,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/Teoremi su Spazi Vettoriali.md"
+                "file": "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/Forme Parametriche e Cartesiane.md"
               }
             }
           },
@@ -206,8 +206,9 @@
   },
   "active": "d6ddf601bf0e871a",
   "lastOpenFiles": [
-    "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/Campi e Spazi Vettoriali.md",
     "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/Teoremi su Spazi Vettoriali.md",
+    "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/Forme Parametriche e Cartesiane.md",
+    "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/Campi e Spazi Vettoriali.md",
     "Git-Obsidian/Algebra e Geometria/Basi dell'algebra",
     "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/Introduzione.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Appunti.md",
@@ -239,7 +240,6 @@
     "Git-Obsidian/Programmazione/I File/Tipo di dato FILE.md",
     "Git-Obsidian/Programmazione/I File/Introduzione ai Files.md",
     "Git-Obsidian/Programmazione/I File",
-    "Git-Obsidian/Programmazione/Puntatori/Aritmetica dei Puntatori.md",
     "Git-Obsidian/Attatchments/pngwing.com.png",
     "Git-Obsidian/Programmazione/Puntatori",
     "Git-Obsidian/Attatchments/Pasted image 20240102165537.png",

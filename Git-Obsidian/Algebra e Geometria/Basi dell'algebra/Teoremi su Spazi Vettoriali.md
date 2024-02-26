@@ -123,3 +123,59 @@ E $x_{1},\dots,x_{n}$ sono gli unici scalari che danno $v$ come combinazione lin
 >[!done] Definizione
 >$e_{1},\dots,e_{n}$ sono detti la Base Canonica di $\mathbb{K}^n$
 
+#### Esempi
+> $V=\mathbb{R}^3, e_{1}=(1,0,0),e_{2}=(0,1,0),e_{3}=(0,0,1)$
+
+- $v = \left( \frac{3}{2},7,-4 \right) = \frac{3}{2}e_{1}+7e_{2}-4e_{3}$
+
+>[!tip] Sia $V=\mathbb{K[x]}=\{ \text{ polinomi a coefficienti in }\mathbb{K} \}$
+
+- Una base di $V$ è data dai monomi:
+$$
+1,x,x^2,x^3,x^4,\dots
+$$
+- Quindi la dimensione di $\mathbb{K}[x]=\infty$
+
+>[!example] Considero il sottospazio di $\mathbb{K}[x]$
+>$W=\mathbb{K}[x]_{\leq n}=\{ polinomi di grado \leq n \}$
+
+$\mathbb{K}[x]_{\leq n}= \{ a_{0}+a_{1}x+a_{2}x^2+\dots+a_{n}x^n,a_{i}\in \mathbb{K} \}$
+
+- Quindi $1,x,x^2,\dots,x^n$ è una base di $\mathbb{K}[x]_{\leq n}$ (anche detta **base canonica** di $\mathbb{K}[x]_{\leq n}$)
+	- $\mathbb{K}[x]_{\leq n}$ ha dimensione $n+1$
+
+##### Esempio
+>$\mathbb{R}[x]_{\leq 2}=\{ p(x)=a_{2}x^2+a_{1}x+a_{0}, a_{0},a_{1},a_{2} \in \mathbb{R} \}$
+
+Lo spazio vettoriale ha per base $1,x,x^2$
+
+>[!question] Controllare se $p_{1}(x)=x^2+1,p_{2}(x)=x-1,p_{3}(x)=x^2-x$ è una base di $\mathbb{R}[x]_{\leq 2}$
+
+$$
+a_{1}p_{1}+a_{2}p_{2}+a_{3}p_{3} = (a_{1}+a_{3})x^2+(a_{2}-a_{3})x+(a_{1}-a_{2})
+$$
+- È vero che per ogni $p(x)=ax^2+bx+c, \exists!a_{1},a_{2},a_{3}:p=a_{1}p_{1}+a_{2}p_{2}+a_{3}p_{3}$?
+
+$$
+\begin{cases}
+a_{1}+a_{3}=a \\
+a_{2}-a_{3}=b \\
+a_{1}-a_{2}=c
+\end{cases}
+\Leftrightarrow
+\begin{cases}
+a_{1}=\displaystyle{\frac{a+b+c}{2}} \\
+a_{3} = a-a_{1} = \displaystyle{\frac{a-b-c}{2}} \\
+a_{2}=a_{1}-c=\displaystyle{\frac{a+b-c}{2}}
+\end{cases}
+$$
+>[!done] Trovata una unica soluzione
+
+- Si, $\forall p(x)\in\mathbb{K}[x]_{\leq 2} \exists! a_{1},a_{2},a_{3} :p_{0}a_{1}p_{1}+a_{2}p_{2}+a_{3}p_{3}$
+	- Ne consegue il fatto che $p_{1},p_{2},p_{3}$ sono una base
+
+### Osservazione
+
+>[!tip]
+>Uno spazio vettoriale ha tante basi diverse.
+>Le coordinate dello **stesso** vettore $v$, in **basi diverse** saranno **diverse**
