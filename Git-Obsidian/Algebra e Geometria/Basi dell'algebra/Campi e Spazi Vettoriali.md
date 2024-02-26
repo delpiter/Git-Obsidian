@@ -394,3 +394,4 @@ Se ho vettori che generano $V$, posso "*estrarre una base di $V$*"
 Generano $\mathbb{R}^2$, ma non sono linearmente indipendenti
 - $v_{1},v_{3}$ è una base
 - $v_{1},v_{2}$ non è una base
+

@@ -4,11 +4,47 @@
     "type": "split",
     "children": [
       {
-        "id": "601e55d14fd8584a",
+        "id": "4c991452c9f1b6a5",
         "type": "tabs",
         "children": [
           {
-            "id": "e60b6f27026581f6",
+            "id": "acd13039a3296718",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Appunti.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "027425a13421aac8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/Campi e Spazi Vettoriali.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d6ddf601bf0e871a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/Teorema delle Coordinate.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6573c74da50a5cf5",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -19,7 +55,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -70,7 +107,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 269.5
+    "width": 269.5,
+    "collapsed": true
   },
   "right": {
     "id": "3561446b8c4d05ef",
@@ -86,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Confronto fra Algoritmi.md",
+                "file": "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/Teorema delle Coordinate.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Confronto fra Algoritmi.md",
+                "file": "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/Teorema delle Coordinate.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Confronto fra Algoritmi.md"
+                "file": "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/Teorema delle Coordinate.md"
               }
             }
           },
@@ -166,20 +204,23 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "e60b6f27026581f6",
+  "active": "d6ddf601bf0e871a",
   "lastOpenFiles": [
+    "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/Campi e Spazi Vettoriali.md",
+    "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/Teorema delle Coordinate.md",
+    "Git-Obsidian/Algebra e Geometria/Basi dell'algebra",
+    "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/Introduzione.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Appunti.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Confronto fra Algoritmi.md",
+    "Git-Obsidian/Analisi/Funzioni/Funzioni di una variabile Reale.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Problemi e Algoritmi.md",
-    "Git-Obsidian/Algebra e Geometria/Introduzione.md",
-    "Git-Obsidian/Architettura degli Elaboratori/Rappresentazione dell'Informazione.md",
     "Git-Obsidian/Architettura degli Elaboratori/Appunti.md",
-    "Git-Obsidian/Definitions/Definizioni_Architettura.md",
     "Git-Obsidian/Architettura degli Elaboratori/Introduzione alle Basi.md",
+    "Git-Obsidian/Architettura degli Elaboratori/Rappresentazione dell'Informazione.md",
+    "Git-Obsidian/Definitions/Definizioni_Architettura.md",
     "Git-Obsidian/Definitions/Definizioni_Programmazione.md",
     "Git-Obsidian/Definitions/Definizioni_Analisi.md",
     "Git-Obsidian/Analisi/Insiemi/Insiemi Numerici.md",
-    "Git-Obsidian/Algebra e Geometria/Campi e Spazi Vettoriali.md",
     "Git-Obsidian/Attatchments/Pasted image 20240220175558.png",
     "Git-Obsidian/Markdown Keys.md",
     "Git-Obsidian/Algebra e Geometria/Untitled.md",
@@ -199,9 +240,7 @@
     "Git-Obsidian/Programmazione/I File/Introduzione ai Files.md",
     "Git-Obsidian/Programmazione/I File",
     "Git-Obsidian/Programmazione/Puntatori/Aritmetica dei Puntatori.md",
-    "Git-Obsidian/Programmazione/Puntatori/Introduzione Puntatori.md",
     "Git-Obsidian/Attatchments/pngwing.com.png",
-    "Git-Obsidian/Programmazione/Funzioni/Funzioni in C.md",
     "Git-Obsidian/Programmazione/Puntatori",
     "Git-Obsidian/Attatchments/Pasted image 20240102165537.png",
     "Git-Obsidian/Attatchments/virtual-address-space-physical-address-extension-memory-management-unit-memory-address-32-bit-5942642b52599a1086c9a0f61fba91c0.png",
@@ -210,7 +249,6 @@
     "Git-Obsidian/Programmazione/Strutture di Controllo",
     "Git-Obsidian/Programmazione/Espressioni e Operatori",
     "Git-Obsidian/Attatchments/Diagram.svg",
-    "Git-Obsidian/Attatchments/Diagram.svg.xml",
     "Git-Obsidian/Programmazione/Variabili/Untitled Diagram.svg",
     "Untitled 2.canvas",
     "Untitled.canvas",
