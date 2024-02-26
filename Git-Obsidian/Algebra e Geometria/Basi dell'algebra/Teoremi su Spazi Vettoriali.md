@@ -1,4 +1,4 @@
-## Teorema
+## Teorema delle Coordinate
 ---
 >[!info] Enunciato
 >Un insieme di vettori $v_{1},\dots,v_{n}$ è una [[Campi e Spazi Vettoriali#Base|base]] di $V\Leftrightarrow$ Ogni $v\in V$ si scrive in modo unico come [[Campi e Spazi Vettoriali#Combinazioni Lineari|combinazione lineare]]
@@ -90,4 +90,36 @@ $$
 
 Ma solo per quelli che hanno le due coordinate uguali
 - $v_{1},v_{2}$ non generano $\mathbb{R}^2$
+
+
+## Teorema della Dimensione
+---
+>[!info] Enunciato
+>Sia $V$ uno [[Campi e Spazi Vettoriali#Spazio Vettoriale|spazio vettoriale]] si $\mathbb{K}$ tutte le [[Campi e Spazi Vettoriali#Base|basi]] di $V$ hanno lo stesso numero di elementi
+>>[!done] Definizione
+>>Tale numero è detto la **dimensione** di $V$
+
+>[!tip] Siano $v_{1}=(2,1),v_{2}=(1,-1)\in V = \mathbb{R}^2$
+
+Abbiamo visto che $v_{1}=(2,1),v_{2}=(1,-1)$ è una base di $\mathbb{R}^2$
+- Quindi ogni base di $\mathbb{R}^2$ è composta da 2 vettori e diciamo che la dimensione $\mathbb{R}^2$ è $2$
+- Scriviamo $dim(\mathbb{R}^2)=2$
+
+### Base Canonica
+>[!info] Intro
+>Sia $\mathbb{K}$ un campo
+>$V=\mathbb{K}^n=\{ (x_{1},\dots,x_{n}),x_{i}\in \mathbb{K} \}$ è uno spazio vettoriale su $\mathbb{K}$ di dimensione $n$, perchè una sua base è:
+>- $e_{1}=(1,0,\dots,0),e_{2}=(0,1,0,\dots,0),\dots,e_{n}=(0,\dots,0,1)$
+
+Questa è una base perchè
+$$
+\begin{array}
+\ \forall v=(x_{1},\dots,x_{n})\in V \\
+v=x_{1}e_{1}+x_{2}e_{2}+\dots+x_{n}e_{n}
+\end{array}
+$$
+E $x_{1},\dots,x_{n}$ sono gli unici scalari che danno $v$ come combinazione lineare di $v_{1},\dots,v_{n}$
+
+>[!done] Definizione
+>$e_{1},\dots,e_{n}$ sono detti la Base Canonica di $\mathbb{K}^n$
 
