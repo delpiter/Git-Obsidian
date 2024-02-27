@@ -11,8 +11,12 @@
             "id": "a92671dad6a34c31",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Git-Obsidian/Architettura degli Elaboratori/Rappresentazione dell'Informazione/Numeri Floating-Point.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -83,6 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Git-Obsidian/Architettura degli Elaboratori/Rappresentazione dell'Informazione/Numeri Floating-Point.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,6 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Git-Obsidian/Architettura degli Elaboratori/Rappresentazione dell'Informazione/Numeri Floating-Point.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -120,7 +126,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Git-Obsidian/Architettura degli Elaboratori/Rappresentazione dell'Informazione/Numeri Floating-Point.md"
+              }
             }
           },
           {
@@ -161,6 +169,11 @@
   },
   "active": "a92671dad6a34c31",
   "lastOpenFiles": [
+    "Git-Obsidian/Attatchments/floatingpoints.png",
+    "Git-Obsidian/Architettura degli Elaboratori/Rappresentazione dell'Informazione/Mascherature dei Bit.md",
+    "Git-Obsidian/Architettura degli Elaboratori/Rappresentazione dell'Informazione/Numeri Floating-Point.md",
+    "Git-Obsidian/Architettura degli Elaboratori/Rappresentazione dell'Informazione/Il Calcolatore e i Numeri Binari.md",
+    "Git-Obsidian/Architettura degli Elaboratori/Rappresentazione dell'Informazione",
     "Git-Obsidian/Algoritmi e Strutture Dati/Confronto fra Algoritmi.md",
     "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/Forme Parametriche e Cartesiane.md",
     "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/Teoremi su Spazi Vettoriali.md",
@@ -172,7 +185,6 @@
     "Git-Obsidian/Algoritmi e Strutture Dati/Problemi e Algoritmi.md",
     "Git-Obsidian/Architettura degli Elaboratori/Appunti.md",
     "Git-Obsidian/Architettura degli Elaboratori/Introduzione alle Basi.md",
-    "Git-Obsidian/Architettura degli Elaboratori/Rappresentazione dell'Informazione.md",
     "Git-Obsidian/Definitions/Definizioni_Architettura.md",
     "Git-Obsidian/Definitions/Definizioni_Programmazione.md",
     "Git-Obsidian/Definitions/Definizioni_Analisi.md",
@@ -191,9 +203,6 @@
     "Git-Obsidian/Programmazione/Variabili/Riutilizzo degli Identificatori.md",
     "Git-Obsidian/Programmazione/Introduzione Programmazione/Linguaggio C.md",
     "Git-Obsidian/Programmazione/Variabili/Tipi di Dati.md",
-    "conflict-files-obsidian-git.md",
-    "Git-Obsidian/Programmazione/I File/Tipo di dato FILE.md",
-    "Git-Obsidian/Programmazione/I File/Introduzione ai Files.md",
     "Git-Obsidian/Programmazione/I File",
     "Git-Obsidian/Attatchments/pngwing.com.png",
     "Git-Obsidian/Programmazione/Puntatori",
@@ -202,7 +211,6 @@
     "Git-Obsidian/Attatchments/Pasted image 20240102164753.jpg",
     "Git-Obsidian/Programmazione/Memoria",
     "Git-Obsidian/Programmazione/Strutture di Controllo",
-    "Git-Obsidian/Programmazione/Espressioni e Operatori",
     "Git-Obsidian/Attatchments/Diagram.svg",
     "Git-Obsidian/Programmazione/Variabili/Untitled Diagram.svg",
     "Untitled 2.canvas",
