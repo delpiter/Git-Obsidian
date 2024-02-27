@@ -1,0 +1,154 @@
+## Interezione di Sottospazi Vettoriali
+---
+>[!info] Proprietà
+>Siano $U,W$ [[Campi e Spazi Vettoriali#Sottospazio Vettoriale|sottospazi vettoriali]] allora $U\cap W$ è un sottospazio vettoriale
+>>[!done] In breve
+>>L'intersezione di un sottospazio vettoriale è un sottospazio vettoriale
+
+### Dimostrazione
+>Siano $u_{1},u_{2}\in U\cap W$
+
+- $u_{1},u_{2}\in U$, e dato che $U$ è un sottospazio vettoriale $\implies u_{1}+u_{2}\in U$
+- $u_{1},u_{2}\in W$, e dato che $W$ è un sottospazio vettoriale $\implies u_{1}+u_{2}\in W$
+
+Nello stesso modo si mostra che
+$$
+\forall a \in\mathbb{K}, u\in U\cap W \implies au \in U\cap W
+$$
+
+#### Osservazione
+L'unione di sottospazi vettoriali in generale non è un sottospazio vettoriale
+##### Esempio
+>[!tip]  Siano $U$ e $W$ sottospazi vettoriali di $V = \mathbb{R}^2$
+
+$U=\{ (x,y)\in\mathbb{R}^2:y=0 \}$
+$W=\{ (x,y)\in\mathbb{R}^2:x=0 \}$
+
+- $U$ e $W$ sono gli assi del piano cartesiano
+Basta prendere $u_{1}=(1,0)\in U$ e $w_{1}=(0,1)$
+- Notiamo subito che $u_{1}+w_{1} \notin U \cup W$
+![[Pasted image 20240227171614.png]]
+## Sottospazio Somma
+---
+>[!info] Definizione
+>Dati due [[Campi e Spazi Vettoriali#Sottospazio Vettoriale|sottospazi vettoriali]] $U,W$ di $V$
+>Definisco il **sottospazio somma** come:
+>$$U+W = \{ u+w,u\in U , w \in W \}$$
+
+$U+W$ è un sottospazio vettoriale poichè:
+$$u_{1}+w_{1},u_{2}+w_{2}\in U+W
+\begin{pmatrix}
+u_{1},u_{2}\in U \\
+w_{1},w_{2} \in W
+\end{pmatrix}$$
+Allora:
+- $(u_{1}+w_{1})+(u_{2}+w_{2}) = \underbrace{ (u_{1}+u_{2}) }_{ \in U }+\underbrace{ (w_{1}+w_{2}) }_{ \in W } \in U+W$
+- Ragionamento analogo per il prodotto per uno scalare
+
+###  Esempio 1
+>[!tip] Considero $\underbrace{ V=\mathbb{R}^4 }_{ \text{ dim} = 4 }$
+
+$U=\{ (x_{1},x_{2},x_{3},x_{4})\in \mathbb{R}^4: x_{3}=0 \wedge x_{4}=0 \} \text{ dim} = 2$
+$W=\{ (x_{1},x_{2},x_{3},x_{4})\in \mathbb{R}^4: x_{1}=0 \wedge x_{4}=0 \} \text{ dim} = 2$
+
+Trasformo in forma parametrica
+$U=\{ (a,b,0,0), a,b\in \mathbb{R} \}$
+$W =\{( 0,t,s,0 ), t,s\in\mathbb{R}\}$
+
+$$
+\begin{array}
+U+W=\{ u+w, u\in W,w\in W \}=\{ (a,b+t,s,0),a,b,t\in\mathbb{R} \}= \\
+=\{ (x_{1},x_{2},x_{3}x_{4})\in\mathbb{R}^4:x_{4}=0 \} \text{ dim} =3
+\end{array}
+$$
+#### Osservazione
+$$
+U\cap W=\begin{cases}
+x_{3}=0 \\
+x_{4}=0 \\
+x_{1}=0
+\end{cases} = \{ (0,t,0,0),t\in\mathbb{R} \}
+$$
+Ha come dimensione $\text{dim} (U\cap W)=1$
+
+## Formula di Grassman
+---
+>[!as] Formula
+>Siano $U$ e $W$ [[Campi e Spazi Vettoriali#Sottospazio Vettoriale|sottospazi vettoriali]] di $V$
+><u>Allora</u>
+>$$dim(U+W)=dim(U)+dim(W)-dim(U\cap W)$$
+
+- Nell'esempio precedente:
+	- $3  = 2+2-1$
+### Dimostrazione
+>[!tip] Sia $v_{1},\dots,v_{l}$ una base di $U \cap W$
+
+Completiamola a una base di $U$
+$$
+v_{1},\dots,v_{l},u_{1},\dots,u_{m}
+$$
+E anche ad una base di $W$
+$$
+v_{1},\dots,v_{l},w_{1},\dots,w_{n}
+$$
+Allora:
+$$
+v_{1},\dots,v_{l},u_{1},\dots,u_{m},w_{1},\dots,w_{n}
+$$
+ >[!done] Generano $U+W$
+ 
+ E si può verificare che sono [[Campi e Spazi Vettoriali#Dipendenza Lineare|linearmente indeipendenti]] e dunque sono una base
+Perciò
+- $\text{dim}(U+W)=l+m+n$
+- $\text{dim}(U)=l+m$
+- $\text{dim}(W)=l+n$
+- $\text{dim}(U\cap W)=l$
+
+#### Esempio
+Nell'[[#Esempio 1]] una base di $U\cap W$ $\{ e_{2} \}$
+- Lo completo ad una base $\{ e_{2},e_{3} \}$ di $W$
+
+Ottengo così una base:
+$$
+(e_{1},e_{2},e_{3}) \text{ di }U+W
+$$
+
+#### Osservazione
+>[!tip] $(2,4,1,0)\in U+W$
+
+$$
+\begin{array}
+\ \underbrace{ (2,3,0,0) }_{ \in U }+\underbrace{ (0,1,1,0) }_{ \in W } \\
+\underbrace{ (2,1,0,0) }_{ \in U }+\underbrace{ (0,3,1,0) }_{ \in W }
+\end{array}
+$$
+- Questa decomposizione non è unica
+
+## Somma Diretta
+---
+>[!info] Definizione 
+>Diciamo che $U,W$ formano una **somma diretta** se $U\cap W=\{ \underline{0} \}$
+>In questo caso, $U+W$ è indicato con il simbolo
+>$$U\bigoplus W$$
+
+### Proprietà
+>[!tip] $U,W$ Formano somma diretta
+>Se e solo Se
+>$$\forall v\in U+W$$
+>Si scrive in modo unico come somma di un elemento di $U$ e di un elemento di $W$
+
+#### Dimostrazione
+Supponiamo che
+- $\exists u_{1},u_{2}\in U$
+- $\exists w_{1},w_{2}\in W$
+Tali che si scriva
+$$
+v=u_{1}+w_{1} = u_{2}+w_{2}
+$$
+Allora:
+$$
+v=\underbrace{ u_{1}-u_{2} }_{ \in U }=\underbrace{ w_{1}-w_{2} }_{ \in W } \in W\cap W
+$$
+Quindi se $U\cap W=\{ \underline{0} \}$ allora:
+- $u_{1}=u_{2},w_{1}=w_{2}$ e la decomposizione è unica
+- Altrimenti posso ottenere decomposizioni diverse sommando e sottraendo elementi di $U\cap W$

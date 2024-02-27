@@ -18,8 +18,45 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "73520e2542e89e65",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git-Obsidian/Algebra e Geometria/Metodo di Gauss.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "03d7c39851ee70e5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/Campi e Spazi Vettoriali.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ae9eee4b9f51ec55",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git-Obsidian/Markdown Keys.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Appunti.md",
+                "file": "Git-Obsidian/Algebra e Geometria/Metodo di Gauss.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Appunti.md",
+                "file": "Git-Obsidian/Algebra e Geometria/Metodo di Gauss.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Appunti.md"
+                "file": "Git-Obsidian/Algebra e Geometria/Metodo di Gauss.md"
               }
             }
           },
@@ -166,11 +203,16 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "a92671dad6a34c31",
+  "active": "73520e2542e89e65",
   "lastOpenFiles": [
+    "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/Intersezione e Somma di Sottospazi.md",
+    "Git-Obsidian/Algebra e Geometria/Metodo di Gauss.md",
+    "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/Campi e Spazi Vettoriali.md",
+    "Git-Obsidian/Markdown Keys.md",
+    "Git-Obsidian/Attatchments/Pasted image 20240227171614.png",
+    "Git-Obsidian/Algoritmi e Strutture Dati/Appunti.md",
     "Git-Obsidian/Architettura degli Elaboratori/Rappresentazione dell'Informazione/Numeri Floating-Point.md",
     "Git-Obsidian/Attatchments/Screenshot_2024-02-27_110515-removebg-preview.png",
-    "Git-Obsidian/Markdown Keys.md",
     "Git-Obsidian/Attatchments/floatingpoints.png",
     "Git-Obsidian/Architettura degli Elaboratori/Rappresentazione dell'Informazione/Mascherature dei Bit.md",
     "Git-Obsidian/Architettura degli Elaboratori/Rappresentazione dell'Informazione/Il Calcolatore e i Numeri Binari.md",
@@ -178,10 +220,8 @@
     "Git-Obsidian/Algoritmi e Strutture Dati/Confronto fra Algoritmi.md",
     "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/Forme Parametriche e Cartesiane.md",
     "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/Teoremi su Spazi Vettoriali.md",
-    "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/Campi e Spazi Vettoriali.md",
     "Git-Obsidian/Algebra e Geometria/Basi dell'algebra",
     "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/Introduzione.md",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Appunti.md",
     "Git-Obsidian/Analisi/Funzioni/Funzioni di una variabile Reale.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Problemi e Algoritmi.md",
     "Git-Obsidian/Architettura degli Elaboratori/Appunti.md",
@@ -191,7 +231,6 @@
     "Git-Obsidian/Definitions/Definizioni_Analisi.md",
     "Git-Obsidian/Analisi/Insiemi/Insiemi Numerici.md",
     "Git-Obsidian/Attatchments/Pasted image 20240220175558.png",
-    "Git-Obsidian/Algebra e Geometria/Untitled.md",
     "Git-Obsidian/Algoritmi e Strutture Dati",
     "Git-Obsidian/Architettura degli Elaboratori",
     "Git-Obsidian/Attatchments/Pasted image 20240219172214.png",
@@ -202,7 +241,6 @@
     "Git-Obsidian/Programmazione.zip",
     "Git-Obsidian/Programmazione/Variabili/Riutilizzo degli Identificatori.md",
     "Git-Obsidian/Programmazione/Introduzione Programmazione/Linguaggio C.md",
-    "Git-Obsidian/Programmazione/Variabili/Tipi di Dati.md",
     "Git-Obsidian/Programmazione/I File",
     "Git-Obsidian/Attatchments/pngwing.com.png",
     "Git-Obsidian/Programmazione/Puntatori",
@@ -212,7 +250,6 @@
     "Git-Obsidian/Programmazione/Memoria",
     "Git-Obsidian/Programmazione/Strutture di Controllo",
     "Git-Obsidian/Attatchments/Diagram.svg",
-    "Git-Obsidian/Programmazione/Variabili/Untitled Diagram.svg",
     "Untitled 2.canvas",
     "Untitled.canvas",
     "Untitled 1.canvas"
