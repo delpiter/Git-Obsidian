@@ -62,12 +62,38 @@ $$
 >- Formato a **doppia precisione**
 
 
-| Elemento                        | Singola Precisione | Doppia Precisione   |
-| ------------------------------- | ------------------ | ------------------- |
-| `BIT` di segno                  | $1$                | $1$                 |
-| `BIT` per l'esponente           | $8$                | $11$                |
-| `BIT` nella parte frazionaria   | $23$               | $52$                |
-| Numero totale di `BIT`          | $32$               | $64$                |
-| Rappresentazione dell'esponente | Eccesso $127$      | Eccesso $1023$      |
-| Campo dell'esponente            | Da $-126$ a $127$  | Da $-1022$ a $1023$ |
-|                                 |                    |                     |
+| Elemento                        | Singola Precisione               | Doppia Precisione                |
+| ------------------------------- | -------------------------------- | -------------------------------- |
+| `BIT` di segno                  | $1$                              | $1$                              |
+| `BIT` per l'esponente           | $8$                              | $11$                             |
+| `BIT` nella parte frazionaria   | $23$                             | $52$                             |
+| Numero totale di `BIT`          | $32$                             | $64$                             |
+| Rappresentazione dell'esponente | Eccesso $127$                    | Eccesso $1023$                   |
+| Campo dell'esponente            | Da $-126$ a $127$                | Da $-1022$ a $1023$              |
+| Numero più vicino allo $0$      | $2^{-126} \approx 10^{-38}$      | $2^{-1022}\approx 10^{-308}$     |
+| Numero più grande               | $\approx 2^{128}\approx 10^{38}$ | $\approx 2^1024\approx 10^{308}$ |
+
+> Lo standard prevede di rappresentare i numeri in forma normalizzata e non normalizzata
+
+### Forma Normalizzata
+>[!tip] Standard
+>La mantissa binaria normalizzata deve presentare un $1$ a ***sinistra della virgola binaria*** 
+>L'esponente deve essere aggiustato di conseguenza
+
+- Essendo sempre presente, tale **cifra non è informativa**, come la virgola binaria
+	- Vengono considerate ***implicitamente presenti e non vengono memorizzate***
+
+ Per evitare confusione con una frazione tradizionale, la combinazione dell'*implicito* della virgola e delle $23$/$52$ cifre significative vengono chiamate ***significand***
+ - Mentre le cifre binarie dopo la virgola, *le uniche memorizzate* sono chiamate ***fraction***
+
+>[!Esercizio] Trasformazione del numero $4568.1875_{10}$ in formato *IEEE 704* in singola precisione
+
+Effettuo il cambiamento di base
+- $4568.1875_{10} = 1000111011000.0011_{2}$
+Normalizzo la mantissa
+- $\underbrace{ 1.\overbrace{0001110110000011}^{\text{Fraction}} }_{ \text{Significant} } \times 2^12$
+Esprimo l'esponente in eccesso $127$
+- $12+127 = 139 \implies 10001011$
+
+Ottenendo cosi la seguente codifica binaria:
+![[Screenshot_2024-02-27_110515-removebg-preview.png]]
