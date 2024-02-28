@@ -81,8 +81,42 @@ Ha come dimensione $\text{dim} (U\cap W)=1$
 - Nell'esempio precedente:
 	- $3  = 2+2-1$
 ### Dimostrazione
->[!tip] Sia $v_{1},\dots,v_{l}$ una base di $U \cap W$
+>[!tip] Supponiamo che:
 
+- $B_{U}=\{ v_{1},\dots,v_{r} \}$ sia una base di $U$ $\implies \text{dim}(U) = r$
+- $B_{W}=\{ v_{1},\dots,v_{s} \}$ sia una base di $W$ $\implies \text{dim}(W) = s$
+- $U\cap W=\{ v_{1},\dots,v_{i} \}$ sia una base di $U\cap W$ $\implies \text{dim}(U\cap W) = i$
+
+Possiamo ora **completare** la base di $U\cap W$ a base sia di $U$ che di $W$
+- Nel caso di $U$ sarà necessario **aggiungere** $r-i$ vettori
+- Nel caso di $W$ sarà necessario **aggiungere** $s-i$ vettori
+
+Consideriamo ora gli insiemi:
+- $\{ v_{1},\dots,v_{i},u_{i+1},\dots,u_{r} \}$  base di $U$
+- $\{ v_{1},\dots,v_{i},w_{i+1},\dots,w_{s} \}$  base di $W$
+
+Ora prendiamo l'unione di questi insiemi:
+$$
+B=\{ \underbrace{ \overbrace{ v_{1},\dots,v_{i} }^{\text{Base di } U\cap W  },u_{i+1},\dots,u_{r} }_{ \text{Base di } U },w_{i+1},\dots,w_{s} \}
+$$
+>[!done] Ora basta dimostrare che $B$ è base di $U+W$
+
+>[!question] Perchè?
+
+Perchè se $B$ è base di $U+W$ allora:
+$$
+\ \text{dim}(U+W) = \text{dim}(B)=r+s-i
+$$
+E otterremo che:
+$$
+\begin{array}
+\ \underbrace{  \text{dim}(U) }_{ r }+\underbrace{ \text{dim}(W) }_{ s } = \underbrace{ \text{dim}(U+W) }_{ r+s-i } +\underbrace{ \text{dim}(U\cap W) }_{ i } \\
+r+s=r+s\cancel{ -i }\cancel{ +i }
+\end{array}
+$$
+
+
+Sia $v_{1},\dots,v_{l}$ una base di $U \cap W$
 Completiamola a una base di $U$
 $$
 v_{1},\dots,v_{l},u_{1},\dots,u_{m}
@@ -107,6 +141,7 @@ Perciò
 #### Esempio
 Nell'[[#Esempio 1]] una base di $U\cap W$ $\{ e_{2} \}$
 - Lo completo ad una base $\{ e_{2},e_{3} \}$ di $W$
+- Lo completo ad una base di $\{ e_{1},e_{2} \}$ di $U$
 
 Ottengo così una base:
 $$

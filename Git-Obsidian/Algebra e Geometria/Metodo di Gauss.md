@@ -114,3 +114,4 @@ L'insieme delle soluzioni è:
 $$
 \{ (4t-s,s,2t,t,0,0 ), t,s \in\mathbb{R}\}
 $$
+

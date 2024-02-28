@@ -274,7 +274,9 @@ E poichè il sistema non ha soluzione, qualsiasi siano $a_{1}$ e $a_{2}$
 ><u>Oppure</u>
 >
 >Dati $n$ vettori $v_{1},v_{2},\dots,v_{n}$ di uno spazio vettoriale $V$ su un campo $\mathbb{K}$ si definisce **Span** l'insieme di tutti i vettori che si possono scrivere come *combinazione lineare* di $v_{1},v_{2},\dots,v_{n}$
->>Lo **span** è un sottospazio vettoriale di $V$ ed è anche chiamato il **sottospazio vettoriale generato** da $v_{1},v_{2},\dots,v_{n}$
+
+
+>Lo **span** è un sottospazio vettoriale di $V$ ed è anche chiamato il **sottospazio vettoriale generato** da $v_{1},v_{2},\dots,v_{n}$
 
 #### Esempio
 >$V = \mathbb{R}^4=\{ (x_{1},x_{2},x_{3},x_{4}),x_{i}\in \mathbb{R} \}$
