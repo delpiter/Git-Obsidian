@@ -109,3 +109,28 @@ Per rappresentare $\pm\infty$, lo standard riserva la combinazione di `BIT`, que
 ![[Pasted image 20240301162330.png]]`
 
 #### Forma Denormalizzata
+>[!tip] Valori Ancora più Piccoli
+>La **forma denormalizzata** consente di rappresentare valori inferiori a $2^{-126}$
+
+Consente di rappresentare valori fino a $2^{-149}$
+Composta nel seguente modo:
+- Tutti i `BIT` dell'*esponente* sono posti a `0`
+- Il `BIT` del *signigicand* a sinistra della virgola binaria è implicitamente posto a `0`
+>[!warning] Questa rappresentazione comporta una progressiva perdita di cifre significative
+
+Il numero più piccolo rappresentabile in questa configurazione è:
+![[Pasted image 20240301181546.png]]
+
+#### NaN
+Per rappresentare questi valori si utilizzano le configurazioni in cui tutti i `BIT` dell'*esponente* sono `1`
+- A differenza di $\pm\infty$ il valore della parte frazionaria è diverso da `0`
+Esistono più tipi di `NaN`
+>[!info] SNaN
+
+Il ***Signaling NaN*** genera un'eccezione non appena viene utilizzato come operando in qualsiasi operazione
+
+
+>[!info] QNaN
+
+Il ***Quiet NaN*** viene propagato nella maggior parte delle operazioni senza generare eccezioni
+

@@ -70,8 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 269.5,
-    "collapsed": true
+    "width": 269.5
   },
   "right": {
     "id": "3561446b8c4d05ef",
@@ -169,6 +168,7 @@
   },
   "active": "dacff9f53e36798e",
   "lastOpenFiles": [
+    "Git-Obsidian/Attatchments/Pasted image 20240301181546.png",
     "Git-Obsidian/Attatchments/Pasted image 20240301162330.png",
     "Git-Obsidian/Attatchments/Pasted image 20240301161903.png",
     "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/Campi e Spazi Vettoriali.md",
@@ -212,7 +212,6 @@
     "Git-Obsidian/Programmazione/Puntatori",
     "Git-Obsidian/Attatchments/Pasted image 20240102165537.png",
     "Git-Obsidian/Attatchments/virtual-address-space-physical-address-extension-memory-management-unit-memory-address-32-bit-5942642b52599a1086c9a0f61fba91c0.png",
-    "Git-Obsidian/Attatchments/Pasted image 20240102164753.jpg",
     "Git-Obsidian/Programmazione/Memoria",
     "Git-Obsidian/Programmazione/Strutture di Controllo",
     "Untitled 2.canvas",
