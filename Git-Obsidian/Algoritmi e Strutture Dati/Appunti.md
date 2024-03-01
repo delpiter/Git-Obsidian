@@ -78,3 +78,23 @@ Obbiettivo
 	\end{algorithmic}
 	\end{algorithm}
 ```
+
+```pseudo
+	\begin{algorithm}
+	\caption{Find Max}
+	\begin{algorithmic}
+	\Procedure{FindMax}{$v[],Max,i$}
+	\If{$i == v.count$}
+	  \Return $ Max $
+	  \Else 
+	 \If{$ v[i+1] > Max  $}
+	  \Return \Call{FindMax}{v,v[i+1],i+1}
+	  \Else 
+		\Return \Call{FindMax}{v,Max, i+1}
+ \EndIf
+ \EndIf
+
+ \EndProcedure
+	\end{algorithmic}
+	\end{algorithm}
+```

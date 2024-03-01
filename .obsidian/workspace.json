@@ -4,71 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "8710716a2c27a247",
+        "id": "dd4906e8fa1402a8",
         "type": "tabs",
         "children": [
           {
-            "id": "73520e2542e89e65",
+            "id": "dacff9f53e36798e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Obsidian/Algebra e Geometria/Metodo di Gauss.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a74fcc9af1480bbb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/Intersezione e Somma di Sottospazi.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "85622757eb0f7ab6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/Campi e Spazi Vettoriali.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f3146b83c54c8a2c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/Teoremi su Spazi Vettoriali.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "03d7c39851ee70e5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/Campi e Spazi Vettoriali.md",
+                "file": "Git-Obsidian/Architettura degli Elaboratori/Rappresentazione dell'Informazione/Numeri Floating-Point.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -119,7 +70,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 269.5
+    "width": 269.5,
+    "collapsed": true
   },
   "right": {
     "id": "3561446b8c4d05ef",
@@ -135,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/Teoremi su Spazi Vettoriali.md",
+                "file": "Git-Obsidian/Architettura degli Elaboratori/Rappresentazione dell'Informazione/Numeri Floating-Point.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/Teoremi su Spazi Vettoriali.md",
+                "file": "Git-Obsidian/Architettura degli Elaboratori/Rappresentazione dell'Informazione/Numeri Floating-Point.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/Teoremi su Spazi Vettoriali.md"
+                "file": "Git-Obsidian/Architettura degli Elaboratori/Rappresentazione dell'Informazione/Numeri Floating-Point.md"
               }
             }
           },
@@ -215,13 +167,16 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "f3146b83c54c8a2c",
+  "active": "dacff9f53e36798e",
   "lastOpenFiles": [
+    "Git-Obsidian/Attatchments/Pasted image 20240301162330.png",
+    "Git-Obsidian/Attatchments/Pasted image 20240301161903.png",
     "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/Campi e Spazi Vettoriali.md",
-    "Git-Obsidian/Algebra e Geometria/Metodo di Gauss.md",
+    "Git-Obsidian/Algoritmi e Strutture Dati/Confronto fra Algoritmi.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Appunti.md",
-    "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/Teoremi su Spazi Vettoriali.md",
     "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/Intersezione e Somma di Sottospazi.md",
+    "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/Teoremi su Spazi Vettoriali.md",
+    "Git-Obsidian/Algebra e Geometria/Metodo di Gauss.md",
     "Git-Obsidian/Markdown Keys.md",
     "Git-Obsidian/Attatchments/Pasted image 20240227171614.png",
     "Git-Obsidian/Architettura degli Elaboratori/Rappresentazione dell'Informazione/Numeri Floating-Point.md",
@@ -230,7 +185,6 @@
     "Git-Obsidian/Architettura degli Elaboratori/Rappresentazione dell'Informazione/Mascherature dei Bit.md",
     "Git-Obsidian/Architettura degli Elaboratori/Rappresentazione dell'Informazione/Il Calcolatore e i Numeri Binari.md",
     "Git-Obsidian/Architettura degli Elaboratori/Rappresentazione dell'Informazione",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Confronto fra Algoritmi.md",
     "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/Forme Parametriche e Cartesiane.md",
     "Git-Obsidian/Algebra e Geometria/Basi dell'algebra",
     "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/Introduzione.md",
@@ -261,7 +215,6 @@
     "Git-Obsidian/Attatchments/Pasted image 20240102164753.jpg",
     "Git-Obsidian/Programmazione/Memoria",
     "Git-Obsidian/Programmazione/Strutture di Controllo",
-    "Git-Obsidian/Attatchments/Diagram.svg",
     "Untitled 2.canvas",
     "Untitled.canvas",
     "Untitled 1.canvas"

@@ -231,3 +231,6 @@ Istanze **grandi uguali** possono avere tempi di esecuzione **molto diversi**
 >[!tip] Caso Medio
 > Il caso medio lo si ha con riferimento ***all'intero universo di input possibili***, lo si può identificare con **metodi statistici**, spesso complessi.
 
+[Graph Editor (csacademy.com)](https://csacademy.com/app/graph_editor)
+
+<Graph indexType="custom" height="400" width="400" nodes={[{label:0,center:{x:190,y:107.2}},{label:1,center:{x:136.3,y:294.6}},{label:2,center:{x:298.2,y:138.6}},{label:3,center:{x:322.8,y:248.5}},{label:4,center:{x:217,y:216.2}},{label:5,center:{x:108.9,y:185.4}},{label:"6",center:{x:242.9,y:325.6}}]} edges={[{source:0,target:4},{source:0,target:5},{source:1,target:4},{source:1,target:5},{source:2,target:3},{source:2,target:4},{source:4,target:5},{source:0,target:2},{source:6,target:4}]} />
