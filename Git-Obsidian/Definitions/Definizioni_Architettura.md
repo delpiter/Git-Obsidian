@@ -69,3 +69,16 @@ Il **firmware** è un software integrato in un componente elettronico in grado d
 > - Secondo lo standard `IEEE 1541` ai prefissi binari andrebbe aggiunta una `i` per evitare confusione
 >>[!example] Esempio
 >>`1024 Bytes` andrebbero indicati come `1 KiB`
+
+## Parity Bit
+---
+>[!info] Definizione
+>Un **`BIT` di parità** o **check `BIT`** è un bit aggiunto ad una stringa di codice binario.
+>Il `BIT` di parità sono generalmente applicati ai protocolli di comunicazione più "*piccoli*", tipicamente a protocolli con 8`BIT` 
+>- Possono comunque essere applicati a messaggi interi
+>>[!done] Funzionamento
+>>Il `BIT` di parità assicura che il numero totale di `BIT` impostati a `1` sia pari o dispari
+>>- Nel numero di `BIT` a `1` viene contato anche il `BIT` di parità
+>>- Di conseguenza il `BIT` di parità viene impostato a `1` solo quando il numero di `BIT` impostati a `1` (escluso il `BIT` di parità) è dispari
+
+
