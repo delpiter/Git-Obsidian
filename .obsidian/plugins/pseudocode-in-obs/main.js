@@ -14428,6 +14428,7 @@ var PseudocodeSuggestor = class extends import_obsidian2.EditorSuggest {
       "\\Procedure{}{}": "\\EndProcedure",
       "\\Function{}{}": "\\EndFunction",
       "\\For{}": "\\EndFor",
+      "\\ForAll{}": "\\EndFor",
       "\\If{}": "\\EndIf",
       "\\While{}": "\\EndWhile"
       // Add more pairs as needed
@@ -14450,6 +14451,7 @@ var PseudocodeSuggestor = class extends import_obsidian2.EditorSuggest {
       "\\Return",
       "\\Print",
       "\\For{}",
+      "\\ForAll{}",
       "\\EndFor",
       "\\If{}",
       "\\Else",
