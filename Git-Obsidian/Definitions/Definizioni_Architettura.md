@@ -82,3 +82,15 @@ Il **firmware** è un software integrato in un componente elettronico in grado d
 >>- Di conseguenza il `BIT` di parità viene impostato a `1` solo quando il numero di `BIT` impostati a `1` (escluso il `BIT` di parità) è dispari
 
 
+## Code Point
+---
+>[!info] Definizione
+>I ***code points*** sono comunemente utilizzati nella codifica di caratteri.
+>Un ***code point*** è un valore numerico che viene mappato ad uno specifico carattere.
+>Nella codifica di caratteri un *code point* rappresenta un ***grafema*** (segno elementare e non ulteriormente divisibile)
+>- Tipicamente una lettera, una cifra o un simbolo di punteggiatura
+
+>[!warning] Nota Bene!
+
+I termini "*code point*" e "*carattere*" non sono sinonimi
+- Alcuni "*caratteri*" sono ottenibili combinando più codepoints
