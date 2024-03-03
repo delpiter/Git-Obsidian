@@ -1,6 +1,8 @@
 > L'immagine di un video è rappresentata tramite una griglia o matrice di **pixel** 
 > (***PI***cture ***EL***ement) di ognuno dei quali è memorizzata l'intensità luminosa e/o il colore
 
+
+![[Pasted image 20240303095436.png]]
 ##### Parametri importanti
 - Dimensione (Risoluzio)
 - Profondità
@@ -41,6 +43,7 @@ Il numero dei colori disponibili è $2^{24}=16.777.216$
 >[!done] Occupazione di memoria
 
 Un'immagine di dimensioni $W\times H$ occupa $W\times H\times3$ `BYTE`
+![[Pasted image 20240303095236.png]]
 
 ### Codifica con un numero *arbitrario* di colori
 >[!info] Sia $N$ il numero di `BIT` per pixel
