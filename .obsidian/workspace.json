@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Obsidian/Architettura degli Elaboratori/Rappresentazione dell'Informazione/Rappresentazione di Immagini.md",
+                "file": "Git-Obsidian/Architettura degli Elaboratori/Storia dei Calcolatori.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7bf98cae0d4401a4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git-Obsidian/Definitions/Definizioni_Architettura.md",
                 "mode": "source",
                 "source": false
               }
@@ -70,7 +82,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 269.5
+    "width": 269.5,
+    "collapsed": true
   },
   "right": {
     "id": "3561446b8c4d05ef",
@@ -86,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Architettura degli Elaboratori/Rappresentazione dell'Informazione/Rappresentazione di Immagini.md",
+                "file": "Git-Obsidian/Architettura degli Elaboratori/Storia dei Calcolatori.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Architettura degli Elaboratori/Rappresentazione dell'Informazione/Rappresentazione di Immagini.md",
+                "file": "Git-Obsidian/Architettura degli Elaboratori/Storia dei Calcolatori.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git-Obsidian/Architettura degli Elaboratori/Rappresentazione dell'Informazione/Rappresentazione di Immagini.md"
+                "file": "Git-Obsidian/Architettura degli Elaboratori/Storia dei Calcolatori.md"
               }
             }
           },
@@ -169,13 +182,14 @@
   },
   "active": "2c2dc106617783e7",
   "lastOpenFiles": [
+    "Git-Obsidian/Definitions/Definizioni_Architettura.md",
+    "Git-Obsidian/Architettura degli Elaboratori/Storia dei Calcolatori.md",
+    "Git-Obsidian/Architettura degli Elaboratori/Rappresentazione dell'Informazione/Rappresentazione di Immagini.md",
     "Git-Obsidian/Attatchments/Pasted image 20240303095436.png",
     "Git-Obsidian/Attatchments/Pasted image 20240303095236.png",
     "Git-Obsidian/Attatchments/Pasted image 20240303095201.png",
     "Git-Obsidian/Architettura degli Elaboratori/Rappresentazione dell'Informazione/Rappresentazione dei Suoni.md",
-    "Git-Obsidian/Architettura degli Elaboratori/Rappresentazione dell'Informazione/Rappresentazione di Immagini.md",
     "Git-Obsidian/Attatchments/Pasted image 20240302162338.png",
-    "Git-Obsidian/Definitions/Definizioni_Architettura.md",
     "Git-Obsidian/Architettura degli Elaboratori/Rappresentazione dell'Informazione/Rappresentazione dei Caratteri.md",
     "Git-Obsidian/Architettura degli Elaboratori/Introduzione alle Basi.md",
     "Git-Obsidian/Architettura degli Elaboratori/Rappresentazione dell'Informazione/Numeri Floating-Point.md",
@@ -204,7 +218,6 @@
     "Git-Obsidian/Definitions/Definizioni_Programmazione.md",
     "Git-Obsidian/Definitions/Definizioni_Analisi.md",
     "Git-Obsidian/Analisi/Insiemi/Insiemi Numerici.md",
-    "Git-Obsidian/Attatchments/Pasted image 20240220175558.png",
     "Git-Obsidian/Algoritmi e Strutture Dati",
     "Git-Obsidian/Architettura degli Elaboratori",
     "Git-Obsidian/Analisi/Concetti Base.md",

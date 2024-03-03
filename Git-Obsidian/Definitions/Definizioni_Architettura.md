@@ -94,3 +94,8 @@ Il **firmware** è un software integrato in un componente elettronico in grado d
 
 I termini "*code point*" e "*carattere*" non sono sinonimi
 - Alcuni "*caratteri*" sono ottenibili combinando più codepoints
+
+## Macchine Turing Complete
+---
+>[!info] Turing Completeness
+>"*Turing Complete*" è un termine utilizzato in informatica per descrivere un sistema o un linguaggio di programmazione che può eseguire qualsiasi calcolo che la macchina di Turing poteva fare
