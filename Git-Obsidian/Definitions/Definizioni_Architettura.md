@@ -8,7 +8,7 @@ Il **software** è l’insieme delle istruzioni e delle informazioni necessarie 
 
 - Il software **richiede** un apposito hardware per essere eseguito, **viceversa** l’hardware è pressoché inutile se non si dispone di un apposito software che ne sfrutti le potenzialità
 
-- Programmare un calcolatore significa scrivere la sequenza di istruzioni ([[Git-Obsidian/Algoritmi e Strutture Dati/Appunti|Appunti]]) necessaria a risolvere un problema. 
+- Programmare un calcolatore significa scrivere la sequenza di istruzioni ([[Problemi e Algoritmi#Algoritmo|Algoritmo]]) necessaria a risolvere un problema. 
 >[!info] Firmware
 Il **firmware** è un software integrato in un componente elettronico in grado di **avviare** il componente stesso e di farlo **interagire** con altri componenti.
 

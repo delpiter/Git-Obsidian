@@ -4,34 +4,59 @@
     "type": "split",
     "children": [
       {
-        "id": "dd4906e8fa1402a8",
+        "id": "b07d5974ff45432c",
         "type": "tabs",
         "children": [
           {
-            "id": "2c2dc106617783e7",
+            "id": "9bfb929b2aa91042",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Obsidian/Architettura degli Elaboratori/Storia dei Calcolatori.md",
+                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Appunti.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "7bf98cae0d4401a4",
+            "id": "d16e3c1acc9182c6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Obsidian/Definitions/Definizioni_Architettura.md",
+                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Confronto fra Algoritmi/Notazioni.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "730b2442099e8acd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Confronto fra Algoritmi/Complessità di Algoritmi.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5d6a904c2024fe01",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Confronto fra Algoritmi/Confronto e Pseudocodice.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -82,8 +107,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 269.5,
-    "collapsed": true
+    "width": 269.5
   },
   "right": {
     "id": "3561446b8c4d05ef",
@@ -99,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Architettura degli Elaboratori/Storia dei Calcolatori.md",
+                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Confronto fra Algoritmi/Notazioni.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Architettura degli Elaboratori/Storia dei Calcolatori.md",
+                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Confronto fra Algoritmi/Notazioni.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git-Obsidian/Architettura degli Elaboratori/Storia dei Calcolatori.md"
+                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Confronto fra Algoritmi/Notazioni.md"
               }
             }
           },
@@ -180,10 +204,18 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "2c2dc106617783e7",
+  "active": "d16e3c1acc9182c6",
   "lastOpenFiles": [
     "Git-Obsidian/Definitions/Definizioni_Architettura.md",
+    "Git-Obsidian/Algoritmi e Strutture Dati/Confronto fra Algoritmi/Notazioni.md",
+    "Git-Obsidian/Algoritmi e Strutture Dati/Appunti.md",
+    "Git-Obsidian/Algoritmi e Strutture Dati/Confronto fra Algoritmi/Complessità di Algoritmi.md",
+    "Git-Obsidian/Algoritmi e Strutture Dati/Confronto fra Algoritmi/Confronto e Pseudocodice.md",
+    "Git-Obsidian/Algoritmi e Strutture Dati/Confronto fra Algoritmi",
+    "Git-Obsidian/Algoritmi e Strutture Dati/Problemi e Algoritmi.md",
+    "Git-Obsidian/Architettura degli Elaboratori/Introduzione alle Basi.md",
     "Git-Obsidian/Architettura degli Elaboratori/Storia dei Calcolatori.md",
+    "Git-Obsidian/Architettura degli Elaboratori/Appunti.md",
     "Git-Obsidian/Architettura degli Elaboratori/Rappresentazione dell'Informazione/Rappresentazione di Immagini.md",
     "Git-Obsidian/Attatchments/Pasted image 20240303095436.png",
     "Git-Obsidian/Attatchments/Pasted image 20240303095236.png",
@@ -191,14 +223,11 @@
     "Git-Obsidian/Architettura degli Elaboratori/Rappresentazione dell'Informazione/Rappresentazione dei Suoni.md",
     "Git-Obsidian/Attatchments/Pasted image 20240302162338.png",
     "Git-Obsidian/Architettura degli Elaboratori/Rappresentazione dell'Informazione/Rappresentazione dei Caratteri.md",
-    "Git-Obsidian/Architettura degli Elaboratori/Introduzione alle Basi.md",
     "Git-Obsidian/Architettura degli Elaboratori/Rappresentazione dell'Informazione/Numeri Floating-Point.md",
     "Git-Obsidian/Attatchments/Pasted image 20240301181546.png",
     "Git-Obsidian/Attatchments/Pasted image 20240301162330.png",
     "Git-Obsidian/Attatchments/Pasted image 20240301161903.png",
     "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/Campi e Spazi Vettoriali.md",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Confronto fra Algoritmi.md",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Appunti.md",
     "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/Intersezione e Somma di Sottospazi.md",
     "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/Teoremi su Spazi Vettoriali.md",
     "Git-Obsidian/Algebra e Geometria/Metodo di Gauss.md",
@@ -213,21 +242,16 @@
     "Git-Obsidian/Algebra e Geometria/Basi dell'algebra",
     "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/Introduzione.md",
     "Git-Obsidian/Analisi/Funzioni/Funzioni di una variabile Reale.md",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Problemi e Algoritmi.md",
-    "Git-Obsidian/Architettura degli Elaboratori/Appunti.md",
     "Git-Obsidian/Definitions/Definizioni_Programmazione.md",
     "Git-Obsidian/Definitions/Definizioni_Analisi.md",
     "Git-Obsidian/Analisi/Insiemi/Insiemi Numerici.md",
     "Git-Obsidian/Algoritmi e Strutture Dati",
     "Git-Obsidian/Architettura degli Elaboratori",
-    "Git-Obsidian/Analisi/Concetti Base.md",
-    "Git-Obsidian/Analisi/Insiemi/Numeri Complessi.md",
     "Git-Obsidian/Algebra e Geometria",
     "Git-Obsidian/Programmazione.zip",
     "Git-Obsidian/Programmazione/I File",
     "Git-Obsidian/Programmazione/Puntatori",
     "Git-Obsidian/Programmazione/Memoria",
-    "Git-Obsidian/Programmazione/Strutture di Controllo",
     "Untitled 2.canvas",
     "Untitled.canvas",
     "Untitled 1.canvas"
