@@ -46,3 +46,103 @@ Costituito da $18000$ valvole e $3000$ relè
 
 Queste macchine sono tutte [[Definizioni_Architettura#Macchine Turing Complete|Turing Complete]]
 
+### IAS - 1952
+Denominata macchina di **Von Neumann** rappresenta uno dei più importanti punti di riferimento dell'ingegneria informatica
+- La sua *architettura* è tuttora alla base della maggior parte dei *calcolatori digitali*
+- L'idea fondamentale è quella di memorizzare anche i *programmi*, riducendo i tempi di programmazione
+
+### IBM 701 - 1953
+È il primo computer prodotto da *IBM* 
+- *IBM* diventò nei dieci anni seguenti, leader del mercato.
+
+
+## Generazione $II$
+---
+>[!info] Transistor
+>Il ***transistor*** fu inventato nel 1948 ai Bell Labs e fruttò ai suoi inventori il premio Nobel per la Fisica
+>Un transistor è un semiconduttore usato per amplificare o alternare segnali elettrici
+>- È uno dei componenti base per la costruzione di dispositivi elettronici
+
+### PDP
+#### PDP-1 1960
+Prodotta dalla *DEC* rappresenta il primo ***minicalcolatore***
+- Il progetto basa il suo punto di forza non tanto sulla potenza ma sul prezzo
+	- Infatti il **PDP-1** era oltre 10 volte meno costoso della macchina più potente di quel momento
+	- Era solo due volte più lento
+- Era dotato di un *display grafico*, venne sviluppato il primo ***videogioco*** della storia: ***Spacewar***
+
+#### PDP-8 1965
+Molto più economico della versione precedente
+- Presenta una grande innovazione: Il ***BUS***
+
+>[!tip] `BUS`
+>Il `BUS` è un insieme di fili usato per collegare i componenti di un calcolatore
+
+### CDC 6600 - 1964
+Realizzato dalla CDC (*Control Data Corporation*)
+- Rappresenta la prima macchina parallela della storia
+- Al suo interno coesistevano *diverse unità funzionali* preposte a compiti diversi
+- **Dieci volte più potente** della macchina più veloce del tempo
+
+### Elea 9003 - 1957/1959
+In questo periodo, l'italiana *Olivetti*
+- Sotto la guida di Adriano
+- Sviluppò uno dei primi mainframe computer a transistor
+- *Olivetti* era un'azienda molto innovativa e temuta dalle grandi aziende come *IBM*
+
+### Programma-101 1965
+Considerato il primo *desktop coputer programmabile*
+- Ebbe molto successo e la NASA ne acquistò 45
+
+## Generazione $III$
+---
+>[!info] Circuiti Integrati
+> Un ***circuito integrato*** è un piccolo dispositivo elettronico costituito da numerosi componenti elettronici *interconnessi*, come transistor, resistor e capacitor.
+> Permisero di inserire dozzine di transistor in una singola piastra di silicio
+> - Favorirono la costruzione di calcolatori più piccoli, veloci e meno costosi
+
+### IBM 360 - 1962
+Rappresenta la prima famiglia di calcolatori
+- Esistevano 4 modelli con prestazioni via via crescenti
+- Importante innovazione è la ***Multiprogrammazione***
+
+>[!tip] Multiprogrammazione
+>Possibilità di avere più programmi in memoria, cosicché, mentre si aspettava il completamento dell'input/output, si poteva eseguire un altro programma
+
+## Generazione $IV$
+---
+>[!info] Very Large Scale Integration
+>Nel 1970 *Intel* progetta il primo microprocessore della storia, **Intel 4004**, progenitore della famiglia `x86`
+>I progressi della tecnologia hanno permesso di integrare su un singolo chip un numero sempre crescente di transistor
+>- Una `CPU` moderna ne contiene circa 10 miliardi
+>- Riducendo enormemente il costo dei calcolatori
+>	- Inizia l'era dei **personal computer**
+
+- Uno dei passi più grandi nel campo dell'informatica è stato il passaggio dell'architettura da `32` a `64 BIT` 
+### IBM 5150 - 1981 
+Primo personal computer con `CPU` Intel 8088 e sistema operativo `MS-DOS`
+- Raggiungerà una diffusione enorme
+
+### Altre Società
+Sorsero numerose altre società tra cui:
+>[!tip] Commodore
+
+Il Commodore 64 è il modello di computer più venduto al mondo
+- Ne furono venduti più di 10 milioni di esemplari in tutto il mondo solo nel 1986
+
+>[!tip] Apple
+
+L'unica società che è sopravvissuta, grazie al successo del Macintosh
+- Primo computer con una `GUI` simile a quelle odierne
+
+## Generazione $V$
+---
+>[!info] Computer invisibili
+>Quella che possiamo oggi definire la generazione $V$ di computer è legata soprattutto alle **forti riduzioni di dimensioni** e **integrazioni in altri oggetti**
+
+### Sistemi Embedded
+Sono i cosiddetti "**computer invisibili**" in quanto integrati all'interno di altri apparati
+- Elettrodomestici
+- Giocattoli
+- Orologi
+- Carte di Credito
