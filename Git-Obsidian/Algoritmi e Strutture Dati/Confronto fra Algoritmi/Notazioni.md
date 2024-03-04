@@ -1,4 +1,42 @@
-## O Grande
+## Ordini di Grandezza
+---
+```functionplot
+---
+title: Crescita Funzioni
+xLabel: 
+yLabel: 
+bounds: [0,10,0,50]
+disableZoom: true
+grid: true
+---
+f(x)=2^x
+g(x)=x^3
+q(x)=x^2
+t(x)=x*log(x)
+y(x)=x
+j(x)=log(x)
+b(x) = 1
+```
+
+1. $O(1)$
+2. $O(log(n))$
+3. $O(n)$
+4. $O(n\cdot log(n))$
+5. $O(n^k)$
+6. $O(C^n)$
+7. $O(n^n),O(n!)$
+
+>[!done] Trattabile 
+Un [[Problemi e Algoritmi#Problemi|problema]] con una soluzione algoritmica di complessità polinomiale si dice ***trattabile***
+
+>[!warning] Intrattabile
+>Un [[Problemi e Algoritmi#Problemi|problema]] con una soluzione algoritmica  maggiore di una polinomiale si dice ***intrattabile***
+
+>[!danger] Insolubile
+> Un [[Problemi e Algoritmi#Problemi|problema]] di cui non si conosce algoritmo che lo risolva si dice ***insolubile***
+
+
+## $O$-Notation
 ---
 Concetto simile a quello di [[Resto di Peano|o piccolo]] in matematica
 La dimensione del [[Complessità di Algoritmi#Tempo di Esecuzione|problema]] per $\text{Example 1}$ è il numero di interi in input
@@ -20,14 +58,14 @@ $f(x) = x^3+6x^2+9x+10$
 $$O(f(x)) = O(x^3)$$
 Un algoritmo $O(n^3)$ non può essere usato per istanze molto grandi, mentre un algoritmo $O(n)$ è utilizzabile per istanze di dati molto grandi
 #### Crescita delle Funzioni
->[!info] Definizione
->La notazione $O-Grande$ caratterizza un limite superiore nel comportamento asintotico di una funzione
+>[!info] Definizione Testuale
+>La notazione $O-Grande$ caratterizza un *limite superiore* nel comportamento asintotico di una funzione
 >>[!done] In altre parole
 >>Questa notazione dice che una funzione cresce non più di un certo ritmo, basato sul termine di grado massimo.
 
->[!info]
+>[!info] $O$ Grande
 >La crescita delle funzioni può essere descritta con la notazione ***O Grande***
->>[!tip] Definizione
+>>[!tip] Definizione Rigorosa
 >>Siano $f$ e $g$ due funzioni da $\mathbb{R}$ a $\mathbb{R}$
 >>Diciamo che $f(x)$ è $O(g(x))$ se esistono due costanti $C$ e $K$ tali per cui 
 >>$$f(x)\leq C\cdot g(x)$$ quando $x>k$
@@ -46,3 +84,35 @@ $$
 - Quindi per $C=4$ e $K=1:f(x)\leq Cx^2$ quando $x>k$
 - $f(x)$ è $O(x^2)$
 
+## $\Omega$-Notation
+---
+>[!info] Definizione Testuale
+>La notazione $\Omega$ grande caratterizza un *limite inferiore* nel comportamento asintotico di una funzione
+>>[!done] In altre parole
+>>Questa notazione dice che una funzione cresce al massimo veloce come un certo ritmo, basato come la notazione-$O$ sul termine di grado massimo
+
+>[!info] $\Omega$ Grande
+>L'opposto della notazione $O$ Grande
+>>[!tip] Definizione
+>>Siano $f$ e $g$ due funzioni da $\mathbb{R}$ a $\mathbb{R}$
+>>Diciamo che $f(x)$ è $\Omega(g(x))$ se esistono due costanti $c_{1}$ e $n_{0}$ tali per cui 
+>>$$f(x)\geq c_{1}\cdot g(x)$$ quando $x>n_{0}$
+
+## $\Theta$-Notation
+---
+
+>[!info] Definizione Testuale
+>La notazione $\Theta$ grande caratterizza un *limite superiore e inferiore* nel comportamento asintotico di una funzione.
+>>[!done] In altre parole
+>>Questa notazione dice che una funzione cresce *precisamente* ad un certo ritmo, basato, nuovamente sul termine di grado maggiore
+>
+>>[!done] Per dirlo in un altro modo
+>>La notazione caratterizza la crescita di una funzione fra un fattore costante *superiormente* e un fattore costante *inferiormente* 
+>>Questi due fattori ***devono essere diversi***
+
+>[!info] $\Theta$ grande
+>Approssimazione stretta sia $O$ grande che $\Omega$ grande
+>>[!tip] Definizione
+>>Siano $f$ e $g$ due funzioni da $\mathbb{R}$ a $\mathbb{R}$
+>>Diciamo che $f(x)$ è $\Theta(g(x))$ se esistono tre costanti $c_{1},c_{2},n_{0}$ tali per cui 
+>>$$c_{1}g(n)\leq f(n)\leq c_{2}g(n)$$ quando $n \geq n_{0}$

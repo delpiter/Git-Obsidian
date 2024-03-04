@@ -1,45 +1,5 @@
 # `26/02/2024
 ## Crescita delle funzioni
-
-```functionplot
----
-title: Crescita Funzioni
-xLabel: 
-yLabel: 
-bounds: [0,10,0,50]
-disableZoom: true
-grid: true
----
-f(x)=2^x
-g(x)=x^3
-q(x)=x^2
-t(x)=x*log(x)
-y(x)=x
-j(x)=log(x)
-```
-### Ordini di Grandezza
-- $O(1)$
-- $O(log(n))$
-- $O(n)$
-- $O(n\cdot log(n))$
-- $O(n^k)$
-- $O(C^n)$
-- $O(n^n),O(n!)$
-
-- un problema con una soluzione algoritmica di complessità polinomiale si dice **trattabile**
-- Complessità maggiore **intrattabile**
-- Non si conosce algoritmo che risolva **insolubile**
-
-### $\Omega$ grande
-
->[!info]
->L'opposto della notazione $O$ Grande
->>[!tip] Definizione
->>Siano $f$ e $g$ due funzioni da $\mathbb{R}$ a $\mathbb{R}$
->>Diciamo che $f(x)$ è $\Omega(g(x))$ se esistono due costanti $c_{1}$ e $n_{0}$ tali per cui 
->>$$f(x)\geq c_{1}\cdot g(x)$$ quando $x>n_{0}$
->
-
 ### $\Theta$ Grande
 
 >[!info] teta grande
