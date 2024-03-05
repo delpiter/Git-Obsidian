@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Grafi/Gli Alberi.md",
+                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento/Problema dell'Ordinamento.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Grafi/Gli Alberi.md",
+                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento/Problema dell'Ordinamento.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Grafi/Gli Alberi.md",
+                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento/Problema dell'Ordinamento.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Grafi/Gli Alberi.md"
+                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento/Problema dell'Ordinamento.md"
               }
             }
           },
@@ -169,8 +169,11 @@
   },
   "active": "c47f63f8b6986c5a",
   "lastOpenFiles": [
-    "Git-Obsidian/Algoritmi e Strutture Dati/Grafi/I Grafi.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Grafi/Gli Alberi.md",
+    "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento/Problema dell'Ordinamento.md",
+    "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento",
+    "Git-Obsidian/Architettura degli Elaboratori/Rappresentazione dell'Informazione/Rappresentazione dei Suoni.md",
+    "Git-Obsidian/Algoritmi e Strutture Dati/Grafi/I Grafi.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Appunti.md",
     "Git-Obsidian/Attatchments/Pasted image 20240305172338.png",
     "Git-Obsidian/Attatchments/Pasted image 20240305170848.png",
@@ -195,7 +198,6 @@
     "Git-Obsidian/Architettura degli Elaboratori/Storia dei Calcolatori.md",
     "Git-Obsidian/Architettura degli Elaboratori/Appunti.md",
     "Git-Obsidian/Architettura degli Elaboratori/Rappresentazione dell'Informazione/Rappresentazione di Immagini.md",
-    "Git-Obsidian/Architettura degli Elaboratori/Rappresentazione dell'Informazione/Rappresentazione dei Suoni.md",
     "Git-Obsidian/Architettura degli Elaboratori/Rappresentazione dell'Informazione/Rappresentazione dei Caratteri.md",
     "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/Campi e Spazi Vettoriali.md",
     "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/Intersezione e Somma di Sottospazi.md",
@@ -209,13 +211,11 @@
     "Git-Obsidian/Algebra e Geometria/Basi dell'algebra",
     "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/Introduzione.md",
     "Git-Obsidian/Analisi/Funzioni/Funzioni di una variabile Reale.md",
-    "Git-Obsidian/Definitions/Definizioni_Programmazione.md",
     "Git-Obsidian/Algoritmi e Strutture Dati",
     "Git-Obsidian/Architettura degli Elaboratori",
     "Git-Obsidian/Algebra e Geometria",
     "Git-Obsidian/Programmazione.zip",
     "Git-Obsidian/Programmazione/I File",
-    "Git-Obsidian/Programmazione/Puntatori",
     "Untitled 2.canvas",
     "Untitled.canvas",
     "Untitled 1.canvas"
