@@ -1,13 +1,4 @@
 # `26/02/2024
-## Crescita delle funzioni
-### $\Theta$ Grande
-
->[!info] teta grande
->Approssimazione stretta sia o grande che omega grande
->>[!tip] Definizione
->>Siano $f$ e $g$ due funzioni da $\mathbb{R}$ a $\mathbb{R}$
->>Diciamo che $f(x)$ è $\Theta(g(x))$ se esistono tre costanti $c_{1},c_{2},n_{0}$ tali per cui 
->>$$c_{1}g(n)\leq f(n)\leq c_{2}g(n)$$ quando $n \geq n_{0}$
 
 ## Analisi asintotica
 Obbiettivo

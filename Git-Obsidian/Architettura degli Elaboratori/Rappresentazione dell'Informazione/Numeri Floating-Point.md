@@ -62,16 +62,16 @@ $$
 >- Formato a **doppia precisione**
 
 
-| Elemento                        | Singola Precisione               | Doppia Precisione                |
-| ------------------------------- | -------------------------------- | -------------------------------- |
-| `BIT` di segno                  | $1$                              | $1$                              |
-| `BIT` per l'esponente           | $8$                              | $11$                             |
-| `BIT` nella parte frazionaria   | $23$                             | $52$                             |
-| Numero totale di `BIT`          | $32$                             | $64$                             |
-| Rappresentazione dell'esponente | Eccesso $127$                    | Eccesso $1023$                   |
-| Campo dell'esponente            | Da $-126$ a $127$                | Da $-1022$ a $1023$              |
-| Numero più vicino allo $0$      | $2^{-126} \approx 10^{-38}$      | $2^{-1022}\approx 10^{-308}$     |
-| Numero più grande               | $\approx 2^{128}\approx 10^{38}$ | $\approx 2^1024\approx 10^{308}$ |
+| Elemento                        | Singola Precisione               | Doppia Precisione                  |
+| ------------------------------- | -------------------------------- | ---------------------------------- |
+| `BIT` di segno                  | $1$                              | $1$                                |
+| `BIT` per l'esponente           | $8$                              | $11$                               |
+| `BIT` nella parte frazionaria   | $23$                             | $52$                               |
+| Numero totale di `BIT`          | $32$                             | $64$                               |
+| Rappresentazione dell'esponente | Eccesso $127$                    | Eccesso $1023$                     |
+| Campo dell'esponente            | Da $-126$ a $127$                | Da $-1022$ a $1023$                |
+| Numero più vicino allo $0$      | $2^{-126} \approx 10^{-38}$      | $2^{-1022}\approx 10^{-308}$       |
+| Numero più grande               | $\approx 2^{128}\approx 10^{38}$ | $\approx 2^{1024}\approx 10^{308}$ |
 
 > Lo standard prevede di rappresentare i numeri in forma normalizzata e non normalizzata
 
