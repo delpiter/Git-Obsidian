@@ -24,3 +24,22 @@
 >Ad ogni passo ho una sottosequenza ordinata in cui inserisco un nuovo elemento dell'input
 
 ![[Pasted image 20240306181155.png]]
+Si considera il primo elemento dell'insieme da solo come *ordinato*
+- Prendo il primo elemento della sottosequenza non ordinata e lo inserisco nel sottoinsieme già ordinato
+
+## Costo Computazionale
+---
+$$
+T(n)=c_{1}n+c_{2}(n-1)+c_{3}(n-1)+c_{4}\sum_{i=1}^nt_{j}+(c_{5}+c_{6})\sum_{i=1}^n(t_{j}-1)+c_{7}(n-1)
+$$
+- $t_{j}\to$ Numero di esecuzione istruzione while, **dipende dai dati in *input***
+
+>[!done] Caso Ottimo
+>L'array è già ordinato
+>$t_{j}=1 \implies T(n)=an+b\to \Theta(n)$ 
+>
+
+>[!danger] Caso Pessimo
+>L'array è ordinato in maniera decrescente
+>$t_{j}=j \implies T(n)=an^2+bn+c\to \Theta(n^2)$
+
