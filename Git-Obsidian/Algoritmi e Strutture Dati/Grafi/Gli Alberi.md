@@ -27,3 +27,5 @@
 >[!info] Arborescenza
 >Una *arborescenza* è un albero in un grafo orientato
 >L'orientamento deve essere sempre diretta verso i nodi foglia
+
+### Albero Binario
