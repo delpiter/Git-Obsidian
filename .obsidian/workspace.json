@@ -26,7 +26,7 @@
               "type": "markdown",
               "state": {
                 "file": "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento/Merge Sort.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -68,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -135,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento/Merge Sort.md",
+                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento/Insertion Sort.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento/Merge Sort.md",
+                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento/Insertion Sort.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento/Merge Sort.md"
+                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento/Insertion Sort.md"
               }
             }
           },
@@ -216,13 +216,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "d871609c69f64759",
+  "active": "dfb0762cbbc42ca3",
   "lastOpenFiles": [
-    "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento/Untitled.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento/Merge Sort.md",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento/Insertion Sort.md",
-    "Git-Obsidian/Attatchments/Pasted image 20240307110009.png",
     "Git-Obsidian/Algoritmi e Strutture Dati/Divide et Impera.md",
+    "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento/Insertion Sort.md",
+    "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento/Untitled.md",
+    "Git-Obsidian/Attatchments/Pasted image 20240307110009.png",
     "Git-Obsidian/Algoritmi e Strutture Dati/Confronto fra Algoritmi/Complessità di Algoritmi.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Confronto fra Algoritmi/Confronto e Pseudocodice.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento/Problema dell'Ordinamento.md",
