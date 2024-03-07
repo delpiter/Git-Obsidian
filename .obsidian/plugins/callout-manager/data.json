@@ -1,7 +1,22 @@
 {
   "callouts": {
     "custom": [],
-    "settings": {}
+    "settings": {
+      "tip": [
+        {
+          "changes": {
+            "icon": "lucide-boxes"
+          }
+        }
+      ],
+      "important": [
+        {
+          "changes": {
+            "icon": "lucide-bookmark-check"
+          }
+        }
+      ]
+    }
   },
   "calloutDetection": {
     "obsidianFallbackForced": false,

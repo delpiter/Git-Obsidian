@@ -99,3 +99,18 @@ I termini "*code point*" e "*carattere*" non sono sinonimi
 ---
 >[!info] Turing Completeness
 >"*Turing Complete*" è un termine utilizzato in informatica per descrivere un sistema o un linguaggio di programmazione che può eseguire qualsiasi calcolo che la macchina di Turing poteva fare
+
+## Ordinamento dei `BYTE`
+---
+>Quando una word contiene più di un `BYTE` si pone il problema di come enumerare i `BYTE` al suo interno, come rappresentare i numeri binari che sono memorizzati su più `BYTE`
+
+>[!info] Big Endian
+>Il `BYTE` più significativo del numero è memorizzato nel `BYTE`della word con offset minore
+
+>[!info] Little Endian
+>Il `BYTE` meno significativo del numero è memorizzato nel `BYTE` della parola con offset minore
+>Questa rappresentazione è utilizzata dai processori *Intel* e *Alpha **RISC***
+>Nell'*indirizzo più basso* di memoria inserisco la parte *meno significativa* della word
+>- Parte di numero più "*bassa*"$\to$ Indirizzo di memoria più "*basso*"
+>- Parte di numero più "alta"$\to$ Indirizzo di memoria più "*alto*"
+

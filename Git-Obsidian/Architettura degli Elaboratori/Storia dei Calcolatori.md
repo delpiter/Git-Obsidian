@@ -122,6 +122,7 @@ Rappresenta la prima famiglia di calcolatori
 ### IBM 5150 - 1981 
 Primo personal computer con `CPU` Intel 8088 e sistema operativo `MS-DOS`
 - Raggiungerà una diffusione enorme
+- Unica differenza è il bus a 8 `BIT` rispetto al bus a 16 `BIT`  dell'8086
 
 ### Altre Società
 Sorsero numerose altre società tra cui:
