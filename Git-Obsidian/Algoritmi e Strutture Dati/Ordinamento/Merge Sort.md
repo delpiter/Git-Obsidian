@@ -52,3 +52,25 @@
 
 Ideato da *John Von Neumann* nel 1945
 - Implementato come algoritmo di *ordinamento standard* nelle librerie di alcuni linguaggi
+
+>[!info] Dividi
+
+Se $S$ contiene almeno due elementi (un solo elemento è banalmente già ordinato)
+- Rimuovi tutti gli elementi da $S$ e inseriscili in due vettori $S_{1},S_{2}$
+- Ognuno dei quali contiene circa la metà degli elementi di $S$
+
+>[!tip] Risolvi
+
+Ordina gli elementi in $S_{1},S_{2}$ utilizzando il metodo `MergeSort` (ricorsione)
+- Considerando l'*Istanza Banale* una istanza di uno o due elementi
+
+>[!done] Combina
+
+Metti insieme gli elementi di $S_{1},S_{2}$ ottenendo un unico vettore $S$ *ordinato*
+
+### Operazione di Merge
+> L'operazione di Merge è quella che effettivamente va a ordinare i singoli elementi
+
+Si controllano i numeri coppia a coppia nei due sottoarray
+- Il più piccolo fra i due viene "spostato" dal sottoarray all'array originale
+- Continua fino a che i due vettori sono svuotati
