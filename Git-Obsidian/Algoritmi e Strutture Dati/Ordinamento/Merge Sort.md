@@ -68,9 +68,20 @@ Ordina gli elementi in $S_{1},S_{2}$ utilizzando il metodo `MergeSort` (ricorsio
 
 Metti insieme gli elementi di $S_{1},S_{2}$ ottenendo un unico vettore $S$ *ordinato*
 
+![[Pasted image 20240307110009.png]]
+
 ### Operazione di Merge
 > L'operazione di Merge è quella che effettivamente va a ordinare i singoli elementi
 
-Si controllano i numeri coppia a coppia nei due sottoarray
-- Il più piccolo fra i due viene "spostato" dal sottoarray all'array originale
-- Continua fino a che i due vettori sono svuotati
+Si controllano i numeri coppia a coppia nei due sottovettori
+- Il più piccolo fra i due viene "*spostato*" dal **sottovettori**, all'**vettore ordinato**
+- Continua fino a che i due sottovettori sono svuotati
+
+## Costo Computazionale
+---
+$$
+T(n)=2T(n/2)+\Theta(n) = \Theta(nlog(n))
+$$
+La *complessità* del **Merge Sort** non dipende dalla *configurazione iniziale* dell'array
+- Di conseguenza la complessità è la stessa nei casi *ottimo*, *pessimo* e *medio*
+
