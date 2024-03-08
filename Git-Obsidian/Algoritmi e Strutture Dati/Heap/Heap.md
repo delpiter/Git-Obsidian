@@ -18,6 +18,6 @@ Considerando la radice dell'albero come la posizione 1
 	- $\text{left-child}(i) =$ posizione $2i$
 	- $\text{right-child}(i) =$ posizione $2i+1$
 - $\text{parent}(i)=\lfloor \frac{i}{2}\rfloor$
-### Heapify
+### Heapifyp
 >[!info] Definizione
 >***Heapify*** è il processo di creazione di una struttura dati heap 
