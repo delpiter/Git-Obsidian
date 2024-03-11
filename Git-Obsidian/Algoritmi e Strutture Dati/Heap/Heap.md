@@ -67,7 +67,7 @@ Nel caso pessimo il nodo si sposta fino ad *arrivare alle foglie*
 
 Si può assumere che **metà** del vettore è ***già un heap*** corretto (da *destra* a *sinistra*)
 - Poiché elementi singoli possono essere considerati come *heap*
-- Inoltre la metà dei nodi in un *albero binario quasi completo* sono **foglie**
+- La metà dei nodi in un *albero binario quasi completo* sono **foglie**
 
 #### Pseudocodice
 ```pseudo
@@ -83,3 +83,47 @@ Si può assumere che **metà** del vettore è ***già un heap*** corretto (da *d
 	\end{algorithmic}
 	\end{algorithm}
 ```
+
+## Priority Queue
+---
+>[!info] Struttura 
+>>[!tip] Dati
+>>Un insieme di *elementi*, ognuno dei quali ha una ***chiave*** (per esempio un intero)
+>
+>>[!tip] Operazioni
+>>- Inserimento
+>>- Trova il Massimo
+>>- Estrazione del Massimo
+>
+>>[!done] Applicazioni
+>>- *Job Scheduling*
+>>- *Event Driven Simulations*
+
+
+### Implementazione con Vettore
+>Soluzione con *Vettore Ordinato*
+
+- Ricerca Massimo: $\Theta(1)$ operazioni
+- Estrazione Massimo: $\Theta(1)$ operazioni
+- Inserimento: $\Theta(n)$ operazioni
+
+>Soluzione con *Vettore non Ordinato*
+
+
+- Ricerca Massimo: $\Theta(n)$ operazioni
+- Estrazione Massimo: $\Theta(n)$ operazioni
+- Inserimento: $\Theta(1)$ operazioni
+
+### Implementazione con Heap
+>[!example] *Heap PQ*
+>- Ricerca Massimo: $\Theta(1)$ operazioni
+>- Estrazione Massimo: $\Theta(log(n))$ operazioni
+>- Inserimento: $\Theta(log(n))$ operazioni
+
+>[!question] È Vantaggioso?
+
+In termini algoritmici
+- Sostituire una funzione costante ($\Theta(1)$) con una funzione logaritmica ($\Theta(log(n))$)
+- Sostituire una funzione lineare ($\Theta(n)$) con una funzione logaritmica ($\Theta(log(n))$) e 
+
+È vantaggioso 
