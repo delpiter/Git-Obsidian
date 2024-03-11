@@ -40,3 +40,39 @@
 
 Altri `BIT` sono dedicati alla [[IA-32#Modalità Operative|modalità operativa]] e a particolati **modalità di funzionamento**
 - Come esecuzione *step by step* o *interrupt*
+
+## Organizzazione della Memoria
+---
+>[!tip] Costruzione di Indirizzi nelle diverse Modalità Operative
+
+Il processore `8086` originale (`16 BIT`) poteva gestire fino a `1MB RAM`
+- 16 `BIT` potevano gestire fino a `65.536` indirizzi di memoria
+- $1MB\geq 65536$
+
+>[!question] Come poteva indirizzare tutte le celle di memoria?
+
+
+### Real
+Venivano combinati due registri a `16 BIT` (`CS`, `DS`, `...`) per ottenere un singolo ***indirizzo a `20 BIT`***
+- Non è supportata la *paginazione*
+### Virtual $8086$
+L'*indirizzo* a `20 BIT` viene determinato come nella ***modalità real***
+- Il *sistema operativo* è in grado di trasformarlo in un *indirizzo* a `32 BIT` 
+- È supportata la paginazione
+
+### Protected
+Un registro di segmento a `16 BIT` è combinato con un indirizzo a `32 BIT`
+- Supporta il modello di ***memoria segmentato*** o **flat** con *paginazione*
+
+![[Pasted image 20240311180226.png]]
+### $\text{x}64$ Compatibility Mode
+L'indirizzo a `32 BIT` viene determinato come nella modalità *protected*
+- Convertito poi a `64 BIT` considerando i 32 `BIT` alti pari a zero
+- Gli indirizzi virtuali a `64 BIT` sono convertiti in indirizzi fisici mediante paginazione
+
+### $64$ `BIT` Mode
+I principali registri di segmento (`CS`,`DS`,`ES`,`SS`) sono sostanzialmente ignorati
+- Il modello di memoria è **flat** 
+- Gli indirizzi virtuali a `64 BIT` sono convertiti in indirizzi fisici mediante paginazione
+
+![[Pasted image 20240311181401.png]]

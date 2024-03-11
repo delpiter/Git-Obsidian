@@ -51,3 +51,19 @@ Obbiettivo
 ```
 
 [Graph Editor (csacademy.com)](https://csacademy.com/app/graph_editor)
+
+
+
+```functionplot
+---
+title: Relazione di Ordine Parziale
+xLabel: 
+yLabel: 
+bounds: [0,25,0,25]
+disableZoom: true
+grid: true
+---
+f(x) = x
+g(x) = x^2
+c(x) = x^(1+sin(x))
+```

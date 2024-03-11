@@ -14,6 +14,7 @@
 ### Ordinamento in Place
 >[!info] Definizione
 >L'algoritmo permuta gli elementi ***direttamente nell'array originale***, senza utilizzare un secondo array di *appoggio*
+>Un algoritmo di ordinamento su array si dice in place **se in ogni istante al più un numero costante di elementi viene memorizzato al di fuori dell'array**
 
 ### Ordinamento Stabile
 >[!info] Definizione
