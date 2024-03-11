@@ -22,14 +22,32 @@ MOV DST,SRC
 >Le modalità di reperimento dei dati sono definite dai ***modi di indirizzamento***
 
 
-### Immediato
+### Indirizzamento Immediato
 >[!done] ‎ 
->Il valore è *codificato direttamente nell'istruzione* appena letta
+>Il valore è *codificato direttamente nell'istruzione*
+>La lunghezza del valore (1, 2, 4 `BYTE`) dipende dal tipo di *operazione e dai registri coinvolti*
 
 ```assembly
-MOV EAX, 10
-```
+MOV AL,10 
+MOV AH,10h 
+MOV AH,10100101b 
+MOV AX,0d3c5h      // 0 davanti al valore esadecimale per il compilatore* 
+MOV EAX,104ed3c5h
 
+MOV AX, 104ed3c5h // Errore -> Registro a 16 BIT valore a 32
+```
+* * Visual Studio non accetta valori che iniziano con le *lettere*
+
+>[!tip] La costante $0$
+
+Per caricare la costante $0$ (azzeramento del registro) invece di scrivere
+```assembly
+MOV EAX, 0
+```
+È preferibile
+```assembly
+XOR EAX, EAX
+```
 ### Registro
 >[!done] ‎ 
 >Il valore viene preso da *un altro registro*
