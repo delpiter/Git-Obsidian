@@ -66,3 +66,82 @@ LEA EAX, pippo        // EAX = offset dell'indirizzo di pippo
 LEA EAX, pippo //Carica in EAX l'indirizzo di pippo
 MOV [EAX], 10  // pippo = 10
 ```
+
+### Conditional MOV
+>[!info] Descrizione
+>`CMOVcc DST, SRC`
+>Istruzione simile alla `MOV` ma la copia viene eseguita solo se a condizione `cc` è vera
+>La condizione viene determinata a partire dal valore dei `BIT` del [[Registri#Registi di Base|registri]] `EFLAG`
+>Può essere considerato come una assegnazione con condizione
+
+#### Esempio
+```assembly
+CMP AX,BX    // Confronta AX e BX, se sono uguali -> ZF = 1
+CMOVZ CX, DX // Se ZF = 1 CX = DX
+```
+
+Questa istruzione risulta molto utile per evitare di usare ***salti condizionali***
+- I salti condizionali generalmente *deteriorano le prestazioni* in quanto rendono inefficace il ***pre-fetching***
+
+
+## Aritmetica Intera
+![[Pasted image 20240312182944.png]]
+
+
+### Complemento a 2
+>[!info] Descrizione
+>`NEG DST`
+>Questa istruzione esegue il complemento a due del registro `DST`
+
+#### Esempio
+```assembly
+MOV EAX, 15
+NEG EAX     // EAX = -15
+```
+### Somma
+>[!info] Descrizione
+>`ADD DST, SRC`
+>Questa istruzione esegue la somma fra `DST` e `SRC`
+>Il risultato è **inserito in `DST`** il cui valore iniziale viene, quindi, *sovrascritto*
+
+In base al risultato ottenuto da questa istruzione andranno opportunamente ***aggiornati i flag***:
+- `OF`, `SF`, `ZF`, `AF`, `CF`, `PF`
+
+#### Esempio
+```assembly
+MOV EAX, 5
+ADD EAX, pippo // EAX = EAX + pippo
+```
+
+### Sottrazione
+>[!info] Descrizione
+>`SUB DST, SRC`
+>Esegue la ***sottrazione*** `DST-SRC` e memorizza il risultato in `DST` il cui valore iniziale viene quindi *sovrascritto*
+
+#### Esempio
+```assembly
+MOV EAX, 15
+SUB EAX, 20 // EAX = -5 (in complemento a 2)
+```
+
+### Moltiplicazione
+#### Moltiplicazione Senza Segno
+>[!info] Descrizione
+>`MUL SRC`
+>Esegue una moltiplicazione ***senza segno***
+>Il risultato dell'operazione viene messo in un registro *sufficientemente* *grande* per contenere il ***valore più grande ottenibile***
+>>[!warning] Nota
+>>Non è possibile usare un operando immediato per `SRC`
+
+![[Pasted image 20240312184747.png]]
+Nel caso in cui il valore più grande ottenibile si rappresenta con un numero più alto di `BIT` del registro, il risultato viene memorizzato in due registri differenti
+
+##### Esempio
+```assembly
+MOV EAX, 80000000h
+MOV EBX, 2h
+MUL EBX             // EDX:EAX = EAX * EBX = 100000000h
+					// EDX = 1h
+					// EAX = 0h
+```
+

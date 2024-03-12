@@ -11,11 +11,52 @@
             "id": "5569f7824ab4802c",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Git-Obsidian/Architettura degli Elaboratori/Assembly/Istruzione Assembly.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ba8175ed1fe418b6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git-Obsidian/Architettura degli Elaboratori/Assembly/Istruzioni IA-32.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "51b5dc2ef874f8e1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git-Obsidian/Architettura degli Elaboratori/Assembly/Istruzioni IA-32.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "dea358c293628c4d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git-Obsidian/Architettura degli Elaboratori/Assembly/Istruzione Assembly.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -82,6 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Git-Obsidian/Architettura degli Elaboratori/Assembly/Istruzione Assembly.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,6 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Git-Obsidian/Architettura degli Elaboratori/Assembly/Istruzione Assembly.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,7 +162,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Git-Obsidian/Architettura degli Elaboratori/Assembly/Istruzione Assembly.md"
+              }
             }
           },
           {
@@ -159,11 +204,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "5569f7824ab4802c",
+  "active": "dea358c293628c4d",
   "lastOpenFiles": [
     "Git-Obsidian/Architettura degli Elaboratori/Assembly/Istruzioni IA-32.md",
-    "Git-Obsidian/Architettura degli Elaboratori/Assembly/Il Livello ISA.md",
+    "Git-Obsidian/Attatchments/Pasted image 20240312184747.png",
+    "Git-Obsidian/Attatchments/Pasted image 20240312182944.png",
     "Git-Obsidian/Architettura degli Elaboratori/Assembly/Istruzione Assembly.md",
+    "Git-Obsidian/Architettura degli Elaboratori/Assembly/Il Livello ISA.md",
     "Git-Obsidian/Definitions/Definizioni_Architettura.md",
     "Git-Obsidian/Architettura degli Elaboratori/Assembly/I Tipi di Dati.md",
     "Git-Obsidian/Architettura degli Elaboratori/Assembly/Untitled.md",
@@ -192,12 +239,9 @@
     "Git-Obsidian/Algoritmi e Strutture Dati/Grafi/I Grafi.md",
     "Git-Obsidian/Markdown Keys.md",
     "Git-Obsidian/Game Programming/Introduction.md",
-    "Git-Obsidian/Attatchments/image-removebg-preview.png",
     "Git-Obsidian/Algoritmi e Strutture Dati/Grafi/Gli Alberi.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Heap",
-    "Git-Obsidian/Attatchments/Pasted image 20240308094435.png",
     "Git-Obsidian/Architettura degli Elaboratori/Assembly/IA-32.md",
-    "Git-Obsidian/Architettura degli Elaboratori/Storia dei Calcolatori.md",
     "Git-Obsidian/Architettura degli Elaboratori/Assembly",
     "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento",
     "Git-Obsidian/Algoritmi e Strutture Dati/Grafi",

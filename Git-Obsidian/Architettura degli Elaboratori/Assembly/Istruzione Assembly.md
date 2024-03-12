@@ -172,3 +172,9 @@ Grazie al programma assemblatore, possiamo utilizzare *nomi simbolici per **vari
 ```assembly
 MOV EAX, pippo
 ```
+
+## Modificatori di Tipo
+---
+>[!question] Nel caso in cui l'operando `SRC`
+>[!info] Tipologie
+>
