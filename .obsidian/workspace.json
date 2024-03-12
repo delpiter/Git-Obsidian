@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Obsidian/Architettura degli Elaboratori/Assembly/Assembly Language.md",
+                "file": "Git-Obsidian/Architettura degli Elaboratori/Assembly/Istruzioni IA-32.md",
                 "mode": "source",
                 "source": false
               }
@@ -123,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Architettura degli Elaboratori/Assembly/Assembly Language.md",
+                "file": "Git-Obsidian/Architettura degli Elaboratori/Assembly/Istruzioni IA-32.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Architettura degli Elaboratori/Assembly/Assembly Language.md",
+                "file": "Git-Obsidian/Architettura degli Elaboratori/Assembly/Istruzioni IA-32.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git-Obsidian/Architettura degli Elaboratori/Assembly/Assembly Language.md"
+                "file": "Git-Obsidian/Architettura degli Elaboratori/Assembly/Istruzioni IA-32.md"
               }
             }
           },
@@ -206,10 +206,11 @@
   },
   "active": "97adeb94ecc98fd1",
   "lastOpenFiles": [
+    "Git-Obsidian/Architettura degli Elaboratori/Assembly/Istruzione Assembly.md",
+    "Git-Obsidian/Architettura degli Elaboratori/Assembly/Istruzioni IA-32.md",
     "Git-Obsidian/Attatchments/Pasted image 20240312093234.png",
     "Git-Obsidian/Attatchments/Pasted image 20240312093135.png",
     "Git-Obsidian/Architettura degli Elaboratori/Assembly/I Tipi di Dati.md",
-    "Git-Obsidian/Architettura degli Elaboratori/Assembly/Assembly Language.md",
     "Git-Obsidian/Attatchments/Pasted image 20240311181529.png",
     "Git-Obsidian/Architettura degli Elaboratori/Assembly/Registri.md",
     "Git-Obsidian/Attatchments/Pasted image 20240311181401.png",
@@ -234,7 +235,6 @@
     "Git-Obsidian/Attatchments/Pasted image 20240308094435.png",
     "Git-Obsidian/Architettura degli Elaboratori/Assembly/IA-32.md",
     "Git-Obsidian/Attatchments/Pasted image 20240308093600.png",
-    "Git-Obsidian/Attatchments/Pasted image 20240307163329.png",
     "Git-Obsidian/Architettura degli Elaboratori/Storia dei Calcolatori.md",
     "Git-Obsidian/Architettura degli Elaboratori/Assembly/Il Livello ISA.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento/Quick Sort.md",
