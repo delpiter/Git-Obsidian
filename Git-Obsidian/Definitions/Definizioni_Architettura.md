@@ -114,3 +114,12 @@ I termini "*code point*" e "*carattere*" non sono sinonimi
 >- Parte di numero più "*bassa*"$\to$ Indirizzo di memoria più "*basso*"
 >- Parte di numero più "alta"$\to$ Indirizzo di memoria più "*alto*"
 
+
+## Stack
+---
+>[!info] Definizione
+>Lo [[Spazio di Indirizzamento Virtuale#Stack|stack]] è una parte della memoria utilizzata in genere per 
+>- Valutazione di *espressioni aritmetiche*
+>- Memorizzazione di *variabili locali*
+>- Chiamata di *sottoprogrammi*
+>- 
