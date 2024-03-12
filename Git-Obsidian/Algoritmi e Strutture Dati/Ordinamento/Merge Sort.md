@@ -52,6 +52,7 @@
 
 Ideato da *John Von Neumann* nel 1945
 - Implementato come algoritmo di *ordinamento standard* nelle librerie di alcuni linguaggi
+- Algoritmo di tipo [[Recursive Functions|ricorsivo]]
 
 >[!info] Dividi
 

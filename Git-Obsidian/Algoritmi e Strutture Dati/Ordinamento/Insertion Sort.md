@@ -1,3 +1,4 @@
+>Prima soluzione *poco efficiente* al [[Problema dell'Ordinamento]]
 ## Pseudo Codice
 ---
 ```pseudo

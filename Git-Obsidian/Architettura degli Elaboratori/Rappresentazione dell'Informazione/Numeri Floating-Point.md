@@ -56,6 +56,7 @@ $$
 ## IEEE 754: Standard Floating-Point
 ---
 >[!info] Standard
+>Adottato da praticamente tutti i [[Il Calcolatore e i Numeri Binari|calcolatori]] moderni
 >Lo standard prevede vari formati
 >I più utilizzati sono:
 >- Formato a **singola precisione**
