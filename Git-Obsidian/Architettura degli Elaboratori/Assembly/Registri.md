@@ -16,6 +16,7 @@
 - Contiene l'indirizzo della prossima istruzione da eseguire
 - Viene *incrementato automaticamente* durante il **Fetch** delle istruzioni e *modificato dalle istruzioni di salto*
 
+### Flags di Stato
 >[!info] ***EFLAGS***, `BIT` di stato
 - Questo registro contiene diversi `BIT` utili sia alla `CPU` sia al programmatore
 - I `BIT` principali determinano i cosiddetti **condition code**

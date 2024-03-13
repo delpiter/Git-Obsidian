@@ -175,6 +175,29 @@ MOV EAX, pippo
 
 ## Modificatori di Tipo
 ---
->[!question] Nel caso in cui l'operando `SRC`
->[!info] Tipologie
->
+>[!question] Nel caso in cui l'operando `SRC` indichi un indirizzo di memoria, come specificare la dimensione di bit dell'operando?
+
+
+> Il programma assemblatore accetta davanti agli indirizzi i seguenti ***modificatori di tipo***
+
+- `BYTE PTR`
+- `WORD PTR`
+- `DWORD PTR`
+
+Che indicano rispettivamente che l'indirizzo fornito specifica un operando
+- `BYTE` (8 `BIT`)
+- `WORD` (16 `BIT`)
+- `DOUBLEWORD` (32 `BIT`)
+
+### Esempio
+>Considerando `short pippo = 0x0102;` la dichiarazione in linguaggio `C`
+
+```assembly
+MOV EAX, 2h
+MUL BYTE PTR pippo  //AX = 4h (pippo è memoria little endian)
+```
+
+```assembly
+MOV EAX, 2h
+MUL WORD PTR pippo // DX:AX = (0;204h)
+```

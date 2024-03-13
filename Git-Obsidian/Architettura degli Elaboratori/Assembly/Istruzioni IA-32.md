@@ -145,3 +145,91 @@ MUL EBX             // EDX:EAX = EAX * EBX = 100000000h
 					// EAX = 0h
 ```
 
+#### Moltiplicazione con Segno
+>[!question] Perchè la somma non ha bisogno di una istruzione apposita per le operazioni con e senza segno?
+
+La somma in [[Il Calcolatore e i Numeri Binari#Complemento a due|complemento a due]] si fa nello stesso identico modo di una somma fra due numeri binari
+- Di conseguenza la somma necessita di un unico circuito per essere eseguita
+
+D'altra parte il prodotto deve tenere conto del segno separatamente
+
+>[!info] Descrizione
+>Esegue una *moltiplicazione intera* con **segno**, con operandi in ***complemento a 2***
+>A differenza di `MUL` il cui formato prevede solo un operando, `IMUL` prevede *3 formati*
+>>[!example] Formato 1
+>>`IMUL SRC`
+>>Il funzionamento è analogo a `MUL` per quanto riguarda i registri utilizzati
+>
+>>[!example] Formato 2
+>>`IMUL DST, SRC`
+>>In questo caso `SRC` può essere anche un *valore [[Istruzione Assembly#Indirizzamento Immediato|immediato]]*
+>>Equivalente alla scrittura:
+>>- `DST = DST * SRC`
+>
+>>[!example] Formato 3
+>>`IMUL DST, SRC1, SRC2`
+>>In questo caso `SRC2` è * **obbligatoriamente** un valore immediato*
+>>Equivalente alla scrittura:
+>>- `DST = SRC1 * SRC2`
+
+>[!warning] Attenzione
+
+Nei formati 2 e 3 possono non essere sufficienti $n$ `BIT` per memorizzare il risultato della moltiplicazione di due operandi a $n$ bit
+- Sarà necessario controllare il valore del [[Registri#Flags di Stato|flag]] `OF`
+
+##### Esempio
+```assembly
+MOV EAX, 10000000h
+IMUL EBX, EAX, 16   // Risultato = 100000000h, EBX = 0, OF = 1!
+```
+
+### Divisione Intera
+#### Divisione Senza Segno
+>[!info] Descrizione
+>`DIV SRC`
+>Analogamente alla `MUL` la `DIV` si *comporta in modo diverso* in base alla **dimensione** dell'operando `SRC` (***divisore***)
+>In particolare il *divisore*, il *quoziente* e il *resto* sono **prelevati/scritti** differentemente in base alla dimensione in `BIT` di `SRC`
+
+![[Pasted image 20240313164236.png]]
+>[!warning] Attenzione
+
+L'operazione può causare *overflow* (es. $\frac{256}{1} =256 \implies$ overflow)
+- Necessario gestirlo per prevenire il blocco del programma
+#### Divisione con Segno
+>[!info] Descrizione
+>Per definire l'operatore `IDIV` è necessario dare una definizione al ***resto***
+>>[!done] Resto
+>>Il *resto* è quel numero che ***sommato*** al prodotto fra *quoziente* e *dividendo* ti da il numero originale
+>
+>`IDIV SRC`
+>Equivalente al `DIV` ma gli operandi sono con segno
+
+>[!warning] Problema
+
+Quando il valore da dividere occupa solamente uno dei due registri il segno del valore deve essere "*propagato*"
+
+>[!done] Soluzione
+
+È stata creata una istruzione apposita per *estendere il valore* di un registro in un altro registro, ***mantenendo il segno***
+- Istruzione ***specifica*** per la divisione con il *segno*
+- Istruzione ***senza operandi***
+
+`CDQ`
+- Convert Doubleword to Quadword
+- Converte, estendendo il segno la `DWORD EAX` nella `QWORD EDX:EAX`
+`CDW`
+- Converte un registro a `16 BIT` in un registro `16 BIT:16 BIT`
+
+##### Esempio
+```assembly
+MOV EAX, 100
+CDQ
+
+MOV EBX, -3
+IDIV EBX     // EAX = 100/-3 = -33 (quoziente), EDX = 1 (resto)
+```
+
+### Incremento
+>[!info] Descrizione
+>`INC DST`
+>Incrementa di $1$ il valore specificato da `DST` senza alterare il [[Registri#Flags di Stato|flag]] `CF`
