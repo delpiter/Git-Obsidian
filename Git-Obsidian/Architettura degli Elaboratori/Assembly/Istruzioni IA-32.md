@@ -85,6 +85,7 @@ Questa istruzione risulta molto utile per evitare di usare ***salti condizionali
 
 
 ## Aritmetica Intera
+---
 ![[Pasted image 20240312182944.png]]
 
 
@@ -233,3 +234,114 @@ IDIV EBX     // EAX = 100/-3 = -33 (quoziente), EDX = 1 (resto)
 >[!info] Descrizione
 >`INC DST`
 >Incrementa di $1$ il valore specificato da `DST` senza alterare il [[Registri#Flags di Stato|flag]] `CF`
+>Utilizzato in genere nei *cicli*
+
+Lo stesso risultato si otterrebbe  con `ADD DST, 1`
+- `INC DST` è più efficiente poiché non richiede di caricare *[[Istruzione Assembly#Indirizzamento Immediato|operandi immediati]]*
+
+>[!note] Nota
+
+Se `DST` ha raggiunto il valore massimo (ex. `EAX = ffffffffh`) l'istruzione incremento causa un *overflow* e quindi la destinazione assume valore `0`
+- Ciò però non causa il *set* del [[Registri#Flags di Stato|flag]] `OF`
+- Siccome neanche il flag `CF` viene alterato l'unico ***flag*** utile per verificare *traboccamento* è `ZF`
+
+#### Esempio
+```assembly
+INC EAX    // EAX = EAX + 1
+INC pippo  // pippo = pippo + 1
+```
+### Decremento
+>[!info] Descrizione
+>`DEC DST`
+>Decrementa di $1$ il valore specificato da `DST` senza alterare il [[Registri#Flags di Stato|flag]] `CF`
+>Utilizzato in genere nei *cilci*
+
+Lo stesso risultato si otterrebbe  con `SUB DST, 1`
+- `DEC DST` è più efficiente poiché non richiede di caricare *[[Istruzione Assembly#Indirizzamento Immediato|operandi immediati]]*
+
+Per verificare *underflow* (***traboccamento sotto lo zero***) può essere usato il flag di segno `SF`
+#### Esempio
+```assembly
+DEC EAX    // EAX = EAX - 1
+DEC pippo  // pippo = pippo - 1
+```
+
+## Operazioni sui BIT
+---
+![[Pasted image 20240313205552.png]]
+### AND, OR, XOR
+>[!info] Descrizione
+>`AND/OR/XOR DST, SRC`
+>Sono le istruzioni per ***AND***, ***OR*** e ***XOR*** logici `BIT` a `BIT`
+>Il risultato viene *sovrascritto* su `DST`
+
+***AND*** e ***OR*** sono ampiamente usati per le operazioni di [[Mascherature dei Bit|mascheratura e impostazioni]] di `BIT`
+***XOR*** molto utilizzato per *crittografia*
+#### Esempi
+```assembly
+AND EAX, 00001111h       // EAX = EAX AND 00001111h
+AND pippo, EBX           // pippo = pippo AND EBX
+OR EAX, Vettore[EBX*2+4] // EAX = EAX OR dword all'indirizzo vettore+EBX*2+4
+XOR EAX, EAX             // EAX XOR EAX -> azzera il registro
+XOR EBX, 0a0b0c0dh       // EBX = EBX XOR 0a0b0c0dh
+```
+
+### SHL, SHR
+>[!info] Descrizione
+>`SHL/SHR DST, #`
+>*Shift logico* `BIT` a `BIT` a sinistra (**L**eft) e a destra (**R**ight) in `DST` di un numero **specificato** di `BIT`
+>- `#` Può essere un valore [[Istruzione Assembly#Indirizzamento Immediato|immediato]] a `8 BIT` compreso tra $0$ e $31$ oppure il registro `CL`
+
+Entrambe le istruzioni pongono il `BIT` *entrante* a $0$, rispettivamente
+- `SHR` pone il `MSB` a $0$
+- `SHL` pone il `LSB` a $0$
+
+#### Esempio
+```assembly
+MOV AL, 01001011b
+SHR AL, 1          // AL = 00100101b
+```
+
+### SAL, SAR
+>[!info] Descrizione
+>`SAL/SAR DST, #`
+>*Shift* ***aritmetico*** `BIT` a `BIT` a sinistra (**L**eft) e a destra (**R**ight) in `DST` di un numero di `BIT` specificato dal secondo operando (`#`)
+>***Aritmetico*** significa equivalente ad una *moltiplicazione* per $2$ (`SAL`) o *divisione* per $2$ (`SAR`)
+>- `#` Può essere un valore [[Istruzione Assembly#Indirizzamento Immediato|immediato]] a `8 BIT` compreso tra $0$ e $31$ oppure il registro `CL`
+>
+>>[!tip] Shift a Sinistra
+>>Per ogni shift (`SAL`) atomico (1 posizione) il `BIT` *meno significativo* assume valore $0$
+>>Mentre il `BIT` *più significativo* (che **fuoriesce**) finisce nel [[Registri#Flags di Stato|flag]] `CF`
+>>`SAL` opera in modo identico al `SHL`, hanno lo stesso **OP-CODE**
+>
+>>[!tip] Shift a Destra
+>>Per ogni shift (`SAR`) per ogni shift atomico il `BIT` *meno significativo* fuoriesce, finisce in `CF`
+>>Mentre il `BIT` *più significativo* **estende il segno** (*stesso valore* del precedente `MSB`)
+
+#### Esempi
+```assembly
+MOV EAX, 20
+SAL EAX, 2      // EAX = 80
+
+MOV EAX, -9
+SAR EAX, 1      // EAX = -5
+```
+
+### ROL, ROR
+>[!info] Destinazione
+>`ROL/ROR DST, #`
+>*Rotazione logica* `BIT` a `BIT` a sinistra (**L**eft) e a destra (**R**ight) di un numero specificato dal *secondo operando*
+>- `#` Può essere un valore [[Istruzione Assembly#Indirizzamento Immediato|immediato]] a `8 BIT` compreso tra $0$ e $31$ oppure il registro `CL`
+>Il `BIT` che **fuoriesce** rientra dall'*altra parte del valore*
+
+#### Esempio
+```assembly
+MOV AL, 01010101b
+ROR AL, 1          // AL = 10101010b
+```
+
+## Istruzioni di Salto
+---
+![[Pasted image 20240313213755.png]]
+
+![[Pasted image 20240313213943.png]]
