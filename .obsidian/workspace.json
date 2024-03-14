@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Obsidian/Architettura degli Elaboratori/Assembly/Istruzioni IA-32.md",
+                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento/Merge Sort.md",
                 "mode": "source",
                 "source": false
               }
@@ -91,7 +91,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -111,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Architettura degli Elaboratori/Assembly/Istruzioni IA-32.md",
+                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento/Merge Sort.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Architettura degli Elaboratori/Assembly/Istruzioni IA-32.md",
+                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento/Merge Sort.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git-Obsidian/Architettura degli Elaboratori/Assembly/Istruzioni IA-32.md"
+                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento/Merge Sort.md"
               }
             }
           },
@@ -194,12 +194,13 @@
   },
   "active": "51b5dc2ef874f8e1",
   "lastOpenFiles": [
+    "Git-Obsidian/Algoritmi e Strutture Dati/Heap/Lo Heap.md",
+    "Git-Obsidian/Architettura degli Elaboratori/Assembly/Istruzioni IA-32.md",
     "Git-Obsidian/Attatchments/Pasted image 20240313213943.png",
     "Git-Obsidian/Attatchments/Pasted image 20240313213755.png",
     "Git-Obsidian/Attatchments/Pasted image 20240313205552.png",
     "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento/Problema dell'Ordinamento.md",
     "Git-Obsidian/Architettura degli Elaboratori/Assembly/Istruzione Assembly.md",
-    "Git-Obsidian/Architettura degli Elaboratori/Assembly/Istruzioni IA-32.md",
     "Git-Obsidian/Attatchments/Pasted image 20240313164236.png",
     "Git-Obsidian/Architettura degli Elaboratori/Assembly/Registri.md",
     "Git-Obsidian/Architettura degli Elaboratori/Assembly/IA-32.md",
@@ -216,13 +217,11 @@
     "Git-Obsidian/Architettura degli Elaboratori/Rappresentazione dell'Informazione/Numeri Floating-Point.md",
     "Git-Obsidian/Architettura degli Elaboratori/Introduzione alle Basi.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento/Insertion Sort.md",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Heap/Heap.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Appunti.md",
     "Git-Obsidian/Programmazione/Introduzione Programmazione/Spazio di Indirizzamento Virtuale.md",
     "Git-Obsidian/Attatchments/Pasted image 20240312093234.png",
     "Git-Obsidian/Attatchments/Pasted image 20240312093135.png",
     "Git-Obsidian/Attatchments/Pasted image 20240311181529.png",
-    "Git-Obsidian/Attatchments/Pasted image 20240311181401.png",
     "Git-Obsidian/Architettura degli Elaboratori/Rappresentazione dell'Informazione/Rappresentazione dei Suoni.md",
     "Git-Obsidian/Definitions/Definizioni_Analisi.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Confronto fra Algoritmi/Confronto e Pseudocodice.md",

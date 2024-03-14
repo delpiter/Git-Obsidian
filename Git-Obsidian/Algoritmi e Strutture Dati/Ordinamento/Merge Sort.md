@@ -1,4 +1,4 @@
-## Pseudocodice
+****## Pseudocodice
 ---
 ```pseudo
 	\begin{algorithm}
