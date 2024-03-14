@@ -25,6 +25,11 @@ b(x) = 1
 5. $O(n^k)$
 6. $O(C^n)$
 7. $O(n^n),O(n!)$
+>[!info] Siano
+>$\forall M>0$ Costante ***arbitrariamente grande***
+>$\forall \epsilon>0$ Costante ***arbitrariamente piccolo***
+>$\forall a>0$ Costante:
+>$$log(n)^M<n^{\epsilon}<n^M<a{\epsilon n}<a{Mn}<\epsilon n!<Mn!<n^{\epsilon n}$$
 
 >[!done] Trattabile 
 Un [[Problemi e Algoritmi#Problemi|problema]] con una soluzione algoritmica di complessità polinomiale si dice ***trattabile***
@@ -70,9 +75,13 @@ Un algoritmo $O(n^3)$ non può essere usato per istanze molto grandi, mentre un 
 >>Diciamo che $f(x)$ è $O(g(x))$ se esistono due costanti $C$ e $K$ tali per cui 
 >>$$f(x)\leq C\cdot g(x)$$ quando $x>k$
 >
+>Se $f(n)$ sta "*sotto*" a $g(n)$ da un certo $n_{0}$ in poi (***definitivamente***)
+>$$f(n)=O(g(n))\implies f(n)\leq cg(n)$$
+>Con $n>0, c>0, \forall n\geq n_{0}$
 >Quando si analizza la crescita di **funzioni di complessità**, $f(x), g(x)$ si assumono sempre positive
 >Quando si vuole dimostrare che $f(x)$ è $O(g(x))$, è sufficiente trovare una coppia $(C,K)$ per cui vale la relazione.
 >- Notare che ce ne possono essere infinite
+
 
 ##### Esempio
 >Dimostrare che $f(x)=x^2+2x+1$ è $O(x^2)$
@@ -116,3 +125,50 @@ $$
 >>Siano $f$ e $g$ due funzioni da $\mathbb{R}$ a $\mathbb{R}$
 >>Diciamo che $f(x)$ è $\Theta(g(x))$ se esistono tre costanti $c_{1},c_{2},n_{0}$ tali per cui 
 >>$$c_{1}g(n)\leq f(n)\leq c_{2}g(n)$$ quando $n \geq n_{0}$
+
+## $\circ/\omega$-Notation
+---
+>[!info] Analogamente
+>Esistono notazioni per l'analisi asintotica per confrontare due funzioni solo strettamente $>$ o $<$ 
+>>[!tip] $\circ$-Piccolo
+>>$$f(n)=\circ(g(n))\Leftrightarrow f(n)=O(g(n)) \text{ AND } f(n)\neq \Theta(g(n))$$
+>
+>>[!tip] $\omega$-Piccolo
+>>$$f(n)=\omega(g(n))\Leftrightarrow f(n)=\Omega(g(n)) \text{ AND } f(n)\neq \Theta(g(n))$$
+
+## Ricapitolando
+---
+>Queste notazioni sono equivalenti al $\geq, \leq, =, <,>$ usato per i numeri applicato alle *funzioni*
+
+Questa modalità di confronto è una ***relazione d'ordine parziale***
+>[!info] Totale
+>È possibile *confrontare* qualsiasi coppia di valori
+>- Per esempio l'insieme dei numeri
+
+>[!info] Parziale
+>Non tutti gli elementi sono *confrontabili*
+>- Per esempio $f(n) = n$ e $g(n)=n^{sin(n)+1}$
+
+```functionplot
+---
+title: Relazione di Ordine Parziale
+xLabel: 
+yLabel: 
+bounds: [0,25,0,25]
+disableZoom: true
+grid: true
+---
+f(x) = x
+g(x) = x^2
+c(x) = x^(1+sin(x))
+```
+
+## Limiti e Ordini di Grandezza
+---
+$$
+\begin{array}
+\ \text{Se } \lim\limits_{n\to +\infty} \displaystyle{\frac{f(n)}{g(n)}} = c \neq 0\implies f(n)=\Theta(g(n)) \\
+\text{Se } \lim\limits_{n\to +\infty} \displaystyle{\frac{f(n)}{g(n)}} =0\implies f(n)=\circ (g(n)) \\
+\text{Se } \lim\limits_{n\to +\infty} \displaystyle{\frac{f(n)}{g(n)}} = +\infty \implies f(n)=\omega(g(n))
+\end{array}
+$$
