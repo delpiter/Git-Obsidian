@@ -29,6 +29,13 @@
             "icon": "lucide-arrow-down-from-line"
           }
         }
+      ],
+      "tldr": [
+        {
+          "changes": {
+            "icon": "lucide-lightbulb"
+          }
+        }
       ]
     }
   },
