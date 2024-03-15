@@ -18,7 +18,7 @@
 ![[stack.webp]]
 ### Push
 ```java
-function Push(S,o)
+void Push(S,o)
 {
 	S.top = S.top+1;
 	S[S.top] = o;
@@ -27,7 +27,7 @@ function Push(S,o)
 
 ### Pop
 ```Java
-function Pop(S)
+int Pop(S)
 {
 	o = S[S.top];
 	S.top = S.top-1;

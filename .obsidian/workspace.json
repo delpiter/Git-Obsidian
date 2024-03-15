@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "8f64a574079988d4",
+            "id": "cb79d3dabc8dfcf8",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -46,7 +46,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "compari",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -167,11 +167,16 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "8f64a574079988d4",
+  "active": "cb79d3dabc8dfcf8",
   "lastOpenFiles": [
+    "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Linked Lists.md",
+    "Git-Obsidian/Programmazione/Variabili/Tipi di Dati Avanzati.md",
+    "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Stack.md",
+    "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Gli Alberi.md",
+    "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Queue.md",
+    "Git-Obsidian/Attatchments/queue.webp",
     "Git-Obsidian/Attatchments/stack.webp",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Heap.md",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Stack.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento/Heap Sort.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati",
     "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento/Quick Sort.md",
@@ -196,20 +201,15 @@
     "Git-Obsidian/Attatchments/Pasted image 20240312182944.png",
     "Git-Obsidian/Definitions/Definizioni_Architettura.md",
     "Git-Obsidian/Architettura degli Elaboratori/Assembly/Untitled.md",
-    "Git-Obsidian/Attatchments/Pasted image 20240312144815.png",
     "Git-Obsidian/Architettura degli Elaboratori/Rappresentazione dell'Informazione/Il Calcolatore e i Numeri Binari.md",
     "Git-Obsidian/Algebra e Geometria/Metodo di Gauss.md",
     "Git-Obsidian/Architettura degli Elaboratori/Rappresentazione dell'Informazione/Numeri Floating-Point.md",
     "Git-Obsidian/Architettura degli Elaboratori/Introduzione alle Basi.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento/Insertion Sort.md",
-    "Git-Obsidian/Programmazione/Introduzione Programmazione/Spazio di Indirizzamento Virtuale.md",
-    "Git-Obsidian/Attatchments/Pasted image 20240312093234.png",
-    "Git-Obsidian/Architettura degli Elaboratori/Rappresentazione dell'Informazione/Rappresentazione dei Suoni.md",
-    "Git-Obsidian/Definitions/Definizioni_Analisi.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Heap",
     "Git-Obsidian/Architettura degli Elaboratori/Assembly",
     "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Grafi",
+    "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi",
     "Git-Obsidian/Algoritmi e Strutture Dati/Untitled.canvas",
     "Git-Obsidian/Algoritmi e Strutture Dati/Confronto fra Algoritmi",
     "Git-Obsidian/Architettura degli Elaboratori/Rappresentazione dell'Informazione",
