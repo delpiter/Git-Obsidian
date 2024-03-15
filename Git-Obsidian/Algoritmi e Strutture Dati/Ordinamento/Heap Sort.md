@@ -16,8 +16,8 @@
 	\end{algorithmic}
 	\end{algorithm}
 ```
-![[Lo Heap#Pseudocodice H]]
-![[Lo Heap#Pseudocodice BH]]
+![[Heap#Pseudocodice H]]
+![[Heap#Pseudocodice BH]]
 
 ![Heap Sort (youtube.com)](https://www.youtube.com/watch?v=_bkow6IykGM)
 
@@ -26,7 +26,7 @@
 >[!tldr] L'idea
 >Per ordinare in senso ***cresente***:
 >Prima Parte
->- Si trasforma l'*array* in input in una [[Lo Heap|max-heap]] (una *heap* con il valore più ***grande alla radice***)
+>- Si trasforma l'*array* in input in una [[Heap|max-heap]] (una *heap* con il valore più ***grande alla radice***)
 >Seconda Parte
 >- Si scambia il **dato** nella *radice* con il **dato** dell'*ultimo nodo*
 >- Si *esclude* l'ultimo nodo dalla **heap**
