@@ -5,6 +5,7 @@ La [[Concetti Base#Insieme|terminologia]] degli insiemi è sempre la stessa
 > Una **relazione** su un insieme $A$ è un sottoinsieme $\mathbb{R}$ di $A\times A$
 > Scrivo $a_{1}Ra_{2}$ se $(a_{1},a_{2}) \in\mathbb{R}$ e dico: *"$a_{1}$ è in relazione con $a_{2}$"*
 
+### Relazione di Equivalenza
 Una relazione $R$ è una **relazione di equivalenza** se valgono le seguenti proprietà:
 >[!tip] Proprietà Riflessiva
 >$$aRa \forall a \in A$$
@@ -20,7 +21,7 @@ Una relazione $R$ è una **relazione di equivalenza** se valgono le seguenti pro
 
 >[!tip] Proprietà Transitiva
 >$$aRb, bRc \implies aRc \ \ (\forall a,b,c \in A)$$
->a
+>
 >>[!done] In Breve
 >>Considerando le due relazioni $aRb$ e $bRc$ di conseguenza vale anche la relazione $aRc$
 
@@ -63,8 +64,10 @@ Una relazione $R$ è una **relazione di equivalenza** se valgono le seguenti pro
 
 ## Funzione o Applicazione
 ---
->[!info] Definizione
->Siano $A$ e $B$ insiemi non vuoti una **funzione o applicazione** che va d a$A$ a $B$ è una legge che associa ad ogni elemento dell'insieme $A$ uno e un solo elemento dell'insieme $B$
+### Definizione
+>[!info] Applicazione o Funzione
+>Siano $A$ e $B$ insiemi non vuoti una **funzione o applicazione** che va d a $A$ a $B$ è una legge che associa ad ogni elemento dell'insieme $A$ uno e un solo elemento dell'insieme $B$
+### Proprietà
 
 ![[Git-Obsidian/Analisi/Funzioni/Introduzione Funzioni#Funzione Surriettiva]]
 
