@@ -151,7 +151,7 @@ Siano $v_{1},v_{2}\in V:f(v_{1})=f(v_{2})\implies f(v_{1})-f(v_{2})=\underline{0
 	- $\underbrace{ f(v_{1}-v_{2}) }_{ \in\mathrm{ker}f } = \underline{0}$
 	- Da qui posso notare che **per ipotesi** $v_{1}-v_{2} = \underline{0}\implies v_{1}=v_{2}$
 
-#### Es 1
+#### Es 1 - Nucleo
 >$f:\mathbb{R}^2\to\mathbb{R}^2, f(x,y)\mapsto(x+y,2x+2y)$
 
 $$
@@ -169,4 +169,47 @@ Conclusione: $\mathrm{ker}f\neq\{ (0,0) \}$, quindi $f$ non è iniettiva
 
 $\mathrm{Im}f=\{ (x+y,2x+2y),x,y\in\mathbb{R} \}=\{ (s,2s),s\in\mathbb{R} \}\neq \mathbb{R}^2 \implies f$ non è suriettiva
 
-#### Es 2
+#### Es 2 - Nucleo
+>$f:\mathbb{R}^2\to \mathbb{R}^2, f(x,y)\mapsto(x+y,x-y)$
+
+>[!question] $f$ è iniettiva?
+$$\mathrm{ker}f=\{ (x,y)\in\mathbb{R}^2: \begin{cases}
+x+y=0 \\
+x-y=0
+\end{cases}\}$$
+$$
+\begin{cases}
+x=0 \\
+y=0
+\end{cases}\implies \mathrm{ker}f=\{ \underline{0} \}
+$$
+>[!done] $f$ è iniettiva
+
+>[!question] è vero che ogni $u=(z,w)\in\mathbb{R}^2$ si scrive come $(x+y,x-y)$
+
+$\mathrm{Im}f=\{ (x+y,x-y),x,y\in \mathbb{R} \}$ 
+$$
+\begin{cases}
+x+y = z \\
+x-y=w
+\end{cases}
+\Leftrightarrow
+\begin{cases}
+x+y=z \\
+-2y=w-z
+\end{cases}
+\Leftrightarrow
+\begin{cases}
+x =\displaystyle{\frac{w+z}{2}} \\
+y = -\displaystyle{\frac{w-z}{2}}
+\end{cases}
+$$
+Quindi $\forall(w,z)\in U, \exists(x,y)\in V:f(x,y)=(w,z)$
+>[!done] $\mathrm{Im}f=\mathbb{R}^2\implies f$ è suriettiva
+
+Abbiamo mostrato che $f$ è ***iniettiva*** e ***suriettiva***, cioè $f$ è ***biunivoca***
+- $\forall u=(z,w)\in U$ esiste ed è unico $V=(x,y)\in V:f(v)=u$
+- L'applicazione è dunque ***invertibile***, cioè esiste $f^{-1}$
+$$
+f^{-1}(z,w)=(\displaystyle{\frac{w+z}{2}}, -\displaystyle{\frac{w-z}{2}})
+$$

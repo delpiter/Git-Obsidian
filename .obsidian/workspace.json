@@ -13,19 +13,31 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Obsidian/Algebra e Geometria/Applicazioni/Applicazioni Lineari.md",
+                "file": "Git-Obsidian/Algebra e Geometria/Applicazioni/Isomorfismo.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "20db8fb0d5838939",
+            "id": "4b683f4b35d9c8d0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/Introduzione.md",
+                "file": "Git-Obsidian/Analisi/Funzioni/Introduzione Funzioni.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "068458b9cc06594b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git-Obsidian/Algebra e Geometria/Applicazioni/Applicazioni Lineari.md",
                 "mode": "source",
                 "source": false
               }
@@ -58,7 +70,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "#da",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +90,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -99,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Algebra e Geometria/Applicazioni/Applicazioni Lineari.md",
+                "file": "Git-Obsidian/Algebra e Geometria/Applicazioni/Isomorfismo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Algebra e Geometria/Applicazioni/Applicazioni Lineari.md",
+                "file": "Git-Obsidian/Algebra e Geometria/Applicazioni/Isomorfismo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git-Obsidian/Algebra e Geometria/Applicazioni/Applicazioni Lineari.md"
+                "file": "Git-Obsidian/Algebra e Geometria/Applicazioni/Isomorfismo.md"
               }
             }
           },
@@ -182,19 +194,23 @@
   },
   "active": "33095fd90f4835a6",
   "lastOpenFiles": [
-    "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/Introduzione.md",
+    "Git-Obsidian/Algoritmi e Strutture Dati/Confronto fra Algoritmi/Complessità di Algoritmi.md",
+    "Git-Obsidian/Analisi/Funzioni/Introduzione Funzioni.md",
+    "Git-Obsidian/Algebra e Geometria/Applicazioni/Isomorfismo.md",
+    "Git-Obsidian/Algebra e Geometria/Applicazioni/Teorema del Rango.md",
+    "Git-Obsidian/Attatchments/Pasted image 20240318182201.png",
     "Git-Obsidian/Algebra e Geometria/Applicazioni/Applicazioni Lineari.md",
+    "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/Introduzione.md",
+    "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Hash/Funzione di Hash.md",
+    "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Hash/Hash Table.md",
     "Git-Obsidian/Algebra e Geometria/Applicazioni",
     "Git-Obsidian/Programmazione/Funzioni/Recursive Functions.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Appunti.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Confronto fra Algoritmi/Confronto e Pseudocodice.md",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Hash/Hash Table.md",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Hash/Funzione di Hash.md",
     "Git-Obsidian/Attatchments/Pasted image 20240317170426.png",
     "Git-Obsidian/Attatchments/Screenshot_2024-03-17_164254-removebg-preview.png",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Hash",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Untitled.md",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Confronto fra Algoritmi/Complessità di Algoritmi.md",
     "Git-Obsidian/Attatchments/image-removebg-preview 1.png",
     "Git-Obsidian/Attatchments/Pasted image 20240317162039.png",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Linked Lists.md",
@@ -203,7 +219,6 @@
     "Git-Obsidian/Attatchments/Screenshot 2024-03-16 122244.png",
     "Git-Obsidian/Attatchments/Pasted image 20240316113738.png",
     "Git-Obsidian/Attatchments/Pasted image 20240316113550.png",
-    "Git-Obsidian/Attatchments/Pasted image 20240316110111.png",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Stack.md",
     "Git-Obsidian/Programmazione/Variabili/Tipi di Dati Avanzati.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Gli Alberi.md",
@@ -218,9 +233,6 @@
     "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento/Problema dell'Ordinamento.md",
     "Git-Obsidian/Architettura degli Elaboratori/Assembly/Istruzione Assembly.md",
     "Git-Obsidian/Architettura degli Elaboratori/Assembly/Registri.md",
-    "Git-Obsidian/Architettura degli Elaboratori/Assembly/IA-32.md",
-    "Git-Obsidian/Architettura degli Elaboratori/Assembly/Il Livello ISA.md",
-    "Git-Obsidian/Architettura degli Elaboratori/Assembly/I Tipi di Dati.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Heap",
     "Git-Obsidian/Architettura degli Elaboratori/Assembly",
     "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento",

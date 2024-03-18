@@ -47,7 +47,6 @@ I dati vengono salvati nella memoria `RAM` più è veloce meno durerà l'esecuzi
 
 >[!tip] Ottimizzazione del [[Definizioni_Architettura#Compilazione|compilatore]]/[[Definizioni_Architettura#Linker|linker]]
 
-#Da_Chiedere Come il compilatore influisce sul tempo di esecuzione
 
 ### Tempo di Esecuzione
 >[!info] Definizione
