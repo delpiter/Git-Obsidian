@@ -1,5 +1,11 @@
 # `26/02/2024
 
+## Argomenti da Finire
+- Analisi asintotica
+- Algoritmi ricorsivi
+- Linear Select
+- Dimostrazioni di Algoritmi di Sort
+
 ## Analisi asintotica
 Obbiettivo
 - Semplificare l'analisi del consumo di risorse di un algoritmo prescindendo dai dettagli implementativi o di altro genere
