@@ -345,3 +345,47 @@ ROR AL, 1          // AL = 10101010b
 ![[Pasted image 20240313213755.png]]
 
 ![[Pasted image 20240313213943.png]]
+
+### Test
+>[!info] Descrizione
+>`TEST SRC1, SRC2`
+>L'*istruzione* `TEST` esegue l'`AND` logico fra `SRC1` e `SRC2`
+>A *differenza* dell'operatore logico `AND` il **risultato** non viene scritto da *nessuna parte* ma viene utilizzato per l'*impostazione* dei [[Registri#Flags di Stato|flag]] `SF`, `ZF` e `PF` nel registro `EFLAG`
+
+>[!question] A cosa Serve?
+
+Le istruzioni di salto condizionato operano sulla base del valore dei flag
+- Tramite questa istruzione è possibile decidere di saltare quando alcuni `BIT` di un certo registro sono impostati a $0$ o a $1$
+
+#### Esempi
+
+```assembly
+TEST AL, 00000011b
+JNZ Addr           //Salta ad Addr se uno dei BIT 0 o 1 in AL è impostato ad 1
+```
+
+### Compare
+>[!info] Descrizione
+>`CMP SRC1, SRC2`
+>Esegue la sottrazione `SRC1-SRC2`
+>Il risultato ***non viene salvato*** da nessuna parte ma viene utilizzato per l'*impostazione* dei flag `CF`, `SF`, `ZF`,`PF`,`OF`,`AF` nel *registro* `EFLAGS`
+
+#### Esercizi
+```assembly
+CMP AL, 20
+JE Addr    // Salta ad Addr se AL = 20
+```
+
+### Jump
+>[!info] Descrizione
+>`JMP Addr`
+>Esegue un salto *incondizionato* a `Addr`
+>Il salto viene eseguito caricando in `EIP` l'indirizzo `Addr`
+>Il programma *assemblatore* permette di utilizzare ***etichette* *simboliche*** che verranno poi sostituite con indirizzi relativi all'*istruzione corrente*, a tempo di *compilazione del programma*
+
+#### Esempio
+```assembly
+JMP Fine // salto all'indirizzo Fine
+...
+Fine: MOV AX, 20
+```

@@ -4,40 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "b4aa92804e7792c8",
+        "id": "6cfac56e5c5a3d59",
         "type": "tabs",
         "children": [
           {
-            "id": "33095fd90f4835a6",
+            "id": "c17d8209f3ae6573",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Obsidian/Algebra e Geometria/Applicazioni/Isomorfismo.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4b683f4b35d9c8d0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git-Obsidian/Analisi/Funzioni/Introduzione Funzioni.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "068458b9cc06594b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git-Obsidian/Algebra e Geometria/Applicazioni/Applicazioni Lineari.md",
+                "file": "Git-Obsidian/Architettura degli Elaboratori/Assembly/Istruzioni IA-32.md",
                 "mode": "source",
                 "source": false
               }
@@ -90,12 +66,11 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 269.5,
-    "collapsed": true
+    "width": 269.5
   },
   "right": {
     "id": "3561446b8c4d05ef",
@@ -111,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Algebra e Geometria/Applicazioni/Isomorfismo.md",
+                "file": "Git-Obsidian/Architettura degli Elaboratori/Assembly/Istruzioni IA-32.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Algebra e Geometria/Applicazioni/Isomorfismo.md",
+                "file": "Git-Obsidian/Architettura degli Elaboratori/Assembly/Istruzioni IA-32.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git-Obsidian/Algebra e Geometria/Applicazioni/Isomorfismo.md"
+                "file": "Git-Obsidian/Architettura degli Elaboratori/Assembly/Istruzioni IA-32.md"
               }
             }
           },
@@ -192,14 +167,15 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "33095fd90f4835a6",
+  "active": "c17d8209f3ae6573",
   "lastOpenFiles": [
-    "Git-Obsidian/Algoritmi e Strutture Dati/Confronto fra Algoritmi/Complessità di Algoritmi.md",
+    "Git-Obsidian/Game Programming/Introduction.md",
+    "Git-Obsidian/Algebra e Geometria/Applicazioni/Applicazioni Lineari.md",
     "Git-Obsidian/Analisi/Funzioni/Introduzione Funzioni.md",
     "Git-Obsidian/Algebra e Geometria/Applicazioni/Isomorfismo.md",
+    "Git-Obsidian/Algoritmi e Strutture Dati/Confronto fra Algoritmi/Complessità di Algoritmi.md",
     "Git-Obsidian/Algebra e Geometria/Applicazioni/Teorema del Rango.md",
     "Git-Obsidian/Attatchments/Pasted image 20240318182201.png",
-    "Git-Obsidian/Algebra e Geometria/Applicazioni/Applicazioni Lineari.md",
     "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/Introduzione.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Hash/Funzione di Hash.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Hash/Hash Table.md",
@@ -232,7 +208,6 @@
     "Git-Obsidian/Architettura degli Elaboratori/Assembly/Istruzioni IA-32.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento/Problema dell'Ordinamento.md",
     "Git-Obsidian/Architettura degli Elaboratori/Assembly/Istruzione Assembly.md",
-    "Git-Obsidian/Architettura degli Elaboratori/Assembly/Registri.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Heap",
     "Git-Obsidian/Architettura degli Elaboratori/Assembly",
     "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento",
