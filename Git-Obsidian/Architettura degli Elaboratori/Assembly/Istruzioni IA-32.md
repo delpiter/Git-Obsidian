@@ -343,7 +343,7 @@ ROR AL, 1          // AL = 10101010b
 ## Istruzioni di Salto
 ---
 ![[Pasted image 20240313213755.png]]
-
+### Codici Mnemonici e Significato dei Condition Codes
 ![[Pasted image 20240313213943.png]]
 
 ### Test
@@ -376,16 +376,203 @@ CMP AL, 20
 JE Addr    // Salta ad Addr se AL = 20
 ```
 
-### Jump
+### Uncoditional Jump
 >[!info] Descrizione
 >`JMP Addr`
 >Esegue un salto *incondizionato* a `Addr`
 >Il salto viene eseguito caricando in `EIP` l'indirizzo `Addr`
->Il programma *assemblatore* permette di utilizzare ***etichette* *simboliche*** che verranno poi sostituite con indirizzi relativi all'*istruzione corrente*, a tempo di *compilazione del programma*
 
+Il programma *assemblatore* permette di utilizzare ***etichette* *simboliche***
+- Esse verranno poi sostituite con **indirizzi relativi** all'*istruzione corrente*, a tempo di *compilazione del programma*
+- È anche possibile specificare **indirizzi assoluti** utilizzando in ***modo indiretto*** *registri o memoria*
 #### Esempio
 ```assembly
 JMP Fine // salto all'indirizzo Fine
 ...
 Fine: MOV AX, 20
 ```
+
+```assembly
+JMP [EDX] // Salta all'indirizzo di memoria 
+		  // indicato dalla DWORD all'indirizzo specificato da EAX
+		  // Dentro i 4 byte c'è scritto che indirizzo si deve impostare EIP
+```
+
+### Conditional Jump
+>[!info] Descrizione
+>`Jcc Addr`
+>"Salta" all'indirizzo `Addr` ***se e solo se*** la *condition code* `cc` determinata dall'istruzione **solitamente precedente**, è vera
+
+#### Esempio
+```assembly
+CMP EAX, ECX
+JE Addr      // Salta ad Addr se EAX = ECX
+```
+
+```assembly
+CMP EAX, EX
+JB Addr      // Salta ad Addr se EAX < ECX (unsigned)
+```
+
+```assembly
+CMP EAX, EX
+JA Addr      // Salta ad Addr se EAX > ECX (unsigned)
+```
+
+```assembly
+CMP EAX, EX
+JNE Addr     // Salta ad Addr se EAX != ECX
+```
+
+### Conditional Jump for LOOP
+>[!info] Descrizione
+>`JCXZ Addr` e `JECXZ Addr`
+>Versioni particolari di `Jcc`
+>`JCXZ` salta ad `Addr` se `CX` $=0$
+>`JECXZ` salta ad `Addr` se `ECX` $=0$
+>Queste istruzioni sono *specifiche* per il controllo per l'istruzione `LOOP`
+
+### Loop e Conditional Loop
+>[!info] Descrizione
+>`LOOP Addr`
+>Si tratta di un'istruzione compatta e ottimizzata per l'***esecuzione di cicli***
+>Per la variabile di **contatore** viene *obbligatoriamente utilizzato* il registro `ECX`
+>Simile al `do{}while();` nei linguaggi ad alto livello
+>Non altera i [[Registri#Flags di Stato|flag]]
+
+>[!info] Descrizione
+>`LOOPcc Addr`
+>Variante dell'istruzione `LOOP`
+>Oltre che a controllare quando `ECX` diventa $0$ controlla anche 1 di 4 ***condition code***:
+>- `E`, `Z`, `NE`, `NZ`
+> Sarebbe come mettere in `AND` le ***due condizioni***
+
+>[!warning] Attenzione
+
+È fondamentale avere la *sicurezza* che `ECX` sia ***diverso*** da $0$
+Dato che il *controllo condizionale* è fatto **dopo il decremento** di `ECX`
+- $0-1\implies 2^{32}$
+- E ciò vuol dire che prima che `ECX` torni a $0$ verranno eseguiti $2^{32}$ *cicli*
+#### Esempio
+>*Somma in `EAX` gli elementi di un vettore di `DWORD` di lunghezza $10$*
+>*Offset da $0$ a $9$ con ogni elemento 4 `BYTE`*
+
+```assembly
+MOV ECX, 10    // Valore iniziale di ECX
+XOR EAX, EAX
+Ciclo: ADD EAX, Vettore[ECX*4-4]  // Si scorre l'array da 9 a 0
+	   LOOP Ciclo
+```
+
+- Un risultato uguale ma ***meno efficiente*** può essere ottenuto con:
+
+```assembly
+MOV ECX, 10    // Valore iniziale di ECX
+XOR EAX, EAX
+Ciclo: ADD EAX, Vettore[ECX*4-4]
+	   DEC ECX
+	   JNZ Ciclo
+```
+
+L'istruzione `LOOP` costringe a ***contare all'indietro*** e ad utilizzare `ECX`
+
+#### Esempio
+```assembly
+MOV ECX, 10    // Valore iniziale di ECX
+XOR EAX, EAX
+Ciclo: ADD EAX, Vettore[ECX*4-4]
+	   CMP EAX, 100
+	   LOOP Ciclo
+```
+In questo caso il ciclo si conclude con due condizioni
+1. Quando `EAX` $=0$
+2. Quando in un qualsiasi momento la *somma dei valori* è $=100$ 
+
+>[!tip] Se non sono sicuro dell'*indirizzo iniziale*
+
+```assembly
+MOV ECX, pippo   // Non sono sicuro del valore iniziale
+JECXZ Fine
+XOR EAX, EAX
+Ciclo: ADD EAX, Vettore[ECX*4-4]
+       CMP EAX, 100
+       LOOPNE Ciclo
+Fine:
+```
+
+### Call e Return
+>[!info] Descrizione
+>`CALL Addr`
+>Questa istruzione fa partire l'***esecuzione di un sottoprogramma*** a partire dall'indirizzo `Addr`
+>Consiste nell'insieme di operazioni:
+>- `PUSH EIP` $\to$ Push del ***program counter***, per avere l'istruzione da *eseguire* alla fine del *sottoprogramma*
+>- `JUMP Addr` $\to$ Salto all'indirizzo del *sottoprogramma*
+>Sullo [[Stack]] viene caricata una `DWORD` equivalente a `EIP`
+
+Il sottoprogramma termina con un'istruzione `RET`
+>[!info] Descrizione
+>`RET`
+>Il controllo ritorna al programma *chiamante* che continua l'esecuzione all'istruzione ***successiva rispetto alla chiamata***
+>Consiste nell'*operazione*:
+>- `POP EIP` $\to$ Riprendo l'indirizzo **precedentemente salvato** e lo inserisco nell'*instruction* *pointer*
+
+![[Pasted image 20240319230747.png]]
+
+>[!done] Vantaggi
+
+1. Se la funzione deve essere chiamata *più volte*, non è *necessario* ***replicare il codice***
+2. È possibile creare delle *funzioni* [[Recursive Functions|ricorsive]]
+3. Utilizzo di *parametri*, sia per ***valore*** che per ***riferimento*** (*indirizzo*)
+4. I ***sottoprogrammi*** possono essere raccolti in **librerie** e utilizzati in *applicazioni diverse*
+
+>[!Danger] Nota Bene
+>Non è possibile manipolare `EIP` direttamente con istruzioni del tipo
+>`MOV EIP, EAX`
+#### Esempio
+>*Esempio di chiamata a procedura*
+
+```assembly
+JMP Main
+
+// Sottoprogramma che trasforma in big endian la WORD in AX
+Swap: MOV BL, AH   //ROR AX, 8
+	  SHL AX, 8
+	  MOV AL, BL
+	  RET
+
+// Programma Principale
+Main: XOR ECX, ECX
+	  XOR DX, DX
+
+Ciclo: MOV AX, Vettore[ECX*2]
+       CALL Swap
+       ADD DX, AX
+       INC ECX
+       CMP ECX, 10  // Controllo condizione di uscita
+       JNE Ciclo   
+```
+
+
+#### Disassembly di una Chiamata standard del C
+>Di seguito i passaggi che l'assembler in C fa in esecuzione
+
+1. I *parametri* sono messi sullo **stack** dal ***chiamante*** nell'ordine `RIGHT-to-LEFT`
+2. La funzione *chiamata* sa dove ***andare a reperire i parametri***
+3. Il valore di ***ritorno*** è sempre `EAX`
+4. La funzione ***chiamante*** ripristina lo ***stato originale dello stack*** (pulizia)
+	- Poiché in C è possibile avere funzioni con [[Funzioni in C#Funzioni variadiche|parametri variabili]]
+	- La funzione non sa quanti parametri andare a "pulire"
+
+![[Pasted image 20240319232947.png]]
+
+>[!question] Perché i parametri nella funzione sono presi con `+8` e `+12`??
+
+Nello standard C sono state prese delle decisioni riguardo alla ***chiamata e esecuzione*** di funzioni:
+- Il registro `EBP` è utilizzato come ***registro di appoggio*** per "*tenere il segno*" dello stack all'inizio della chiamata
+	- Verrà fatto il `PUSH` del valore di `EBP` per **non perderne il contenuto**
+
+Di conseguenza possiamo **ricostruire** lo *stato dello stack* al momento del salvataggio dei parametri:
+- `PUSH EIP` implicitamente eseguito dall'istruzione `CALL` (`32 BIT`, `4 BYTE`)
+- `PUSH EBP` per non perdere il ***contenuto del registro*** (`32 BIT`, `4 BYTE`)
+
+Quindi il primo parametro sarà esattamente `8 BYTE` "*indietro*" nello stack
