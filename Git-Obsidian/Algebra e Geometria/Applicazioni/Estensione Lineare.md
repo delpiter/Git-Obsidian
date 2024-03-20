@@ -73,3 +73,26 @@ a_{m1}\dots a_{mn}
 \end{pmatrix}
 $$
 Determina $f$ perché mi dice cosa fa $f$ ai vettori $v_{1},\dots,v_{n}$, e quindi a ***tutti gli altri vettori***
+
+#### Esempio
+>$V=\mathbb{R}^3$,  *Base:*  $v_{1}=(1,1,0),v_{1}=(1,0,-1),v_{3}=(0,1,2)$
+>$U=\mathbb{R}^2$ , *Base:* $u_{1}=(0,2),u_{2}=(-1,0)$
+
+$f:V\to U, f(x,y,z)=(x-z,2y-z)$
+
+- $f(v_{1})=(1,2)=1u_{1}-1u_{2}$
+- $f(v_{2})=(2,1)=\frac{1}{2}u_{1}-2u_{2}$
+- $f(v_{3})=(-2,0)=0u_{1}+2u_{2}$
+
+Otteniamo quindi la ***matrice***:
+$$
+\begin{pmatrix}
+1 & \frac{1}{2} & 0 \\
+-1  & -2  & 2
+\end{pmatrix}
+$$
+##### Osservazione
+>La matrice ottenuta ***dipende dalla scelta delle basi***
+
+Scegliendo ***basi diverse*** per $V,U$ la stessa $f$ avrebbe prodotto una ***matrice diversa***
+

@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Obsidian/Algebra e Geometria/Applicazioni/Estensione Lineare.md",
+                "file": "Git-Obsidian/Algebra e Geometria/Applicazioni/Matrici di Applicazioni Lineari.md",
                 "mode": "source",
                 "source": false
               }
@@ -83,8 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 269.5,
-    "collapsed": true
+    "width": 269.5
   },
   "right": {
     "id": "3561446b8c4d05ef",
@@ -100,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Algebra e Geometria/Applicazioni/Estensione Lineare.md",
+                "file": "Git-Obsidian/Algebra e Geometria/Applicazioni/Matrici di Applicazioni Lineari.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Algebra e Geometria/Applicazioni/Estensione Lineare.md",
+                "file": "Git-Obsidian/Algebra e Geometria/Applicazioni/Matrici di Applicazioni Lineari.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git-Obsidian/Algebra e Geometria/Applicazioni/Estensione Lineare.md"
+                "file": "Git-Obsidian/Algebra e Geometria/Applicazioni/Matrici di Applicazioni Lineari.md"
               }
             }
           },
@@ -183,8 +182,9 @@
   },
   "active": "ec31639591fd2fc9",
   "lastOpenFiles": [
-    "Git-Obsidian/Algebra e Geometria/Applicazioni/Isomorfismo.md",
     "Git-Obsidian/Algebra e Geometria/Applicazioni/Estensione Lineare.md",
+    "Git-Obsidian/Algebra e Geometria/Applicazioni/Matrici di Applicazioni Lineari.md",
+    "Git-Obsidian/Algebra e Geometria/Applicazioni/Isomorfismo.md",
     "Git-Obsidian/Algebra e Geometria/Applicazioni/Applicazioni Lineari.md",
     "Git-Obsidian/Architettura degli Elaboratori/Assembly/Istruzioni IA-32.md",
     "Git-Obsidian/Attatchments/Pasted image 20240319232947.png",
@@ -221,7 +221,6 @@
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati",
     "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento/Quick Sort.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento/Merge Sort.md",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Confronto fra Algoritmi/Notazioni.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Heap",
     "Git-Obsidian/Architettura degli Elaboratori/Assembly",
     "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento",
