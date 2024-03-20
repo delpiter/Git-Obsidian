@@ -51,6 +51,71 @@ $$
 
 >[!abstract] Proprietà Simmetrica
 
+##### Proprietà
+>L'***inverso*** di un isomorfismo è un isomorfismo
+
+###### Dimostrazione
+>Sia $f:V\to U$ un *isomorfismo* di [[Campi e Spazi Vettoriali#Spazio Vettoriale|spazi vettoriali]]
+
+Poiché $f$ è biunivoca, esiste $f^{-1}:U\to V$
+
+>[!question] $f$ è lineare?
+
+Siano $u_{1},u_{2}\in U$
+- Poiché $f$ è [[Git-Obsidian/Analisi/Funzioni/Introduzione Funzioni#Funzione Biunivoca|biunivoca]], cioè
+$$
+\exists! v_{1},v_{2}\in V :f(v_{1})=u_{1},f(v_{2}) =u_{2}
+$$
+
+Possiamo dire che :
+$$
+f^{-1}(u_{1}+u_{2})=f^-1(f(v_{1})+f(v_{2}))
+$$
+E poiché $f$ è lineare:
+$$
+f^{-1}(f(v_{1}+v_{2})) = v_{1}+v_{2}=f^{-1}(u_{1})+f^{-1}(u_{2})
+$$
+
+Quindi $f^{-1}$ è un ***isomorfismo***
 
 >[!abstract] Proprietà Transitiva
+
+##### Proprietà
+>La ***composizione*** di [[Applicazioni Lineari#Applicazione Lineare|applicazioni lineari]] è lineare
+>- *In particolare la composizione di isomorfismi è un isomorfismo*
+
+###### Dimostrazione
+>Siano $V,U,W$ [[Campi e Spazi Vettoriali#Spazio Vettoriale|spazi vettoriali]] e $f,g$ *applicazioni lineari*
+$$
+V\underbrace{ \to }_{ f } U \underbrace{ \to }_{ g } W
+$$
+
+>[!abstract] Somma
+
+Siano $v_{1},v_{2}\in V$
+- Allora $(g_{o}f)(v_{1}+v_{2})=g(f(v_{1}+v_{2}))$
+
+Quindi poiché $f$ è *lineare*, possiamo dire che:
+- $g(f(v_{1})+f(v_{2}))$
+Di nuovo, poiché $g$ è *lineare*
+- $g(f(v_{1}))+g(f(v_{2}))=(g_{o}f)(v_{1})+(g_{o}f)(v_{2})$
+
+
+>[!abstract] Prodotto
+
+>Analogamente il *prodotto per scalare*:
+
+$$
+g(f(av)) = g(af(v))=ag(f(v))
+$$
+
+Inoltre se $f$ e $g$ sono [[Git-Obsidian/Analisi/Funzioni/Introduzione Funzioni#Funzione Biunivoca|biunivoche]], cioè esistono le *inverse* $f^{-1},g^{-1}$
+- Allora anche $g_{o}f$ è ***biunivoca***, perché la sua inversa è:
+$$
+(g_{o}f)^{-1} =f^{-1}_{o}g^{-1}
+$$
+>[!done] Conclusione
+
+Quindi $g_{o}f$ è un'applicazione lineare biunivoca
+- $g_{o}f$ è un ***isomorfismo***
 
