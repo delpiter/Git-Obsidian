@@ -4,11 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "8c57609d723fca76",
+        "id": "6288f1beb58278b9",
         "type": "tabs",
         "children": [
           {
-            "id": "88e92441ddec9fbd",
+            "id": "e9d9a61438c051fe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git-Obsidian/Architettura degli Elaboratori/Assembly/Istruzioni IA-32 Speciali.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "40df88cb78c06ca4",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -86,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Architettura degli Elaboratori/Assembly/Istruzioni IA-32.md",
+                "file": "Git-Obsidian/Architettura degli Elaboratori/Assembly/Istruzioni IA-32 Speciali.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Architettura degli Elaboratori/Assembly/Istruzioni IA-32.md",
+                "file": "Git-Obsidian/Architettura degli Elaboratori/Assembly/Istruzioni IA-32 Speciali.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git-Obsidian/Architettura degli Elaboratori/Assembly/Istruzioni IA-32.md"
+                "file": "Git-Obsidian/Architettura degli Elaboratori/Assembly/Istruzioni IA-32 Speciali.md"
               }
             }
           },
@@ -167,14 +179,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "88e92441ddec9fbd",
+  "active": "e9d9a61438c051fe",
   "lastOpenFiles": [
+    "Git-Obsidian/Architettura degli Elaboratori/Assembly/Istruzioni IA-32.md",
+    "Git-Obsidian/Architettura degli Elaboratori/Assembly/Istruzioni IA-32 Speciali.md",
+    "Git-Obsidian/Attatchments/Pasted image 20240321135701.png",
+    "Git-Obsidian/Attatchments/Pasted image 20240321125420.png",
     "Git-Obsidian/Attatchments/Pasted image 20240321101849.png",
     "Git-Obsidian/Algebra e Geometria/Applicazioni/Isomorfismo.md",
     "Git-Obsidian/Algebra e Geometria/Applicazioni/Matrici di Applicazioni Lineari.md",
     "Git-Obsidian/Algebra e Geometria/Applicazioni/Estensione Lineare.md",
     "Git-Obsidian/Algebra e Geometria/Applicazioni/Applicazioni Lineari.md",
-    "Git-Obsidian/Architettura degli Elaboratori/Assembly/Istruzioni IA-32.md",
     "Git-Obsidian/Attatchments/Pasted image 20240319232947.png",
     "Git-Obsidian/Programmazione/Funzioni/Funzioni in C.md",
     "Git-Obsidian/Attatchments/Pasted image 20240319230747.png",
@@ -196,10 +211,7 @@
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Hash",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Untitled.md",
     "Git-Obsidian/Attatchments/image-removebg-preview 1.png",
-    "Git-Obsidian/Attatchments/Pasted image 20240317162039.png",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Linked Lists.md",
-    "Git-Obsidian/Attatchments/Screenshot_2024-03-16_123229-removebg-preview.png",
-    "Git-Obsidian/Attatchments/Screenshot 2024-03-16 123229.png",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Stack.md",
     "Git-Obsidian/Programmazione/Variabili/Tipi di Dati Avanzati.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Gli Alberi.md",
@@ -207,7 +219,6 @@
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Heap.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento/Heap Sort.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento/Quick Sort.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Heap",
     "Git-Obsidian/Architettura degli Elaboratori/Assembly",
     "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento",
