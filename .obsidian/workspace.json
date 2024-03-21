@@ -4,28 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "6288f1beb58278b9",
+        "id": "bf3138c475647373",
         "type": "tabs",
         "children": [
           {
-            "id": "e9d9a61438c051fe",
+            "id": "593a63d5703d39c6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Obsidian/Architettura degli Elaboratori/Assembly/Istruzioni IA-32 Speciali.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "40df88cb78c06ca4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git-Obsidian/Architettura degli Elaboratori/Assembly/Istruzioni IA-32.md",
+                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Hash/Funzione di Hash.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Architettura degli Elaboratori/Assembly/Istruzioni IA-32 Speciali.md",
+                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Hash/Funzione di Hash.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Architettura degli Elaboratori/Assembly/Istruzioni IA-32 Speciali.md",
+                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Hash/Funzione di Hash.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git-Obsidian/Architettura degli Elaboratori/Assembly/Istruzioni IA-32 Speciali.md"
+                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Hash/Funzione di Hash.md"
               }
             }
           },
@@ -179,8 +167,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "e9d9a61438c051fe",
+  "active": "593a63d5703d39c6",
   "lastOpenFiles": [
+    "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Hash/Hash Table.md",
+    "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Organizzazione di un Calcolatore.md",
+    "Git-Obsidian/Architettura degli Elaboratori/Untitled.md",
+    "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore",
     "Git-Obsidian/Architettura degli Elaboratori/Assembly/Istruzioni IA-32.md",
     "Git-Obsidian/Architettura degli Elaboratori/Assembly/Istruzioni IA-32 Speciali.md",
     "Git-Obsidian/Attatchments/Pasted image 20240321135701.png",
@@ -201,7 +193,6 @@
     "Git-Obsidian/Attatchments/Pasted image 20240318182201.png",
     "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/Introduzione.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Hash/Funzione di Hash.md",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Hash/Hash Table.md",
     "Git-Obsidian/Algebra e Geometria/Applicazioni",
     "Git-Obsidian/Programmazione/Funzioni/Recursive Functions.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Appunti.md",
@@ -217,7 +208,6 @@
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Gli Alberi.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Queue.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Heap.md",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento/Heap Sort.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Heap",
     "Git-Obsidian/Architettura degli Elaboratori/Assembly",
@@ -226,7 +216,6 @@
     "Git-Obsidian/Algoritmi e Strutture Dati/Untitled.canvas",
     "Git-Obsidian/Algoritmi e Strutture Dati/Confronto fra Algoritmi",
     "Git-Obsidian/Architettura degli Elaboratori/Rappresentazione dell'Informazione",
-    "Git-Obsidian/Algebra e Geometria/Basi dell'algebra",
     "Untitled 2.canvas",
     "Untitled.canvas",
     "Untitled 1.canvas"

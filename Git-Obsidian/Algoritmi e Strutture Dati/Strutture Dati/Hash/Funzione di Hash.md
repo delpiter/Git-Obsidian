@@ -173,3 +173,77 @@ Se $Pr()$ è sconosciuta:
 
 Costante $A$ ottimale:
 - $(5^{\frac{1}{2}}-1)/2 = 0.618\dots$
+
+### Open Addressing
+>[!info] Risoluzione di Collisioni con Open Addressing
+>Nell'***open addressing*** la tabella è *dimensionata* in accordo con il numero di dati da inserire
+>A contrario del *chaining* è possibile **finire lo spazio** a disposizione
+>L'hash function $h$ è più complessa, prende come parametri la *chiave* e il ***numero di collisioni già avvenute***
+
+#### Uniform Hashing
+>[!info] Funzione Hash
+>Se gestiamo le collisioni con il metodo ***open addressing***
+>la funzione hash restituisce una permutazione degli indici $<1,\dots,m>$
+>Invece di simple uniform hashing parliamo di **uniform hashing**
+>>[!abstract] Concetto
+>>Tutte le permutazioni devono apparire con la stessa probabilità
+
+#### Pseudocodici
+```pseudo
+	\begin{algorithm}
+	\caption{Insert}
+	\begin{algorithmic}
+\Procedure{HashInsert}{$ T,k $}
+\State $ i=0 $
+\Repeat
+	
+\State $ j= $\Call{h}{k,i} 
+	\If{$ T[j]=null \text{ OR } T[j]='d' $}
+  \State $ T[j]=k $
+  \Return $ j $
+  \Else 
+ \State $ i=i+1 $
+ \EndIf
+\Until{i=m}
+\State $ \text{"error hash table overflow"} $	
+ \EndProcedure
+	\end{algorithmic}
+	\end{algorithm}
+```
+
+```pseudo
+	\begin{algorithm}
+	\caption{Search}
+	\begin{algorithmic}
+\Procedure{HashSearch}{$ T,k $}
+\State $ i=0 $
+\Repeat
+\State $ j= $	\Call{h}{$k,i$}
+	\If{$ T[j]=k  $}
+	\Return $ j $
+	\Else 
+ \State $ i=i+1 $
+  
+ \EndIf
+\Until{$T[j]==null \text{ OR } i==m$}
+	\Return $ null $
+ \EndProcedure
+	\end{algorithmic}
+	\end{algorithm}
+```
+
+```pseudo
+	\begin{algorithm}
+	\caption{Delete}
+	\begin{algorithmic}
+\Procedure{HashDelete}{$ T,k $}
+\State $ i= $ \Call{HashSearch}{T,k}
+\If{$ i\neq null  $}
+  \State $ T[i]='d' $
+ \EndIf
+ \EndProcedure
+	\end{algorithmic}
+	\end{algorithm}
+```
+
+#### Linear Probing
