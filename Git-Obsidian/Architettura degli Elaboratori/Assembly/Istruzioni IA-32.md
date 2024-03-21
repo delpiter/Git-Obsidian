@@ -576,3 +576,100 @@ Di conseguenza possiamo **ricostruire** lo *stato dello stack* al momento del sa
 - `PUSH EBP` per non perdere il ***contenuto del registro*** (`32 BIT`, `4 BYTE`)
 
 Quindi il primo parametro sarà esattamente `8 BYTE` "*indietro*" nello stack
+
+## Manipolazione di Stringhe
+---
+>Per quanto possa ingannare il titolo, non si lavora veramente con stringhe ma con ***buffer di byte***
+
+![[Pasted image 20240321101849.png]]
+>[!info] Stringhe
+>Le **stringhe** sono sequenze contigue di caratteri (`BYTE`), molto utilizzate.
+>Risulta spesso necessario eseguire operazioni su stringhe, come:
+>- Copia
+>- Confronto
+>- Concatenazione
+>- Inversione
+>- Ricerca di un carattere
+>- Etc$\dots$
+
+- Sono disponibili ***istruzioni ottimizzate*** per la manipolazione di stringhe
+	- Tuttavia queste operazioni operano indipendentemente dalla rappresentazione [[Rappresentazione dei Caratteri#ASCII|ASCII]] dei caratteri e trattano gli elementi come `BYTE`
+	- Sarebbe opportuno parlare di ***Manipolazione di blocchi contigui di memoria***
+
+>[!abstract] Registri Dedicati
+> Le operazioni su *stringhe* utilizzano obbligatoriamente due ***registri dedicati***
+> `ESI` (***E***xtended ***S***ource ***I***ndex) e `EDI` (***E***xtended ***D***estination ***I***ndex)
+> Vengono utilizzati come indirizzo dell'**elemento corrente** nella stringa *sorgente* o *destinazione*
+
+>[!info] Prefisso `REP`
+>Il prefisso `REP` o `REPcc` *anteposto* ad una delle istruzioni sopraelencate consente di eseguire un ***ciclo sulla stringa***
+
+### Requisiti
+- La lunghezza della stringa ***deve essere specificata*** dal registro `ECX`
+	- Il registro viene ***automaticamente decrementato*** durante il ciclo
+- Il registro `ESI` o `EDI` o *entrambi* vengono ***automaticamente incrementati o decrementati***
+	- A seconda del [[Registri#Flags di Stato|flag]] `DF` in `EFLAGS`
+- Il ciclo continua fino a che `ECX>0` e nel caso di `REPcc`, fino a che la condizione `cc` è vera
+	- `REPcc` viene usato solo con `CMPS` e `SCAS` alle quali è concesso impostare i flag
+
+>[!abstract] Flag `DF`
+
+Il *direction flag* serve per dire al calcolatore se la sequenza di `BYTE` va "*percorsa*" ***indietro o in avanti*** 
+- Per impostare il *direction flag* sono state introdotte due **istruzioni**
+
+>[!info] Set Direction Flag
+>`STD` imposta il flag `DF` a `1`
+>Lo **scorrimento** della *stringa* avverrà all'***indietro***
+
+>[!info] Clear Direction Flag
+>`CLD` imposta il flag `DF` a `0`
+>Lo **scorrimento** della *stringa* avverrà in ***avanti***
+
+### Store String
+>[!info] Descrizione
+>`STOS`
+>Scrive il contenuto di `AL` nell'indirizzo `[EDI]` 
+#### Esempio
+>*Azzera il blocco di memoria di 256 `BYTE` a partire dall'indirizzo `IndBlocco`*
+```assembly
+CLD                // Scorrimento in avanti
+MOV ECX, 256       // Numero di elementi
+LEA EDI, IndBlocco // Indirizzo di partenza in EDI
+XOR AL, AL         // Valore da scrivere con STOS
+REP STOS           // Scrive AL su [EDI], Decrementa ECX, incrementa EDI
+```
+
+### Move String
+>[!info] Descrizione
+>`MOVS`
+>Copia il valore contenuto in `[ESI]` in `[EDI]`
+
+#### Esempio
+>*Copia il blocco di memoria di 256 `BYTE` a partire dall'indirizzo `IndBlocco` su il blocco il cui indirizzo di partenza è `IndBlocco2`*
+
+```assembly
+CLD                 // Scorrimento in avanti
+MOV ECX, 256        // Numero di elementi
+LEA ESI, IndBlocco  // Indirizzo di partenza stringa 1
+LEA ESI, IndBlocco2 // Indirizzo di partenza stringa 2
+REP MOVS            // Scrive [ESI] su [EDI] 
+                    // Decrementa ECX incrementa i due registri
+	                // Ripete fino a che ECX>0 e il flag ZF è 1
+```
+
+### String Compare
+>[!info] Descrizione
+>`CMP`
+>Confronta il valore contenuto nell'indirizzo `[ESI]` con il valore contenuto in `[EDI]`
+#### Esempio
+>*Confrontare 2 blocchi di memoria lunghi 256 `BYTE`, `IndBlocco` e `IndBlocco2` sono gli indirizzi di partenza*
+```assembly
+CLD                 // Scorrimento in avanti
+MOV ECX, 256        // Numero di elementi
+LEA ESI, IndBlocco  // Indirizzo di partenza stringa 1
+LEA ESI, IndBlocco2 // Indirizzo di partenza stringa 2
+REPE CMPS           // Confronta [ESI] con [EDI] e setta il flag di 
+                    // conseguenza, decrementa ECX incrementa i due registri
+	                // Ripete fino a che ECX>0 e il flag ZF è 1
+```
+
