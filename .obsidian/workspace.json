@@ -83,7 +83,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 269.5
+    "width": 269.5,
+    "collapsed": true
   },
   "right": {
     "id": "3561446b8c4d05ef",
@@ -182,9 +183,9 @@
   },
   "active": "ec31639591fd2fc9",
   "lastOpenFiles": [
-    "Git-Obsidian/Algebra e Geometria/Applicazioni/Estensione Lineare.md",
-    "Git-Obsidian/Algebra e Geometria/Applicazioni/Matrici di Applicazioni Lineari.md",
     "Git-Obsidian/Algebra e Geometria/Applicazioni/Isomorfismo.md",
+    "Git-Obsidian/Algebra e Geometria/Applicazioni/Matrici di Applicazioni Lineari.md",
+    "Git-Obsidian/Algebra e Geometria/Applicazioni/Estensione Lineare.md",
     "Git-Obsidian/Algebra e Geometria/Applicazioni/Applicazioni Lineari.md",
     "Git-Obsidian/Architettura degli Elaboratori/Assembly/Istruzioni IA-32.md",
     "Git-Obsidian/Attatchments/Pasted image 20240319232947.png",

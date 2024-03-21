@@ -31,5 +31,54 @@ Abbiamo scoperto che la *matrice* di $g_{o}f$ in *tali basi* è la matrice che h
 >>Abbiamo scoperto che la *matrice* di $g_{o}f$ in *tali basi* è la matrice che ha,
 >>alla $h$-esima ***riga*** e $i$-esima ***colonna***, il numero descritto dalla *sommatoria*
 
+### Esempio
+>*Sia* $V=U=W$ *con base* $e_{1}=(1,0),e_{2}=(0,1)$ *e* $g(x,y)=(2x-y,-x+3y),f(x,y)=(5x+2y,-2x+y)$
 
+Troviamo le matrici di $g$ e $f$
+- $g(e_{1})=(2-0,-1+0)=(2,-1)$
+- $g(e_{2})=(0-1,-0+3)=(-1,3)$
+- $f(e_{1})=(5+0,-2+0)=(5,-2)$
+- $f(e_{2})=(0+2,-0+1) = (2,1)$
 
+Otteniamo così le *matrici*:
+$$
+\text{matrice di }g\to B=\begin{pmatrix}
+2 & -1 \\
+-1 & 3
+\end{pmatrix},
+\text{matrice di }f\to A=\begin{pmatrix}
+5 & 2 \\
+-2 & 1
+\end{pmatrix}
+$$
+Ora facciamo il prodotto *riga* $\times$ *colonna* $B\times A$
+$$
+BA=\begin{pmatrix}
+2 & -1 \\
+-1 & 3
+\end{pmatrix}\times
+\begin{pmatrix}
+5 & 2 \\
+-2 & 1
+\end{pmatrix}
+=\begin{pmatrix}
+2\cdot5+(-1)\cdot(-2) & 2\cdot2+(-1)\cdot(1) \\
+(-1)\cdot5+3\cdot(-2) & (-1)\cdot2+3\cdot 1
+\end{pmatrix}=
+$$
+- Ottenendo così la *matrice*:
+$$
+\begin{pmatrix}
+12 & 3 \\
+-11  & 1
+\end{pmatrix}
+$$
+> Ora controlliamo:
+
+$$
+\begin{array}
+\ (g_{o}f)(x,y)=g(5x+2y,-2x+y) \\
+=(2(5x+2y)-(2x+y),-(5x+2y)+3(-2x+y))= \\
+=(12x+3y,-11x+y)
+\end{array}
+$$
