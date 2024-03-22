@@ -182,11 +182,51 @@ Costante $A$ ottimale:
 
 #### Uniform Hashing
 >[!info] Funzione Hash
->Se gestiamo le collisioni con il metodo ***open addressing***
->la funzione hash restituisce una permutazione degli indici $<1,\dots,m>$
->Invece di simple uniform hashing parliamo di **uniform hashing**
->>[!abstract] Concetto
->>Tutte le permutazioni devono apparire con la stessa probabilità
+>La gestione di collisioni con il metodo ***open addressing*** richiede che per ogni chiave $k$, la sequenza di [[Definizioni_Algoritmi#Probe|probe]] $<h(k,0),\dots,h(k,m-1)>$ deve essere una permutazione degli indici $<1,\dots,m>$ tali che ogni posizione della ***tabella hash*** è **prima o poi** considerata come uno *slot per una nuova chiave*
+
+#### Open Addressing - Ricerca
+>[!teorema]
+>Sia $n$ il numero di celle occupate e $m$ il numero totale di celle
+>Data una *hash table* con *open addressing* e load factor $\alpha=\displaystyle\frac{n}{m}<1$
+>La lunghezza **media** di una [[Definizioni_Algoritmi#Probe|probe]] in una *ricerca senza successo* è di $\displaystyle{\frac{1}{(1-\alpha)}}$
+>- Assumendo una ***permutazione uniforme di indici***
+
+##### Dimostrazione
+>*Sia* $x$ *il numero di accessi necessari prima di trovare una cella vuota (probe)*
+
+Dobbiamo valutare $E[x]$, la media di tutte le possibili $x$
+
+Posso calcolare la *media* di valori facendo:
+-  La somma di ***valori assumibili*** moltiplicata per la ***probabilità*** con cui viene *assunto* il valore
+$$
+\begin{array}
+\ A=\{ 3,6,1,3,9,6,8,5,5 \} \\
+\text{ Average }=1\cdot \frac{1}{9} + 2\cdot0+2\cdot \frac{2}{9}+4\cdot0+5\cdot \frac{2}{9}+6\cdot \frac{2}{9} +7\cdot 0+8\cdot\frac{1}{9} +9\cdot \frac{1}{9}= \\
+\displaystyle\sum_{i=0}^{+\infty}i\cdot p_{i}
+\end{array}
+$$
+- $p_{i} \to$ *probabilità* di assunzione del valore
+- $i\to$ *numero* di *accessi*
+$$
+x=\begin{cases}
+0\to p_{0} \\
+1\to p_{1} \\
+\dots \\
+i\to p_{i} \\
+\dots
+\end{cases}
+$$ 
+>[!warning] Nota
+>$$p_{i}=0,\forall i>n$$
+>La probabilità che un numero ***fuori dall'insieme*** venga estratto è uguale a $0$
+
+$$
+\begin{array}
+\ \displaystyle\sum_{i=0}^{+\infty}i\cdot p_{i}=\displaystyle\sum_{i=0}^{+\infty}i\cdot p(x=i)= \\
+\displaystyle\sum_{i=0}^{+\infty} i(p(x\geq i)-p(x\geq i+1)) = 1P_{1}\underbrace{ -1P_{2}+2P_{2} }_{ +P_{2} }\underbrace{ -2P_{3}+3P_{3} }_{ +P_{3} }+\dots= \\
+\displaystyle\sum_{i=1}^{+\infty} p(x\geq i)
+\end{array}
+$$
 
 #### Pseudocodici
 ```pseudo
@@ -247,3 +287,45 @@ Costante $A$ ottimale:
 ```
 
 #### Linear Probing
+>[!info] Descrizione
+>Il ***linear probing*** è un caso speciale di *double hashing*.
+>È l'approccio ***open-addressing*** più semplice di risolvere le *collisioni*
+>>[!abstract] Funzionamento
+>>Nel caso del ***linear probing*** una funzione di hash ausiliaria $h_{1}$ determina la prima posizione della **[[Definizioni_Algoritmi#Probe|probe]]** $h_{1}(k)$ per l'inserimento di un elemento.
+>>Se lo slot $T[h_{1}(k)]$ è già *occupato*, la prossima posizione da controllare sarà: $T[h_{1}(k)+1]$
+>>Continua il processo fino a che non si ***trova una cella libera***
+
+>[!done] Funzione di hash $h$
+$$
+h(k,i)=(k_{1}(k)+i)\text{ mod }m
+$$
+##### Analisi del linear probing
+>Il *linear probing* è spesso implementato, ma esibisce un fenomeno chiamato ***primary clustering***
+
+>[!info] Primary Clustering
+>Il **primary clustering** è una lunga sequenza di slot occupati, che ***aumentano il tempo medio di ricerca***
+
+- Questo accade perché uno *slot vuoto* **preceduto** da $i$ *slot pieni* viene successivamente riempito con una ***probabilità*** di $\frac{i+1}{m}$ 
+- Una lunga *sequenza di slot occupati* tende a diventare ***sempre più lunga***
+
+![[primary clustering.png]]
+###### Semi-Soluzione
+>[!info] Quadratic Probing
+>Ad ogni *collisione* l'indice $i$ si altera in ***maniera quadratica***
+>$$h(k,i)=(h_{1}(k)+c_{1}i+c_{2}i^2)\text{ mod }m$$
+
+
+![[Screenshot 2024-03-22 163714.png]]
+>[!fail] Il problema persiste
+
+Due chiavi che vanno in collisione con $h_{1}(k,0)$ andranno in *collisione* ad ogni ***passaggio/iterazione***
+
+#### Double Hashing
+>[!info] Descrizione
+>Nel double hashing **accodo** alla ***prima funzione*** di *hash semplice* $h_{1}$ una ***seconda funzione*** di *hash semplice* $h_{2}$ diversa in modo di *abbassare* drasticamente le ***collisioni in catena***
+
+>[!done] Funzione di double hashing $h$
+
+$$
+h(k,i)=(h_{1}(k)+ih_{2}(k))\text{ mod }m
+$$
