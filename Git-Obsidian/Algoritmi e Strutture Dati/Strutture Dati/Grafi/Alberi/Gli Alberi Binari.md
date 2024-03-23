@@ -149,3 +149,80 @@ Un albero di ricerca binaria non è sempre ***ben bilanciato***:
 	\end{algorithm}
 ```
 
+### Ricerca
+```pseudo
+	\begin{algorithm}
+	\caption{Tree Search}
+	\begin{algorithmic}
+	\Procedure{TreeSearch}{$ x,k $}
+	\If{$ x=\text{NULL OR } k=key[x] $}
+  \Return $ x $
+ \EndIf
+ \If{$ k<key[x]  $}
+  \Return \Call{TreeSearch}{$left[x],k$}
+  \Else 
+ \Return \Call{TreeSearch}{$right[x],k$}
+ \EndIf
+ \EndProcedure
+	\end{algorithmic}
+	\end{algorithm}
+```
+
+### Successore e Predecessore
+#### Successore
+>[!info] Come Trovare il Successore di un Nodo
+>Per trovare il ***successore*** di un *nodo* specificato ci sono *due casi di ricerca*
+>>[!abstract] Il nodo ha il ***figlio destro***
+>>Se il nodo ha il *figlio destro* **scendo** a quel nodo, sia $x$ il nodo
+>>A quel punto devo trovare il ***più piccolo figlio*** del nuovo nodo
+>>- Scendo al *figlio di sinistra* finché non ne trovo uno ***senza figlio di sinistra***
+>
+>>[!abstract] Il nodo ***non*** ha il ***figlio destro***
+>>Se il nodo ***non*** ha il *figlio destro* mi devo spostare verso l'alto
+>>Devo trovare il più basso antenato di $x$ il cui figlio sinistro è antenato di $x$
+
+#### Predecessore
+>[!info] Come trovare il Predecessore di un Nodo
+>Analogamente al Successore, il predecessore ha *due casi di ricerca*
+>>[!abstract] Il nodo ha il *figlio sinistro*
+>>Se il nodo $x$ ha il *figlio sinistro*, **scendo** a quel nodo
+>>A quel punto devo trovare il ***più grande figlio*** del nuovo nodo
+>>- Scendo al *figlio di destra* finché non ne trovo uno senza ***figlio di destra***
+>
+>>[!abstract] Il nodo *non* ha il *figlio sinistro*
+>>Se il nodo ***non*** ha il *figlio sinistro* mi devo spostare verso l'alto
+>>Devo trovare il più alto antenato di $x$ il cui figlio destro è antenato di $x$
+
+### Minimo e Massimo
+#### Minimo
+>*Per trovare il minimo sarà sufficiente scendere al nodo più a **sinistra***
+```pseudo
+	\begin{algorithm}
+	\caption{Tree Minimum}
+	\begin{algorithmic}
+\Procedure{TreeMinimum}{$ x $}
+	\While{$left(x) \neq \text{ NULL}$}
+	\State $ x = left(x) $
+    \EndWhile
+    \Return $ x $
+ \EndProcedure
+	\end{algorithmic}
+	\end{algorithm}
+```
+
+#### Massimo
+>*Per trovare il massimo sarà sufficiente scendere al nodo più a **destra***
+
+```pseudo
+	\begin{algorithm}
+	\caption{Tree Maximum}
+	\begin{algorithmic}
+\Procedure{TreeMaximum}{$ x $}
+	\While{$right(x) \neq \text{ NULL}$}
+	\State $ x = right(x) $
+    \EndWhile
+    \Return $ x $
+ \EndProcedure
+	\end{algorithmic}
+	\end{algorithm}
+```
