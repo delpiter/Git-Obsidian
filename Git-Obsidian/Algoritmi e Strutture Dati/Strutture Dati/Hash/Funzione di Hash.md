@@ -223,10 +223,59 @@ $$
 $$
 \begin{array}
 \ \displaystyle\sum_{i=0}^{+\infty}i\cdot p_{i}=\displaystyle\sum_{i=0}^{+\infty}i\cdot p(x=i)= \\
-\displaystyle\sum_{i=0}^{+\infty} i(p(x\geq i)-p(x\geq i+1)) = 1P_{1}\underbrace{ -1P_{2}+2P_{2} }_{ +P_{2} }\underbrace{ -2P_{3}+3P_{3} }_{ +P_{3} }+\dots= \\
-\displaystyle\sum_{i=1}^{+\infty} p(x\geq i)
 \end{array}
 $$
+- Posso sostituire la *probabilità* che venga assunto un valore $=i$ con:
+	- La *differenza fra la probabilità* che venga assunto un valore $\geq i$ e la *probabilità* che venga assunto un valore $\geq i+1$
+
+$$
+\begin{array}
+\ \displaystyle\sum_{i=0}^{+\infty} i(p(x\geq i)-p(x\geq i+1)) = 1P_{1}\underbrace{ -1P_{2}+2P_{2} }_{ +P_{2} }\underbrace{ -2P_{3}+3P_{3} }_{ +P_{3} }+\dots= \\
+\displaystyle\sum_{i=1}^{+\infty} p(x\geq i)
+
+\end{array}
+$$
+Notare che ora la sommatoria non ha più il *fattore $i$ moltiplicato*
+- Ora basta ricondursi a una delle [[Confronto e Pseudocodice#Sommatorie utilizzate|sommatorie conosciute]]
+
+Sappiamo che la ***probabilità di fare almeno un accesso*** è:
+$$
+p_{1}=\frac{n}{m}
+$$
+Quindi, di *conseguenza*:
+$$
+\begin{array}
+\ p_{2}(\text{1 cella occupata}) = \displaystyle\frac{n}{m}\cdot \displaystyle{\frac{n-1}{m-1}}< \left( \frac{n}{m} \right)^2 \\
+\dots \\
+p_{i}(\text{i-1 celle occupate})=\displaystyle\frac{n}{m}\cdot ... \cdot \displaystyle{\frac{n-(i-1)}{m-(i-1)}} < \left( \frac{n}{m} \right)^i
+\end{array}
+$$
+
+- Ci siamo ricondotti a una ***sommatoria conosciuta***:
+$$
+E[x]=\sum_{i=1}^{+\infty}p(x\geq i)\leq\sum_{i=1}^{+\infty}\left( \frac{n}{m} \right)^i=\sum_{i=1}^{+\infty}\alpha^i
+$$
+
+>[!done] Conclusione
+
+Il costo per la ricerca *senza successo* sarà:
+- Il valore appena calcolato $+1$ 
+	- Che rappresenta ***l'accesso necessario*** per trovare una *cella vuota*
+
+$$
+1+E [x]\leq \displaystyle{\frac{1}{1-\alpha}}
+$$
+
+#### Open Addressing - Inserimento
+>[!teorema]
+>Data una *hash table* con *open addressing* e **load factor** $\alpha=\frac{n}{m}<1$
+>La lunghezza media di una [[Definizioni_Algoritmi#Probe|probe]] è $\frac{1}{1-\alpha}$
+>- Assumendo una ***permutazione uniforme degli indici***
+
+##### Dimostrazione
+Per inserire un elemento abbiamo bisogno di *determinare la posizione* nella tabella ***dove inserirlo***
+- *Costo della ricerca*: $\displaystyle{\frac{1}{1-\alpha}}$
+
 
 #### Pseudocodici
 ```pseudo
