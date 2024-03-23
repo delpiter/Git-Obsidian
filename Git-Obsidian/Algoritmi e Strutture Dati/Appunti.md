@@ -60,5 +60,4 @@ Obbiettivo
 
 
 
-![[Pasted image 20240323114207.png]]
-![[Pasted image 20240323114233.png]]
+
