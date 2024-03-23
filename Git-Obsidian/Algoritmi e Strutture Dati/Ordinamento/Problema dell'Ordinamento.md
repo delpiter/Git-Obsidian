@@ -53,7 +53,7 @@ Nell'esempio, $3$ elementi
 
 >[!question] Quanto deve essere alto un albero per avere $n!$ foglie?
 
-Un [[Gli Alberi#Albero Binario|albero binario]] alto $h$ ha al massimo $2^h$ foglie
+Un [[Gli Alberi Binari#Albero Binario|albero binario]] alto $h$ ha al massimo $2^h$ foglie
 - Dobbiamo avere $2^h\geq n!$
 - Per la formula di Stirling: $n! >\left( \frac{n}{e} \right)^n, e=2.17\dots$
 
