@@ -226,3 +226,83 @@ Un albero di ricerca binaria non è sempre ***ben bilanciato***:
 	\end{algorithmic}
 	\end{algorithm}
 ```
+
+#### Cancellazione
+>*La cancellazione ha 3 casi:*
+
+>[!abstract] Il nodo $z$ *non ha figli*
+
+- Elimina $z$
+
+>[!abstract] Il nodo $z$ ha un *solo figlio*
+- Si collega l'unico *nodo figlio* con il *nodo padre*
+	- Una specie di "***cortocircuito***" o "***transplant***" in *inglese*
+
+![[Pasted image 20240324172622.png]]
+
+>[!abstract] Il nodo $z$ ha *due figli*
+
+Per la cancellazione di un nodo $z$ con *due figli*:
+1. Sia $y$ successore di $z$
+	- $y$ ha al ***massimo*** un solo figlio
+2. Sostituisci $z$ con $y$
+3. Rimuovi $z$
+
+![[Pasted image 20240324172647.png]]
+
+##### Pseudocodice
+
+>[!example] Parametri
+>$T\to$ ***Binary Search Tree Structure***
+>$u\to$ Nodo da ***eliminare***
+>$v\to$ Nodo da ***sostituire*** con $u$
+
+```pseudo
+	\begin{algorithm}
+	\caption{Transplant}
+	\begin{algorithmic}
+\Procedure{Transplant}{$ T,u,v $}
+\If{$ p(u)=\text{NULL}  $}
+  \State $ root(T)=v $
+  \Else \If{$ u=left(p(u))  $}
+  \State $ left(p(u))=v $
+  \Else 
+ \State $ right(p(u))=v $
+ \EndIf
+ 
+ \EndIf
+ \If{$ v=\text{NULL} $}
+ \State $ p(v)=p(u) $
+  
+ \EndIf
+ \EndProcedure
+	\end{algorithmic}
+	\end{algorithm}
+```
+
+```pseudo
+	\begin{algorithm}
+	\caption{BST Delete}
+	\begin{algorithmic}
+\Procedure{TreeDelete}{$ T,z $}
+\If{$ left(z)=\text{NULL}  $}
+  \State \Call{Transplant}{$T,z, right(z) $}
+  \Else 
+ \If{$ right(z)=\text{NULL}  $}
+  \State \Call{Transplant}{$T,z,left(z)$}
+  \Else 
+ \State $ y= $ \Call{TreeMinimum}{$z.right(z)$}
+ \If{$ p(y)\neq z $}
+  \State \Call{Transplant}{$T,y,right(y) $}
+  \State $ right(y)=right(z) $
+  \State $ p(right(y))=y $
+ \EndIf
+ \State \Call{Transplant}{$T,z,y$}
+ \State $ left(y)=left(z) $
+ \State $ p(left(y))=y $
+ \EndIf
+ \EndIf
+ \EndProcedure
+	\end{algorithmic}
+	\end{algorithm}
+```
