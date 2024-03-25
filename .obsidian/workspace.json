@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Obsidian/Algebra e Geometria/Applicazioni/Isomorfismo.md",
+                "file": "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Organizzazione del Calcolatore.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cdaac45e125271bc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/La CPU.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Algebra e Geometria/Applicazioni/Isomorfismo.md",
+                "file": "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/La CPU.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Algebra e Geometria/Applicazioni/Isomorfismo.md",
+                "file": "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/La CPU.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git-Obsidian/Algebra e Geometria/Applicazioni/Isomorfismo.md"
+                "file": "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/La CPU.md"
               }
             }
           },
@@ -167,11 +180,20 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "ed66ee1af1379978",
+  "active": "cdaac45e125271bc",
   "lastOpenFiles": [
+    "Git-Obsidian/Attatchments/Pasted image 20240325224826.png",
+    "Git-Obsidian/Architettura degli Elaboratori/Assembly/Registri.md",
+    "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/La CPU.md",
+    "Git-Obsidian/Architettura degli Elaboratori/Assembly/Il Livello ISA.md",
+    "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Organizzazione del Calcolatore.md",
+    "Git-Obsidian/Attatchments/Pasted image 20240325222800.png",
+    "Git-Obsidian/Attatchments/Pasted image 20240325222743.png",
+    "Git-Obsidian/Architettura degli Elaboratori/Storia dei Calcolatori.md",
+    "Git-Obsidian/Attatchments/Pasted image 20240325222127.png",
+    "Git-Obsidian/Algebra e Geometria/Applicazioni/Isomorfismo.md",
     "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/Intersezione e Somma di Sottospazi.md",
     "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/Forme Parametriche e Cartesiane.md",
-    "Git-Obsidian/Algebra e Geometria/Applicazioni/Isomorfismo.md",
     "Git-Obsidian/Architettura degli Elaboratori/Rappresentazione dell'Informazione/Rappresentazione dei Caratteri.md",
     "Git-Obsidian/Definitions/Definizioni_Architettura.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Alberi/Gli Alberi Binari.md",
@@ -184,9 +206,6 @@
     "Git-Obsidian/Attatchments/Pasted image 20240324172103.png",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Alberi/Untitled.md",
     "Git-Obsidian/Attatchments/Pasted image 20240323114233.png",
-    "Git-Obsidian/Attatchments/Pasted image 20240323114207.png",
-    "Git-Obsidian/Attatchments/unbalanced-binary-tree.png",
-    "Git-Obsidian/Attatchments/balanced-binary-tree.webp",
     "Git-Obsidian/Definitions/Definizioni_Algoritmi.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Linked Lists.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento/Problema dell'Ordinamento.md",
@@ -202,12 +221,6 @@
     "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Organizzazione di un Calcolatore.md",
     "Git-Obsidian/Architettura degli Elaboratori/Untitled.md",
     "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore",
-    "Git-Obsidian/Algebra e Geometria/Applicazioni/Matrici di Applicazioni Lineari.md",
-    "Git-Obsidian/Algebra e Geometria/Applicazioni/Estensione Lineare.md",
-    "Git-Obsidian/Algebra e Geometria/Applicazioni/Applicazioni Lineari.md",
-    "Git-Obsidian/Programmazione/Funzioni/Funzioni in C.md",
-    "Git-Obsidian/Game Programming/Introduction.md",
-    "Git-Obsidian/Analisi/Funzioni/Introduzione Funzioni.md",
     "Git-Obsidian/Algebra e Geometria/Applicazioni",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Hash",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati",
