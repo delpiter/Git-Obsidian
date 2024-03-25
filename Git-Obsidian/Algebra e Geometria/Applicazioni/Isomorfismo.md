@@ -298,6 +298,27 @@ Esiste un'unica $f:V\to U:f(e_{1})=1,\dots,f(e_{n})=x^{n-1}$ e tale $f$ è un *i
 - Esplicitamente $f((a_{0},\dots,a_{n-1}))=a_{0}+\dots+a_{n-1}x^{n-1}$
 
 #### Esempio
+##### Spazio Vettoriale di Matrici
+>*Sia $\mathcal{M}_{m,n}(\mathbb{K})=\{ \text{matrici }m\times n\text{ a coefficiente in }\mathbb{K} \}$*
+
+Esso è uno ***spazio vettoriale*** su $\mathbb{K}$ che ha per *base*
+$$
+\left\{ E_{ij},\begin{array}
+\ i\in\{ 1,\dots,n \} \\
+j\in\{ 1,\dots,m \}
+\end{array} \right\}
+$$
+$$
+\begin{pmatrix}
+0 & \dots & 0 \\
+\dots & 1 & \dots \\
+0 & \dots & 0
+\end{pmatrix}
+$$
+- $1$ nella $i$-esima ***riga*** e $j$-esima ***colonna***
+$E_{ij}$ sono dette le "***matrici elementari***" o la base canonica di $\mathcal{M}_{m,n}(\mathbb{K})$
+
+###### Esempio
 >*Sia $V=\{ \text{matrici }2\times3 \text{ a coefficiente}\in\mathbb{R}\}=\mathcal{M}_{2,3}(\mathbb{R})$*
 
 $$
@@ -381,3 +402,72 @@ b & d & f
 \end{pmatrix}=aE_{11}+bE_{21}+cE_{12}+dE_{22}+eE_{13}+fE_{23}
 $$
 Quindi, $\text{dim}(v)=6$ e $V$ è isomorfo a $\mathbb{R}^6$
+
+###### Esempio
+>*Sia* $V=\mathbb{R}^3, U=\mathbb{R}^2$
+- $\text{Hom}\to$ Homorphism
+$$
+\text{Hom}(U,V)=\{ \text{applicazioni lineati }V\to U \}
+$$
+È uno spazio vettoriale su $\mathbb{R}$ rispetto alle operazioni:
+$$
+\begin{array}
+\ \forall f,g\in \text{Hom}(V,U),\forall a \in\mathbb{R} \\
+(f+g)(v)=f(v)+g(v) \\
+(af)(v)=a(fv)
+\end{array}
+$$
+>[!question] Qual è la dimensione di questo spazio?
+
+Fissiamo *basi* di $V$ e $U$, ad esempio:
+- $e_{1}=(1,0,0),e_{2}=(0,1,0),e_{3}=(0,0,1)$ ***base*** di $V$
+- $e_{1}'=(1,0),e_{2}'=(0,1)$ ***base*** di $U$
+
+Dato $g\in \text{Hom}(V,U)$ *scriviamo* la sua ***matrice*** in tali *basi*
+- Calcoliamo quindi
+$$
+\begin{pmatrix}
+a & c & e \\
+b & d & f
+\end{pmatrix}
+$$
+- $g(e_{1})\in\mathbb{R}^2\implies \exists! a,b:g(e_{1})=ae_{1}'+be_{2}'$
+- $g(e_{2})\in\mathbb{R}^2\implies \exists! c,d:g(e_{2})=ce_{1}'+de_{2}'$
+- $g(e_{3})\in\mathbb{R}^2\implies \exists! e,f:g(e_{3})=ee_{1}'+fe_{2}'$
+
+Consideriamo $\Phi:\text{Hom}(U,V)\to\mathcal{M}_{2,3}$
+
+$\Phi$ è:
+>[!abstract] Lineare
+
+Perché la ***somma di matrici*** è uguale alla ***matrice della somma***
+- Lo stesso vale per il ***prodotto per scalare***
+
+>[!abstract] Iniettiva
+
+Perché se matrice di $g$ è $$\begin{pmatrix}
+0 & 0 & 0 \\
+ 0& 0 & 0 
+\end{pmatrix}$$
+Allora $g$ è l'applicazione nulla $(g=0)$
+
+>[!abstract] Suriettiva
+
+Ogni *matrice*
+$$
+\begin{pmatrix}
+a & c & e \\
+b & d & f
+\end{pmatrix}
+$$
+Viene da una $g$ per il [[Estensione Lineare#Teorema dell'Estensione Lineare|teorema dell'estensione lineare]]
+
+>[!done] In altre parole
+>L'applicazione $\Phi$, che associa ogni *applicazione lineare* alla sua matrice è un ***isomorfismo*** tra:
+>$$\text{Hom}(V,U)$$ e $$\mathcal{M}_{2,3}(\mathbb{R})$$
+
+
+>[!example] Osservazione
+>Se avessi scelto ***basi diverse*** di $V,U$ avrei ottenuto un altro isomorfismo $\Phi$ tra 
+>$$\text{Hom}(V,U)$$ e $$\mathcal{M}_{2,3}(\mathbb{R})$$
+
