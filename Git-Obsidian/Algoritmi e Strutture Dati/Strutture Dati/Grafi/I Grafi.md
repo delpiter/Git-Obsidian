@@ -1,3 +1,4 @@
+#Retake_Images
 ## Grafo: Definizione
 ---
 I *Grafi* sono la struttura fondamentale negli [[Problemi e Algoritmi#Algoritmo|algoritmi]]
