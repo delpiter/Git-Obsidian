@@ -187,7 +187,7 @@ $$
 >[!abstract] Osservazione 2
 
 Nello stesso modo con cui abbiamo dimostrato il ***teorema precedente***, si può *dimostrare* che:
-- Un'***applicazione iniettiva*** manda insieme *linearmente indipendenti* in insiemi *linearmente indipendenti*
+- Un'***applicazione iniettiva*** manda insiemi *linearmente indipendenti* in insiemi *linearmente indipendenti*
 - Un'***applicazione suriettiva*** manda insiemi che *generano* $V$ in insiemi che *generano* $U$
 
 #### Esercizio
@@ -407,7 +407,7 @@ Quindi, $\text{dim}(v)=6$ e $V$ è isomorfo a $\mathbb{R}^6$
 >*Sia* $V=\mathbb{R}^3, U=\mathbb{R}^2$
 - $\text{Hom}\to$ Homorphism
 $$
-\text{Hom}(U,V)=\{ \text{applicazioni lineati }V\to U \}
+\text{Hom}(V,U)=\{ \text{applicazioni lineati }V\to U \}
 $$
 È uno spazio vettoriale su $\mathbb{R}$ rispetto alle operazioni:
 $$
