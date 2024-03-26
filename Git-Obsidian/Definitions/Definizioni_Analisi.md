@@ -76,3 +76,11 @@ $e^{i\pi}=-1\Leftrightarrow e^{i\pi}+1 = 0$
 
 - $23\equiv8 \ (5)$
 - $23 \cancel{ \equiv } 20(5)$
+
+## If You Know You Know
+---
+>[!abstract] I want
+>$$\int_{10}^{13}2x dx $$
+>With you
+
+
