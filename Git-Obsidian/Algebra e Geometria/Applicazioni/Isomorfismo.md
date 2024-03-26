@@ -403,7 +403,7 @@ b & d & f
 $$
 Quindi, $\text{dim}(v)=6$ e $V$ è isomorfo a $\mathbb{R}^6$
 
-###### Esempio
+#### Esempio
 >*Sia* $V=\mathbb{R}^3, U=\mathbb{R}^2$
 - $\text{Hom}\to$ Homorphism
 $$
@@ -471,3 +471,108 @@ Viene da una $g$ per il [[Estensione Lineare#Teorema dell'Estensione Lineare|teo
 >Se avessi scelto ***basi diverse*** di $V,U$ avrei ottenuto un altro isomorfismo $\Phi$ tra 
 >$$\text{Hom}(V,U)$$ e $$\mathcal{M}_{2,3}(\mathbb{R})$$
 
+$$
+\begin{array}
+\ f_{11}: e_{1}\to e_{1}', e_{2}\to 0, e_{3}\to0 \underbrace{ \rightarrow }_{ \Phi } \begin{pmatrix}
+1 & 0 & 0 \\
+0 & 0 & 0
+\end{pmatrix} = E_{11}, f(e_{1})=1e_{1}'+0e_{2}' \\
+f_{21}: e_{1}\to e_{2}', e_{2}\to 0, e_{3}\to0 \underbrace{ \rightarrow }_{ \Phi } \begin{pmatrix}
+0 & 0 & 0 \\
+1 & 0 & 0
+\end{pmatrix} = E_{21} \\
+f_{12}: e_{1}\to 0, e_{2}\to e_{1}', e_{3}\to0 \underbrace{ \rightarrow }_{ \Phi } \begin{pmatrix}
+0 & 1 & 0 \\
+0 & 0 & 0
+\end{pmatrix} = E_{12} \\
+f_{22}: e_{1}\to 0, e_{2}\to e_{2}', e_{3}\to0 \underbrace{ \rightarrow }_{ \Phi } \begin{pmatrix}
+0 & 0 & 0 \\
+0 & 1 & 0
+\end{pmatrix} = E_{22} \\
+f_{13}: e_{1}\to 0, e_{2}\to 0, e_{3}\to e_{1}' \underbrace{ \rightarrow }_{ \Phi } \begin{pmatrix}
+0 & 0 & 1 \\
+0 & 0 & 0
+\end{pmatrix} = E_{13} \\
+f_{23}: e_{1}\to 0, e_{2}\to 0, e_{3}\to e_{2}' \underbrace{ \rightarrow }_{ \Phi } \begin{pmatrix}
+0 & 0 & 0 \\
+0 & 0 & 1
+\end{pmatrix} = E_{23}
+\end{array}
+$$
+
+>[!done] Quindi $f_{11},\dots,f_{23}$ è una base di $\text{Hom}(V,U)$
+
+>*Analogamente, dato un campo $\mathbb{K}$ e due spazi vettoriali $V,U$ di dimensione $n,m$*
+
+L'insieme $\text{Hom}(V,U)$ di tutte le applicazioni lineari $V\to U$ è uno spazio vettoriale su $\mathbb{K}$
+- Con la dimensione: $\text{Dim } m\times n$
+
+Fissando basi di $V,U$ posso associare a *un'applicazione lineare* $g:V\to U$ una matrice $m\times n$ e questa corrispondenza è un ***isomorfismo***
+- Tra $\text{Hom}(V,U)$ e $\mathcal{M}_{m,n}(\mathbb{K})$
+
+#### Esempio
+>*Siano $v_{1}=(2,1),v_{2}=(1,-1)$*
+
+>[!question] Mostrare che $v_{1},v_{2}$ è una base di $\mathbb{R}^2$
+
+>[!question] Mostrare che esiste un unico isomorfismo $f$ tale che
+>$$f(v_{1})=v_{1}+v_{2},f(v_{2})=3v_{1}-2v_{2}$$
+
+>[!question] Scrivere la matrice di $f$ nella base $v_{1},v_{2}$
+
+>[!question] Scrivere la matrice di $f$ nella base $e_{1},e_{2}$
+
+##### Soluzione
+1. $v_{1},v_{2}$ è una base $\Leftrightarrow \forall v=(x,y)\in \mathbb{R}^2\exists! a_{1},a_{2}\in \mathbb{R}:v=a_{1}v_{1}+a_{2}v_{2}$ 
+
+Cioè:
+$$
+(x,y)=(2a_{1}+a_{2},a_{1}-a_{2})
+$$
+$$
+\begin{cases}
+2a_{1}+a_{2} = x \\
+a_{1}-a_{2}=y
+\end{cases}\Leftrightarrow
+\begin{cases}
+a_{1}=\displaystyle{\frac{x-a_{2}}{2}} \\
+-\frac{3}{2}a_{2}=y-\frac{1}{2}x
+\end{cases}\Leftrightarrow
+\begin{cases}
+a_{1}=\frac{1}{3}x+\frac{1}{3}y \\
+a_{2}=-\frac{2}{3}y+\frac{1}{3}x
+\end{cases}
+$$
+>[!done] Ha una unica soluzione, si, $v_{1},v_{2}$ è una base
+
+2. $v_{1}+v_{2}=(3,0),3v_{1}-2v_{2}=(4,5)$
+
+È anche essa una base di $\mathbb{R}^2$
+- Poiché $v_{1},v_{2}$ è una base, esiste un'unica $f$ *lineare* tale che:
+$$
+f(v_{1})=v_{1}+v_{2},f(v_{2})=3v_{1}-2v_{2}
+$$
+>[!done] Poiché $(3,0),(4,5)$ è una base, $f$ è un ***isomorfismo***
+
+3. $$
+\begin{pmatrix}
+1 & 3 \\
+1 & -2
+\end{pmatrix}
+$$
+>[!done] È la *matrice* di $f$ se scelgo $v_{1},v_{2}$ come ***base del dominio e del codominio***
+
+4. 
+$f(e_{1})=\frac{1}{3}f(v_{1})+\frac{1}{3}f(v_{2})=\frac{1}{3}(3,0)+\frac{1}{3}(4,5)$
+- $\left( \frac{7}{3}, \frac{5}{3} \right)=\frac{7}{3}e_{1}+\frac{5}{3}e_{2}$
+
+
+$f(e_{2})=\frac{1}{3}f(v_{1})-\frac{2}{3}f(v_{2})$
+- $\left( -\frac{5}{3},-\frac{10}{3} \right)=-\frac{5}{3}e_{1}-\frac{10}{3}e_{2}$
+
+$$
+\begin{pmatrix}
+\displaystyle\frac{7}{3} & \displaystyle-\frac{5}{2} \\
+\displaystyle\frac{5}{3}  & \displaystyle-\frac{10}{3}
+\end{pmatrix}
+$$
