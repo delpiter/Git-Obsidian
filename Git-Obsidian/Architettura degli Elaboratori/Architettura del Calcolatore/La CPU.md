@@ -38,3 +38,45 @@ Il registro più importante è il ***program counter*** (`PC`) che indica la *pr
 >Ogni istruzione [[Il Livello ISA|ISA]] viene eseguita in ***uno o più cicli*** di *data path*
 >- Più è ***complessa*** l'operazione ***più cicli*** avrà bisogno per essere *eseguita*
 
+### Ciclo di Clock
+In architetture non *parallele* il ***ciclo di data path*** corrisponde al ***ciclo di clock***
+>[!tldr] Ciclo di Clock
+>Il **ciclo di clock** è l'*intervallo di tempo* utilizzato per ***sincronizzare*** le diverse operazioni del processore
+>La velocità con cui viene compiuto un ciclo di ***data path*** contribuisce significativamente a determinare la velocità della `CPU`
+
+>[!question] Quante istruzioni al secondo?
+
+*Durata Ciclo di Data Path* $=$ *Durata Ciclo di Clock* $=$ $1/F$
+- $F\to$ Frequenza di lavoro della `CPU` 
+
+*Durata istruzione ISA* $=$ $n\times$*Durata ciclo di Data Path*
+- $n$ variabile per istruzioni e architetture diverse
+
+### Fetch Decode Execute
+>*La `CPU` opera in modo ciclico, ripetendo operazioni fino al termine dell'esecuzione del programma*
+
+>[!abstract] Fetch
+
+***Caricamento***
+- Questa operazione ***acquisisce*** dalla memoria il contenuto di un'istruzione del programma
+
+1. *Leggi* l'istruzione seguente dalla memoria e mettila nell'`IR` (***I***nstruction ***R***egister)
+2. *Incrementa* il `PC` (***P***rogram ***C***ounter) per indicare l'istruzione seguente
+
+>[!tldr] Decode
+
+***Decodifica***
+- Questa operazione ***identifica*** il tipo di operazione da eseguire
+
+3. *Decodifica* l'istruzione appena letta
+
+>[!done] Execute
+
+***Esecuzione***
+- Questa operazione ***effettua le operazioni*** corrispondenti all'istruzione decodificata
+
+4. Se l'istruzione *utilizza* degli operandi determina dove si trovano (***memoria***/***registri***)
+5. Se necessario *metti* gli operandi in registri della `CPU` 
+6. *Esegui* l'istruzione
+7. *Salva* il contenuto in un registro
+8. Torna al punto 1

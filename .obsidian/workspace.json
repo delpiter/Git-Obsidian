@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/La CPU.md",
+                "file": "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Le Memorie.md",
                 "mode": "source",
                 "source": false
               }
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/La CPU.md",
+                "file": "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Le Memorie.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/La CPU.md",
+                "file": "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Le Memorie.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/La CPU.md"
+                "file": "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Le Memorie.md"
               }
             }
           },
@@ -182,9 +182,13 @@
   },
   "active": "cdaac45e125271bc",
   "lastOpenFiles": [
+    "Git-Obsidian/Attatchments/memory hierarchy.png",
+    "Git-Obsidian/Attatchments/Pasted image 20240326100026.png",
+    "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/La CPU.md",
+    "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Le Memorie.md",
+    "Git-Obsidian/Attatchments/Pasted image 20240326094528.png",
     "Git-Obsidian/Attatchments/Pasted image 20240325224826.png",
     "Git-Obsidian/Architettura degli Elaboratori/Assembly/Registri.md",
-    "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/La CPU.md",
     "Git-Obsidian/Architettura degli Elaboratori/Assembly/Il Livello ISA.md",
     "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Organizzazione del Calcolatore.md",
     "Git-Obsidian/Attatchments/Pasted image 20240325222800.png",
@@ -202,10 +206,7 @@
     "Git-Obsidian/Attatchments/Pasted image 20240324172622.png",
     "Git-Obsidian/Attatchments/Pasted image 20240324172553.png",
     "Git-Obsidian/Attatchments/Pasted image 20240324172358.png",
-    "Git-Obsidian/Attatchments/Pasted image 20240324172330.png",
-    "Git-Obsidian/Attatchments/Pasted image 20240324172103.png",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Alberi/Untitled.md",
-    "Git-Obsidian/Attatchments/Pasted image 20240323114233.png",
     "Git-Obsidian/Definitions/Definizioni_Algoritmi.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Linked Lists.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento/Problema dell'Ordinamento.md",
@@ -219,7 +220,6 @@
     "Git-Obsidian/Architettura degli Elaboratori/Assembly/Istruzioni IA-32.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Hash/Hash Table.md",
     "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Organizzazione di un Calcolatore.md",
-    "Git-Obsidian/Architettura degli Elaboratori/Untitled.md",
     "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore",
     "Git-Obsidian/Algebra e Geometria/Applicazioni",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Hash",
