@@ -4,28 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "c295bfcd8803303c",
+        "id": "bf476fa83a68e4b3",
         "type": "tabs",
         "children": [
           {
-            "id": "f363c1c9a5100efa",
+            "id": "923bd52a97ea365a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Obsidian/Algebra e Geometria/Applicazioni/Isomorfismo.md",
+                "file": "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Correzione di Errori.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "a8a113dc4d9adfa3",
+            "id": "a2bd01f396d5d88e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Obsidian/Markdown Keys.md",
+                "file": "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Le Memorie.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Algebra e Geometria/Applicazioni/Isomorfismo.md",
+                "file": "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Correzione di Errori.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Algebra e Geometria/Applicazioni/Isomorfismo.md",
+                "file": "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Correzione di Errori.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git-Obsidian/Algebra e Geometria/Applicazioni/Isomorfismo.md"
+                "file": "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Correzione di Errori.md"
               }
             }
           },
@@ -179,12 +179,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "f363c1c9a5100efa",
+  "active": "923bd52a97ea365a",
   "lastOpenFiles": [
+    "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Le Memorie.md",
+    "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Correzione di Errori.md",
     "Git-Obsidian/Markdown Keys.md",
     "Git-Obsidian/Algebra e Geometria/Applicazioni/Isomorfismo.md",
     "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Organizzazione del Calcolatore.md",
-    "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Le Memorie.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/I Grafi.md",
     "Git-Obsidian/Definitions/Definizioni_Analisi.md",
     "Git-Obsidian/Architettura degli Elaboratori/Assembly/Istruzioni IA-32.md",
@@ -218,7 +219,6 @@
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Hash/Funzione di Hash.md",
     "Ricerca senza successo.md",
     "Ricerca senza successo.pdf",
-    "Git-Obsidian/Architettura degli Elaboratori/Assembly/Istruzioni IA-32 Speciali.md",
     "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore",
     "Git-Obsidian/Algebra e Geometria/Applicazioni",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Hash",
