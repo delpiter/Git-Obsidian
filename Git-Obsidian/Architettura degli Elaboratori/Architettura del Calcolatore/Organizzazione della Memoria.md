@@ -22,3 +22,18 @@ Gli indirizzi di memoria sono espressi tramite numeri binari:
 >*Ogni scheda contiene generalmente da $8$ a $16$ **chip***
 
 ![[Pasted image 20240327115941.png]]
+
+#### Tipi di Memoria Principale
+>[!tldr] SIMM
+>***S***ingle ***I***nline ***M***emory ***M***odule
+>È un tipo di *banco di memoria* dove i ***contatti dorati*** si trovano solo su un lato della scheda
+
+>[!summary] DIMM
+>***D***ual ***I***nline ***M***emory ***M***odule
+>È un tipo di *banco di memoria* dove i ***contatti dorati*** si trovano su entrambi i lati della scheda
+>La velocità dipende dalla ***tipologia di memoria*** (`DDR`, `DDR2`, `DDR3`, `DDR4`, `DDR5`)
+
+>[!tldr] SO-DIMM
+>***S***mall ***O***utline ***DIMM***
+>Sono ***DIMM*** a dimensioni ridotte usate in genere nei portatili
+
