@@ -81,7 +81,7 @@ Il **firmware** è un software integrato in un componente elettronico in grado d
 >>- Nel numero di `BIT` a `1` viene contato anche il `BIT` di parità
 >>- Di conseguenza il `BIT` di parità viene impostato a `1` solo quando il numero di `BIT` impostati a `1` (escluso il `BIT` di parità) è dispari
 
-
+La [[Correzione di Errori#Distanza di Hamming|distanza di Hamming]] di questa tecnica è $2$ quindi ***non permetterà di correggere nessun errore*** e permetterà di ***identificare errori*** di $1$ `BIT`
 ## Code Point
 ---
 >[!info] Definizione

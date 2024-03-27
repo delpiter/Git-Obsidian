@@ -5,7 +5,17 @@
 ---
 >[!info] Definizione
 >La ***distanza di Hamming*** indica il numero di `BIT` corrispondenti che ***differiscono*** in due sequenze di `BIT`
+>>[!example] Trade Off
+>>Aggiungo una ridondanza dei `BIT` per essere sicuro che quello che leggo è corretto
+>>- ***Trade Off***: *space*-*reliability* 
 
+***D. Hamming*** $=2$
+- `10011100`
+- `11010100`
+
+***D. Hamming*** $=4$
+- `11111110`
+- `01100111`
 ### Codeword
 >[!tldr] Parola di Codice
 >La ***codeword*** indica un insieme di `BIT` $n$ formato da $m$ `BIT` di dati (***word***) r $r$ `BIT` di *controllo*
@@ -25,6 +35,7 @@ Il calcolatore **identifica la presenza di un errore** quando:
 >[!info] Definizione
 >La ***distanza di Hamming di un codice di correzione*** è data dalla *minima* distanza tra *tutte le codeword valide*
 
+Il codice di correzione degli errori ***più semplice*** è quello che si ottiene utilizzando un [[Definizioni_Architettura#Parity Bit|bit di parità]].
 #### Individuazione di Errore
 >[!abstract] Requisiti
 >Per ***individuare*** $d$ errori di un `BIT` serve un codice con distanza $d+1$
