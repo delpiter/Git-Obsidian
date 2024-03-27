@@ -4,40 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "bf476fa83a68e4b3",
+        "id": "e8efae63fc99efbd",
         "type": "tabs",
         "children": [
           {
-            "id": "923bd52a97ea365a",
+            "id": "ee73889384b26c04",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Organizzazione della Memoria.md",
-                "mode": "source",
+                "file": "Git-Obsidian/Algebra e Geometria/Applicazioni/Applicazioni Lineari.md",
+                "mode": "preview",
                 "source": false
               }
             }
           },
           {
-            "id": "5b2b4878f8bb71da",
+            "id": "89e020576c371ade",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Obsidian/Definitions/Definizioni_Architettura.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a2bd01f396d5d88e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Le Memorie.md",
+                "file": "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/Forme Parametriche e Cartesiane.md",
                 "mode": "source",
                 "source": false
               }
@@ -111,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Organizzazione della Memoria.md",
+                "file": "Git-Obsidian/Algebra e Geometria/Applicazioni/Applicazioni Lineari.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Organizzazione della Memoria.md",
+                "file": "Git-Obsidian/Algebra e Geometria/Applicazioni/Applicazioni Lineari.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Organizzazione della Memoria.md"
+                "file": "Git-Obsidian/Algebra e Geometria/Applicazioni/Applicazioni Lineari.md"
               }
             }
           },
@@ -192,8 +180,13 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "923bd52a97ea365a",
+  "active": "ee73889384b26c04",
   "lastOpenFiles": [
+    "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/Forme Parametriche e Cartesiane.md",
+    "Git-Obsidian/Algebra e Geometria/Applicazioni/Applicazioni Lineari.md",
+    "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Le Memorie.md",
+    "Git-Obsidian/Definitions/Definizioni_Architettura.md",
+    "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Organizzazione della Memoria.md",
     "Git-Obsidian/Attatchments/Pasted image 20240327140932.png",
     "Git-Obsidian/Attatchments/Pasted image 20240327134927.png",
     "Git-Obsidian/Attatchments/Pasted image 20240327134729.png",
@@ -204,9 +197,6 @@
     "Git-Obsidian/Attatchments/Pasted image 20240327115707.png",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Hash/Hash Table.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Hash/Funzione di Hash.md",
-    "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Organizzazione della Memoria.md",
-    "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Le Memorie.md",
-    "Git-Obsidian/Definitions/Definizioni_Architettura.md",
     "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Correzione di Errori.md",
     "Git-Obsidian/Markdown Keys.md",
     "Git-Obsidian/Algebra e Geometria/Applicazioni/Isomorfismo.md",
@@ -217,12 +207,10 @@
     "Git-Obsidian/Attatchments/memory hierarchy.png",
     "Git-Obsidian/Attatchments/Pasted image 20240326100026.png",
     "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/La CPU.md",
-    "Git-Obsidian/Attatchments/Pasted image 20240326094528.png",
     "Git-Obsidian/Architettura degli Elaboratori/Assembly/Registri.md",
     "Git-Obsidian/Architettura degli Elaboratori/Assembly/Il Livello ISA.md",
     "Git-Obsidian/Architettura degli Elaboratori/Storia dei Calcolatori.md",
     "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/Intersezione e Somma di Sottospazi.md",
-    "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/Forme Parametriche e Cartesiane.md",
     "Git-Obsidian/Architettura degli Elaboratori/Rappresentazione dell'Informazione/Rappresentazione dei Caratteri.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Alberi/Gli Alberi Binari.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Appunti.md",
