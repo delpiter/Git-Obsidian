@@ -107,3 +107,78 @@ Prima di poter leggere o scrivere la suddetta struttura (*tracce*, *settori*) de
 >La densità del primo hard disk era di circa $2Kbits/in^2$
 >Ora si sono superati i $1.3 Tbits/in^2$
 
+### Prestazioni
+>*Le prestazioni di un hard disk dipendono da diversi fattori*
+
+>[!tip] Seek Time
+>Il ***seek time*** è il tempo necessario per spostare le *testine* sul *cilindro* desiderato
+>I *costruttori* del disco forniscono, in genere:
+>>[!example] Average Seek
+>>`8-10 ms`
+>
+>>[!done] Track-to-Track
+>>`1 ms`
+>
+>>[!Full Stroke]
+>>`15-20 ms`
+
+>[!tip] Latency Time
+>La ***latency time*** rappresenta il tempo necessario affinché il settore interessato all'operazione ***passi sotto la testina***.
+>Questo fattore è definito dalla velocità di rotazione del disco che varia da $3.600$ a $15.000$ `RPM` (***R***otation ***P***er ***M***inute)
+
+## Solid State Drive
+---
+>[!info] Descrizione
+>Si tratta di dispositivi *completamente elettronici*, normalmente basati su ***memorie flash***, e senza ***nessuna parte in movimento***
+>*Ridotti* notevolmente i ***tempi*** di *lettura* e *scrittura*
+
+![[Pasted image 20240328095303.jpg]]
+
+>[!done] Pro
+
+***Tempo di accesso***
+- Eliminata la *costante di movimento*
+- Tempo di accesso **inferiore** a 100 microsecondi, dalle 30 alle 100 volte più performanti di un hard disk
+
+***Maggiore velocità di trasferimento di dati***
+- Oltre i $7 Gb/sec$
+
+***Minore possibilità di rottura e maggiore durata***
+- Tasso di rottura inferiore agli *hard disk* (*molto fragili*)
+
+***Rumorosità assente***
+
+***Minori consumi***
+
+***Maggiore capacità***
+- Disponibili `SSD` da $100Tb$
+
+>[!fail] Contro
+
+***Maggiore prezzo per*** `BIT`
+- Pari a circa *quattro volte* il ***costo*** di un disco tradizionale
+
+***Possibile minore durata dell'unità***
+- Il massimo numero di riscritture dello stesso `BIT` può andare da $3.000$ a $100.000$ cicli
+
+## Interfacce
+---
+>*Esistono diversi tipi di interfacce di trasferimento di dati, implementate sui controller integrati del disco*
+
+### IDE
+>[!info] *I*ntegrated *D*rive *E*lectronix
+>Interfaccia ormai ***obsoleta***
+>È stata la tecnologia *più utilizzata* negli anni $'80$ 
+>Il *controller integrato* indirizza i settori indicando:
+>- Il numero di *testina* (4 `BIT`)
+>- Il *settore* (6 `BIT`)
+>- Il *cilindro* (10 `BIT`)
+>
+
+>[!done] Spazio Indirizzabile
+>`512 BIT`$\times 2^4$ `BIT` $\times 2^6$ `BIT` $\times 2^{10}$ `BIT`
+
+
+### EIDE
+>[!info] *E*xtended *IDE*
+>
