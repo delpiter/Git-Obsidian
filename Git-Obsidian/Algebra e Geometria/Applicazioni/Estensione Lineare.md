@@ -1,7 +1,7 @@
 ## Teorema dell'Estensione Lineare
 ---
 >[!Teorema]
->Sia $V$ uno [[Campi e Spazi Vettoriali#Spazio Vettoriale|spazio vettoriale]] si $\mathbb{K}$
+>Sia $V$ uno [[Campi e Spazi Vettoriali#Spazio Vettoriale|spazio vettoriale]] su $\mathbb{K}$
 >Sia $v_{1},\dots,v_{n}$ una sua [[Campi e Spazi Vettoriali#Base|base]]
 >Sia $U$ uno *spazio vettoriale* su $\mathbb{K}$ 
 >Sia $u_{1},\dots,u_{n}$ un insieme di vettori di $U$
