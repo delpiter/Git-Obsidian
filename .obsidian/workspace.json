@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Organizzazione della Memoria.md",
+                "file": "Git-Obsidian/Algebra e Geometria/Applicazioni/Estensione Lineare.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Organizzazione della Memoria.md",
+                "file": "Git-Obsidian/Algebra e Geometria/Applicazioni/Estensione Lineare.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Organizzazione della Memoria.md",
+                "file": "Git-Obsidian/Algebra e Geometria/Applicazioni/Estensione Lineare.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Organizzazione della Memoria.md"
+                "file": "Git-Obsidian/Algebra e Geometria/Applicazioni/Estensione Lineare.md"
               }
             }
           },
@@ -167,8 +167,9 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "064922280838e764",
+  "active": "f2ffaf6360de317d",
   "lastOpenFiles": [
+    "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Organizzazione della Memoria.md",
     "Git-Obsidian/Attatchments/Pasted image 20240329110047.png",
     "Git-Obsidian/Attatchments/Pasted image 20240329105947.png",
     "Git-Obsidian/Attatchments/Pasted image 20240329105855.png",
@@ -179,7 +180,6 @@
     "Git-Obsidian/Attatchments/Pasted image 20240329105448.png",
     "Git-Obsidian/Attatchments/image-removebg-preview 3.png",
     "Git-Obsidian/Attatchments/image-removebg-preview 2.png",
-    "Git-Obsidian/Attatchments/ssd-nvme-m-2-icon-vector-solid-state-driver-sign_756939-41.avif",
     "Git-Obsidian/Definitions/Definizioni_Analisi.md",
     "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/Campi e Spazi Vettoriali.md",
     "Git-Obsidian/Algebra e Geometria/Metodo di Gauss.md",
@@ -187,7 +187,6 @@
     "Git-Obsidian/Algebra e Geometria/Applicazioni/Estensione Lineare.md",
     "Git-Obsidian/Algebra e Geometria/Applicazioni/Applicazioni Lineari.md",
     "Git-Obsidian/Algebra e Geometria/Applicazioni/Teorema del Rango.md",
-    "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Organizzazione della Memoria.md",
     "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/Forme Parametriche e Cartesiane.md",
     "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Le Memorie.md",
     "Git-Obsidian/Definitions/Definizioni_Architettura.md",

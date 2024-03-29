@@ -40,7 +40,7 @@ $$
 >[!question] Esiste un'unica applicazione lineare tale che $f(v_{1})=(1,0),f(v_{2})=(3,-1)$?
 
 Osserviamo subito che $v_{2} = 2v_{1}$, quindi se $f$ è *lineare* $f(v_{2})=2f(v_{1})$
-- Ma $(3,-1)\neq_{2}(1,0)$
+- Ma $(3,-1)\neq2(1,0)$
 
 >[!fail] E quindi non esiste una tale $f$
 
