@@ -181,4 +181,107 @@ Prima di poter leggere o scrivere la suddetta struttura (*tracce*, *settori*) de
 
 ### EIDE
 >[!info] *E*xtended *IDE*
->
+>Supporta un diverso *schema di indirizzamento*, `LBA` (***L***ogical ***B***lock ***A***ddressing)
+>Numera i **settori** da $0$ a $2^{28}-1$
+>Sebbene sia necessario ***rimappare gli indirizzi*** in termini di settori, cilindri e testine, permette di ***aumentare lo spazio indirizzabile*** fino a $128 Gb\implies2^{28}\times2^9$ settori di $512$`BYTE`
+
+#### Evoluzioni EIDE
+
+>[!example] ATA-3
+>***A***dvanced ***T***echnology ***A***ttachement
+
+>[!example] ATAPI-4 ATAPI-5 ATAPI-6
+>***ATA*** ***P***acket ***I***nterface
+>Anche chiamate ***PATA***, ***P***arallel ***ATA***
+>Velocità di *trasferimento dati* aumenta gradualmente fra le versioni
+>***ATAPI-6***:
+>- Indirizzi `LBA` passano a $48$ `BIT`, capacità massima aumentata fino a:
+>$$2^{48}\times 2^9$$
+
+>[!example] ATAPI-7
+>Meglio nota come ***Serial ATA*** (`SATA`) rappresenta una rottura radicale con il passato
+>Si passa da un *trasferimento parallelo* di $16$ o $32$ `BIT` per volta
+>- Con cavi piatti a $40/80$ ***fili***
+>Al ***trasferimento seriale*** di $1$ `BIT` per volta su un connettore a $7$ ***fili***
+
+### Serial ATA
+>[!info] SATA
+>Denominato anche `SATA` è una vera e propria rivoluzione in quanto consente:
+>- ***Velocità*** superiore fino a $600MB/sec$
+>- Diminuzione di ***costo*** per cavi
+>- Migliore ***ventilazione*** del `PC` e semplicità di montaggio
+>- ***Hot Swap*** delle unità
+
+
+![[Pasted image 20240329101324.jpg]]
+### Interfacce PCI
+>[!info] NVMe
+>***N***on ***V***olatile ***M***emory ***e***xpress
+>Progettate per sfruttare al massimo i vantaggi dei moderni `SSD`
+>Velocità teorica di $64 Gbit/sec$ utilizzando 4 canali `PCIe`
+>- ***P***eripheral ***C***omponent ***I***nterconnect ***E***xpress
+>Possono avere la forma di una ***scheda di memoria*** collegata con un connettore `M.2`
+>O sotto forma di un ***disco*** da `2.5` pollici collegato tramite connettore `U.2`
+
+![[image-removebg-preview 3.png]]
+
+### SCSI e SAS
+>[!info] SCSI
+>***S***mall ***C***omputer ***S***ystem ***I***nterface (pronuncia ***SCASI***)
+>Sviluppato *parallelamente* allo standard EIDE, destinato ai ***sistemi di fascia alta*** in ambito ***enterprise***
+>La tecnologia di base dei dischi è la stessa.
+>- Per utilizzare dischi `SCSI` è generalmente necessario utilizzare un ***controller aggiuntivo***
+
+
+>[!info] SAS
+>***S***erial ***A***ttatched ***S***CSI
+>Analogamente al `PATA` anche `SCSI` si è evoluto verso un collegamento punto a punto di tipo seriale
+>Non tanto differente in termini di ***prestazioni*** ma in termini di ***affidabilità***
+
+## RAID
+---
+>*Creato per colmare il divario tra le prestazioni della `CPU` e quello dei dischi*
+
+>[!info] RAID
+>***R***edundant ***A***rray of ***I***nexpensive ***D***isk
+>Tecnologia di ***virtualizzazione dello storage*** che combina diversi ***dischi fisici*** in uno o più ***unità logiche***
+>- Può essere gestito dal `SO` (*Software Raid*) o da un ***controller Hardware***
+>- Appare al sistema come un ***disco unico***
+>- Aumenta le prestazioni ***distribuendo i dati*** su più dischi a cui il controller accede in **parallelo**
+>- Fornisce una modalità di ***backup e correzione di errori***
+>- Permette il *funzionamento* anche se una unità ***non è attiva***
+
+### Tipi di RAID
+>[!abstract] RAID 0
+>***Non Redundant Data Striping***
+>Mette assieme 2 o più dischi
+
+![[Pasted image 20240329105526.png]]
+
+>[!abstract] RAID 1
+>***Redundant Data Striping***
+>Esegue la Copia `BIT` a `BIT` di un disco in un altro
+
+![[Pasted image 20240329105645.png]]
+
+>[!abstract] RAID 2
+>***Data Striping at `BIT` Level***
+
+![[Pasted image 20240329105744.png]]
+
+>[!abstract] RAID 3
+>***Bit Interleaved Parity***
+
+![[Pasted image 20240329105855.png]]
+
+>[!abstract] RAID 4
+>***Block Interleaved Parity***
+
+
+![[Pasted image 20240329105947.png]]
+
+>[!abstract] RAID 5
+>***Block Interleaved Distributed Parity***
+
+![[Pasted image 20240329110047.png]]
+

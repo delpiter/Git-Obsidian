@@ -4,100 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "c5abfdddea935579",
+        "id": "de96b9e015264b8f",
         "type": "tabs",
         "children": [
           {
-            "id": "219be424c9f07ff4",
+            "id": "064922280838e764",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Obsidian/Algebra e Geometria/Applicazioni/Estensione Lineare.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cefff2ca2185ad1a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git-Obsidian/Algebra e Geometria/Applicazioni/Estensione Lineare.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a587c78103f24811",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git-Obsidian/Algebra e Geometria/Applicazioni/Teorema del Rango.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "af0ac6c562480a4f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git-Obsidian/Algebra e Geometria/Applicazioni/Isomorfismo.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "38ff09c3219f40b6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git-Obsidian/Algebra e Geometria/Applicazioni/Isomorfismo.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b3a3982430cb866f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git-Obsidian/Algebra e Geometria/Metodo di Gauss.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "47452598b7f1ebe8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/Campi e Spazi Vettoriali.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "314b21a5db1fbc24",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git-Obsidian/Definitions/Definizioni_Analisi.md",
+                "file": "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Organizzazione della Memoria.md",
                 "mode": "source",
                 "source": false
               }
@@ -170,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Algebra e Geometria/Applicazioni/Estensione Lineare.md",
+                "file": "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Organizzazione della Memoria.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Algebra e Geometria/Applicazioni/Estensione Lineare.md",
+                "file": "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Organizzazione della Memoria.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -210,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git-Obsidian/Algebra e Geometria/Applicazioni/Estensione Lineare.md"
+                "file": "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Organizzazione della Memoria.md"
               }
             }
           },
@@ -251,29 +167,30 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "219be424c9f07ff4",
+  "active": "064922280838e764",
   "lastOpenFiles": [
-    "Git-Obsidian/Algebra e Geometria/Applicazioni/Applicazioni Lineari.md",
-    "Git-Obsidian/Algebra e Geometria/Applicazioni/Isomorfismo.md",
-    "Git-Obsidian/Algebra e Geometria/Applicazioni/Estensione Lineare.md",
-    "Git-Obsidian/Algebra e Geometria/Applicazioni/Teorema del Rango.md",
-    "Git-Obsidian/Algebra e Geometria/Metodo di Gauss.md",
+    "Git-Obsidian/Attatchments/Pasted image 20240329110047.png",
+    "Git-Obsidian/Attatchments/Pasted image 20240329105947.png",
+    "Git-Obsidian/Attatchments/Pasted image 20240329105855.png",
+    "Git-Obsidian/Attatchments/Pasted image 20240329105744.png",
+    "Git-Obsidian/Attatchments/Pasted image 20240329105645.png",
+    "Git-Obsidian/Attatchments/Pasted image 20240329105526.png",
+    "Git-Obsidian/Attatchments/Pasted image 20240329105450.png",
+    "Git-Obsidian/Attatchments/Pasted image 20240329105448.png",
+    "Git-Obsidian/Attatchments/image-removebg-preview 3.png",
+    "Git-Obsidian/Attatchments/image-removebg-preview 2.png",
+    "Git-Obsidian/Attatchments/ssd-nvme-m-2-icon-vector-solid-state-driver-sign_756939-41.avif",
     "Git-Obsidian/Definitions/Definizioni_Analisi.md",
     "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/Campi e Spazi Vettoriali.md",
+    "Git-Obsidian/Algebra e Geometria/Metodo di Gauss.md",
+    "Git-Obsidian/Algebra e Geometria/Applicazioni/Isomorfismo.md",
+    "Git-Obsidian/Algebra e Geometria/Applicazioni/Estensione Lineare.md",
+    "Git-Obsidian/Algebra e Geometria/Applicazioni/Applicazioni Lineari.md",
+    "Git-Obsidian/Algebra e Geometria/Applicazioni/Teorema del Rango.md",
     "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Organizzazione della Memoria.md",
-    "Git-Obsidian/Attatchments/Pasted image 20240328095303.jpg",
-    "Git-Obsidian/Attatchments/steal.png",
     "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/Forme Parametriche e Cartesiane.md",
     "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Le Memorie.md",
     "Git-Obsidian/Definitions/Definizioni_Architettura.md",
-    "Git-Obsidian/Attatchments/Pasted image 20240327140932.png",
-    "Git-Obsidian/Attatchments/Pasted image 20240327134927.png",
-    "Git-Obsidian/Attatchments/Pasted image 20240327134729.png",
-    "Git-Obsidian/Attatchments/Pasted image 20240327133456.png",
-    "Git-Obsidian/Attatchments/Pasted image 20240327133131.png",
-    "Git-Obsidian/Attatchments/Pasted image 20240327115941.png",
-    "Git-Obsidian/Attatchments/Pasted image 20240327115925.png",
-    "Git-Obsidian/Attatchments/Pasted image 20240327115707.png",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Hash/Hash Table.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Hash/Funzione di Hash.md",
     "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Correzione di Errori.md",
@@ -288,7 +205,6 @@
     "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/Intersezione e Somma di Sottospazi.md",
     "Git-Obsidian/Architettura degli Elaboratori/Rappresentazione dell'Informazione/Rappresentazione dei Caratteri.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Alberi/Gli Alberi Binari.md",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Appunti.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Alberi",
     "Ricerca senza successo.pdf",
     "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore",
