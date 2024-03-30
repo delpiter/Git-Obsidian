@@ -285,3 +285,39 @@ Prima di poter leggere o scrivere la suddetta struttura (*tracce*, *settori*) de
 
 ![[Pasted image 20240329110047.png]]
 
+## Dischi Ottici
+---
+### CD
+>[!info] Compact Disc
+>I `CD` utilizzano un ***principio ottico*** per la memorizzazione persistente di informazioni
+>Nati come supporto per la ***memorizzazione di musica***
+>>[!abstract] Codifica
+>>Le informazioni sono codificate per mezzo di *fori* (***Pit***) di $0.8$ micron di diametro alternati con *zone piane* (***Land***) lungo una ***unica spirale***
+>>Un passaggio ***Pit-Land*** o ***Land-Pit*** codifica un $1$
+>>L'***assenza di variazioni*** codifica lo $0$
+
+![[Pasted image 20240330162837.png]]
+
+>[!abstract] Lettura
+>Le informazioni sono lette tramite un ***raggio laser*** che viene *riflesso* diversamente al passaggio sui ***Pit*** e ***Land***
+
+
+#### Produzione
+I `CD` vengono prodotti utilizzando uno *stampo* ottenuto tramite ***erosione laser***.
+- Su questo stampo verrà poi iniettata *resina liquida* che preserva gli incavi corrispondenti ai ***Pit***
+
+Lungo la spirale, i dati sono memorizzati con la ***stessa densità***
+- Il `CD` quindi deve ruotare con una ***velocità angolare non costante*** ($530$-$200$ giri al sec)
+	- Mantenendo la medesima ***velocità lineare*** ($120cm/sec$) nelle diverse are del `CD`
+
+
+### CD-ROM
+>[!info] CD-Read Only Memory
+>Utilizzano la tecnologia dei `CD` per memorizzare dati informatici
+
+>[!fail] Problema: perdita di `BIT` durante la lettura
+
+Al fine di evitare questo problema
+- Ogni `BYTE` viene codificato da un ***simbolo*** di $14$ `BIT`
+- Nei `BIT` in eccesso viene inserito un ***codice per la correzione dell'errore***
+- 
