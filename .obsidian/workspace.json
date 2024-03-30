@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Obsidian/Algebra e Geometria/Applicazioni/Estensione Lineare.md",
+                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Insiemi Disgiunti.md",
                 "mode": "source",
                 "source": false
               }
@@ -70,7 +70,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 269.5
+    "width": 269.5,
+    "collapsed": true
   },
   "right": {
     "id": "3561446b8c4d05ef",
@@ -86,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Algebra e Geometria/Applicazioni/Estensione Lineare.md",
+                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Insiemi Disgiunti.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Algebra e Geometria/Applicazioni/Estensione Lineare.md",
+                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Insiemi Disgiunti.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git-Obsidian/Algebra e Geometria/Applicazioni/Estensione Lineare.md"
+                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Insiemi Disgiunti.md"
               }
             }
           },
@@ -167,24 +168,28 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "f2ffaf6360de317d",
+  "active": "064922280838e764",
   "lastOpenFiles": [
+    "Git-Obsidian/Attatchments/Pasted image 20240330102722.png",
+    "Git-Obsidian/Attatchments/Pasted image 20240330102653.png",
+    "Git-Obsidian/Attatchments/Pasted image 20240330101911.png",
+    "Git-Obsidian/Attatchments/findset2024-03-30 100721.png",
+    "Git-Obsidian/Attatchments/Pasted image 20240330100730.png",
+    "Git-Obsidian/Attatchments/Screenshot 2024-03-30 10asd5.png",
+    "Git-Obsidian/Attatchments/Pasted image 20240330100435.png",
+    "Git-Obsidian/Attatchments/Pasted image 20240330100022.png",
+    "Git-Obsidian/Algebra e Geometria/Applicazioni/Isomorfismo.md",
+    "Git-Obsidian/Algebra e Geometria/Applicazioni/Matrici di Applicazioni Lineari.md",
+    "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Insiemi Disgiunti.md",
+    "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Alberi/Gli Alberi Binari.md",
+    "Git-Obsidian/Attatchments/Arrows.png",
+    "Git-Obsidian/Attatchments/balanced-binary-tree.webp",
+    "Git-Obsidian/Attatchments/Binary Operators.png",
+    "Git-Obsidian/Algebra e Geometria/Applicazioni/Estensione Lineare.md",
     "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Organizzazione della Memoria.md",
-    "Git-Obsidian/Attatchments/Pasted image 20240329110047.png",
-    "Git-Obsidian/Attatchments/Pasted image 20240329105947.png",
-    "Git-Obsidian/Attatchments/Pasted image 20240329105855.png",
-    "Git-Obsidian/Attatchments/Pasted image 20240329105744.png",
-    "Git-Obsidian/Attatchments/Pasted image 20240329105645.png",
-    "Git-Obsidian/Attatchments/Pasted image 20240329105526.png",
-    "Git-Obsidian/Attatchments/Pasted image 20240329105450.png",
-    "Git-Obsidian/Attatchments/Pasted image 20240329105448.png",
-    "Git-Obsidian/Attatchments/image-removebg-preview 3.png",
-    "Git-Obsidian/Attatchments/image-removebg-preview 2.png",
     "Git-Obsidian/Definitions/Definizioni_Analisi.md",
     "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/Campi e Spazi Vettoriali.md",
     "Git-Obsidian/Algebra e Geometria/Metodo di Gauss.md",
-    "Git-Obsidian/Algebra e Geometria/Applicazioni/Isomorfismo.md",
-    "Git-Obsidian/Algebra e Geometria/Applicazioni/Estensione Lineare.md",
     "Git-Obsidian/Algebra e Geometria/Applicazioni/Applicazioni Lineari.md",
     "Git-Obsidian/Algebra e Geometria/Applicazioni/Teorema del Rango.md",
     "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/Forme Parametriche e Cartesiane.md",
@@ -201,9 +206,6 @@
     "Git-Obsidian/Architettura degli Elaboratori/Assembly/Registri.md",
     "Git-Obsidian/Architettura degli Elaboratori/Assembly/Il Livello ISA.md",
     "Git-Obsidian/Architettura degli Elaboratori/Storia dei Calcolatori.md",
-    "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/Intersezione e Somma di Sottospazi.md",
-    "Git-Obsidian/Architettura degli Elaboratori/Rappresentazione dell'Informazione/Rappresentazione dei Caratteri.md",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Alberi/Gli Alberi Binari.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Alberi",
     "Ricerca senza successo.pdf",
     "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore",

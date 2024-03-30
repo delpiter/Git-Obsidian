@@ -216,5 +216,6 @@
 	{trigger: "elif", replacement: "\\Elsif{\$ $0 \$} \n $1", options:"c"},
 	{trigger: "for", replacement: "\\For{\$ $0\ $}\n $1 \n \\EndFor", options: "c"},
 	{trigger: "state", replacement: "\\State \$ $0 \$", options:"c"},
-	{trigger: "return", replacement: "\\Return \$ $0 \$", options:"c"}
+	{trigger: "return", replacement: "\\Return \$ $0 \$", options:"c"},
+	{trigger: "call", replacement: "\\Call{ $0 }{\$ $1 \$}", options:"c"}
 ]
