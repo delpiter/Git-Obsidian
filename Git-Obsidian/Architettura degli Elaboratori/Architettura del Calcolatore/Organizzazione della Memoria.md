@@ -287,6 +287,7 @@ Prima di poter leggere o scrivere la suddetta struttura (*tracce*, *settori*) de
 
 ## Dischi Ottici
 ---
+>*I dischi ottici sono memorie di tipo persistente e off-line*
 ### CD
 >[!info] Compact Disc
 >I `CD` utilizzano un ***principio ottico*** per la memorizzazione persistente di informazioni
@@ -320,4 +321,77 @@ Lungo la spirale, i dati sono memorizzati con la ***stessa densità***
 Al fine di evitare questo problema
 - Ogni `BYTE` viene codificato da un ***simbolo*** di $14$ `BIT`
 - Nei `BIT` in eccesso viene inserito un ***codice per la correzione dell'errore***
-- 
+
+>[!abstract] Frame
+>Un gruppo di $42$ **simboli** viene chiamato ***frame***
+>Ogni *frame* contiene $192$ `BIT` di dati ($24$ `BYTE`) e $396$ `BIT` di *codice di correzione di errore*
+
+>[!abstract] Settore
+>Un gruppo di $98$ **frame** viene chiamato ***settore***
+>Ogni *settore* inizia con un preambolo di $16$ `BYTE` che permette di *identificare il settore* e la *modalità di registrazione*
+
+>*Esistono due modalità di registrazione*
+
+>[!example] Modo $I$
+
+- $16$ `BYTE` di preambolo $+2048$ `BYTE` di dati $+288$ `BYTE` di correzione di errori
+
+![[Pasted image 20240401111902.png]]
+
+
+>[!example] Modo $II$
+
+- $16$ `BYTE` di preambolo $+2336$ `BYTE` di dati
+- Utilizzato da applicazioni che non richiedono controlli di correttezza come musica e video
+
+### CD-R
+>[!info] Compact Disk Recordables
+>Svolgono le *stesse funzioni* del `CD-ROM` ma sono ***registrabili*** dagli utenti senza utilizzo dello stampo
+
+- Diversamente dai `CD` la riflettività di ***pit*** e ***land*** viene ottenuta "*bruciando*" tramite un raggio laser uno strato di materiale colorato
+	- Inserito tra il policarbonato e lo strato riflettente
+
+![[Pasted image 20240401112805.png]]
+
+Lo standard `CD-R` prevede la possibilità di scrivere su un disco in modo ***incrementale***
+- Un gruppo di ***settori*** consecutivi *scritti nello stesso momento* si chiama `CD-ROM tack`
+
+Questa soluzione richiede la presenza di più `VTOC`
+>[!info] VTOC
+>***V***olume ***T***able ***O***f ***C***ontents
+>Ne esiste una per ogni ***Track***
+>In una `VTOC` è possibile inserire riferimenti alle `VTOC` precedenti
+>- Il `SO` farà riferimento solo alla più recente
+
+### DVD
+>[!info] Digital Video Disk
+>Nascono come supporto per la memorizzazione di ***video digitali***
+>I `DVD` utilizzano lo stesso progetto dei `CD-ROM` inserendovi alcune innovazioni:
+>1. ***Pit*** più piccoli
+>2. ***Spirale*** più serrata
+>3. ***Raggio laser*** rosso
+>Permettono di memorizzare fino a $4.7GB$ ($133$ minuti di video digitale `MPEG-2`)
+
+Lo **spazio** a disposizione non è ***mai sufficiente***
+- Sono quindi stati introdotti *4 nuovi formati*
+
+1. Lato Unico - Strato Unico $\to 4.7GB$
+2. Lato Unico - Strato Doppio $\to 8.5GB$
+3. Lato Doppio - Strato Unico $\to 9.5GB$
+4. Lato Doppio - Strato Doppio $\to 17 GB$
+
+La tecnologia a ***Doppio strato*** è ottenuta inserendo tra i due strati uno *strato semiriflettente*
+- A seconda del punto su cui il laser è *messo a fuoco*, la ***riflessione*** avverrà da uno strato oppure l'altro
+
+![[Pasted image 20240401114544.png]]
+
+### Blue-Ray
+>[!info] Blue Ray
+>***Blue Ray*** è il nome della tecnologia progettata per sostituire i `DVD`
+>Il nome deriva dall'uso di un ***laser blu*** e non più *rosso*
+>- Avendo minore *lunghezza d'onda* consentiva di avere ***Pit*** e ***Land*** più piccoli
+>
+>Il primo apparecchio ad avere utilizzato *commercialmente* questa tecnologia fu la ***PlayStation 3***
+
+Negli anni sono stati sviluppate diverse versioni di questa tecnologia
+- Dischi in grado di memorizzare da $25GB$ a $200GB$
