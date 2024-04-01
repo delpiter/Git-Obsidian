@@ -122,4 +122,10 @@ I termini "*code point*" e "*carattere*" non sono sinonimi
 >- Valutazione di *espressioni aritmetiche*
 >- Memorizzazione di *variabili locali*
 >- Chiamata di *sottoprogrammi*
->- 
+
+
+## Raster Graphics
+---
+>[!info] Definizione
+>Una grafica "***Raster***" è una collezione di piccoli ***pixel*** uniformi, disposti in un ***array bidimensionale***
+>Ogni `PIXEL` contiene uno o più `BIT` di informazione in base al ***livello di dettaglio*** dell'immagine
