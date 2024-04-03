@@ -7,22 +7,6 @@
       "key": "PageDown"
     }
   ],
-  "table-editor-obsidian:next-cell": [
-    {
-      "modifiers": [
-        "Shift"
-      ],
-      "key": "Tab"
-    }
-  ],
-  "table-editor-obsidian:next-row": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "Tab"
-    }
-  ],
   "editor:insert-callout": [
     {
       "modifiers": [

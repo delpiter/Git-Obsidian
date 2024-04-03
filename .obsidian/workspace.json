@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Schede Grafiche.md",
+                "file": "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Le Periferiche.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Schede Grafiche.md",
+                "file": "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Le Periferiche.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Schede Grafiche.md",
+                "file": "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Le Periferiche.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Schede Grafiche.md"
+                "file": "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Le Periferiche.md"
               }
             }
           },
@@ -181,9 +181,12 @@
   },
   "active": "c723afa86c484727",
   "lastOpenFiles": [
-    "Git-Obsidian/Attatchments/Screenshot 2024-04-01 163620.png",
+    "Git-Obsidian/Attatchments/Pasted image 20240403175130.png",
     "Git-Obsidian/Definitions/Definizioni_Architettura.md",
+    "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Le Periferiche.md",
+    "Git-Obsidian/Attatchments/Screenshot 2024-04-03 145822.png",
     "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Schede Grafiche.md",
+    "Git-Obsidian/Attatchments/Screenshot 2024-04-01 163620.png",
     "Git-Obsidian/Attatchments/gpu.png",
     "Git-Obsidian/Attatchments/Pasted image 20240401115322.png",
     "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Le Memorie.md",
@@ -195,8 +198,6 @@
     "Git-Obsidian/Attatchments/Pasted image 20240330162757.png",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Insiemi Disgiunti.md",
     "Git-Obsidian/Attatchments/Pasted image 20240330102722.png",
-    "Git-Obsidian/Attatchments/Pasted image 20240330102653.png",
-    "Git-Obsidian/Attatchments/Pasted image 20240330101911.png",
     "Git-Obsidian/Algebra e Geometria/Applicazioni/Isomorfismo.md",
     "Git-Obsidian/Algebra e Geometria/Applicazioni/Matrici di Applicazioni Lineari.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Alberi/Gli Alberi Binari.md",
@@ -216,7 +217,6 @@
     "Git-Obsidian/Architettura degli Elaboratori/Assembly/Istruzioni IA-32.md",
     "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/La CPU.md",
     "Git-Obsidian/Architettura degli Elaboratori/Assembly/Registri.md",
-    "Git-Obsidian/Architettura degli Elaboratori/Assembly/Il Livello ISA.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Alberi",
     "Ricerca senza successo.pdf",
     "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore",
