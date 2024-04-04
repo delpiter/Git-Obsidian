@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "02074e86cc111ee4",
+        "id": "bd2bf0801a69c57e",
         "type": "tabs",
         "children": [
           {
-            "id": "c723afa86c484727",
+            "id": "b0a8af5b4d8f3390",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,12 +20,12 @@
             }
           },
           {
-            "id": "b785d9897f1aa1df",
+            "id": "d6fdc0ef6ab0b6f0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Obsidian/Definitions/Definizioni_Architettura.md",
+                "file": "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Schede Grafiche.md",
                 "mode": "source",
                 "source": false
               }
@@ -82,7 +82,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 269.5
+    "width": 269.5,
+    "collapsed": true
   },
   "right": {
     "id": "3561446b8c4d05ef",
@@ -179,25 +180,25 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "c723afa86c484727",
+  "active": "b0a8af5b4d8f3390",
   "lastOpenFiles": [
-    "Git-Obsidian/Attatchments/Pasted image 20240403175130.png",
-    "Git-Obsidian/Definitions/Definizioni_Architettura.md",
-    "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Le Periferiche.md",
-    "Git-Obsidian/Attatchments/Screenshot 2024-04-03 145822.png",
+    "Git-Obsidian/Attatchments/Pasted image 20240404113516.png",
+    "Git-Obsidian/Attatchments/Pasted image 20240404113049.png",
     "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Schede Grafiche.md",
+    "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Organizzazione della Memoria.md",
+    "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Le Periferiche.md",
+    "Git-Obsidian/Attatchments/Pasted image 20240404103831.png",
+    "Git-Obsidian/Definitions/Definizioni_Architettura.md",
+    "Git-Obsidian/Attatchments/Pasted image 20240403175130.png",
+    "Git-Obsidian/Attatchments/Screenshot 2024-04-03 145822.png",
     "Git-Obsidian/Attatchments/Screenshot 2024-04-01 163620.png",
     "Git-Obsidian/Attatchments/gpu.png",
     "Git-Obsidian/Attatchments/Pasted image 20240401115322.png",
     "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Le Memorie.md",
-    "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Organizzazione della Memoria.md",
     "Git-Obsidian/Attatchments/Pasted image 20240401114544.png",
     "Git-Obsidian/Attatchments/Pasted image 20240401112805.png",
     "Git-Obsidian/Attatchments/Pasted image 20240401111902.png",
-    "Git-Obsidian/Attatchments/Pasted image 20240330162837.png",
-    "Git-Obsidian/Attatchments/Pasted image 20240330162757.png",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Insiemi Disgiunti.md",
-    "Git-Obsidian/Attatchments/Pasted image 20240330102722.png",
     "Git-Obsidian/Algebra e Geometria/Applicazioni/Isomorfismo.md",
     "Git-Obsidian/Algebra e Geometria/Applicazioni/Matrici di Applicazioni Lineari.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Alberi/Gli Alberi Binari.md",

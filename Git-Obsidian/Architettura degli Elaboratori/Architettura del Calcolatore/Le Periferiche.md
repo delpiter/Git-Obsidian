@@ -79,3 +79,72 @@ Utilizzando un **campo elettrico** per modificare l'***orientamento delle moleco
 >I ***mouse laser*** sono essenzialmente mouse ottici che utilizzano un ***laser*** al posto di un `LED` per l'illuminazione del piano d'appoggio
 >Si ha una *maggiore risoluzione* nell'acquisizione dell'immagine
 
+## Le Stampanti
+---
+>*La stampante è uno dei principali dispositivi di output*
+
+>[!info] Tipi di Stampante
+>>[!tip] Stampante a Matrice
+>>Basate su una testina mobile contenente da $2$ a $24$ ***aghi*** azionati ***elettromagneticamente***.
+>>La qualità di stampa varia a seconda del *numero di aghi* e dalla possibilità di poter *sovrapporre la loro immagine*
+>
+>>[!tldr] Stampante Laser
+>
+>>[!abstract] Stampante a Getto d'inchiostro
+
+Il livello di definizione di una stampa si misura in `DPI` (***D***ots ***P***er ***I***nch)
+- Indica il numero di punti distinti disegnabili in un segmento di lunghezza di $1$ pollice
+- $1$ pollice $= 2.54cm$
+
+### Stampanti a Getto di Inchiostro
+>*In questo tipo di stampante la testina mobile contiene 4 cartucce di colori*
+
+>[!info] ‎ 
+>Le immagini per luce riflessa assorbono certe lunghezze d'onda e ne riflettono altre
+>Queste vengono create dalla superimposizione dei $3$ ***colori primari sottrattivi***
+>Quasi tutti i sistemi di stampa sfruttano questo principio utilizzando la *combinazione*
+>- ***C***yan ***Y***ellow ***M***agenta bla***K***
+>Il *nero* viene aggiunto poiché è difficile ottenere degli *inchiostri puri* da assorbire tutta la luce e produrre il colore nero
+
+![[Pasted image 20240404103831.png]]
+#### Modelli
+>[!abstract] Piezoelettrici
+>Nei modelli ***Piezoelettrici*** un cristallo che opera come "*tappo*" si deforma quando gli si applica una *tensione* e fa fuoriuscire una gocciolina
+
+>[!abstract] Bubble Jet
+>Nei modelli ***termici o Bubble Jet*** all'interno di ogni *ugello* una goccia di inchiostro viene riscaldata ***fino all'ebollizione***
+>L'ebollizione comporta lo "***scoppio***" della goccia e la sua fuoriuscita dall'*ugello*
+>**Raffreddandosi** l'ugello crea una *depressione* che *risucchia* un'altra goccia di inchiostro
+
+La qualità di stampa varia dai $300$ `DPI` fino a oltre i $4000$ `DPI`
+### Stampanti Laser
+>*Le stampanti laser usano una tecnologia simile a quelle delle fotocopiatrici*
+
+![[Pasted image 20240404113049.png]]
+
+>[!done] ‎Funzionamento
+>1. Il tamburo viene ***caricato elettricamente*** e ricoperto di materiale *fotosensibile*
+>2. Tramite uno ***specchio ottagonale*** viene fatta passare una luce laser sul **tamburo**
+>	- I punti colpiti dal raggio *perdono la carica elettrica*
+>3. Ruotando, il **rullo** raggiunge il **toner**, i punti elettricamente carichi attirano il materiale
+>	- Il toner è un contenitore di ***polvere elettrostaticamente sensibile***
+>4. Una serie di ***rulli riscaldati*** fissa il materiale colorante sulla carta
+>5. Il rullo viene **scaricato** e **pulito** dai *residui*
+
+Le stampanti laser possono creare punti neri o punti bianchi
+- Per raffigurare immagini a livello di grigio è necessario rappresentare le diverse intensità di grigio
+
+>[!abstract] Soluzione
+
+La soluzione più diffusa si chiama ***halftonign***
+- Si ***suddivide*** l'immagine in celle di $6\times6$ `PIXEL`
+- In base al ***livello di grigio medio*** della cella verranno *lasciati bianchi* un numero diverso di `PIXEL`
+
+#### Stampanti Laser a Colori
+>[!info] Single Pass
+>$4$ toner $+$ $4$ tamburi
+
+>[!info] Multi Pass
+>$4$ toner $+$ $1$ tamburo sul quale il ***foglio passa $4$ volte*** a seguito di caricamento con i diversi toner
+>>Più lento e più impreciso
+
