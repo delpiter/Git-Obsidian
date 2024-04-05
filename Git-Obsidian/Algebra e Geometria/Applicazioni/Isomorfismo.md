@@ -510,7 +510,7 @@ L'insieme $\text{Hom}(V,U)$ di tutte le applicazioni lineari $V\to U$ è uno spa
 Fissando basi di $V,U$ posso associare a *un'applicazione lineare* $g:V\to U$ una matrice $m\times n$ e questa corrispondenza è un ***isomorfismo***
 - Tra $\text{Hom}(V,U)$ e $\mathcal{M}_{m,n}(\mathbb{K})$
 
-#### Esempio
+#### Esempio Cambio di Base
 >*Siano $v_{1}=(2,1),v_{2}=(1,-1)$*
 
 >[!question] Mostrare che $v_{1},v_{2}$ è una base di $\mathbb{R}^2$

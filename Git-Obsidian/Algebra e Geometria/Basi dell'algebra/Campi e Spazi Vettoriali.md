@@ -1,4 +1,5 @@
-### Campo
+## Campo
+---
 >[!info] Definizione
 >Un **campo** è un insieme con due operazioni $+$ e $\cdot$ **commutative** e **associative** 
 >Con **elementi neutri**, rispettivamente $0$ e $1$
@@ -31,7 +32,7 @@ In $\mathbb{Z}_{3}$
 - $1+2 =3 \equiv 0 (3)$
 
 In $\mathbb{Z}_{5}$
-- $\overline{3}\cdot \overline{4} = \overline{2}$ perhchè $3\cdot4=12\equiv 2(5)$
+- $\overline{3}\cdot \overline{4} = \overline{2}$ perhè $3\cdot4=12\equiv 2(5)$
 
 #### Osservazione
 $\mathbb{Z}_{n}$ è un campo $\Leftrightarrow n$ è **primo**

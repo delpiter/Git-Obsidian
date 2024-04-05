@@ -82,3 +82,76 @@ $$
 =(12x+3y,-11x+y)
 \end{array}
 $$
+
+
+## Matrice Identità
+---
+>*Consideriamo l'applicazione $id:V\to V,v\mapsto v$, cioè $id(v)=v\forallv \in V$*
+
+>[!question] Qual è la sua matrice?
+
+Fissiamo una [[Campi e Spazi Vettoriali#Base|base]] $v_{1},\dots,v_{n}$ di $V$
+- $id(v_{1})=v_{1}=1v_{1}+0v_{2}+\dots+0v_{n}$
+- $id(v_{2})=v_{2}=0v_{1}+1v_{2}+\dots+0v_{n}$
+- $\dots$
+- $id(v_{n})=v_{n}=0v_{1}+0v_{2}+\dots+1v_{n}$
+
+>[!done] Matrice Identità
+
+Chiamiamo la seguente matrice la ***matrice identità***, e la indichiamo con $\text{I}_{n}$
+$$
+\begin{pmatrix}
+1 & 0 & \dots & 0 \\
+0 & 1 & \dots & 0 \\
+\dots & \dots & \dots & \dots \\
+0 & 0 & \dots & 1
+\end{pmatrix}
+$$
+
+### Osservazioni
+
+>[!tldr] Osservazione 1
+>La matrice di $id$ è $I_{n}$ qualsiasi sia la base scelta per $V$
+
+---
+
+>[!tldr] Osservazione 2
+>Per ogni $f:V\to V$, la composizione tra $f$ e la funzione identità $id$ è uguale a $f$
+>$$id_{o}f=f,f_{o}id=f$$
+>Perché $id(f(v))=f(v)$ e $f(id(v))=f(v)$
+
+Quindi, se $f$ è [[Applicazioni Lineari#Applicazione Lineare|lineare]] e, fissata una base di $V$, $A$ è la sua matrice
+<u>Allora</u>
+$$
+A\times I_{n}=A, I_{n}\times A=A
+$$
+
+>[!done] $I_{n}$ è l'***elemento neutro*** rispetto al prodotto riga per colonna
+
+---
+
+>[!tldr] Osservazione 3
+>Un'[[Applicazioni Lineari#Applicazione Lineare|applicazione lineare]] $f:V\to U$ è un [[Isomorfismo]] ***se e solo se*** è invertibile,
+>Cioé:
+>$$\exists f^{-1}:U\to V$$
+>Tale che $f_{o}f^{-1}=id_{u}$ e $f^{-1}_{o}f=id_{v}$
+>>[!done] In altre parole
+>>Se $A$ è la matrice di $f$ in una vase $v_{1},\dots,v_{n}$ di $V$
+>><u>Allora</u>
+>>$f$ è ***invertibile*** $\Leftrightarrow A$ è "***invertibile***"
+>>Cioè esiste una matrice $A^{-1}$ tale che $A\times A^{-1} = I_{n}$, $A^{-1}\times A = I_{n}$
+>>- $A^{-1}$ è la matrice di $f^{-1}$
+
+---
+
+>[!tldr] Osservazione 4
+>Se $\text{dim}(V)\neq \text{dim}(U)$ sappiamo, come conseguenza del [[Teorema del Rango#Teorema|teorema del rango]], che ***non esistono isomorfismi*** da $V$ a $U$
+>Quindi solo le matrici quadrate ***possono essere invertibili***
+
+>[!done] Se il numero di *righe* di $A$ è diverso dal numero di *colonne*, sicuramente $A$ non è *invertibile*
+
+#### Domanda
+>[!question] Se invece $A\in \mathcal{M}_{n,n}=\{ \text{matrici }n\times n \}$, ha senso chiedersi: *è invertibile*?
+
+Cioè, esiste una matrice, che chiamerò $A^{-1}$, tale che $A\times A^{-1}=I_{n}$,$A^{-1}\times A = I_{n}$?
+
