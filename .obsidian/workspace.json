@@ -20,6 +20,42 @@
             }
           },
           {
+            "id": "957ddce17c27b53c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git-Obsidian/Architettura degli Elaboratori/Assembly/Istruzioni IA-32.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9e3de1c563017a9a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git-Obsidian/Architettura degli Elaboratori/Assembly/Istruzioni IA-32 Speciali.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a247db4b66fe8c19",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Alberi/Gli Alberi Binari.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "d6fdc0ef6ab0b6f0",
             "type": "leaf",
             "state": {
@@ -31,7 +67,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -99,7 +136,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Le Periferiche.md",
+                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Alberi/Gli Alberi Binari.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +153,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Le Periferiche.md",
+                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Alberi/Gli Alberi Binari.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +176,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Le Periferiche.md"
+                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Alberi/Gli Alberi Binari.md"
               }
             }
           },
@@ -180,13 +217,15 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "b0a8af5b4d8f3390",
+  "active": "a247db4b66fe8c19",
   "lastOpenFiles": [
+    "Git-Obsidian/Architettura degli Elaboratori/Assembly/Istruzioni IA-32 Speciali.md",
+    "Git-Obsidian/Architettura degli Elaboratori/Assembly/Istruzioni IA-32.md",
+    "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Le Periferiche.md",
     "Git-Obsidian/Attatchments/Pasted image 20240404113516.png",
     "Git-Obsidian/Attatchments/Pasted image 20240404113049.png",
     "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Schede Grafiche.md",
     "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Organizzazione della Memoria.md",
-    "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Le Periferiche.md",
     "Git-Obsidian/Attatchments/Pasted image 20240404103831.png",
     "Git-Obsidian/Definitions/Definizioni_Architettura.md",
     "Git-Obsidian/Attatchments/Pasted image 20240403175130.png",
@@ -197,7 +236,6 @@
     "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Le Memorie.md",
     "Git-Obsidian/Attatchments/Pasted image 20240401114544.png",
     "Git-Obsidian/Attatchments/Pasted image 20240401112805.png",
-    "Git-Obsidian/Attatchments/Pasted image 20240401111902.png",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Insiemi Disgiunti.md",
     "Git-Obsidian/Algebra e Geometria/Applicazioni/Isomorfismo.md",
     "Git-Obsidian/Algebra e Geometria/Applicazioni/Matrici di Applicazioni Lineari.md",
@@ -215,7 +253,6 @@
     "Git-Obsidian/Markdown Keys.md",
     "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Organizzazione del Calcolatore.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/I Grafi.md",
-    "Git-Obsidian/Architettura degli Elaboratori/Assembly/Istruzioni IA-32.md",
     "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/La CPU.md",
     "Git-Obsidian/Architettura degli Elaboratori/Assembly/Registri.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Alberi",

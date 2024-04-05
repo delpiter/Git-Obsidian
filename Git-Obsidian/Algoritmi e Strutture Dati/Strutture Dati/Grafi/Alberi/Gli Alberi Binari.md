@@ -271,7 +271,7 @@ Per la cancellazione di un nodo $z$ con *due figli*:
  \EndIf
  
  \EndIf
- \If{$ v=\text{NULL} $}
+ \If{$ v \neq \text{NULL} $}
  \State $ p(v)=p(u) $
   
  \EndIf
@@ -292,7 +292,7 @@ Per la cancellazione di un nodo $z$ con *due figli*:
   \State \Call{Transplant}{$T,z,left(z)$}
   \Else 
  \State $ y= $ \Call{TreeMinimum}{$z.right(z)$}
- \If{$ p(y)\neq z $}
+ \If{$ y\neq right(z) $}
   \State \Call{Transplant}{$T,y,right(y) $}
   \State $ right(y)=right(z) $
   \State $ p(right(y))=y $
