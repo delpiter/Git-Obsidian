@@ -127,3 +127,17 @@ Cioè lineare nella dimensione della rappresentazione del grafo con [[Rappresent
 >- *Calcola* un albero ***breadth first*** contenente tutti i vertici raggiungibili
 >- Per ogni vertice $v$ raggiungibile da $s$, il cammino nell'albero ***breadth first*** da $s$ a $v$ corrisponde ad un cammini minimo in $G$
 
+##### Alberi BFS
+>*Sottografo dei predecessori di $G$*
+
+$$
+\begin{array}
+\ G_{\pi}=(V_{\pi},E_{\pi}) \\
+V_{\pi}=\{ v\in V:\pi[v]\neq \text{NULL} \}\cup\{ s \} \\
+E_{\pi}=\{ (\pi[v],v)\in E :v\in V_{\pi} -\{ s \}\}
+\end{array}
+$$
+Se applicata ad un grafo $G$ la `BFS` costruisce $\pi$ in modo tale che il sottografo dei predecessori $G_{\pi}$ è un albero ***breadth first***
+- $V_{\pi}$ consiste di tutti i ***vertici raggiungibili*** da $s$
+- Per ogni $v\in V_{\pi}$ c'è un unico ***cammino elementare*** in $G_{\pi}$ da $s$ a $v$ ed è anche il ***cammino minimo***
+
