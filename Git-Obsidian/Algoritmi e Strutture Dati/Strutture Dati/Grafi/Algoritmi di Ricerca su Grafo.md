@@ -141,3 +141,71 @@ Se applicata ad un grafo $G$ la `BFS` costruisce $\pi$ in modo tale che il sotto
 - $V_{\pi}$ consiste di tutti i ***vertici raggiungibili*** da $s$
 - Per ogni $v\in V_{\pi}$ c'è un unico ***cammino elementare*** in $G_{\pi}$ da $s$ a $v$ ed è anche il ***cammino minimo***
 
+### Depth First Search
+>[!info] Descrizione
+>La ***ricerca in profondità*** visita la [[I Grafi#Componente Connessa e Sottografo|componente connessa]] raggiungibile da un nodo $u$ esplorando i nodi in ***maniera ricorsiva***
+
+>[!abstract] Schema di Funzionamento
+>La ***ricerca in profondità*** in un grafo non diretto $G$ si basa sullo schema seguente
+>- Si inizia da un vertice $u$ qualsiasi, etichettandolo "***scoperto***", si etichetta $u$ come vertice corrente
+>- Si percorre uno qualsiasi degli archi adiacenti al nodo. $(u,v),v\in Adj[u]$
+>- Se l'arco $(u,v)$ porta ad un vertice $v$ già visitato, si ritorna in $u$
+>- Se il vertice $v$ **non** è ancora stato ***visitato***, diventa il *vertice corrente*, lo si etichetta "***scoperto***" e si ripete il passo precedente
+>In questo modo si visita la ***componente connessa*** raggiungibile da $u$
+
+Prima o poi si arriva ad un punto in cui tutti gli archi incidenti su $u$ portano a vertici visitati.
+
+Allora si attua un ***backtrack*** ritornando al vertice $v$ visitato prima di $u$.
+- Il vertice $v$ diventa il *vertice corrente* e si ripetono i passi precedenti
+
+ Quando anche tutti i vertici incidenti su $v$ portano a vertici visitati si effettua un altro ***backtrack***
+ - Si continua ad effettuare ***backtrack*** lungo il cammino percorso
+ - Esplorando archi che portano a ***vertici inesplorati*** e ripetendo la procedure
+
+#### Pseudocodice
+Algoritmo ricorsivo diviso in due funzioni
+
+>*Inizializza tutti i vertici*
+```pseudo
+	\begin{algorithm}
+	\caption{Depth First Search}
+	\begin{algorithmic}
+	\Procedure{DFS}{$ G $}
+\ForAll{$u \in V[G] $}
+\State $ color[u]=white $
+\State $ \pi[u]=\text{NULL} $
+\EndFor
+\State $ time = 0 $
+\ForAll{$u \in V[G]$}
+\If{$ color[u] == white  $}
+ \State \Call{DFS-Visit}{$u$}
+ \EndIf
+\EndFor
+ \EndProcedure
+	\end{algorithmic}
+	\end{algorithm}
+```
+
+>*Visita ricorsivamente tutti i figli*
+
+```pseudo
+	\begin{algorithm}
+	\caption{Depth First Search}
+	\begin{algorithmic}
+\Procedure{DFS-Visit}{$ u $}
+\State $ color[u]=gray $
+\State $ time++ $
+\State $ d[u]=time $
+\ForAll{$v \in Adj[u]$}
+\If{$ color[v] == white $}
+  \State $ \pi[v] = u $
+  \State \Call{ DFS-Visit }{$ v $}
+ \EndIf
+\EndFor
+\State $ color[u]=black $
+\State $ time++ $
+\State $ f[u]=time $
+ \EndProcedure
+	\end{algorithmic}
+	\end{algorithm}
+```
