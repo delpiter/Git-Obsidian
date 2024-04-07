@@ -11,8 +11,12 @@
             "id": "e7da752cc5630b9f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Algoritmi di Ricerca su Grafo.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -82,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Algoritmi di Ricerca su Grafo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Algoritmi di Ricerca su Grafo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Algoritmi di Ricerca su Grafo.md"
+              }
             }
           },
           {
@@ -161,8 +169,16 @@
   },
   "active": "e7da752cc5630b9f",
   "lastOpenFiles": [
-    "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/Campi e Spazi Vettoriali.md",
+    "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/I Grafi.md",
+    "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Algoritmi di Ricerca su Grafo.md",
+    "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Rappresentazione di Grafi.md",
+    "Git-Obsidian/Attatchments/graph (1).png",
+    "Git-Obsidian/Attatchments/graph 3.png",
+    "Git-Obsidian/Attatchments/graph 2.png",
+    "Git-Obsidian/Attatchments/graph 1.png",
+    "Git-Obsidian/Attatchments/graph.png",
     "Git-Obsidian/Algoritmi e Strutture Dati/Appunti.md",
+    "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/Campi e Spazi Vettoriali.md",
     "Git-Obsidian/Algebra e Geometria/Applicazioni/Isomorfismo.md",
     "Git-Obsidian/Algebra e Geometria/Applicazioni/Cambiamenti di Base.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Confronto fra Algoritmi/Confronto e Pseudocodice.md",
@@ -184,9 +200,6 @@
     "Git-Obsidian/The Bible/66 - Revelation/Revelation.md",
     "Git-Obsidian/The Bible/64 - 3 John/3 John.md",
     "Git-Obsidian/The Bible/64 - 3 John/3 John-01.md",
-    "Git-Obsidian/The Bible/66 - Revelation/Rev-21.md",
-    "Git-Obsidian/The Bible/66 - Revelation/Rev-19.md",
-    "Git-Obsidian/The Bible/66 - Revelation/Rev-20.md",
     "Git-Obsidian/The Bible/35 - Habakkuk",
     "Git-Obsidian/The Bible/64 - 3 John",
     "Git-Obsidian/The Bible/66 - Revelation",
@@ -202,11 +215,6 @@
     "Git-Obsidian/Attatchments/Pasted image 20240404103831.png",
     "Git-Obsidian/Attatchments/Pasted image 20240403175130.png",
     "Git-Obsidian/Attatchments/Screenshot 2024-04-03 145822.png",
-    "Git-Obsidian/Attatchments/Screenshot 2024-04-01 163620.png",
-    "Git-Obsidian/Attatchments/gpu.png",
-    "Git-Obsidian/Attatchments/Pasted image 20240401115322.png",
-    "Git-Obsidian/Attatchments/Pasted image 20240401114544.png",
-    "Git-Obsidian/Attatchments/Pasted image 20240401112805.png",
     "Git-Obsidian/Algoritmi e Strutture Dati/Untitled.canvas",
     "Untitled 2.canvas",
     "Untitled.canvas",

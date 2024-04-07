@@ -36,6 +36,13 @@
             "icon": "lucide-lightbulb"
           }
         }
+      ],
+      "attention": [
+        {
+          "changes": {
+            "icon": "lucide-book-type"
+          }
+        }
       ]
     }
   },

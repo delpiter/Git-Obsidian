@@ -23,7 +23,7 @@ $$
 E=\{ \{ a,b \},\{ a,c \},\{ a,d \},\{ b,e \},\{ c,d \},\{ c,e \}, \{ d,e \} \}
 \end{array}
 $$
-![[Pasted image 20240305162334.png]]
+![[graph 3.png]]
 >[!example] Grafo Diretto (Orientato)
 >Se ogni coppia del grafo $(u,v)$ è ordinata allora il Grafo si dice *diretto o ordinato*
 
@@ -33,11 +33,12 @@ $$
 E=\{ ( a,b ),( a,c ),( a,d ),( b,e ),( c,d ),( c,e ), ( d,e ) \}
 \end{array}
 $$
-![[Pasted image 20240305162519.png]]
+![[graph (1).png]]
 ## Terminologia
 ---
->[!info] Vertici Adiacenti
->Due vertici si dicono adiacenti se sono *connessi da un arco*
+### Vertici Adiacenti
+>[!info] Definizione
+>Due *vertici* si dicono ***adiacenti*** se sono *connessi da un arco*
 >>[!tip] In un Grafo non Orientato
 >>$u,v$ sono adiacenti se $\{ u,v \}\in E$
 >
@@ -45,10 +46,12 @@ $$
 >>Se $(u,v)\in A \implies v$ adiacente a $u$ e $(u,v)$ è incidente in $v$
 >>
 
->[!info] Grado di un vertice
+### Grado di un Vertice
+>[!info] Definizione
 >In un *vertice* il ***grado*** è il numero di vertici adiacenti
 
->[!info] Cammino
+### Cammino
+>[!info] Definizione
 >Una sequenza di *vertici* $v_{1},v_{2},\dots,v_{k}$ tale per cui ogni coppia di vertici consecutivi $v_{i},v_{i+1}$ è adiacente, è chiamata cammino
 >- In un grafo orientato è detto *catena*
 >>[!tip] Cammino Elementare
@@ -64,17 +67,20 @@ $$
 
 *Nell'immagine precedente, l'insieme di vertici: $\{ d,c,e,d \}$ è un ciclo*
 
->[!info] Grafo Connesso
+### Grafo Connesso
+>[!info] Definizione
 >Un grafo si dice *connesso* quando qualsiasi coppia di vertici è unita da almeno un cammino
 
 ![[Pasted image 20240305163745.png]]
 *Grafo 1: Grafo connesso - Grafo 2: Grafo non Connesso*
 
->[!info] Grafo Completo
+### Grafo Completo
+>[!info] Definizione
 >Un *grafo completo* ha un arco fra ogni coppia di nodi
 
 ![[Pasted image 20240305165622.png]]
 
+### Componente Connessa e Sottografo
 >[!info] Sottografo
 >Un *sottografo* è un sottoinsieme di vertici e archi di un grafo dato
 
@@ -85,14 +91,15 @@ $$
 
 ![[Pasted image 20240305165556.png]]
 
->[!info] Grafo Trasposto
+### Grafo Trasposto
+>[!info] Definizione
 >Un grafo *orientato* $G^T=(V;E^T)$ è detto trasposto di $G=(V,E)$ se
 >$$E^T=\{ (u,v):(v,u)\in E \}$$
 >$G$ e $G^T$ hanno le stesse componenti fortemente connesse
 
 ![[Pasted image 20240305170848.png]]
-
->[!info] Grafi Pesati
+### Grafo Pesato
+>[!info] Definizione
 >Gli *archi* possono avere un *peso* associato
 >Il peso può essere determinato da una funzione  $p:V\times V \to\mathbb{R}$
 >Se non è specificato un peso su un arco, lo si assume infinito
