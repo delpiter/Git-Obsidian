@@ -79,8 +79,32 @@ $e^{i\pi}=-1\Leftrightarrow e^{i\pi}+1 = 0$
 
 ## If You Know You Know
 ---
->[!abstract] I want
+>[!abstract] ‎ 
+>I want to
 >$$\int_{10}^{13}2x dx $$
 >With you
 
 
+## Matrice Trasposta
+---
+>[!info] Definizione
+>Data una matrice $M$, la ***matrice trasposta*** di $M$ è la matrice $M^T$ che ha per colonne le righe di $M$
+
+>[!example] Esempio
+
+$$
+M=\begin{pmatrix}
+3 & 1 & 7 \\
+-1 & 0 & 4
+\end{pmatrix}, M^T=\begin{pmatrix}
+3 & -1 \\
+1 & 0 \\
+7 & 4
+\end{pmatrix}
+$$
+### Osservazione
+>*Per come è definito il [[Elementi di Algebra Lineare e Geometria Analitica#Prodotto tra Matrici (Riga $ times$ Colonna)|prodotto riga per colonna]]*
+>
+$$
+(A\times B)^T = A^T \times B^T
+$$

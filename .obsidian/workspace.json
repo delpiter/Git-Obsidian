@@ -13,7 +13,31 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Algoritmi di Ricerca su Grafo.md",
+                "file": "Git-Obsidian/Algebra e Geometria/Applicazioni/Determinante di una Matrice.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d16869eef5948a70",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git-Obsidian/Definitions/Definizioni_Analisi.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "851e2e7a1e7ebdff",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git-Obsidian/Analisi/Funzioni a due Variabili/Elementi di Algebra Lineare e Geometria Analitica.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Algoritmi di Ricerca su Grafo.md",
+                "file": "Git-Obsidian/Algebra e Geometria/Applicazioni/Determinante di una Matrice.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Algoritmi di Ricerca su Grafo.md",
+                "file": "Git-Obsidian/Algebra e Geometria/Applicazioni/Determinante di una Matrice.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Algoritmi di Ricerca su Grafo.md"
+                "file": "Git-Obsidian/Algebra e Geometria/Applicazioni/Determinante di una Matrice.md"
               }
             }
           },
@@ -169,8 +193,12 @@
   },
   "active": "e7da752cc5630b9f",
   "lastOpenFiles": [
-    "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/I Grafi.md",
+    "Git-Obsidian/Architettura degli Elaboratori/Assembly/Istruzioni IA-32.md",
+    "Git-Obsidian/Algebra e Geometria/Applicazioni/Determinante di una Matrice.md",
+    "Git-Obsidian/Definitions/Definizioni_Analisi.md",
+    "Git-Obsidian/Analisi/Funzioni a due Variabili/Elementi di Algebra Lineare e Geometria Analitica.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Algoritmi di Ricerca su Grafo.md",
+    "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/I Grafi.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Rappresentazione di Grafi.md",
     "Git-Obsidian/Attatchments/graph (1).png",
     "Git-Obsidian/Attatchments/graph 3.png",
@@ -196,10 +224,6 @@
     "Git-Obsidian/The Bible/35 - Habakkuk/Hab-02.md",
     "Git-Obsidian/The Bible/35 - Habakkuk/Habakkuk.md",
     "Git-Obsidian/The Bible/35 - Habakkuk/Hab-01.md",
-    "Git-Obsidian/The Bible/66 - Revelation/Rev-22.md",
-    "Git-Obsidian/The Bible/66 - Revelation/Revelation.md",
-    "Git-Obsidian/The Bible/64 - 3 John/3 John.md",
-    "Git-Obsidian/The Bible/64 - 3 John/3 John-01.md",
     "Git-Obsidian/The Bible/35 - Habakkuk",
     "Git-Obsidian/The Bible/64 - 3 John",
     "Git-Obsidian/The Bible/66 - Revelation",
