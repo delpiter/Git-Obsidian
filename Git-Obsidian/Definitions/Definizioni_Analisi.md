@@ -108,3 +108,10 @@ $$
 $$
 (A\times B)^T = A^T \times B^T
 $$
+
+## Regola di Sarrus
+---
+>[!abstract] Regola
+>Scorciatoia per calcolare il ***determinante*** di una *matrice* $3\times 3$
+
+![[Pasted image 20240408210937.png]]
