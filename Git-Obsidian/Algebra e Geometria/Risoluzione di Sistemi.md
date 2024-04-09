@@ -156,7 +156,7 @@ Consideriamo ora un altro metodo di risoluzione
 #### Dimostrazione
 >Se $\det(A)=0$, $A$ non è ***invertibile***
 
-- L'applicazione $x\mapsto A$ non è ***biunivoca***
+- L'applicazione $x\mapsto Ax$ non è ***biunivoca***
 
 Se non è ***biunivoca***:
 
@@ -181,6 +181,10 @@ Ax=b\implies x=A^{-1}b
 $$
 È l'***unica soluzione*** del *sistema lineare*
 
+>[!warning] Limiti
+
+Questo metodo funziona solamente quando il ***numero di incognite*** è uguale al ***numero di equazioni***
+- In oltre è molto costoso in ***termini computazionali***
 ##### Esercizio 1
 $$
 \begin{cases}
@@ -206,3 +210,88 @@ x-2y=3 \\
 $$
 - Il sistema ha *infinite soluzioni*
 	- Tutti gli $(x,y):x=3+2y$
+
+##### Esercizio 3
+[[Matrici Invertibili#Esercizio|Riprendendo Questo esercizio]]
+
+$$
+\begin{cases}
+3x+5y = 2 \\
+2x+4y =-1
+\end{cases}
+$$
+$$
+\det\begin{pmatrix}
+3 & 5 \\
+2 & 4
+\end{pmatrix}=2 \neq 0
+$$
+- La *soluzione* ***esiste ed è unica*** per ogni $b$
+$$
+A^{-1}=\begin{pmatrix}
+2 & -\frac{5}{2} \\
+1 & \frac{3}{2}
+\end{pmatrix}
+$$
+Quindi per trovare le soluzioni:
+$$
+\begin{pmatrix}
+x \\
+y
+\end{pmatrix}
+=A^{-1}b=\begin{pmatrix}
+2 & -\displaystyle\frac{5}{2} \\
+1 &  \displaystyle\frac{3}{2}
+\end{pmatrix}\times \begin{pmatrix}
+2 \\
+-1
+\end{pmatrix}=\begin{pmatrix}
+\displaystyle\frac{13}{2} \\
+-\displaystyle\frac{7}{2}
+\end{pmatrix}$$
+
+### Ruchè-Capelli
+
+>[!teorema] Teorema di Rouchè-Capelli
+>Sia $Ax=b$ un sistema di $m$ equazioni in $n$ incognite
+>Sia $A|b$ la matrice ottenuta *affiancando il vettore dei termini noti* alla matrice $A$
+>Il sistema $Ax=b$ ammette almeno una soluzione $\iff rg(A|b)=rg(A)$
+
+#### Dimostrazione
+>*Se il $rg(A|b)=rg(A)$*
+
+Vuol dire che $b$ è ***combinazione lineare*** dei vettori colonna $v_{1},\dots,v_{n}$ di $A$, cioè:
+$$
+\exists x_{1},\dots,x_{n}\in\mathbb{K}:b=x_{1}v_{1}+\dots+x_{n}v_{n}
+$$
+
+Ma allora:
+$$
+A\times\begin{pmatrix}
+x_{1} \\
+\dots \\
+x_{n}
+\end{pmatrix}=\begin{pmatrix}
+b_{1} \\
+\dots \\
+b_{n}
+\end{pmatrix}
+$$
+- Cioè
+$$
+x=\begin{pmatrix}
+x_{1} \\
+\dots \\
+x_{n}
+\end{pmatrix}
+$$
+>[!done] Il sistema ha una ***unica soluzione***
+
+>*Se invece $rg(A|b)>rg(A)$*
+
+Vuol dire che $b$ non è ***combinazione lineare*** dei vettori colonna di $A$
+- Non esistono gli $x_{1},\dots,x_{n}$ suddetti
+	- Non esiste $x:Ax=b$
+
+>[!fail] Il sistema *non ha soluzione*
+

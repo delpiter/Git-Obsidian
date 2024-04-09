@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "02ebf9aab6201e6d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git-Obsidian/Algebra e Geometria/Applicazioni/Matrici Invertibili.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "c002ec9fcbb6b781",
             "type": "leaf",
             "state": {
@@ -82,7 +94,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 269.5
+    "width": 269.5,
+    "collapsed": true
   },
   "right": {
     "id": "3561446b8c4d05ef",
@@ -181,9 +194,9 @@
   },
   "active": "e7da752cc5630b9f",
   "lastOpenFiles": [
-    "Git-Obsidian/Algebra e Geometria/Metodo di Gauss.md",
-    "Git-Obsidian/Algebra e Geometria/Risoluzione di Sistemi.md",
     "Git-Obsidian/Algebra e Geometria/Applicazioni/Matrici Invertibili.md",
+    "Git-Obsidian/Algebra e Geometria/Risoluzione di Sistemi.md",
+    "Git-Obsidian/Algebra e Geometria/Metodo di Gauss.md",
     "Git-Obsidian/Algebra e Geometria/Applicazioni/Untitled.md",
     "Git-Obsidian/Definitions/Definizioni_Analisi.md",
     "Git-Obsidian/Algebra e Geometria/Applicazioni/Cambiamenti di Base.md",
