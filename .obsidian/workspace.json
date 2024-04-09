@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Obsidian/Algebra e Geometria/Applicazioni/Determinante di una Matrice.md",
+                "file": "Git-Obsidian/Algebra e Geometria/Applicazioni/Matrici Invertibili.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c002ec9fcbb6b781",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git-Obsidian/Definitions/Definizioni_Analisi.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Algebra e Geometria/Applicazioni/Determinante di una Matrice.md",
+                "file": "Git-Obsidian/Definitions/Definizioni_Analisi.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Algebra e Geometria/Applicazioni/Determinante di una Matrice.md",
+                "file": "Git-Obsidian/Definitions/Definizioni_Analisi.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git-Obsidian/Algebra e Geometria/Applicazioni/Determinante di una Matrice.md"
+                "file": "Git-Obsidian/Definitions/Definizioni_Analisi.md"
               }
             }
           },
@@ -167,9 +180,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "e7da752cc5630b9f",
+  "active": "c002ec9fcbb6b781",
   "lastOpenFiles": [
+    "Git-Obsidian/Algebra e Geometria/Applicazioni/Cambiamenti di Base.md",
     "Git-Obsidian/Definitions/Definizioni_Analisi.md",
+    "Git-Obsidian/Algebra e Geometria/Applicazioni/Matrici Invertibili.md",
     "Git-Obsidian/Algebra e Geometria/Applicazioni/Determinante di una Matrice.md",
     "Git-Obsidian/Attatchments/Pasted image 20240408210937.png",
     "Git-Obsidian/Architettura degli Elaboratori/Assembly/Istruzioni IA-32.md",
@@ -185,7 +200,6 @@
     "Git-Obsidian/Algoritmi e Strutture Dati/Appunti.md",
     "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/Campi e Spazi Vettoriali.md",
     "Git-Obsidian/Algebra e Geometria/Applicazioni/Isomorfismo.md",
-    "Git-Obsidian/Algebra e Geometria/Applicazioni/Cambiamenti di Base.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Confronto fra Algoritmi/Confronto e Pseudocodice.md",
     "Git-Obsidian/Algebra e Geometria/Applicazioni/Matrici di Applicazioni Lineari.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Alberi/Gli Alberi Binari.md",

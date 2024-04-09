@@ -114,3 +114,42 @@ $$\det(A)=a_{11}a_{22}-a_{21}a_{12}$$
 >[!info] $n=3$
 
 > Se $n=3$, lo sviluppo di *Laplace* rispetto alla prima colonna otteniamo la [[Definizioni_Analisi#Regola di Sarrus|regola di Sarrus]]
+
+#### Esercizio
+>*I vettori* $v_{1}=(-3,7,2,1), v_{2}=(0,2,0,0), v_{3}=(0,11,-1,0),v_{4}=(4,9,3,0)$
+
+>[!question] I vettori $v_{1},v_{2},v_{3},v_{4}$ formano una base in $\mathbb{R}^4$?
+
+Vediamo un modo nuovo di calcolarlo
+
+$$
+\det(v_{1},v_{2},v_{3},v_{4})=8
+$$
+- Calcolato l'esempio precedente
+- $8\neq 0\iff A$ è *invertibile* $\iff$ i vettori colonna sono indipendenti $\iff v_{1},v_{2},v_{3},v_{4}$ sono base di $\mathbb{R}^4$
+
+### Osservazione
+>*Se* $A$ *è invertibile,* $\det(A^{-1})=\det(A)^{-1}$
+
+>[!tldr] Infatti
+>$$A\times A^{-1} = I_{n}\implies \det(A\times A^{-1}) = \det(I_{n})=1$$
+>$$\det(A)\times \det(A^{-1})=1 \implies \det(A^{-1})=\det(A)^{-1}$$
+
+>[!Proposizione]
+>Se $A$ e $M$ sono [[Cambiamenti di Base#Matrici Simili|simili]] allora hanno lo ***stesso determinante***
+
+#### Dimostrazione
+>$A$ *e* $M$ *simili* *vuol dire che* $\exists B$ *invertibile tale che* $M=B^{-1}\times A \times B$
+
+Per la proprietà 6 e l'osservazione precedente
+$$
+\det(M) = \cancel{ \det(B)^{-1} }\det(A)\cancel{ \det(B) } \implies \det(M)=\det(A)
+$$
+### $\det(f)$
+>[!info] Definizione
+>Data $f:V\to V$ [[Applicazioni Lineari|lineare]], definiamo $\det(f)=\det(A)$
+>Dove $A$ è la *matrice* che *rappresenta* $f$ in qualsiasi [[Campi e Spazi Vettoriali#Base|base]]
+>Per la proposizione precedente, ***non dipende dalla base scelta*** se $A$ e $M$ rappresentano la stessa $f$ in ***basi diverse***
+>>[!done] Osservazione
+>>$$f\text{ isomorfismo }\iff \det(f)\neq 0$$
+

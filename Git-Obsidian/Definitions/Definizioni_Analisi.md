@@ -115,3 +115,28 @@ $$
 >Scorciatoia per calcolare il ***determinante*** di una *matrice* $3\times 3$
 
 ![[Pasted image 20240408210937.png]]
+
+## Prodotto Vettoriale
+---
+>[!info] Definizione
+>Il [[Determinante di una Matrice#Determinante|determinante]] permette di formulare la regola per calcolare il ***prodotto vettoriale***
+>- Una *operazione* che associa ad una ***coppia di vettori*** un ***vettore***
+>$$\mathbb{R}^3\times \mathbb{R}^3\to\mathbb{R}^3$$
+>$$(v,u)\mapsto v\wedge u$$
+
+Se $v=(a_{1},a_{2},a_{3}),u=(b_{1},b_{2},b_{3})$ allora definiamo
+$$
+v\wedge u = \det\begin{pmatrix}
+a_{1} & a_{2} & a_{3} \\
+b_{1} & b_{2} & b_{3} \\
+e_{1} & e_{2} & e_{3}
+\end{pmatrix}=e_{1}(a_{2}b_{3}-a_{3}b_{2})-e_{2}(a_{1}b_{3}-a_{3}b_{1})+e_{3}(a_{1}b_{2}-a_{2}b_{1})
+$$
+
+>[!abstract] In particolare
+
+Il prodotto vettoriale eredita le *proprietà* del ***determinante***
+- È alternante, cioè $v\wedge u =- u\wedge v$
+- È multilineare, cioè $(a_{1}v_{1}+a_{2}av_{2})\wedge u=a_{1}(v_{1}\wedge u)+a_{2}(v_{2}\wedge u)$
+	- $v\wedge(a_{1}u_{1}+a_{2}u_{2})=a_{1}(v\wedge u_{1})+a_{2}(v\wedge u_{2})$
+
