@@ -1,5 +1,8 @@
 ## Metodo di Gauss
 ---
+>*Algoritmo semplice ed efficiente per risolvere sistemi lineari*
+>*Funziona anche per sistemi dove il numero di equazioni è diverso dal numero di incognite*
+
 >[!tip] Vediamo un esempio
 
 $$
@@ -140,3 +143,66 @@ Dove:
 >$x=$ vettore delle ***incognite***
 >$b=$ vettore dei ***termini noti***
 
+Consideriamo ora un altro metodo di risoluzione
+### Metodo di Cramer
+>[!Proposizione]
+>Sia $Ax=b$ un sistema di $n$ equazioni in $n$ variabili
+>- $A\in\mathcal{M}_{n\times n}$
+><u>Allora</u>
+>- Se $\det(A)=0$ la **soluzione** *non esiste* o *non è unica*
+>- Se $\det(A)\neq 0$ la **soluzione** *esiste* ed è *unica* ed è data da:
+>$$x=A^{-1}b=\det(A)^{-1}\text{cof}(A)^Tb$$
+
+#### Dimostrazione
+>Se $\det(A)=0$, $A$ non è ***invertibile***
+
+- L'applicazione $x\mapsto A$ non è ***biunivoca***
+
+Se non è ***biunivoca***:
+
+>[!abstract] Non è suriettiva
+>Non esiste $x:Ax=b$
+><u>Ovvero</u>
+>La soluzione ***non esiste***
+
+*Oppure*
+
+>[!abstract] Non è iniettiva
+>Per qualche $b$ esistono $x,x':Ax=b=Ax'$
+><u>Ovvero</u>
+>La soluzione ***non è unica***
+
+>Se $\det(A)\neq 0$
+
+- $A$ è ***invertibile***, $A^{-1}=\det(A)^{-1}\text{cof}(A)^T$
+
+$$
+Ax=b\implies x=A^{-1}b
+$$
+È l'***unica soluzione*** del *sistema lineare*
+
+##### Esercizio 1
+$$
+\begin{cases}
+x-2y=3 \\
+-2x+4y = 7
+\end{cases}\implies\det\begin{pmatrix}
+1 & -2 \\
+-2 & 4
+\end{pmatrix}=0
+$$
+- Il sistema *non ha soluzione* poiché la prima equazione equivale a:
+	- $-2(x-2y)=-2\cdot3=-6\neq 7$
+
+##### Esercizio 2
+$$
+\begin{cases}
+x-2y=3 \\
+-2x+4y =-6
+\end{cases}\implies\det\begin{pmatrix}
+1 & -2 \\
+-2 & 4
+\end{pmatrix}=0
+$$
+- Il sistema ha *infinite soluzioni*
+	- Tutti gli $(x,y):x=3+2y$
