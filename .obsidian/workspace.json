@@ -4,43 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "cf70fb5162cde490",
+        "id": "8d2e7b1e88326d00",
         "type": "tabs",
         "children": [
           {
-            "id": "e7da752cc5630b9f",
+            "id": "1be6cf2af384cbcb",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git-Obsidian/Algebra e Geometria/Risoluzione di Sistemi.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "02ebf9aab6201e6d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git-Obsidian/Algebra e Geometria/Applicazioni/Matrici Invertibili.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c002ec9fcbb6b781",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git-Obsidian/Definitions/Definizioni_Analisi.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -94,8 +66,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 269.5,
-    "collapsed": true
+    "width": 269.5
   },
   "right": {
     "id": "3561446b8c4d05ef",
@@ -111,7 +82,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Algebra e Geometria/Risoluzione di Sistemi.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +98,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Algebra e Geometria/Risoluzione di Sistemi.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,9 +119,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Git-Obsidian/Algebra e Geometria/Risoluzione di Sistemi.md"
-              }
+              "state": {}
             }
           },
           {
@@ -192,15 +159,17 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "e7da752cc5630b9f",
+  "active": "1be6cf2af384cbcb",
   "lastOpenFiles": [
+    "Git-Obsidian/Algebra e Geometria/Applicazioni/Determinante di una Matrice.md",
     "Git-Obsidian/Algebra e Geometria/Applicazioni/Matrici Invertibili.md",
+    "Git-Obsidian/Algebra e Geometria/Applicazioni/Cambiamenti di Base.md",
+    "Git-Obsidian/Definitions/Definizioni_Analisi.md",
+    "Git-Obsidian/Algebra e Geometria/Applicazioni/Matrici di Applicazioni Lineari.md",
+    "Git-Obsidian/Algebra e Geometria/Applicazioni/Applicazioni Lineari.md",
     "Git-Obsidian/Algebra e Geometria/Risoluzione di Sistemi.md",
     "Git-Obsidian/Algebra e Geometria/Metodo di Gauss.md",
     "Git-Obsidian/Algebra e Geometria/Applicazioni/Untitled.md",
-    "Git-Obsidian/Definitions/Definizioni_Analisi.md",
-    "Git-Obsidian/Algebra e Geometria/Applicazioni/Cambiamenti di Base.md",
-    "Git-Obsidian/Algebra e Geometria/Applicazioni/Determinante di una Matrice.md",
     "Git-Obsidian/Attatchments/Pasted image 20240408210937.png",
     "Git-Obsidian/Architettura degli Elaboratori/Assembly/Istruzioni IA-32.md",
     "Git-Obsidian/Analisi/Funzioni a due Variabili/Elementi di Algebra Lineare e Geometria Analitica.md",
@@ -216,10 +185,8 @@
     "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/Campi e Spazi Vettoriali.md",
     "Git-Obsidian/Algebra e Geometria/Applicazioni/Isomorfismo.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Confronto fra Algoritmi/Confronto e Pseudocodice.md",
-    "Git-Obsidian/Algebra e Geometria/Applicazioni/Matrici di Applicazioni Lineari.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Alberi/Gli Alberi Binari.md",
     "Git-Obsidian/Algebra e Geometria/Applicazioni/Estensione Lineare.md",
-    "Git-Obsidian/Algebra e Geometria/Applicazioni/Applicazioni Lineari.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Confronto fra Algoritmi/Complessità di Algoritmi.md",
     "Git-Obsidian/Game Programming/Introduction.md",
     "Git-Obsidian/The Bible/01 - Genesis/Gen-02.md",
