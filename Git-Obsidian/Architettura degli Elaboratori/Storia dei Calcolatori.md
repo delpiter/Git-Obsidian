@@ -138,7 +138,7 @@ L'unica società che è sopravvissuta, grazie al successo del Macintosh
 
 ## Generazione $V$
 ---
->[!info] Computer invisibili
+>[!info] Obiquitous Computing
 >Quella che possiamo oggi definire la generazione $V$ di computer è legata soprattutto alle **forti riduzioni di dimensioni** e **integrazioni in altri oggetti**
 
 ### Sistemi Embedded

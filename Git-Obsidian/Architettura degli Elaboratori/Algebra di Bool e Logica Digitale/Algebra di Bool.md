@@ -22,13 +22,18 @@ Tutte le ***funzioni booleane*** possono essere espresse come combinazione di qu
 
 
 #### NOT
-![[NOT_Logic_Gate_symbol_with_truth_table_600x600.webp]]
+>[!info] Nega il segnale di ingresso
 
+
+![[Screenshot 2024-04-11 135519.png]]
 #### OR
-![[OR_Logic_Gate_symbol_with_truth_table.png]]
+>[!info] Output `1` se *almeno* uno dei due input è `1`
 
+![[Screenshot 2024-04-11 135909.png]]
 #### AND
-![[AND_Logic_Gate_symbol_with_truth_table_600x600.webp]]
+>[!info] Output `1` $\iff$ entrambi gli input sono `1`
+
+![[Screenshot 2024-04-11 135723 1.png]]
 
 ### Rappresentazioni Alternative
 >*Le dimensioni delle tabelle di verità crescono al crescere delle variabili in input, sono quindi necessarie delle rappresentazioni alternative*

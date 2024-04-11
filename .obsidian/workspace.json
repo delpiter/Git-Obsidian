@@ -13,7 +13,31 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Obsidian/Architettura degli Elaboratori/Algebra di Bool e Logica Digitale/Algebra di Bool.md",
+                "file": "Git-Obsidian/Architettura degli Elaboratori/Storia dei Calcolatori.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fe0a34146edab6e7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git-Obsidian/Architettura degli Elaboratori/Algebra di Bool e Logica Digitale/Logica Digitale.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "33f5c3670107ceea",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git-Obsidian/Markdown Keys.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Architettura degli Elaboratori/Algebra di Bool e Logica Digitale/Algebra di Bool.md",
+                "file": "Git-Obsidian/Architettura degli Elaboratori/Storia dei Calcolatori.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Architettura degli Elaboratori/Algebra di Bool e Logica Digitale/Algebra di Bool.md",
+                "file": "Git-Obsidian/Architettura degli Elaboratori/Storia dei Calcolatori.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git-Obsidian/Architettura degli Elaboratori/Algebra di Bool e Logica Digitale/Algebra di Bool.md"
+                "file": "Git-Obsidian/Architettura degli Elaboratori/Storia dei Calcolatori.md"
               }
             }
           },
@@ -169,19 +193,21 @@
   },
   "active": "1be6cf2af384cbcb",
   "lastOpenFiles": [
-    "Git-Obsidian/Attatchments/Pasted image 20240411125837.png",
-    "Git-Obsidian/Attatchments/Pasted image 20240411113745.png",
-    "Git-Obsidian/Attatchments/AND_Logic_Gate_symbol_with_truth_table_600x600.webp",
-    "Git-Obsidian/Attatchments/OR_Logic_Gate_symbol_with_truth_table.png",
-    "Git-Obsidian/Attatchments/OR_Logic_Gate_symbol_with_truth_table.webp",
     "Git-Obsidian/Architettura degli Elaboratori/Algebra di Bool e Logica Digitale/Algebra di Bool.md",
-    "Git-Obsidian/Attatchments/Pasted image 20240410184333.png",
-    "Git-Obsidian/Attatchments/Pasted image 20240410184324.png",
-    "Git-Obsidian/Attatchments/NOT_Logic_Gate_symbol_with_truth_table_600x600.webp",
+    "Git-Obsidian/Architettura degli Elaboratori/Algebra di Bool e Logica Digitale/Logica Digitale.md",
+    "Git-Obsidian/Architettura degli Elaboratori/Algebra di Bool e Logica Digitale/Circuiti Digitali.md",
+    "Git-Obsidian/Markdown Keys.md",
+    "Git-Obsidian/Attatchments/Pasted image 20240411150311.png",
+    "Git-Obsidian/Attatchments/Screenshot 2024-04-11 145137.png",
+    "Git-Obsidian/Attatchments/Screenshot 2024-04-11 140223 1.png",
+    "Git-Obsidian/Attatchments/Screenshot 2024-04-11 140223.png",
+    "Git-Obsidian/Attatchments/Screenshot 2024-04-11 140107.png",
+    "Git-Obsidian/Attatchments/Screenshot 2024-04-11 135909.png",
+    "Git-Obsidian/Attatchments/Screenshot 2024-04-11 135723 1.png",
+    "Git-Obsidian/Attatchments/Screenshot 2024-04-11 135723.png",
+    "Git-Obsidian/Attatchments/Screenshot 2024-04-11 135519.png",
+    "Git-Obsidian/Attatchments/Pasted image 20240411134842.png",
     "Git-Obsidian/Programmazione/Funzioni/Recursive Functions.md",
-    "Git-Obsidian/Attatchments/Pasted image 20240410182501.png",
-    "Git-Obsidian/Attatchments/Pasted image 20240410182231.png",
-    "Git-Obsidian/Attatchments/Screenshot 2024-04-10 180548.png",
     "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento/Merge Sort.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Hash/Funzione di Hash.md",
     "Git-Obsidian/Architettura degli Elaboratori/Algebra di Bool e Logica Digitale",
@@ -204,8 +230,6 @@
     "Git-Obsidian/Algebra e Geometria/Applicazioni/Isomorfismo.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Confronto fra Algoritmi/Confronto e Pseudocodice.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Alberi/Gli Alberi Binari.md",
-    "Git-Obsidian/Algebra e Geometria/Applicazioni/Estensione Lineare.md",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Confronto fra Algoritmi/Complessità di Algoritmi.md",
     "Git-Obsidian/The Bible/35 - Habakkuk",
     "Git-Obsidian/The Bible/64 - 3 John",
     "Git-Obsidian/The Bible/66 - Revelation",
