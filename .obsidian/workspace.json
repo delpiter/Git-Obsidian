@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Obsidian/Architettura degli Elaboratori/Algebra di Bool/Basi dell'Algebra di Bool.md",
+                "file": "Git-Obsidian/Architettura degli Elaboratori/Algebra di Bool e Logica Digitale/Algebra di Bool.md",
                 "mode": "source",
                 "source": false
               }
@@ -70,8 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 269.5,
-    "collapsed": true
+    "width": 269.5
   },
   "right": {
     "id": "3561446b8c4d05ef",
@@ -87,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Architettura degli Elaboratori/Algebra di Bool/Basi dell'Algebra di Bool.md",
+                "file": "Git-Obsidian/Architettura degli Elaboratori/Algebra di Bool e Logica Digitale/Algebra di Bool.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Architettura degli Elaboratori/Algebra di Bool/Basi dell'Algebra di Bool.md",
+                "file": "Git-Obsidian/Architettura degli Elaboratori/Algebra di Bool e Logica Digitale/Algebra di Bool.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git-Obsidian/Architettura degli Elaboratori/Algebra di Bool/Basi dell'Algebra di Bool.md"
+                "file": "Git-Obsidian/Architettura degli Elaboratori/Algebra di Bool e Logica Digitale/Algebra di Bool.md"
               }
             }
           },
@@ -170,10 +169,12 @@
   },
   "active": "1be6cf2af384cbcb",
   "lastOpenFiles": [
+    "Git-Obsidian/Attatchments/Pasted image 20240411125837.png",
+    "Git-Obsidian/Attatchments/Pasted image 20240411113745.png",
     "Git-Obsidian/Attatchments/AND_Logic_Gate_symbol_with_truth_table_600x600.webp",
     "Git-Obsidian/Attatchments/OR_Logic_Gate_symbol_with_truth_table.png",
     "Git-Obsidian/Attatchments/OR_Logic_Gate_symbol_with_truth_table.webp",
-    "Git-Obsidian/Architettura degli Elaboratori/Algebra di Bool/Basi dell'Algebra di Bool.md",
+    "Git-Obsidian/Architettura degli Elaboratori/Algebra di Bool e Logica Digitale/Algebra di Bool.md",
     "Git-Obsidian/Attatchments/Pasted image 20240410184333.png",
     "Git-Obsidian/Attatchments/Pasted image 20240410184324.png",
     "Git-Obsidian/Attatchments/NOT_Logic_Gate_symbol_with_truth_table_600x600.webp",
@@ -183,7 +184,7 @@
     "Git-Obsidian/Attatchments/Screenshot 2024-04-10 180548.png",
     "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento/Merge Sort.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Hash/Funzione di Hash.md",
-    "Git-Obsidian/Architettura degli Elaboratori/Algebra di Bool",
+    "Git-Obsidian/Architettura degli Elaboratori/Algebra di Bool e Logica Digitale",
     "Git-Obsidian/Algebra e Geometria/Applicazioni/Determinante di una Matrice.md",
     "Git-Obsidian/Algebra e Geometria/Applicazioni/Matrici Invertibili.md",
     "Git-Obsidian/Algebra e Geometria/Applicazioni/Cambiamenti di Base.md",
@@ -193,13 +194,11 @@
     "Git-Obsidian/Algebra e Geometria/Risoluzione di Sistemi.md",
     "Git-Obsidian/Algebra e Geometria/Metodo di Gauss.md",
     "Git-Obsidian/Algebra e Geometria/Applicazioni/Untitled.md",
-    "Git-Obsidian/Attatchments/Pasted image 20240408210937.png",
     "Git-Obsidian/Architettura degli Elaboratori/Assembly/Istruzioni IA-32.md",
     "Git-Obsidian/Analisi/Funzioni a due Variabili/Elementi di Algebra Lineare e Geometria Analitica.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Algoritmi di Ricerca su Grafo.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/I Grafi.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Rappresentazione di Grafi.md",
-    "Git-Obsidian/Attatchments/graph (1).png",
     "Git-Obsidian/Algoritmi e Strutture Dati/Appunti.md",
     "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/Campi e Spazi Vettoriali.md",
     "Git-Obsidian/Algebra e Geometria/Applicazioni/Isomorfismo.md",
