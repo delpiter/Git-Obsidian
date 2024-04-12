@@ -129,3 +129,10 @@ I termini "*code point*" e "*carattere*" non sono sinonimi
 >[!info] Definizione
 >Una grafica "***Raster***" è una collezione di piccoli ***pixel*** uniformi, disposti in un ***array bidimensionale***
 >Ogni `PIXEL` contiene uno o più `BIT` di informazione in base al ***livello di dettaglio*** dell'immagine
+
+## Economy
+---
+![[Pasted image 20240412103051.png]]
+*"Might have a negative effect"*
+>*Structured Computer Organization, Andrew S. Tanenbaum, Todd Austin*
+
