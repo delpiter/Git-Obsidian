@@ -59,4 +59,15 @@ Ogni porta `XOR` confronta una coppia di `BIT`
 
 ## Circuiti Aritmetici
 ---
->[!info] I circuiti aritmetici
+>[!info] Definizione
+>I ***circuiti aritmetici*** sono circuiti specializzati nel calcolo di ***semplici operazioni aritmetiche*** dei loro input
+
+### Shifter
+>[!tldr] Descrizione
+>Uno ***shifter*** è un circuito con $n$ **input** ($D_{0},\dots,D_{n-1}$) e $n$ **output** ($S_{0},\dots,S_{n-1}$)
+>I `BIT` in *output* sono esattamente la copia di quelli in input traslati tutti di una posizione a destra o a sinistra
+>- La direzione è impostata da un `BIT` di controllo $C$
+
+![[Pasted image 20240412160415.png]]
+>*Shifter a `8-BIT`*
+
