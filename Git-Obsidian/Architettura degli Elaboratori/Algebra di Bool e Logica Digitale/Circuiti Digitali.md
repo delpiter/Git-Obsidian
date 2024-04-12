@@ -129,3 +129,47 @@ Dato che *centinaia di chip* sono fabbricati nello stesso ***wafer***
 >- Analisi circuitale più complessa.
 
 ![[Pasted image 20240412121047.png]]
+## Porte Logiche Programmabili
+---
+>[!info] *P*rogrammable *L*ogic *A*rray
+>`PLA`
+>Il `PLA` è un chip costituito da un numero di porte ***collegate internamente*** a seconda delle necessità del progettista
+>Un `PLA` è quindi in grado di calcolare funzioni booleane arbitrarie
+
+>[!abstract] Possibilità
+
+In un circuito con:
+- $n$ ***Input***
+- $m$ ***Output***
+- $k$ ***Unità Interne***
+
+>[!caution] Complemento
+
+Di ciascuno degli $n$ input viene internamente generato il complemento (***negativo***)
+- $2\times n$ linee di input intero
+
+>[!caution] AND
+
+Il chip contiene un array di $k$ porte `AND` a $2\times n$ input
+- Ciascuna porta `AND` è *inizialmente* collegata a ***tutte*** le $2\times n$ ***linee di input***
+
+>[!caution] OR
+
+Il chip contiene $m$ porte `OR` a $k$ input
+- Ciascuna porta `OR` è *inizialmente* collegata a ***tutte*** le $k$ uscite delle porte `AND`
+
+### Versioni
+>[!info] Fusibili
+>I primi modelli di `PLA` funzionavano tramite ***fusibili***
+>Il *programmatore* doveva far "*esplodere*" i **fusibili** per ottenere il circuito interessato
+>>[!question] Non è meglio produrlo già programmato?
+>>Per le piccole aziende che non si potevano permettere un **chip specifico**, questa era la soluzione ***meno costosa***
+
+#### Esempio
+>*$n=12, m=6,k=50$*
+![[Pasted image 20240412155658.png]]
+
+>[!info] `FPGA`
+>***F***ield ***P***rogrammable ***G***ate ***A***rray
+>Evoluzione del `PLA` con fusibile, in questo caso lo sviluppatore definisce i collegamenti via ***software***
+

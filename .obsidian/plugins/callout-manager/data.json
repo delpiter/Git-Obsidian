@@ -43,6 +43,13 @@
             "icon": "lucide-book-type"
           }
         }
+      ],
+      "caution": [
+        {
+          "changes": {
+            "icon": "lucide-cable"
+          }
+        }
       ]
     }
   },

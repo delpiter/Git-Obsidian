@@ -4,23 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "8d2e7b1e88326d00",
+        "id": "f77e9924b85f7b04",
         "type": "tabs",
         "children": [
           {
-            "id": "fe0a34146edab6e7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git-Obsidian/Architettura degli Elaboratori/Algebra di Bool e Logica Digitale/Circuiti Digitali.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9a5b732928272406",
+            "id": "fa78f565b07aa1d4",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -32,24 +20,48 @@
             }
           },
           {
-            "id": "c2cbeeba994a774f",
+            "id": "90c367247ebf2adb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Obsidian/Architettura degli Elaboratori/Algebra di Bool e Logica Digitale/Algebra di Bool.md",
+                "file": "Git-Obsidian/Architettura degli Elaboratori/Algebra di Bool e Logica Digitale/Circuiti Digitali.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "33f5c3670107ceea",
+            "id": "5edb84ed7a3dd1f2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git-Obsidian/Architettura degli Elaboratori/Algebra di Bool e Logica Digitale/Logica Digitale.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0836a5934b3f2cc1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Git-Obsidian/Markdown Keys.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fab81f614fb96115",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git-Obsidian/Architettura degli Elaboratori/Algebra di Bool e Logica Digitale/Algebra di Bool.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Architettura degli Elaboratori/Algebra di Bool e Logica Digitale/Circuiti Digitali.md",
+                "file": "Git-Obsidian/Architettura degli Elaboratori/Algebra di Bool e Logica Digitale/Circuiti Combinatori.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Architettura degli Elaboratori/Algebra di Bool e Logica Digitale/Circuiti Digitali.md",
+                "file": "Git-Obsidian/Architettura degli Elaboratori/Algebra di Bool e Logica Digitale/Circuiti Combinatori.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git-Obsidian/Architettura degli Elaboratori/Algebra di Bool e Logica Digitale/Circuiti Digitali.md"
+                "file": "Git-Obsidian/Architettura degli Elaboratori/Algebra di Bool e Logica Digitale/Circuiti Combinatori.md"
               }
             }
           },
@@ -203,27 +215,26 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "fe0a34146edab6e7",
+  "active": "fa78f565b07aa1d4",
   "lastOpenFiles": [
-    "Git-Obsidian/Attatchments/Pasted image 20240412121047.png",
-    "Git-Obsidian/Architettura degli Elaboratori/Algebra di Bool e Logica Digitale/Circuiti Combinatori.md",
     "Git-Obsidian/Architettura degli Elaboratori/Algebra di Bool e Logica Digitale/Circuiti Digitali.md",
-    "Git-Obsidian/Architettura degli Elaboratori/Algebra di Bool e Logica Digitale/Circuiti Sequenziali.md",
-    "Git-Obsidian/Architettura degli Elaboratori/Algebra di Bool e Logica Digitale/Algebra di Bool.md",
-    "Git-Obsidian/Attatchments/Pasted image 20240412120509.png",
-    "Git-Obsidian/Attatchments/Screenshot 2024-04-12 103520.png",
-    "Git-Obsidian/Definitions/Definizioni_Architettura.md",
-    "Git-Obsidian/Markdown Keys.md",
-    "Git-Obsidian/Attatchments/Pasted image 20240412103051.png",
-    "Git-Obsidian/Attatchments/Screenshot 2024-04-12 102806.png",
-    "Git-Obsidian/Attatchments/Screenshot 2024-04-12 102458.png",
+    "Git-Obsidian/Attatchments/Pasted image 20240412155658.png",
+    "Git-Obsidian/Architettura degli Elaboratori/Algebra di Bool e Logica Digitale/Circuiti Combinatori.md",
+    "Git-Obsidian/Attatchments/Pasted image 20240412153159.png",
     "Git-Obsidian/Architettura degli Elaboratori/Algebra di Bool e Logica Digitale/Logica Digitale.md",
+    "Git-Obsidian/Markdown Keys.md",
+    "Git-Obsidian/Architettura degli Elaboratori/Algebra di Bool e Logica Digitale/Algebra di Bool.md",
+    "Git-Obsidian/Architettura degli Elaboratori/Algebra di Bool e Logica Digitale/Circuiti Sequenziali.md",
+    "Git-Obsidian/Attatchments/Pasted image 20240412152119.png",
+    "Git-Obsidian/Attatchments/Pasted image 20240412152030.png",
+    "Git-Obsidian/Attatchments/Pasted image 20240412151403.png",
+    "Git-Obsidian/Attatchments/Screenshot 2024-04-12 150036.png",
+    "Git-Obsidian/Attatchments/Screenshot 2024-04-12 145603.png",
+    "Git-Obsidian/Attatchments/Pasted image 20240412145223.png",
+    "Git-Obsidian/Attatchments/Pasted image 20240412121047.png",
+    "Git-Obsidian/Attatchments/Pasted image 20240412120509.png",
+    "Git-Obsidian/Definitions/Definizioni_Architettura.md",
     "Git-Obsidian/Architettura degli Elaboratori/Storia dei Calcolatori.md",
-    "Git-Obsidian/Attatchments/Pasted image 20240411150311.png",
-    "Git-Obsidian/Attatchments/Screenshot 2024-04-11 145137.png",
-    "Git-Obsidian/Attatchments/Screenshot 2024-04-11 140223 1.png",
-    "Git-Obsidian/Attatchments/Screenshot 2024-04-11 140223.png",
-    "Git-Obsidian/Attatchments/Screenshot 2024-04-11 140107.png",
     "Git-Obsidian/Programmazione/Funzioni/Recursive Functions.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento/Merge Sort.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Hash/Funzione di Hash.md",

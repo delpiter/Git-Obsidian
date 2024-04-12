@@ -37,3 +37,12 @@ Un sistema digitale opera con segnali "***discretizzati***"
 ![[Screenshot 2024-04-11 140223 1.png]]
 >*Sebbene sembri più complicata rispetto all'`OR`, la realizzazione in termini di transistor è più semplice*
 
+#### XOR
+>[!info] Output `1` $\iff$ gli input sono *diversi*
+
+
+![[Pasted image 20240412152119.png]]
+
+$$
+A\oplus B = \overline{A}B + A\overline{B}
+$$
