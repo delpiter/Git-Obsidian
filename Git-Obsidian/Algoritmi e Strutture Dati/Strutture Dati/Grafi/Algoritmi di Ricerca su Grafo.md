@@ -296,6 +296,9 @@ $$
 #### Classificazione degli Archi
 >*È possibile utilizzare la visita per classificare gli archi $(u,v)$ del grafo di input*
 
+>[!done] Teorema
+>In una `DFS` di un ***grafo non orientato*** $G$
+>- Ogni arco di $G$ è un ***tree edge*** *oppure* un ***backwards edge***
 ##### Tree Edges
 >[!info] Definizione
 >$(u,v)$ è un ***tree edge*** se $v$ è stato *scoperto* esplorando l'arco $(u,v)$
