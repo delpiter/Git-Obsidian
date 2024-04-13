@@ -4,70 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "f77e9924b85f7b04",
+        "id": "ebb644118082a644",
         "type": "tabs",
         "children": [
           {
-            "id": "fa78f565b07aa1d4",
+            "id": "8e70e3e199d4a46e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Obsidian/Architettura degli Elaboratori/Algebra di Bool e Logica Digitale/Circuiti Combinatori.md",
+                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Rappresentazione di Grafi.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "90c367247ebf2adb",
+            "id": "6dc05a0656281536",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Obsidian/Architettura degli Elaboratori/Algebra di Bool e Logica Digitale/Circuiti Digitali.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5edb84ed7a3dd1f2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git-Obsidian/Architettura degli Elaboratori/Algebra di Bool e Logica Digitale/Logica Digitale.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0836a5934b3f2cc1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git-Obsidian/Markdown Keys.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fab81f614fb96115",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git-Obsidian/Architettura degli Elaboratori/Algebra di Bool e Logica Digitale/Algebra di Bool.md",
+                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Algoritmi di Ricerca su Grafo.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -118,7 +83,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 269.5
+    "width": 269.5,
+    "collapsed": true
   },
   "right": {
     "id": "3561446b8c4d05ef",
@@ -134,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Architettura degli Elaboratori/Algebra di Bool e Logica Digitale/Circuiti Combinatori.md",
+                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Algoritmi di Ricerca su Grafo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Architettura degli Elaboratori/Algebra di Bool e Logica Digitale/Circuiti Combinatori.md",
+                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Algoritmi di Ricerca su Grafo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git-Obsidian/Architettura degli Elaboratori/Algebra di Bool e Logica Digitale/Circuiti Combinatori.md"
+                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Algoritmi di Ricerca su Grafo.md"
               }
             }
           },
@@ -215,12 +181,18 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "fa78f565b07aa1d4",
+  "active": "6dc05a0656281536",
   "lastOpenFiles": [
-    "Git-Obsidian/Attatchments/Pasted image 20240412160415.png",
-    "Git-Obsidian/Architettura degli Elaboratori/Algebra di Bool e Logica Digitale/Circuiti Digitali.md",
-    "Git-Obsidian/Attatchments/Pasted image 20240412155658.png",
+    "Git-Obsidian/Attatchments/Pasted image 20240413185322.png",
+    "Git-Obsidian/Attatchments/Pasted image 20240413185236.png",
+    "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Rappresentazione di Grafi.md",
+    "Git-Obsidian/Analisi/Concetti Base.md",
+    "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Insiemi Disgiunti.md",
+    "Git-Obsidian/Analisi/Funzioni/Introduzione Funzioni.md",
     "Git-Obsidian/Architettura degli Elaboratori/Algebra di Bool e Logica Digitale/Circuiti Combinatori.md",
+    "Git-Obsidian/Architettura degli Elaboratori/Algebra di Bool e Logica Digitale/Circuiti Digitali.md",
+    "Git-Obsidian/Attatchments/Pasted image 20240412160415.png",
+    "Git-Obsidian/Attatchments/Pasted image 20240412155658.png",
     "Git-Obsidian/Attatchments/Pasted image 20240412153159.png",
     "Git-Obsidian/Architettura degli Elaboratori/Algebra di Bool e Logica Digitale/Logica Digitale.md",
     "Git-Obsidian/Markdown Keys.md",
@@ -232,8 +204,6 @@
     "Git-Obsidian/Attatchments/Screenshot 2024-04-12 150036.png",
     "Git-Obsidian/Attatchments/Screenshot 2024-04-12 145603.png",
     "Git-Obsidian/Attatchments/Pasted image 20240412145223.png",
-    "Git-Obsidian/Attatchments/Pasted image 20240412121047.png",
-    "Git-Obsidian/Attatchments/Pasted image 20240412120509.png",
     "Git-Obsidian/Definitions/Definizioni_Architettura.md",
     "Git-Obsidian/Architettura degli Elaboratori/Storia dei Calcolatori.md",
     "Git-Obsidian/Programmazione/Funzioni/Recursive Functions.md",
@@ -250,10 +220,6 @@
     "Git-Obsidian/Algebra e Geometria/Metodo di Gauss.md",
     "Git-Obsidian/Algebra e Geometria/Applicazioni/Untitled.md",
     "Git-Obsidian/Architettura degli Elaboratori/Assembly/Istruzioni IA-32.md",
-    "Git-Obsidian/Analisi/Funzioni a due Variabili/Elementi di Algebra Lineare e Geometria Analitica.md",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Algoritmi di Ricerca su Grafo.md",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/I Grafi.md",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Rappresentazione di Grafi.md",
     "Git-Obsidian/The Bible/35 - Habakkuk",
     "Git-Obsidian/The Bible/64 - 3 John",
     "Git-Obsidian/The Bible/66 - Revelation",

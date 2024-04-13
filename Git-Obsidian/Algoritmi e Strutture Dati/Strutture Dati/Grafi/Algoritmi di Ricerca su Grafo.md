@@ -163,6 +163,16 @@ Allora si attua un ***backtrack*** ritornando al vertice $v$ visitato prima di $
  - Esplorando archi che portano a ***vertici inesplorati*** e ripetendo la procedure
 
 #### Pseudocodice
+
+>[!info] Algoritmo `DFS`
+>1. ***Inizializza*** $\to$ colora di *bianco* tutti i vertici
+>2. Visita ogni vertice bianco usando $DFS-Visit$
+>3. Ogni chiamata a $DFS-Visit(u)$ inizializza un ***nuovo albero*** con radice in $u$
+>4. Quando $DFS-Visit$ finisce, ogni vertice $u$ ha associato:
+>	1. Un tempo di ***inizio visita*** $d[u]$
+>	2. Un tempo di ***fine visita*** $f[u]$
+>5. Quando un vertice $v$ viene ***scoperto***, gli si associa in $\pi(v)$ l'id del ***predecessore***
+
 Algoritmo ricorsivo diviso in due funzioni
 
 >*Inizializza tutti i vertici*
@@ -209,3 +219,96 @@ Algoritmo ricorsivo diviso in due funzioni
 	\end{algorithmic}
 	\end{algorithm}
 ```
+
+#### Complessità Computazionale
+>[!tldr] Tempo di `CPU`
+>Il ciclo in $DFS$ richiede un tempo $\Theta(V)$, *escludendo* il tempo per eseguire $DFS-Visit$ 
+>$DFS-Visit$ è chiamata una volta ***per ogni vertice***
+>- È chiamata ***solo*** per i vertici ***bianchi***
+>- Etichetta *immediatamente* il vertice col ***grigio***
+>Per ogni $DFS-Visit$ un ciclo percorre tutta $Adj[v]$
+>Il costo totale per $DFS-Visit$ è $\Theta(E)$
+>$$\sum_{v\in V}\mid Adj[v] \mid=\Theta(E)$$
+>>[!done] Complessità
+>>Il tempo di `CPU` di $DFS$ è $\Theta(V+E)$
+
+#### Sottografo dei Predecessori
+>*Definito in modo leggermente diverso dalla `BFS`*
+
+$$
+\begin{array}
+\ G_{\pi}=(V, E_{\pi}) \\
+E_{\pi}=\{ (\pi[v],v)\in E:v\in V \text{ and } \pi[v]\neq \text{NULL}\}
+\end{array}
+$$
+
+- Il sottografo in questo caso forma una [[Gli Alberi#Definizioni sugli Alberi|foresta]] ***depth-first*** composta da vari *alberi* ***depth-first***
+
+#### Tempi di Visita
+>*L'algoritmo `DFS` mantiene un orologio globale su:*
+>- *Tempo di inizio visita $d[u]$*
+>- *Tempo di fine visita $f[u]$*
+
+>[!teorema] Per ogni vertice $u$ è verificata la disuguaglianza
+>$$d[u]<f[u]$$
+
+##### Stato dei Vertici
+>[!tldr] Stato del vertice in base al Tempo
+>Sia $u$ un vertice del grafo
+>Il vertice $u$ è:
+>- ***Bianco*** prima del tempo $d[u]$
+>- ***Grigio*** fra il tempo $d[u]$ e $f[u]$
+>- **Nero** dopo il tempo $f[u]$
+
+- Ad uno stesso tempo $t$ i vertici ***grigi*** formano una catena lineare
+
+##### Teorema delle Parentesi
+>[!Ipotesi]
+>I ***tempi di visita*** hanno una struttura a parentesi
+>- Rappresentando il ***tempo di inizio visita*** di $u$ con una ***parentesi aperta***: $(u$
+>- Rappresentando il ***tempo di fine visita*** di $u$ con una ***parentesi chiusa***: $u)$
+>La storia di inizi e fine visita definisce una espressione ben formata
+>- Le parentesi sono *annidate correttamente*
+
+>[!abstract] Teorema
+>In ogni `DFS` di un grafo $G=(V,E)$, per ogni coppia di vertici $u$ e $v$, ***una e una sola*** delle seguenti condizioni è ***soddisfatta***
+>- Gli intervalli $[d[u],f[u]]$ e $[d[v],f[v]]$ sono interamente [[Insiemi Numerici#Insiemi Separati|disgiunti]]
+>	- Ne $u$ è *discendente* di $v$, ne $v$ è *discendente* di $u$
+>- L'intervallo $[d[u],f[u]]$ è ***contenuto interamente*** in $[d[v],f[v]]$
+>	- $u$ è un *discendente* di $v$ nell'albero `DFS`
+>- L'intervallo $[d[v],f[v]]$ è ***contenuto interamente*** in $[d[u],f[u]]$
+>	- $v$ è un *discendente* di $u$ nell'albero `DFS`
+
+![[Pasted image 20240413185236.png]]
+
+![[Pasted image 20240413185322.png]]
+
+###### Corollario
+>[!abstract] Annidamento di nodi discendenti
+>Un vertice $v$ è un ***discendente*** di un vertice $u$ in una *foresta depth-first* di un grafo $G\iff d[u]<d[v]<f[v]<f[u]$ 
+
+>[!done] Dimostrazione Immediata dal teorema delle parentesi
+
+##### Teorema del Cammino Bianco
+>[!Teorema]
+>In una *foresta* `DFS` di un grafo $G=(V,E)$, un vertice $v$ è un discendente di un vertice $u\iff$ al tempo $d[u]$ il vertice $v$ è raggiungibile da $u$ con un cammino contenente ***esclusivamente nodi bianchi***
+
+#### Classificazione degli Archi
+>*È possibile utilizzare la visita per classificare gli archi $(u,v)$ del grafo di input*
+
+##### Tree Edges
+>[!info] Definizione
+>$(u,v)$ è un ***tree edge*** se $v$ è stato *scoperto* esplorando l'arco $(u,v)$
+
+##### Back Edges
+>[!abstract] Definizione
+>$(u,v)$ è un ***back edge*** se connette $u$ ad un antenato $v$ di un albero `DFS`
+
+##### Forward Edges
+>[!tip] Definizione
+>Un ***non-tree-edge*** $(u,v)$ che connette $u$ ad un discendente $v$
+>- Visto anche come una "***shortcut***" nel cammino
+
+##### Cross Edges
+>[!tldr] Definizione
+>***Tutti gli altri nodi*** che collegano o due `DFS` *tree* oppure due nodi che ***non sono antenati*** l'un l'altro
