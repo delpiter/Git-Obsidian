@@ -4,23 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "ebb644118082a644",
+        "id": "3e351b48641dd22a",
         "type": "tabs",
         "children": [
           {
-            "id": "8e70e3e199d4a46e",
+            "id": "c5bc0261b4dffe6f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Rappresentazione di Grafi.md",
+                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Ordinamento Topologico.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "6dc05a0656281536",
+            "id": "c3f3bf11d0c8ad58",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -83,8 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 269.5,
-    "collapsed": true
+    "width": 269.5
   },
   "right": {
     "id": "3561446b8c4d05ef",
@@ -100,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Algoritmi di Ricerca su Grafo.md",
+                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Ordinamento Topologico.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Algoritmi di Ricerca su Grafo.md",
+                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Ordinamento Topologico.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Algoritmi di Ricerca su Grafo.md"
+                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Ordinamento Topologico.md"
               }
             }
           },
@@ -181,11 +179,18 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "6dc05a0656281536",
+  "active": "c5bc0261b4dffe6f",
   "lastOpenFiles": [
+    "Git-Obsidian/Attatchments/Pasted image 20240414180041.png",
+    "Git-Obsidian/Attatchments/Pasted image 20240414175958.png",
+    "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Algoritmi di Ricerca su Grafo.md",
+    "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Ordinamento Topologico.md",
+    "Git-Obsidian/Architettura degli Elaboratori/Rappresentazione dell'Informazione/Rappresentazione dei Caratteri.md",
+    "Git-Obsidian/Architettura degli Elaboratori/Rappresentazione dell'Informazione/Rappresentazione dei Suoni.md",
+    "Git-Obsidian/Architettura degli Elaboratori/Rappresentazione dell'Informazione/Rappresentazione di Immagini.md",
+    "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Rappresentazione di Grafi.md",
     "Git-Obsidian/Attatchments/Pasted image 20240413185322.png",
     "Git-Obsidian/Attatchments/Pasted image 20240413185236.png",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Rappresentazione di Grafi.md",
     "Git-Obsidian/Analisi/Concetti Base.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Insiemi Disgiunti.md",
     "Git-Obsidian/Analisi/Funzioni/Introduzione Funzioni.md",
@@ -202,8 +207,6 @@
     "Git-Obsidian/Attatchments/Pasted image 20240412152030.png",
     "Git-Obsidian/Attatchments/Pasted image 20240412151403.png",
     "Git-Obsidian/Attatchments/Screenshot 2024-04-12 150036.png",
-    "Git-Obsidian/Attatchments/Screenshot 2024-04-12 145603.png",
-    "Git-Obsidian/Attatchments/Pasted image 20240412145223.png",
     "Git-Obsidian/Definitions/Definizioni_Architettura.md",
     "Git-Obsidian/Architettura degli Elaboratori/Storia dei Calcolatori.md",
     "Git-Obsidian/Programmazione/Funzioni/Recursive Functions.md",
@@ -215,11 +218,6 @@
     "Git-Obsidian/Algebra e Geometria/Applicazioni/Cambiamenti di Base.md",
     "Git-Obsidian/Definitions/Definizioni_Analisi.md",
     "Git-Obsidian/Algebra e Geometria/Applicazioni/Matrici di Applicazioni Lineari.md",
-    "Git-Obsidian/Algebra e Geometria/Applicazioni/Applicazioni Lineari.md",
-    "Git-Obsidian/Algebra e Geometria/Risoluzione di Sistemi.md",
-    "Git-Obsidian/Algebra e Geometria/Metodo di Gauss.md",
-    "Git-Obsidian/Algebra e Geometria/Applicazioni/Untitled.md",
-    "Git-Obsidian/Architettura degli Elaboratori/Assembly/Istruzioni IA-32.md",
     "Git-Obsidian/The Bible/35 - Habakkuk",
     "Git-Obsidian/The Bible/64 - 3 John",
     "Git-Obsidian/The Bible/66 - Revelation",
