@@ -211,6 +211,48 @@ Siano $v_{1},v_{2}\in U$ poichè $a_{1}v_{1}+a_{2}v_{2}\in U \forall a_{1},a_{2}
 - Scegliendo $a_{1}=1,a_{2}=1$ ho che $v_{1}+v_{2}\in U$
 - Scegliendo $a_{2}=0$ ho che $a_{1}v_{1}\in U \forall a_{1}\in\mathbb{K}$
 
+### Sottospazio Affine
+>[!info] Definizione
+>Un sottoinsieme $S$ di $\mathbb{K}^n$ è un ***sottospazio affine*** di dimensione $d$ di $\mathbb{K}^n$ se è ottenuto traslando un sottospazio vettoriale $U$ di dimensione $d$
+>>[!done] In Altre Parole
+>>$S$ è un ***sottospazio affine*** se 
+>>$$\exists p\in \mathbb{K}^n, \text{ e un SSV} U\subseteq \mathbb{K}^n: S=\{ u+p,u\in U \}$$
+
+#### Esempio
+>*Consideriamo in $\mathbb{R}^2$*
+
+- $U=\{ (x,y)\in\mathbb{R}^2|x+y=0 \}=\{ (t,-t),t\in\mathbb{R} \}$
+- $S=\{ (x,y)\in\mathbb{R}^2|x+y=2 \}$
+
+
+```functionplot
+---
+title: Sottospazio Affine
+xLabel: 
+yLabel: 
+bounds: [-10,10,-10,10]
+disableZoom: true
+grid: true
+---
+f(x)=-x
+g(x)=-x +2
+```
+
+
+$U$ è un ***sottospazio vettoriale***
+$S$ ***non*** è un ***sottospazio vettoriale***
+- $S$ è un ***sottospazio affine*** di $\mathbb{R}^2$ di dimensione $1$, ottenuto traslando $U$ con il vettore $(1,1)$
+- $S=\{ (t,-t)+(1,1),t\in\mathbb{R} \}$
+
+>[!tldr] Osservazione
+>Il vettore $p=(1,1)$ ***non è unico***
+
+Potrei prendere $p'=(2,0)$ o $p''=(0,2)$ o infinite altre scelte, ottenendo:
+- $S=\{ u+p,u\in U \}=\{ u+p',u\in U \}=\{ u+p'',u\in U \}$
+
+>[!done] Ottengo $S$ sommando agli $u\in U$ *qualunque* $p\in S$
+
+
 ### Combinazioni Lineari
 >[!info] Definizione
 >Sia $V$ uno *spazio vettoriale* e siano $v_{1},v_{2},\dots,v_{n}\in V$
