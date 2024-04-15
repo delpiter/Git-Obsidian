@@ -400,3 +400,57 @@ Vuol dire che $b$ non è ***combinazione lineare*** dei vettori colonna di $A$
 >2. L'insieme $S$ delle soluzioni di $Ax=b$ è un [[Campi e Spazi Vettoriali#Sottospazio Affine|sottospazio affine]] di $\mathbb{K}^n$ ottenuto traslando $U$ con un qualsiasi $p \in S$, cioè:
 >$$S=\{ u+p,u\in U \}$$
 
+### Dimostrazione
+>*Dimostrazione punto $1$*
+
+Siano $u_{1},u_{2}\in U$, dunque $Au_{1}=\underline{0},Au_{2}=\underline{0}$
+- Quindi $A(u_{1}+u_{2})=Au_{1}+Au_{2}=\underline{0}+\underline{0}=\underline{0}$
+
+>[!done] $u_{1}+u_{2}\in U$
+
+Analogamente, se $u\in U,a \in\mathbb{K}$
+- $A(au)=aAu=a\underline{0}=\underline{0}$
+
+>[!done] $au\in U$
+
+
+Quindi $U$ è un sottospazio vettoriale di $\mathbb{K}^n$
+
+>[!abstract] D'altra Parte
+
+$U$ è il nucleo dell'[[Applicazioni Lineari#Applicazione Lineare|applicazione lineare]]:
+$$
+f:\mathbb{K}^n\to\mathbb{K}^m,f(x)=Ax
+$$
+
+Per il [[Teorema del Rango]], $U$ ha dimensione:
+$$
+\text{dim}(\mathrm{ker}f)=\text{dim}(\mathbb{K}^n)-\text{dim}(\mathrm{Im}f)=n-rk(A)
+$$
+
+
+>*Dimostrazione punto $2$*
+
+Da dimostrare una ***doppia implicazione***
+
+Sia $u\in U$, cioè $Au=\underline{0}$ e sia $p \in S$, cioè $Ap=b$
+- Allora $u+p \in S$ perché $A(u+p)=Au+Ap=\underline{0}+b=b$
+
+*Quindi*:
+$$
+\{ u+p, u \in U \}\subseteq S
+$$
+
+Siano $p,p' \in S$, cioè $Ap=b,Ap'=b$
+- Allora $p'-p \in U$ perché $A(p'-p)=Ap'-Ap=b-b=\underline{0}$
+
+*Quindi* $p'=p+u$ dove $u \in U$
+
+Cioè:
+$$
+S \subseteq \{ u+p,u\in U \}
+$$
+
+>[!done] $S=\{ u+p,u\in U \}$
+
+
