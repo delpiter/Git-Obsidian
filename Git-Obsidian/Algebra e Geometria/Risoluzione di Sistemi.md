@@ -118,6 +118,100 @@ $$
 \{ (4t-s,s,2t,t,0,0 ), t,s \in\mathbb{R}\}
 $$
 
+### Gauss Con Matrici
+>*È possibile usare una matrice nella risoluzione di un sistema con il metodo di Gauss*
+
+Basta affiancare la matrice $A$ dei ***coefficienti delle incognite*** con $b$, il vettore dei ***termini noti***
+Ottenendo:
+- $A|b$
+Procedendo nello stessa maniera di un ***normale sistema***
+
+Dopo $m-1$ passi ottengo una matrice a ***scala***
+$$
+A^{m-1}|b^{m-1}=\begin{pmatrix}
+* & *  & \dots  & * & \mid & * \\
+0 & *  & \dots  & * & \mid & * \\
+0 & 0  & \dots  & * &  \mid & * \\
+\dots  & \dots  & \dots &  ... & \mid  & \dots \\
+0 & 0  & \dots  & 0& \mid & *
+\end{pmatrix}
+$$
+Dove  $rk(A^{m-1})=rk(A)$ e le soluzioni di $A^{m-1}x=b^m-1$ ***sono le stesse*** di $Ax=b$
+
+Possiamo fare un ulteriore passaggio
+- ***Moltiplichiamo*** ogni riga ***non nulla*** di $A^{m-1}\mid b^{m-1}$  per l'inverso del suo ***primo elemento non nullo***, in modo da ottenere:
+
+$$
+\overline{A}\mid\overline{b}=\begin{pmatrix}
+1 & *  & \dots  & * & \mid & * \\
+0 & 1  & \dots  & * & \mid & * \\
+0 & 0  & \dots  & 1 &  \mid & * \\
+\dots  & \dots  & \dots &  ... & \mid  & \dots \\
+0 & 0  & \dots  & 0& \mid & *
+\end{pmatrix}
+$$
+- Chiamiamo ***pivot*** il *primo* elemento ***non nullo*** di ogni riga ***non nulla***
+
+>[!tldr] Osservazione
+>$\overline{A}\mid\overline{b}$ ha le stesse soluzioni di $Ax=b$
+
+>[!tldr] Osservazione
+>$rk(A)=rk(\overline{A})$ *massimo numero di colonne* di $A$ tra lori **linearmente indipendenti**
+>E in $\overline{A}$ si vede facilmente che il numero massimo di *colonne linearmente indipendenti* è ***uguale*** al numero *massimo di righe linearmente* indipendenti
+>Quindi $rk(A)=$ numero massimo di righe linearmente indipendenti
+
+- Si vede facilmente che $rk(\overline{A})=$ numero di ***pivot*** $=$ numero di righe *linearmente indipendenti*
+
+#### Esempio
+>*Trovare le soluzioni del seguente sistema*
+
+$$
+\begin{cases}
+x+2y-z=1 \\
+2x+7y-5z=1 \\
+-x+y-2z=-2
+\end{cases}
+$$
+Possiamo vedere il sistema come $A\underline{x}=b$ con $\underline{x}=\begin{pmatrix}x \\y \\z\end{pmatrix}$:
+$$
+(A|b)=\begin{pmatrix}
+1 & 2 & -1  & | & 1 \\
+2 & 7 & -5 & | & 1 \\
+-1 & 1 & -2 & | & -2 
+\end{pmatrix}\implies A'|b'=\begin{pmatrix}
+1 & 2 & -1  & | & 1 \\
+0 & 3 & -3 & | & -1 \\
+0 & 3 & -3 & | & -1
+\end{pmatrix}
+$$
+$$
+\implies A''|b''
+\begin{pmatrix}
+1 & 2 & -1  & | & 1 \\
+0 & 3 & -3 & | & -1 \\
+0 & 0 & 0 & | & 0
+\end{pmatrix}\implies \overline{A}|\overline{b}\implies A''|b''
+\begin{pmatrix}
+1 & 2 & -1  & | & 1 \\
+0 & 1 & -1 & | & -\frac{1}{3} \\
+0 & 0 & 0 & | & 0
+\end{pmatrix}
+$$
+
+Ora basta risolvere un sistema più semplice di quello di prima
+$$
+\begin{cases}
+x+2y-z=1 \\
+y-z=-\frac{1}{3} \\
+0=0
+\end{cases}\iff \begin{cases}
+x=1+z-2y=1+t-2t+\frac{2}{3} \\
+y=-\frac{1}{3}+z=t-\frac{1}{3} \\
+z=t
+\end{cases}
+$$
+
+
 ## Risoluzione con Matrici
 ---
 
