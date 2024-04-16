@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Obsidian/Algebra e Geometria/Risoluzione di Sistemi.md",
+                "file": "Git-Obsidian/Algebra e Geometria/Applicazioni Alla Geometria Analitica.md",
                 "mode": "source",
                 "source": false
               }
@@ -111,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Algebra e Geometria/Risoluzione di Sistemi.md",
+                "file": "Git-Obsidian/Algebra e Geometria/Applicazioni Alla Geometria Analitica.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Algebra e Geometria/Risoluzione di Sistemi.md",
+                "file": "Git-Obsidian/Algebra e Geometria/Applicazioni Alla Geometria Analitica.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git-Obsidian/Algebra e Geometria/Risoluzione di Sistemi.md"
+                "file": "Git-Obsidian/Algebra e Geometria/Applicazioni Alla Geometria Analitica.md"
               }
             }
           },
@@ -194,6 +194,7 @@
   },
   "active": "f2ffaf6360de317d",
   "lastOpenFiles": [
+    "Git-Obsidian/Algebra e Geometria/Risoluzione di Sistemi.md",
     "Git-Obsidian/Architettura degli Elaboratori/Algebra di Bool e Logica Digitale/Circuiti Combinatori.md",
     "Git-Obsidian/Attatchments/Pasted image 20240416105638.png",
     "Git-Obsidian/Architettura degli Elaboratori/Algebra di Bool e Logica Digitale/Arithmetic Logic Unit.md",
@@ -206,7 +207,6 @@
     "Git-Obsidian/Attatchments/Pasted image 20240416090716.png",
     "Git-Obsidian/Algebra e Geometria/Applicazioni Alla Geometria Analitica.md",
     "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/Campi e Spazi Vettoriali.md",
-    "Git-Obsidian/Algebra e Geometria/Risoluzione di Sistemi.md",
     "Git-Obsidian/Algebra e Geometria/Applicazioni/Matrici di Applicazioni Lineari.md",
     "Git-Obsidian/Algebra e Geometria/Applicazioni/Matrici Invertibili.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Algoritmi di Ricerca su Grafo.md",

@@ -400,6 +400,10 @@ Vuol dire che $b$ non è ***combinazione lineare*** dei vettori colonna di $A$
 >2. L'insieme $S$ delle soluzioni di $Ax=b$, ***se non è vuoto***, è un [[Campi e Spazi Vettoriali#Sottospazio Affine|sottospazio affine]] di $\mathbb{K}^n$ ottenuto traslando $U$ con un qualsiasi $p \in S$, cioè:
 >$$S=\{ u+p,u\in U \}$$
 
+>[!done] In Breve
+>L'*insieme delle soluzioni* di un sistema lineare  $Ax=b$, se non è vuoto, è un ***sottospazio affine***, ovvero è ottenuto ***traslando*** l'insieme delle soluzioni del sistema lineare omogeneo $Ax=\underline{0}$
+>Questi sottospazi hanno dimensione $n-rk(A)$, dove $n$ è il ***numero di incognite***
+
 ### Dimostrazione
 >*Dimostrazione punto $1$*
 
