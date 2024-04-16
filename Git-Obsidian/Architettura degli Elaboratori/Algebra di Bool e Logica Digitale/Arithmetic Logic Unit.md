@@ -40,3 +40,4 @@
 
 - L'ulteriore ingresso `INC` collegato alla $1$ `BIT` `ALU` relativa al `BIT` meno significativo, consente di ***incrementare il risultato di una unità*** nel *caso di addizione*
 	- Tale input non richiede alcuna circuiteria aggiuntiva, in quanto coincide con l'input ***carry in***
+

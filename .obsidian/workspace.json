@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "29ecd92685c271c2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git-Obsidian/Architettura degli Elaboratori/Algebra di Bool e Logica Digitale/Circuiti Combinatori.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "17304b8f69ceb92c",
             "type": "leaf",
             "state": {
@@ -31,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -98,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Architettura degli Elaboratori/Algebra di Bool e Logica Digitale/Arithmetic Logic Unit.md",
+                "file": "Git-Obsidian/Architettura degli Elaboratori/Algebra di Bool e Logica Digitale/Circuiti Combinatori.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Architettura degli Elaboratori/Algebra di Bool e Logica Digitale/Arithmetic Logic Unit.md",
+                "file": "Git-Obsidian/Architettura degli Elaboratori/Algebra di Bool e Logica Digitale/Circuiti Combinatori.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git-Obsidian/Architettura degli Elaboratori/Algebra di Bool e Logica Digitale/Arithmetic Logic Unit.md"
+                "file": "Git-Obsidian/Architettura degli Elaboratori/Algebra di Bool e Logica Digitale/Circuiti Combinatori.md"
               }
             }
           },
@@ -179,12 +192,13 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "a6d5c1fe3fe4f458",
+  "active": "29ecd92685c271c2",
   "lastOpenFiles": [
+    "Git-Obsidian/Attatchments/Pasted image 20240416105638.png",
+    "Git-Obsidian/Architettura degli Elaboratori/Algebra di Bool e Logica Digitale/Arithmetic Logic Unit.md",
     "Git-Obsidian/Attatchments/Pasted image 20240416103428.png",
     "Git-Obsidian/Attatchments/Pasted image 20240416101230.png",
     "Git-Obsidian/Architettura degli Elaboratori/Algebra di Bool e Logica Digitale/Circuiti Combinatori.md",
-    "Git-Obsidian/Architettura degli Elaboratori/Algebra di Bool e Logica Digitale/Arithmetic Logic Unit.md",
     "Git-Obsidian/Architettura degli Elaboratori/Algebra di Bool e Logica Digitale/Algebra di Bool.md",
     "Git-Obsidian/Architettura degli Elaboratori/Algebra di Bool e Logica Digitale/Circuiti Digitali.md",
     "Git-Obsidian/Architettura degli Elaboratori/Algebra di Bool e Logica Digitale/Logica Digitale.md",
@@ -210,7 +224,6 @@
     "Git-Obsidian/Analisi/Funzioni/Introduzione Funzioni.md",
     "Git-Obsidian/Attatchments/Pasted image 20240412160415.png",
     "Git-Obsidian/Attatchments/Pasted image 20240412155658.png",
-    "Git-Obsidian/Attatchments/Pasted image 20240412153159.png",
     "Git-Obsidian/Markdown Keys.md",
     "Git-Obsidian/Architettura degli Elaboratori/Algebra di Bool e Logica Digitale/Circuiti Sequenziali.md",
     "Git-Obsidian/Definitions/Definizioni_Architettura.md",

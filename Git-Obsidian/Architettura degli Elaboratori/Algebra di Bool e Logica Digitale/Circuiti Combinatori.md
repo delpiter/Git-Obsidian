@@ -124,3 +124,10 @@ $$
 $$
 
 
+### Moltiplicazione Binaria
+>[!info] Operazioni
+>Per la moltiplicazione sono necessarie semplici operazioni di ***somma e shift***
+>In teoria non occorre un circuito specifico e la moltiplicazione può essere implementata con un microprogramma usando semplice `ALU`
+>Moltiplicatori ***hardware ottimizzati*** richiedono un minor numero di somme che possono essere parallelizzate
+
+![[Pasted image 20240416105638.png]]
