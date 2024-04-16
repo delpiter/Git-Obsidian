@@ -89,7 +89,7 @@
 	{trigger: "K", replacement: "\\cancelto{ $0 }{ ${VISUAL} }", options: "mA"},
 	{trigger: "S", replacement: "\\sqrt{ ${VISUAL} }", options: "mA"},
 
-
+	{trigger: "xor", replacement: "\\oplus", options: "mA"},
 
 	// Symbols
 	{trigger: "lra", replacement: "\\Leftrightarrow", options: "mA"},

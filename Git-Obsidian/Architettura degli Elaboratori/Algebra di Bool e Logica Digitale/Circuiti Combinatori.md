@@ -71,3 +71,56 @@ Ogni porta `XOR` confronta una coppia di `BIT`
 ![[Pasted image 20240412160415.png]]
 >*Shifter a `8-BIT`*
 
+### Adder
+>[!info] Definizione
+>La ***somma*** tra numeri binari è un'***operazione fondamentale*** per qualsiasi calcolatore
+>Per la realizzazione di un ***sommatore*** a $n$ `BIT`, vengono utilizzati $n$ "*mattoncini*" elementari denominati ***full-adder*** a $1$ `BIT`
+>- Realizzati a loro volta realizzati a partire da ***half-adder*** a $1$ `BIT`
+
+#### Half-Adder
+![[Pasted image 20240416090716.png]]
+- La **somma** (*sum*) vale $1$ solo se i 2 `BIT` di input sono diversi (`XOR`, $\oplus$)
+- Il **riporto** (*carry*) vale $1$ solo se entrambi gli input sono $1$ (`AND`)
+
+>[!fail] Non Funziona Sempre
+
+L'*half-adder* a $1$ `BIT` funziona solo per i `BIT` ***meno significativi*** di una parola
+- Non funziona per i `BIT` "*centrali*" per i quali ci può essere un ***riporto pendente*** in *input*
+
+Per fare una somma con il riporto è necessario utilizzare un ***full-adder*** a $1$ `BIT`
+
+#### Full-Adder
+![[Pasted image 20240416091750.png]]
+
+- La **somma** (*sum*) vale $1$ quando un ***numero dispari di input***, compreso il riporto in ingresso vale $1$
+- Il **riporto in uscita** (*carry out*) vale $1$ se il ***numero di input*** a $1$, compreso il riporto in ingresso è maggiore o uguale a $2$
+
+>[!tldr] Full-Adder a $n$ `BIT`
+>La realizzazione di un ***full-adder*** a $n$ `BIT` consiste semplicemente nell'utilizzo di $n$ ***full-adder*** a $1$ `BIT` in *parallelo*
+>I *segnali di riporto* devono essere opportunamente *collegati fra di loro*
+
+##### Equazione Booleana
+>*Il circuito può essere derivato dalla tabella di verità a seguito di alcune semplificazioni*
+
+>[!abstract] *Sum*
+
+$$
+\begin{array}
+\ \text{Sum}=\overline{A}\ \overline{B}C+\overline{A}B\overline{C}+A\overline{B}\ \overline{C} + ABC \\
+\text{Sum} = \overline{C}(\overline{A}B+A\overline{B})+C(AB+\overline{A}\ \overline{B}) \\
+\text{Sum}=\overline{C}(\overline{A}B+A\overline{B})+C\left( \overline{\overline{A}B+A\overline{B}} \right) \\
+\text{Sum} =C\oplus (A\oplus B)
+\end{array}
+$$
+
+>[!abstract] *Carry Out*
+
+$$
+\begin{array}
+\ \text{Carry Out}=\overline{A}BC+A\overline{B}C+AB\overline{C}+ABC \\
+\text{Carry Out}=C(\overline{A}B+A\overline{B})+AB(C+\overline{C}) \\
+\text{Carry Out}=C(A\oplus B)+AB
+\end{array}
+$$
+
+
