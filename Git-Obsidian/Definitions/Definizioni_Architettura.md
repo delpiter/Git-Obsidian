@@ -136,3 +136,9 @@ I termini "*code point*" e "*carattere*" non sono sinonimi
 *"Might have a negative effect"*
 >*Structured Computer Organization, Andrew S. Tanenbaum, Todd Austin*
 
+## BIOS
+---
+>[!info] Definizione
+>***B***asic ***I***nput ***O***utput ***S***ystem
+>Il `BIOS` è il ***programma*** che il microprocessore di un calcolatore utilizza per l'*inizializzazione del sistema* poco dopo la sua accensione
+

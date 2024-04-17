@@ -2,7 +2,12 @@
 ---
 >[!info] `RAM`
 >La `RAM`, ***R***andom ***A***ccess ***M***emory, o *memoria principale* è quella parte del calcolatore preposta a **immagazzinare** i *programmi in esecuzione* e i relativi *dati*
->La [[Le Memorie|memoria]] principale è di tipo ***volatile***
+>Il termine `RAM` significa 
+>- "*memoria il cui accesso può avvenire in modo casuale e non obbligatoriamente in modo sequenziale*"
+>
+>>[!done] Tipi
+>>La `RAM` può essere **statica** (`SRAM`) o **dinamica** (`DRAM`)
+>>- entrambe le [[Le Memorie|memorie]] sono di tipo ***volatile***
 
 La `RAM` si compone di un ***numero di celle***, ognuna delle quali è in grado di memorizzare una *parte delle informazioni*
 - Ogni *cella* è associata ad un ***indirizzo*** che la identifica univocamente
@@ -44,6 +49,50 @@ Gli indirizzi di memoria sono espressi tramite numeri binari:
 >>[!question] Probabilità di errore
 >>Alcune ricerche hanno dimostrato che, anche se con probabilità ridicola, i ***raggi cosmici*** possono causare errori nei singoli `BIT` delle `RAM`
 
+## ROM
+---
+>[!info] *R*ead *O*nly *M*emory
+>Questo tipo di memoria ***non può essere cancellata o riscritta***.
+>- Conserva il proprio valore anche se *non alimentata* (***non volatile***)
+>
+>Utilizzata solitamente per la ***memorizzazione permanente di programmi stabili***
+
+>[!warning] Realizzazione
+
+La realizzazione di `ROM` non può essere fatta nella pratica da aziende che *progettano circuiti*, in quanto richiede una particolare tecnica costruttiva (***mascheratura***)
+- Pertanto è necessario operare ***direttamente sul chip di silicio*** per modificarne la struttura
+
+La produzione di `ROM`, di conseguenza deve essere per forza appaltata a *grosse aziende produttrici di chip*
+- È conveniente solo per grandi quantità di chip uguali
+
+>[!tldr] Uso
+>Inizialmente il [[Definizioni_Architettura#BIOS|BIOS]] dei `PC` era memorizzato su una memoria di questo tipo
+>- Velocemente sostituita dalla `EPROM` e attualmente dalla memoria `FLASH`
+
+### ROM Programmabili
+>[!info] *P*rogrammable *ROM*
+>`PROM`
+>In fase di prototipazione di nuovi circuiti è molto più conveniente utilizzare circuiti `PROM` - Possono comunque essere scritti ***una sola volta***
+>- La *scrittura* avviene attraverso ***segnali elettrici*** generati da apparecchiature di *basso costo* che operano ***bruciando dei fusibili***
+
+### ROM Riprogrammabili
+##### EPROM
+>[!info] *E*rasable *PROM*
+>Una `EPROM` è un particolare tipo di `PROM` che viene programmata analogamente alla `PROM`, ma il cui contenuto può essere cancellato con ***luce ultravioletta***
+>- Con una esposizione di circa *15 minuti*
+>E nuovamente riscritto utilizzando l'apposito programmatore
+
+##### EEPROM
+>[!info] *E*lecrically *EPROM*
+>Una `EEPROM` è un particolare tipo di `EPROM` che può essere cancellata *elettricamente* in modo molto più veloce di una `EPROM`
+>>[!tip] In-Circuit
+>>La riprogrammazione può essere fatta "***in circuit***" ovvero ***senza smontare il chip dal circuito***
+
+### FLASH
+>[!info] Memorie *Flash*
+>Questo tipo di memoria viene utilizzata oggigiorno in numerosi dispositivi ***mobili*** che necessitano di ***supporto di memorizzazione non volatile***.
+>I *tempi di accesso* sono ***buoni*** e la memoria consente letture di singole parole.
+>Come la `EEPROM` può essere riprogrammata ***in-circuit*** indirizzando, però, non una singola parola ma un intero "*blocco*" 
 ## Dischi Magnetici
 ---
 >[!info] Hard Disk

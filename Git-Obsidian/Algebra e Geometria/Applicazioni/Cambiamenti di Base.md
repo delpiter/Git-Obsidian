@@ -226,7 +226,7 @@ Cioè $A$ è simile ad $N$
 >Una ***matrice quadrata*** $A$ è invertibile $\Leftrightarrow$ i suoi vettori sono [[Campi e Spazi Vettoriali#Dipendenza Lineare|linearmente indipendenti]]
 
 ### Dimostrazione
->*Siano* $v_{1},\dots,v_{n}$ *i vettori colonna di* $A\in\mathcal{M}_{nn}$
+>*Siano* $v_{1},\dots,v_{n}$ *i vettori colonna di* $A\in\mathcal{M}_{n\times n}$
 
 Consideriamo l'applicazione lineare $f:\mathbb{K}^n\to\mathbb{K}^n$ tale che:
 $$
