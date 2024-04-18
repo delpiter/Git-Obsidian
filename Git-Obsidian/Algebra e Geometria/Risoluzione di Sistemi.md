@@ -397,7 +397,7 @@ Vuol dire che $b$ non è ***combinazione lineare*** dei vettori colonna di $A$
 >Consideriamo il sistema lineare omogeneo associato $Ax=\underline{0}$
 ><u>Allora</u>
 >1. L'insieme $U$ delle soluzioni di $Ax=\underline{0}$ è un [[Campi e Spazi Vettoriali#Sottospazio Vettoriale|sottospazio vettoriale]] di $\mathbb{K}^n$ di dimensioni $n-rk(A)$
->2. L'insieme $S$ delle soluzioni di $Ax=b$, ***se non è vuoto***, è un [[Campi e Spazi Vettoriali#Sottospazio Affine|sottospazio affine]] di $\mathbb{K}^n$ ottenuto traslando $U$ con un qualsiasi $p \in S$, cioè:
+>2. L'insieme $S$ delle soluzioni di $Ax=b$, ***se non è vuoto***, è un [[Campi e Spazi Vettoriali#Sottospazio Affine|sottospazio affine]] di $\mathbb{K}^n$ ottenuto traslando $U$ con un qualsiasi $p \in S$, di dimensioni $n-rk(A)$, cioè:
 >$$S=\{ u+p,u\in U \}$$
 
 >[!done] In Breve

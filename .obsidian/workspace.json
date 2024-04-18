@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "db31177eaf19a8ce",
+        "id": "817640a6d46c58e2",
         "type": "tabs",
         "children": [
           {
-            "id": "f6411c3455c3c63c",
+            "id": "06c91bc5c14ecfa5",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Git-Obsidian/Architettura degli Elaboratori/Algebra di Bool e Logica Digitale/RAM.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -82,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Git-Obsidian/Architettura degli Elaboratori/Algebra di Bool e Logica Digitale/RAM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Git-Obsidian/Architettura degli Elaboratori/Algebra di Bool e Logica Digitale/RAM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Git-Obsidian/Architettura degli Elaboratori/Algebra di Bool e Logica Digitale/RAM.md"
+              }
             }
           },
           {
@@ -159,8 +167,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "f6411c3455c3c63c",
+  "active": "06c91bc5c14ecfa5",
   "lastOpenFiles": [
+    "Git-Obsidian/Attatchments/Screenshot 2024-04-18 115019.png",
+    "Git-Obsidian/Attatchments/Screenshot 2024-04-18 113408.png",
+    "Git-Obsidian/Architettura degli Elaboratori/Algebra di Bool e Logica Digitale/RAM.md",
+    "Git-Obsidian/Algebra e Geometria/Risoluzione di Sistemi.md",
     "Git-Obsidian/Architettura degli Elaboratori/Algebra di Bool e Logica Digitale/Circuiti Combinatori.md",
     "Git-Obsidian/Architettura degli Elaboratori/Algebra di Bool e Logica Digitale/Circuiti Sequenziali.md",
     "Git-Obsidian/Definitions/Definizioni_Architettura.md",
@@ -173,7 +185,6 @@
     "Git-Obsidian/Attatchments/Pasted image 20240417222428.png",
     "Git-Obsidian/Attatchments/Pasted image 20240417215727.png",
     "Git-Obsidian/Architettura degli Elaboratori/Algebra di Bool e Logica Digitale/Circuiti Digitali.md",
-    "Git-Obsidian/Algebra e Geometria/Risoluzione di Sistemi.md",
     "Git-Obsidian/Algebra e Geometria/Applicazioni/Cambiamenti di Base.md",
     "Git-Obsidian/Algebra e Geometria/Applicazioni/Determinante di una Matrice.md",
     "Git-Obsidian/Algebra e Geometria/Applicazioni/Isomorfismo.md",
@@ -185,7 +196,6 @@
     "Git-Obsidian/Attatchments/Pasted image 20240416101230.png",
     "Git-Obsidian/Architettura degli Elaboratori/Algebra di Bool e Logica Digitale/Algebra di Bool.md",
     "Git-Obsidian/Architettura degli Elaboratori/Algebra di Bool e Logica Digitale/Logica Digitale.md",
-    "Git-Obsidian/Attatchments/Pasted image 20240416091750.png",
     "Git-Obsidian/Algebra e Geometria/Applicazioni Alla Geometria Analitica.md",
     "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/Campi e Spazi Vettoriali.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Algoritmi di Ricerca su Grafo.md",
@@ -195,8 +205,6 @@
     "Git-Obsidian/Architettura degli Elaboratori/Rappresentazione dell'Informazione/Rappresentazione di Immagini.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Rappresentazione di Grafi.md",
     "Git-Obsidian/Analisi/Concetti Base.md",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Insiemi Disgiunti.md",
-    "Git-Obsidian/Analisi/Funzioni/Introduzione Funzioni.md",
     "Git-Obsidian/Architettura degli Elaboratori/Algebra di Bool e Logica Digitale",
     "Git-Obsidian/The Bible/35 - Habakkuk",
     "Git-Obsidian/The Bible/64 - 3 John",
