@@ -142,3 +142,13 @@ I termini "*code point*" e "*carattere*" non sono sinonimi
 >***B***asic ***I***nput ***O***utput ***S***ystem
 >Il `BIOS` è il ***programma*** che il microprocessore di un calcolatore utilizza per l'*inizializzazione del sistema* poco dopo la sua accensione
 
+## Tri-State Buffer
+---
+>[!info] Definizione
+>I ***buffer tri-state*** agiscono come *interruttori elettronici* capaci di ***collegare/scollegare elettricamente*** due parti di un circuito
+
+![[Pasted image 20240418135643.png]]
+>$a)\to$ *buffer tri-state*
+>$b)\to$ *effetto di un* $a)$ *quando il controllo ha uno stato alto*
+>$c)\to$ *effetto di un* $a)$ *quando il controllo ha uno stato basso*
+

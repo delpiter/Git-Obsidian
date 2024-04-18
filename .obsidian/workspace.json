@@ -18,6 +18,18 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "f11137b9daaf7898",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git-Obsidian/Definitions/Definizioni_Architettura.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ]
       }
@@ -169,13 +181,14 @@
   },
   "active": "06c91bc5c14ecfa5",
   "lastOpenFiles": [
+    "Git-Obsidian/Definitions/Definizioni_Architettura.md",
+    "Git-Obsidian/Architettura degli Elaboratori/Algebra di Bool e Logica Digitale/RAM.md",
+    "Git-Obsidian/Attatchments/Pasted image 20240418135643.png",
     "Git-Obsidian/Attatchments/Screenshot 2024-04-18 115019.png",
     "Git-Obsidian/Attatchments/Screenshot 2024-04-18 113408.png",
-    "Git-Obsidian/Architettura degli Elaboratori/Algebra di Bool e Logica Digitale/RAM.md",
     "Git-Obsidian/Algebra e Geometria/Risoluzione di Sistemi.md",
     "Git-Obsidian/Architettura degli Elaboratori/Algebra di Bool e Logica Digitale/Circuiti Combinatori.md",
     "Git-Obsidian/Architettura degli Elaboratori/Algebra di Bool e Logica Digitale/Circuiti Sequenziali.md",
-    "Git-Obsidian/Definitions/Definizioni_Architettura.md",
     "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Organizzazione della Memoria.md",
     "Git-Obsidian/Attatchments/Pasted image 20240417225607.png",
     "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Le Memorie.md",
@@ -192,8 +205,6 @@
     "Git-Obsidian/Algebra e Geometria/Applicazioni/Matrici Invertibili.md",
     "Git-Obsidian/Architettura degli Elaboratori/Algebra di Bool e Logica Digitale/Arithmetic Logic Unit.md",
     "Git-Obsidian/Attatchments/Pasted image 20240416105638.png",
-    "Git-Obsidian/Attatchments/Pasted image 20240416103428.png",
-    "Git-Obsidian/Attatchments/Pasted image 20240416101230.png",
     "Git-Obsidian/Architettura degli Elaboratori/Algebra di Bool e Logica Digitale/Algebra di Bool.md",
     "Git-Obsidian/Architettura degli Elaboratori/Algebra di Bool e Logica Digitale/Logica Digitale.md",
     "Git-Obsidian/Algebra e Geometria/Applicazioni Alla Geometria Analitica.md",

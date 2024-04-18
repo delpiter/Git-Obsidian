@@ -26,3 +26,33 @@
 >[!tldr] Addres Decoder
 >Nella parte centrale a sinistra si può trovare un ***decoder*** che decifra l'indirizzo $A_{0},A_{1}$ e attiva di conseguenza la linea ***corrispondente all'indirizzo***
 
+>[!info] `CS` `RD` `OE`
+>>[!tip] *C*hip *S*elect
+>>Il ***chip select*** abilita il chip per scritture o letture
+>
+>>[!tldr] *R*ea*D*
+>>L'*input* ***read*** indica se il circuito verrà usato per *scrivere* ($1$) o per *leggere* ($0$)
+>
+>>[!abstract] *O*utput *E*nable
+>>Indica al ***chip*** se deve o meno mandare in *output* i *valori letti*
+
+### Read
+In fase di ***lettura*** `CS`, `RD` e `OE` sono "*alti*", pertanto:
+- Il ***clock*** dei *flip-flop* non viene mai *attivato*
+- Gli *output* $Q$ della parola selezionata "*passano*" attraverso le porte `AND` selezionate dal decodificatore di indirizzi per giungere agli `OR` a 4 *input*
+
+Come ultimo stadio, le uscite degli `OR` sono collegate a [[Definizioni_Architettura#Tri-State Buffer|tri-state buffer]]
+- Nel circuito appare come ***simbolo triangolare***
+- Agiscono come *interruttori elettronici* capaci di ***collegare/scollegare elettricamente*** due parti di un circuito
+
+L'`AND` a tre *input* (`CS`$\cdot$`RD`$\cdot$`OE`) abilita i *buffer tri-state* di uscita rendendo disponibile la parola selezionata su $O_{1},O_{2},O_{3}$
+
+>[!question] Perché usare un *buffer tri-state* al posto di un semplice `AND`?
+
+Il bus di *dati* è unico per *input* e *output* 
+- È necessario quindi, quando non serve, non mandare nulla in output per evitare interferenze
+- A differenza della porta `AND` il *buffer tri-state* toglie *interamente* la *corrente*
+### Write
+In fase di ***scrittura*** `CS` ha un valore "*alto*", mentre `RD` e `OE` hanno valore "*basso*"
+- I dati devono essere disponibili su $I_{0},I_{1},I_{2}$
+- L'output della porta `CS`$\cdot$`!RD` è ora "*alto*" e il ***clock*** dei *flip-flop* della parola selezionata viene attivato permettendo la scrittura nella `RAM`
