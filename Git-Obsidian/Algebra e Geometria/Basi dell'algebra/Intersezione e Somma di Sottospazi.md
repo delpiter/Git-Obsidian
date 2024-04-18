@@ -35,7 +35,7 @@ Basta prendere $u_{1}=(1,0)\in U$ e $w_{1}=(0,1)$
 >Definisco il **sottospazio somma** come:
 >$$U+W = \{ u+w,u\in U , w \in W \}$$
 
-$U+W$ è un sottospazio vettoriale poichè:
+$U+W$ è un sottospazio vettoriale poiché:
 $$u_{1}+w_{1},u_{2}+w_{2}\in U+W
 \begin{pmatrix}
 u_{1},u_{2}\in U \\
@@ -57,7 +57,7 @@ $W =\{( 0,t,s,0 ), t,s\in\mathbb{R}\}$
 
 $$
 \begin{array}
-U+W=\{ u+w, u\in W,w\in W \}=\{ (a,b+t,s,0),a,b,t\in\mathbb{R} \}= \\
+\ U+W=\{ u+w, u\in W,w\in W \}=\{ (a,b+t,s,0),a,b,t\in\mathbb{R} \}= \\
 =\{ (x_{1},x_{2},x_{3}x_{4})\in\mathbb{R}^4:x_{4}=0 \} \text{ dim} =3
 \end{array}
 $$

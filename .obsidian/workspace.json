@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "817640a6d46c58e2",
+        "id": "b76ec692ca5ad082",
         "type": "tabs",
         "children": [
           {
-            "id": "06c91bc5c14ecfa5",
+            "id": "7f10833ce0b0a725",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,13 +20,13 @@
             }
           },
           {
-            "id": "f11137b9daaf7898",
+            "id": "19296b7b5f690ec4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Obsidian/Definitions/Definizioni_Architettura.md",
-                "mode": "source",
+                "file": "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/Forme Parametriche e Cartesiane.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -179,10 +179,15 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "06c91bc5c14ecfa5",
+  "active": "7f10833ce0b0a725",
   "lastOpenFiles": [
-    "Git-Obsidian/Definitions/Definizioni_Architettura.md",
+    "Git-Obsidian/Attatchments/Pasted image 20240418184121.png",
+    "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/Forme Parametriche e Cartesiane.md",
+    "Forme Parametriche e Cartesiane.pdf",
     "Git-Obsidian/Architettura degli Elaboratori/Algebra di Bool e Logica Digitale/RAM.md",
+    "Git-Obsidian/Definitions/Definizioni_Architettura.md",
+    "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/Intersezione e Somma di Sottospazi.md",
+    "Git-Obsidian/Algebra e Geometria/Applicazioni Alla Geometria Analitica.md",
     "Git-Obsidian/Attatchments/Pasted image 20240418135643.png",
     "Git-Obsidian/Attatchments/Screenshot 2024-04-18 115019.png",
     "Git-Obsidian/Attatchments/Screenshot 2024-04-18 113408.png",
@@ -207,15 +212,12 @@
     "Git-Obsidian/Attatchments/Pasted image 20240416105638.png",
     "Git-Obsidian/Architettura degli Elaboratori/Algebra di Bool e Logica Digitale/Algebra di Bool.md",
     "Git-Obsidian/Architettura degli Elaboratori/Algebra di Bool e Logica Digitale/Logica Digitale.md",
-    "Git-Obsidian/Algebra e Geometria/Applicazioni Alla Geometria Analitica.md",
     "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/Campi e Spazi Vettoriali.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Algoritmi di Ricerca su Grafo.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Ordinamento Topologico.md",
     "Git-Obsidian/Architettura degli Elaboratori/Rappresentazione dell'Informazione/Rappresentazione dei Caratteri.md",
     "Git-Obsidian/Architettura degli Elaboratori/Rappresentazione dell'Informazione/Rappresentazione dei Suoni.md",
     "Git-Obsidian/Architettura degli Elaboratori/Rappresentazione dell'Informazione/Rappresentazione di Immagini.md",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Rappresentazione di Grafi.md",
-    "Git-Obsidian/Analisi/Concetti Base.md",
     "Git-Obsidian/Architettura degli Elaboratori/Algebra di Bool e Logica Digitale",
     "Git-Obsidian/The Bible/35 - Habakkuk",
     "Git-Obsidian/The Bible/64 - 3 John",
@@ -225,7 +227,6 @@
     "Git-Obsidian/The Bible/62 - 1 John",
     "Git-Obsidian/The Bible/58 - Hebrews",
     "Git-Obsidian/The Bible/61 - 2 Peter",
-    "Git-Obsidian/The Bible/60 - 1 Peter",
     "Git-Obsidian/Algoritmi e Strutture Dati/Untitled.canvas",
     "Untitled 2.canvas",
     "Untitled.canvas",

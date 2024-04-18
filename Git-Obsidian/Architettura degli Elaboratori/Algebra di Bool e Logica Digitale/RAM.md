@@ -56,3 +56,23 @@ Il bus di *dati* è unico per *input* e *output*
 In fase di ***scrittura*** `CS` ha un valore "*alto*", mentre `RD` e `OE` hanno valore "*basso*"
 - I dati devono essere disponibili su $I_{0},I_{1},I_{2}$
 - L'output della porta `CS`$\cdot$`!RD` è ora "*alto*" e il ***clock*** dei *flip-flop* della parola selezionata viene attivato permettendo la scrittura nella `RAM`
+
+## RAM Dinamica
+---
+>[!info] *D*ynamic *RAM*
+>Le `DRAM` non sono realizzate con *flip-flop* ma con ***array di celle*** ognuna costituita da un ***transistor*** più un ***condensatore***
+
+![[Pasted image 20240418184121.png]]
+
+>[!tldr] Condensatore
+>Il ***condensatore*** è un componente in grado di mantenere per un *piccolo periodo* la ***carica elettrica*** accumulata (*memoria*)
+
+È necessario prevedere un ***circuito di rinfresco*** delle cariche
+- Ogni pochi millisecondi tale circuito "*ricarica*" le celle attive consentendo loro di ***mantenere lo stato logico***
+
+
+### Differenza `DRAM` e `SRAM`
+Rispetto alle `SRAM` le `DRAM` sono più ***economiche e dense***
+- Circa un *transistor* contro 6 per ogni `BIT`
+
+Sono anche significativamente più lente 

@@ -7,7 +7,7 @@
 >>$U$ è descritto in funzione di $d$ parametri
 >
 >>[!example] Forma cartesiana
->>$U$ è individuato da $n-d$ equazioni su $V$
+>>$U$ è individuato da $n-s$ dove $s$ è il numero di equazioni su $V$
 
 #### Esempio
 >$V=\mathbb{R}^5, v_{1}=(1,2,0,0,1),v_{2}=(0,0,1,0,-1)$
