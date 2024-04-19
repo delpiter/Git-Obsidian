@@ -659,7 +659,7 @@ REP MOVS            // Scrive [ESI] su [EDI]
 
 ### String Compare
 >[!info] Descrizione
->`CMP`
+>`CMPS`
 >Confronta il valore contenuto nell'indirizzo `[ESI]` con il valore contenuto in `[EDI]`
 #### Esempio
 >*Confrontare 2 blocchi di memoria lunghi 256 `BYTE`, `IndBlocco` e `IndBlocco2` sono gli indirizzi di partenza*
@@ -667,7 +667,7 @@ REP MOVS            // Scrive [ESI] su [EDI]
 CLD                 // Scorrimento in avanti
 MOV ECX, 256        // Numero di elementi
 LEA ESI, IndBlocco  // Indirizzo di partenza stringa 1
-LEA ESI, IndBlocco2 // Indirizzo di partenza stringa 2
+LEA EDI, IndBlocco2 // Indirizzo di partenza stringa 2
 REPE CMPS           // Confronta [ESI] con [EDI] e setta il flag di 
                     // conseguenza, decrementa ECX incrementa i due registri
 	                // Ripete fino a che ECX>0 e il flag ZF è 1

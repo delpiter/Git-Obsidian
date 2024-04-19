@@ -107,3 +107,65 @@ Sono anche ***significativamente più lente***
 >[!done] HandShake
 >La sequenza di ***eventi interlacciati*** che caratterizza lo scambio di dati *asincrono* prende il nome di ***handshake***
 
+### RAM Sincrone
+>[!info] *S*ynchronus *DRAM*
+>Introdotte dopo le `DRAM` *Asincrone*, le `SDRAM` sono un tipo di `RAM` dinamica dove un segnale di ***clock*** è responsabile di ***stabilire le tempistiche precise*** nello scambio *dati*
+>La risposta è sempre inviata dopo un *numero prefissato* di cicli di **clock****
+>- La `CPU` dopo avere inviato la richiesta ***può dedicarsi ad altro***, nell'*attesa* che la memoria sia pronta
+
+Le `DRAM` sincrone sono più *semplici da realizzare*, *interfacciare* e ***consentono la modalità burst***
+#### Esempio
+>*Esempio di lettura da parte della `CPU` di dati da memoria sincrona sul `BUS` che collega `CPU` e memoria*
+
+![[Pasted image 20240419152333.png]]
+
+![[Pasted image 20240419152659.png]]
+>*Tutti i tempi riportati in tabella costituiscono dei vincoli che devono essere rigidamente rispettati al fine di consentire un dialogo corretto tra le due parti*
+
+>[!attention] Funzionamento
+
+Assumiamo che il ***clock*** operi a $40 MHz$, assumiamo inoltre che la lettura dalla memoria richieda $40ns$ dal momento in cui l'indirizzo è stabile sul `BUS`
+
+- Per eseguire una lettura la `CPU` mette l'indirizzo sul `BUS` sul fronte di salita di $T_{1}$
+- `MREQ` e `RD` vengono attivati (*attivi bassi*) dalla `CPU`
+- Poiché la memoria richiede $40ns$ dal momento in cui l'indirizzo è stabile
+	- Essa *non è in grado* di fornire la risposta entro $T_{2}$
+	- Per avvertire la `CPU` di ***non aspettare dati***, la memoria attiva il segnale `WAIT` (*attivo basso*) che fa sì che *vengano aggiunti* $1$ o più stati d'attesa
+- Quando la memoria è pronta a fornire la parola, disabilita `WAIT` 
+	- Durante la prima metà di $T_{3}$ la memoria *mette i dati* sul `BUS`
+- Sul fronte di discesa $T_{3}$ la `CPU` legge i dati sul `BUS` e disattiva `MREQ` e `RD`
+
+#### Modalità Burst
+![[Pasted image 20240419161352.png]]
+
+- La `CPU` mette sul `BUS` indirizzi (*address*) l'indirizzo di partenza del blocco e sul `BUS` dati (*data*) il ***numero di parole da trasferire***
+- Inoltre, attiva la linea `BLOCK` per comunicare che si tratta di un trasferimento "*burst*"
+- La memoria recupera ***le parole del blocco***, ma il ciclo di `WAIT` si ha *solo per la prima* parola
+	- Dopodiché viene resa disponibile ***una parola per ciclo***
+
+>[!tldr] ‎ 
+>Nei sistemi moderni gli *accessi* alla ***memoria principale*** avvengono quasi esclusivamente in modalità ***burst***
+>- La *cache* interposta tra `CPU` e `DRAM` trasferisce **blocchi** di e *non* **singole parole**
+
+## DDR
+---
+>[!info] *D*ouble *D*ata *R*ate
+>Le memorie `DDR` sono le memorie più utilizzate nei `PC` 
+>Si tratta di una variante delle `SDRAM`, può inviare i dati alla `CPU` due volte ogni *ciclo ci clock*
+>![[SDR_DDR_QDR.svg.png]]
+
+In oltre, nella specifica `DDR` sono previsti $2$ canali di accesso paralleli a $64$ `BIT` ($128$ `BIT` *totali*)
+
+### Generazioni
+Esistono diverse generazioni con caratteristiche sempre più performanti
+
+>[!warning] Attenzione
+>***Larghezza di banda*** (*bandwitdth*)$\neq$ ***Latenza*** (*latency*)
+>- *Bandwidth* $\to$ `BIT` trasferiti al secondo
+
+Per una `DDR` che opera con frequenza di `BUS` pari a $N\ MHz$, la ***larghezza di banda*** si calcola come:
+$$
+N\times2 \times 8 
+$$
+
+Il tempo necessario per reperire la prima parola è invece noto come ***latenza*** e raramente è minore di $10ns$
