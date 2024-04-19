@@ -75,4 +75,35 @@ In fase di ***scrittura*** `CS` ha un valore "*alto*", mentre `RD` e `OE` hanno 
 Rispetto alle `SRAM` le `DRAM` sono più ***economiche e dense***
 - Circa un *transistor* contro 6 per ogni `BIT`
 
-Sono anche significativamente più lente 
+Sono anche ***significativamente più lente*** 
+
+### DRAM Asincrone
+>[!info] *A*sync *DRAM*
+>Le prime `DRAM` erano ***asincrone***, la comunicazione con la [[La CPU|CPU]] non è sincronizzata da un ***segnale di clock***
+>Sono necessarie ***linee di sincronizzazione addizionali*** perché le parti possano *scambiare le informazioni*
+
+#### Esempio
+>*Esempio di lettura da parte della `CPU` di dati da memoria asincrona sul `BUS` che collega `CPU` e memoria*
+
+![[Pasted image 20240419110406.png]]
+>[!abstract] "*Legenda*"
+>- Le linee "*doppie*", come *ADDRESS* e *DATA*, sono dei `BUS`, formati da *tanti fili elettrici* quanti sono i `BIT` che trasporta.
+>	- L'*incrocio* fra queste linee indica che è stata effettuata una ***scrittura***
+>
+>- Le linee "*singole*", Come *MSYN* e *SSYN*, sono dei semplici ***dati di controllo***, formati da *un singolo filo elettrico* che assume o $0$ o $1$
+>- Una barra sopra a uno dei `BUS` di controllo indica che quel `BUS` è **attivo** a *livello basso*
+>- Il cambio di stato da $0$ a $1$ o viceversa è rappresentato da una *linea obliqua* per dire che il passaggio ***non è istantaneo***
+
+>[!attention] Funzionamento
+
+- La `CPU` rende disponibile sul `BUS` indirizzi (*ADDRESS*) l'***indirizzo della cella di memoria*** che vuole *leggere*
+- La `CPU` attiva `MREQ` (***M***emory ***Req***uest), `RD` (*Accesso alla memoria* in lettura) e infine `MSYN` attivato con un piccolo delay per ***assicurarsi la stabilità elettrica degli input***
+	- (***M***aster ***Syn***cronization) un segnale di *sincronizzazione* `CPU`
+- Quando la memoria vede `MSYN` esegue il lavoro nel minor tempo possibile, e non appena è pronta rende disponibile il valore sul `BUS` *dati* (*DATA*) e attiva `SSYN` 
+	- (***S***lave ***Syn***cronization)un segnale di *sincronizzazione memoria*
+- Quando la `CPU` vede `SSYN` attivo, legge i dati dal `BUS` *dati* e disattiva `MREQ`, `RD` e `MSYN`
+	- La memoria a sua volta disattiva `SSYN`
+
+>[!done] HandShake
+>La sequenza di ***eventi interlacciati*** che caratterizza lo scambio di dati *asincrono* prende il nome di ***handshake***
+
