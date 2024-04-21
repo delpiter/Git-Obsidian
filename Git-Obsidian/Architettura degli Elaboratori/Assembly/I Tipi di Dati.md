@@ -1,5 +1,5 @@
 > Tipi di dati nello standard [[IA-32]]
-![[Pasted image 20240311181529.png]]
+![[DataTypeASM.png]]
 
 ## Range di Rappresentazione
 ---

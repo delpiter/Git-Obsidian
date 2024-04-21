@@ -87,7 +87,7 @@ Dove:
 	- È una *costante* (2, 4 o 8) moltiplicata per ***Index***
 	- Può essere omessa ($\text{Scale = 1}$)
 
-![[Pasted image 20240312093135.png]]
+![[MemoryOffsetASM.png]]
 #### Esempi
 Nell'istruzione seguente, l'**offset** utilizza solo  la componente *displacement*
 - Questo indirizzamento viene anche chiamato ***assoluto o diretto***

@@ -25,7 +25,7 @@ g(x) = floor(4sin(x))
 ```
 
 
-![[Pasted image 20240302162338.png]]
+![[SamplingQuantification.png]]
 ### Campionamento
 >[!tip] Definizione
 >Il **campionamento** (*sampling*) è il processo che consente una riduzione di un ***segnale continuo*** nel tempo per ottenere un ***segnale discreto*** 

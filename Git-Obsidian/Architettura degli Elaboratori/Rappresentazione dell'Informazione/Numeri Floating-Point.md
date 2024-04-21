@@ -97,17 +97,17 @@ Esprimo l'esponente in eccesso $127$
 - $12+127 = 139 \implies 10001011$
 
 Ottenendo cosi la seguente codifica binaria:
-![[Screenshot_2024-02-27_110515-removebg-preview.png]]
+![[BinaryFloatingPoint.png]]
 #### Rappresentazione dello zero
 Per rappresentare lo zero, lo standard riserva la combinazione di `BIT`, quelli dell'*esponente* e quelli del *significant*, a zero
-![[Pasted image 20240301161903.png]]
+![[plus0.png]]
 
 - Ovviamente sarà inevitabile la doppia rappresentazione dello zero
 	- Uno negativo e uno positivo
 #### $-\infty +\infty$
 Per rappresentare $\pm\infty$, lo standard riserva la combinazione di `BIT`, quelli dell'*esponente* tutti a `1` e quelli del *significant* tutti a `0
 
-![[Pasted image 20240301162330.png]]`
+![[infinityFP.png]]`
 
 #### Forma Denormalizzata
 >[!tip] Valori Ancora più Piccoli
@@ -120,7 +120,7 @@ Composta nel seguente modo:
 >[!warning] Questa rappresentazione comporta una progressiva perdita di cifre significative
 
 Il numero più piccolo rappresentabile in questa configurazione è:
-![[Pasted image 20240301181546.png]]
+![[smallestFloatingPoint.png]]
 
 #### NaN
 Per rappresentare questi valori si utilizzano le configurazioni in cui tutti i `BIT` dell'*esponente* sono `1`

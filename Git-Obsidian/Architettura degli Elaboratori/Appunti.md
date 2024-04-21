@@ -1,1 +1,2 @@
-## `26/02/2024`
+Architettura Del Calcolatore
+Algebra di Bool

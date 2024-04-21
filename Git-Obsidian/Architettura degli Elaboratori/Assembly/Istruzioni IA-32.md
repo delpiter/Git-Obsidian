@@ -1,7 +1,7 @@
 >Di seguito le istruzioni usate nello standard [[IA-32]]
 ## Copia e Spostamento di Valori
 ---
-![[Pasted image 20240312144815.png]]
+![[AssemblyEditOperators.png]]
 ### MOV
 >[!info] Descrizione
 >`MOV DST, SRC`
@@ -86,7 +86,7 @@ Questa istruzione risulta molto utile per evitare di usare ***salti condizionali
 
 ## Aritmetica Intera
 ---
-![[Pasted image 20240312182944.png]]
+![[AssemblyArithmeticOperators.png]]
 
 
 ### Complemento a 2
@@ -134,7 +134,7 @@ SUB EAX, 20 // EAX = -5 (in complemento a 2)
 >>[!warning] Nota
 >>Non è possibile usare un operando immediato per `SRC`
 
-![[Pasted image 20240312184747.png]]
+![[MUL.png]]
 Nel caso in cui il valore più grande ottenibile si rappresenta con un numero più alto di `BIT` del registro, il risultato viene memorizzato in due registri differenti
 
 ##### Esempio
@@ -191,7 +191,7 @@ IMUL EBX, EAX, 16   // Risultato = 100000000h, EBX = 0, OF = 1!
 >Analogamente alla `MUL` la `DIV` si *comporta in modo diverso* in base alla **dimensione** dell'operando `SRC` (***divisore***)
 >In particolare il *divisore*, il *quoziente* e il *resto* sono **prelevati/scritti** differentemente in base alla dimensione in `BIT` di `SRC`
 
-![[Pasted image 20240313164236.png]]
+![[DIV.png]]
 >[!warning] Attenzione
 
 L'operazione può causare *overflow* (es. $\frac{256}{1} =256 \implies$ overflow)
@@ -268,7 +268,7 @@ DEC pippo  // pippo = pippo - 1
 
 ## Operazioni sui BIT
 ---
-![[Pasted image 20240313205552.png]]
+![[AssemblyBitwiseOperations.png]]
 ### AND, OR, XOR
 >[!info] Descrizione
 >`AND/OR/XOR DST, SRC`
@@ -342,9 +342,9 @@ ROR AL, 1          // AL = 10101010b
 
 ## Istruzioni di Salto
 ---
-![[Pasted image 20240313213755.png]]
+![[AssemblyJumpOperators.png]]
 ### Codici Mnemonici e Significato dei Condition Codes
-![[Pasted image 20240313213943.png]]
+![[ConditionCodes.png]]
 
 ### Test
 >[!info] Descrizione
@@ -516,7 +516,7 @@ Il sottoprogramma termina con un'istruzione `RET`
 >Consiste nell'*operazione*:
 >- `POP EIP` $\to$ Riprendo l'indirizzo **precedentemente salvato** e lo inserisco nell'*instruction* *pointer*
 
-![[Pasted image 20240319230747.png]]
+![[CallRetAssembly.png]]
 
 >[!done] Vantaggi
 
@@ -563,7 +563,7 @@ Ciclo: MOV AX, Vettore[ECX*2]
 	- Poiché in C è possibile avere funzioni con [[Funzioni in C#Funzioni variadiche|parametri variabili]]
 	- La funzione non sa quanti parametri andare a "pulire"
 
-![[Pasted image 20240319232947.png]]
+![[FunctionCallExample.png]]
 
 >[!question] Perché i parametri nella funzione sono presi con `+8` e `+12`??
 
@@ -581,7 +581,7 @@ Quindi il primo parametro sarà esattamente `8 BYTE` "*indietro*" nello stack
 ---
 >Per quanto possa ingannare il titolo, non si lavora veramente con stringhe ma con ***buffer di byte***
 
-![[Pasted image 20240321101849.png]]
+![[AssemblyStringOperators.png]]
 >[!info] Stringhe
 >Le **stringhe** sono sequenze contigue di caratteri (`BYTE`), molto utilizzate.
 >Risulta spesso necessario eseguire operazioni su stringhe, come:
