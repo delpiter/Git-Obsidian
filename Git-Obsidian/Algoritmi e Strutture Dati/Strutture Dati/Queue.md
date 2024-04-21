@@ -14,7 +14,7 @@
 >>Una ***queue*** ha una politica ***FIFO***
 >>- ***F***irst ***I***n ***F***irst ***O***ut
 
-![[queue.webp]]
+![[Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/attatchements/queue.webp]]
 
 ### Enqueue
 

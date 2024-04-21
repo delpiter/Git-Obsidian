@@ -50,7 +50,7 @@ $$
 \forall\mathcal{E}>0,\exists \delta_{\mathcal{E}}>0:\text{ se }|x-c|<\delta_{\mathcal{E}} \text{ si ha }|f(x)-l|<\mathcal{E}, x\neq c
 $$
 ###### Spiegazione grafica
-![[Pasted image 20231020102454.png]]
+![[definizioneLimite.png]]
 >[!done] In Breve
 >Fissato un $\mathcal{E} >0$, esiste un $\delta>0$
 >Tale che $\forall x$ nell'intervallo $(c-\delta,c+\delta)$ si ha che $f(x)$ deve cadere nell'intervallo $(l-\mathcal{E},l+\mathcal{E})$
@@ -95,7 +95,7 @@ $$
 >Sia $I$ un [[Git-Obsidian/Analisi/Funzioni/Introduzione Funzioni#Intervallo|intervallo]] o un [[Git-Obsidian/Analisi/Funzioni/Introduzione Funzioni#Intervallo Forato|intervallo forato]]
 >Sia $f:I\to \mathbb{R},c\in[inf(I),sup(I)]\cap\mathbb{R}$ ,$l\in\overline{\mathbb{R}}$
 >Diciamo che $f$ ha limite per $x\to c$ da sinistra (scriviamo $x\to c^-$)
->Se ([[Definizioni_Analisi#Notazione Restrizione del dominio|notazione]]) $$\lim\limits_{x\to c}f(x)_{\displaystyle{|_{I\cap(-\infty,c)}}}=l$$
+>Se ([[Git-Obsidian/Analisi/Definizioni_Analisi#Notazione Restrizione del dominio|notazione]]) $$\lim\limits_{x\to c}f(x)_{\displaystyle{|_{I\cap(-\infty,c)}}}=l$$
 
 >[!example] Osservazione
 >$$\exists \lim\limits_{x\to c}f(x)\Leftrightarrow \begin{cases}\exists \lim\limits_{x\to c^-}f(x)\\ \lim\limits_{x\to c^+}f(x)\end{cases}$$
@@ -170,7 +170,7 @@ Iterando il ragionamento (Metodo di Bisezione) si hanno 2 possibilità
 >[!info] Teorema
 >Sia $I$ intervallo di $\mathbb{R}$, sia $f:I\to\mathbb{R}$ [[Git-Obsidian/Analisi/Funzioni/Introduzione Funzioni#Continuità|continua]] 
 ><u>Allora</u>
->$f(I)$ è a sua volta un intervallo (o [[Definizioni_Analisi#Intervallo degenere|intervallo degenere]])
+>$f(I)$ è a sua volta un intervallo (o [[Git-Obsidian/Analisi/Definizioni_Analisi#Intervallo degenere|intervallo degenere]])
 >
 >>[!done] In Breve
 >>Se una funzione è continua, la sua immagine assume tutti i valori fra il massimo e il minimo della funzione

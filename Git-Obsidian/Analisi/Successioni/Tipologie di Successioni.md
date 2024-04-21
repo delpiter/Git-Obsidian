@@ -4,7 +4,7 @@
 $$
 \lim\limits_{n\to+\infty}a^n = +\infty
 $$
-![[Pasted image 20231013181132.png]]
+![[successioneExp.png]]
 
 #### Dimostrazione
 Voglio dimostrare che $\lim\limits_{n\to+\infty}a^n=+\infty, \ \ \ a>1$
@@ -16,7 +16,7 @@ Voglio dimostrare che $\lim\limits_{n\to+\infty}a^n=+\infty, \ \ \ a>1$
 $$
 \lim\limits_{n\to+\infty}a^n=0
 $$
-![[Pasted image 20231013181733.png]]
+![[successioneExpInv.png]]
 
 #### Dimostrazione
 
@@ -25,7 +25,7 @@ $$
 $$
 \lim\limits_{n\to+\infty}a^n=0
 $$
-![[Pasted image 20231013182133.png]]
+![[Dimostrazione Successione.png]]
 
 #### Dimostrazione
 Voglio dimostrare che $\lim\limits_{n\to+\infty}a^n=0, \ \ \ -1<a<0$

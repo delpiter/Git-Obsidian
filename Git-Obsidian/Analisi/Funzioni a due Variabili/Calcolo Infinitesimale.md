@@ -7,7 +7,7 @@
 >>$$|(x_{n},y_{n})-(x_{0},y_{0})|=\sqrt{ (x_{n}-x_{0})^2+(y_{n},y_{0})^2 }\to 0$$
 >>>[!done] In breve
 >>> La distanza dei punti deve tendere a $0$ da qualsiasi direzione
-![[Pasted image 20231204162426.png]]
+![[limiteR3.png]]
 
 ### Definizione di Intorno
 >[!info] Definizione
@@ -39,7 +39,7 @@
 >>si ha: 
 >>$$f(x,y)\in\mathrm{U}_{l}$$
 
-![[geogebra-export.png]]
+![[Git-Obsidian/Analisi/Funzioni a due Variabili/attatchements/geogebra-export.png]]
 - Per trovare la non-esistenza del limite basta trovare 2 limiti da direzione diversa con soluzione diversa
 #### Es
 $$

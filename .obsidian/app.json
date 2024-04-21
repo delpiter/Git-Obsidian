@@ -1,7 +1,7 @@
 {
   "newFileLocation": "current",
   "newFileFolderPath": "Git-Obsidian/Attatchments",
-  "attachmentFolderPath": "Git-Obsidian/Attatchments",
+  "attachmentFolderPath": "./attatchements",
   "alwaysUpdateLinks": true,
   "pdfExportSettings": {
     "includeName": true,

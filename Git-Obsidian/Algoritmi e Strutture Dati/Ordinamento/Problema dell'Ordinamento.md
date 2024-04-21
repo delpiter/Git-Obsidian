@@ -43,7 +43,7 @@
 #### Esempio
 > $n = 3 \implies \{ a_{1},a_{2},a_{3} \}$
 
-![[Pasted image 20240306175731.png]]
+![[Pasted_image_20240306175731-removebg-preview.png]]
 *Rappresentato tramite un albero binario*
 
 Nell'esempio, $3$ elementi

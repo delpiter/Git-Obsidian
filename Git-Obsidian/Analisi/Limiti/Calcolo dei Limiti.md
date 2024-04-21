@@ -149,7 +149,7 @@ $$
 >Dimostriamo che
 >$$\lim\limits_{x\to 0} \displaystyle{\frac{sen(x)}{x}}=1$$
 
-![[Pasted image 20231023173515.png]]
+![[limiteNotevoleSeno.png]]
 - Osservo nell'immagine sovrastante che appaiono 3 figure
 	1. Triangolo $\overset{\triangle}{OAP}$
 	2. Settore Circolare $OAP$

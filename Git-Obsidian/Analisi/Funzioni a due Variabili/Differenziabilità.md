@@ -21,7 +21,7 @@
 >>Ottenendo così la curva descritta da:
 >>$$z=f(x_{0},y)$$
 >
->![[Untitled-removebg-preview.png]]
+>![[pianoTangente.png]]
 
 #### Passo 2
 Mi scrivo le equazioni delle rette tangenti:
@@ -43,7 +43,7 @@ z=f(x_{0},y_{0})+ \displaystyle{\frac{df}{dy}}(x_{0},y_{0})(y-y_{0}) \\
 x=x_{0}
 \end{cases}
 $$
-![[pngegg.png]]
+![[derivataR3.png]]
 #### Il Piano
 Esiste un piano che contiene entrambe le rette:
 

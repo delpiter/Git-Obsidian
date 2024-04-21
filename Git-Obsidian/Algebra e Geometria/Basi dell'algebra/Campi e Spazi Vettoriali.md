@@ -164,6 +164,7 @@ v_{1}=(1,2),v_{2}=(-2,-1)\in S \\
 v_{1}+v_{2} = (-1,1) \cancel{ \in }S
 \end{array}
 $$
+
 ![[Pasted image 20240220175558.png]]
 >[!error] No, $S$ non è un sottospazio vettoriale di $V$
 

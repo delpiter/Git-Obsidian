@@ -22,5 +22,3 @@
 >
 >>[!done] In breve
 >>Presa una coppia qualsiasi di valori il valore della funzione in uno dei due punti deve essere $\underbrace{ \geq }_{ convessità }$, o $\underbrace{ \leq }_{ concavità }$, della retta tangente nel grafico $f$ passante per il punto $(c,f(c))$, dove c è l'altro punto
-
-![[concavita 1.png]]

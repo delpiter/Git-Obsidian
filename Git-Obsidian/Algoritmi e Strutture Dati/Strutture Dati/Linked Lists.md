@@ -13,7 +13,8 @@ struct node{
 	struct node *next;
 };
 ```
- ![[linked-list-concept.webp]]
+ ![[Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/attatchements/linked-list-concept.webp]]
+ 
  >[!warning] Problema
  
  Il "**flusso di scorrimento**" è *unidirezionale*
@@ -38,7 +39,7 @@ struct node{
 	struct node *prev;
 };
 ```
-![[Pasted image 20240316110111.png]]
+![[Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/attatchements/Pasted image 20240316110111.png]]
 
 ## Operazioni
 ---
@@ -73,7 +74,7 @@ static void NodeInsert(struct node *L, int elem){
 >[!info] Cancellazione
 >La **rimozione di un nodo**, come per l'inserimento, è critica in termini di *perdita di informazione*
 
-![[Pasted image 20240316113550.png]]
+![[Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/attatchements/Pasted image 20240316113550.png]]
 ![[Pasted image 20240316113738.png]]
 
 ```c
@@ -126,7 +127,7 @@ struct BinaryTreeNode{
 	BinaryTreeNode* rChild;
 }
 ```
-![[Screenshot 2024-03-16 122244.png]]
+![[Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/attatchements/Screenshot 2024-03-16 122244.png]]
 
 >[!warning] Problema
 
@@ -149,4 +150,4 @@ struct TreeNode{
 }
 ```
 
-![[Screenshot_2024-03-16_123229-removebg-preview.png]]
+![[Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/attatchements/Screenshot_2024-03-16_123229-removebg-preview.png]]

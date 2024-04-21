@@ -10,10 +10,10 @@ $$
 - $n$ anche detto l'indice della successione
 ##### Es
 - $a_{n}=k, \ k\in\mathbb{R}$
-![[Pasted image 20231013094149.png]]
+![[successione costante.png]]
 
 - $a_{n}=(-1)^n$
-![[Pasted image 20231013095115.png]]
+![[succesioneOscillante.png]]
 
 ## Successioni infinitesime
 - - -
@@ -25,7 +25,7 @@ $$
 >>[!done] In Breve
 >>Fissato un numero $\mathcal{E}\in\mathbb{R}$ esiste una soglia $m_{\mathcal{E}}\in\mathbb{N}$ tale che, qualsiasi $n$ io prenda che sia più grande di $m_{\mathcal{E}}$, $a_{n}$ è più piccola di $\mathcal{E}$
 
-![[Screenshot 2023-11-28 184638.png]]
+![[successioneInfinitesima.png]]
 ### Es
 - $a_{n}=\displaystyle{\frac{1}{n}}$
 - Verifichiamo che $\lim\limits_{n\to+\infty} \displaystyle{\frac{1}{n}} =0$

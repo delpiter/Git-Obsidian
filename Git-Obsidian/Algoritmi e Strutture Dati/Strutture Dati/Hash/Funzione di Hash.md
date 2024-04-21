@@ -5,7 +5,7 @@
 >La funzione hash $h$ prende in `input` una ***chiave*** e *restituisce* un valore compreso tra $0$ e $m-1$
 >Si utilizza un vettore $T$ di *puntatori* con $m$ posizioni indicizzate
 >L'elemento $x$ con chiave $x.key$ viene *memorizzato* in $T$ in posizione $h(x.key)$
-![[Screenshot_2024-03-17_164254-removebg-preview.png]]
+![[Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Hash/attatchements/Screenshot_2024-03-17_164254-removebg-preview.png]]
 
 - Nelle [[Hash Table#Direct Address Table|direct access table]] la funzione di hash è semplicemente la [[Git-Obsidian/Analisi/Funzioni/Introduzione Funzioni#Funzione Identità|funzione identità]]
 	- $h(x) = x$
@@ -45,7 +45,7 @@ La probabilità di collisione *cresce in modo sorprendente*
 >Si collegano i *record* afferenti a una *stessa cella* nella sua lista
 >Le celle della tabella sono le *teste delle liste* (`NULL` se liste vuote)
 
-![[Pasted image 20240317170426.png]]
+![[Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Hash/attatchements/Pasted image 20240317170426.png]]
 #### Analisi della Complessità
 >[!info] Load Factor
 >Il *Load Factor* è una misura di quanto la tabella è piena
@@ -357,14 +357,14 @@ $$
 - Questo accade perché uno *slot vuoto* **preceduto** da $i$ *slot pieni* viene successivamente riempito con una ***probabilità*** di $\frac{i+1}{m}$ 
 - Una lunga *sequenza di slot occupati* tende a diventare ***sempre più lunga***
 
-![[primary clustering.png]]
+![[Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Hash/attatchements/primary clustering.png]]
 ###### Semi-Soluzione
 >[!info] Quadratic Probing
 >Ad ogni *collisione* l'indice $i$ si altera in ***maniera quadratica***
 >$$h(k,i)=(h_{1}(k)+c_{1}i+c_{2}i^2)\text{ mod }m$$
 
 
-![[Screenshot 2024-03-22 163714.png]]
+![[Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Hash/attatchements/Screenshot 2024-03-22 163714.png]]
 >[!fail] Il problema persiste
 
 Due chiavi che vanno in collisione con $h_{1}(k,0)$ andranno in *collisione* ad ogni ***passaggio/iterazione***

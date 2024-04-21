@@ -7,7 +7,7 @@
 f'(x)=nx^{n-1}
 \end{array}
 >$$
-- Utilizzando la [[Definizioni_Analisi#Formula del Binomio di Newton|formula del binomio di newton]] voglio calcolare $f'(c), \forall c\in\mathbb{R}$
+- Utilizzando la [[Git-Obsidian/Analisi/Definizioni_Analisi#Formula del Binomio di Newton|formula del binomio di newton]] voglio calcolare $f'(c), \forall c\in\mathbb{R}$
 ### Dimostrazione
 $$
 \begin{array}
@@ -107,7 +107,7 @@ $$
 >Posto $y=f(c)$, si ha:
 >$$(f^{-1})'(y)= \displaystyle{\frac{1}{\underbrace{ f'(f^{-1}(y)) }_{ c }}}$$
 ### Dimostrazione Geometrica
-![[Pasted image 20231031153153.png]]
+![[Git-Obsidian/Analisi/Calcolo Differenziale/attatchements/Pasted image 20231031153153.png]]
 - Equazione di $r : y=\underbrace{ m }_{ f'(x) }x+q$
 	- $x= \displaystyle{\frac{y-q}{m}}$
 - Equazione di $s:y= \displaystyle{\frac{x}{m}}- \displaystyle{\frac{q}{m}}$

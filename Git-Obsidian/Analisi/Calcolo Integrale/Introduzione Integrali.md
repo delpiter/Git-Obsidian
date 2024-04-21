@@ -5,19 +5,19 @@
 >Chiamiamo sottografico di $f$, l'insieme:
 >$$ \large \Gamma f = \{ (x,y) \in \mathbb{R} \times \mathbb{R} \mid x \in [a,b], y \in [0, f(x)] \} $$
 
-![[Pasted image 20231115133900.png]]
+![[Git-Obsidian/Analisi/Calcolo Integrale/attatchements/Pasted image 20231115133900.png]]
 
 ### Osservazione
 $$
 (b-a)\cdot \inf\limits_{[a,b]}f\leq Area(\Gamma_{f})\leq (b-a)\cdot \sup\limits_{[a,b]}f
 $$
-![[Pasted image 20231115133951.png]]
+![[ossSottografo.png]]
 
 Analogamente, se suddivido $[a,b]$ in $n$ parti uguali $[x_{i-1},x_{i}]$, posso dire che:
 $$
 \sum^n_{i=1}(x_{i}-x_{i-1})\cdot \inf\limits_{[x_{i-1},x_{i}]}f\leq Area(\Gamma_{f})\leq \sum^n_{i=1}(x_{i}-x_{i-1})\cdot \sup\limits_{[x_{i-1},x_{i}]}f
 $$
-![[Pasted image 20231115144148.png]]
+![[limSottografo.png]]
 ## Integrale di Funzioni Continue
 ---
 >[!info] Definizione
@@ -60,7 +60,7 @@ $$
 \int _{a}^b f(x)\, dx = \int _{a}^b f^+(x)\, dx - \int _{a}^b f^-(x)\, dx 
 $$
 ### Dimostrazione Grafica
-![[WhatsApp Image 2023-11-20 at 15.22.49_0bd300f7.jpg]]
+![[integraleNegativo.jpg]]
 ## Teorema della Media Integrale
 ---
 >[!info] Teorema

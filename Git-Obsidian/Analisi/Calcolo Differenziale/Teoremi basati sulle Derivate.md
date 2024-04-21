@@ -15,13 +15,13 @@
 >>E si ha $f(c)\geq f(x)$
 
 ### Dimostrazione Grafica
-![[Pasted Image 202304523.jpg]]
+![[Git-Obsidian/Analisi/Calcolo Differenziale/attatchements/Pasted Image 202304523.jpg]]
 
 ## Teorema di Fermat
 ---
 >[!info] Teorema
 >Sia $I$ intervallo di $\mathbb{R}$, $f:I \to\mathbb{R}$
->Sia $c$ [[Definizioni_Analisi#Punto interno in un Intervallo|punto interno]] di $I$
+>Sia $c$ [[Git-Obsidian/Analisi/Definizioni_Analisi#Punto interno in un Intervallo|punto interno]] di $I$
 >Supponiamo che $f$ sia derivabile in $c$ e $c$ è [[#Estremante Locale]]
 ><u>Allora</u>
 >$f'(c)=0$
@@ -86,7 +86,7 @@ $$
 f'(c)=0
 $$
 ### Visualizzazione Grafica
-![[Pasted image 20231106151817.png]]
+![[Git-Obsidian/Analisi/Calcolo Differenziale/attatchements/Pasted image 20231106151817.png]]
 
 ## Teorema di Lagrange
 ---
@@ -128,7 +128,7 @@ $$
 
 
 ### Visualizzazione Grafica
-![[Pasted image 20231106151842.png]]
+![[Git-Obsidian/Analisi/Calcolo Differenziale/attatchements/Pasted image 20231106151842.png]]
 
 ## Teorema test di Monotonia
 ---

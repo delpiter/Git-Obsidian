@@ -15,7 +15,7 @@
 >>Lo *stack* ha una politica **LIFO**
 >>- ***L***ast ***I***n ***F***irst ***O***ut
 
-![[stack.webp]]
+![[Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/attatchements/stack.webp]]
 ### Push
 ```java
 void Push(S,o)

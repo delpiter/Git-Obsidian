@@ -47,7 +47,7 @@ Ogni equazione polinomiale a coefficienti in $\mathbb{R}$ o $\mathbb{C}$ ha solu
 
 >[!info] Definizione Classi di Resto
 >Sia $\mathbb{Z}_{n}=\{ \overline{0},\overline{1},\dots,\overline{n-1} \}$,
->Chiamo $\mathbb{Z}_{n}$ *insieme delle classi di [[Definizioni_Analisi#Numeri Congrui a Modulo $n$|resto modulo]] $n$*
+>Chiamo $\mathbb{Z}_{n}$ *insieme delle classi di [[Git-Obsidian/Analisi/Definizioni_Analisi#Numeri Congrui a Modulo $n$|resto modulo]] $n$*
 
 >[!done] Fatto
 
@@ -67,7 +67,7 @@ $$\exists \;c \in \mathbb{R}: a\leq c \leq b$$
 - La cardinalità rappresenta il numero di elementi all'interno di un insieme
 - Nella teoria degli insiemi un insieme viene detto numerabile se:
 	- I suoi elementi sono in numero finito
-	- Possono essere messi in [[Definizioni_Analisi#Corrispondenza biunivoca|corrispondenza biunivoca]] con i numeri naturali
+	- Possono essere messi in [[Git-Obsidian/Analisi/Definizioni_Analisi#Corrispondenza biunivoca|corrispondenza biunivoca]] con i numeri naturali
 #### Lista di insiemi numerabili
 - $\mathbb{N}$
 - $\mathbb{Z}$

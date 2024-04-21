@@ -71,11 +71,11 @@ Al tempo $d[v]$ il ciclo da $v$ a $u$ è ***bianco***
 >$$O(V+E)$$
 
 #### Esempio
-![[Pasted image 20240414175958.png]]
+![[Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/attatchements/Pasted image 20240414175958.png]]
 
 - L'***Ordinamento Topologico*** ritorna la lista:
 
-![[Pasted image 20240414180041.png]]
+![[Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/attatchements/Pasted image 20240414180041.png]]
 
 
 #### Correttezza dell'Ordinamento

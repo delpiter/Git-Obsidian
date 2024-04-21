@@ -40,7 +40,7 @@ $$
 >Non tutte le successioni hanno un limite
 ##### Es
 - $a_{n}=(-1)^n$
-![[Pasted image 20231013095115.png]]
+![[succesioneOscillante.png]]
 - Oscilla fra $1$ e $-1$
 ## Successioni Limitate/Illimitate
 - - -

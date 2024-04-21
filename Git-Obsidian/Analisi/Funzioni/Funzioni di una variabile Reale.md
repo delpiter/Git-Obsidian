@@ -210,7 +210,7 @@ g(x)=log(x)/log(1/2)
 >Sia $U=\{(x,y)\in\mathbb{R}\times\mathbb{R}|x^2+y^2=1\}$
 >La circonferenza goniometrica è una circonferenza di raggio $1$
 
-[[Definizioni_Analisi#Valori Notevoli|Alcuni valori notevoli]]
+[[Git-Obsidian/Analisi/Definizioni_Analisi#Valori Notevoli|Alcuni valori notevoli]]
 ### Coseno
 
 $$
