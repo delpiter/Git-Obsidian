@@ -4,16 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "6f57d7d8c7178e34",
+        "id": "05c0c440291821a8",
         "type": "tabs",
         "children": [
           {
-            "id": "7f5ed2b3441daab4",
+            "id": "5fb86ec3f524f4ca",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Obsidian/Architettura degli Elaboratori/Appunti.md",
+                "file": "Git-Obsidian/Algebra e Geometria/Applicazioni/Matrici Diagonali.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3833328a354f8a83",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git-Obsidian/Algebra e Geometria/Applicazioni/Isomorfismo.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Architettura degli Elaboratori/Appunti.md",
+                "file": "Git-Obsidian/Algebra e Geometria/Applicazioni/Matrici Diagonali.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Architettura degli Elaboratori/Appunti.md",
+                "file": "Git-Obsidian/Algebra e Geometria/Applicazioni/Matrici Diagonali.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git-Obsidian/Architettura degli Elaboratori/Appunti.md"
+                "file": "Git-Obsidian/Algebra e Geometria/Applicazioni/Matrici Diagonali.md"
               }
             }
           },
@@ -167,8 +179,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "7f5ed2b3441daab4",
+  "active": "5fb86ec3f524f4ca",
   "lastOpenFiles": [
+    "Git-Obsidian/Algebra e Geometria/Applicazioni/Untitled.md",
+    "Git-Obsidian/Algebra e Geometria/Applicazioni/Matrici Diagonali.md",
+    "Git-Obsidian/Algebra e Geometria/Applicazioni/Isomorfismo.md",
+    "Git-Obsidian/Architettura degli Elaboratori/Appunti.md",
     "Git-Obsidian/Architettura degli Elaboratori/Assembly/I Tipi di Dati.md",
     "Git-Obsidian/Architettura degli Elaboratori/Assembly/attatchements/DataTypeASM.png",
     "Git-Obsidian/Architettura degli Elaboratori/Assembly/IA-32.md",
@@ -204,9 +220,6 @@
     "Git-Obsidian/Analisi/Breve ripasso.md",
     "Git-Obsidian/Analisi/Concetti Base.md",
     "Git-Obsidian/Analisi/Tipologie di Dimostrazioni.md",
-    "Git-Obsidian/Analisi/Taylor/Formula di Taylor.md",
-    "Git-Obsidian/Analisi/Taylor/Formule di Taylor di Funzioni Elementari.md",
-    "Git-Obsidian/Analisi/Taylor/Polinomio Di Taylor.md",
     "Git-Obsidian/Analisi/Successioni/attatchements",
     "Git-Obsidian/Analisi/Limiti/attatchements",
     "Git-Obsidian/Analisi/Funzioni a due Variabili/attatchements",

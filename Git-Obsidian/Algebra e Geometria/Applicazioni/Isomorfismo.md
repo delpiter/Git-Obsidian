@@ -119,6 +119,11 @@ $$
 Quindi $g_{o}f$ è un'applicazione lineare biunivoca
 - $g_{o}f$ è un ***isomorfismo***
 
+### Endomorfismo
+>[!info] Definizione
+>Sia $\mathbb{K}$ un [[Campi e Spazi Vettoriali#Campo|campo]], $V$ un [[Campi e Spazi Vettoriali#Spazio Vettoriale|spazio vettoriale]] su $\mathbb{K}$
+>Un ***endomorfismo*** di $V$ è un'[[Applicazioni Lineari#Applicazione Lineare|applicazione lineare]] $f:V\to V$
+
 ## Teorema Isomorfismo-Basi
 ---
 >Ora vogliamo legare il concetto di isomorfismo a quello di [[Campi e Spazi Vettoriali#Base|base]]
