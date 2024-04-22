@@ -127,3 +127,196 @@ $$
 
 - $e_{1}$ non è un *autovettore* $\implies f(e_{1})=2e_{2}$
 - $e_{2}$ non è un *autovettore* $\implies f(e_{2})=2e_{1}$
+
+$v_{1}=(1,1)$ è un *autovettore* di *autovalore* $2$
+- $f(v_{1})=(2,2)=2v_{1}$
+
+$v_{2}=(1,-1)$ è un *autovettore* di *autovalore* $-2$
+- $f(v_{2})=(-2,2)=-2v_{2}$
+
+>[!abstract] Matrici di $f$ nelle *due basi*
+
+$$
+M(e_{1},e_{2})=\begin{pmatrix}
+0 & 2 \\
+2 & 0
+\end{pmatrix},
+A(v_{1},v_{2})=\begin{pmatrix}
+2 & 0 \\
+0 & -2
+\end{pmatrix}
+$$
+
+>[!tldr] Osservazione
+>Se $f$ è un ***endomorfismo*** e $v_{1},\dots,v_{n}$ è una [[Campi e Spazi Vettoriali#Base|base]] di $V$ composta da ***autovettori*** 
+><u>Allora</u>
+>- $f(v_{1})=\lambda_{1}v_{1}+0v_{2}+\dots+0v_{n}$
+>- $f(v_{2})=0v_{1}+\lambda_{2}v_{2}+\dots+0v_{n}$
+>- $\dots$
+>- $f(v_{n})=0v_{1}+0v_{2}+\dots+\lambda_{n}v_{n}$
+>>[!done] La matrice è una *matrice diagonale*
+
+$$
+\begin{pmatrix}
+\lambda_{1} & 0  & \dots & 0 \\
+0 & \lambda_{2}  & \dots & 0 \\
+0 & 0  & \dots & \lambda_{n}
+\end{pmatrix}
+$$
+
+## Diagonalizzare un'applicazione
+---
+>[!question] Si può diagonalizzare un'applicazione $f$?
+>$\to$ Si può trovare una *base* di $V$ in cui la matrice di $f$ sia ***diagonale***?
+>$\to$ Esiste una base di $V$ composta da *autovettori* di $f$?
+
+
+>[!info] Procedimento per Passi
+>1. Trovare gli [[#Autovettore e Autovalore|autovalori]] di $f$, *se esistono*
+>2. Per ciascun *autovalore*, trovare gli [[#Autovettore e Autovalore|autovettori]]
+
+### Trovare gli Autovalori
+>[!info] Polinomio caratteristico
+>Il ***polinomio caratteristico*** di $f$
+>$$p(\lambda)=\det(f-\lambda id)$$
+
+>[!Teorema]
+>$\lambda_{i}$ è un ***autovalore*** di $f\iff p(\lambda_{i})=0$
+
+#### Dimostrazione
+$\lambda_{i}$ è un *autovalore* di $f\iff\exists v\in V,v\neq 0:f(v)=\lambda_{i}v$
+- $\iff \exists v\in V,v\neq 0:(f-\lambda_{i}id)(v)=\underline{0}$
+- $\iff \exists v\neq 0,v\in \mathrm{ker}(f-\lambda_{i}id)$
+- $\iff \mathrm{ker}(f-\lambda_{i}id)\neq \{ \underline{0} \}$
+- $\iff f-\lambda_{i}id$ non è una ***funzione iniettiva***, quindi non è ***invertibile***
+- $\iff \det(f-\lambda_{i}id)=0\iff p(\lambda_{i})=0$
+
+##### Esempio
+>$f:\mathbb{R}^2\to\mathbb{R}^2$ $f(x,y)=(2y,2x)$
+
+>[!esempio] Scrivo la matrice di $f$ in una base qualsiasi, ad esempio la canonica
+
+- $f(e_{1})=2e_{2}, f(e_{2})=2e_{1}$
+
+$$
+A=\begin{pmatrix}
+0 & 2 \\
+2 & 0
+\end{pmatrix}
+$$
+>[!abstract] Cerco gli *autovalori*
+
+$$
+p(\lambda)=\det(A-\lambda I_{2})=\det\begin{pmatrix}
+-\lambda  & 2 \\
+2 & -\lambda
+\end{pmatrix}=\lambda^2-4=0\iff\lambda=2,-2
+$$
+- Gli autovalori di $f$ sono $\lambda_{1}=2,\lambda_{2}=-2$
+
+>[!question] Chi sono gli autovettori corrispondenti?
+
+Per definizione, $v_{1}(x,y)\in \mathbb{R}^2$ è un ***autovettore*** di ***autovalore*** $\lambda_{1}=2$ se:
+- $f(v_{1})=2v_{1}$, cioè se $(2y,2x)=f(x,y)=(2x,2y)$
+$$
+\begin{cases}
+2y=2x \\
+2x=2y
+\end{cases}
+$$
+- $x=y$ è l'insieme degli *autovettori* validi con *autovalore* $\lambda_{1}=2$
+	- Per esempio $v_{1}=(1,1)$, ma anche $v_{1}=(42,42)$
+
+<u>Analogamente</u>
+$v_{2}=(x,y)\in \mathbb{R}^2$ è un ***autovettore*** di ***autovalore*** $\lambda_{2}=-2$ se:
+- $f(v_{2})=-2v_{2}$, cioè se $(2y,2x)=f(x,y)=(-2x,-2y)$
+
+$$
+\begin{cases}
+2y=-2x \\
+2x=-2y
+\end{cases}
+$$
+- $x=-y$ è l'insieme degli *autovettori* validi con *autovalore* $\lambda_{2}=-2$
+	- Per esempio $v_{2}=(1,-1)$, ma anche $v_{2}=(24,-24)$
+
+##### Esempio
+>$f:\mathbb{R}^3\to \mathbb{R}^3$, $f(x,y,z)=(2x,-4x-2y-8z,-4z)$
+
+>[!teor] Nella base canonica, la matrice di $f$:
+
+- $f(e_{1})=2e_{2}-4e_{2}$
+- $f(e_{2})=-2e_{2}$
+- $f(e_{3})=-8e_{2}-4e_{3}$
+
+$$
+A=\begin{pmatrix}2 & 0 & 0 \\-4 & -2 & -8 \\0 & 0 & -4\end{pmatrix}
+$$
+>[!abstract] Cerco gli *autovalori*
+
+- $p(\lambda)=\det(A-\lambda I_{3})=\det\begin{pmatrix}2-\lambda & 0 & 0 \\-4 & -2-\lambda & -8 \\0 & 0 & -4-\lambda\end{pmatrix}=$
+- $(2-\lambda)\det\begin{pmatrix}-2-\lambda & -8 \\ 0  & -4-\lambda\end{pmatrix}$
+	- $(2-\lambda)(-2-\lambda)(-4-\lambda)=0\iff \lambda=2,-2,-4$
+
+>[!question] Chi sono gli autovettori corrispondenti?
+
+>[!abstract] $\lambda_{1}=2$
+- $f(v_{1})=2v_{1}\implies 2v_{1}=(2x,2y,2z)$
+
+$$
+\begin{cases}
+2x=2x \\
+2y=-4x-2y-8z \\
+2z=-4z
+\end{cases}\iff\begin{cases}
+4y=-4x \\
+z=0
+\end{cases}
+$$
+- Una soluzione è $v_{1}=(1,-1,0)$
+
+>[!abstract] $\lambda_{2}=-2$
+- $f(v_{2})=-2v_{2}$
+
+$$
+\begin{cases}
+-2x=2x \\
+-2y=-4x-2y-8z \\
+-2z=-4z
+\end{cases}\iff \begin{cases}
+x=0 \\
+z=0
+\end{cases}
+$$
+- Una soluzione è $v_{2}=(0,1,0)$
+
+>[!abstract] $\lambda_{3}=-4$
+- $f(v_{3})=-4v_{3}$
+$$
+\begin{cases}
+-4x=2x \\
+-4y=-4x-2y-8z \\
+-4z=-4z
+\end{cases}\iff\begin{cases}
+x=0 \\
+y=4z
+\end{cases}
+$$
+- Una soluzione è $v_{3}=(0,4,1)$
+
+>[!done] Possiamo verificare che $v_{1},v_{2},v_{3}$ formano una base di $\mathbb{R}^3$
+- Già sappiamo che in tale ***base*** la *matrice* di $f$ è:
+
+- $f(v_{1})=2v_{1}$
+- $f(v_{2})=-2v_{2}$
+- $f(v_{3})=-4v_{3}$
+$$
+D=\begin{pmatrix}
+2 & 0 & 0 \\
+0 & -2 & 0 \\
+0 & 0 & -4
+\end{pmatrix}
+$$
+
+>[!tldr] Tutto questo funziona se $p(x)$ che è un polinomio a coefficienti in $\mathbb{K}$ ha i suoi zeri in $\mathbb{K}$
+
