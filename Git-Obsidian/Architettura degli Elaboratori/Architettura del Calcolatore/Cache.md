@@ -26,7 +26,7 @@
 >2. Se il dato ***è presente*** in cache, caricalo subito (***cache hit***)
 >3. *Altrimenti*:
 >	1. *Leggi* il dato dalla ***memoria***
->	2. *Carica* il nuovo dato in ***cache***, se la *cache* è #piena, applica la politica di rimpiazzamento per caricare il nuovo dato al posto di uno di quelli esistenti
+>	2. *Carica* il nuovo dato in ***cache***, se la *cache* è "*piena*" ([[#Ricerca di un Valore in Cache|vedi mappatura]]), applica la politica di rimpiazzamento per caricare il nuovo dato al posto di uno di quelli esistenti
 
 - I valori ***modificati in cache*** in genere non sono riscritti immediatamente in *memoria*
 	- Potrebbero dovere essere nuovamente *aggiornati*
@@ -48,3 +48,64 @@
 
 ## Tecniche di Gestione
 ---
+>[!abstract] Basate sul Principio di Località Spaziale
+>Le ***politiche di allocazione*** tengono conto di ciò che leggendo normalmente più dati di quelli necessari (un'intera ***linea di cache***) con la speranza che questi *vengano in seguito richiesti*
+
+>[!abstract] Basate sul Principio di Località Temporale
+>Le ***politiche di rimpiazzamento*** sfruttano il principio di località temporale per decidere quale blocco di ***cache*** rimpiazzare
+>Normalmente la politica utilizzata è `LRU` (***L***east ***R***ecently ***U***sed)
+>- Viene rimpiazzato il blocco utilizzato ***meno recentemente***
+>
+>Se il dato è *stato modificato* in cache ***prima del rimpiazzamento*** deve essere aggiornato in memoria
+
+## Livelli di Cache
+---
+*Nei calcolatori moderni vengono spesso utilizzate più cache*
+
+>[!info] Livelli
+>Diversi ***Livelli di Cache*** ($L_{1},L_{2},L_{3}$) sono impiegati a cascata per ottimizzare il ***trade-off costi/prestazioni***
+
+La realizzazione di tutti i ***livelli di cache*** all'interno della `CPU` consente di realizzare `BUS` *interni molto veloci* riservati esclusivamente alla comunicazione `CPU`-*cache*
+
+>[!example] Livello $1$
+
+La cache di livello $I$ è la più veloce tra tutte, molto vicino alla `CPU`
+- È divisa in due ***cache***
+	- Una utilizzata per le ***istruzioni***
+	- Una utilizzata per i ***dati***
+>[!question] Perché questa divisione?
+
+>*Esempio Banale*
+
+Un ***ciclo*** che scorre un array *molto grande*
+- Le *istruzioni* sono ***sempre le stesse***
+- I *dati* cambiano ***ogni ciclo***
+
+>[!example] Livello 2
+
+La cache di livello $II$ è un po' più grande di quella di livello $I$
+- Leggermente più lenta di quella di livello $I$
+- Più capiente di quella di livello $I$
+
+>[!example] Livello 3
+
+La cache di livello $III$ è la *cache* più capiente, qualche decina di $Mb$
+- Leggermente più lenta di quella di livello $II$
+- Più capiente di quella di livello $II$
+
+## Ricerca di un Valore in Cache
+---
+>[!question] Come fa una cache a capire "velocemente" se un certo dato/indirizzo è presente?
+
+>[!info] Mappatura Diretta
+>Nel tipo di ***cache*** più semplice, denominata ***mappatura diretta*** una linea, quando presente, può essere caricata in una sola posizione che dipende da un sottoinsieme dei `BIT` dell'indirizzo
+
+>[!fail] Svantaggio
+
+Questo modello non consente l'implementazione di ***politiche di rimpiazzamento efficaci***
+- Ogni collisione determina l'***uscita obbligatoria*** del contenuto *precedente*
+
+>[!info] $n$-way set-associative
+>Ciascuna linea può essere ospitata in $n$ ***posizioni diverse*** e questo garantisce migliori prestazioni potendo applicare rimpiazzamento con politica `LRU`
+
+*La cache nei processori Intel e AMD recenti sono associative a $n$-vie con valori di $n=8$ o superiori*
