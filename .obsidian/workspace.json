@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -99,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Algebra e Geometria/Applicazioni/Matrici Diagonali.md",
+                "file": "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Cache.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Algebra e Geometria/Applicazioni/Matrici Diagonali.md",
+                "file": "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Cache.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git-Obsidian/Algebra e Geometria/Applicazioni/Matrici Diagonali.md"
+                "file": "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Cache.md"
               }
             }
           },
@@ -180,10 +179,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "1eb7d09816fe7d27",
+  "active": "657ccb5407d4de92",
   "lastOpenFiles": [
-    "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Cache.md",
     "Git-Obsidian/Algebra e Geometria/Applicazioni/Matrici Diagonali.md",
+    "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Cache.md",
     "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/attatchements/CachePosition.png",
     "Git-Obsidian/Architettura degli Elaboratori/Algebra di Bool e Logica Digitale/Organizzazione dei Chip di Memoria.md",
     "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/attatchements",
