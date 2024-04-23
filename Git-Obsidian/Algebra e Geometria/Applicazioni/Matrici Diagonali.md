@@ -393,3 +393,56 @@ Come abbiamo visto in precedenza:
 
 >[!done] Gli autovalori si possono sempre trovare a condizione di mettersi in un campo più grande
 
+## Autospazio
+---
+>[!info] Definizione
+>Sia $V$ uno [[Campi e Spazi Vettoriali#Spazio Vettoriale|spazio vettoriale]] su $\mathbb{K}$, sia $f$ un [[Isomorfismo#Endomorfismo|endomorfismo]] e sia $\lambda_{i}$ un suo autovalore
+>L'***autospazio*** relativo a $\lambda_{i}$ è
+>$$V\lambda_{i}=\{ v\in V:f(v)=\lambda_{i}v \}=\{ \text{tutti gli autovettori }\cup\{ \underline{0} \} \}$$
+
+>[!abstract] Proprietà
+>1. $V\lambda_{i}$ è un ***sottospazio vettoriale*** di $V$
+>2. Se $\lambda_{i}\neq\lambda_{j},V\lambda_{i}\cap V\lambda_{j}=\{ \underline{0} \}$
+
+### Dimostrazione
+>*1)*
+
+Se $v,u$ sono ***autovettori*** $\in V\lambda_{i}$, cioè
+- $f(v)=\lambda_{i}v$
+- $f(u)=\lambda_{i}u$
+<u>Allora</u>
+
+$$
+f(v+u)=f(v)+f(u)=\lambda_{i}v+\lambda_{i}u=\lambda_{i}(u+v)\implies v+u\in V\lambda_{i}
+$$
+- Analogamente se:
+$$
+a\in\mathbb{K}, f(av)=af(v)=\lambda_{i}av\implies av\in V\lambda_{i}
+$$
+
+>*2)*
+
+Sia $v\in V\lambda_{i}\cap V\lambda_{j}$ con $\lambda_{i}\neq \lambda_{j}$
+
+<u>Allora</u>
+$$
+\lambda_{i}v=f(v)=\lambda_{j}v
+$$
+- Cioè
+$$
+\lambda_{i}v-\lambda_{j}v=\underline{0}
+$$
+- Cioè
+$$
+(\underbrace{ \lambda_{i}-\lambda_{j} }_{ \neq 0 })(v)=\underline{0}\implies v=\underline{0}
+$$
+## Molteplicità
+---
+>[!info] Molteplicità Geometrica
+>La ***molteplicità geometrica*** è la *dimensione* dell'[[#Autospazio]]
+>$$mg(\lambda_{i})=\text{dim} (V\lambda_{i})$$
+
+>[!info] Molteplicità Algebrica
+>La ***molteplicità algebrica*** di $\lambda_{i}$ ($ma(\lambda_{i})$) è la sua molteplicità come soluzione dell'equazione $p(\lambda)=0$
+
+
