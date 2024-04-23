@@ -28,7 +28,7 @@ Gli indirizzi di memoria sono espressi tramite numeri binari:
 
 ![[Pasted image 20240327115941.png]]
 
-#### Tipi di Memoria Principale
+ #### Tipi di Memoria Principale
 >[!tldr] SIMM
 >***S***ingle ***I***nline ***M***emory ***M***odule
 >È un tipo di *banco di memoria* dove i ***contatti dorati*** si trovano solo su un lato della scheda
