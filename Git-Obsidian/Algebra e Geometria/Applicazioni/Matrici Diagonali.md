@@ -445,4 +445,4 @@ $$
 >[!info] Molteplicità Algebrica
 >La ***molteplicità algebrica*** di $\lambda_{i}$ ($ma(\lambda_{i})$) è la sua molteplicità come soluzione dell'equazione $p(\lambda)=0$
 
-
+#Esempi_Lezione_14
