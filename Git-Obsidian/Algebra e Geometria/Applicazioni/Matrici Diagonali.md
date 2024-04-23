@@ -320,3 +320,76 @@ $$
 
 >[!tldr] Tutto questo funziona se $p(x)$ che è un polinomio a coefficienti in $\mathbb{K}$ ha i suoi zeri in $\mathbb{K}$
 
+#### Esempio
+>$f:\mathbb{R}^2\to\mathbb{R}^2,\ f(x,y)=(y,-x)$
+
+>[!teor] Nella base *canonica* la matrice di $f$:
+
+- $f(e_{1})=-e_{2}$
+- $f(e_{2})=e_{1}$
+
+$$
+A=\begin{pmatrix}
+0 & 1 \\
+-1 & 0
+\end{pmatrix}
+$$
+$$
+A-\lambda I_{2}=\begin{pmatrix}
+-\lambda & 1 \\
+-1 & -\lambda
+\end{pmatrix}
+$$
+- $\det(A-\lambda I_{2})=\lambda^2+1=0\implies \cancel{ \exists } \lambda\in\mathbb{R}$
+
+>[!fail] $f$ non si *diagonalizza* su $\mathbb{R}$
+
+Ma $\lambda^2+1=0$ ha soluzioni in $\mathbb{C}\to \lambda_{1}=i,\lambda_{2}=-i$
+
+>[!abstract] Troviamo gli *autovettori*
+
+$v_{1}=(x,y)\to f(v_{1})=iv_{1}$
+- $(y,-x)=f(x,y)=(ix,iy)$
+
+$$
+\begin{cases}
+y=ix \\
+-x=iy
+\end{cases}\underset{ \text{*i} }{ \implies }
+$$
+Una soluzione è $v_{1}=(1,i)$
+
+Analogamente
+
+$v_{2}=(x,y)\to f(v_{2})=-i$
+- $(y,-x)=f(x,y)=(-ix,-iy)$
+
+$$
+\begin{cases}
+y=-ix \\
+-x=-iy
+\end{cases}
+$$
+Una soluzione è $v_{2}=(1,-i)$
+
+>[!done] $f$ ha per *matrice*
+
+$$
+D=\begin{pmatrix}
+i & 0  \\
+0 & i
+\end{pmatrix}
+$$
+
+$f$ si diagonalizza come applicazione $\mathbb{C}^2\to\mathbb{C}^2$, ma non come applicazione $\mathbb{R}^2\to\mathbb{R}^2$
+
+### Conclusione Diagonalizzazione
+>Per $\mathbb{K}=\mathbb{Q},\mathbb{R},\mathbb{Z}_{p}$ esistono polinomi a coefficienti in $\mathbb{K}$ che non hanno i loro zeri in $\mathbb{K}$
+
+Come abbiamo visto in precedenza:
+- "***Il teorema fondamentale dell'algebra***"
+	- Ogni polinomio a coefficienti in $\mathbb{C}$ ha soluzioni in $\mathbb{C}$
+
+
+>[!done] Gli autovalori si possono sempre trovare a condizione di mettersi in un campo più grande
+
