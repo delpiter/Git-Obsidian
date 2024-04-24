@@ -445,4 +445,109 @@ $$
 >[!info] Molteplicità Algebrica
 >La ***molteplicità algebrica*** di $\lambda_{i}$ ($ma(\lambda_{i})$) è la sua molteplicità come soluzione dell'equazione $p(\lambda)=0$
 
-#Esempi_Lezione_14
+#### Esempio
+>*Sia $p(\lambda)=(\lambda-2)^5(\lambda+3)^2(\lambda-7)$*
+
+- $\lambda_{1}=2 \ \ \ \ \ ma(\lambda_{1})=5$
+- $\lambda_{2}=-3 \ \ \ \ \ ma(\lambda_{2})=2$
+- $\lambda_{3}=7 \ \ \ \ \ ma(\lambda_{3})=1$
+
+### Proposizione sulla Molteplicità
+>[!Proposizione]
+>Sia $\lambda_{i}$ un ***autovalore*** di $f$
+><u>Allora</u>
+>$$1\leq mg(\lambda_{i})\leq ma(\lambda_{i})$$
+
+#### Dimostrazione
+>$mg(\lambda_{i})\geq1$
+
+- Perché se fosse $mf(\lambda_{i})=0$
+	- Cioè $\text{dim}(V\lambda_{i})=0\implies V\lambda_{i}=\{ \underline{0} \}$
+
+Avremmo che non ci sono vettori non nulli
+- $v\in V, v\neq0:f(v)=\lambda_{i}v$
+
+- Contraddicendo la [[#Autovettore e Autovalore|definizione di autovalore]]
+
+>*Sia ora* $h=mg(\lambda_{i})=\text{dim}(V\lambda_{i})$ *e mostriamo che $ma(\lambda_{i})\geq h$*
+
+Prendiamo una base $v_{1},\dots,v_{h}$ di $V\lambda_{i}$
+- Completiamola ad una base di $V$, aggiungendo $v_{h+1},\dots,v_{n}$
+
+>[!abstract] Scriviamo la matrice di $f$ in *tale base*
+
+- $f(v_{1})=\lambda_{i}v_{1}$
+- $f(v_{2})=\lambda_{i}v_{2}$
+- $\dots$
+- $f(v_{h})=\lambda_{i}v_{h}$
+- $\dots$
+- $f(v_{h+1})=?$
+- $\dots$
+- $f(v_{n})=?$
+
+La matrice sarà di *questo tipo*:
+$$
+A=\begin{pmatrix}
+\lambda_{i} & 0 & \dots & 0  & ?\\
+0 & \lambda_{i} & \dots & 0  & ?\\
+\dots & \dots & \dots & \dots  & ?\\
+0 & 0 & \dots & \lambda_{i} & ? \\
+0 & 0 & \dots & 0 & ?
+\end{pmatrix}
+$$
+Siamo a conoscenza di $h$ ***colonne della matrice***
+
+Cerchiamo gli ***autovalori***:
+$$
+A-id=\begin{pmatrix}
+\lambda_{i}-\lambda & 0 & \dots & 0  & ?\\
+0 & \lambda_{i}-\lambda & \dots & 0  & ?\\
+\dots & \dots & \dots & \dots  & ?\\
+0 & 0 & \dots & \lambda_{i}-\lambda & ? \\
+0 & 0 & \dots & 0 & ?
+\end{pmatrix}
+$$
+
+- $p(\lambda)=\det(A-\lambda id)=(\lambda_{i}-\lambda)^h\cdot q(\lambda)$
+
+>[!done] Il fattore $\lambda_{i}-\lambda$ compare almeno $h$ volte in $p(\lambda)$
+>Potrebbe esserci anche in $q(\lambda)$ oppure no
+
+Quindi:
+$$
+ma(\lambda_{i})\geq h
+$$
+##### Esempio
+>*Sia* $f:\mathbb{R}^2\to\mathbb{R}^2, f(x,y)=(2x+5y,2y)$
+
+>[!abstract] Cerco gli autovalori sulla base canonica
+
+$$
+p(\lambda)=\det\begin{pmatrix}
+2-\lambda & 5 \\
+0 &  2-\lambda
+\end{pmatrix}=(2-\lambda)^2
+$$
+- L'unico autovalore è $\lambda_{1}=2$ con $ma(\lambda_{1})=2$
+
+$$
+f(x,y)=2(x,y)\iff\begin{cases}
+2x+5y=2x \\
+2y=2y
+\end{cases}\iff y=0
+$$
+
+- $V\lambda_{1}=\{ (x,0),x\in\mathbb{R} \}\implies mg(\lambda_{1})=1$
+
+Prendiamo un vettore di $V\lambda_{1}$, $v_{1}=(1,0)$
+
+>[!question] Possiamo prendere un altro vettore e completare a una base di $V$?
+
+- Se prendo $v_{2}\in V\lambda_{1}$
+
+>[!fail] Non riesco a completare una base, $v_{2}$ è linearmente dipendente da $v_{1}$
+
+- Se prendo $v_{2}\cancel{ \in } V\lambda_{1}$
+
+>[!fail] $v_{2}$ non è un *autovettore*
+
