@@ -8,3 +8,48 @@
 >2. $ma(\lambda_{i})=mg(\lambda_{i}), \forall i=1,\dots,t$ La [[Matrici Diagonali#Molteplicità|molteplicità algebrica e geometrica]] di tutti gli ***autovalori coincidono***
 
 ### Dimostrazione
+>*Supponiamo che valga la condizione 1)*
+
+Cioè $\lambda_{1},\dots,\lambda_{t}\in\mathbb{K}$ e consideriamo gli ***autospazi***
+$$
+V\lambda_{1},\dots,V\lambda_{t}
+$$
+Sia $U=V\lambda_{1}\oplus\dots\oplus V\lambda_{t}$
+- $U$ è una [[Intersezione e Somma di Sottospazi#Somma Diretta|somma diretta]], perché, come abbiamo mostrato prima: 
+	- $V\lambda_{i}\cap V\lambda_{j}=\{ \underline{0} \} \text{ per }\lambda_{i}\neq \lambda_{j}$
+
+Sia $\mathcal{B}1$ una base di $V\lambda_{1},\dots,\mathcal{B_{t}}$ una base di $V\lambda_{t}$ 
+- Quindi, poiché $U$ è una ***somma diretta***
+$$
+\mathcal{B}=\mathcal{B}_{1}\cup\mathcal{B}_{2}\cup\dots\cup\mathcal{B}_{t}
+$$
+- È una base di $U$
+
+Quindi $\text{dim}(U)=\text{dim}(V\lambda_{1})+\dots+\text{dim}(V\lambda_{t})=mg(\lambda_{1})+\dots+mg(\lambda_{t})$
+
+D'altra parte, $\text{dim}(V)=$ grado di $p(\lambda)=ma(\lambda_{1})+\dots+ma(\lambda_{t})$
+
+>*Se vale la condizione 2) allora:*
+
+$$
+\text{dim}(U)=\text{dim}(V)
+$$
+- Ovvero: $U=V$ ovvero $\mathcal{B}$ è una base di $V$ composta da ***autovettori***
+
+>[!done] Quindi in tale base la matrice di $f$ è *diagonale*
+
+>*Se non vale la condizione 2)*
+
+$$
+\text{dim}(U)=mg(\lambda_{1})+\dots+mg(\lambda_{t})<ma(\lambda_{1})+\dots+mg(\lambda_{t})=\text{dim}(V)
+$$
+
+Quindi $\mathcal{B}$ non è una base di $V$
+- Posso completare $\mathcal{B}$ ad una *base* di $V$, ma i vettori che aggiungo **non** sono ***autovettori***
+
+>[!fail] La matrice di $f$ non è diagonale
+
+>[!tldr] Osservazione
+>Se valgono 1) e 2), la dimostrazione ci fornisce un algoritmo esplicito per trovare la base di autovettori di $V$
+>Basta unire le basi degli ***autospazi***
+
