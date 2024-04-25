@@ -26,7 +26,7 @@ Gli indirizzi di memoria sono espressi tramite numeri binari:
 >*I **chip** di memoria non vengono venduti singolarmente ma sono normalmente organizzati su schede stampate*
 >*Ogni scheda contiene generalmente da $8$ a $16$ **chip***
 
-![[Pasted image 20240327115941.png]]
+![[Ram Stick.png]]
 
  #### Tipi di Memoria Principale
 >[!tldr] SIMM
@@ -99,12 +99,12 @@ La produzione di `ROM`, di conseguenza deve essere per forza appaltata a *grosse
 >Un ***hard disk*** (***HD***) è un dispositivo ***elettro-meccanico*** per la conservazione di informazioni sotto forma *magnetica*, su supporto rotante a forma di ***piatto***, su cui agiscono delle ***testine*** di *lettura/scrittura*
 >[[Le Memorie|Memoria]] di tipo ***persistente*** e ***on line***
 
-![[Pasted image 20240327133131.png]]
+![[HDD.png]]
 ### Testina
 >[!tldr] La testina di lettura/scrittura
 >La ***testina*** di un disco, contenente un induttore, è sospesa sopra la superficie e viene sostenuta da un cuscino ad area
 
-![[Pasted image 20240327133456.png]]
+![[HDD-Precision.png]]
 
 ### Scrittura
 >[!info] Scrittura
@@ -118,7 +118,7 @@ La produzione di `ROM`, di conseguenza deve essere per forza appaltata a *grosse
 >*Il disco rigido è formato da diverse parti, tra cui le principali:*
 
 
-![[Pasted image 20240327134729.png]]
+![[HDD-Parts.png]]
 
 >[!tldr] Traccia
 >La ***traccia*** è una sequenza circolare di `BIT`
@@ -135,7 +135,7 @@ La produzione di `ROM`, di conseguenza deve essere per forza appaltata a *grosse
 >>[!info] Codice di Correzione Errori
 >>Il [[Correzione di Errori|Codice di Correzione Errori]] è utilizzato per individuare e correggere eventuali errori
 
-![[Pasted image 20240327140932.png]]
+![[HDD-Sector.png]]
 >[!tldr] Cilindro
 >Il ***cilindro*** è l'*insieme delle tracce* in una data posizione radiale
 >Il cilindro è un concetto ***virtuale***, non esiste fisicamente un *cilindro*
@@ -181,7 +181,7 @@ Prima di poter leggere o scrivere la suddetta struttura (*tracce*, *settori*) de
 >Si tratta di dispositivi *completamente elettronici*, normalmente basati su ***memorie flash***, e senza ***nessuna parte in movimento***
 >*Ridotti* notevolmente i ***tempi*** di *lettura* e *scrittura*
 
-![[Pasted image 20240328095303.jpg]]
+![[SSD.jpg]]
 
 >[!done] Pro
 
@@ -262,7 +262,7 @@ Prima di poter leggere o scrivere la suddetta struttura (*tracce*, *settori*) de
 >- ***Hot Swap*** delle unità
 
 
-![[Pasted image 20240329101324.jpg]]
+![[SATA.jpg]]
 ### Interfacce PCI
 >[!info] NVMe
 >***N***on ***V***olatile ***M***emory ***e***xpress
@@ -272,7 +272,7 @@ Prima di poter leggere o scrivere la suddetta struttura (*tracce*, *settori*) de
 >Possono avere la forma di una ***scheda di memoria*** collegata con un connettore `M.2`
 >O sotto forma di un ***disco*** da `2.5` pollici collegato tramite connettore `U.2`
 
-![[image-removebg-preview 3.png]]
+![[SSD-NVME.png]]
 
 ### SCSI e SAS
 >[!info] SCSI
@@ -305,34 +305,34 @@ Prima di poter leggere o scrivere la suddetta struttura (*tracce*, *settori*) de
 >***Non Redundant Data Striping***
 >Mette assieme 2 o più dischi
 
-![[Pasted image 20240329105526.png]]
+![[Raid0.png]]
 
 >[!abstract] RAID 1
 >***Redundant Data Striping***
 >Esegue la Copia `BIT` a `BIT` di un disco in un altro
 
-![[Pasted image 20240329105645.png]]
+![[Raid1.png]]
 
 >[!abstract] RAID 2
 >***Data Striping at `BIT` Level***
 
-![[Pasted image 20240329105744.png]]
+![[Raid2.png]]
 
 >[!abstract] RAID 3
 >***Bit Interleaved Parity***
 
-![[Pasted image 20240329105855.png]]
+![[Raid3.png]]
 
 >[!abstract] RAID 4
 >***Block Interleaved Parity***
 
 
-![[Pasted image 20240329105947.png]]
+![[Raid4.png]]
 
 >[!abstract] RAID 5
 >***Block Interleaved Distributed Parity***
 
-![[Pasted image 20240329110047.png]]
+![[Raid5.png]]
 
 ## Dischi Ottici
 ---
@@ -346,7 +346,7 @@ Prima di poter leggere o scrivere la suddetta struttura (*tracce*, *settori*) de
 >>Un passaggio ***Pit-Land*** o ***Land-Pit*** codifica un $1$
 >>L'***assenza di variazioni*** codifica lo $0$
 
-![[Pasted image 20240330162837.png]]
+![[CD.png]]
 
 >[!abstract] Lettura
 >Le informazioni sono lette tramite un ***raggio laser*** che viene *riflesso* diversamente al passaggio sui ***Pit*** e ***Land***
@@ -385,7 +385,7 @@ Al fine di evitare questo problema
 
 - $16$ `BYTE` di preambolo $+2048$ `BYTE` di dati $+288$ `BYTE` di correzione di errori
 
-![[Pasted image 20240401111902.png]]
+![[CD-Sector.png]]
 
 
 >[!example] Modo $II$
@@ -400,7 +400,7 @@ Al fine di evitare questo problema
 - Diversamente dai `CD` la riflettività di ***pit*** e ***land*** viene ottenuta "*bruciando*" tramite un raggio laser uno strato di materiale colorato
 	- Inserito tra il policarbonato e lo strato riflettente
 
-![[Pasted image 20240401112805.png]]
+![[CD-R.png]]
 
 Lo standard `CD-R` prevede la possibilità di scrivere su un disco in modo ***incrementale***
 - Un gruppo di ***settori*** consecutivi *scritti nello stesso momento* si chiama `CD-ROM tack`
@@ -432,7 +432,7 @@ Lo **spazio** a disposizione non è ***mai sufficiente***
 La tecnologia a ***Doppio strato*** è ottenuta inserendo tra i due strati uno *strato semiriflettente*
 - A seconda del punto su cui il laser è *messo a fuoco*, la ***riflessione*** avverrà da uno strato oppure l'altro
 
-![[Pasted image 20240401114544.png]]
+![[DVD.png]]
 
 ### Blue-Ray
 >[!info] Blue Ray

@@ -27,7 +27,7 @@ $W=\{ (x,y)\in\mathbb{R}^2:x=0 \}$
 - $U$ e $W$ sono gli assi del piano cartesiano
 Basta prendere $u_{1}=(1,0)\in U$ e $w_{1}=(0,1)$
 - Notiamo subito che $u_{1}+w_{1} \notin U \cup W$
-![[Pasted image 20240227171614.png]]
+![[Unione di Sottospazi.png]]
 ## Sottospazio Somma
 ---
 >[!info] Definizione

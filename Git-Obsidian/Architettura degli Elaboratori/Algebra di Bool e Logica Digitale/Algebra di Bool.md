@@ -13,7 +13,7 @@ Si studia l'algebra booleana poiché le funzioni dell'algebra booleana sono ***i
 $$
 V=f(X,Y,Z)
 $$
-![[Screenshot 2024-04-10 180548.png]]
+![[Bool Function Truth Table.png]]
 
 ### Operazioni di Base
 >*L'algebra di **Boole** si basa su tre operatori di base, `AND`, `OR`, `NOT`*
@@ -25,15 +25,15 @@ Tutte le ***funzioni booleane*** possono essere espresse come combinazione di qu
 >[!info] Nega il segnale di ingresso
 
 
-![[Screenshot 2024-04-11 135519.png]]
+![[NOT-Gate.png]]
 #### OR
 >[!info] Output `1` se *almeno* uno dei due input è `1`
 
-![[Screenshot 2024-04-11 135909.png]]
+![[OR-Gate.png]]
 #### AND
 >[!info] Output `1` $\iff$ entrambi gli input sono `1`
 
-![[Screenshot 2024-04-11 135723 1.png]]
+![[AND-Gate.png]]
 
 ### Rappresentazioni Alternative
 >*Le dimensioni delle tabelle di verità crescono al crescere delle variabili in input, sono quindi necessarie delle rappresentazioni alternative*
@@ -42,7 +42,7 @@ Tutte le ***funzioni booleane*** possono essere espresse come combinazione di qu
 >[!info] ‎ 
 >Ordinando le righe dell'input come i ***numeri binari*** è possibile codificare le tabelle di verità memorizzando solo la colonna dell'***output***
 
-![[Pasted image 20240410182231.png]]
+![[Simplified Truth Table.png]]
 
 #### Output `1`
 >[!info] ‎ 
@@ -109,9 +109,9 @@ Una espressione $f'$ è più *semplice* di una espressione $f$, $f\equiv f'$ sec
 $$
 XY\overline{Z}+X\overline{Y}Z+XYZ \equiv X(Y+Z)
 $$
-![[Pasted image 20240411113745.png]]
+![[Simplified Boolean Function.png]]
 
 ### Proprietà
 >*Le funzioni booleane possono essere semplificate applicando ripetutamente le seguenti proprietà*
 
-![[Pasted image 20240411125837.png]]
+![[Boolean Propreties.png]]

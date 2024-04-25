@@ -13,7 +13,7 @@ struct node{
 	struct node *next;
 };
 ```
- ![[Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/attatchements/linked-list-concept.webp]]
+ ![[Linked-List.webp]]
  
  >[!warning] Problema
  
@@ -39,7 +39,7 @@ struct node{
 	struct node *prev;
 };
 ```
-![[Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/attatchements/Pasted image 20240316110111.png]]
+![[Doubly-Linked-List.png]]
 
 ## Operazioni
 ---
@@ -74,8 +74,8 @@ static void NodeInsert(struct node *L, int elem){
 >[!info] Cancellazione
 >La **rimozione di un nodo**, come per l'inserimento, è critica in termini di *perdita di informazione*
 
-![[Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/attatchements/Pasted image 20240316113550.png]]
-![[Pasted image 20240316113738.png]]
+![[Doubly Linked List-Delete-1.png]]
+![[Doubly Linked List-Delete-2.png]]
 
 ```c
 static void NodeDelete(struct node *L){
@@ -127,7 +127,7 @@ struct BinaryTreeNode{
 	BinaryTreeNode* rChild;
 }
 ```
-![[Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/attatchements/Screenshot 2024-03-16 122244.png]]
+![[Binary-Tree.png]]
 
 >[!warning] Problema
 
@@ -150,4 +150,4 @@ struct TreeNode{
 }
 ```
 
-![[Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/attatchements/Screenshot_2024-03-16_123229-removebg-preview.png]]
+![[Linked-List-Tree.png]]

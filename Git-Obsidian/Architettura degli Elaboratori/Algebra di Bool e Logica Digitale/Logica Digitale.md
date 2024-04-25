@@ -3,7 +3,7 @@
 Un sistema digitale opera con segnali "***discretizzati***" 
 - Nel caso dei *circuiti elettrici digitali* un segnale può assumere ***2 stati***
 
-![[Pasted image 20240411133107.png]]
+![[LogicStates.png]]
 
 >[!info] Porte Logiche
 >I *mattoncini* di base dei circuiti sono le ***porte logiche***
@@ -15,7 +15,7 @@ Un sistema digitale opera con segnali "***discretizzati***"
 >>[!done] Funzionamento
 >>Un segnale sulla ***base*** ha l'effetto di mettere in comunicazione diretta ***emettitore*** e ***collettore***
 
-![[Pasted image 20240411134842.png]]
+![[Transistor.png]]
 *I circuiti sovrastanti rappresentano rispettivamente le porte logiche `NOT`, `NAND` e `NOR`*
 
 ## Porte Logiche di Base
@@ -29,19 +29,19 @@ Un sistema digitale opera con segnali "***discretizzati***"
 #### NAND
 >[!info] Equivale alla porta `AND` la cui uscita è *negata*
 
-![[Screenshot 2024-04-11 140107.png]]
+![[NAND-Gate.png]]
 >*Sebbene sembri più complicata rispetto all'`AND`, la realizzazione in termini di transistor è più semplice*
 #### NOR
 >[!info] Equivale alla porta `OR` la cui uscita è *negata*
 
-![[Screenshot 2024-04-11 140223 1.png]]
+![[NOR-Gate.png]]
 >*Sebbene sembri più complicata rispetto all'`OR`, la realizzazione in termini di transistor è più semplice*
 
 #### XOR
 >[!info] Output `1` $\iff$ gli input sono *diversi*
 
 
-![[Pasted image 20240412152119.png]]
+![[XOR-Gate.png]]
 
 $$
 A\oplus B = \overline{A}B + A\overline{B}

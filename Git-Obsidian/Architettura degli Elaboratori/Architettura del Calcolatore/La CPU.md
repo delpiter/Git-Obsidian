@@ -32,7 +32,7 @@ Il registro più importante è il ***program counter*** (`PC`) che indica la *pr
 >I registri della `CPU` sono differenti rispetto ai [[Registri]] del ***linguaggio assembly***
 ## Data Path
 ---
-![[Pasted image 20240325224826.png]]
+![[DataPath.png]]
 >[!info] Definizione
 >Il passaggio di *due operandi* attraverso la `ALU` e la *memorizzazione del risultato* in un nuovo registro viene detto ***ciclo di data path***
 >Ogni istruzione [[Il Livello ISA|ISA]] viene eseguita in ***uno o più cicli*** di *data path*

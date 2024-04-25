@@ -35,7 +35,7 @@ int *j; //pointer to int type variable
 ### Assegnamento
 >[!tldr]
 >Una variabile di tipo puntatore può contenere solo **indirizzi di memoria** o il valore costante `NULL`
->![[pngwing.com.png]]
+>![[Pointers.png]]
 
 - Gli indirizzi di memoria ottenuti tramite [[Intro Espressioni e Operatori#Operatori|l'operatore]] `&` possono essere assegnati ad una variabile di tipo puntatore
 

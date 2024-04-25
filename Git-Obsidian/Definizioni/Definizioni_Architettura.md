@@ -132,7 +132,7 @@ I termini "*code point*" e "*carattere*" non sono sinonimi
 
 ## Economy
 ---
-![[Pasted image 20240412103051.png]]
+![[Economy.png]]
 *"Might have a negative effect"*
 >*Structured Computer Organization, Andrew S. Tanenbaum, Todd Austin*
 
@@ -147,7 +147,7 @@ I termini "*code point*" e "*carattere*" non sono sinonimi
 >[!info] Definizione
 >I ***buffer tri-state*** agiscono come *interruttori elettronici* capaci di ***collegare/scollegare elettricamente*** due parti di un circuito
 
-![[Pasted image 20240418135643.png]]
+![[Tri-State-Buffer.png]]
 >$a)\to$ *buffer tri-state*
 >$b)\to$ *effetto di un* $a)$ *quando il controllo ha uno stato alto*
 >$c)\to$ *effetto di un* $a)$ *quando il controllo ha uno stato basso*

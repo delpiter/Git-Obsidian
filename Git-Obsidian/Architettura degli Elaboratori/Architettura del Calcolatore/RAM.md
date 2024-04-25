@@ -7,7 +7,7 @@
 >
 >Questo tipo di memoria viene tipicamente utilizzato per realizzare ***registri*** e ***cache***, entrambe interni alla `CPU`
 
-![[Screenshot 2024-04-18 113408.png]]
+![[8Bit-Registry.png]]
 >*Registro a $8$ `BIT`, realizzato con $8$ Flip-Flop D*
 
 - Gli $8$ *flip-flop* hanno gli ***input clock*** collegati fra di loro e sono pilotati da una porta `NOT`
@@ -18,7 +18,7 @@
 ### Realizzazione di un Chip `SRAM`
 >*La figura che segue, mostra lo schema di una `SRAM` $4\times 3$ realizzata con $12$ flip-flop D*
 
-![[Screenshot 2024-04-18 115019.png]]
+![[SRAM-4x3.png]]
 - $I_{0},I_{1},I_{2}$ sono gli *input dati*, necessari per la ***scrittura*** di un dato in *memoria*
 - $O_{0},O_{1},O_{2}$ sono gli *output dati*, nei quali ***verranno posti dalla memoria*** le *parole* che devono essere messe in *output*
 - $A_{0},A_{1}$ sono i due input per la *selezione dell'indirizzo* della ***parola di interesse***
@@ -62,7 +62,7 @@ In fase di ***scrittura*** `CS` ha un valore "*alto*", mentre `RD` e `OE` hanno 
 >[!info] *D*ynamic *RAM*
 >Le `DRAM` non sono realizzate con *flip-flop* ma con ***array di celle*** ognuna costituita da un ***transistor*** più un ***condensatore***
 
-![[Pasted image 20240418184121.png]]
+![[DRAM-4x4.png]]
 
 >[!tldr] Condensatore
 >Il ***condensatore*** è un componente in grado di mantenere per un *piccolo periodo* la ***carica elettrica*** accumulata (*memoria*)
@@ -85,7 +85,7 @@ Sono anche ***significativamente più lente***
 #### Esempio
 >*Esempio di lettura da parte della `CPU` di dati da memoria asincrona sul `BUS` che collega `CPU` e memoria*
 
-![[Pasted image 20240419110406.png]]
+![[AsyncMemory.png]]
 >[!abstract] "*Legenda*"
 >- Le linee "*doppie*", come *ADDRESS* e *DATA*, sono dei `BUS`, formati da *tanti fili elettrici* quanti sono i `BIT` che trasporta.
 >	- L'*incrocio* fra queste linee indica che è stata effettuata una ***scrittura***
@@ -117,9 +117,9 @@ Le `DRAM` sincrone sono più *semplici da realizzare*, *interfacciare* e ***cons
 #### Esempio
 >*Esempio di lettura da parte della `CPU` di dati da memoria sincrona sul `BUS` che collega `CPU` e memoria*
 
-![[Pasted image 20240419152333.png]]
+![[SyncMemory.png]]
 
-![[Pasted image 20240419152659.png]]
+![[Delays.png]]
 >*Tutti i tempi riportati in tabella costituiscono dei vincoli che devono essere rigidamente rispettati al fine di consentire un dialogo corretto tra le due parti*
 
 >[!attention] Funzionamento
@@ -136,7 +136,7 @@ Assumiamo che il ***clock*** operi a $40 MHz$, assumiamo inoltre che la lettura 
 - Sul fronte di discesa $T_{3}$ la `CPU` legge i dati sul `BUS` e disattiva `MREQ` e `RD`
 
 #### Modalità Burst
-![[Pasted image 20240419161352.png]]
+![[BurstMode.png]]
 
 - La `CPU` mette sul `BUS` indirizzi (*address*) l'indirizzo di partenza del blocco e sul `BUS` dati (*data*) il ***numero di parole da trasferire***
 - Inoltre, attiva la linea `BLOCK` per comunicare che si tratta di un trasferimento "*burst*"
@@ -152,7 +152,7 @@ Assumiamo che il ***clock*** operi a $40 MHz$, assumiamo inoltre che la lettura 
 >[!info] *D*ouble *D*ata *R*ate
 >Le memorie `DDR` sono le memorie più utilizzate nei `PC` 
 >Si tratta di una variante delle `SDRAM`, può inviare i dati alla `CPU` due volte ogni *ciclo ci clock*
->![[SDR_DDR_QDR.svg.png]]
+>![[SDR_DDR.png]]
 
 In oltre, nella specifica `DDR` sono previsti $2$ canali di accesso paralleli a $64$ `BIT` ($128$ `BIT` *totali*)
 

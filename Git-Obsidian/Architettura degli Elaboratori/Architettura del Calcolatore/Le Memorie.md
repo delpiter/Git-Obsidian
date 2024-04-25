@@ -4,7 +4,7 @@
 Ogni calcolatore utilizza tipi di memoria diversi per scopi diversi
 - Memorie più lente sono un ***bottle neck*** per le [[La CPU|CPU]]
 
-![[memory hierarchy.png]]
+![[memory-hierarchy.png]]
 
 >[!warning] Trade Off
 

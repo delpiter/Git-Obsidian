@@ -81,7 +81,7 @@
 | $16$-`BIT` | $65.536$     | $2$    | High Color         |
 | $24$-`BIT` | $16.777.216$ | $3$    | True Color (`RGB`) |
 
-![[Screenshot 2024-04-01 163620.png]]
+![[Resolutions.png]]
 
 ### Interfaccia
 

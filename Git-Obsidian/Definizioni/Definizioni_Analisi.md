@@ -6,9 +6,9 @@ $Y$, tale che ad ogni elemento di $X$ corrisponda uno ed un solo elemento di $Y$
 
 ## Seno e Coseno
 ---
-![[Untitled.png]]
+![[Seno e Coseno.png]]
 ## Tangente
-![[Untitled (1).png]]
+![[Tangente.png]]
 ## Valori Notevoli
 ---
 |     | 0   |    $\displaystyle{\frac{\pi}{6}}$     |    $\displaystyle{\frac{\pi}{4}}$     |    $\displaystyle{\frac{\pi}{3}}$     | $\displaystyle{\frac{\pi}{2}}$ |
@@ -114,7 +114,7 @@ $$
 >[!abstract] Regola
 >Scorciatoia per calcolare il ***determinante*** di una *matrice* $3\times 3$
 
-![[Pasted image 20240408210937.png]]
+![[Sarrus Rule.png]]
 
 ## Prodotto Vettoriale
 ---

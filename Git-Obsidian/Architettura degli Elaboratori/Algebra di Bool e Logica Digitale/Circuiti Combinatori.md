@@ -11,9 +11,9 @@ Allo scopo di ***aumentare il rapporto porte/piedini***
 >Un ***multiplexer*** è un circuito con $2^n$ ***input di dati*** e $n$ ***input di controllo***
 >- Gli *input di controllo* selezionano **quale** fra i $2^n$ *input dati* deve essere ***portato in uscita***
 
-![[Screenshot 2024-04-12 145603.png]]
+![[Multiplexer.png]]
 #### Esempio
-![[Pasted image 20240412145223.png]]
+![[Multiplexer Circuit.png]]
 *Multiplexer con $8$ input*
 
 ## Demultiplexer
@@ -23,7 +23,7 @@ Allo scopo di ***aumentare il rapporto porte/piedini***
 >In questo caso $1$ ***input dati*** viene "*smistato*" su una delle $2^n$ ***linee di output***
 >- Sempre in base alla selezione degli ***input di controllo***
 
-![[Screenshot 2024-04-12 150036.png]]
+![[Demultiplexer.png]]
 
 
 > Un circuito costituito da un ***multiplexer*** $+$ una ***linea dati*** $+$ un ***demultiplexer***
@@ -36,7 +36,7 @@ Allo scopo di ***aumentare il rapporto porte/piedini***
 >Il *decoder* ha $2^n$ ***linee di output*** di cui ***una sola*** viene impostata a $1$
 >- Sarà la linea **selezionata** dal *numero binario in input*
 
-![[Pasted image 20240412151403.png]]
+![[Decoder Circuit.png]]
 
 >[!done] Ovviamente esiste anche il circuito inverso, chiamato *encoder*
 
@@ -55,7 +55,7 @@ Ogni porta `XOR` confronta una coppia di `BIT`
 - Se almeno una delle coppie è diversa uno degli input della porta `NOR` vale $1$
 	- L'output del comparatore vale $0$
 
-![[Pasted image 20240412153159.png]]
+![[Comparator.png]]
 
 ## Circuiti Aritmetici
 ---
@@ -68,7 +68,7 @@ Ogni porta `XOR` confronta una coppia di `BIT`
 >I `BIT` in *output* sono esattamente la copia di quelli in input traslati tutti di una posizione a destra o a sinistra
 >- La direzione è impostata da un `BIT` di controllo $C$
 
-![[Pasted image 20240412160415.png]]
+![[Shifter Circuit.png]]
 >*Shifter a `8-BIT`*
 
 ### Adder
@@ -78,7 +78,7 @@ Ogni porta `XOR` confronta una coppia di `BIT`
 >- Realizzati a loro volta realizzati a partire da ***half-adder*** a $1$ `BIT`
 
 #### Half-Adder
-![[Pasted image 20240416090716.png]]
+![[Half Adder.png]]
 - La **somma** (*sum*) vale $1$ solo se i 2 `BIT` di input sono diversi (`XOR`, $\oplus$)
 - Il **riporto** (*carry*) vale $1$ solo se entrambi gli input sono $1$ (`AND`)
 
@@ -90,7 +90,7 @@ L'*half-adder* a $1$ `BIT` funziona solo per i `BIT` ***meno significativi*** di
 Per fare una somma con il riporto è necessario utilizzare un ***full-adder*** a $1$ `BIT`
 
 #### Full-Adder
-![[Pasted image 20240416091750.png]]
+![[Full Adder.png]]
 
 - La **somma** (*sum*) vale $1$ quando un ***numero dispari di input***, compreso il riporto in ingresso vale $1$
 - Il **riporto in uscita** (*carry out*) vale $1$ se il ***numero di input*** a $1$, compreso il riporto in ingresso è maggiore o uguale a $2$
@@ -130,4 +130,4 @@ $$
 >In teoria non occorre un circuito specifico e la moltiplicazione può essere implementata con un microprogramma usando semplice `ALU`
 >Moltiplicatori ***hardware ottimizzati*** richiedono un minor numero di somme che possono essere parallelizzate
 
-![[Pasted image 20240416105638.png]]
+![[Binary Multiplication.png]]

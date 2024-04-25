@@ -25,7 +25,7 @@ Per selezionare quale parola leggere o scrivere, sono necessari $log_{2}(N)$ ***
 ### Alcuni Chip di Memoria
 >*La seguente figura mostra una possibile organizzazione di un chip di `RAM` da $4Mbit$*
 
-![[Pasted image 20240423092754.png]]
+![[Memory-Chip.png]]
 - *Lunghezza di Parola* $\to 8$ `BIT` 
 - *Numero di Parole* $\to 512\ K$
 
@@ -44,7 +44,7 @@ $$
 - I $3$ input `CS`, `WE`, `OE` sono ***comuni a tutti i chip***
 - Relativamente al `BUS` dei dati, le $4$ parole ($8$ `BIT` ciascuna) dei singoli chip vengono affiancate a sostituire la parola a $32$ `BIT` desiderata
 
-![[Pasted image 20240423095236.png]]
+![[32Bit-MemoryChip.png]]
 
 
 >[!question] Come realizzare una memoria $512K \times 8$ utilizzando Chip $512K\times 8$?
@@ -61,7 +61,7 @@ Per potere indirizzare $2M$ *parole* occorre estendere il `BUS` indirizzi da $19
 - Le linee da $A_{0},\dots,A_{18}$ sono ancora collegati in parallelo a tutti chip per determinare quale parola *selezionare* da ***ciascun chip***
 - I due `BIT` più significativi degli *indirizzi* $A_{19},A_{20}$ sono invece utilizzati per ***selezionare*** attraverso un decoder ***quale chip attivare*** (collegamento a `CS`)
 
-![[Screenshot 2024-04-23 101510.png]]
+![[8Bit-MemoryChip.png]]
 
 ## DIMM-DDR
 ---
@@ -73,4 +73,4 @@ Su ciascuna `DIMM` sono generalmente montati $8$ chip che operano in parallelo
 
 Ogni chip, è collegato con il controller della memoria, che si trova tipicamente all'interno della `CPU`
 
-![[Pasted image 20240423102906.png]]
+![[DramMemoryStick.png]]
