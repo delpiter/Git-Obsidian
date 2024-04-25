@@ -82,7 +82,7 @@ Sono anche ***significativamente più lente***
 >Le prime `DRAM` erano ***asincrone***, la comunicazione con la [[La CPU|CPU]] non è sincronizzata da un ***segnale di clock***
 >Sono necessarie ***linee di sincronizzazione addizionali*** perché le parti possano *scambiare le informazioni*
 
-#### Esempio
+#### Esempio RAM Asincrona
 >*Esempio di lettura da parte della `CPU` di dati da memoria asincrona sul `BUS` che collega `CPU` e memoria*
 
 ![[AsyncMemory.png]]
@@ -114,7 +114,7 @@ Sono anche ***significativamente più lente***
 >- La `CPU` dopo avere inviato la richiesta ***può dedicarsi ad altro***, nell'*attesa* che la memoria sia pronta
 
 Le `DRAM` sincrone sono più *semplici da realizzare*, *interfacciare* e ***consentono la modalità burst***
-#### Esempio
+#### Esempio RAM Sincrona
 >*Esempio di lettura da parte della `CPU` di dati da memoria sincrona sul `BUS` che collega `CPU` e memoria*
 
 ![[SyncMemory.png]]
