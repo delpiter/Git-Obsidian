@@ -109,3 +109,19 @@ Questo modello non consente l'implementazione di ***politiche di rimpiazzamento 
 >Ciascuna linea può essere ospitata in $n$ ***posizioni diverse*** e questo garantisce migliori prestazioni potendo applicare rimpiazzamento con politica `LRU`
 
 *La cache nei processori Intel e AMD recenti sono associative a $n$-vie con valori di $n=8$ o superiori*
+
+## Cache in una CPU Multicore
+---
+>*In una [[La CPU|CPU]] multicore, solitamente, i livelli $\text{L1}$ e $\text{L2}$ sono privati per ciascun core, mentre il livello $\text{L3}$ è condiviso*
+
+>[!question] Come mantenere consistenza in memoria?
+
+Supponiamo che il core #$3$ abbia caricato nella propria cache l'indirizzo $100$ e *modificato anche il valore*
+- Il suddetto valore *non è subito aggiornato* per ***ottimizzare le prestazioni***
+- Se il core #$5$ deve accedere allo stesso dato e lo preleva dalla memoria si rischia una ***situazione inconsistente***
+
+>[!done] Soluzione: *Snooping*
+
+Per gestire queste situazioni i core ascoltano sempre cosa avviene sul `BUS` della memoria
+Se ci sono operazioni che ***interessano linee che sono nella loro cache***
+- Subentrano e forniscono alle ***cache richedenti*** di altri *core* il valore corretto prima che la memoria risponda

@@ -1,4 +1,3 @@
-#To_Be_Continued
 ## CPU
 ---
 >[!info] ***C***entral ***P***rocess ***U***nit
@@ -60,6 +59,8 @@ In architetture non *parallele* il ***ciclo di data path*** corrisponde al ***ci
 ***Caricamento***
 - Questa operazione ***acquisisce*** dalla memoria il contenuto di un'istruzione del programma
 
+La `CPU` "*legge*" le istruzioni assembler del ***programma da eseguire dalla memoria***
+
 1. *Leggi* l'istruzione seguente dalla memoria e mettila nell'`IR` (***I***nstruction ***R***egister)
 2. *Incrementa* il `PC` (***P***rogram ***C***ounter) per indicare l'istruzione seguente
 
@@ -69,6 +70,14 @@ In architetture non *parallele* il ***ciclo di data path*** corrisponde al ***ci
 - Questa operazione ***identifica*** il tipo di operazione da eseguire
 
 3. *Decodifica* l'istruzione appena letta
+
+Le istruzioni sono internamente decodificate e passate all'***unità di controllo***
+L'*unità di controllo* può essere di ***2 tipi***:
+#add_links
+- ***Microprogrammata*** (`CPU CISC`)
+	- Ad ogni istruzione `ISA` corrisponde un *microprogramma* che indica la sequenza di *microistruzioni* da eseguire
+- ***Cablata*** (`CPU RISC`)
+	- L'esecuzione avviene attraverso un *circuito digitale sequenziale* che implementa una *macchina a strati*
 
 >[!done] Execute
 
@@ -80,3 +89,32 @@ In architetture non *parallele* il ***ciclo di data path*** corrisponde al ***ci
 6. *Esegui* l'istruzione
 7. *Salva* il contenuto in un registro
 8. Torna al punto 1
+
+## Il Chip della CPU
+---
+>*Quasi tutte le `CPU` moderne sono realizzate all'interno di un unico chip [[Circuiti Digitali#Circuiti Integrati|ULSI]]*
+
+Questo chip è dotato di un insieme di *piedini/contatti* che servono al collegamento e all'interazione della `CPU` con il mondo esterno
+
+![[CPUPins.png]]
+>*Una `CPU` con $1155$ contatti sul retro*
+
+>[!question] A cosa servono tutti questi contatti?
+
+La tendenza attuale è di portare all'interno delle `CPU` gran parte della circuiteria che in passato stava sulla scheda madre.
+La `CPU` ha:
+- Porte dirette per l'interfacciamento con i canali della memoria principale
+- Porte per le periferiche #add_links PCIe 
+- Pin per monitoraggio della *temperatura*
+- Pin per il controllo dell'elettricità
+
+![[PinLayout.png]]
+
+>[!abstract] Chip di una `CPU` *"moderna"*
+
+Il silicio del chip $\text{Core i7-5960X}$ - 2014:
+- $2.6$ miliardi di [[Logica Digitale#Transistor|transistors]]
+- [[Cache#Livelli di Cache|cache]] $\text{L1}$ e $\text{L2}$ private a ciascun *core*
+- $20Mb$ di $\text{L3}$ condivisa tra gli 8 *core*
+
+![[SiliconChipLayout 1.png]]
