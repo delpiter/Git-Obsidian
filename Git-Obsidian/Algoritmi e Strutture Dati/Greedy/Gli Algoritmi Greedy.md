@@ -25,3 +25,22 @@ Si cerca di costruire una soluzione o di migliorare una esistente facendo una **
 
 D'altro canto, algoritmi *non greedy* che garantiscono di trovarla hanno un ***costo computazionale proibitivo***
 - In questi casi è necessario utilizzare [[Definizioni_Algoritmi#Algoritmi Euristici|Algoritmi Euristici]]
+
+Esempio: [[Definizioni_Algoritmi#Traveling Salesman Problem|TSP]]
+
+### Scelte Greedy
+>[!Proprietà della Scelta Greedy]
+>È possibile assemblare una ***soluzione globale ottimale*** facendo delle ***scelte locali ottimali***
+
+In un algoritmo ***greedy***:
+- La prossima scelta *potrebbe* ***dipendere*** dalle *scelte precedenti*
+- La prossima scelta *non può* ***dipendere*** da *scelte future*
+
+>[!done] Un algoritmo greedy fa la prima scelta prima di risolvere qualsiasi sottoproblema
+
+È necessario dimostrare che una *scelta greedy* ad ogni step ***produca una soluzione ottimale***
+
+#### Dimostrazione Tipica
+La *dimostrazione tipica* esamina una ***soluzione ottimale globale*** di un sotto problema
+- Successivamente mostra come ***modificare la soluzione*** sostituendo la *scelta greedy* con un'altra scelta ottenendo un *sotto problema simile ma più piccolo*
+- 
