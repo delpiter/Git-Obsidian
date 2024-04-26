@@ -4,51 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "f8778c407e5f3592",
+        "id": "cde4e1bfdeb12f21",
         "type": "tabs",
         "children": [
           {
-            "id": "506beee40b192cbf",
+            "id": "7ef7f3cd8f9b42ac",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Interfacciamento di Periferiche.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ac675a3e70241519",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/attatchements/Interrupt Vector.png"
-              }
-            }
-          },
-          {
-            "id": "91e43dded3274c40",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/attatchements/Interrupt Vector.png"
-              }
-            }
-          },
-          {
-            "id": "3c82bb9ed9c6155d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git-Obsidian/Definizioni/Definizioni_Architettura.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -118,7 +82,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Interfacciamento di Periferiche.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +98,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Interfacciamento di Periferiche.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,9 +119,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Interfacciamento di Periferiche.md"
-              }
+              "state": {}
             }
           },
           {
@@ -199,11 +159,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "506beee40b192cbf",
+  "active": "7ef7f3cd8f9b42ac",
   "lastOpenFiles": [
+    "Git-Obsidian/Definizioni/Definizioni_Architettura.md",
     "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/attatchements/Interrupt Vector.png",
     "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Interfacciamento di Periferiche.md",
-    "Git-Obsidian/Definizioni/Definizioni_Architettura.md",
     "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/attatchements/Direct Memory Acces.png",
     "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/attatchements/Interrupt Chip.png",
     "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Motherboard.md",
