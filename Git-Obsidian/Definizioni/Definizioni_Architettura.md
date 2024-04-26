@@ -152,3 +152,7 @@ I termini "*code point*" e "*carattere*" non sono sinonimi
 >$b)\to$ *effetto di un* $a)$ *quando il controllo ha uno stato alto*
 >$c)\to$ *effetto di un* $a)$ *quando il controllo ha uno stato basso*
 
+## Chipset
+---
+>[!info] Definizione
+>***Chipset*** (dall'inglese "*Insieme di Chip*") è un chip unico contenente diversi chip per il ***controllo di periferiche***

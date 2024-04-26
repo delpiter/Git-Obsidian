@@ -206,4 +206,47 @@ Presto abbandonato a favore di `USB 3` e ***Thunderbolt***
 
 >[!info] Thunderbolt
 >Tecnologia sviluppata da *intel* in collaborazione con *Apple*, che combina i protocolli di trasferimento [[Schede Grafiche#Principali formati|Display Port]] e #add_links PciExpress in un ***unico flusso di dati***
->
+
+## Architetture con BUS PCI
+---
+>*Il `BUS` `PCI` è stato al centro di un calcolatore per poco tempo*
+
+![[PCI_Architecture.png]]
+
+>[!question] Perché tutte queste complicazioni?
+
+- Motivi di ***compatibilità***
+	- Il vecchio `BUS` `ISA` doveva essere mantenuto per consentire l'utilizzo di numerose periferiche del tempo
+- Motivi di ***performance***
+	- `BUS` più performanti erano necessari per l'*interfacciamento di periferiche veloci*
+
+
+>[!abstract] PCI perde la centralità
+
+![[PCI_Architecture_2.png]]
+
+>[!info] Bridge Chip
+>Per poter connettere dispositivi diversi su un sistema multi-`BUS`
+ sono necessari particolari chip detti ***"Bridge"*** in grado di adattare i diversi segnali elettrici
+
+>*Da questo schema appare chiaro che il `BUS` `PCI` non è più l'elemento centrale che tiene unite le parti del `PC`*
+
+## PCI-Express
+---
+>[!info] PCI-e
+>`PCI-e` è un `BUS` di tipo ***seriale*** con connessioni *point-to-point* ad alta velocità
+>Sono possibili collegamenti *point-to-point* simultanei tra coppie [[#Master e Slave]] (***multi-master***)
+>Prevede più canali (***lanes***) *indipendenti* (fino a $32$) che possono essere combinati per ***aumentare la banda***: *slot* $\times1$, $\times4$, $\times 8$, $\times 16$, $\times 32$
+>- I device che richiedono elevata banda eseguono comunicazione in ***parallelo su più canali*** usando *slot* appositi
+>	- Tipico per una [[Schede Grafiche|scheda grafica]] usare uno slot $\times 16$
+
+![[PCI_e.png]]
+ - *Il `BUS` `PCI-e` si comporta esattamente come un network switch*
+
+>[!tldr] Did you know?
+>Il nome deriva da una pura ***operazione commerciale*** legata alla fama del nome `PCI`, in quanto non si tratta di un *estensione* ma di una cosa *completamente diversa*
+>Determina un cambio di rotta radicale rispetto al passato
+
+>[!caution] Calcolatori Moderni
+>Nei calcolatori moderni, la [[La CPU|CPU]] ha alcuni *collegamenti diretti* con gli slot `PCI-e` per ***massimizzare la performance***
+>Altri slot `PCI-e` saranno collegati al [[Definizioni_Architettura#Chipset|Chipset]]
