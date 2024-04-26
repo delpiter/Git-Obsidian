@@ -156,3 +156,4 @@ I termini "*code point*" e "*carattere*" non sono sinonimi
 ---
 >[!info] Definizione
 >***Chipset*** (dall'inglese "*Insieme di Chip*") è un chip unico contenente diversi chip per il ***controllo di periferiche***
+>Permette alla `CPU` di interfacciarsi con la ***maggior parte delle periferiche***

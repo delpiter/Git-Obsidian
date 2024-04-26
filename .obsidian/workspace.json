@@ -13,14 +13,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/BUS dei Calcolatori.md",
+                "file": "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Motherboard.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "5048b8db745608dd",
+            "id": "3c82bb9ed9c6155d",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -28,16 +28,6 @@
                 "file": "Git-Obsidian/Definizioni/Definizioni_Architettura.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "39df64c61b86af80",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/attatchements/PCI_e.png"
               }
             }
           }
@@ -108,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/BUS dei Calcolatori.md",
+                "file": "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Motherboard.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/BUS dei Calcolatori.md",
+                "file": "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Motherboard.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/BUS dei Calcolatori.md"
+                "file": "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Motherboard.md"
               }
             }
           },
@@ -191,7 +181,10 @@
   },
   "active": "506beee40b192cbf",
   "lastOpenFiles": [
+    "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/attatchements/Motherboard.png",
+    "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/attatchements/eyJidWNrZXQiOiJjb250ZW50Lmhzd3N0YXRpYy5jb20iLCJrZXkiOiJnaWZcL21vdGhlcmJvYXJkLTEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo4Mjh9fX0=.webp",
     "Git-Obsidian/Definizioni/Definizioni_Architettura.md",
+    "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Motherboard.md",
     "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/BUS dei Calcolatori.md",
     "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/attatchements/PCI_e.png",
     "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/attatchements/PCI_Architecture_2.png",
@@ -204,7 +197,6 @@
     "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/attatchements/Pasted image 20240425173719.png",
     "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/RAM.md",
     "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/attatchements/BUS_Width.png",
-    "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/attatchements/Daisy_Chain.png",
     "Git-Obsidian/Architettura degli Elaboratori/Algebra di Bool e Logica Digitale/Circuiti Digitali.md",
     "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Cache.md",
     "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/La CPU.md",
@@ -227,7 +219,6 @@
     "Git-Obsidian/Architettura degli Elaboratori/Algebra di Bool e Logica Digitale/Circuiti Sequenziali.md",
     "Git-Obsidian/Architettura degli Elaboratori/Algebra di Bool e Logica Digitale/Logica Digitale.md",
     "Git-Obsidian/Architettura degli Elaboratori/Algebra di Bool e Logica Digitale/Organizzazione dei Chip di Memoria.md",
-    "Git-Obsidian/Architettura degli Elaboratori/Appunti.md",
     "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/attatchements",
     "Git-Obsidian/Architettura degli Elaboratori/Algebra di Bool e Logica Digitale/attatchements",
     "Git-Obsidian/Architettura degli Elaboratori/Assembly/attatchements",
