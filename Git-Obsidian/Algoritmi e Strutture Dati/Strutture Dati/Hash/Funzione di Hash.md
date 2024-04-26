@@ -155,8 +155,7 @@ Fanno in media $O(1)$ operazioni
 >Con $m =$ Dimensione della tabella
 
 Se $Pr()$ è sconosciuta:
-- Si utilizzano ***algoritmi euristici***
-	- Algoritmi che cercano di risolvere il problema al meglio che possono
+- Si utilizzano [[Definizioni_Algoritmi#Algoritmi Euristici|Algoritmi Euristici]]
 
 >[!abstract] Metodo della Divisione
 >$$h(k)=k mod(m)$$
