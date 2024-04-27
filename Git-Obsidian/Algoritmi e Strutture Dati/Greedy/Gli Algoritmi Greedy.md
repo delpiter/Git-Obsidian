@@ -43,4 +43,4 @@ In un algoritmo ***greedy***:
 #### Dimostrazione Tipica
 La *dimostrazione tipica* esamina una ***soluzione ottimale globale*** di un sotto problema
 - Successivamente mostra come ***modificare la soluzione*** sostituendo la *scelta greedy* con un'altra scelta ottenendo un *sotto problema simile ma più piccolo*
-- 
+

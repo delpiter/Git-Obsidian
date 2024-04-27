@@ -13,9 +13,31 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Greedy/Gli Algoritmi Greedy.md",
+                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Greedy/Activity Selection.md",
                 "mode": "source",
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "06126dc1dcc23d80",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Greedy/Activity Selection.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c19a4cd035532ed1",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Greedy/attatchements/Activity Selection Table.png"
               }
             }
           },
@@ -79,11 +101,12 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 269.5
+    "width": 269.5,
+    "collapsed": true
   },
   "right": {
     "id": "3561446b8c4d05ef",
@@ -99,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Definizioni/Definizioni_Algoritmi.md",
+                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Greedy/Activity Selection.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Definizioni/Definizioni_Algoritmi.md",
+                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Greedy/Activity Selection.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git-Obsidian/Definizioni/Definizioni_Algoritmi.md"
+                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Greedy/Activity Selection.md"
               }
             }
           },
@@ -180,8 +203,14 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "55150b09e68a8a57",
+  "active": "06126dc1dcc23d80",
   "lastOpenFiles": [
+    "Git-Obsidian/Algoritmi e Strutture Dati/Greedy/attatchements/Activity Selection Table Solution.png",
+    "Git-Obsidian/Algoritmi e Strutture Dati/Greedy/attatchements/Activity Selection Example 2.png",
+    "Git-Obsidian/Algoritmi e Strutture Dati/Greedy/attatchements/Activity Selection Example 1.png",
+    "Git-Obsidian/Algoritmi e Strutture Dati/Greedy/attatchements/Activity Selection Table.png",
+    "Git-Obsidian/Algoritmi e Strutture Dati/Greedy/Activity Selection.md",
+    "Git-Obsidian/Algoritmi e Strutture Dati/Greedy/attatchements",
     "Git-Obsidian/Algoritmi e Strutture Dati/Greedy/Gli Algoritmi Greedy.md",
     "Git-Obsidian/Definizioni/Definizioni_Algoritmi.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Hash/Funzione di Hash.md",
@@ -197,10 +226,7 @@
     "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/BUS dei Calcolatori.md",
     "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/attatchements/PCI_e.png",
     "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/attatchements/PCI_Architecture_2.png",
-    "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/attatchements/Pasted image 20240426100953.png",
-    "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/attatchements/PCI_Architecture.png",
     "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Schede Grafiche.md",
-    "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/attatchements/USBports.png",
     "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/RAM.md",
     "Git-Obsidian/Architettura degli Elaboratori/Algebra di Bool e Logica Digitale/Circuiti Digitali.md",
     "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Cache.md",
@@ -219,15 +245,12 @@
     "Git-Obsidian/Definizioni/attatchements",
     "Git-Obsidian/Architettura degli Elaboratori/Algebra di Bool e Logica Digitale/Algebra di Bool.md",
     "Git-Obsidian/Architettura degli Elaboratori/Algebra di Bool e Logica Digitale/Arithmetic Logic Unit.md",
-    "Git-Obsidian/Architettura degli Elaboratori/Algebra di Bool e Logica Digitale/Circuiti Combinatori.md",
-    "Git-Obsidian/Architettura degli Elaboratori/Algebra di Bool e Logica Digitale/Circuiti Sequenziali.md",
     "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/attatchements",
     "Git-Obsidian/Architettura degli Elaboratori/Algebra di Bool e Logica Digitale/attatchements",
     "Git-Obsidian/Architettura degli Elaboratori/Assembly/attatchements",
     "Git-Obsidian/Definizioni/Latex-suite.txt",
     "Git-Obsidian/Architettura degli Elaboratori/Rappresentazione dell'Informazione/attatchements",
     "Git-Obsidian/Analisi/Successioni/attatchements",
-    "Git-Obsidian/Analisi/Limiti/attatchements",
     "Git-Obsidian/Algoritmi e Strutture Dati/Untitled.canvas",
     "Untitled 2.canvas",
     "Untitled.canvas",
