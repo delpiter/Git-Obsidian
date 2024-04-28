@@ -7,7 +7,9 @@
 ## Problema di Ottimizzazione
 ---
 >[!info] Definizione
->Un *problema di ottimizzazione* è un problema in cui *alcune soluzioni* sono *preferibili ad altre*
+>Un ***problema di ottimizzazione*** è un problema in cui *alcune soluzioni* sono *preferibili ad altre*
+>Ogni soluzione possibile ha ***associato un valore***
+>- Si vuole trovare la soluzione con il *valore ottimale* (che sia ***max*** o ***min***)
 
 ## Traveling Salesman Problem
 ---
@@ -36,3 +38,8 @@
 ---
 >[!info] Definizione
 >Una ***sottostruttura ottimale*** è quando una *soluzione ottimale ad un problema* contiene ***soluzioni ottimali di sottoproblemi***
+
+## Tabular Method
+---
+>[!info] Definizione
+>Il ***tabular method*** è uno dei metodi più basilari usati per *analizzare dei dati* sotto forma di tabella
