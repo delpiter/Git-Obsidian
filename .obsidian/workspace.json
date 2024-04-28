@@ -13,19 +13,31 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Programmazione Dinamica/Algoritmi di Programmazione Dinamica.md",
+                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Programmazione Dinamica/Max Subarray.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "65a747f51e99e8f9",
+            "id": "e5b2a9394472af7e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Obsidian/Markdown Keys.md",
+                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Greedy/Knapsack.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "56d109e7a303ce00",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Programmazione Dinamica/Algoritmi di Programmazione Dinamica.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Programmazione Dinamica/Algoritmi di Programmazione Dinamica.md",
+                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Programmazione Dinamica/Max Subarray.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Programmazione Dinamica/Algoritmi di Programmazione Dinamica.md",
+                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Programmazione Dinamica/Max Subarray.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Programmazione Dinamica/Algoritmi di Programmazione Dinamica.md"
+                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Programmazione Dinamica/Max Subarray.md"
               }
             }
           },
@@ -193,15 +205,16 @@
   },
   "active": "42ace06b0684f620",
   "lastOpenFiles": [
-    "Git-Obsidian/Markdown Keys.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Programmazione Dinamica/Algoritmi di Programmazione Dinamica.md",
+    "Git-Obsidian/Algoritmi e Strutture Dati/Programmazione Dinamica/Max Subarray.md",
+    "Git-Obsidian/Algoritmi e Strutture Dati/Greedy/Activity Selection.md",
+    "Git-Obsidian/Algoritmi e Strutture Dati/Greedy/Knapsack.md",
+    "Git-Obsidian/Markdown Keys.md",
     "Git-Obsidian/Definizioni/Definizioni_Algoritmi.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Programmazione Dinamica",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Greedy/Knapsack.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Greedy/attatchements/knapsack Example.png",
     "Git-Obsidian/Algoritmi e Strutture Dati/Greedy/attatchements/knapsack Solution.png",
     "Git-Obsidian/Algoritmi e Strutture Dati/Greedy/attatchements/Pasted image 20240427173508.png",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Greedy/Activity Selection.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Greedy/attatchements/Activity Selection Table Solution.png",
     "Git-Obsidian/Algoritmi e Strutture Dati/Greedy/attatchements/Activity Selection Example 2.png",
     "Git-Obsidian/Algoritmi e Strutture Dati/Greedy/attatchements/Activity Selection Example 1.png",
@@ -232,7 +245,6 @@
     "Git-Obsidian/Programmazione/Variabili/Visibilità e Tempo di Vita.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Alberi/Gli Alberi Binari.md",
     "Git-Obsidian/Definizioni/Definizioni_Programmazione.md",
-    "Git-Obsidian/Definizioni/Definizioni_Analisi.md",
     "Git-Obsidian/Definizioni/attatchements",
     "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/attatchements",
     "Git-Obsidian/Architettura degli Elaboratori/Algebra di Bool e Logica Digitale/attatchements",
