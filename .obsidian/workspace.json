@@ -4,52 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "4b589b3eb5315ebc",
+        "id": "aec6c1b833f98053",
         "type": "tabs",
         "children": [
           {
-            "id": "42ace06b0684f620",
+            "id": "0bab1d4b6adc409a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Programmazione Dinamica/Max Subarray.md",
+                "file": "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/Prestazioni dei Calcolatori.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "e5b2a9394472af7e",
+            "id": "99c723f82928fcf4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Greedy/Knapsack.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "56d109e7a303ce00",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Programmazione Dinamica/Algoritmi di Programmazione Dinamica.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "965f6a7166938b5b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git-Obsidian/Definizioni/Definizioni_Algoritmi.md",
+                "file": "Git-Obsidian/Definizioni/Definizioni_Architettura.md",
                 "mode": "source",
                 "source": false
               }
@@ -82,7 +58,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "euris",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -122,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Programmazione Dinamica/Max Subarray.md",
+                "file": "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/Prestazioni dei Calcolatori.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Programmazione Dinamica/Max Subarray.md",
+                "file": "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/Prestazioni dei Calcolatori.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Programmazione Dinamica/Max Subarray.md"
+                "file": "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/Prestazioni dei Calcolatori.md"
               }
             }
           },
@@ -203,14 +179,21 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "42ace06b0684f620",
+  "active": "0bab1d4b6adc409a",
   "lastOpenFiles": [
-    "Git-Obsidian/Algoritmi e Strutture Dati/Programmazione Dinamica/Algoritmi di Programmazione Dinamica.md",
+    "Git-Obsidian/Definizioni/Definizioni_Architettura.md",
+    "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/Prestazioni dei Calcolatori.md",
+    "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Organizzazione del Calcolatore.md",
+    "Git-Obsidian/Architettura degli Elaboratori/Introduzione alle Basi.md",
+    "Git-Obsidian/Architettura degli Elaboratori/Untitled.md",
+    "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto",
+    "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Motherboard.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Programmazione Dinamica/Max Subarray.md",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Greedy/Activity Selection.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Greedy/Knapsack.md",
-    "Git-Obsidian/Markdown Keys.md",
+    "Git-Obsidian/Algoritmi e Strutture Dati/Programmazione Dinamica/Algoritmi di Programmazione Dinamica.md",
     "Git-Obsidian/Definizioni/Definizioni_Algoritmi.md",
+    "Git-Obsidian/Algoritmi e Strutture Dati/Greedy/Activity Selection.md",
+    "Git-Obsidian/Markdown Keys.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Programmazione Dinamica",
     "Git-Obsidian/Algoritmi e Strutture Dati/Greedy/attatchements/knapsack Example.png",
     "Git-Obsidian/Algoritmi e Strutture Dati/Greedy/attatchements/knapsack Solution.png",
@@ -223,12 +206,10 @@
     "Git-Obsidian/Algoritmi e Strutture Dati/Greedy/Gli Algoritmi Greedy.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Hash/Funzione di Hash.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Greedy",
-    "Git-Obsidian/Definizioni/Definizioni_Architettura.md",
     "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/attatchements/Interrupt Vector.png",
     "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Interfacciamento di Periferiche.md",
     "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/attatchements/Direct Memory Acces.png",
     "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/attatchements/Interrupt Chip.png",
-    "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Motherboard.md",
     "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/BUS dei Calcolatori.md",
     "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Schede Grafiche.md",
     "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/RAM.md",
@@ -241,16 +222,11 @@
     "Git-Obsidian/Programmazione/Puntatori/attatchements",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Queue.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Linked Lists.md",
-    "Git-Obsidian/Programmazione/Variabili/Tipi di Dati Avanzati.md",
-    "Git-Obsidian/Programmazione/Variabili/Visibilità e Tempo di Vita.md",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Alberi/Gli Alberi Binari.md",
-    "Git-Obsidian/Definizioni/Definizioni_Programmazione.md",
     "Git-Obsidian/Definizioni/attatchements",
     "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/attatchements",
     "Git-Obsidian/Architettura degli Elaboratori/Algebra di Bool e Logica Digitale/attatchements",
     "Git-Obsidian/Architettura degli Elaboratori/Assembly/attatchements",
     "Git-Obsidian/Definizioni/Latex-suite.txt",
-    "Git-Obsidian/Architettura degli Elaboratori/Rappresentazione dell'Informazione/attatchements",
     "Git-Obsidian/Algoritmi e Strutture Dati/Untitled.canvas",
     "Untitled 2.canvas",
     "Untitled.canvas",
