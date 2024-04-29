@@ -4,28 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "aec6c1b833f98053",
+        "id": "2f65447de037edfc",
         "type": "tabs",
         "children": [
           {
-            "id": "0bab1d4b6adc409a",
+            "id": "293a5fb0e4192274",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/Prestazioni dei Calcolatori.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "99c723f82928fcf4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git-Obsidian/Definizioni/Definizioni_Architettura.md",
                 "mode": "source",
                 "source": false
               }
@@ -179,13 +167,13 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "0bab1d4b6adc409a",
+  "active": "f2ffaf6360de317d",
   "lastOpenFiles": [
+    "Git-Obsidian/Definizioni/Definizioni_Architettura.md",
+    "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/Prestazioni dei Calcolatori.md",
     "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/attatchements/Pasted image 20240429223852.png",
     "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/attatchements/Pasted image 20240429223505.png",
     "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/attatchements",
-    "Git-Obsidian/Definizioni/Definizioni_Architettura.md",
-    "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/Prestazioni dei Calcolatori.md",
     "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Organizzazione del Calcolatore.md",
     "Git-Obsidian/Architettura degli Elaboratori/Introduzione alle Basi.md",
     "Git-Obsidian/Architettura degli Elaboratori/Untitled.md",
@@ -211,7 +199,6 @@
     "Git-Obsidian/Algoritmi e Strutture Dati/Greedy",
     "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/attatchements/Interrupt Vector.png",
     "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Interfacciamento di Periferiche.md",
-    "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/attatchements/Direct Memory Acces.png",
     "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/BUS dei Calcolatori.md",
     "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Schede Grafiche.md",
     "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/RAM.md",

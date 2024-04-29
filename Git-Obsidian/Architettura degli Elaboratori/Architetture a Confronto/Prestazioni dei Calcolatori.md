@@ -56,14 +56,12 @@ Cartoline d'auguri musicali , `RFID`, $\dots$
 - **Costo**: *alcuni centesimi*
 - **Potenza**: *alcuni `MIPS`*
 
-![[Pasted image 20240429223505.png]]
 
 >[!info] Sistemi Embedded
 
 ***SmartCard***, Orologi, Parti di automobili, Elettrodomestici, ***giocattoli***, $\dots$
 - **Costo**: $1-50$€
 - **Potenza**: $1000$ `MIPS`
-![[Pasted image 20240429223852.png]]
 
 >[!abstract] Smartphone e Tablet
 
