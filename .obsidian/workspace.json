@@ -13,7 +13,31 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/Prestazioni dei Calcolatori.md",
+                "file": "Git-Obsidian/Algebra e Geometria/Applicazioni/Matrici Quasi Diagonalizzabili.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "faa91df30f8c0ad5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git-Obsidian/Algebra e Geometria/Applicazioni/Matrici Diagonali.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bc7cd7ac076454ef",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git-Obsidian/Algebra e Geometria/Applicazioni/Criterio di Diagonalizzabilità.md",
                 "mode": "source",
                 "source": false
               }
@@ -46,7 +70,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "moltepli",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -66,11 +90,12 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 269.5
+    "width": 269.5,
+    "collapsed": true
   },
   "right": {
     "id": "3561446b8c4d05ef",
@@ -86,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/Prestazioni dei Calcolatori.md",
+                "file": "Git-Obsidian/Algebra e Geometria/Applicazioni/Matrici Quasi Diagonalizzabili.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/Prestazioni dei Calcolatori.md",
+                "file": "Git-Obsidian/Algebra e Geometria/Applicazioni/Matrici Quasi Diagonalizzabili.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/Prestazioni dei Calcolatori.md"
+                "file": "Git-Obsidian/Algebra e Geometria/Applicazioni/Matrici Quasi Diagonalizzabili.md"
               }
             }
           },
@@ -167,10 +192,14 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "f2ffaf6360de317d",
+  "active": "293a5fb0e4192274",
   "lastOpenFiles": [
-    "Git-Obsidian/Definizioni/Definizioni_Architettura.md",
+    "Git-Obsidian/Algebra e Geometria/Applicazioni/Criterio di Diagonalizzabilità.md",
+    "Git-Obsidian/Algebra e Geometria/Applicazioni/Matrici Diagonali.md",
+    "Git-Obsidian/Algebra e Geometria/Applicazioni/Matrici Quasi Diagonalizzabili.md",
+    "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/BUS dei Calcolatori.md",
     "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/Prestazioni dei Calcolatori.md",
+    "Git-Obsidian/Definizioni/Definizioni_Architettura.md",
     "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/attatchements/Pasted image 20240429223852.png",
     "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/attatchements/Pasted image 20240429223505.png",
     "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/attatchements",
@@ -199,7 +228,6 @@
     "Git-Obsidian/Algoritmi e Strutture Dati/Greedy",
     "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/attatchements/Interrupt Vector.png",
     "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Interfacciamento di Periferiche.md",
-    "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/BUS dei Calcolatori.md",
     "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Schede Grafiche.md",
     "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/RAM.md",
     "Git-Obsidian/Architettura degli Elaboratori/Algebra di Bool e Logica Digitale/Circuiti Digitali.md",
@@ -207,9 +235,7 @@
     "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/La CPU.md",
     "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/Intersezione e Somma di Sottospazi.md",
     "Git-Obsidian/Programmazione/Puntatori/Introduzione Puntatori.md",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Stack.md",
     "Git-Obsidian/Programmazione/Puntatori/attatchements",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Queue.md",
     "Git-Obsidian/Definizioni/attatchements",
     "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/attatchements",
     "Git-Obsidian/Architettura degli Elaboratori/Algebra di Bool e Logica Digitale/attatchements",
