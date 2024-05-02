@@ -4,40 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "2f65447de037edfc",
+        "id": "31eca3ace99572e0",
         "type": "tabs",
         "children": [
           {
-            "id": "293a5fb0e4192274",
+            "id": "e318ba7711a4d228",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Obsidian/Algebra e Geometria/Applicazioni/Matrici Quasi Diagonalizzabili.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "faa91df30f8c0ad5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git-Obsidian/Algebra e Geometria/Applicazioni/Matrici Diagonali.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bc7cd7ac076454ef",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git-Obsidian/Algebra e Geometria/Applicazioni/Criterio di Diagonalizzabilità.md",
+                "file": "Git-Obsidian/Algebra e Geometria/Frome Bilineari e Prodotti Scalari/Forme Bilineari.md",
                 "mode": "source",
                 "source": false
               }
@@ -70,8 +46,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "moltepli",
-                "matchingCase": true,
+                "query": "laplace",
+                "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -90,12 +66,11 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 269.5,
-    "collapsed": true
+    "width": 269.5
   },
   "right": {
     "id": "3561446b8c4d05ef",
@@ -111,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Algebra e Geometria/Applicazioni/Matrici Quasi Diagonalizzabili.md",
+                "file": "Git-Obsidian/Algebra e Geometria/Frome Bilineari e Prodotti Scalari/Forme Bilineari.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Algebra e Geometria/Applicazioni/Matrici Quasi Diagonalizzabili.md",
+                "file": "Git-Obsidian/Algebra e Geometria/Frome Bilineari e Prodotti Scalari/Forme Bilineari.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git-Obsidian/Algebra e Geometria/Applicazioni/Matrici Quasi Diagonalizzabili.md"
+                "file": "Git-Obsidian/Algebra e Geometria/Frome Bilineari e Prodotti Scalari/Forme Bilineari.md"
               }
             }
           },
@@ -192,11 +167,16 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "293a5fb0e4192274",
+  "active": "e318ba7711a4d228",
   "lastOpenFiles": [
+    "Git-Obsidian/Markdown Keys.md",
+    "Git-Obsidian/Algebra e Geometria/Frome Bilineari e Prodotti Scalari/Forme Bilineari.md",
+    "Git-Obsidian/Algebra e Geometria/Untitled.md",
+    "Git-Obsidian/Algebra e Geometria/Frome Bilineari e Prodotti Scalari",
     "Git-Obsidian/Algebra e Geometria/Applicazioni/Criterio di Diagonalizzabilità.md",
     "Git-Obsidian/Algebra e Geometria/Applicazioni/Matrici Diagonali.md",
     "Git-Obsidian/Algebra e Geometria/Applicazioni/Matrici Quasi Diagonalizzabili.md",
+    "Git-Obsidian/Algebra e Geometria/Applicazioni/Determinante di una Matrice.md",
     "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/BUS dei Calcolatori.md",
     "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/Prestazioni dei Calcolatori.md",
     "Git-Obsidian/Definizioni/Definizioni_Architettura.md",
@@ -213,7 +193,6 @@
     "Git-Obsidian/Algoritmi e Strutture Dati/Programmazione Dinamica/Algoritmi di Programmazione Dinamica.md",
     "Git-Obsidian/Definizioni/Definizioni_Algoritmi.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Greedy/Activity Selection.md",
-    "Git-Obsidian/Markdown Keys.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Programmazione Dinamica",
     "Git-Obsidian/Algoritmi e Strutture Dati/Greedy/attatchements/knapsack Example.png",
     "Git-Obsidian/Algoritmi e Strutture Dati/Greedy/attatchements/knapsack Solution.png",
@@ -232,14 +211,10 @@
     "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/RAM.md",
     "Git-Obsidian/Architettura degli Elaboratori/Algebra di Bool e Logica Digitale/Circuiti Digitali.md",
     "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Cache.md",
-    "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/La CPU.md",
-    "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/Intersezione e Somma di Sottospazi.md",
-    "Git-Obsidian/Programmazione/Puntatori/Introduzione Puntatori.md",
     "Git-Obsidian/Programmazione/Puntatori/attatchements",
     "Git-Obsidian/Definizioni/attatchements",
     "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/attatchements",
     "Git-Obsidian/Architettura degli Elaboratori/Algebra di Bool e Logica Digitale/attatchements",
-    "Git-Obsidian/Architettura degli Elaboratori/Assembly/attatchements",
     "Git-Obsidian/Algoritmi e Strutture Dati/Untitled.canvas",
     "Untitled 2.canvas",
     "Untitled.canvas",

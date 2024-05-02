@@ -85,6 +85,7 @@ in una linea da soli
 
 - - -
 # Latex formulas
+shft+B => underset
 doppio dollaro per aprire chiudere
 $$x^n + y^n = z^n$$
 \\displaystyle{ argomenti } 
