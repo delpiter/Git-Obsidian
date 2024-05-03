@@ -259,13 +259,28 @@ y_{n}
 \end{pmatrix}
 $$
 $$
-\beta(v,u)=\underset{ \left( B\begin{pmatrix}
-x_{1} \\
-\dots \\
-x_{n}
-\end{pmatrix} \right)^T }{ (a_{1},\dots,a_{n}) }A\begin{pmatrix}
+\beta(v,u)=(a_{1},\dots,a_{n}) A\begin{pmatrix}
 b_{1} \\
 \dots \\
 b_{n}
 \end{pmatrix}
 $$
+Ma $(a_{1},..,a_{n})$ non è altro che:
+$$
+\left( B\begin{pmatrix}
+x_{1} \\
+\dots \\
+x_{n}
+\end{pmatrix} \right)^T =(x_{1},\dots,x_{n})B^T
+$$
+E $\begin{pmatrix}b_{1} \\ \dots \\ b_{n} \end{pmatrix}$ non è altro che:
+$$
+B\begin{pmatrix}y_{1} \\ \dots \\ y_{n} \end{pmatrix}
+$$
+Quindi ho che:
+$$
+\beta(v,u)=(x_{1},\dots,x_{n})\underbrace{ B^TAB }_{ M }\begin{pmatrix}y_{1} \\ \dots \\ y_{n} \end{pmatrix}
+$$
+>[!done] ‎In *conclusione*
+>$$(x_{1},\dots,x_{n})M\begin{pmatrix}y_{1} \\ \dots \\ y_{n} \end{pmatrix}$$
+
