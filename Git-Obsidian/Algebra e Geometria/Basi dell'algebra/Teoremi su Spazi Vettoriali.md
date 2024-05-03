@@ -4,17 +4,17 @@
 >Un insieme di vettori $v_{1},\dots,v_{n}$ è una [[Campi e Spazi Vettoriali#Base|base]] di $V\Leftrightarrow$ Ogni $v\in V$ si scrive in modo unico come [[Campi e Spazi Vettoriali#Combinazioni Lineari|combinazione lineare]]
 >Cioè:
 >$$\forall v\in V \exists!(a_{1},\dots,a_{n}),a_{i}\in \mathbb{K}:v=a_{1}v_{1}+\dots+a_{n}v_{n} $$
->In tal caso $a_{1},\dots,a_{n}$ sono dette le **coordinate del vettore** $v$ nella base $a_{1},\dots,a_{n}$
+>In tal caso $a_{1},\dots,a_{n}$ sono dette le **coordinate del vettore** $v$ nella base $v_{1},\dots,v_{n}$
 
 ### Dimostrazione
 > $\implies$
 
-Siano $v_{1},\dots,v_{n}$ una base di $V$, cioè *generano* $V$ e sono *linearmenre indipendenti*
-- Dunque $\forall v\in V, \exists a_{1},\dots,a_{n}:v=a_{1}v_{1}+\dots,a_{n}v_{n}$
+Siano $v_{1},\dots,v_{n}$ una base di $V$, cioè *generano* $V$ e sono *linearmente indipendenti*
+- Dunque $\forall v\in V, \exists a_{1},\dots,a_{n}:v=a_{1}v_{1}+\dots+a_{n}v_{n}$
 
 >[!tip] Vediamo perchè $a_{1},\dots,a_{n}$ sono unici
 
-Supponiamo che esistano anche $b_{1},\dots,b_{n}, b_{n}\in \mathbb{K}:V=b_{1}v_{1}+\dots,b_{n}v_{n}$
+Supponiamo che esistano anche $b_{1},\dots,b_{n} \in \mathbb{K}:V=b_{1}v_{1}+\dots+b_{n}v_{n}$
 - Oltre a $v=a_{1}v_{1}+\dots+a_{n}b_{n}$
 $$\underline{0}=v-v=(a_{1}-b_{1})v_{1}+\dots+(a_{n}-b_{n})v_{n}$$
 Ma poichè $v_{1},\dots,v_{n}$ sono linearmente indipendenti, ciò implica che 
@@ -137,7 +137,7 @@ $$
 - Quindi la dimensione di $\mathbb{K}[x]=\infty$
 
 >[!example] Considero il sottospazio di $\mathbb{K}[x]$
->$W=\mathbb{K}[x]_{\leq n}=\{ polinomi di grado \leq n \}$
+>$W=\mathbb{K}[x]_{\leq n}=\{ \text{polinomi di grado} \leq n \}$
 
 $\mathbb{K}[x]_{\leq n}= \{ a_{0}+a_{1}x+a_{2}x^2+\dots+a_{n}x^n,a_{i}\in \mathbb{K} \}$
 
@@ -174,8 +174,7 @@ $$
 - Si, $\forall p(x)\in\mathbb{K}[x]_{\leq 2} \exists! a_{1},a_{2},a_{3} :p_{0}a_{1}p_{1}+a_{2}p_{2}+a_{3}p_{3}$
 	- Ne consegue il fatto che $p_{1},p_{2},p_{3}$ sono una base
 
-### Osservazione
 
->[!tip]
+>[!tip] Osservazione
 >Uno spazio vettoriale ha tante basi diverse.
 >Le coordinate dello **stesso** vettore $v$, in **basi diverse** saranno **diverse**

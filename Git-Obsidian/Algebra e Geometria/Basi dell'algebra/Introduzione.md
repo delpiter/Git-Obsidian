@@ -1,6 +1,7 @@
 La [[Concetti Base#Insieme|terminologia]] degli insiemi è sempre la stessa
 
 ## Relazione
+---
 >[!info] Definizione
 > Una **relazione** su un insieme $A$ è un sottoinsieme $\mathbb{R}$ di $A\times A$
 > Scrivo $a_{1}Ra_{2}$ se $(a_{1},a_{2}) \in\mathbb{R}$ e dico: *"$a_{1}$ è in relazione con $a_{2}$"*
@@ -8,7 +9,7 @@ La [[Concetti Base#Insieme|terminologia]] degli insiemi è sempre la stessa
 ### Relazione di Equivalenza
 Una relazione $R$ è una **relazione di equivalenza** se valgono le seguenti proprietà:
 >[!tip] Proprietà Riflessiva
->$$aRa \forall a \in A$$
+>$$aRa \qquad \forall a \in A$$
 >
 >>[!done] In Breve
 >> Possiamo dire che ogni elemento è in **relazione con se stesso**

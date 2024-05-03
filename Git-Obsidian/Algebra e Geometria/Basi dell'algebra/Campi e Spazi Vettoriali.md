@@ -40,7 +40,7 @@ $\mathbb{Z}_{n}$ è un campo $\Leftrightarrow n$ è **primo**
 ## Spazio Vettoriale
 ---
 >[!info] Definizione
->Sia $k$ un campo
+>Sia $\mathbb{K}$ un campo
 >Uno **Spazio Vettoriale** su $k$ è un insieme $V$ con 2 operazioni
 >>[!tip] Somma di Vettori ($+$)
 >>Associa due elementi di $V$ ad un altro elemento di $V$
@@ -52,7 +52,7 @@ $\mathbb{Z}_{n}$ è un campo $\Leftrightarrow n$ è **primo**
 >>- Ha un numero neutro $\underline{0}$ e opposti
 >
 >>[!tip] Prodotto scalare ($\cdot$)
->>Operazione che a $a \in k, v\in V$ associa $a\cdot v\in V$
+>>Operazione che a $a \in \mathbb{K}, v\in V$ associa $a\cdot v\in V$
 >>Soddisfa le seguenti **proprietà**
 >>- Associativa
 >>- Distributiva rispetto alla somma 
@@ -64,7 +64,7 @@ $\mathbb{Z}_{n}$ è un campo $\Leftrightarrow n$ è **primo**
 3. Elemento Neutro $$\exists \underline{0}\in V (\text{"vettore nullo"}):\underline{0}+v = v \ \forall v \in V$$
 4. Elementi Opposti $$\forall v\in V, \exists -v\in V : v+(-v)=\underline{0}$$
 ### Proprietà Prodotto
-$\forall\ v,v_{1},v_{2} \in V, \forall a,b \in k$
+$\forall\ v,v_{1},v_{2} \in V, \forall a,b \in \mathbb{K}$
 5. Proprietà Associativa $$a(bv)=(ab)v$$
 6. Proprietà Distributiva 
 $$
@@ -79,11 +79,11 @@ $$
 1. Vettori **Geometrici**
 ![[Pasted image 20240219172214.png]]
 
-2. Dato un campo $k$, $n\geq 1$
+2. Dato un campo $\mathbb{K}$, $n\geq 1$
 $$
-V=k^n = \{ (x_{1},x_{2},\dots,x_{n}), x_{i}\in k, \forall i=1,2,3,\dots,n \}
+V=\mathbb{K}^n = \{ (x_{1},x_{2},\dots,x_{n}), x_{i}\in k, \forall i=1,2,3,\dots,n \}
 $$
-- È uno **spazio vettoriale** su $k$ rispetto alle operazioni:
+- È uno **spazio vettoriale** su $\mathbb{K}$ rispetto alle operazioni:
 $$
 \begin{array}
 \ v_{1}=(x_{1},x_{2},\dots,x_{n}),v_{2}=(y_{1},y_{2},\dots,y_{n}) \\
@@ -217,7 +217,7 @@ Siano $v_{1},v_{2}\in U$ poichè $a_{1}v_{1}+a_{2}v_{2}\in U \forall a_{1},a_{2}
 >Un sottoinsieme $S$ di $\mathbb{K}^n$ è un ***sottospazio affine*** di dimensione $d$ di $\mathbb{K}^n$ se è ottenuto traslando un sottospazio vettoriale $U$ di dimensione $d$
 >>[!done] In Altre Parole
 >>$S$ è un ***sottospazio affine*** se 
->>$$\exists p\in \mathbb{K}^n, \text{ e un SSV} U\subseteq \mathbb{K}^n: S=\{ u+p,u\in U \}$$
+>>$$\exists p\in \mathbb{K}^n, \text{ e un SSV } U\subseteq \mathbb{K}^n: S=\{ u+p,u\in U \}$$
 
 #### Esempio
 >*Consideriamo in $\mathbb{R}^2$*
@@ -266,9 +266,8 @@ Potrei prendere $p'=(2,0)$ o $p''=(0,2)$ o infinite altre scelte, ottenendo:
 >Siano $\mathbb{K}=\mathbb{R}, V= \mathbb{R}^2$
 >Siano $v_{1}=(2,0),v_{2}=(0,-1)$
 
-Allora
-- $\mathrm{v}=(1,3)$ è **combinazione lineare** di $v_{1},v_{2}$
-Perchè:
+>[!question] $\mathrm{v}=(1,3)$ è **combinazione lineare** di $v_{1},v_{2}$?
+
 $$
 \frac{1}{2}v_{1}+(-3)v_{2} = (1,0)+(0,3) = (1,3) = \mathrm{v}
 $$
@@ -341,7 +340,7 @@ $$
 >[!info] Linearmente Indipendente
 >Un insieme di vettori $v_{1},\dots,v_{n}$ è **linearmente indipendente** se nessuno di loro è combinazione lineare degli altri
 > <u>Oppure</u>
-> Un insieme di vettori $v_{1},\dots,v_{n}$ è **linearmente indipendente** se gli unici $a_{1},\dots,a_{n} \in \mathbb{K}$ tali che $a_{1}v_{1},\dots,a_{n}v_{n}=\underline{0}$ è $a_{1}=0,\dots,a_{n=0}$
+> Un insieme di vettori $v_{1},\dots,v_{n}$ è **linearmente indipendente** se gli unici $a_{1},\dots,a_{n} \in \mathbb{K}$ tali che $a_{1}v_{1}+\dots+a_{n}v_{n}=\underline{0}$ è $a_{1}=0,\dots,a_{n}=0$
 
 >[!info] Linearmente Dipendenti
 >Un insieme di vettori $v_{1},\dots,v_{n}$ è **linearmente dipendente** se non è linearmente indipendente
