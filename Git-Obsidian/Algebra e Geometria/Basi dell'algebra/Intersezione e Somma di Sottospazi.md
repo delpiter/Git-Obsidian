@@ -36,12 +36,14 @@ Basta prendere $u_{1}=(1,0)\in U$ e $w_{1}=(0,1)$
 >$$U+W = \{ u+w,u\in U , w \in W \}$$
 
 $U+W$ è un sottospazio vettoriale poiché:
+>*Siano*
 $$u_{1}+w_{1},u_{2}+w_{2}\in U+W
 \begin{pmatrix}
 u_{1},u_{2}\in U \\
 w_{1},w_{2} \in W
 \end{pmatrix}$$
-Allora:
+
+<u>Allora</u>:
 - $(u_{1}+w_{1})+(u_{2}+w_{2}) = \underbrace{ (u_{1}+u_{2}) }_{ \in U }+\underbrace{ (w_{1}+w_{2}) }_{ \in W } \in U+W$
 - Ragionamento analogo per il prodotto per uno scalare
 
@@ -57,7 +59,7 @@ $W =\{( 0,t,s,0 ), t,s\in\mathbb{R}\}$
 
 $$
 \begin{array}
-\ U+W=\{ u+w, u\in W,w\in W \}=\{ (a,b+t,s,0),a,b,t\in\mathbb{R} \}= \\
+\ U+W=\{ u+w, u\in W,w\in W \}=\{ (a,b+t,s,0),a,b+t,s\in\mathbb{R} \}= \\
 =\{ (x_{1},x_{2},x_{3}x_{4})\in\mathbb{R}^4:x_{4}=0 \} \text{ dim} =3
 \end{array}
 $$
@@ -82,6 +84,8 @@ Ha come dimensione $\text{dim} (U\cap W)=1$
 	- $3  = 2+2-1$
 ### Dimostrazione
 >[!tip] Supponiamo che:
+
+>*Dimostrazione Sensata*
 
 - $B_{U}=\{ v_{1},\dots,v_{r} \}$ sia una base di $U$ $\implies \text{dim}(U) = r$
 - $B_{W}=\{ v_{1},\dots,v_{s} \}$ sia una base di $W$ $\implies \text{dim}(W) = s$
@@ -115,6 +119,7 @@ r+s=r+s\cancel{ -i }\cancel{ +i }
 \end{array}
 $$
 
+>*Dimostrazione Moci*
 
 Sia $v_{1},\dots,v_{l}$ una base di $U \cap W$
 Completiamola a una base di $U$
@@ -164,7 +169,7 @@ $$
 >[!info] Definizione 
 >Diciamo che $U,W$ formano una **somma diretta** se $U\cap W=\{ \underline{0} \}$
 >In questo caso, $U+W$ è indicato con il simbolo
->$$U\bigoplus W$$
+>$$U\oplus W$$
 
 ### Proprietà
 >[!tip] $U,W$ Formano somma diretta
