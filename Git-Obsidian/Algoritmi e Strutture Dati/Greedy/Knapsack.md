@@ -22,6 +22,10 @@ Supponiamo che il ladro *possa rubare* un peso totale di $W'$ non maggiore di $W
 Se togliamo dallo zaino l'oggetto $j$ otteniamo la ***soluzione ottima*** del sotto problema in cui lo zaino può ***contenere al massimo*** $W-w_{j}$ ottenuti mettendo insieme oggetti da un insieme di $n-1$
 - È stato tolto l'oggetto $j$-esimo
 
+
+
+![[knapsack-Ottimalità.png]]
+>*Supponendo per assurdo che non valga la proprietà*
 ### Soluzione Greedy
 >*Il knapsack frazionario si può risolvere tramite [[Gli Algoritmi Greedy|algoritmi Greedy]]*
 
@@ -37,3 +41,5 @@ Se togliamo dallo zaino l'oggetto $j$ otteniamo la ***soluzione ottima*** del so
 
 >[!fail] Il knapsack 0-1 non è risolvibile tramite un *algoritmo greedy*
 
+### Knapsack 0-1 Soluzione Dinamica
+Il problema può essere ridotto in sottoproblemi più piccoli
