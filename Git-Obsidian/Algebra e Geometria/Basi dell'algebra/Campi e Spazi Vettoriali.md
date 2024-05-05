@@ -32,7 +32,7 @@ In $\mathbb{Z}_{3}$
 - $1+2 =3 \equiv 0 (3)$
 
 In $\mathbb{Z}_{5}$
-- $\overline{3}\cdot \overline{4} = \overline{2}$ perhè $3\cdot4=12\equiv 2(5)$
+- $\overline{3}\cdot \overline{4} = \overline{2}$ perchè $3\cdot4=12\equiv 2(5)$
 
 #### Osservazione
 $\mathbb{Z}_{n}$ è un campo $\Leftrightarrow n$ è **primo**
