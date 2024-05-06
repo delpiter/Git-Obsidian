@@ -13,6 +13,42 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Git-Obsidian/Algebra e Geometria/Frome Bilineari e Prodotti Scalari/Forme Quadratiche.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "53276eae802a12bb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git-Obsidian/Analisi/Funzioni a due Variabili/Punti Critici.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "aac92c4011b7b2b1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git-Obsidian/Algebra e Geometria/Frome Bilineari e Prodotti Scalari/Forme Bilineari.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "29ae331ea912c44f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Git-Obsidian/Algebra e Geometria/Frome Bilineari e Prodotti Scalari/Diagonalizzare Forme Bilineari.md",
                 "mode": "source",
                 "source": false
@@ -46,7 +82,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "rango",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -66,7 +102,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -86,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Algebra e Geometria/Frome Bilineari e Prodotti Scalari/Diagonalizzare Forme Bilineari.md",
+                "file": "Git-Obsidian/Algebra e Geometria/Frome Bilineari e Prodotti Scalari/Forme Quadratiche.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Algebra e Geometria/Frome Bilineari e Prodotti Scalari/Diagonalizzare Forme Bilineari.md",
+                "file": "Git-Obsidian/Algebra e Geometria/Frome Bilineari e Prodotti Scalari/Forme Quadratiche.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git-Obsidian/Algebra e Geometria/Frome Bilineari e Prodotti Scalari/Diagonalizzare Forme Bilineari.md"
+                "file": "Git-Obsidian/Algebra e Geometria/Frome Bilineari e Prodotti Scalari/Forme Quadratiche.md"
               }
             }
           },
@@ -167,11 +203,13 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "b7bbd0cf1ff52e07",
+  "active": "37505f45f6024b42",
   "lastOpenFiles": [
-    "Git-Obsidian/Algoritmi e Strutture Dati/Greedy/Knapsack.md",
     "Git-Obsidian/Algebra e Geometria/Frome Bilineari e Prodotti Scalari/Diagonalizzare Forme Bilineari.md",
+    "Git-Obsidian/Algebra e Geometria/Frome Bilineari e Prodotti Scalari/Forme Quadratiche.md",
     "Git-Obsidian/Algebra e Geometria/Frome Bilineari e Prodotti Scalari/Forme Bilineari.md",
+    "Git-Obsidian/Analisi/Funzioni a due Variabili/Punti Critici.md",
+    "Git-Obsidian/Algoritmi e Strutture Dati/Greedy/Knapsack.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Greedy/Activity Selection.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Programmazione Dinamica/Max Subarray.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Greedy/Gli Algoritmi Greedy.md",
@@ -195,8 +233,6 @@
     "Git-Obsidian/Algebra e Geometria/Frome Bilineari e Prodotti Scalari",
     "Git-Obsidian/Algebra e Geometria/Applicazioni/Criterio di Diagonalizzabilità.md",
     "Git-Obsidian/Algebra e Geometria/Applicazioni/Matrici Diagonali.md",
-    "Git-Obsidian/Algebra e Geometria/Applicazioni/Matrici Quasi Diagonalizzabili.md",
-    "Git-Obsidian/Algebra e Geometria/Applicazioni/Determinante di una Matrice.md",
     "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/attatchements/Pasted image 20240429223852.png",
     "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/attatchements/Pasted image 20240429223505.png",
     "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/attatchements",
