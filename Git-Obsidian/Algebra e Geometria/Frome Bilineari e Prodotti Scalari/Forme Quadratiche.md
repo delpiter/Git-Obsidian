@@ -96,3 +96,18 @@ $$
 >>[!danger] $5.$
 >>$q$ è ***indefinita*** $\iff$ la [[Diagonalizzare Forme Bilineari#Teorema di Sylvester|segnatura]] di $\beta$ è $(p,r-p)$ con $p>0,r-p>0$
 
+#### Esempio
+>*Sia $f:\mathbb{R}^n\to\mathbb{R}$ una funzione di $n$ variabili, derivabile $2$ volte*
+
+Dato $v\in\mathbb{R}^n$ definiamo l'***Hessiana*** di $f(v)$ come $Hf(v)$
+Come la matrice:
+$$
+Hf(v)_{ij}=\displaystyle{\frac{\partial f}{\partial x_{i}}\left( \frac{\partial f}{\partial y_{i}} \right)(v) }
+$$
+- *Se le derivate seconde sono continue, è una* ***matrice simmetrica***
+
+>[!info] Serve per capire la natura dei punti critici
+
+- Se $Hf(v)$ è ***definita positiva*** $\implies$ il punto $v$ è un ***punto di minimo***
+- Se $Hf(v)$ è ***definita negativa*** $\implies$ il punto $v$ è un ***punto di massimo***
+- Se $Hf(v)$ è ***indefinita*** $\implies$ il punto $v$ è un ***punto di sella***

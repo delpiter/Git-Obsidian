@@ -1,0 +1,98 @@
+## I Prodotti Scalari
+---
+>[!info] Definizione
+>Sia $V$ uno [[Campi e Spazi Vettoriali#Spazio Vettoriale|spazio vettoriale]] su $\mathbb{K}=\mathbb{R}$
+>Un ***prodotto scalare*** è una [[Forme Bilineari#Forma Bilineare|forma bilineare]] [[Forme Bilineari#Tipi di Forme Bilineari|simmetrica]] e [[Forme Quadratiche#Tipi di Forme Quadratiche|definita positiva]]
+
+#### Esempio
+1. $V=\{ \text{ funzioni } [a,b]\to\mathbb{R} \}$
+
+*Sia* $\beta(f,g)=\displaystyle\int_{a}^b f(t)\cdot g(t)\, dt$
+
+>[!question] È un prodotto scalare?
+
+- È ***bilineare*** e ***simmetrica***
+>[!question] È definita positiva?
+
+$$
+f(t)=\begin{cases}
+1\qquad \text{ se }t=\displaystyle{\frac{a+b}{2}} \\
+0 \qquad \text{ altrimenti}
+\end{cases}
+$$
+- $q(f)=\beta(f,f)=\displaystyle\int_{a}^b f(t)^2 \, dt=0$
+ Quindi $q(f)=0$, ma $f\neq0$
+
+>[!fail] $\beta$ non è definita positiva, $\beta$ non è un prodotto scalare
+
+2. $U=\{ f:[a,b]\to \mathbb{R}, \text{ funzioni continue} \}$
+*Sia* $\beta(f,g)=\displaystyle\int_{a}^b f(t)\cdot g(t)\, dt$
+
+>[!question] È un prodotto scalare?
+
+- Come prima è ***bilineare*** e ***simmetrica***
+>[!question] È definita positiva?
+
+Sia $f\neq 0$ allora $\exists p\in \mathbb{R}$
+- Poiché $f$ è continua esiste un intorno di $p$ in cui $f(x)>0$ e quindi l'integrale ***deve essere positivo***
+$$
+\int _{a}^b f(t)^2 \, dt >0\implies q(f)>0\qquad \forall f\neq 0
+$$
+Per ciò, $\beta$ è ***definita positiva***
+
+>[!done] $\beta$ è un prodotto scalare
+
+
+### Prodotto Scalare Standard
+>[!summary] Definizione
+>Sia $V=\mathbb{R}^n \qquad v=(x_{1},\dots,x_{n}),\qquad u=(y_{1},\dots,y_{n})$
+>E sia $\beta(v,u)=x_{1}y_{1}+\dots+x_{n}y_{n}$
+>>[!done] $\beta$ è un prodotto scalare detto ***prodotto scalare standard***
+
+La sua matrice nella base canonica $e_{1},\dots,e_{n}$ è:
+$$
+I_{n}=\begin{pmatrix}
+1 & 0 & \dots & 0 \\
+0 & 1 & \dots & 0 \\
+\dots  & \dots & \dots & \dots\\
+0 & 0 & \dots & 1
+\end{pmatrix}
+$$
+
+### Notazione
+>[!info] Semplificazione
+>Sia $V$ uno [[Campi e Spazi Vettoriali#Spazio Vettoriale|spazio vettoriale]] su $\mathbb{K=\mathbb{R}}$ e sia $\beta$ un [[#I Prodotti Scalari|prodotto scalare]] su $V$
+>Invece di $\beta(v,u)$ scriveremo semplicemente $(v,u)$ o $<v,u>$ o $v\cdot u$
+>Invece di $q(v)$ scriveremo $\mid\mid v \mid\mid^2$ cioè, definiamo la ***norma*** di $v$ o la ***lunghezza***
+>$\mid\mid v\mid\mid=\sqrt{ (v,v) }$
+>Diciamo che $\mid\mid v\mid\mid$ è un ***versore*** se $\mid\mid v\mid\mid =1$
+
+### Vettori Ortogonali
+>[!info] Definizione
+>Diciamo che $v,u$ sono ***ortogonali*** se $(v,u)=0$
+
+#### Vettori Ortonormali
+>[!summary] Definizione
+>Diciamo che un insieme di vettori $v_{1},\dots,v_{n}$ sono ***ortonormali*** se sono versori tra di loro ***ortogonali***, cioè se:
+>$$\forall i,j \qquad (v_{i},v_{j})=\begin{cases} 1 \qquad \text{se } i=j \\ 0 \qquad \text{se } i\neq j \end{cases}$$
+
+##### Base Ortonormale
+>[!Teorema] 
+>Sia $V$ uno [[Campi e Spazi Vettoriali#Spazio Vettoriale|spazio vettoriale]] su $\mathbb{K}=\mathbb{R}$ con un prodotto scalare
+><u>Allora</u>
+>$\exists$ una base ***ortonormale*** rispetto a tale prodotto scalare
+
+###### Dimostrazione
+Per il [[Diagonalizzare Forme Bilineari#Teorema di Sylvester|teorema di Sylvester]]
+Poiché il ***prodotto scalare*** è una ***forma bilineare simmetrica***
+- $\exists$ una base $v_{1},\dots,v_{n}$ in cui la matrice è
+$$
+\begin{pmatrix}
+I_{p} \\
+ & I_{r-p} \\
+ &  & 0
+\end{pmatrix}
+$$
+E poiché è definita positiva, la segnatura è $(n,0)$
+- Cioè la matrice è $I_{n}$
+- Dunque $(v_{i},v_{j})=(I_{n})_{ij}=\begin{cases}1 \qquad \text{se } i=j \\ 0 \qquad \text{se } i\neq j\end{cases}$
