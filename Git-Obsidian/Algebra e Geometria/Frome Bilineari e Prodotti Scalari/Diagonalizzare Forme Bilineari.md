@@ -82,6 +82,7 @@ $$
 $$
 Ora $w_{1}'$ non lo tocco più e riapplico il ***passo 1*** e il ***passo 2*** a $w_{2}',\dots,w_{n'}$
 - Ottengo una ***nuova base*** $w_{1}'',w_{2}'',\dots,w_{n}''$ in cui la matrice di $\beta$ è:
+
 $$
 \begin{pmatrix}
 *  & 0 & 0 & \dots & 0 \\
@@ -91,6 +92,7 @@ $$
 0 & 0
 \end{pmatrix}
 $$
+
 >[!caution] E così via
 
 Dopo $n-1$ iterazioni dei $2$ passi, ho ottenuto una base $u_{1},\dots,u_{n}$ tale che la matrice di $\beta$ in questa base è diagonale
