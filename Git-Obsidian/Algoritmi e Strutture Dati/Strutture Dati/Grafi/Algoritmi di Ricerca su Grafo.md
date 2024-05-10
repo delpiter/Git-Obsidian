@@ -77,7 +77,7 @@ Ogni vertice $v$
 \EndFor
 \State $ ‎  $
 \State \Comment{Second Section}
-\State $ color[s]= gray $
+\State $ color[s]= grey $
 \State $ d[s]=0 $
 \State $ \pi[s]=\text{NULL} $
 \State $ Q=\{s\} $
@@ -87,7 +87,7 @@ Ogni vertice $v$
 \State $ u = head[Q] $
 \ForAll{$v \in Adj[u]$}
 \If{$ color[v] == white  $}
-  \State $ color[v] = gray $
+  \State $ color[v] = grey $
   \State $ d[v] = d[u]+1 $
   \State $ \pi[v] = u $
   \State \Call{ Enqueue }{$ Q,v $}

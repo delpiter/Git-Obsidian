@@ -49,7 +49,7 @@ Per ciò, $\beta$ è ***definita positiva***
 >E sia $\beta(v,u)=x_{1}y_{1}+\dots+x_{n}y_{n}$
 >>[!done] $\beta$ è un prodotto scalare detto ***prodotto scalare standard***
 
-La sua matrice nella base canonica $e_{1},\dots,e_{n}$ è:
+La sua matrice nella base canonica $e_{1},\dots,e_{n}$ è: ^e3d996
 $$
 I_{n}=\begin{pmatrix}
 1 & 0 & \dots & 0 \\
@@ -160,7 +160,7 @@ a_{1}\cancelto{ 0 }{ (v_{i},v_{1}) }+\dots+a_{i}\underbrace{ (v_{i},v_{i}) }_{ \
 $$
 
 
-###### Esempio
+###### Esempio Prodotto Scalare
 Consideriamo la [[Forme Bilineari#Forma Bilineare|forma bilineare]] su $\mathbb{R}^2$
 - $v=(a_{1},a_{2}), \quad u=(b_{1},b_{2})$
 $$
@@ -203,3 +203,90 @@ $$
 1
 \end{pmatrix}=1\cdot 5+1\cdot 1=6
 $$
+
+### Disuguaglianza di Cauchy-Schwarts
+>[!info] Definizione
+>Sia $V$ uno [[Campi e Spazi Vettoriali#Spazio Vettoriale|spazio vettoriale]] su $\mathbb{K}=\mathbb{R}$ e consideriamo un prodotto scalare su $V$
+>>[!abstract] Proposizione
+>>$$\mid (v,u)\mid\leq\mid\mid v\mid\mid \cdot \mid\mid u \mid\mid$$
+>>- $\forall v,u\in V$
+>
+>L'uguaglianza vale $\iff$ $v,u$ sono linearmente indipendenti
+>Di conseguenza, $\forall v,u\in V$
+>- $\displaystyle{\frac{\mid(v,u)\mid}{\mid\mid v \mid\mid \cdot\mid\mid u\mid\mid}}\leq1$
+>Cioè
+>$$-1\leq\displaystyle{\frac{(v,u)}{\mid\mid v \mid\mid \cdot \mid\mid u\mid\mid}}\leq1$$
+
+
+#### Angolo Convesso
+>[!info] Definizione
+>Definisco l'***Angolo Convesso*** tra $v$ e $u$ come:
+>$$arcos\left( \displaystyle{\frac{(v,u)}{\mid\mid v \mid\mid\cdot\mid\mid u\mid\mid}} \right) $$
+
+Quindi un prodotto scalare ci permette di misurare non solo la lunghezza dei vettori, ma anche gli ***angoli che essi formano fra loro***
+
+#### Distanza Euclidea
+>[!tldr] Definizione
+>Il prodotto scalare ci permette anche di definire la ***distanza euclidea*** tra due punti $P,Q\in V$
+>$$d(P,Q)=\mid\mid \overrightarrow{PQ}\mid\mid$$
+
+##### Esempio
+>$P=(3,1) \quad Q=(5,0)$
+
+- $\overrightarrow{PQ}=(5-3,0-1)=(2,-1)$
+
+Rispetto al [[#Prodotto Scalare Standard]]:
+$$
+d(P,Q)=\sqrt{ ((2,-1),(2,-1)) }=\sqrt{ 5 }
+$$
+Rispetto al prodotto scalare dell'[[#Esempio Prodotto Scalare|esempio]] precedente:
+$$
+d(P,Q)=\sqrt{ \beta((2,-1),(2,-1)) }=\sqrt{ 4+5-4-4 }=1
+$$
+
+
+##### Proprietà
+>[!abstract] Consideriamo un prodotto scalare su $V$ e la distanza euclidea ad essa associata
+>La ***distanza euclidea*** ha le seguenti proprietà
+>1. $d(P,Q)\geq 0$ e $d(Q,P)=0 \iff P=Q$
+>2. $d(P,Q)=d(Q,P) \qquad \forall P,Q\in V$
+>3. $d(P,Q)\leq d(P,R)+d(R,Q)\quad \forall P,Q,R \in V$
+>>[!done] Anche detta ***disuguaglianza triangolare***
+
+###### Dimostrazione
+>1.
+
+Poiché un prodotto scalare è [[Forme Quadratiche#Tipi di Forme Quadratiche|definito positivo]]
+$$
+(\overrightarrow{PQ},\overrightarrow{PQ})\geq 0  
+$$
+e
+$$
+\text{vale l'uguaglianza}\iff \overrightarrow{PQ}=\underline{0} \text{ cioè }P=Q
+$$
+
+>2.
+
+Osserviamo che se $a\in\mathbb{R},\mid\mid av\mid\mid = \sqrt{ (av,av) }=\mid a\mid \sqrt{ (v,v) }=\mid a\mid\cdot\mid\mid v \mid\mid$
+- In particolare, per $a=-1$
+$$
+d(P,Q)=\mid\mid \overrightarrow{PQ} \mid\mid =\mid\mid -\overrightarrow{PQ}\mid\mid= \mid-1\mid \cdot\mid\mid QP\mid\mid = \mid\mid QP\mid\mid=d(Q,P)
+$$
+
+>3.
+
+Osserviamo che se $v,w\in V$
+$$
+\mid\mid v+w\mid\mid\leq\mid\mid v\mid\mid+\mid\mid w \mid\mid
+$$
+Perché:
+$$
+\mid\mid v+w \mid\mid^2 = (v+w,v+w)=(v,v)+(w,w)+\underbrace{ 2(v,w) }_{ \leq  2\mid\mid v\mid\mid\cdot\mid\mid w \mid\mid}\leq\mid\mid v\mid\mid^2+\mid\mid w\mid\mid^2+2\mid\mid v\mid\mid\cdot\mid\mid w\mid\mid=
+$$
+$$
+=(\mid\mid w\mid\mid +\mid\mid v \mid\mid)^2
+$$
+
+In particolare per $v=\overrightarrow{PR}$ e $w=\overrightarrow{RQ}$
+- $v+w=\overrightarrow{PR}+\overrightarrow{RQ}\leq \overrightarrow{PQ}$
+

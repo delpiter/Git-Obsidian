@@ -4,83 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "e03201f21934fdab",
+        "id": "3a1fe315fd64fd1e",
         "type": "tabs",
         "children": [
           {
-            "id": "9e23a985640e8626",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git-Obsidian/Algebra e Geometria/Frome Bilineari e Prodotti Scalari/Prodotto Scalare.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0996eb5ef13d6d74",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/Teoremi su Spazi Vettoriali.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "23e32e5c767d0584",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git-Obsidian/Algebra e Geometria/Frome Bilineari e Prodotti Scalari/Forme Bilineari.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7fe1ecaca94c71d1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git-Obsidian/Algebra e Geometria/Applicazioni/Cambiamenti di Base.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e85875d392001511",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git-Obsidian/Algebra e Geometria/Frome Bilineari e Prodotti Scalari/Prodotto Scalare.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "252a2d5a840f12b2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git-Obsidian/Algebra e Geometria/Frome Bilineari e Prodotti Scalari/Prodotto Scalare.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8b702621d5d95d39",
+            "id": "759865adf91721dd",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -90,8 +18,57 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "3e0d115bf26d5e0a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git-Obsidian/Algebra e Geometria/Frome Bilineari e Prodotti Scalari/Sottospazi Ortogonali.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3542cfb45f9e1d1d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git-Obsidian/Markdown Keys.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "14ce3b0eec066dd3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git-Obsidian/Algebra e Geometria/Frome Bilineari e Prodotti Scalari/Forme Quadratiche.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "85acc1dbd005722c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Algoritmi di Ricerca su Grafo.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -118,8 +95,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "coordinate",
-                "matchingCase": true,
+                "query": "",
+                "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -142,8 +119,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 269.5,
-    "collapsed": true
+    "width": 269.5
   },
   "right": {
     "id": "3561446b8c4d05ef",
@@ -159,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Algebra e Geometria/Frome Bilineari e Prodotti Scalari/Prodotto Scalare.md",
+                "file": "Git-Obsidian/Algebra e Geometria/Frome Bilineari e Prodotti Scalari/Sottospazi Ortogonali.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -176,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Algebra e Geometria/Frome Bilineari e Prodotti Scalari/Prodotto Scalare.md",
+                "file": "Git-Obsidian/Algebra e Geometria/Frome Bilineari e Prodotti Scalari/Sottospazi Ortogonali.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -199,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git-Obsidian/Algebra e Geometria/Frome Bilineari e Prodotti Scalari/Prodotto Scalare.md"
+                "file": "Git-Obsidian/Algebra e Geometria/Frome Bilineari e Prodotti Scalari/Sottospazi Ortogonali.md"
               }
             }
           },
@@ -240,16 +216,20 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "9e23a985640e8626",
+  "active": "3e0d115bf26d5e0a",
   "lastOpenFiles": [
-    "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/Teoremi su Spazi Vettoriali.md",
-    "Git-Obsidian/Algebra e Geometria/Frome Bilineari e Prodotti Scalari/Prodotto Scalare.md",
-    "Git-Obsidian/Algebra e Geometria/Frome Bilineari e Prodotti Scalari/Diagonalizzare Forme Bilineari.md",
-    "Git-Obsidian/Algebra e Geometria/Applicazioni/Cambiamenti di Base.md",
-    "Git-Obsidian/Algebra e Geometria/Frome Bilineari e Prodotti Scalari/Forme Bilineari.md",
-    "Git-Obsidian/Algebra e Geometria/Frome Bilineari e Prodotti Scalari/Forme Quadratiche.md",
-    "README.md",
     "Git-Obsidian/Markdown Keys.md",
+    "Git-Obsidian/Algebra e Geometria/Frome Bilineari e Prodotti Scalari/Sottospazi Ortogonali.md",
+    "Git-Obsidian/Algebra e Geometria/Frome Bilineari e Prodotti Scalari/Prodotto Scalare.md",
+    "Git-Obsidian/Algebra e Geometria/Frome Bilineari e Prodotti Scalari/Forme Quadratiche.md",
+    "Git-Obsidian/Algebra e Geometria/Frome Bilineari e Prodotti Scalari/Diagonalizzare Forme Bilineari.md",
+    "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Algoritmi di Ricerca su Grafo.md",
+    "Git-Obsidian/Algebra e Geometria/Frome Bilineari e Prodotti Scalari/Forme Bilineari.md",
+    "Git-Obsidian/Algoritmi e Strutture Dati/Appunti.md",
+    "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Queue.md",
+    "Git-Obsidian/Algebra e Geometria/Applicazioni/Cambiamenti di Base.md",
+    "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/Teoremi su Spazi Vettoriali.md",
+    "README.md",
     "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/Pipelining.md",
     "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/attatchements/Superscalar Architecture.png",
     "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/attatchements/Multiple Pipeline.png",
@@ -262,7 +242,6 @@
     "Git-Obsidian/Algoritmi e Strutture Dati/Greedy/Activity Selection.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Programmazione Dinamica/Max Subarray.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Greedy/Gli Algoritmi Greedy.md",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Appunti.md",
     "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/Introduzione.md",
     "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/Intersezione e Somma di Sottospazi.md",
     "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/Forme Parametriche e Cartesiane.md",
@@ -270,9 +249,6 @@
     "Git-Obsidian/Algoritmi e Strutture Dati/Greedy/attatchements/knapsack-Ottimalità.png",
     "Git-Obsidian/Analisi/Funzioni/Introduzione Funzioni.md",
     "Git-Obsidian/Algebra e Geometria/I Tre Usi delle Matrici.md",
-    "Git-Obsidian/Algebra e Geometria/Applicazioni/Estensione Lineare.md",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Algoritmi di Ricerca su Grafo.md",
-    "Git-Obsidian/Architettura degli Elaboratori/Assembly/Istruzione Assembly.md",
     "Git-Obsidian/Algebra e Geometria/Frome Bilineari e Prodotti Scalari",
     "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/attatchements/Pasted image 20240429223852.png",
     "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/attatchements/Pasted image 20240429223505.png",

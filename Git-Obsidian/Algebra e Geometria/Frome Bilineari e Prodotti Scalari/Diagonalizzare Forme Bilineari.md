@@ -48,7 +48,7 @@ w_{1},w_{3} & w_{1},w_{2} & w_{1},w_{1}& \dots \\
 $$
 
 Se $\beta(w_{i},w_{i})=0$ $\forall i=1,\dots,n$ allora cerco $i,j:\beta(w_{i},w_{j})\neq0$ e scambio:
-- $w_{1} \leftarrow w_{i}+w_{j}$, $w_{2} \leftarrow w_{j}$, $w_{i}\leftarrow w_{1}$, $w_{j}\leftarrow w_{2}$
+- $w_{1} \leftarrow w_{i}+w_{j}$, $\quad w_{2} \leftarrow w_{j}$, $\quad w_{i}\leftarrow w_{1}$, $\quad w_{j}\leftarrow w_{2}$
 - Così che $\beta(w_{i}+w_{j},w_{i}+w_{j})=\underbrace{ \beta(w_{i},w_{i}) }_{ =0 }+\underbrace{ \beta(w_{j},w_{j}) }_{ =0 }+\underbrace{ 2\beta(w_{i},w_{j}) }_{ \neq 0 }$
 - E vado al ***passo 2***
 
