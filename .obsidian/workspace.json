@@ -4,71 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "3a1fe315fd64fd1e",
+        "id": "3506c758a9666a4c",
         "type": "tabs",
         "children": [
           {
-            "id": "759865adf91721dd",
+            "id": "92962355be93e144",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Obsidian/Algebra e Geometria/Frome Bilineari e Prodotti Scalari/Diagonalizzare Forme Bilineari.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3e0d115bf26d5e0a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Programmazione Dinamica/Longest Common Subsequence.md",
+                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Minimum Spanning Tree.md",
                 "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "15e9ccb29cb8d5c4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git-Obsidian/Markdown Keys.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "14ce3b0eec066dd3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git-Obsidian/Algebra e Geometria/Frome Bilineari e Prodotti Scalari/Forme Quadratiche.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "85acc1dbd005722c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Algoritmi di Ricerca su Grafo.md",
-                "mode": "preview",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -135,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Programmazione Dinamica/Longest Common Subsequence.md",
+                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Minimum Spanning Tree.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Programmazione Dinamica/Longest Common Subsequence.md",
+                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Minimum Spanning Tree.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Programmazione Dinamica/Longest Common Subsequence.md"
+                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Minimum Spanning Tree.md"
               }
             }
           },
@@ -216,9 +167,16 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "3e0d115bf26d5e0a",
+  "active": "92962355be93e144",
   "lastOpenFiles": [
+    "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/attachements/Kruskal-4.png",
+    "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/attachements/Kruskal-1.png",
+    "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/attachements/Kruskal-3.png",
+    "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/attachements/Kruskal-2.png",
     "Git-Obsidian/Markdown Keys.md",
+    "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Minimum Spanning Tree.md",
+    "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Algoritmi di Ricerca su Grafo.md",
+    "Git-Obsidian/Algebra e Geometria/Frome Bilineari e Prodotti Scalari/Forme Quadratiche.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Programmazione Dinamica/Longest Common Subsequence.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento/attachements/Pasted image 20240307142205.png",
     "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento/Heap Sort.md",
@@ -232,8 +190,6 @@
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Rappresentazione di Grafi.md",
     "Git-Obsidian/Algebra e Geometria/Frome Bilineari e Prodotti Scalari/Sottospazi Ortogonali.md",
     "Git-Obsidian/Algebra e Geometria/Frome Bilineari e Prodotti Scalari/Prodotto Scalare.md",
-    "Git-Obsidian/Algebra e Geometria/Frome Bilineari e Prodotti Scalari/Forme Quadratiche.md",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Algoritmi di Ricerca su Grafo.md",
     "Git-Obsidian/Algebra e Geometria/Frome Bilineari e Prodotti Scalari/Forme Bilineari.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Appunti.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Queue.md",
@@ -249,15 +205,10 @@
     "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/Prestazioni dei Calcolatori.md",
     "Git-Obsidian/Analisi/Funzioni a due Variabili/Punti Critici.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Greedy/Knapsack.md",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Greedy/Activity Selection.md",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Greedy/attachements/knapsack-Ottimalità.png",
     "Git-Obsidian/Algebra e Geometria/Frome Bilineari e Prodotti Scalari",
-    "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/attatchements/Pasted image 20240429223852.png",
-    "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/attatchements/Pasted image 20240429223505.png",
     "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/attachements",
     "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto",
     "Git-Obsidian/Algoritmi e Strutture Dati/Programmazione Dinamica",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Greedy/attachements/knapsack Example.png",
     "Git-Obsidian/Algoritmi e Strutture Dati/Greedy/attachements",
     "Git-Obsidian/Algoritmi e Strutture Dati/Greedy",
     "Git-Obsidian/Programmazione/Puntatori/attachements",
