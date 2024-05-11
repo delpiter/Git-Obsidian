@@ -107,7 +107,7 @@ $$
 >Posto $y=f(c)$, si ha:
 >$$(f^{-1})'(y)= \displaystyle{\frac{1}{\underbrace{ f'(f^{-1}(y)) }_{ c }}}$$
 ### Dimostrazione Geometrica
-![[Git-Obsidian/Analisi/Calcolo Differenziale/attatchements/Pasted image 20231031153153.png]]
+![[Pasted image 20231031153153.png]]
 - Equazione di $r : y=\underbrace{ m }_{ f'(x) }x+q$
 	- $x= \displaystyle{\frac{y-q}{m}}$
 - Equazione di $s:y= \displaystyle{\frac{x}{m}}- \displaystyle{\frac{q}{m}}$

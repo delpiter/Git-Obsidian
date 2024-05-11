@@ -5,7 +5,7 @@
 >Chiamiamo sottografico di $f$, l'insieme:
 >$$ \large \Gamma f = \{ (x,y) \in \mathbb{R} \times \mathbb{R} \mid x \in [a,b], y \in [0, f(x)] \} $$
 
-![[Git-Obsidian/Analisi/Calcolo Integrale/attatchements/Pasted image 20231115133900.png]]
+![[Pasted image 20231115133900.png]]
 
 ### Osservazione
 $$

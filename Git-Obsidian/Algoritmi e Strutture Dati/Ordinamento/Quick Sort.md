@@ -102,7 +102,7 @@ Otteniamo la seguente equazione ricorsiva
 $$
 T(n) = T(n/10)+T(9n/10)+\Theta(n)
 $$
-![[Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento/attatchements/Pasted image 20240307142205.png]]
+![[Pasted image 20240307142205.png]]
 *Albero della ricorsione del quick sort*
 
 Possiamo notare come la parte sinistra dell'albero si concluda con una altezza di solo:

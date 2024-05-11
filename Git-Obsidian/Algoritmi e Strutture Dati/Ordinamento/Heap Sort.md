@@ -32,7 +32,7 @@
 >- Si *esclude* l'ultimo nodo dalla **heap**
 >- Si ricostruisce la ***heap***
 
-![[Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento/attatchements/heap-removebg-preview.png]]
+![[heap-removebg-preview.png]]
 
 ## Complessità
 ---

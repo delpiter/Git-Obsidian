@@ -15,7 +15,7 @@
 >>E si ha $f(c)\geq f(x)$
 
 ### Dimostrazione Grafica
-![[Git-Obsidian/Analisi/Calcolo Differenziale/attatchements/Pasted Image 202304523.jpg]]
+![[Pasted Image 202304523.jpg]]
 
 ## Teorema di Fermat
 ---
@@ -86,7 +86,7 @@ $$
 f'(c)=0
 $$
 ### Visualizzazione Grafica
-![[Git-Obsidian/Analisi/Calcolo Differenziale/attatchements/Pasted image 20231106151817.png]]
+![[Pasted image 20231106151817.png]]
 
 ## Teorema di Lagrange
 ---
@@ -128,7 +128,7 @@ $$
 
 
 ### Visualizzazione Grafica
-![[Git-Obsidian/Analisi/Calcolo Differenziale/attatchements/Pasted image 20231106151842.png]]
+![[Pasted image 20231106151842.png]]
 
 ## Teorema test di Monotonia
 ---

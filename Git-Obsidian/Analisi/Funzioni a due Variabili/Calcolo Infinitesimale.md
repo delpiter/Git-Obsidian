@@ -39,7 +39,7 @@
 >>si ha: 
 >>$$f(x,y)\in\mathrm{U}_{l}$$
 
-![[Git-Obsidian/Analisi/Funzioni a due Variabili/attatchements/geogebra-export.png]]
+![[geogebra-export.png]]
 - Per trovare la non-esistenza del limite basta trovare 2 limiti da direzione diversa con soluzione diversa
 #### Es
 $$

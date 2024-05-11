@@ -36,7 +36,7 @@ $$
 D:\{ (x,y)\in\mathbb{R}^2 :\underbrace{ 1-x^2-y^2\geq 0 }_{\displaystyle x^2+y^2\leq 1 }\}
 $$
 - Rappresentazione Grafica:
-![[Git-Obsidian/Analisi/Funzioni a due Variabili/attatchements/Pasted image 20231204153447.png|400]]
+![[Pasted image 20231204153447.png|400]]
 ##### Es
 $$
 f(x,y)=\sqrt{ x^2 y^2 -4 }
@@ -46,7 +46,7 @@ $$
 D:\{ (x,y)\in\mathbb{R}^2 :\underbrace{ x^2+y^2 -4\geq 0 }_{\displaystyle x^2+y^2\geq 2 }\}
 $$
 - Rappresentazione Grafica:
-![[Git-Obsidian/Analisi/Funzioni a due Variabili/attatchements/Pasted image 20231213145237.png|400]]
+![[Pasted image 20231213145237.png|400]]
 
 ## Estremanti Locali
 ---

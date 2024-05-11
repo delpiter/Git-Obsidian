@@ -279,9 +279,9 @@ $$
 >- L'intervallo $[d[v],f[v]]$ è ***contenuto interamente*** in $[d[u],f[u]]$
 >	- $v$ è un *discendente* di $u$ nell'albero `DFS`
 
-![[Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/attatchements/Pasted image 20240413185236.png]]
+![[Pasted image 20240413185236.png]]
 
-![[Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/attatchements/Pasted image 20240413185322.png]]
+![[Pasted image 20240413185322.png]]
 
 ###### Corollario
 >[!abstract] Annidamento di nodi discendenti

@@ -13,7 +13,7 @@
 >È possibile immaginarsi un heap come una struttura: ***vettore***
 
 
-![[Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/attatchements/image-removebg-preview.png]]
+![[Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/attachements/image-removebg-preview.png]]
 
 Considerando la radice dell'albero come la posizione 1
 - Per ogni nodo in posizione $i$

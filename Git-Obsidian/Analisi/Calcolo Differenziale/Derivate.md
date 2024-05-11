@@ -15,7 +15,7 @@ $$
 >[!done] In breve
 >Il rapporto incrementale è il coefficiente angolare della retta secante passante per i due punti $(c,f(c))$ e $(d,f(d))$ 
 
-![[Git-Obsidian/Analisi/Calcolo Differenziale/attatchements/Pasted image 20231027100008.png]]
+![[Pasted image 20231027100008.png]]
 ## Derivata
 ---
 >[!info] Definizione
@@ -31,7 +31,7 @@ $$
 
 ### Osservazione sul grafico
 - Con $c$ che tende sempre di più al valore di $x$ la retta secante fra i due punti tenderà sempre di più a diventare la tangente
-![[Git-Obsidian/Analisi/Calcolo Differenziale/attatchements/Pasted image 20231027102103.png]]
+![[Pasted image 20231027102103.png]]
 
 ### Teorema di Caratterizzazione delle Funzioni Derivabili
 >[!info] Teorema

@@ -27,17 +27,17 @@
 >- In una ***Disjoint-Set Forests*** ogni elemento ha solo un *puntatore al padre*
 >- La *radice* di ciascun albero contiene il ***rappresentante dell'insieme*** ed è il ***padre di se stessa***
 
-![[Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/attatchements/Pasted image 20240330100435.png]]
+![[Pasted image 20240330100435.png]]
 *Una foresta di insiemi disgiunti*
 
 #### Up-Tree Make-Set
 >*Inizializza un nuovo Up-Tree contenente solo il nodo $x\implies \Theta(1)$*
 
-![[Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/attatchements/Screenshot 2024-03-30 10asd5.png]]
+![[Screenshot 2024-03-30 10asd5.png]]
 #### Up-Tree Find-Set
 >*Percorre la catena dei puntatori fino a trovare il rappresentante di $x\implies O(h)$*
 
-![[Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/attatchements/findset2024-03-30 100721.png]]
+![[findset2024-03-30 100721.png]]
 ```pseudo
 	\begin{algorithm}
 	\caption{Find Set}
@@ -60,7 +60,7 @@
 
 - La radice di ***rango inferiore*** avrà come padre la radice di ***rango superiore***
 
-![[Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/attatchements/Pasted image 20240330101911.png]]
+![[Pasted image 20240330101911.png]]
 ```pseudo
 	\begin{algorithm}
 	\caption{Link}
@@ -93,7 +93,7 @@
 >*Serve nel corso della $\text{Find-Set}$, fa puntare direttamente alla radice ogni nodo del cammino d'accesso al nodo dato*
 >*Migliora la complessità asintotica se si eseguono più $\text{Find-Set}$ che $\text{Union}$*
 
-![[Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/attatchements/Pasted image 20240330102722.png]]
+![[Pasted image 20240330102722.png]]
 
 
 #### Complessità Up-Tree

@@ -1,4 +1,3 @@
-#Retake_Images
 ## Grafo: Definizione
 ---
 I *Grafi* sono la struttura fondamentale negli [[Problemi e Algoritmi#Algoritmo|algoritmi]]
@@ -23,7 +22,7 @@ $$
 E=\{ \{ a,b \},\{ a,c \},\{ a,d \},\{ b,e \},\{ c,d \},\{ c,e \}, \{ d,e \} \}
 \end{array}
 $$
-![[Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/attatchements/graph 3.png]]
+![[graph 3.png]]
 >[!example] Grafo Diretto (Orientato)
 >Se ogni coppia del grafo $(u,v)$ è ordinata allora il Grafo si dice *diretto o ordinato*
 
@@ -33,7 +32,7 @@ $$
 E=\{ ( a,b ),( a,c ),( a,d ),( b,e ),( c,d ),( c,e ), ( d,e ) \}
 \end{array}
 $$
-![[Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/attatchements/graph (1).png]]
+![[graph (1).png]]
 ## Terminologia
 ---
 ### Vertici Adiacenti
@@ -57,7 +56,7 @@ $$
 >>[!tip] Cammino Elementare
 >>Un *cammino* si dice elementare quando non ci sono vertici ripetuti
 
- ![[Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/attatchements/image-removebg-preview.png]]
+ ![[Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/attachements/image-removebg-preview.png]]
 *Grafo 1: Cammino non Elementare, Grafi 2-3: Cammini Elementari*
 
 >[!example] Ciclo

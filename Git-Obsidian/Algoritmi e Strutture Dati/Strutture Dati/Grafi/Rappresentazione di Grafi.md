@@ -19,7 +19,7 @@
 [6]: 1
 ```
 
-![[Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/attatchements/graph 1.png]]
+![[graph 1.png]]
 
 ## Matrice di Adiacenza
 ---
@@ -44,4 +44,4 @@
 | $5$ | $0$ | $1$ | $0$ | $0$ | $0$ | $0$ |
 | $6$ | $1$ | $0$ | $0$ | $0$ | $0$ | $0$ |
 
-![[Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/attatchements/graph 1.png]]
+![[graph 1.png]]
