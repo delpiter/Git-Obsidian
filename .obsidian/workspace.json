@@ -47,7 +47,7 @@
               "type": "search",
               "state": {
                 "query": "",
-                "matchingCase": false,
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -66,7 +66,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -169,12 +169,18 @@
   },
   "active": "92962355be93e144",
   "lastOpenFiles": [
+    "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Queue.md",
+    "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Linked Lists.md",
+    "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Minimum Spanning Tree.md",
+    "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/attachements/Prim-3.png",
+    "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/attachements/Prim-2.png",
+    "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/attachements/Pasted image 20240512155636.png",
+    "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/attachements/Prim-1.png",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/attachements/Kruskal-4.png",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/attachements/Kruskal-1.png",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/attachements/Kruskal-3.png",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/attachements/Kruskal-2.png",
     "Git-Obsidian/Markdown Keys.md",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Minimum Spanning Tree.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Algoritmi di Ricerca su Grafo.md",
     "Git-Obsidian/Algebra e Geometria/Frome Bilineari e Prodotti Scalari/Forme Quadratiche.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Programmazione Dinamica/Longest Common Subsequence.md",
@@ -192,15 +198,10 @@
     "Git-Obsidian/Algebra e Geometria/Frome Bilineari e Prodotti Scalari/Prodotto Scalare.md",
     "Git-Obsidian/Algebra e Geometria/Frome Bilineari e Prodotti Scalari/Forme Bilineari.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Appunti.md",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Queue.md",
     "Git-Obsidian/Algebra e Geometria/Applicazioni/Cambiamenti di Base.md",
     "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/Teoremi su Spazi Vettoriali.md",
     "README.md",
     "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/Pipelining.md",
-    "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/attachements/Superscalar Architecture.png",
-    "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/attachements/Multiple Pipeline.png",
-    "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/attachements/Pasted image 20240507183608.png",
-    "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/attachements/Pipelining.png",
     "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/Tipologie di Architetture.md",
     "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/Prestazioni dei Calcolatori.md",
     "Git-Obsidian/Analisi/Funzioni a due Variabili/Punti Critici.md",
