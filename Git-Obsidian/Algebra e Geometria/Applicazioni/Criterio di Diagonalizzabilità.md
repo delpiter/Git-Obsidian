@@ -15,7 +15,7 @@ $$
 V\lambda_{1},\dots,V\lambda_{t}
 $$
 Sia $U=V\lambda_{1}\oplus\dots\oplus V\lambda_{t}$
-- $U$ è una [[Intersezione e Somma di Sottospazi#Somma Diretta|somma diretta]], perché, come abbiamo mostrato prima: 
+- $U$ è una [[Intersezione e Somma di Sottospazi#Somma Diretta|somma diretta]], perché, come abbiamo mostrato [[Matrici Diagonali#Autospazio|prima]]:
 	- $V\lambda_{i}\cap V\lambda_{j}=\{ \underline{0} \} \text{ per }\lambda_{i}\neq \lambda_{j}$
 
 Sia $\mathcal{B}1$ una base di $V\lambda_{1},\dots,\mathcal{B_{t}}$ una base di $V\lambda_{t}$ 

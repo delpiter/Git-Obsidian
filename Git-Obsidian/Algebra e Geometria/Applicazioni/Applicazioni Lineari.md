@@ -83,8 +83,8 @@ $$
 ## Proprietà di Applicazioni Lineari
 ---
 ### Immagine
->[!info] Def
->Siano $V,U$ [[Campi e Spazi Vettoriali#Spazio Vettoriale|spazi vettoriali]] si $\mathbb{K}$
+>[!info] Definizione
+>Siano $V,U$ [[Campi e Spazi Vettoriali#Spazio Vettoriale|spazi vettoriali]] su $\mathbb{K}$
 >Sia $f:V\to U$ un'applicazione lineare
 >Ricordiamo che $\mathrm{Im}f =\{ u\in U,\exists v\in V:f(v)=u \}$, e che $f$ è [[Git-Obsidian/Analisi/Funzioni/Introduzione Funzioni#Funzione Surriettiva|suriettiva]] $\Leftrightarrow \mathrm{Im}f=U$
 >>[!tip] Proprietà

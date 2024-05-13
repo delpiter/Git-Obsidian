@@ -4,16 +4,64 @@
     "type": "split",
     "children": [
       {
-        "id": "3506c758a9666a4c",
+        "id": "15a1e9ea70a7f2be",
         "type": "tabs",
         "children": [
           {
-            "id": "92962355be93e144",
+            "id": "8c651e42cc433679",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Minimum Spanning Tree.md",
+                "file": "Git-Obsidian/Algebra e Geometria/Isometrie/Introduzione Isometrie.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d09b76d96f8afa6b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git-Obsidian/Algebra e Geometria/Frome Bilineari e Prodotti Scalari/Sottospazi Ortogonali.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f6e0d5ab2e917267",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git-Obsidian/Algebra e Geometria/Frome Bilineari e Prodotti Scalari/Prodotto Scalare.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b01c04c7a92f0c4e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git-Obsidian/Algebra e Geometria/Frome Bilineari e Prodotti Scalari/Prodotto Scalare.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "25f3ba84c08d6f90",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git-Obsidian/Algebra e Geometria/Frome Bilineari e Prodotti Scalari/Prodotto Scalare.md",
                 "mode": "source",
                 "source": false
               }
@@ -66,7 +114,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -86,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Minimum Spanning Tree.md",
+                "file": "Git-Obsidian/Algebra e Geometria/Isometrie/Introduzione Isometrie.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Minimum Spanning Tree.md",
+                "file": "Git-Obsidian/Algebra e Geometria/Isometrie/Introduzione Isometrie.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Minimum Spanning Tree.md"
+                "file": "Git-Obsidian/Algebra e Geometria/Isometrie/Introduzione Isometrie.md"
               }
             }
           },
@@ -167,8 +215,26 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "92962355be93e144",
+  "active": "8c651e42cc433679",
   "lastOpenFiles": [
+    "Git-Obsidian/Algebra e Geometria/Frome Bilineari e Prodotti Scalari/Prodotto Scalare.md",
+    "Git-Obsidian/Algebra e Geometria/Frome Bilineari e Prodotti Scalari/Sottospazi Ortogonali.md",
+    "Git-Obsidian/Algebra e Geometria/Isometrie/Introduzione Isometrie.md",
+    "Git-Obsidian/Algebra e Geometria/Isometrie",
+    "Git-Obsidian/Algebra e Geometria/Applicazioni/Applicazioni Lineari.md",
+    "Git-Obsidian/Algebra e Geometria/Applicazioni/Matrici Diagonali.md",
+    "Git-Obsidian/Algebra e Geometria/Applicazioni/Criterio di Diagonalizzabilità.md",
+    "Git-Obsidian/Algebra e Geometria/Applicazioni/Cambiamenti di Base.md",
+    "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/Campi e Spazi Vettoriali.md",
+    "Git-Obsidian/Algebra e Geometria/Applicazioni/Matrici di Applicazioni Lineari.md",
+    "Git-Obsidian/Algebra e Geometria/Applicazioni/Matrici Invertibili.md",
+    "Git-Obsidian/Algebra e Geometria/Applicazioni/Matrici Quasi Diagonalizzabili.md",
+    "Git-Obsidian/Algebra e Geometria/Applicazioni/Teorema del Rango.md",
+    "Git-Obsidian/Algebra e Geometria/Applicazioni/Isomorfismo.md",
+    "Git-Obsidian/Algebra e Geometria/Applicazioni/Determinante di una Matrice.md",
+    "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/Teoremi su Spazi Vettoriali.md",
+    "Git-Obsidian/Algebra e Geometria/Risoluzione di Sistemi.md",
+    "Git-Obsidian/Algebra e Geometria/Applicazioni/Estensione Lineare.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Queue.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Linked Lists.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Minimum Spanning Tree.md",
@@ -187,25 +253,8 @@
     "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento/attachements/Pasted image 20240307142205.png",
     "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento/Heap Sort.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento/Insertion Sort.md",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento/Problema dell'Ordinamento.md",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento/Quick Sort.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Programmazione Dinamica/attachements/LCS_Example.png",
     "Git-Obsidian/Algoritmi e Strutture Dati/Programmazione Dinamica/attachements",
-    "Git-Obsidian/Algebra e Geometria/Frome Bilineari e Prodotti Scalari/Diagonalizzare Forme Bilineari.md",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Ordinamento Topologico.md",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Rappresentazione di Grafi.md",
-    "Git-Obsidian/Algebra e Geometria/Frome Bilineari e Prodotti Scalari/Sottospazi Ortogonali.md",
-    "Git-Obsidian/Algebra e Geometria/Frome Bilineari e Prodotti Scalari/Prodotto Scalare.md",
-    "Git-Obsidian/Algebra e Geometria/Frome Bilineari e Prodotti Scalari/Forme Bilineari.md",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Appunti.md",
-    "Git-Obsidian/Algebra e Geometria/Applicazioni/Cambiamenti di Base.md",
-    "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/Teoremi su Spazi Vettoriali.md",
-    "README.md",
-    "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/Pipelining.md",
-    "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/Tipologie di Architetture.md",
-    "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/Prestazioni dei Calcolatori.md",
-    "Git-Obsidian/Analisi/Funzioni a due Variabili/Punti Critici.md",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Greedy/Knapsack.md",
     "Git-Obsidian/Algebra e Geometria/Frome Bilineari e Prodotti Scalari",
     "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/attachements",
     "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto",
@@ -214,7 +263,6 @@
     "Git-Obsidian/Algoritmi e Strutture Dati/Greedy",
     "Git-Obsidian/Programmazione/Puntatori/attachements",
     "Git-Obsidian/Definizioni/attachements",
-    "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/attachements",
     "Git-Obsidian/Algoritmi e Strutture Dati/Untitled.canvas",
     "Untitled 2.canvas",
     "Untitled.canvas",
