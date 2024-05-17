@@ -97,7 +97,7 @@ E poiché è definita positiva, la segnatura è $(n,0)$
 - Cioè la matrice è $I_{n}$
 - Dunque $(v_{i},v_{j})=(I_{n})_{ij}=\begin{cases}1 \qquad \text{se } i=j \\ 0 \qquad \text{se } i\neq j\end{cases}$
 
-##### Proprietà
+##### Legame tra Prodotto Scalare e Prodotto Scalare Standard
 >[!abstract] Proprietà Vettori Ortonormali
 >Il ***prodotto scalare*** di due vettori è uguale al prodotto [[#Prodotto Scalare Standard]] dei vettori delle loro coordinate rispetto ad una ***base ortonormale***
 
@@ -135,6 +135,7 @@ y_{n}
 \end{pmatrix}= x_{1}y_{1}+x_{2}y_{2}+\dots+x_{n}y_{n}
 $$
 
+##### Proprietà
 
 >[!abstract] Indipendenza Lineare
 >Se $v_{1},\dots,v_{k}$ sono tra loro ***ortogonali***

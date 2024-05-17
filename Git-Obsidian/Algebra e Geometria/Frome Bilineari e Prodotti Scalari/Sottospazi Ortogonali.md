@@ -27,7 +27,7 @@ Infatti se $u\in U, u=a_{1}u_{1}+\dots+a_{k}u_{k}$
 >>$$V=U\oplus U^\perp$$
 
 #### Esempio
->$V=\mathbb{R}^5\quad U=\{ (x_{1},x_{2},x_{3},x_{4},x_{5})\in V:\begin{cases}x_{1}-2x_{2}=0 \\x_{3}=0 \\x_{4}=\times_{2}+x_{5}\end{cases} \}$
+>$V=\mathbb{R}^5\quad U=\{ (x_{1},x_{2},x_{3},x_{4},x_{5})\in V:\begin{cases}x_{1}-2x_{2}=0 \\x_{3}=0 \\x_{4}=x_{2}+x_{5}\end{cases} \}$
 
 - $U=\{ (2t,t,0,t+s,s),t,s\in\mathbb{R} \}$
 
@@ -57,4 +57,5 @@ $$
 $U=<u_{1}=(2,-1)> \implies U^\perp =\{ \underbrace{ (x,y) }_{ v }\in v :(v,u_{1})=0\}$
 $U^\perp = \{ (x,y)\in V:2x-y=0 \}$
 
-$r$ è Parallela a $U^\perp \quad\{ 2x-y=a, a\in\mathbb{R} \}$ e passante per $P$
+$r$ è Parallela a $U^\perp \quad\{ 2x-y=a, a\in\mathbb{R} \}$
+- Passante per $P$: $(2(2)-3)=a \to a=1$
