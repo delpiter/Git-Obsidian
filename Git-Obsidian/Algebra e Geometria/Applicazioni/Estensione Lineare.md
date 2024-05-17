@@ -12,7 +12,7 @@
 ### Dimostrazione
 >Sia $v\in V$
 
-Allora:
+Allora, per il ***teorema delle coordinate***:
 $$
 \exists! a_{1},\dots,a_{n}\in \mathbb{K}:v=a_{1}v_{1}+\dots+a_{n}v_{n}
 $$

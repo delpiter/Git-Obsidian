@@ -3,7 +3,7 @@
 >[!teorema] Enunciato
 >Sia $f:V\to U$ un'***applicazione lineare***
 ><u>Allora</u>
->$$\text{dim}\mathrm{ker}f+\text{dim}\mathrm{Im}f=\text{dim}V$$
+>$$\text{dim}(\mathrm{ker}f)+\text{dim}(\mathrm{Im}f)=\text{dim}(V)$$
 
 ### Dimostrazione
 >Sia $v_{1},\dots,v_{d}$ una base di $\mathrm{ker}f$
@@ -35,9 +35,9 @@ $$
 \forall u\in\mathrm{Im}f, \exists! a_{d+1},\dots,a_{n}\in\mathbb{K}:u=f(v)=a_{d+1}f(v_{d+1})+\dots+a_{n}f(v_{n})
 $$
 Di conseguenza, per il [[Teoremi su Spazi Vettoriali#Teorema delle Coordinate|teorema delle Coordinate]]
-- $f(v_{d+1}),\dots,f(v_{n})$
+- $f(v_{d+1}),\dots,f(v_{n})$ è una ***base dell'immagine***
 
->[!done] Quindi $\text{dim}\mathrm{ker}f=d,\text{dim}V=n,\text{dim}\mathrm{Im}f=n-d$
+>[!done] Quindi $\text{dim}(\mathrm{ker}f)=d,\quad\text{dim}(V)=n,\quad\text{dim}(\mathrm{Im}f)=n-d$
 
 ### Esempio
 #### Riprendendo [[Applicazioni Lineari#Es 1 - Nucleo|l'esempio 1]] 
@@ -47,7 +47,7 @@ Abbiamo visto che $\mathrm{ker}f=\{ (t,-t),t\in\mathbb{R} \}$
 - Quindi, applicando il teorema appena enunciato
 
 $$
-\text{dim}\mathrm{ker}f = 1, \text{dim}\mathrm{Im}f=1, \text{dim} V=1+1 = \text{dim}\mathbb{R}^2 = 2
+\text{dim}(\mathrm{ker}f) = 1, \text{dim}(\mathrm{Im}f)=1, \text{dim} (V)=1+1 = \text{dim}(\mathbb{R}^2) = 2
 $$
 
 >[!abstract] Ripercorriamo la dimostrazione
@@ -70,27 +70,27 @@ Quindi $\mathrm{Im}f=\mathbb{R}^2\implies f$ è suriettiva
 ---
 >[!info] 1
 >Se $f:V\to U$ è [[Git-Obsidian/Analisi/Funzioni/Introduzione Funzioni#Funzione Iniettiva|iniettiva]], allora
->$$\text{dim}U\geq \text{dim}V$$
+>$$\text{dim}(U)\geq \text{dim}(V)$$
 ><u>Infatti</u>
->$$\text{dim}U \underbrace{ \geq }_{ \mathrm{Im}f\subseteq U } \text{dim}\mathrm{Im}f = \text{dim}V-\underbrace{ \text{dim}\mathrm{ker}f }_{ 0 }$$
+>$$\text{dim}(U) \underbrace{ \geq }_{ \mathrm{Im}f\subseteq U } \text{dim}(\mathrm{Im}f)= \text{dim}(V)-\underbrace{ \text{dim}(\mathrm{ker}f) }_{ 0 }$$
 
 >[!info] 2
 >Se $f:V\to U$ è [[Git-Obsidian/Analisi/Funzioni/Introduzione Funzioni#Funzione Surriettiva|suriettiva]], allora
->$$\text{dim}U\leq \text{dim}V$$
+>$$\text{dim}(U)\leq \text{dim}(V)$$
 ><u>Infatti</u>
->$$\text{dim}U = \text{dim}\mathrm{Im}f = \text{dim}V-\text{dim}\mathrm{ker}f\leq\text{dim} V$$
+>$$\text{dim}(U) = \text{dim}(\mathrm{Im}f) = \text{dim}(V)-\text{dim}(\mathrm{ker}f)\leq\text{dim} (V)$$
 
 >[!info] 2
 >Se $f:V\to U$ è [[Git-Obsidian/Analisi/Funzioni/Introduzione Funzioni#Funzione Biunivoca|biunivoca]], allora
->$$\text{dim}U = \text{dim}V$$
+>$$\text{dim}(U) = \text{dim}(V)$$
 ><u>Infatti</u>
 >In fatti per i due punti precedenti valgono $\geq$ e $\leq$
 
 >[!info] 4
->Se $\text{dim}V=\text{dim}U$ allora
+>Se $\text{dim}(V)=\text{dim}(U)$ allora
 >$$f:V\to U$$
 >È iniettiva $\Leftrightarrow$ è suriettiva ($\Leftrightarrow$ è biunivoca)
 ><u>Infatti</u>
->$f$ è iniettiva $\Leftrightarrow\text{dim}\mathrm{ker}f=0$
->Per il ***teorema del Rango*** $\text{dim}V=\text{dim}\mathrm{Im}f \Leftrightarrow f$ è suriettiva 
+>$f$ è iniettiva $\iff\text{dim}\mathrm{ker}f=0$
+>Per il ***teorema del Rango*** $\text{dim}(V)=\text{dim}(\mathrm{Im}f) \iff f$ è suriettiva 
 

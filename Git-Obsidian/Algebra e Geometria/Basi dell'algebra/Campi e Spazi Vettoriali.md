@@ -2,9 +2,9 @@
 ---
 >[!info] Definizione
 >Un **campo** è un insieme con due operazioni $+$ e $\cdot$ **commutative** e **associative** 
->Con **elementi neutri**, rispettivamente $0$ e $1$
+>Con **elementi neutri** $s,p$, tali che $a+s=a\quad ap=a$
 >Con un **opposto** di ogni elemento $a+b = 0$
->Con **inverso** di ogni elemento non nullo $a+b = 1$
+>Con **inverso** di ogni elemento non nullo $ab = 1$
 
 Quasi tutte le cose fatte in questo corso valgono per un campo qualsiasi
 - $\mathbb{Q}$ e $\mathbb{R}$ sono dei campi
@@ -41,7 +41,7 @@ $\mathbb{Z}_{n}$ è un campo $\Leftrightarrow n$ è **primo**
 ---
 >[!info] Definizione
 >Sia $\mathbb{K}$ un campo
->Uno **Spazio Vettoriale** su $k$ è un insieme $V$ con 2 operazioni
+>Uno **Spazio Vettoriale** su $\mathbb{K}$ è un insieme $V$ con 2 operazioni
 >>[!tip] Somma di Vettori ($+$)
 >>Associa due elementi di $V$ ad un altro elemento di $V$
 >>>$v_{1},v_{2}\in V$ associa $v_{1}+v_{2}\in V$
@@ -312,7 +312,7 @@ E poichè il sistema non ha soluzione, qualsiasi siano $a_{1}$ e $a_{2}$
 ### Span
 >[!info] Definizione
 >Diciamo che un *sottospazio vettoriale* $U$ di $V$ è **generato** da $v_{1},\dots,v_{n}$ se ogni $u\in U$ è combinazione lineare di $v_{1},\dots, v_{n}$
->In questo caso diciamo che $U$ è lo **span** did $v_{1},\dots,v_{n}$ e scriviamo
+>In questo caso diciamo che $U$ è lo **span** di $v_{1},\dots,v_{n}$ e scriviamo
 >$$U=<v_{1},\dots,v_{n}>$$
 ><u>Oppure</u>
 >
@@ -324,7 +324,8 @@ E poichè il sistema non ha soluzione, qualsiasi siano $a_{1}$ e $a_{2}$
 #### Esempio
 >$V = \mathbb{R}^4=\{ (x_{1},x_{2},x_{3},x_{4}),x_{i}\in \mathbb{R} \}$
 >$v_{1}=(2,0,0,0),v_{2}=(0,-1,1,0)$
->$<v_{1},v_{2}>=\{ a_{1}v_{1}+a_{2}v_{2}, \ a_{1},a_{2}\in \mathbb{R} \}$
+
+$<v_{1},v_{2}>=\{ a_{1}v_{1}+a_{2}v_{2}, \ a_{1},a_{2}\in \mathbb{R} \}$
 
 $$
 \begin{array}

@@ -78,7 +78,7 @@ Ha come dimensione $\text{dim} (U\cap W)=1$
 >[!as] Formula
 >Siano $U$ e $W$ [[Campi e Spazi Vettoriali#Sottospazio Vettoriale|sottospazi vettoriali]] di $V$
 ><u>Allora</u>
->$$dim(U+W)=dim(U)+dim(W)-dim(U\cap W)$$
+>$$\text{dim}(U+W)=\text{dim}(U)+\text{dim}(W)-\text{dim}(U\cap W)$$
 
 - Nell'esempio precedente:
 	- $3  = 2+2-1$

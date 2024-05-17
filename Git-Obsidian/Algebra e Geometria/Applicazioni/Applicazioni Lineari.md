@@ -3,15 +3,15 @@
 >[!info] Definizione
 >Sia $\mathbb{K}$ un [[Campi e Spazi Vettoriali#Campo|campo]] e siano $V,U$ [[Campi e Spazi Vettoriali#Spazio Vettoriale|spazi vettoriali]] su $\mathbb{K}$
 >Un'[[Introduzione#Definizione|applicazione]] $f:V\to U$ si dice ***lineare*** se è compatibile con le operazioni di $U$ e $V$
->$$f(v_{1},v_{2})=f(v_{1})+f(v_{2}), \forall v_{1},v_{2} \in V$$
+>$$f(v_{1},v_{2})=f(v_{1})+f(v_{2}), \quad\forall v_{1},v_{2} \in V$$
 >>[!done] A parole
->>Nella prima parte *applico* $f$ ad una *somma di elementi* di $V$, ottenendo un elemento di $U$
->>Nella seconda parte *applico* $f$ ai due elementi di $V$ e poi *sommo i due elementi* di $U$, ottenendo lo stesso elemento di prima
+>>A sinistra dell'uguaglianza *applico* $f$ ad una *somma di elementi* di $V$, ottenendo un elemento di $U$
+>>A destra dell'uguaglianza *applico* $f$ ai due elementi di $V$ e poi *sommo i due elementi* di $U$, ottenendo lo stesso elemento di prima
 >
->$$f(av) = af(v), \forall a \in\mathbb{K}, \forall v \in V$$
+>$$f(av) = af(v), \quad\forall a \in\mathbb{K}, \forall v \in V$$
 >>[!done] A parole
->>Nella prima parte *applico* $f$ al *prodotto* di $V$ per uno *scalare*, ottenendo un elemento di $U$
->>Nella seconda parte *applico* $f$ all'elemento di $V$ e *moltiplico* per uno *scalare*, ottenendo lo stesso elemento $U$ di prima
+>>A sinistra dell'uguaglianza *applico* $f$ al *prodotto* di $V$ per uno *scalare*, ottenendo un elemento di $U$
+>>A destra dell'uguaglianza *applico* $f$ all'elemento di $V$ e *moltiplico* per uno *scalare*, ottenendo lo stesso elemento $U$ di prima
 
 ### Esempi
 #### Es 1

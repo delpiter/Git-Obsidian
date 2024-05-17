@@ -7,10 +7,30 @@
 >$f:\mathbb{R}^2\to \mathbb{R}^2, f(x,y)=(x+y,x-y)$
 
 >[!question] $f$ è un isomorfismo?
+- Devo controllare se è lineare e se è biunivoca
+>[!question] $f$ è lineare?
+- $v_{1}=(x,y)$
+- $v_{2}=(x',y')$
 
-- $f$ è lineare?
+$$
+\begin{array}
+\ f((x,y)+(x',y'))=f(x,y)+f(x',y') \\
+f(x+x',y+y')=(x+x'+y+y',x+x'-y-y') \\
+f(x,y)+f(x',y')=(x+y,x-y)+(x'+y',x'-y')=(x+x'+y+y',x+x'-y-y')
+\end{array}
+$$
+$$
+\begin{array}
+\ f(a(x,y))=af(x,y) \\
+f(a(x,y))=(ax+ay,ax-ay) \\
+af(x,y)=a(x+y,x-y)=(ax+ay,ax-ay)
+\end{array}
+$$
 
-#Da_verificare
+>[!done] $f$ è lineare
+
+>[!question] $f$ è *biunivoca*?
+
 
 $\mathrm{ker}f=\{ \underline{0} \}\implies f$ è iniettiva $\implies f$ è biunivoca
 - (Vedi [[Teorema del Rango#Conseguenze del Teorema del Rango|conseguenze del teorema del Rango]])
@@ -130,9 +150,7 @@ Quindi $g_{o}f$ è un'applicazione lineare biunivoca
 
 >[!info] Teorema
 > Un'[[Applicazioni Lineari#Applicazione Lineare|applicazione lineare]] $f:V\to U$
-> È un ***isomorfismo***
->$$\Leftrightarrow$$
->Manda *basi* di $V$ in *basi* di $U$
+> È un ***isomorfismo*** $\iff$ Manda *basi* di $V$ in *basi* di $U$
 
 ### Dimostrazione
 >$\implies$
@@ -147,7 +165,7 @@ Sia $f:V\to U$ un isomorfismo e sia $v_{1},\dots,v_{n}$ una base di $v$
 
 Poiché $f$ è [[Git-Obsidian/Analisi/Funzioni/Introduzione Funzioni#Funzione Biunivoca|biunivoca]]:
 $$
-\exists! a_{1},\dots,a_{n}\in \mathbb{K}:v=a_{1}v_{1}+\dots+a_{n}v_{n}
+\exists! a_{1},\dots,a_{n}\in \mathbb{K}:v=a_{1}v_{1}+\dots+a_{n}v_{n}:f(v)=u
 $$
 Poiché $f$ è ***lineare***
 $$

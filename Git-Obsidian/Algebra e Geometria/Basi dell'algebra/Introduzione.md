@@ -18,7 +18,7 @@ Una relazione $R$ è una **relazione di equivalenza** se valgono le seguenti pro
 >$$aRb \implies bRa \ \ (\forall a,b \in A)$$
 >
 >>[!done] In Breve
->> Se un elemento è in **relazione con un altro** vale anche il viceversa, cioè che l'altro elemento è in **relazione** con il primo elemento
+>> Se un elemento è in **relazione con un altro** vale anche il viceversa, cioè che il secondo elemento è in **relazione** con il primo elemento
 
 >[!tip] Proprietà Transitiva
 >$$aRb, bRc \implies aRc \ \ (\forall a,b,c \in A)$$

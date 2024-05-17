@@ -3,7 +3,7 @@
 >[!info] Enunciato
 >Un insieme di vettori $v_{1},\dots,v_{n}$ è una [[Campi e Spazi Vettoriali#Base|base]] di $V\Leftrightarrow$ Ogni $v\in V$ si scrive in modo unico come [[Campi e Spazi Vettoriali#Combinazioni Lineari|combinazione lineare]]
 >Cioè:
->$$\forall v\in V \exists!(a_{1},\dots,a_{n}),a_{i}\in \mathbb{K}:v=a_{1}v_{1}+\dots+a_{n}v_{n} $$
+>$$\forall v\in V\quad \exists!(a_{1},\dots,a_{n}),a_{i}\in \mathbb{K}:v=a_{1}v_{1}+\dots+a_{n}v_{n} $$
 >In tal caso $a_{1},\dots,a_{n}$ sono dette le **coordinate del vettore** $v$ nella base $v_{1},\dots,v_{n}$
 
 ### Dimostrazione
@@ -103,7 +103,7 @@ Ma solo per quelli che hanno le due coordinate uguali
 
 Abbiamo visto che $v_{1}=(2,1),v_{2}=(1,-1)$ è una base di $\mathbb{R}^2$
 - Quindi ogni base di $\mathbb{R}^2$ è composta da 2 vettori e diciamo che la dimensione $\mathbb{R}^2$ è $2$
-- Scriviamo $dim(\mathbb{R}^2)=2$
+- Scriviamo $\text{dim}(\mathbb{R}^2)=2$
 
 ### Base Canonica
 >[!info] Intro

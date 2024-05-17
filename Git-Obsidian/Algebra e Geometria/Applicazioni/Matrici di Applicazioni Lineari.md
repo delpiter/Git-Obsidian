@@ -86,7 +86,7 @@ $$
 
 ## Matrice Identità
 ---
->*Consideriamo l'applicazione $id:V\to V,v\mapsto v$, cioè $id(v)=v\forallv \in V$*
+>*Consideriamo l'applicazione $id:V\to V,v\mapsto v$, cioè $id(v)=v\quad\forall v \in V$*
 
 >[!question] Qual è la sua matrice?
 
