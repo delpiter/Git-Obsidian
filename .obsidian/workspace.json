@@ -4,62 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "6edad20d41e5ee97",
+        "id": "91f7046c6384f55b",
         "type": "tabs",
         "children": [
           {
-            "id": "7bc6833fed77e613",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "Git-Obsidian/Algebra e Geometria/Isometrie/Legami.canvas",
-                "viewState": {
-                  "x": -138.42499999999995,
-                  "y": 213.10916595720778,
-                  "zoom": -0.5856475014488023
-                }
-              }
-            }
-          },
-          {
-            "id": "7ebba3cbb5f50176",
+            "id": "71a267c4d1f87bdb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Obsidian/Algebra e Geometria/Isometrie/Legami tra i Concetti.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a158c13b67c44cad",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git-Obsidian/Algebra e Geometria/Isometrie/Introduzione Isometrie.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6b63614610992d19",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git-Obsidian/Algebra e Geometria/Frome Bilineari e Prodotti Scalari/Prodotto Scalare.md",
+                "file": "Git-Obsidian/Algebra e Geometria/Isometrie/Isometrie nelle Dimensioni.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -106,7 +66,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -127,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Algebra e Geometria/Isometrie/Legami tra i Concetti.md",
+                "file": "Git-Obsidian/Algebra e Geometria/Isometrie/Isometrie nelle Dimensioni.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Algebra e Geometria/Isometrie/Legami tra i Concetti.md",
+                "file": "Git-Obsidian/Algebra e Geometria/Isometrie/Isometrie nelle Dimensioni.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git-Obsidian/Algebra e Geometria/Isometrie/Legami tra i Concetti.md"
+                "file": "Git-Obsidian/Algebra e Geometria/Isometrie/Isometrie nelle Dimensioni.md"
               }
             }
           },
@@ -208,13 +168,14 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "7ebba3cbb5f50176",
+  "active": "71a267c4d1f87bdb",
   "lastOpenFiles": [
+    "Git-Obsidian/Algebra e Geometria/Isometrie/Isometrie nelle Dimensioni.md",
+    "Git-Obsidian/Algebra e Geometria/Frome Bilineari e Prodotti Scalari/Prodotto Scalare.md",
+    "Git-Obsidian/Algebra e Geometria/Isometrie/Introduzione Isometrie.md",
     "Git-Obsidian/Algebra e Geometria/Isometrie/Legami.canvas",
     "Git-Obsidian/Algebra e Geometria/Isometrie/Legami tra i Concetti.md",
     "Git-Obsidian/Algebra e Geometria/Isometrie/Legami tra i Concetti#Teorema 2.md",
-    "Git-Obsidian/Algebra e Geometria/Frome Bilineari e Prodotti Scalari/Prodotto Scalare.md",
-    "Git-Obsidian/Algebra e Geometria/Isometrie/Introduzione Isometrie.md",
     "Git-Obsidian/Algebra e Geometria/Frome Bilineari e Prodotti Scalari/Forme Quadratiche.md",
     "Git-Obsidian/Algebra e Geometria/Frome Bilineari e Prodotti Scalari/Sottospazi Ortogonali.md",
     "Git-Obsidian/Algebra e Geometria/Applicazioni/Cambiamenti di Base.md",
