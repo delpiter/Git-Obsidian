@@ -263,7 +263,7 @@ $$
 >[!question] Trovare $\mathrm{Im}f$ e $\mathrm{ker}f$
 
 ##### Soluzione
->*Poiché $v_{1},v_{2}$ è una **base***
+>*Poiché $v_{1},v_{2}$ è una* ***base***
 
 >[!done] Esiste ed è unica tale $f$
 
@@ -430,14 +430,14 @@ Quindi, $\text{dim}(v)=6$ e $V$ è isomorfo a $\mathbb{R}^6$
 >*Sia* $V=\mathbb{R}^3, U=\mathbb{R}^2$
 - $\text{Hom}\to$ Homorphism
 $$
-\text{Hom}(V,U)=\{ \text{applicazioni lineati }V\to U \}
+\text{Hom}(V,U)=\{ \text{applicazioni lineari }V\to U \}
 $$
 È uno spazio vettoriale su $\mathbb{R}$ rispetto alle operazioni:
 $$
 \begin{array}
 \ \forall f,g\in \text{Hom}(V,U),\forall a \in\mathbb{R} \\
 (f+g)(v)=f(v)+g(v) \\
-(af)(v)=a(fv)
+(af)(v)=af(v)
 \end{array}
 $$
 >[!question] Qual è la dimensione di questo spazio?

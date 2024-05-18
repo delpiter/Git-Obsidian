@@ -131,21 +131,21 @@ $$
 ---
 
 >[!tldr] Osservazione 3
->Un'[[Applicazioni Lineari#Applicazione Lineare|applicazione lineare]] $f:V\to U$ è un [[Isomorfismo]] ***se e solo se*** è invertibile,
+>Un'[[Applicazioni Lineari#Applicazione Lineare|applicazione lineare]] $f:V\to U$ è un [[Isomorfismo]] $\iff$ è invertibile,
 >Cioé:
 >$$\exists f^{-1}:U\to V$$
 >Tale che $f_{o}f^{-1}=id_{u}$ e $f^{-1}_{o}f=id_{v}$
 >>[!done] In altre parole
->>Se $A$ è la matrice di $f$ in una vase $v_{1},\dots,v_{n}$ di $V$
+>>Se $A$ è la matrice di $f$ in una base $v_{1},\dots,v_{n}$ di $V$
 >><u>Allora</u>
->>$f$ è ***invertibile*** $\Leftrightarrow A$ è "***invertibile***"
+>>$f$ è ***invertibile*** $\iff A$ è "***invertibile***"
 >>Cioè esiste una matrice $A^{-1}$ tale che $A\times A^{-1} = I_{n}$, $A^{-1}\times A = I_{n}$
 >>- $A^{-1}$ è la matrice di $f^{-1}$
 
 ---
 
 >[!tldr] Osservazione 4
->Se $\text{dim}(V)\neq \text{dim}(U)$ sappiamo, come conseguenza del [[Teorema del Rango#Teorema|teorema del rango]], che ***non esistono isomorfismi*** da $V$ a $U$
+>Se $\text{dim}(V)\neq \text{dim}(U)$ sappiamo, come [[Teorema del Rango#Conseguenze del Teorema del Rango|conseguenza del teorema del rango]], che ***non esistono isomorfismi*** da $V$ a $U$
 >Quindi solo le matrici quadrate ***possono essere invertibili***
 
 >[!done] Se il numero di *righe* di $A$ è diverso dal numero di *colonne*, sicuramente $A$ non è *invertibile*

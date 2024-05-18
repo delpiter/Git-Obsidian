@@ -2,7 +2,7 @@
 
 ## Teorema del Cambiamento di Base
 >[!info] ‎ 
->Sia $V$ uno [[Campi e Spazi Vettoriali#Spazio Vettoriale|spazio vettoriale]] su un [[Campi e Spazi Vettoriali#Campo|campo]] $\mathbb{K}$ e soa $f:V\to V$ una [[Applicazioni Lineari|applicazione lineare]].
+>Sia $V$ uno [[Campi e Spazi Vettoriali#Spazio Vettoriale|spazio vettoriale]] su un [[Campi e Spazi Vettoriali#Campo|campo]] $\mathbb{K}$ e sia $f:V\to V$ una [[Applicazioni Lineari|applicazione lineare]].
 >Siano $\mathcal{B}=\{ v_{1},\dots,v_{n} \}$ e $\mathcal{B}'=\{ u_{1},\dots,u_{n} \}$
 >Sia $A$ la matrice di $f$ nella [[Campi e Spazi Vettoriali#Base|base]] $\mathcal{B}$
 >Sia $M$ la matrice di $f$ nella base $\mathcal{B}'$
@@ -91,7 +91,7 @@ u_{2}= \frac{1}{3}v_{1}-\frac{2}{3}v_{2}
 $$
 $$
 \begin{array}
-v_{1}=2u_{1}+1u_{2} \\
+\ v_{1}=2u_{1}+1u_{2} \\
 v_{2}=1u_{1}-1u_{2}
 \end{array}
 \ \ \ \ B^{-1}=\begin{pmatrix}
@@ -159,7 +159,7 @@ $$
 >$$M=B^{-1}\times A \times B$$
 
 >[!tldr] Osservazione
->Per il teorema precedente, due matrici sono ***simili*** $\Leftrightarrow$ rappresentano la ***stessa applicazione lineare*** in basi diverse
+>Per il teorema precedente, due matrici sono ***simili*** $\iff$ rappresentano la ***stessa applicazione lineare*** in basi diverse
 
 #### Esempio
 $$
@@ -207,10 +207,10 @@ $$
 
 >*Transitiva*
 
-Se $A$ è simile a $M$, cioè $\exists B \text{ invertibile}:M=B^{-1}\times A\times B$
-E se $M$ è simile ad $N$, cioè $\exists C \text{ invertibile }: N=C^{-1}\times M \times C$
+Se $A$ è simile a $M$, cioè $\exists B$ *invertibile* $:M=B^{-1}\times A\times B$
+E se $M$ è simile ad $N$, cioè $\exists C$ *invertibile* $: N=C^{-1}\times M \times C$
 
-- Sostituendo $N$ ottengo
+- Sostituendo $M$ ottengo
 
 $$
 N=C^{-1}\times(B^{-1}\times A\times B)\times C = (B\times C)^{-1}\times A \times (B\times C)
@@ -223,7 +223,7 @@ Cioè $A$ è simile ad $N$
 >[!question] Come si fa a capire se una matrice quadrata $A$ è invertibile?
 
 >[!teorema]
->Una ***matrice quadrata*** $A$ è invertibile $\Leftrightarrow$ i suoi vettori sono [[Campi e Spazi Vettoriali#Dipendenza Lineare|linearmente indipendenti]]
+>Una ***matrice quadrata*** $A$ è invertibile $\iff$ i suoi vettori colonna sono [[Campi e Spazi Vettoriali#Dipendenza Lineare|linearmente indipendenti]]
 
 ### Dimostrazione
 >*Siano* $v_{1},\dots,v_{n}$ *i vettori colonna di* $A\in\mathcal{M}_{n\times n}$

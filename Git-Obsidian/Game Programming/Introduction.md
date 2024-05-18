@@ -107,3 +107,7 @@ Introduco un oggetto che rappresenta lo stato del gioco
 ## Game over
 - Definisce la conclusione del game loop
 Gestito dal game state 
+
+
+## FOMO
+Fear of Missing Out
