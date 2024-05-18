@@ -1,7 +1,7 @@
 ## Isomorfismo
 ---
 >[!info] Definizione
->Un ***isomorfismo*** è una [[Introduzione#Funzione o Applicazione|applicazione]] [[Applicazioni Lineari#Applicazione Lineare|lineare]] e [[Git-Obsidian/Analisi/Funzioni/Introduzione Funzioni#Funzione Biunivoca|biunivoca]]
+>Un ***isomorfismo*** è una [[Introduzione#Funzione o Applicazione|applicazione]] [[1 - Applicazioni Lineari#Applicazione Lineare|lineare]] e [[Git-Obsidian/Analisi/Funzioni/Introduzione Funzioni#Funzione Biunivoca|biunivoca]]
 
 #### Esempio 1
 >$f:\mathbb{R}^2\to \mathbb{R}^2, f(x,y)=(x+y,x-y)$
@@ -33,7 +33,7 @@ $$
 
 
 $\mathrm{ker}f=\{ \underline{0} \}\implies f$ è iniettiva $\implies f$ è biunivoca
-- (Vedi [[Teorema del Rango#Conseguenze del Teorema del Rango|conseguenze del teorema del Rango]])
+- (Vedi [[2 - Teorema del Rango#Conseguenze del Teorema del Rango|conseguenze del teorema del Rango]])
 Quindi $f$ è lineare e biunivoca
 
 >[!done] $f$ è un isomorfismo tra $\mathbb{R}^2$ e se stesso
@@ -101,7 +101,7 @@ Quindi $f^{-1}$ è un ***isomorfismo***
 >[!abstract] Proprietà Transitiva
 
 ##### Proprietà
->La ***composizione*** di [[Applicazioni Lineari#Applicazione Lineare|applicazioni lineari]] è lineare
+>La ***composizione*** di [[1 - Applicazioni Lineari#Applicazione Lineare|applicazioni lineari]] è lineare
 >- *In particolare la composizione di isomorfismi è un isomorfismo*
 
 ###### Dimostrazione
@@ -142,14 +142,14 @@ Quindi $g_{o}f$ è un'applicazione lineare biunivoca
 ### Endomorfismo
 >[!info] Definizione
 >Sia $\mathbb{K}$ un [[Campi e Spazi Vettoriali#Campo|campo]], $V$ un [[Campi e Spazi Vettoriali#Spazio Vettoriale|spazio vettoriale]] su $\mathbb{K}$
->Un ***endomorfismo*** di $V$ è un'[[Applicazioni Lineari#Applicazione Lineare|applicazione lineare]] $f:V\to V$
+>Un ***endomorfismo*** di $V$ è un'[[1 - Applicazioni Lineari#Applicazione Lineare|applicazione lineare]] $f:V\to V$
 
 ## Teorema Isomorfismo-Basi
 ---
 >Ora vogliamo legare il concetto di isomorfismo a quello di [[Campi e Spazi Vettoriali#Base|base]]
 
 >[!info] Teorema
-> Un'[[Applicazioni Lineari#Applicazione Lineare|applicazione lineare]] $f:V\to U$
+> Un'[[1 - Applicazioni Lineari#Applicazione Lineare|applicazione lineare]] $f:V\to U$
 > È un ***isomorfismo*** $\iff$ Manda *basi* di $V$ in *basi* di $U$
 
 ### Dimostrazione
@@ -195,10 +195,10 @@ Quindi $\forall u \in U,\exists!v\in V$ *precisamente* $v=a_{1}v_{1}+\dots+a_{n}
 ### Osservazioni
 >[!abstract] Osservazione 1
 
-Il [[Estensione Lineare#Teorema dell'Estensione Lineare|Teorema dell'Estensione Lineare]]
+Il [[3 - Estensione Lineare#Teorema dell'Estensione Lineare|Teorema dell'Estensione Lineare]]
 - Data una base $v_{1},\dots,v_{n}$ di $V$
 - Dati vettori $u_{1},\dots,u_{n}\in U$
-Esiste un'unica [[Applicazioni Lineari#Applicazione Lineare|applicazione lineare]] tale che
+Esiste un'unica [[1 - Applicazioni Lineari#Applicazione Lineare|applicazione lineare]] tale che
 $$
 f(v_{1})=u_{1},\dots,f(v_{n})=u_{n}
 $$
@@ -281,7 +281,7 @@ Quindi $f(v)=a_{1}f(v_{1})+a_{2}f(v_{2})=a_{1}w_{1}+a_{2}w_{2}$
 $\mathrm{Im}f=\{ f(v),v\in V \}$
 - $=\{ (-a_{1}+2a_{2},2a_{1}-4a_{2}),a_{1},a_{2}\in\mathbb{K}=\mathbb{R} \}=\{ (t-2t),t\in\mathbb{R} \}$
 
-Poiché $\text{dim }\mathrm{Im}f=1$, per il [[Teorema del Rango|teorema del rango]]:
+Poiché $\text{dim }\mathrm{Im}f=1$, per il [[2 - Teorema del Rango|teorema del rango]]:
 - $\text{dim }\mathrm{ker}f=2-1=1$
 
 Quindi $\mathrm{ker}f$ è dato da una equazione cartesiana in $\mathbb{R}^2$
@@ -303,7 +303,7 @@ Dunque $V$ ha una *base* $v_{1},\dots,v_{n}$
 
 <u>Allora</u>
 
-Per il teorema dell'[[Estensione Lineare#Teorema dell'Estensione Lineare|estensione lineare]]:
+Per il teorema dell'[[3 - Estensione Lineare#Teorema dell'Estensione Lineare|estensione lineare]]:
 
 $$
 \exists! f:V\to U \text{ lineare }:f(v_{1})=u_{1},\dots,f(v_{n})=u_{n}
@@ -483,7 +483,7 @@ a & c & e \\
 b & d & f
 \end{pmatrix}
 $$
-Viene da una $g$ per il [[Estensione Lineare#Teorema dell'Estensione Lineare|teorema dell'estensione lineare]]
+Viene da una $g$ per il [[3 - Estensione Lineare#Teorema dell'Estensione Lineare|teorema dell'estensione lineare]]
 
 >[!done] In altre parole
 >L'applicazione $\Phi$, che associa ogni *applicazione lineare* alla sua matrice è un ***isomorfismo*** tra:

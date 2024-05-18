@@ -1,7 +1,7 @@
 ## Matrici Nilpotenti
 ---
 >[!info] Definizione
->Un [[Isomorfismo#Endomorfismo|endomorfismo]] di $V$ è ***nilpotente*** se:
+>Un [[4 - Isomorfismo#Endomorfismo|endomorfismo]] di $V$ è ***nilpotente*** se:
 >$$\exists n>0,n\in \mathbb{N}:f^n = 0$$
 >Dove $f^n=(\underbrace{ f_{o}f_{o}\dots_{o}f(v) }_{ n \text{ volte} }), \forall v \in V$
 >>[!done] In altre parole
@@ -109,7 +109,7 @@ $$
 >Una matrice è ***nilpotente*** se $A^n=0$ (***matrice nulla***) con $n\in \mathbb{N}$
 
 >[!Teorema]
->Se una [[Applicazioni Lineari#Applicazione Lineare|applicazione lineare]] non nulla è ***nilpotente***
+>Se una [[1 - Applicazioni Lineari#Applicazione Lineare|applicazione lineare]] non nulla è ***nilpotente***
 ><u>Allora</u>
 >Non è ***diagonalizzabile***
 
@@ -121,7 +121,7 @@ Poiché $f$ è nilpotente $\exists n>0:f^n=0$
 
 D'altra parte $f^n(v)=f^{n-1}(\lambda v)=\lambda f^{n-1}(v)=\dots=\lambda^n v$
 
-Poiché $v$ è diverso da $0$ per [[Matrici Diagonali#Autovettore e Autovalore|definizione]]
+Poiché $v$ è diverso da $0$ per [[9 - Matrici Diagonali#Autovettore e Autovalore|definizione]]
 
 Per forza $\lambda^n=0\implies\lambda=0$
 
@@ -158,11 +158,11 @@ $$
 
 >[!tldr] $J_{\lambda i,n}$ non è diagonalizzabile
 
-Quindi $\forall n>1$ $J\lambda i,n$ è somma di una matrice [[Matrici Diagonali#Matrice Diagonale|diagonale]] e una [[#Matrici Nilpotenti|nilpotente]]
+Quindi $\forall n>1$ $J\lambda i,n$ è somma di una matrice [[9 - Matrici Diagonali#Matrice Diagonale|diagonale]] e una [[#Matrici Nilpotenti|nilpotente]]
 
 ### Decomposizione Canonica di Jordan
 >[!Teorema]
->Sia $f$ un [[Isomorfismo#Endomorfismo|endomorfismo]] di $V$ e siano $\lambda_{1},\dots,\lambda_{t}\in\mathbb{K}$ i suoi [[Matrici Diagonali#Autovettore e Autovalore|autovalori]]
+>Sia $f$ un [[4 - Isomorfismo#Endomorfismo|endomorfismo]] di $V$ e siano $\lambda_{1},\dots,\lambda_{t}\in\mathbb{K}$ i suoi [[9 - Matrici Diagonali#Autovettore e Autovalore|autovalori]]
 ><u>Allora</u>
 >1. $f$ è somma di una applicazione diagonalizzabile $f_{d}$ e di una applicazione nilpotente $f_{n}$
 >Tale decomposizione è ***unica***

@@ -1,4 +1,4 @@
->*Il [[Determinante di una Matrice|determinante]] permette di dire se una matrice $A$ è invertibile*
+>*Il [[7 - Determinante di una Matrice|determinante]] permette di dire se una matrice $A$ è invertibile*
 
 >[!question] In caso affermativo, come trovo $A^{-1}$?
 
@@ -9,7 +9,7 @@
 >Dove il ***cofattore*** è definito nel seguente modo:
 >$$\text{cof}(A)_{ij}=(-1)^{i+j}\det(A^{ij})$$
 >>[!done] A Parole
->>La matrice inversa è definita dall'inverso del [[Determinante di una Matrice|determinante]] moltiplicato per il [[Git-Obsidian/Analisi/Definizioni_Analisi#Matrice Trasposta|trasposto]] del *cofattore*
+>>La matrice inversa è definita dall'inverso del [[7 - Determinante di una Matrice|determinante]] moltiplicato per il [[Git-Obsidian/Analisi/Definizioni_Analisi#Matrice Trasposta|trasposto]] del *cofattore*
 
 #### Esercizio
 $$

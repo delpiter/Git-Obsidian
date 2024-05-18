@@ -1,8 +1,8 @@
-![[Matrici di Applicazioni Lineari#Domanda]]
+![[5 - Matrici di Applicazioni Lineari#Domanda]]
 
 ## Teorema del Cambiamento di Base
 >[!info] ‎ 
->Sia $V$ uno [[Campi e Spazi Vettoriali#Spazio Vettoriale|spazio vettoriale]] su un [[Campi e Spazi Vettoriali#Campo|campo]] $\mathbb{K}$ e sia $f:V\to V$ una [[Applicazioni Lineari|applicazione lineare]].
+>Sia $V$ uno [[Campi e Spazi Vettoriali#Spazio Vettoriale|spazio vettoriale]] su un [[Campi e Spazi Vettoriali#Campo|campo]] $\mathbb{K}$ e sia $f:V\to V$ una [[1 - Applicazioni Lineari|applicazione lineare]].
 >Siano $\mathcal{B}=\{ v_{1},\dots,v_{n} \}$ e $\mathcal{B}'=\{ u_{1},\dots,u_{n} \}$
 >Sia $A$ la matrice di $f$ nella [[Campi e Spazi Vettoriali#Base|base]] $\mathcal{B}$
 >Sia $M$ la matrice di $f$ nella base $\mathcal{B}'$
@@ -54,7 +54,7 @@ c_{nj}
 \end{pmatrix}
 $$
 #### Esempio
-[[Isomorfismo#Esempio Cambio di Base|Esercizio di Riferimento]]
+[[4 - Isomorfismo#Esempio Cambio di Base|Esercizio di Riferimento]]
 
 >$V=\mathbb{R}^2, v_{1}=(2,1),v_{2}=(1,-1), u_{1}=e_{1},u_{2}=e_{2}$
 
@@ -232,7 +232,7 @@ Consideriamo l'applicazione lineare $f:\mathbb{K}^n\to\mathbb{K}^n$ tale che:
 $$
 f(e_{1})=v_{1},f(e_{2})=v_{2},\dots,f(e_{n})=v_{n}
 $$
-$f$ esiste ed è unica per il [[Estensione Lineare|teorema dell'estensione lineare]]
+$f$ esiste ed è unica per il [[3 - Estensione Lineare|teorema dell'estensione lineare]]
 
 >[!done] La matrice di $f$ nella base canonica è proprio $A$
 
@@ -250,9 +250,9 @@ x_{n}
 \end{pmatrix}
 $$
 Notiamo che la funzione è ***invertibile***
-- Quindi per il [[Isomorfismo#Teorema Isomorfismo-Basi|teorema isomorfismo-basi]] 
+- Quindi per il [[4 - Isomorfismo#Teorema Isomorfismo-Basi|teorema isomorfismo-basi]] 
 
-$f$ è un isomorfismo $\Leftrightarrow$ $v_{1},\dots,v_{n}$ è una [[Campi e Spazi Vettoriali#Base|base]] di $\mathbb{K}^n$
+$f$ è un isomorfismo $\iff$ $v_{1},\dots,v_{n}$ è una [[Campi e Spazi Vettoriali#Base|base]] di $\mathbb{K}^n$
 
 Poiché in $\mathbb{K}^n$ ogni insieme di $n$ ***vettori linearmente indipendenti è una base***
 $$

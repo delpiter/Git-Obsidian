@@ -1,4 +1,4 @@
->*Abbiamo visto che se $f,g$ sono [[Applicazioni Lineari#Applicazione Lineare|lineari]], anche la loro composizione $g_{o}f$ è lineare*
+>*Abbiamo visto che se $f,g$ sono [[1 - Applicazioni Lineari#Applicazione Lineare|lineari]], anche la loro composizione $g_{o}f$ è lineare*
 
 >[!question] Che relazione c'è fra la matrice di $g_{o}f$ e le matrici di $g$ e $f$?
 
@@ -7,7 +7,7 @@
 >[!info] Introduzione
 >Siano $V,U,W$ spazi vettoriali su $\mathbb{K}$ con [[Campi e Spazi Vettoriali#Base|basi]]:
 >$(v_{1},\dots,v_{n}),(u_{1},\dots,u_{m}),(w_{1},\dots,w_{l})$
->E siano $f:V\to U$ e $g:U\to W$ [[Applicazioni Lineari#Applicazione Lineare|applicazioni lineari]]
+>E siano $f:V\to U$ e $g:U\to W$ [[1 - Applicazioni Lineari#Applicazione Lineare|applicazioni lineari]]
 >Sia $A$ la matrice di $f$ e $B$ la matrice di $g$ in tali basi
 >>[!tip] Vogliamo calcolare la matrice dell'applicazione lineare $g_{o}f_:V\to W$
 >
@@ -120,7 +120,7 @@ $$
 >$$id_{o}f=f,f_{o}id=f$$
 >Perché $id(f(v))=f(v)$ e $f(id(v))=f(v)$
 
-Quindi, se $f$ è [[Applicazioni Lineari#Applicazione Lineare|lineare]] e, fissata una base di $V$, $A$ è la sua matrice
+Quindi, se $f$ è [[1 - Applicazioni Lineari#Applicazione Lineare|lineare]] e, fissata una base di $V$, $A$ è la sua matrice
 <u>Allora</u>
 $$
 A\times I_{n}=A, I_{n}\times A=A
@@ -131,7 +131,7 @@ $$
 ---
 
 >[!tldr] Osservazione 3
->Un'[[Applicazioni Lineari#Applicazione Lineare|applicazione lineare]] $f:V\to U$ è un [[Isomorfismo]] $\iff$ è invertibile,
+>Un'[[1 - Applicazioni Lineari#Applicazione Lineare|applicazione lineare]] $f:V\to U$ è un [[4 - Isomorfismo]] $\iff$ è invertibile,
 >Cioé:
 >$$\exists f^{-1}:U\to V$$
 >Tale che $f_{o}f^{-1}=id_{u}$ e $f^{-1}_{o}f=id_{v}$
@@ -145,7 +145,7 @@ $$
 ---
 
 >[!tldr] Osservazione 4
->Se $\text{dim}(V)\neq \text{dim}(U)$ sappiamo, come [[Teorema del Rango#Conseguenze del Teorema del Rango|conseguenza del teorema del rango]], che ***non esistono isomorfismi*** da $V$ a $U$
+>Se $\text{dim}(V)\neq \text{dim}(U)$ sappiamo, come [[2 - Teorema del Rango#Conseguenze del Teorema del Rango|conseguenza del teorema del rango]], che ***non esistono isomorfismi*** da $V$ a $U$
 >Quindi solo le matrici quadrate ***possono essere invertibili***
 
 >[!done] Se il numero di *righe* di $A$ è diverso dal numero di *colonne*, sicuramente $A$ non è *invertibile*

@@ -14,7 +14,7 @@ Se $\beta$ è ***simmetrica*** è sempre diagonalizzabile
 >[!info] Diagonalizzazione delle Forme Bilineari
 >Sia $V$ uno [[Campi e Spazi Vettoriali#Spazio Vettoriale|spazio vettoriale]] su $\mathbb{K}$ e $\beta$ una [[#Forma Bilineare]] ***simmetrica***
 ><u>Allora</u>
->$\exists$ una base $v_{1},\dots,v_{n}$ di $V$ tale che $\beta$ in tale base è [[Matrici Diagonali#Matrice Diagonale|diagonale]]
+>$\exists$ una base $v_{1},\dots,v_{n}$ di $V$ tale che $\beta$ in tale base è [[9 - Matrici Diagonali#Matrice Diagonale|diagonale]]
 >>[!done] In altre Parole
 >>Sia $A$ una ***matrice simmetrica***, $\exists$ una matrice diagonale congruente ad $A$
 
@@ -268,7 +268,7 @@ $$
 >$$\begin{pmatrix}I_{p} & 0 & 0 \\ 0 & -I_{r-p} & 0 \\ 0 & 0 & 0 \end{pmatrix}=\begin{pmatrix} 1 \\  & \underbrace{ \dots }_{ p } \\  &  & 1 \\  &  &  & -1 \\  &  &  &  & \underbrace{ \dots }_{ r-p } \\  &  &  &  &  & -1 \\  &  &  &  &  &  & 0 \\  &  &  &  &  &  &  & \underbrace{ \dots }_{ n-r } \\  &  &  &  &  &  &  &  & 0 \end{pmatrix}$$
 
 >[!summary] Segnatura
->I numeri $p$ e $r-p$  ($r$ è il [[Cambiamenti di Base#Rango di una Matrice|rango]] della *matrice*) *dipendono* solo da $\beta$ e *non dalla base scelta* e sono detti ***segnatura*** di $\beta$
+>I numeri $p$ e $r-p$  ($r$ è il [[6 - Cambiamenti di Base#Rango di una Matrice|rango]] della *matrice*) *dipendono* solo da $\beta$ e *non dalla base scelta* e sono detti ***segnatura*** di $\beta$
 
 Nell'esempio precedente la ***segnatura*** è: $(2,1)$
 #### Dimostrazione
@@ -329,7 +329,7 @@ $$
 ### Corollario
 >[!info] Matrici Congruenti
 >Due matrici [[Forme Bilineari#Matrici Simmetriche e Antisimmetriche|simmetriche]] sono [[Forme Bilineari#Matrici Congruenti|congruenti]] su $\mathbb{R}\iff$ hanno la stessa ***segnatura*** 
->Due matrici [[Forme Bilineari#Matrici Simmetriche e Antisimmetriche|simmetriche]] sono [[Forme Bilineari#Matrici Congruenti|congruenti]] su $\mathbb{C}\iff$ hanno lo stesso [[Cambiamenti di Base#Rango di una Matrice|rango]]
+>Due matrici [[Forme Bilineari#Matrici Simmetriche e Antisimmetriche|simmetriche]] sono [[Forme Bilineari#Matrici Congruenti|congruenti]] su $\mathbb{C}\iff$ hanno lo stesso [[6 - Cambiamenti di Base#Rango di una Matrice|rango]]
 
 #### Esempio
 >*Siano $A=\begin{pmatrix}2&0 \\ 0 &3\end{pmatrix}$ e $M=\begin{pmatrix}2&0 \\ 0 &-3\end{pmatrix}$*

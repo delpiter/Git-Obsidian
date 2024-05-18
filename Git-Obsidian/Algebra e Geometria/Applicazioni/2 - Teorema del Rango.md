@@ -13,7 +13,7 @@ Completiamola con una base di $V$
 
 >$v_{1},\dots,v_{d},v_{d+1},\dots,v_{n}$
 
-- Sappiamo già, per definizione di [[Applicazioni Lineari#Nucleo|nucleo]] che:
+- Sappiamo già, per definizione di [[1 - Applicazioni Lineari#Nucleo|nucleo]] che:
 $$
 f(v_{1})=\underline{0},\dots,f(v_{d})=\underline{0}
 $$
@@ -24,7 +24,7 @@ Ora basta mostrare che i vettori $f(v_{d+1}),\dots,f(v_{n})$ ($u_{d+1},\dots,u_{
 $$
 \exists!a_{1},\dots,a_{n}\in\mathbb{K}:V =a_{1}v_{1}+\dots+a_{n}v_{n}
 $$
-Poiché $f$ è [[Applicazioni Lineari#Applicazione Lineare|lineare]] $f(v)=f(a_{1},v_{1}+\dots,a_{n}v_{n})=a_{1}f(v_{1})+\dots+a_{d}f(v_{d})+a_{d+1}f(v_{d+1})+\dots+a_{n}f(v_{n})$
+Poiché $f$ è [[1 - Applicazioni Lineari#Applicazione Lineare|lineare]] $f(v)=f(a_{1},v_{1}+\dots,a_{n}v_{n})=a_{1}f(v_{1})+\dots+a_{d}f(v_{d})+a_{d+1}f(v_{d+1})+\dots+a_{n}f(v_{n})$
 
 $$
 \cancel{ a_{1}f(v_{1}) }+\cancel{ \dots }+\cancel{ a_{d}f(v_{d}) }+a_{d+1}f(v_{d+1})+\dots+a_{n}f(v_{n})
@@ -40,7 +40,7 @@ Di conseguenza, per il [[Teoremi su Spazi Vettoriali#Teorema delle Coordinate|te
 >[!done] Quindi $\text{dim}(\mathrm{ker}f)=d,\quad\text{dim}(V)=n,\quad\text{dim}(\mathrm{Im}f)=n-d$
 
 ### Esempio
-#### Riprendendo [[Applicazioni Lineari#Es 1 - Nucleo|l'esempio 1]] 
+#### Riprendendo [[1 - Applicazioni Lineari#Es 1 - Nucleo|l'esempio 1]] 
 >$f:\mathbb{R}^2\to\mathbb{R}^2, f(x,y)\mapsto (x+y,2x+2y)$
 
 Abbiamo visto che $\mathrm{ker}f=\{ (t,-t),t\in\mathbb{R} \}$
@@ -58,7 +58,7 @@ Prendiamo una base di $\mathrm{ker}f, v_{1}=(1,-1)$
 Calcoliamo $f(v_{1}) =(0,0)=\underline{0},f(v_{2})=(1,2)$
 - $f(v_{2})$ è una base di $\mathrm{Im}f$ perché ogni $(s,2s)\in\mathrm{Im}f$ si scrive come $s\cdot(1,2)$
 
-#### Riprendendo [[Applicazioni Lineari#Es 2 - Nucleo|l'esempio 2]]
+#### Riprendendo [[1 - Applicazioni Lineari#Es 2 - Nucleo|l'esempio 2]]
 >Abbiamo mostrato che $\mathrm{ker}f=\{ \underline{0} \}$
 
 Quindi $\text{dim}\mathrm{Im}f=\text{dim}\mathbb{R}^2-\text{dim}\mathrm{ker}f =2-0=2$

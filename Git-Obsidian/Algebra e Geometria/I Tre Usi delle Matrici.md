@@ -19,7 +19,7 @@ Applicando ad esse l'[[Risoluzione di Sistemi#Metodo di Gauss|algoritmo di Gauss
 
 Due matrici $A,M$ rappresentano la stessa ***applicazione***
 $\iff$
-Sono [[Cambiamenti di Base#Matrici Simili|simili]], cioè $\exists B$ ***invertibile*** tale che $M=B^{-1}AB$
+Sono [[6 - Cambiamenti di Base#Matrici Simili|simili]], cioè $\exists B$ ***invertibile*** tale che $M=B^{-1}AB$
 
 ## Forme Bilineari
 ---

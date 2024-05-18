@@ -306,7 +306,7 @@ $$
 	- Tutti gli $(x,y):x=3+2y$
 
 ##### Esercizio 3
-[[Matrici Invertibili#Esercizio|Riprendendo Questo esercizio]]
+[[8 - Matrici Invertibili#Esercizio|Riprendendo Questo esercizio]]
 
 $$
 \begin{cases}
@@ -422,12 +422,12 @@ Quindi $U$ è un sottospazio vettoriale di $\mathbb{K}^n$
 
 >[!abstract] D'altra Parte
 
-$U$ è il nucleo dell'[[Applicazioni Lineari#Applicazione Lineare|applicazione lineare]]:
+$U$ è il nucleo dell'[[1 - Applicazioni Lineari#Applicazione Lineare|applicazione lineare]]:
 $$
 f:\mathbb{K}^n\to\mathbb{K}^m,f(x)=Ax
 $$
 
-Per il [[Teorema del Rango]], $U$ ha dimensione:
+Per il [[2 - Teorema del Rango]], $U$ ha dimensione:
 $$
 \text{dim}(\mathrm{ker}f)=\text{dim}(\mathbb{K}^n)-\text{dim}(\mathrm{Im}f)=n-rk(A)
 $$

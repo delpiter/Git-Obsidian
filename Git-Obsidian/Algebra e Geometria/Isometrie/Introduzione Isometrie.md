@@ -2,7 +2,7 @@
 ---
 >[!info] Definizione
 >Sia $V$ uno [[Campi e Spazi Vettoriali#Spazio Vettoriale|spazio vettoriale]] su $\mathbb{K}=\mathbb{R}$ con un [[Prodotto Scalare#I Prodotti Scalari|prodotto scalare]]
->Una ***Isometria*** è una [[Applicazioni Lineari#Applicazione Lineare|applicazione lineare]]: $f:V\to V$
+>Una ***Isometria*** è una [[1 - Applicazioni Lineari#Applicazione Lineare|applicazione lineare]]: $f:V\to V$
 >$$\forall v,u \in V\quad (f(v),f(u))=(v,u)$$
 
 ### Osservazione Significato
@@ -92,7 +92,7 @@ $$
 $$
 
 ### Isomorfismi e Isometrie
->[!question] Che legame c'è tra [[Isomorfismo#Isomorfismo|isomorfismi]] e ***isometrie***?
+>[!question] Che legame c'è tra [[4 - Isomorfismo#Isomorfismo|isomorfismi]] e ***isometrie***?
 
 >[!Teorema]
 >Ogni ***isometria*** è un ***isomorfismo***
@@ -116,7 +116,7 @@ $$
 $$
 - Cioè $v=\underline{0}\implies\mathrm{ker}(f)=\{ \underline{0} \}\implies f$ è ***iniettiva***
 
-Per il [[Teorema del Rango]]:
+Per il [[2 - Teorema del Rango]]:
 $$
 \text{dim}(\mathrm{Im}(f))=\text{dim}(v)-0
 $$

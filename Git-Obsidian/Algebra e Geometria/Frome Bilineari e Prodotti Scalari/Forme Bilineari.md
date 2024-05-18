@@ -4,7 +4,7 @@
 >Sia $\mathbb{K}$ un [[Campi e Spazi Vettoriali#Campo|campo]] e $V$ uno [[Campi e Spazi Vettoriali#Spazio Vettoriale|spazio vettoriale]] si $\mathbb{K}$
 >Una ***forma bilineare*** su $V$ è un'applicazione $\beta$:
 >$$\begin{array}\ V\times V \to \mathbb{K} \\ (v,u)\mapsto \beta(v,u) \end{array}$$
->Che è [[Applicazioni Lineari#Applicazione Lineare|lineare]] in ciascuno degli argomenti
+>Che è [[1 - Applicazioni Lineari#Applicazione Lineare|lineare]] in ciascuno degli argomenti
 >>[!done] In Breve
 >>$\forall v,v',u,u'\in V, \forall a\in\mathbb{K}$
 >>1. $\beta(v+v',u)=\beta(v,u)+\beta(v',u)$

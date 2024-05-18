@@ -6,7 +6,7 @@
 >Sia $U$ uno *spazio vettoriale* su $\mathbb{K}$ 
 >Sia $u_{1},\dots,u_{n}$ un insieme di vettori di $U$
 ><u>Allora</u>
->Esiste ***una e una sola*** [[Applicazioni Lineari#Applicazione Lineare|applicazione lineare]]:
+>Esiste ***una e una sola*** [[1 - Applicazioni Lineari#Applicazione Lineare|applicazione lineare]]:
 >$$f:V\to U:f(v_{1})=u_{1},\dots,f(v_{n})=u_{n}$$
 
 ### Dimostrazione

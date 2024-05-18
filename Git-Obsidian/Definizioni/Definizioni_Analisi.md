@@ -119,7 +119,7 @@ $$
 ## Prodotto Vettoriale
 ---
 >[!info] Definizione
->Il [[Determinante di una Matrice#Determinante|determinante]] permette di formulare la regola per calcolare il ***prodotto vettoriale***
+>Il [[7 - Determinante di una Matrice#Determinante|determinante]] permette di formulare la regola per calcolare il ***prodotto vettoriale***
 >- Una *operazione* che associa ad una ***coppia di vettori*** un ***vettore***
 >$$\mathbb{R}^3\times \mathbb{R}^3\to\mathbb{R}^3$$
 >$$(v,u)\mapsto v\wedge u$$

@@ -1,4 +1,4 @@
->*Sia $f$ un [[Isomorfismo#Endomorfismo|endomorfismo]] abbiamo visto che data una base $v_{1},\dots,v_{n}$ di $V$ possiamo associare ad $f$ una matrice $n\times n$ che dipende dalla base scelta*
+>*Sia $f$ un [[4 - Isomorfismo#Endomorfismo|endomorfismo]] abbiamo visto che data una base $v_{1},\dots,v_{n}$ di $V$ possiamo associare ad $f$ una matrice $n\times n$ che dipende dalla base scelta*
 
 >[!question] Possiamo scegliere la base di $V$ in modo che la matrice di $f$ sia particolarmente semplice?
 
@@ -6,7 +6,7 @@
 ---
 >[!info] Definizione
 >Una *matrice* $D_{n\times n}$ è ***diagonale*** se:
->$$d_{ij}=0, \forall i\neq j$$
+>$$d_{ij}=0,\quad \forall i\neq j$$
 
 $$
 D=\begin{pmatrix}
@@ -68,7 +68,7 @@ d_{1}^m & 0 & \dots & 0 & 0 \\
 $$
 
 >[!tldr] Osservazione
->Calcolare il [[Determinante di una Matrice#Determinante|determinante]] è *estremamente banale*
+>Calcolare il [[7 - Determinante di una Matrice#Determinante|determinante]] è *estremamente banale*
 
 $$
 \det(D)=d_{1}\cdot d_{2}\cdot ...\cdot d_{n}
@@ -114,8 +114,9 @@ $$
 ## Autovettore e Autovalore
 ---
 >[!info] Definizioni
+>Sia $f:V\to V$ un [[4 - Isomorfismo#Endomorfismo|endomorfismo]]
 >>[!abstract] Autovettore
->>Sia $f:V\to V$ un [[Isomorfismo#Endomorfismo|endomorfismo]] un ***autovettore*** è un vettore
+>>Un ***autovettore*** è un vettore
 >>$$v\in V, v\neq 0:\exists \lambda \in \mathbb{K}:f(v)=\lambda v$$
 >
 >>[!abstract] Autovalore
@@ -185,6 +186,7 @@ $$
 
 #### Dimostrazione
 $\lambda_{i}$ è un *autovalore* di $f\iff\exists v\in V,v\neq 0:f(v)=\lambda_{i}v$
+- $\iff f(v)-\lambda_{i}id(v)=\underline{0}$
 - $\iff \exists v\in V,v\neq 0:(f-\lambda_{i}id)(v)=\underline{0}$
 - $\iff \exists v\neq 0,v\in \mathrm{ker}(f-\lambda_{i}id)$
 - $\iff \mathrm{ker}(f-\lambda_{i}id)\neq \{ \underline{0} \}$
@@ -396,7 +398,7 @@ Come abbiamo visto in precedenza:
 ## Autospazio
 ---
 >[!info] Definizione
->Sia $V$ uno [[Campi e Spazi Vettoriali#Spazio Vettoriale|spazio vettoriale]] su $\mathbb{K}$, sia $f$ un [[Isomorfismo#Endomorfismo|endomorfismo]] e sia $\lambda_{i}$ un suo autovalore
+>Sia $V$ uno [[Campi e Spazi Vettoriali#Spazio Vettoriale|spazio vettoriale]] su $\mathbb{K}$, sia $f$ un [[4 - Isomorfismo#Endomorfismo|endomorfismo]] e sia $\lambda_{i}$ un suo autovalore
 >L'***autospazio*** relativo a $\lambda_{i}$ è
 >$$V\lambda_{i}=\{ v\in V:f(v)=\lambda_{i}v \}=\{ \text{tutti gli autovettori }\cup\{ \underline{0} \} \}$$
 

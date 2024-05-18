@@ -5,7 +5,7 @@
 >[!inf] Teorema $T_{1}$
 >Sia $v_{1},\dots,v_{n}$ un [[Prodotto Scalare#Base Ortonormale|BON]] di $V$
 ><u>Allora</u>
->Una base $w_{1},\dots,w_{n}$ di $V$ o ***ortonormale*** $\iff$ la [[Cambiamenti di Base#Teorema del Cambiamento di Base|matrice del cambiamento di base]] è [[Introduzione Isometrie#Matrice Ortogonale|Ortogonale]]
+>Una base $w_{1},\dots,w_{n}$ di $V$ o ***ortonormale*** $\iff$ la [[6 - Cambiamenti di Base#Teorema del Cambiamento di Base|matrice del cambiamento di base]] è [[Introduzione Isometrie#Matrice Ortogonale|Ortogonale]]
 
 ^b26be9
 
@@ -32,7 +32,7 @@ $$
 
 ## Teorema 2
 ---
->*Stesso concetto del [[Isomorfismo#Teorema Isomorfismo-Basi|Teorema Isomorfismo-Basi]]*
+>*Stesso concetto del [[4 - Isomorfismo#Teorema Isomorfismo-Basi|Teorema Isomorfismo-Basi]]*
 
 
 >[!inf] Teorema $T_{2}$
@@ -149,7 +149,7 @@ $$
 $$
 ### Autovalori di Isometrie
 >[!info] Proposizione
->Sia $f:V\to V$ una ***isometria*** e $\lambda$ un suo [[Matrici Diagonali#Autovettore e Autovalore|autovalore]]
+>Sia $f:V\to V$ una ***isometria*** e $\lambda$ un suo [[9 - Matrici Diagonali#Autovettore e Autovalore|autovalore]]
 >Se $\lambda\in\mathbb{R}$
 ><u>Allora</u>
 >$\lambda=1$ o $\lambda=-1$
