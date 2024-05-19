@@ -1,7 +1,7 @@
 ## Dijkstra
 ---
 >[!info] Informazioni
->Algoritmo di ricerca di cammini minimi di tipo [[Gli Algoritmi Greedy|Greedy]]
+>Algoritmo di ricerca di [[Cammini Minimi con Sorgente Singola|cammini minimi]] di tipo [[Gli Algoritmi Greedy|Greedy]]
 >L'algoritmo di basa su un *rilassamento*
 >>[!caution] Struttura della soluzione
 >>Ogni nodo $v$ nel grafo $G$ contiene:
@@ -148,5 +148,5 @@ $$
 >[!abstract] Dijkstra con *coda come array*
 
 $$
-T(V,E)=T_{I}(V,E)+O(V^2)+E\cdot T_{R(V,E)}=O(V^2+E)=O(V^2)
+T(V,E)=T_{I}(V,E)+O(V^2)+E\cdot T_{R}(V,E)=O(V^2+E)=O(V^2)
 $$
