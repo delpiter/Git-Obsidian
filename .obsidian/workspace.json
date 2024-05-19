@@ -4,50 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "4558d1c5162aef54",
+        "id": "7efe40f9b9422f88",
         "type": "tabs",
         "children": [
           {
-            "id": "21a71f2ebff50e10",
+            "id": "ce4d9d3016e3fdf1",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Cammini Minimi/Cammini Minimi con Sorgente Singola.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7b04d44cb58604d8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Cammini Minimi/Algoritmo di Bellman-Ford.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "2d50b7d2ba2fb548",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "ffdf907c080d3fcf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Cammini Minimi/Algoritmo di Dijkstra.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -118,7 +83,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Cammini Minimi/Algoritmo di Bellman-Ford.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +99,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Cammini Minimi/Algoritmo di Bellman-Ford.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,9 +120,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Cammini Minimi/Algoritmo di Bellman-Ford.md"
-              }
+              "state": {}
             }
           },
           {
@@ -199,13 +160,13 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "7b04d44cb58604d8",
+  "active": "ce4d9d3016e3fdf1",
   "lastOpenFiles": [
-    "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Cammini Minimi/attachements/DAG Shortest Path.png",
+    "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Cammini Minimi/Cammini Minimi con Sorgente Singola.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Cammini Minimi/Algoritmo di Bellman-Ford.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Cammini Minimi/Algoritmo di Dijkstra.md",
+    "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Cammini Minimi/attachements/DAG Shortest Path.png",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Cammini Minimi/attachements/Bellman-Ford Example.png",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Cammini Minimi/Cammini Minimi con Sorgente Singola.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Cammini Minimi/attachements/Dijkstra Example.png",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Cammini Minimi/attachements/Negative Weight Edges.png",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Cammini Minimi/attachements",
