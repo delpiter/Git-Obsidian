@@ -3,7 +3,7 @@
 >[!info] Definizione
 >Sia $\mathbb{K}$ un [[Campi e Spazi Vettoriali#Campo|campo]] e siano $V,U$ [[Campi e Spazi Vettoriali#Spazio Vettoriale|spazi vettoriali]] su $\mathbb{K}$
 >Un'[[Introduzione#Definizione|applicazione]] $f:V\to U$ si dice ***lineare*** se è compatibile con le operazioni di $U$ e $V$
->$$f(v_{1},v_{2})=f(v_{1})+f(v_{2}), \quad\forall v_{1},v_{2} \in V$$
+>$$f(v_{1}+v_{2})=f(v_{1})+f(v_{2}), \quad\forall v_{1},v_{2} \in V$$
 >>[!done] A parole
 >>A sinistra dell'uguaglianza *applico* $f$ ad una *somma di elementi* di $V$, ottenendo un elemento di $U$
 >>A destra dell'uguaglianza *applico* $f$ ai due elementi di $V$ e poi *sommo i due elementi* di $U$, ottenendo lo stesso elemento di prima
