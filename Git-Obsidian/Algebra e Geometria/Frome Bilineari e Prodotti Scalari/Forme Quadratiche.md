@@ -80,21 +80,21 @@ $$
 ### Relazione con la Matrice Diagonale
 >[!info] ‎ 
 >>[!abstract] $1.$
->>$q$ è ***definita positiva*** $\iff$ la [[Diagonalizzare Forme Bilineari#Teorema di Sylvester|segnatura]] di $\beta$ è $\underbrace{ (n,0) }_{ \text{"solo 1"} }$
+>>$q$ è ***definita positiva*** $\iff$ la [[2 - Diagonalizzare Forme Bilineari#Teorema di Sylvester|segnatura]] di $\beta$ è $\underbrace{ (n,0) }_{ \text{"solo 1"} }$
 >>- $\exists$ una base in cui la matrice di $\beta$ è $I_{n}$
 >
 >>[!example] $2.$
->>$q$ è ***definita negativa*** $\iff$ la [[Diagonalizzare Forme Bilineari#Teorema di Sylvester|segnatura]] di $\beta$ è $\underbrace{ (0,n) }_{ \text{"solo -1"} }$
+>>$q$ è ***definita negativa*** $\iff$ la [[2 - Diagonalizzare Forme Bilineari#Teorema di Sylvester|segnatura]] di $\beta$ è $\underbrace{ (0,n) }_{ \text{"solo -1"} }$
 >>- $\exists$ una base in cui la matrice di $\beta$ è $-I_{n}$
 >
 >>[!abstract] $3.$
->>$q$ è ***semidefinita positiva*** $\iff$ la [[Diagonalizzare Forme Bilineari#Teorema di Sylvester|segnatura]] di $\beta$ è $\underbrace{ (r,0) }_{ \text{"1 e 0"} }$
+>>$q$ è ***semidefinita positiva*** $\iff$ la [[2 - Diagonalizzare Forme Bilineari#Teorema di Sylvester|segnatura]] di $\beta$ è $\underbrace{ (r,0) }_{ \text{"1 e 0"} }$
 >
 >>[!example] $4.$
->>$q$ è ***semidefinita negativa*** $\iff$ la [[Diagonalizzare Forme Bilineari#Teorema di Sylvester|segnatura]] di $\beta$ è $\underbrace{ (0,r) }_{ \text{"-1 e 0"} }$
+>>$q$ è ***semidefinita negativa*** $\iff$ la [[2 - Diagonalizzare Forme Bilineari#Teorema di Sylvester|segnatura]] di $\beta$ è $\underbrace{ (0,r) }_{ \text{"-1 e 0"} }$
 >
 >>[!danger] $5.$
->>$q$ è ***indefinita*** $\iff$ la [[Diagonalizzare Forme Bilineari#Teorema di Sylvester|segnatura]] di $\beta$ è $(p,r-p)$ con $p>0,r-p>0$
+>>$q$ è ***indefinita*** $\iff$ la [[2 - Diagonalizzare Forme Bilineari#Teorema di Sylvester|segnatura]] di $\beta$ è $(p,r-p)$ con $p>0,r-p>0$
 
 #### Esempio
 >*Sia $f:\mathbb{R}^n\to\mathbb{R}$ una funzione di $n$ variabili, derivabile $2$ volte*

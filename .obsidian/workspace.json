@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Obsidian/Algebra e Geometria/Frome Bilineari e Prodotti Scalari/Diagonalizzare Forme Bilineari.md",
+                "file": "Git-Obsidian/Algebra e Geometria/Frome Bilineari e Prodotti Scalari/2 - Diagonalizzare Forme Bilineari.md",
                 "mode": "preview",
                 "source": false
               }
@@ -67,7 +67,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -134,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Algebra e Geometria/Frome Bilineari e Prodotti Scalari/1 - Forme Bilineari.md",
+                "file": "Git-Obsidian/Algebra e Geometria/Frome Bilineari e Prodotti Scalari/2 - Diagonalizzare Forme Bilineari.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Algebra e Geometria/Frome Bilineari e Prodotti Scalari/1 - Forme Bilineari.md",
+                "file": "Git-Obsidian/Algebra e Geometria/Frome Bilineari e Prodotti Scalari/2 - Diagonalizzare Forme Bilineari.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git-Obsidian/Algebra e Geometria/Frome Bilineari e Prodotti Scalari/1 - Forme Bilineari.md"
+                "file": "Git-Obsidian/Algebra e Geometria/Frome Bilineari e Prodotti Scalari/2 - Diagonalizzare Forme Bilineari.md"
               }
             }
           },
@@ -214,14 +215,14 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "7a74c6bbb17fac92",
+  "active": "ebf09f31d5b274e7",
   "lastOpenFiles": [
+    "Git-Obsidian/Algebra e Geometria/Frome Bilineari e Prodotti Scalari/1 - Forme Bilineari.md",
     "Git-Obsidian/Algebra e Geometria/Applicazioni/8 - Matrici Invertibili.md",
     "Git-Obsidian/Algebra e Geometria/Applicazioni/7 - Determinante di una Matrice.md",
-    "Git-Obsidian/Algebra e Geometria/Frome Bilineari e Prodotti Scalari/1 - Forme Bilineari.md",
     "Git-Obsidian/Algebra e Geometria/Applicazioni/9 - Matrici Diagonali.md",
     "Git-Obsidian/Algebra e Geometria/Applicazioni/10 - Criterio di Diagonalizzabilità.md",
-    "Git-Obsidian/Algebra e Geometria/Frome Bilineari e Prodotti Scalari/Diagonalizzare Forme Bilineari.md",
+    "Git-Obsidian/Algebra e Geometria/Frome Bilineari e Prodotti Scalari/2 - Diagonalizzare Forme Bilineari.md",
     "Git-Obsidian/Algebra e Geometria/Applicazioni/1 - Applicazioni Lineari.md",
     "Git-Obsidian/Algebra e Geometria/Applicazioni/2 - Teorema del Rango.md",
     "Git-Obsidian/Algebra e Geometria/Applicazioni/3 - Estensione Lineare.md",

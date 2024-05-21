@@ -83,7 +83,7 @@ $$
 >$\exists$ una base ***ortonormale*** rispetto a tale prodotto scalare
 
 ##### Dimostrazione
-Per il [[Diagonalizzare Forme Bilineari#Teorema di Sylvester|teorema di Sylvester]]
+Per il [[2 - Diagonalizzare Forme Bilineari#Teorema di Sylvester|teorema di Sylvester]]
 Poiché il ***prodotto scalare*** è una ***forma bilineare simmetrica***
 - $\exists$ una base $v_{1},\dots,v_{n}$ in cui la matrice è
 $$
