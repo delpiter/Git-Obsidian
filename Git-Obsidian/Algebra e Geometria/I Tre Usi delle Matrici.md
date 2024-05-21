@@ -30,5 +30,5 @@ Sono [[6 - Cambiamenti di Base#Matrici Simili|simili]], cioè $\exists B$ ***inv
 
 Due matrici $A,M$ rappresentano la stessa ***forma bilineare***
 $\iff$
-Sono [[Forme Bilineari#Matrici Congruenti|congruenti]], cioè $\exists B$ invertibile: $M=B^TAB$
+Sono [[1 - Forme Bilineari#Matrici Congruenti|congruenti]], cioè $\exists B$ invertibile: $M=B^TAB$
 

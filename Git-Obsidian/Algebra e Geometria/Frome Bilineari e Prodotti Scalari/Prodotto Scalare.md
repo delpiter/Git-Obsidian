@@ -2,7 +2,7 @@
 ---
 >[!info] Definizione
 >Sia $V$ uno [[Campi e Spazi Vettoriali#Spazio Vettoriale|spazio vettoriale]] su $\mathbb{K}=\mathbb{R}$
->Un ***prodotto scalare*** è una [[Forme Bilineari#Forma Bilineare|forma bilineare]] [[Forme Bilineari#Tipi di Forme Bilineari|simmetrica]] e [[Forme Quadratiche#Tipi di Forme Quadratiche|definita positiva]]
+>Un ***prodotto scalare*** è una [[1 - Forme Bilineari#Forma Bilineare|forma bilineare]] [[1 - Forme Bilineari#Tipi di Forme Bilineari|simmetrica]] e [[Forme Quadratiche#Tipi di Forme Quadratiche|definita positiva]]
 
 #### Esempio
 1. $V=\{ \text{ funzioni } [a,b]\to\mathbb{R} \}$
@@ -162,7 +162,7 @@ $$
 
 
 ###### Esempio Prodotto Scalare
-Consideriamo la [[Forme Bilineari#Forma Bilineare|forma bilineare]] su $\mathbb{R}^2$
+Consideriamo la [[1 - Forme Bilineari#Forma Bilineare|forma bilineare]] su $\mathbb{R}^2$
 - $v=(a_{1},a_{2}), \quad u=(b_{1},b_{2})$
 $$
 \beta(v,u)=a_{1}b_{1}+5a_{2}b_{2}+2a_{1}b_{2}+2a_{2}b_{1}

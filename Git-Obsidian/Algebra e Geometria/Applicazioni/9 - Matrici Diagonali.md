@@ -463,11 +463,11 @@ $$
 #### Dimostrazione
 >$mg(\lambda_{i})\geq1$
 
-- Perché se fosse $mf(\lambda_{i})=0$
+- Perché se fosse $mg(\lambda_{i})=0$
 	- Cioè $\text{dim}(V\lambda_{i})=0\implies V\lambda_{i}=\{ \underline{0} \}$
 
-Avremmo che non ci sono vettori non nulli
-- $v\in V, v\neq0:f(v)=\lambda_{i}v$
+Avremmo che ***non ci sono vettori non nulli*** tali che:
+- $\exists v\in V, v\neq0:f(v)=\lambda_{i}v$
 
 - Contraddicendo la [[#Autovettore e Autovalore|definizione di autovalore]]
 

@@ -209,7 +209,7 @@ $$
 >[!question] Si può fare di meglio?
 
 #### Esempio
->*Sia $\beta$ una [[Forme Bilineari#Forma Bilineare|forma bilineare]] su $\mathbb{R}^4$ e supponiamo di aver trovato una base $v_{1},v_{2},v_{3},v_{4}$:*
+>*Sia $\beta$ una [[1 - Forme Bilineari#Forma Bilineare|forma bilineare]] su $\mathbb{R}^4$ e supponiamo di aver trovato una base $v_{1},v_{2},v_{3},v_{4}$:*
 - $\beta(v_{1},v_{1})=4$
 - $\beta(v_{2},v_{2})=3$
 - $\beta(v_{3},v_{3})=-5$
@@ -262,7 +262,7 @@ D_{new}=
 $$
 ### Teorema di Sylvester
 >[!info] Sylvester
->Dato uno [[Campi e Spazi Vettoriali#Spazio Vettoriale|spazio vettoriale]] $V$ su $\mathbb{R}$ e data una [[Forme Bilineari#Forma Bilineare|forma bilineare]] *simmetrica* $\beta$ su $V$
+>Dato uno [[Campi e Spazi Vettoriali#Spazio Vettoriale|spazio vettoriale]] $V$ su $\mathbb{R}$ e data una [[1 - Forme Bilineari#Forma Bilineare|forma bilineare]] *simmetrica* $\beta$ su $V$
 >$\exists$ una ***base*** $u_{1},\dots,u_{n}$ di $V$ tale che in tale base la ***matrice*** di $\beta$ è una ***matrice*** fatta così:
 >>[!abstract] ‎ 
 >$$\begin{pmatrix}I_{p} & 0 & 0 \\ 0 & -I_{r-p} & 0 \\ 0 & 0 & 0 \end{pmatrix}=\begin{pmatrix} 1 \\  & \underbrace{ \dots }_{ p } \\  &  & 1 \\  &  &  & -1 \\  &  &  &  & \underbrace{ \dots }_{ r-p } \\  &  &  &  &  & -1 \\  &  &  &  &  &  & 0 \\  &  &  &  &  &  &  & \underbrace{ \dots }_{ n-r } \\  &  &  &  &  &  &  &  & 0 \end{pmatrix}$$
@@ -301,7 +301,7 @@ $$
 
 ### Teorema di Sylvester su $\mathbb{C}$
 >[!info] Sylvester su $\mathbb{C}$
->Dato uno [[Campi e Spazi Vettoriali#Spazio Vettoriale|spazio vettoriale]] $V$ su $\mathbb{C}$ e data una [[Forme Bilineari#Forma Bilineare|forma bilineare]] *simmetrica* $\beta$ su $V$
+>Dato uno [[Campi e Spazi Vettoriali#Spazio Vettoriale|spazio vettoriale]] $V$ su $\mathbb{C}$ e data una [[1 - Forme Bilineari#Forma Bilineare|forma bilineare]] *simmetrica* $\beta$ su $V$
 >$\exists$ una ***base*** $u_{1},\dots,u_{n}$ di $V$ tale che in tale base la ***matrice*** di $\beta$ è una ***matrice*** fatta così:
 >>[!abstract] ‎ 
 >$$\begin{pmatrix}I_{r} & 0  \\ 0 & 0  \end{pmatrix}=\begin{pmatrix} 1 \\  & \ \underbrace{ \dots }_{r  } \\  &  & 1 \\   &  &  & 0 \\    &  &  &  & \underbrace{ \dots }_{ n-r } \\    &  &  &  &  & 0 \end{pmatrix}$$
@@ -328,8 +328,8 @@ $$
 
 ### Corollario
 >[!info] Matrici Congruenti
->Due matrici [[Forme Bilineari#Matrici Simmetriche e Antisimmetriche|simmetriche]] sono [[Forme Bilineari#Matrici Congruenti|congruenti]] su $\mathbb{R}\iff$ hanno la stessa ***segnatura*** 
->Due matrici [[Forme Bilineari#Matrici Simmetriche e Antisimmetriche|simmetriche]] sono [[Forme Bilineari#Matrici Congruenti|congruenti]] su $\mathbb{C}\iff$ hanno lo stesso [[6 - Cambiamenti di Base#Rango di una Matrice|rango]]
+>Due matrici [[1 - Forme Bilineari#Matrici Simmetriche e Antisimmetriche|simmetriche]] sono [[1 - Forme Bilineari#Matrici Congruenti|congruenti]] su $\mathbb{R}\iff$ hanno la stessa ***segnatura*** 
+>Due matrici [[1 - Forme Bilineari#Matrici Simmetriche e Antisimmetriche|simmetriche]] sono [[1 - Forme Bilineari#Matrici Congruenti|congruenti]] su $\mathbb{C}\iff$ hanno lo stesso [[6 - Cambiamenti di Base#Rango di una Matrice|rango]]
 
 #### Esempio
 >*Siano $A=\begin{pmatrix}2&0 \\ 0 &3\end{pmatrix}$ e $M=\begin{pmatrix}2&0 \\ 0 &-3\end{pmatrix}$*

@@ -1,7 +1,7 @@
 ## Forma Bilineare
 ---
 >[!info] Definizione
->Sia $\mathbb{K}$ un [[Campi e Spazi Vettoriali#Campo|campo]] e $V$ uno [[Campi e Spazi Vettoriali#Spazio Vettoriale|spazio vettoriale]] si $\mathbb{K}$
+>Sia $\mathbb{K}$ un [[Campi e Spazi Vettoriali#Campo|campo]] e $V$ uno [[Campi e Spazi Vettoriali#Spazio Vettoriale|spazio vettoriale]] su $\mathbb{K}$
 >Una ***forma bilineare*** su $V$ è un'applicazione $\beta$:
 >$$\begin{array}\ V\times V \to \mathbb{K} \\ (v,u)\mapsto \beta(v,u) \end{array}$$
 >Che è [[1 - Applicazioni Lineari#Applicazione Lineare|lineare]] in ciascuno degli argomenti
@@ -123,7 +123,7 @@ $$
 >>$$\begin{array}\ \underset{ L^1 }{ =}a_{1}\beta(v_{1},b_{1}v_{1}+\dots+b_{n}v_{n})+\dots+a_{n}\beta(v_{n},b_{1}v_{1}+\dots+b_{n}v_{n})= \\ \underset{ L^2 }{ = }a_{1}b_{1}\beta(v_{1},v_{1})+\dots+a_{1}b_{n}\beta(v_{1},v_{n})+\dots+
 +a_{n}b_{1}\beta(v_{n},v_{1})+\dots+a_{n}b_{n}\beta(v_{n},v_{n})\end{array}$$
 >>Che è come dire:
->>$$\sum_{i,j\in\{ 1,\dots,n \}} a_{i}b_{j}\beta(v_{i},v_{j})$$
+>>$$\sum_{i,j=1}^n a_{i}b_{j}\beta(v_{i},v_{j})$$
 >
 >>[!done] Morale
 >>Per conoscere quanto fa $\beta$ su una ***qualsiasi coppia di vettori***, mi basta sapere quanto fa ***ogni coppia di vettori*** nella base di $V$
@@ -177,7 +177,7 @@ $$
 \end{pmatrix} }=(6,-2)\begin{pmatrix}
 2 \\
 1
-\end{pmatrix}=12-2=1
+\end{pmatrix}=12-2=10
 $$
 ## Matrici Simmetriche e Antisimmetriche
 ---
