@@ -2,7 +2,7 @@
 ---
 >[!info] Definizione
 >Sia $V$ uno [[Campi e Spazi Vettoriali#Spazio Vettoriale|spazio vettoriale]] su $\mathbb{K}=\mathbb{R}$
->Un ***prodotto scalare*** è una [[1 - Forme Bilineari#Forma Bilineare|forma bilineare]] [[1 - Forme Bilineari#Tipi di Forme Bilineari|simmetrica]] e [[Forme Quadratiche#Tipi di Forme Quadratiche|definita positiva]]
+>Un ***prodotto scalare*** è una [[1 - Forme Bilineari#Forma Bilineare|forma bilineare]] [[1 - Forme Bilineari#Tipi di Forme Bilineari|simmetrica]] e [[3 - Forme Quadratiche#Tipi di Forme Quadratiche|definita positiva]]
 
 #### Esempio
 1. $V=\{ \text{ funzioni } [a,b]\to\mathbb{R} \}$
@@ -145,7 +145,7 @@ $$
 >[!caution] Dimostrazione
 
 Sappiamo che $(v_{i},v_{j})=0 \quad \forall i\neq j$ e vogliamo mostrare che se:
-- $a_{1}v_{1},\dots,a_{k}v_{k}=\underline{0}$
+- $a_{1}v_{1}+\dots+a_{k}v_{k}=\underline{0}$
 
 <u>Allora</u>
 
@@ -257,7 +257,7 @@ $$
 ###### Dimostrazione
 >1.
 
-Poiché un prodotto scalare è [[Forme Quadratiche#Tipi di Forme Quadratiche|definito positivo]]
+Poiché un prodotto scalare è [[3 - Forme Quadratiche#Tipi di Forme Quadratiche|definito positivo]]
 $$
 (\overrightarrow{PQ},\overrightarrow{PQ})\geq 0  
 $$

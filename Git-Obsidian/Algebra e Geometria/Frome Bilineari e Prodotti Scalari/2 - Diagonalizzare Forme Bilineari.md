@@ -12,7 +12,7 @@ Se $\beta$ è ***simmetrica*** è sempre diagonalizzabile
 
 ### Teorema
 >[!info] Diagonalizzazione delle Forme Bilineari
->Sia $V$ uno [[Campi e Spazi Vettoriali#Spazio Vettoriale|spazio vettoriale]] su $\mathbb{K}$ e $\beta$ una [[#Forma Bilineare]] ***simmetrica***
+>Sia $V$ uno [[Campi e Spazi Vettoriali#Spazio Vettoriale|spazio vettoriale]] su $\mathbb{K}$ e $\beta$ una [[1 - Forme Bilineari#Forma Bilineare|forma bilineare]] ***simmetrica***
 ><u>Allora</u>
 >$\exists$ una base $v_{1},\dots,v_{n}$ di $V$ tale che $\beta$ in tale base è [[9 - Matrici Diagonali#Matrice Diagonale|diagonale]]
 >>[!done] In altre Parole
@@ -32,21 +32,14 @@ w_{3},w_{1} & w_{3},w_{2} & w_{3},w_{3}& \dots \\
 \dots& \dots& \dots& \dots
 \end{pmatrix}
 $$
-
+###### Caso 1
 Se $\beta(w_{1},w_{1})\neq 0$, vai al ***passo 2***
 
+###### Caso 2
 Se $\beta(w_{1},w_{1})=0$ ma esiste $i$ tale che $\beta(w_{i},w_{i})\neq 0$
 - Scambia $w_{1}$ con $w_{i}$ e vai al ***passo 2***
-##### Caso $w_{i}=3$
-$$
-\begin{pmatrix}
-w_{3},w_{3} & w_{3},w_{2} & w_{3},w_{1} & \dots \\
-w_{2},w_{3} & w_{2},w_{2} & w_{2},w_{1} & \dots\\
-w_{1},w_{3} & w_{1},w_{2} & w_{1},w_{1}& \dots \\
-\dots& \dots& \dots& \dots
-\end{pmatrix}
-$$
 
+###### Caso 3
 Se $\beta(w_{i},w_{i})=0$ $\forall i=1,\dots,n$ allora cerco $i,j:\beta(w_{i},w_{j})\neq0$ e scambio:
 - $w_{1} \leftarrow w_{i}+w_{j}$, $\quad w_{2} \leftarrow w_{j}$, $\quad w_{i}\leftarrow w_{1}$, $\quad w_{j}\leftarrow w_{2}$
 - Così che $\beta(w_{i}+w_{j},w_{i}+w_{j})=\underbrace{ \beta(w_{i},w_{i}) }_{ =0 }+\underbrace{ \beta(w_{j},w_{j}) }_{ =0 }+\underbrace{ 2\beta(w_{i},w_{j}) }_{ \neq 0 }$

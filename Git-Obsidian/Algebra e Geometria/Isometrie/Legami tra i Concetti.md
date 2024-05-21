@@ -3,7 +3,7 @@
 ## Teorema 1
 ---
 >[!inf] Teorema $T_{1}$
->Sia $v_{1},\dots,v_{n}$ un [[Prodotto Scalare#Base Ortonormale|BON]] di $V$
+>Sia $v_{1},\dots,v_{n}$ un [[4 - Prodotto Scalare#Base Ortonormale|BON]] di $V$
 ><u>Allora</u>
 >Una base $w_{1},\dots,w_{n}$ di $V$ o ***ortonormale*** $\iff$ la [[6 - Cambiamenti di Base#Teorema del Cambiamento di Base|matrice del cambiamento di base]] è [[Introduzione Isometrie#Matrice Ortogonale|Ortogonale]]
 
@@ -36,7 +36,7 @@ $$
 
 
 >[!inf] Teorema $T_{2}$
->Una applicazione $f:V\to V$ è una [[Introduzione Isometrie#Isometria|Isometria]] $\iff$ manda *[[Prodotto Scalare#Base Ortonormale|BON]]* in *BON*
+>Una applicazione $f:V\to V$ è una [[Introduzione Isometrie#Isometria|Isometria]] $\iff$ manda *[[4 - Prodotto Scalare#Base Ortonormale|BON]]* in *BON*
 
 ### Dimostrazione
 >$\implies$
@@ -67,7 +67,7 @@ f(v)=a_{1}f(v_{1})+\dots+a_{n}f(v_{n})
 f(u)=b_{1}f(v_{1})+\dots+b_{n}f(v_{n})
 $$
 
->Ma abbiamo [[Prodotto Scalare#Legame tra Prodotto Scalare e Prodotto Scalare Standard|dimostrato]] che in una ***BON*** il ***prodotto scalare di due vettori*** è uguale al ***prodotto scalare standard*** delle loro coordinate
+>Ma abbiamo [[4 - Prodotto Scalare#Legame tra Prodotto Scalare e Prodotto Scalare Standard|dimostrato]] che in una ***BON*** il ***prodotto scalare di due vettori*** è uguale al ***prodotto scalare standard*** delle loro coordinate
 
 Quindi:
 $$
@@ -83,7 +83,7 @@ $$
 ## Teorema 3
 ---
 >[!inf] Teorema $T_{3}$
->Una *applicazione lineare* $f:V\to V$ è una [[Introduzione Isometrie#Isometria|isometria]] $\iff$ la sua matrice in una qualsiasi [[Prodotto Scalare#Base Ortonormale|BON]] è una matrice [[Introduzione Isometrie#Matrice Ortogonale|ortogonale]]
+>Una *applicazione lineare* $f:V\to V$ è una [[Introduzione Isometrie#Isometria|isometria]] $\iff$ la sua matrice in una qualsiasi [[4 - Prodotto Scalare#Base Ortonormale|BON]] è una matrice [[Introduzione Isometrie#Matrice Ortogonale|ortogonale]]
 
 ### Dimostrazione
 

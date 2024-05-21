@@ -1,4 +1,5 @@
 ## Sottospazio Ortogonale
+---
 >[!info] Definizione
 >Sia $V$ uno [[Campi e Spazi Vettoriali#Spazio Vettoriale|spazio vettoriale]] su $\mathbb{R}$, sia $U$ un suo [[Campi e Spazi Vettoriali#Sottospazio Vettoriale|sottospazio vettoriale]] e consideriamo un prodotto scalare su $V$
 >Definiamo un ***sottospazio ortogonale*** come:
@@ -33,7 +34,7 @@ Infatti se $u\in U, u=a_{1}u_{1}+\dots+a_{k}u_{k}$
 
 Una base di $U$ è $u_{1}=(2,1,0,1,0) \quad u_{2}=(0,0,0,1,1)$
 
-Rispetto al [[Prodotto Scalare#Prodotto Scalare Standard|prodotto scalare standard]]:
+Rispetto al [[4 - Prodotto Scalare#Prodotto Scalare Standard|prodotto scalare standard]]:
 $U^\perp=\{ v\in V:(v,u)=0 \quad\forall u\in U \}=\{ v\in V:(v,u_{1})=0,(v,u_{2})=0 \}$
 
 $$
