@@ -35,7 +35,7 @@ Questa funzione ha le ***seguenti proprietà***
 >$$\det(A')=-\det(A)$$
 
 >[!done] In particolare
->Il risultato di Laplace non dipende dalla colonna scelto
+>Il risultato di Laplace non dipende dalla colonna scelta
 
 >[!Proprietà 2]
 >Il *determinante* è ***multilineare***

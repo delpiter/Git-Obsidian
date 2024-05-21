@@ -131,7 +131,7 @@ $$
 ---
 
 >[!tldr] Osservazione 3
->Un'[[1 - Applicazioni Lineari#Applicazione Lineare|applicazione lineare]] $f:V\to U$ è un [[4 - Isomorfismo]] $\iff$ è invertibile,
+>Un'[[1 - Applicazioni Lineari#Applicazione Lineare|applicazione lineare]] $f:V\to U$ è un [[4 - Isomorfismo#Isomorfismo|isomorfismo]] $\iff$ è invertibile,
 >Cioé:
 >$$\exists f^{-1}:U\to V$$
 >Tale che $f_{o}f^{-1}=id_{u}$ e $f^{-1}_{o}f=id_{v}$
