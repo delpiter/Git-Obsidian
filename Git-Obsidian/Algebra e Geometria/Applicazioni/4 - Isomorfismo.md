@@ -89,7 +89,7 @@ $$
 
 Possiamo dire che :
 $$
-f^{-1}(u_{1}+u_{2})=f^-1(f(v_{1})+f(v_{2}))
+f^{-1}(u_{1}+u_{2})=f^{-1}(f(v_{1})+f(v_{2}))
 $$
 E poiché $f$ è lineare:
 $$
