@@ -23,7 +23,7 @@ a & b \\
 c & d
 \end{pmatrix}
 $$ 
-- È una [[Introduzione Isometrie#Matrice Ortogonale|matrice ortogonale]]
+- È una [[1 - Introduzione Isometrie#Matrice Ortogonale|matrice ortogonale]]
 
 $$
 \begin{pmatrix}

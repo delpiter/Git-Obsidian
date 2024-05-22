@@ -1,11 +1,11 @@
 {
 	"nodes":[
-		{"id":"56cbe9197f84fd83","type":"file","file":"Git-Obsidian/Algebra e Geometria/Isometrie/Legami tra i Concetti.md","subpath":"#Teorema 1","x":-540,"y":-260,"width":400,"height":400},
-		{"id":"44085e421a49f814","x":140,"y":180,"width":400,"height":400,"type":"file","file":"Git-Obsidian/Algebra e Geometria/Isometrie/Legami tra i Concetti.md","subpath":"#Teorema 3"},
-		{"id":"499ea8e971d78c94","x":-820,"y":300,"width":400,"height":400,"type":"file","file":"Git-Obsidian/Algebra e Geometria/Isometrie/Legami tra i Concetti.md","subpath":"#Teorema 2"},
-		{"id":"d1595d594e2ff204","x":-900,"y":-20,"width":243,"height":60,"color":"4","type":"text","text":"Base Ortonormale"},
-		{"id":"c3f6e1df357329b8","x":90,"y":-140,"width":210,"height":60,"color":"5","type":"text","text":"Matrice Ortogonale"},
-		{"id":"f486a81482a2149b","x":-265,"y":400,"width":145,"height":60,"color":"2","type":"text","text":"Isometria"}
+		{"id":"499ea8e971d78c94","type":"file","file":"Git-Obsidian/Algebra e Geometria/Isometrie/2 - Legami tra i Concetti.md","subpath":"#Teorema 2","x":-1020,"y":300,"width":600,"height":400},
+		{"id":"f486a81482a2149b","type":"text","text":"<p align=\"center\" style=\"font-weight: bolder;color:darkcyan;\">Isometria</p>","x":-265,"y":400,"width":145,"height":60,"color":"2"},
+		{"id":"56cbe9197f84fd83","type":"file","file":"Git-Obsidian/Algebra e Geometria/Isometrie/2 - Legami tra i Concetti.md","subpath":"#Teorema 1","x":-600,"y":-360,"width":690,"height":400},
+		{"id":"d1595d594e2ff204","type":"text","text":"<p align=\"center\" style=\"font-weight: bolder; color:dodgerblue;\">Base Ortonormale</p>","x":-1063,"y":-20,"width":203,"height":60,"color":"4"},
+		{"id":"44085e421a49f814","type":"file","file":"Git-Obsidian/Algebra e Geometria/Isometrie/2 - Legami tra i Concetti.md","subpath":"#Teorema 3","x":90,"y":260,"width":610,"height":400},
+		{"id":"c3f6e1df357329b8","type":"text","text":"<p align=\"center\" style=\"font-weight: bolder;color:green;\">Matrice Ortogonale</p>","x":240,"y":-160,"width":210,"height":60,"color":"5"}
 	],
 	"edges":[
 		{"id":"bf55737f11b33fce","fromNode":"c3f6e1df357329b8","fromSide":"right","toNode":"44085e421a49f814","toSide":"top"},

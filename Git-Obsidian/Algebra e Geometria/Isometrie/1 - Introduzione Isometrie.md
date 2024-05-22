@@ -35,7 +35,7 @@ $$
 
 Quindi se ***conserva la norma***
 $$
-(v,u)= \frac{1}{4}(\mid\mid v+u\mid\mid^2-\mid\mid v-u\mid\mid^2)=\frac{1}{4(\mid\mid f(v)+f(u))\mid\mid^2-\mid\mid f(v)-f(u))\mid\mid^2}=(f(v),f(u))
+(v,u)= \frac{1}{4}(\mid\mid v+u\mid\mid^2-\mid\mid v-u\mid\mid^2)=\frac{1}{4}(\mid\mid f(v)+f(u))\mid\mid^2-\mid\mid f(v)-f(u))\mid\mid^2)=(f(v),f(u))
 $$
 
 ##### Esempio
@@ -116,15 +116,15 @@ $$
 $$
 - Cioè $v=\underline{0}\implies\mathrm{ker}(f)=\{ \underline{0} \}\implies f$ è ***iniettiva***
 
-Per il [[2 - Teorema del Rango]]:
+Per il [[2 - Teorema del Rango#Teorema|Teorema del Rango]]:
 $$
-\text{dim}(\mathrm{Im}(f))=\text{dim}(v)-0
+\text{dim}(\mathrm{Im}(f))=\text{dim}(V)-0
 $$
 Quindi $f$ è anche ***suriettiva***
 
 >[!done] $f$ è un ***isomorfismo***
 
->[!summary] Dimostrazione a parole
+>[!summary] Concetto a parole
 >Come fa una applicazione che ***conserva le lunghezze*** a mandare un vettore non nullo in un vettore non nullo?
 
 #### Osservazione

@@ -5,7 +5,7 @@
 >[!inf] Teorema $T_{1}$
 >Sia $v_{1},\dots,v_{n}$ un [[4 - Prodotto Scalare#Base Ortonormale|BON]] di $V$
 ><u>Allora</u>
->Una base $w_{1},\dots,w_{n}$ di $V$ o ***ortonormale*** $\iff$ la [[6 - Cambiamenti di Base#Teorema del Cambiamento di Base|matrice del cambiamento di base]] è [[Introduzione Isometrie#Matrice Ortogonale|Ortogonale]]
+>Una base $w_{1},\dots,w_{n}$ di $V$ è ***ortonormale*** $\iff$ la [[1 - Forme Bilineari#Matrici Congruenti|matrice del cambiamento di base]] è [[1 - Introduzione Isometrie#Matrice Ortogonale|Ortogonale]]
 
 ^b26be9
 
@@ -36,7 +36,7 @@ $$
 
 
 >[!inf] Teorema $T_{2}$
->Una applicazione $f:V\to V$ è una [[Introduzione Isometrie#Isometria|Isometria]] $\iff$ manda *[[4 - Prodotto Scalare#Base Ortonormale|BON]]* in *BON*
+>Una applicazione $f:V\to V$ è una [[1 - Introduzione Isometrie#Isometria|Isometria]] $\iff$ manda *[[4 - Prodotto Scalare#Base Ortonormale|BON]]* in *BON*
 
 ### Dimostrazione
 >$\implies$
@@ -54,7 +54,7 @@ $$
 >$\impliedby$
 
 Sia $f:V\to V$ una ***applicazione lineare***
-- Sia $\mathcal{B_{1}}=v_{1},\dots,v_{n}$ una *BON* tale che $\mathcal{B_{2}}=f(v_{1}),\dots,f(v_{n})$ è anche essa una *BON*
+- Sia $\mathcal{B}_{1}=v_{1},\dots,v_{n}$ una *BON* tale che $\mathcal{B}_{2}=f(v_{1}),\dots,f(v_{n})$ è anche essa una *BON*
 
 >[!abstract] Vogliamo mostrare che $f$ è una *isometria*
 
@@ -63,7 +63,7 @@ Sia $f:V\to V$ una ***applicazione lineare***
 $\begin{array} \ v=a_{1}v_{1}+\dots+a_{n}v_{n} \\ u=b_{1}v_{1}+\dots+b_{n}v_{n} \end{array}$
 
 $$
-f(v)=a_{1}f(v_{1})+\dots+a_{n}f(v_{n})
+f(v)=a_{1}f(v_{1})+\dots+a_{n}f(v_{n})\qquad
 f(u)=b_{1}f(v_{1})+\dots+b_{n}f(v_{n})
 $$
 
@@ -83,7 +83,7 @@ $$
 ## Teorema 3
 ---
 >[!inf] Teorema $T_{3}$
->Una *applicazione lineare* $f:V\to V$ è una [[Introduzione Isometrie#Isometria|isometria]] $\iff$ la sua matrice in una qualsiasi [[4 - Prodotto Scalare#Base Ortonormale|BON]] è una matrice [[Introduzione Isometrie#Matrice Ortogonale|ortogonale]]
+>Una *applicazione lineare* $f:V\to V$ è una [[1 - Introduzione Isometrie#Isometria|isometria]] $\iff$ la sua matrice in una qualsiasi [[4 - Prodotto Scalare#Base Ortonormale|BON]] è una matrice [[1 - Introduzione Isometrie#Matrice Ortogonale|ortogonale]]
 
 ### Dimostrazione
 
@@ -132,7 +132,7 @@ Dove $(AA^T)_{ij}$ è il prodotto riga per colonna
 
 ### Determinante di Isometrie
 >[!info] Proposizione
->Sia $f$ una [[Introduzione Isometrie#Isometria|isometria]]
+>Sia $f$ una [[1 - Introduzione Isometrie#Isometria|isometria]]
 ><u>Allora</u>
 >$\det(f)=\pm 1$
 
