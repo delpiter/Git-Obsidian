@@ -26,7 +26,7 @@ Abbiamo scoperto che la *matrice* di $g_{o}f$ in *tali basi* è la matrice che h
 >Definiamo "*prodotto riga $\times$ colonna di $B$ e $A$*"
 >come la matrice $BA$ che ha come elemento
 >$(BA)_{hi}$ il numero:
->$$\sum_{j\in\{ 1,\dots,m \}}b_{jh}a_{jh}$$
+>$$\sum_{j\in\{ 1,\dots,m \}}b_{hj}a_{jh}$$
 >>[!done] A parole
 >>Abbiamo scoperto che la *matrice* di $g_{o}f$ in *tali basi* è la matrice che ha,
 >>alla $h$-esima ***riga*** e $i$-esima ***colonna***, il numero descritto dalla *sommatoria*

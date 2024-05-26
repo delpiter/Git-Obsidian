@@ -51,7 +51,7 @@ $\mathbb{Z}_{n}$ è un campo $\Leftrightarrow n$ è **primo**
 >>- Associativa
 >>- Ha un numero neutro $\underline{0}$ e opposti
 >
->>[!tip] Prodotto scalare ($\cdot$)
+>>[!tip] Prodotto per scalare ($\cdot$)
 >>Operazione che a $a \in \mathbb{K}, v\in V$ associa $a\cdot v\in V$
 >>Soddisfa le seguenti **proprietà**
 >>- Associativa

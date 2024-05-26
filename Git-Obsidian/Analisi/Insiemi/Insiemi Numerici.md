@@ -29,6 +29,7 @@ Mancanza:
 - Sono tutti i numeri razionali e irrazionali
 - Ha una proprietà caratteristica
 	- ***La Completezza***
+
 $$\mathbb{R}$$
 Mancanze:
 - Alcune equazioni ancora non hanno soluzione ($x^2+1=0$)

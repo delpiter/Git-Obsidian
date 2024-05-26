@@ -14,7 +14,7 @@ Siano $v_{1},\dots,v_{n}$ una base di $V$, cioè *generano* $V$ e sono *linearme
 
 >[!tip] Vediamo perchè $a_{1},\dots,a_{n}$ sono unici
 
-Supponiamo che esistano anche $b_{1},\dots,b_{n} \in \mathbb{K}:V=b_{1}v_{1}+\dots+b_{n}v_{n}$
+Supponiamo che esistano anche $b_{1},\dots,b_{n} \in \mathbb{K}:v=b_{1}v_{1}+\dots+b_{n}v_{n}$
 - Oltre a $v=a_{1}v_{1}+\dots+a_{n}b_{n}$
 $$\underline{0}=v-v=(a_{1}-b_{1})v_{1}+\dots+(a_{n}-b_{n})v_{n}$$
 Ma poichè $v_{1},\dots,v_{n}$ sono linearmente indipendenti, ciò implica che 
