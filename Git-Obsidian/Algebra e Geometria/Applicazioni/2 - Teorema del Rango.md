@@ -89,7 +89,7 @@ Quindi $\mathrm{Im}f=\mathbb{R}^2\implies f$ è suriettiva
 >[!info] 4
 >Se $\text{dim}(V)=\text{dim}(U)$ allora
 >$$f:V\to U$$
->È iniettiva $\Leftrightarrow$ è suriettiva ($\Leftrightarrow$ è biunivoca)
+>È iniettiva $\iff$ è suriettiva ($\iff$ è biunivoca)
 ><u>Infatti</u>
 >$f$ è iniettiva $\iff\text{dim}\mathrm{ker}f=0$
 >Per il ***teorema del Rango*** $\text{dim}(V)=\text{dim}(\mathrm{Im}f) \iff f$ è suriettiva 
