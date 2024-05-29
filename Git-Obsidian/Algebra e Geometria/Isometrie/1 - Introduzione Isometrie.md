@@ -125,7 +125,7 @@ Quindi $f$ è anche ***suriettiva***
 >[!done] $f$ è un ***isomorfismo***
 
 >[!summary] Concetto a parole
->Come fa una applicazione che ***conserva le lunghezze*** a mandare un vettore non nullo in un vettore non nullo?
+>Come fa una applicazione che ***conserva le lunghezze*** a mandare un vettore non nullo in un vettore nullo?
 
 #### Osservazione
 >[!tldr] Non Vale il viceversa
