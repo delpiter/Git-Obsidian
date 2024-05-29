@@ -3,10 +3,10 @@
 >[!info] Definizione
 >Sia $V$ uno [[Campi e Spazi Vettoriali#Spazio Vettoriale|spazio vettoriale]] su $\mathbb{R}$, sia $U$ un suo [[Campi e Spazi Vettoriali#Sottospazio Vettoriale|sottospazio vettoriale]] e consideriamo un prodotto scalare su $V$
 >Definiamo un ***sottospazio ortogonale*** come:
->$$U^{\perp} =\{ v\in V:(v,u)=0 \forall u\in U \}$$
+>$$U^{\perp} =\{ v\in V:(v,u)=0 \quad\forall u\in U \}$$
 
 >[!tldr] Osservazione
->Osserviamo che $U^{\perp}$ è un sottospazio vettoriale di $V$ se $v_{1},v_{2}\in U^{\perp}\implies (v_{1},u)=0,(v_{2},u)=0 \forall u\in U\implies v_{1}+v_{2}\in U^{\perp}$
+>Osserviamo che $U^{\perp}$ è un sottospazio vettoriale di $V$ se $v_{1},v_{2}\in U^{\perp}\implies (v_{1},u)=0,(v_{2},u)=0\quad \forall u\in U\implies v_{1}+v_{2}\in U^{\perp}$
 >>[!caution] Analogamente
 >>Se $a\in\mathbb{R}, \quad v_{1}\in U^{\perp}\implies av_{1}\in U^{\perp}$
 
