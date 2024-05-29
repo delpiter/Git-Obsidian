@@ -304,7 +304,7 @@ $$
 Per il [[#Teorema|teorema di diagonalizzazione]], esiste una base $v_{1},\dots,v_{n}$ di $V$ tale che la matrice di $\beta$ è ***diagonale***
 
 Salvo che:
-- $\forall i=p+1,\dots,r$
+- $\forall i=1,\dots,r$
 Definiamo
 $$
 u_{i}=

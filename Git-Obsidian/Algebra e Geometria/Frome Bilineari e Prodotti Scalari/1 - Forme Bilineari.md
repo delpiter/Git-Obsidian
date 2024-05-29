@@ -116,7 +116,7 @@ $$
 ---
 >[!info] Definizione
 >Sia $\beta$ una ***forma bilineare*** su $V$ e sia $v_{1},\dots v_{n}$ una base di $V$
->Dati $v,u\in V$ scriviamo $v=a_{1}v_{1}+\dots+a_{n}v_{n}$, $u=b_{1}v_{1}+\dots+b_{n}v_{n}$
+>Dati $v,u\in V$ scriviamo $v=a_{1}v_{1}+\dots+a_{n}v_{n}$, $\quad u=b_{1}v_{1}+\dots+b_{n}v_{n}$
 >Con $a_{i}\in\mathbb{K}$ e $b_{i}\in\mathbb{K}$
 >>[!abstract] Possiamo Dire:
 >>$$\beta(v,u)=\beta(a_{1}v_{1}+\dots+a_{n}v_{n},b_{1}v_{1}+\dots+b_{n}v_{n})$$
