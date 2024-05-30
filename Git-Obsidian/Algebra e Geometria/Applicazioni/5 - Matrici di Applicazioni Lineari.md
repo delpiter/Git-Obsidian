@@ -17,7 +17,7 @@
 
 Il coefficiente di $w_{h}$ in questa somma è:
 $$
-\sum_{j=1}^mb_{jh}a_{jh}
+\sum_{j=1}^ma_{ji}b_{hj}
 $$
 Abbiamo scoperto che la *matrice* di $g_{o}f$ in *tali basi* è la matrice che ha,
 - Alla $h$-esima ***riga*** e $i$-esima ***colonna***, il numero
@@ -26,7 +26,7 @@ Abbiamo scoperto che la *matrice* di $g_{o}f$ in *tali basi* è la matrice che h
 >Definiamo "*prodotto riga $\times$ colonna di $B$ e $A$*"
 >come la matrice $BA$ che ha come elemento
 >$(BA)_{hi}$ il numero:
->$$\sum_{j\in\{ 1,\dots,m \}}b_{hj}a_{jh}$$
+>$$\sum_{j\in\{ 1,\dots,m \}}b_{hj}a_{ji}$$
 >>[!done] A parole
 >>Abbiamo scoperto che la *matrice* di $g_{o}f$ in *tali basi* è la matrice che ha,
 >>alla $h$-esima ***riga*** e $i$-esima ***colonna***, il numero descritto dalla *sommatoria*
