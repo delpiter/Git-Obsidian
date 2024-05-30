@@ -11,13 +11,13 @@
 >Sia $A$ la matrice di $f$ e $B$ la matrice di $g$ in tali basi
 >>[!tip] Vogliamo calcolare la matrice dell'applicazione lineare $g_{o}f_:V\to W$
 >
->$f(v_{i})=\displaystyle\sum_{j}a_{ji}u_{j}$
->$g(u_{j})=\displaystyle\sum_{h}b_{jh}w_{h}$
->$$(g_{o}f)(v_{i})=g\left( \sum_{j}a_{ji}u_{j} \right)=\sum_{j}a_{ji}g(u_{j})=\sum_{j}\sum_{h}a_{ji}b_{hj}w_{h}$$
+>$f(v_{i})=\displaystyle\sum_{j=1}^ma_{ji}u_{j}$
+>$g(u_{j})=\displaystyle\sum_{h=1}^lb_{hj}w_{h}$
+>$$(g_{o}f)(v_{i})=g\left( \sum_{j=1}^ma_{ji}u_{j} \right)=\sum_{j=1}^ma_{ji}g(u_{j})=\sum_{j=1}^m\sum_{h=1}^la_{ji}b_{hj}w_{h}$$
 
 Il coefficiente di $w_{h}$ in questa somma è:
 $$
-\sum_{j\in\{ 1,\dots,m \}}b_{jh}a_{jh}
+\sum_{j=1}^mb_{jh}a_{jh}
 $$
 Abbiamo scoperto che la *matrice* di $g_{o}f$ in *tali basi* è la matrice che ha,
 - Alla $h$-esima ***riga*** e $i$-esima ***colonna***, il numero
