@@ -4,35 +4,142 @@
     "type": "split",
     "children": [
       {
-        "id": "1357e018c2c3e725",
+        "id": "7c899131deeecf42",
         "type": "tabs",
         "children": [
           {
-            "id": "e86372943905efe8",
+            "id": "021af45fbfa21499",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/5 - Intersezione e Somma di Sottospazi.md",
+                "file": "Git-Obsidian/Algebra e Geometria/Applicazioni/1 - Applicazioni Lineari.md",
                 "mode": "preview",
                 "source": false
               }
             }
           },
           {
-            "id": "9245de85d57cf9bc",
+            "id": "b62506c8faa9a7fe",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/4 - Forme Parametriche e Cartesiane.md",
+                "file": "Git-Obsidian/Algebra e Geometria/Applicazioni/2 - Teorema del Rango.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2e76cf1d832f4eaa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git-Obsidian/Algebra e Geometria/Applicazioni/3 - Estensione Lineare.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1ca8ff3fc1548f80",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git-Obsidian/Algebra e Geometria/Applicazioni/4 - Isomorfismo.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "57e90e31a31a9c5f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git-Obsidian/Algebra e Geometria/Applicazioni/5 - Matrici di Applicazioni Lineari.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e11e19c97dbfee1b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git-Obsidian/Algebra e Geometria/Applicazioni/6 - Cambiamenti di Base.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5742172fbe12d08b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git-Obsidian/Algebra e Geometria/Applicazioni/7 - Determinante di una Matrice.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "291da4f159716027",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git-Obsidian/Algebra e Geometria/Applicazioni/8 - Matrici Invertibili.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "45122b8c1f66fe80",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git-Obsidian/Algebra e Geometria/Applicazioni/9 - Matrici Diagonali.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "40cf165e557914d3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git-Obsidian/Algebra e Geometria/Applicazioni/10 - Criterio di Diagonalizzabilità.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "72dcd249480b2c34",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git-Obsidian/Algebra e Geometria/Applicazioni/11 - Matrici Quasi Diagonalizzabili.md",
                 "mode": "preview",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -100,7 +207,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/4 - Forme Parametriche e Cartesiane.md",
+                "file": "Git-Obsidian/Algebra e Geometria/Applicazioni/1 - Applicazioni Lineari.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +224,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/4 - Forme Parametriche e Cartesiane.md",
+                "file": "Git-Obsidian/Algebra e Geometria/Applicazioni/1 - Applicazioni Lineari.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +247,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/4 - Forme Parametriche e Cartesiane.md"
+                "file": "Git-Obsidian/Algebra e Geometria/Applicazioni/1 - Applicazioni Lineari.md"
               }
             }
           },
@@ -180,8 +287,19 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "9245de85d57cf9bc",
+  "active": "021af45fbfa21499",
   "lastOpenFiles": [
+    "Git-Obsidian/Algebra e Geometria/Applicazioni/11 - Matrici Quasi Diagonalizzabili.md",
+    "Git-Obsidian/Algebra e Geometria/Applicazioni/10 - Criterio di Diagonalizzabilità.md",
+    "Git-Obsidian/Algebra e Geometria/Applicazioni/9 - Matrici Diagonali.md",
+    "Git-Obsidian/Algebra e Geometria/Applicazioni/8 - Matrici Invertibili.md",
+    "Git-Obsidian/Algebra e Geometria/Applicazioni/7 - Determinante di una Matrice.md",
+    "Git-Obsidian/Algebra e Geometria/Applicazioni/6 - Cambiamenti di Base.md",
+    "Git-Obsidian/Algebra e Geometria/Applicazioni/5 - Matrici di Applicazioni Lineari.md",
+    "Git-Obsidian/Algebra e Geometria/Applicazioni/4 - Isomorfismo.md",
+    "Git-Obsidian/Algebra e Geometria/Applicazioni/3 - Estensione Lineare.md",
+    "Git-Obsidian/Algebra e Geometria/Applicazioni/2 - Teorema del Rango.md",
+    "Git-Obsidian/Algebra e Geometria/Applicazioni/1 - Applicazioni Lineari.md",
     "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/5 - Intersezione e Somma di Sottospazi.md",
     "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/4 - Forme Parametriche e Cartesiane.md",
     "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/3 - Teoremi su Spazi Vettoriali.md",
@@ -194,8 +312,6 @@
     "Git-Obsidian/Algebra e Geometria/Applicazioni Alla Geometria Analitica.md",
     "Git-Obsidian/Algebra e Geometria/Isometrie/1 - Introduzione Isometrie.md",
     "Git-Obsidian/Algebra e Geometria/Frome Bilineari e Prodotti Scalari/1 - Forme Bilineari.md",
-    "Git-Obsidian/Algebra e Geometria/Applicazioni/7 - Determinante di una Matrice.md",
-    "Git-Obsidian/Algebra e Geometria/Applicazioni/4 - Isomorfismo.md",
     "Git-Obsidian/Algebra e Geometria/Isometrie/3 - Isometrie nelle Dimensioni.md",
     "Git-Obsidian/Algebra e Geometria/Isometrie/Legami.canvas",
     "Git-Obsidian/Algebra e Geometria/Frome Bilineari e Prodotti Scalari/5 - Sottospazi Ortogonali.md",
@@ -203,14 +319,6 @@
     "Git-Obsidian/Algebra e Geometria/Frome Bilineari e Prodotti Scalari/3 - Forme Quadratiche.md",
     "Git-Obsidian/Algebra e Geometria/Frome Bilineari e Prodotti Scalari/2 - Diagonalizzare Forme Bilineari.md",
     "Git-Obsidian/Algebra e Geometria/Isometrie/2 - Legami tra i Concetti.md",
-    "Git-Obsidian/Algebra e Geometria/Applicazioni/11 - Matrici Quasi Diagonalizzabili.md",
-    "Git-Obsidian/Algebra e Geometria/Applicazioni/10 - Criterio di Diagonalizzabilità.md",
-    "Git-Obsidian/Algebra e Geometria/Applicazioni/9 - Matrici Diagonali.md",
-    "Git-Obsidian/Algebra e Geometria/Applicazioni/8 - Matrici Invertibili.md",
-    "Git-Obsidian/Algebra e Geometria/Applicazioni/1 - Applicazioni Lineari.md",
-    "Git-Obsidian/Algebra e Geometria/Applicazioni/2 - Teorema del Rango.md",
-    "Git-Obsidian/Algebra e Geometria/Applicazioni/3 - Estensione Lineare.md",
-    "Git-Obsidian/Algebra e Geometria/Applicazioni/5 - Matrici di Applicazioni Lineari.md",
     "Git-Obsidian/Attachments/Geometry.png",
     "Git-Obsidian/Attachments/GreekLetters.png",
     "Git-Obsidian/Attachments/Negated Binary Relations.png",
