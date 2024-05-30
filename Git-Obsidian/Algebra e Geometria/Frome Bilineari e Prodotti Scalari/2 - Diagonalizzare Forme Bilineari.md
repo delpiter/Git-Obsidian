@@ -12,7 +12,7 @@ Se $\beta$ è ***simmetrica*** è sempre diagonalizzabile
 
 ### Teorema
 >[!info] Diagonalizzazione delle Forme Bilineari
->Sia $V$ uno [[Campi e Spazi Vettoriali#Spazio Vettoriale|spazio vettoriale]] su $\mathbb{K}$ e $\beta$ una [[1 - Forme Bilineari#Forma Bilineare|forma bilineare]] ***simmetrica***
+>Sia $V$ uno [[2 - Campi e Spazi Vettoriali#Spazio Vettoriale|spazio vettoriale]] su $\mathbb{K}$ e $\beta$ una [[1 - Forme Bilineari#Forma Bilineare|forma bilineare]] ***simmetrica***
 ><u>Allora</u>
 >$\exists$ una base $v_{1},\dots,v_{n}$ di $V$ tale che $\beta$ in tale base è [[9 - Matrici Diagonali#Matrice Diagonale|diagonale]]
 >>[!done] In altre Parole
@@ -197,7 +197,7 @@ $$
 
 ## Matrici ancora più Facili
 ---
->*Abbiamo visto che data una forma bilineare si $V$ ($V$ [[Campi e Spazi Vettoriali#Spazio Vettoriale|spazio vettoriale]] su $\mathbb{K}$) si può trovare una base di $V$ tale che la matrice di $\beta$ sia* ***diagonale***
+>*Abbiamo visto che data una forma bilineare si $V$ ($V$ [[2 - Campi e Spazi Vettoriali#Spazio Vettoriale|spazio vettoriale]] su $\mathbb{K}$) si può trovare una base di $V$ tale che la matrice di $\beta$ sia* ***diagonale***
 
 >[!question] Si può fare di meglio?
 
@@ -255,7 +255,7 @@ D_{new}=
 $$
 ### Teorema di Sylvester
 >[!info] Sylvester
->Dato uno [[Campi e Spazi Vettoriali#Spazio Vettoriale|spazio vettoriale]] $V$ su $\mathbb{R}$ e data una [[1 - Forme Bilineari#Forma Bilineare|forma bilineare]] *simmetrica* $\beta$ su $V$
+>Dato uno [[2 - Campi e Spazi Vettoriali#Spazio Vettoriale|spazio vettoriale]] $V$ su $\mathbb{R}$ e data una [[1 - Forme Bilineari#Forma Bilineare|forma bilineare]] *simmetrica* $\beta$ su $V$
 >$\exists$ una ***base*** $u_{1},\dots,u_{n}$ di $V$ tale che in tale base la ***matrice*** di $\beta$ è una ***matrice*** fatta così:
 >>[!abstract] ‎ 
 >$$\begin{pmatrix}I_{p} & 0 & 0 \\ 0 & -I_{r-p} & 0 \\ 0 & 0 & 0 \end{pmatrix}=\begin{pmatrix} 1 \\  & \underbrace{ \dots }_{ p } \\  &  & 1 \\  &  &  & -1 \\  &  &  &  & \underbrace{ \dots }_{ r-p } \\  &  &  &  &  & -1 \\  &  &  &  &  &  & 0 \\  &  &  &  &  &  &  & \underbrace{ \dots }_{ n-r } \\  &  &  &  &  &  &  &  & 0 \end{pmatrix}$$
@@ -294,7 +294,7 @@ $$
 
 ### Teorema di Sylvester su $\mathbb{C}$
 >[!info] Sylvester su $\mathbb{C}$
->Dato uno [[Campi e Spazi Vettoriali#Spazio Vettoriale|spazio vettoriale]] $V$ su $\mathbb{C}$ e data una [[1 - Forme Bilineari#Forma Bilineare|forma bilineare]] *simmetrica* $\beta$ su $V$
+>Dato uno [[2 - Campi e Spazi Vettoriali#Spazio Vettoriale|spazio vettoriale]] $V$ su $\mathbb{C}$ e data una [[1 - Forme Bilineari#Forma Bilineare|forma bilineare]] *simmetrica* $\beta$ su $V$
 >$\exists$ una ***base*** $u_{1},\dots,u_{n}$ di $V$ tale che in tale base la ***matrice*** di $\beta$ è una ***matrice*** fatta così:
 >>[!abstract] ‎ 
 >$$\begin{pmatrix}I_{r} & 0  \\ 0 & 0  \end{pmatrix}=\begin{pmatrix} 1 \\  & \ \underbrace{ \dots }_{r  } \\  &  & 1 \\   &  &  & 0 \\    &  &  &  & \underbrace{ \dots }_{ n-r } \\    &  &  &  &  & 0 \end{pmatrix}$$

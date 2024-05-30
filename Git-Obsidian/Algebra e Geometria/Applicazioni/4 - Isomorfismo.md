@@ -1,7 +1,7 @@
 ## Isomorfismo
 ---
 >[!info] Definizione
->Un ***isomorfismo*** è una [[Introduzione#Funzione o Applicazione|applicazione]] [[1 - Applicazioni Lineari#Applicazione Lineare|lineare]] e [[Git-Obsidian/Analisi/Funzioni/Introduzione Funzioni#Funzione Biunivoca|biunivoca]]
+>Un ***isomorfismo*** è una [[1 - Introduzione#Funzione o Applicazione|applicazione]] [[1 - Applicazioni Lineari#Applicazione Lineare|lineare]] e [[Git-Obsidian/Analisi/Funzioni/Introduzione Funzioni#Funzione Biunivoca|biunivoca]]
 
 #### Esempio 1
 >$f:\mathbb{R}^2\to \mathbb{R}^2, f(x,y)=(x+y,x-y)$
@@ -52,9 +52,9 @@ Sia $f:V\to U$, $a_{0}+a_{1}x+a_{2}x^2+\dots+a_{n-1}x^{n-1}\mapsto(a_{0},a_{1},a
 
 ### Spazi Isomorfi
 >[!info] Definizione
->Due [[Campi e Spazi Vettoriali#Spazio Vettoriale|spazi vettoriali]] $V,U$ su uno stesso [[Campi e Spazi Vettoriali#Campo|campo]] $\mathbb{K}$, sono ***Isomorfi*** se esiste un isomorfismo da $V\to U$
+>Due [[2 - Campi e Spazi Vettoriali#Spazio Vettoriale|spazi vettoriali]] $V,U$ su uno stesso [[2 - Campi e Spazi Vettoriali#Campo|campo]] $\mathbb{K}$, sono ***Isomorfi*** se esiste un isomorfismo da $V\to U$
 >>[!tip] Proprietà
->>Essere Isomorfi è una [[Introduzione#Relazione di Equivalenza|relazione di equivalenza]]
+>>Essere Isomorfi è una [[1 - Introduzione#Relazione di Equivalenza|relazione di equivalenza]]
 
 #### Dimostrazione
 >[!abstract] Proprietà Riflessiva
@@ -75,7 +75,7 @@ $$
 >L'***inverso*** di un isomorfismo è un isomorfismo
 
 ###### Dimostrazione
->Sia $f:V\to U$ un *isomorfismo* di [[Campi e Spazi Vettoriali#Spazio Vettoriale|spazi vettoriali]]
+>Sia $f:V\to U$ un *isomorfismo* di [[2 - Campi e Spazi Vettoriali#Spazio Vettoriale|spazi vettoriali]]
 
 Poiché $f$ è biunivoca, esiste $f^{-1}:U\to V$
 
@@ -105,7 +105,7 @@ Quindi $f^{-1}$ è un ***isomorfismo***
 >- *In particolare la composizione di isomorfismi è un isomorfismo*
 
 ###### Dimostrazione
->Siano $V,U,W$ [[Campi e Spazi Vettoriali#Spazio Vettoriale|spazi vettoriali]] e $f,g$ *applicazioni lineari*
+>Siano $V,U,W$ [[2 - Campi e Spazi Vettoriali#Spazio Vettoriale|spazi vettoriali]] e $f,g$ *applicazioni lineari*
 $$
 V\underbrace{ \to }_{ f } U \underbrace{ \to }_{ g } W
 $$
@@ -141,12 +141,12 @@ Quindi $g_{o}f$ è un'applicazione lineare biunivoca
 
 ### Endomorfismo
 >[!info] Definizione
->Sia $\mathbb{K}$ un [[Campi e Spazi Vettoriali#Campo|campo]], $V$ un [[Campi e Spazi Vettoriali#Spazio Vettoriale|spazio vettoriale]] su $\mathbb{K}$
+>Sia $\mathbb{K}$ un [[2 - Campi e Spazi Vettoriali#Campo|campo]], $V$ un [[2 - Campi e Spazi Vettoriali#Spazio Vettoriale|spazio vettoriale]] su $\mathbb{K}$
 >Un ***endomorfismo*** di $V$ è un'[[1 - Applicazioni Lineari#Applicazione Lineare|applicazione lineare]] $f:V\to V$
 
 ## Teorema Isomorfismo-Basi
 ---
->Ora vogliamo legare il concetto di isomorfismo a quello di [[Campi e Spazi Vettoriali#Base|base]]
+>Ora vogliamo legare il concetto di isomorfismo a quello di [[2 - Campi e Spazi Vettoriali#Base|base]]
 
 >[!info] Teorema
 > Un'[[1 - Applicazioni Lineari#Applicazione Lineare|applicazione lineare]] $f:V\to U$
@@ -159,7 +159,7 @@ Sia $f:V\to U$ un isomorfismo e sia $v_{1},\dots,v_{n}$ una base di $v$
 
 >*Vogliamo dimostrare che $f(v_{1}),\dots,f(v_{n})$ è base di $U$* 
 
->[!tip] Usiamo il [[Teoremi su Spazi Vettoriali#Teorema delle Coordinate|teorema delle coordinate]] 
+>[!tip] Usiamo il [[3 - Teoremi su Spazi Vettoriali#Teorema delle Coordinate|teorema delle coordinate]] 
 
 >*Sia $u\in U$*
 
@@ -171,7 +171,7 @@ Poiché $f$ è ***lineare***
 $$
 u=f(v)=a_{1}f(v_{1})+\dots+a_{n}f(v_{n})
 $$
-Quindi ogni $u$ si scrive in **modo univoco** come [[Campi e Spazi Vettoriali#Combinazioni Lineari|combinazione lineare]] di $f(v_{1}),\dots,f(v_{n})$
+Quindi ogni $u$ si scrive in **modo univoco** come [[2 - Campi e Spazi Vettoriali#Combinazioni Lineari|combinazione lineare]] di $f(v_{1}),\dots,f(v_{n})$
 
 >[!done] $f(v_{1}),\dots,f(v_{n})$ sono una ***base*** di $u$
 
@@ -293,7 +293,7 @@ Poiché $w_{2}=-2w_{1}$, cioè $2w_{1}+w_{2}=\underline{0}$ allora $f(2v_{1}+v_{
 >*Teorema la cui dimostrazione è conseguenza di un altro teorema*
 
 >[!info]
->Due [[Campi e Spazi Vettoriali#Spazio Vettoriale|spazi vettoriali]] sullo stesso campo $\mathbb{K}$ con la stessa dimensione sono tra loro *isomorfi*
+>Due [[2 - Campi e Spazi Vettoriali#Spazio Vettoriale|spazi vettoriali]] sullo stesso campo $\mathbb{K}$ con la stessa dimensione sono tra loro *isomorfi*
 
 #### Dimostrazione
 >*Siano $U,V$ spazi vettoriali su $\mathbb{K}$ di dimensione $n$*

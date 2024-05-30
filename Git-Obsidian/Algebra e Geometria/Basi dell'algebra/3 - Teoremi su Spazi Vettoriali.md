@@ -1,7 +1,7 @@
 ## Teorema delle Coordinate
 ---
 >[!info] Enunciato
->Un insieme di vettori $v_{1},\dots,v_{n}$ è una [[Campi e Spazi Vettoriali#Base|base]] di $V\Leftrightarrow$ Ogni $v\in V$ si scrive in modo unico come [[Campi e Spazi Vettoriali#Combinazioni Lineari|combinazione lineare]]
+>Un insieme di vettori $v_{1},\dots,v_{n}$ è una [[2 - Campi e Spazi Vettoriali#Base|base]] di $V\Leftrightarrow$ Ogni $v\in V$ si scrive in modo unico come [[2 - Campi e Spazi Vettoriali#Combinazioni Lineari|combinazione lineare]]
 >Cioè:
 >$$\forall v\in V\quad \exists!(a_{1},\dots,a_{n}),a_{i}\in \mathbb{K}:v=a_{1}v_{1}+\dots+a_{n}v_{n} $$
 >In tal caso $a_{1},\dots,a_{n}$ sono dette le **coordinate del vettore** $v$ nella base $v_{1},\dots,v_{n}$
@@ -95,7 +95,7 @@ Ma solo per quelli che hanno le due coordinate uguali
 ## Teorema della Dimensione
 ---
 >[!info] Enunciato
->Sia $V$ uno [[Campi e Spazi Vettoriali#Spazio Vettoriale|spazio vettoriale]] si $\mathbb{K}$ tutte le [[Campi e Spazi Vettoriali#Base|basi]] di $V$ hanno lo stesso numero di elementi
+>Sia $V$ uno [[2 - Campi e Spazi Vettoriali#Spazio Vettoriale|spazio vettoriale]] su $\mathbb{K}$ tutte le [[2 - Campi e Spazi Vettoriali#Base|basi]] di $V$ hanno lo stesso numero di elementi
 >>[!done] Definizione
 >>Tale numero è detto la **dimensione** di $V$
 

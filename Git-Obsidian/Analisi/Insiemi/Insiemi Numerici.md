@@ -52,7 +52,7 @@ Ogni equazione polinomiale a coefficienti in $\mathbb{R}$ o $\mathbb{C}$ ha solu
 
 >[!done] Fatto
 
-$\mathbb{Z}_{n}$ è un [[Campi e Spazi Vettoriali#Campo|campo]] $\Leftrightarrow$ $n$ è primo
+$\mathbb{Z}_{n}$ è un [[2 - Campi e Spazi Vettoriali#Campo|campo]] $\Leftrightarrow$ $n$ è primo
 ## Insiemi Separati
 - - -
 - Siano $A$ e $B \subseteq \mathbb{R}$, diciamo che $A$ e $B$ sono **separati** se

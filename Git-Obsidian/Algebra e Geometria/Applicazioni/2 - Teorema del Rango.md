@@ -9,7 +9,7 @@
 >Sia $v_{1},\dots,v_{d}$ una base di $\mathrm{ker}f$
 
 Completiamola con una base di $V$
-- Ciò è possibile poiché $\mathrm{ker}f$ è un [[Campi e Spazi Vettoriali#Sottospazio Vettoriale|sottospazio vettoriale]]
+- Ciò è possibile poiché $\mathrm{ker}f$ è un [[2 - Campi e Spazi Vettoriali#Sottospazio Vettoriale|sottospazio vettoriale]]
 
 >$v_{1},\dots,v_{d},v_{d+1},\dots,v_{n}$
 
@@ -18,8 +18,8 @@ $$
 f(v_{1})=\underline{0},\dots,f(v_{d})=\underline{0}
 $$
 
-Ora basta mostrare che i vettori $f(v_{d+1}),\dots,f(v_{n})$ ($u_{d+1},\dots,u_{n}$) sono una [[Campi e Spazi Vettoriali#Base|base]] di $\mathrm{Im}f$
-- Poiché $v_{1},\dots,v_{n}$ sono una base di $V$ per il [[Teoremi su Spazi Vettoriali#Teorema delle Coordinate|teorema delle Coordinate]]
+Ora basta mostrare che i vettori $f(v_{d+1}),\dots,f(v_{n})$ ($u_{d+1},\dots,u_{n}$) sono una [[2 - Campi e Spazi Vettoriali#Base|base]] di $\mathrm{Im}f$
+- Poiché $v_{1},\dots,v_{n}$ sono una base di $V$ per il [[3 - Teoremi su Spazi Vettoriali#Teorema delle Coordinate|teorema delle Coordinate]]
 
 $$
 \exists!a_{1},\dots,a_{n}\in\mathbb{K}:V =a_{1}v_{1}+\dots+a_{n}v_{n}
@@ -34,7 +34,7 @@ Dunque
 $$
 \forall u\in\mathrm{Im}f, \exists! a_{d+1},\dots,a_{n}\in\mathbb{K}:u=f(v)=a_{d+1}f(v_{d+1})+\dots+a_{n}f(v_{n})
 $$
-Di conseguenza, per il [[Teoremi su Spazi Vettoriali#Teorema delle Coordinate|teorema delle Coordinate]]
+Di conseguenza, per il [[3 - Teoremi su Spazi Vettoriali#Teorema delle Coordinate|teorema delle Coordinate]]
 - $f(v_{d+1}),\dots,f(v_{n})$ è una ***base dell'immagine***
 
 >[!done] Quindi $\text{dim}(\mathrm{ker}f)=d,\quad\text{dim}(V)=n,\quad\text{dim}(\mathrm{Im}f)=n-d$

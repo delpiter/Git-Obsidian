@@ -1,7 +1,7 @@
 ## Interezione di Sottospazi Vettoriali
 ---
 >[!info] Proprietà
->Siano $U,W$ [[Campi e Spazi Vettoriali#Sottospazio Vettoriale|sottospazi vettoriali]] allora $U\cap W$ è un sottospazio vettoriale
+>Siano $U,W$ [[2 - Campi e Spazi Vettoriali#Sottospazio Vettoriale|sottospazi vettoriali]] allora $U\cap W$ è un sottospazio vettoriale
 >>[!done] In breve
 >>L'intersezione di un sottospazio vettoriale è un sottospazio vettoriale
 
@@ -31,7 +31,7 @@ Basta prendere $u_{1}=(1,0)\in U$ e $w_{1}=(0,1)$
 ## Sottospazio Somma
 ---
 >[!info] Definizione
->Dati due [[Campi e Spazi Vettoriali#Sottospazio Vettoriale|sottospazi vettoriali]] $U,W$ di $V$
+>Dati due [[2 - Campi e Spazi Vettoriali#Sottospazio Vettoriale|sottospazi vettoriali]] $U,W$ di $V$
 >Definisco il **sottospazio somma** come:
 >$$U+W = \{ u+w,u\in U , w \in W \}$$
 
@@ -76,7 +76,7 @@ Ha come dimensione $\text{dim} (U\cap W)=1$
 ## Formula di Grassman
 ---
 >[!as] Formula
->Siano $U$ e $W$ [[Campi e Spazi Vettoriali#Sottospazio Vettoriale|sottospazi vettoriali]] di $V$
+>Siano $U$ e $W$ [[2 - Campi e Spazi Vettoriali#Sottospazio Vettoriale|sottospazi vettoriali]] di $V$
 ><u>Allora</u>
 >$$\text{dim}(U+W)=\text{dim}(U)+\text{dim}(W)-\text{dim}(U\cap W)$$
 
@@ -136,7 +136,7 @@ v_{1},\dots,v_{l},u_{1},\dots,u_{m},w_{1},\dots,w_{n}
 $$
  >[!done] Generano $U+W$
  
- E si può verificare che sono [[Campi e Spazi Vettoriali#Dipendenza Lineare|linearmente indeipendenti]] e dunque sono una base
+ E si può verificare che sono [[2 - Campi e Spazi Vettoriali#Dipendenza Lineare|linearmente indeipendenti]] e dunque sono una base
 Perciò
 - $\text{dim}(U+W)=l+m+n$
 - $\text{dim}(U)=l+m$

@@ -1,8 +1,8 @@
 ## Applicazione Lineare
 ---
 >[!info] Definizione
->Sia $\mathbb{K}$ un [[Campi e Spazi Vettoriali#Campo|campo]] e siano $V,U$ [[Campi e Spazi Vettoriali#Spazio Vettoriale|spazi vettoriali]] su $\mathbb{K}$
->Un'[[Introduzione#Definizione|applicazione]] $f:V\to U$ si dice ***lineare*** se è compatibile con le operazioni di $U$ e $V$
+>Sia $\mathbb{K}$ un [[2 - Campi e Spazi Vettoriali#Campo|campo]] e siano $V,U$ [[2 - Campi e Spazi Vettoriali#Spazio Vettoriale|spazi vettoriali]] su $\mathbb{K}$
+>Un'[[1 - Introduzione#Definizione|applicazione]] $f:V\to U$ si dice ***lineare*** se è compatibile con le operazioni di $U$ e $V$
 >$$f(v_{1}+v_{2})=f(v_{1})+f(v_{2}), \quad\forall v_{1},v_{2} \in V$$
 >>[!done] A parole
 >>A sinistra dell'uguaglianza *applico* $f$ ad una *somma di elementi* di $V$, ottenendo un elemento di $U$
@@ -84,7 +84,7 @@ $$
 ---
 ### Immagine
 >[!info] Definizione
->Siano $V,U$ [[Campi e Spazi Vettoriali#Spazio Vettoriale|spazi vettoriali]] su $\mathbb{K}$
+>Siano $V,U$ [[2 - Campi e Spazi Vettoriali#Spazio Vettoriale|spazi vettoriali]] su $\mathbb{K}$
 >Sia $f:V\to U$ un'applicazione lineare
 >Ricordiamo che $\mathrm{Im}f =\{ u\in U,\exists v\in V:f(v)=u \}$, e che $f$ è [[Git-Obsidian/Analisi/Funzioni/Introduzione Funzioni#Funzione Surriettiva|suriettiva]] $\Leftrightarrow \mathrm{Im}f=U$
 >>[!tip] Proprietà
@@ -110,7 +110,7 @@ Inoltre se $u\in \mathrm{Im}f$, cioè $u=f(v), v\in V$ e $a\in\mathbb{K}$,
 >Definisco ***nucleo*** di $f$ come:
 >$$\mathrm{ker}f=\{ v\in V:f(v)=\underline{0} \}$$
 >>[!tip] Proprietà
->>$\mathrm{ker}f$ è un [[Campi e Spazi Vettoriali#Sottospazio Vettoriale|sottospazio vettoriale]] di $V$
+>>$\mathrm{ker}f$ è un [[2 - Campi e Spazi Vettoriali#Sottospazio Vettoriale|sottospazio vettoriale]] di $V$
 
 - $\mathrm{ker}$ significa nucleo in inglese (***kernel***)
 

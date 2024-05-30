@@ -148,7 +148,7 @@ $$
 ### $\det(f)$
 >[!info] Definizione
 >Data $f:V\to V$ [[1 - Applicazioni Lineari|lineare]], definiamo $\det(f)=\det(A)$
->Dove $A$ è la *matrice* che *rappresenta* $f$ in qualsiasi [[Campi e Spazi Vettoriali#Base|base]]
+>Dove $A$ è la *matrice* che *rappresenta* $f$ in qualsiasi [[2 - Campi e Spazi Vettoriali#Base|base]]
 >Per la proposizione precedente, ***non dipende dalla base scelta*** se $A$ e $M$ rappresentano la stessa $f$ in ***basi diverse***
 >>[!done] Osservazione
 >>$$f\text{ isomorfismo }\iff \det(f)\neq 0$$

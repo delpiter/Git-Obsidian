@@ -90,7 +90,7 @@ x_{2} = 5x_{3}+5x_{4}-3=2 \\
 \end{cases}
 $$
 ### $\infty$ soluzioni
->Quando ci sono $\infty$ soluzioni, il metodo di gauss mi aiuta a esprimerle in [[Forme Parametriche e Cartesiane#Forme per Descrivere un Sottospazio Vettoriale|forma parametrica]]
+>Quando ci sono $\infty$ soluzioni, il metodo di gauss mi aiuta a esprimerle in [[4 - Forme Parametriche e Cartesiane#Forme per Descrivere un Sottospazio Vettoriale|forma parametrica]]
 #### Esempio
 $$
 \begin{cases}
@@ -396,8 +396,8 @@ Vuol dire che $b$ non è ***combinazione lineare*** dei vettori colonna di $A$
 >Sia $Ax=b$ un sistema lineare
 >Consideriamo il sistema lineare omogeneo associato $Ax=\underline{0}$
 ><u>Allora</u>
->1. L'insieme $U$ delle soluzioni di $Ax=\underline{0}$ è un [[Campi e Spazi Vettoriali#Sottospazio Vettoriale|sottospazio vettoriale]] di $\mathbb{K}^n$ di dimensioni $n-rk(A)$
->2. L'insieme $S$ delle soluzioni di $Ax=b$, ***se non è vuoto***, è un [[Campi e Spazi Vettoriali#Sottospazio Affine|sottospazio affine]] di $\mathbb{K}^n$ ottenuto traslando $U$ con un qualsiasi $p \in S$, di dimensioni $n-rk(A)$, cioè:
+>1. L'insieme $U$ delle soluzioni di $Ax=\underline{0}$ è un [[2 - Campi e Spazi Vettoriali#Sottospazio Vettoriale|sottospazio vettoriale]] di $\mathbb{K}^n$ di dimensioni $n-rk(A)$
+>2. L'insieme $S$ delle soluzioni di $Ax=b$, ***se non è vuoto***, è un [[2 - Campi e Spazi Vettoriali#Sottospazio Affine|sottospazio affine]] di $\mathbb{K}^n$ ottenuto traslando $U$ con un qualsiasi $p \in S$, di dimensioni $n-rk(A)$, cioè:
 >$$S=\{ u+p,u\in U \}$$
 
 >[!done] In Breve

@@ -1,7 +1,7 @@
 ## Isometria
 ---
 >[!info] Definizione
->Sia $V$ uno [[Campi e Spazi Vettoriali#Spazio Vettoriale|spazio vettoriale]] su $\mathbb{K}=\mathbb{R}$ con un [[4 - Prodotto Scalare#I Prodotti Scalari|prodotto scalare]]
+>Sia $V$ uno [[2 - Campi e Spazi Vettoriali#Spazio Vettoriale|spazio vettoriale]] su $\mathbb{K}=\mathbb{R}$ con un [[4 - Prodotto Scalare#I Prodotti Scalari|prodotto scalare]]
 >Una ***Isometria*** è una [[1 - Applicazioni Lineari#Applicazione Lineare|applicazione lineare]]: $f:V\to V$
 >$$\forall v,u \in V\quad (f(v),f(u))=(v,u)$$
 
