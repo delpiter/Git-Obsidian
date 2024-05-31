@@ -215,6 +215,7 @@ $$
 >L'uguaglianza vale $\iff$ $v,u$ sono linearmente indipendenti
 >Di conseguenza, $\forall v,u\in V$
 >- $\displaystyle{\frac{\mid(v,u)\mid}{\mid\mid v \mid\mid \cdot\mid\mid u\mid\mid}}\leq1$
+>
 >Cioè
 >$$-1\leq\displaystyle{\frac{(v,u)}{\mid\mid v \mid\mid \cdot \mid\mid u\mid\mid}}\leq1$$
 
