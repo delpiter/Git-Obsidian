@@ -49,8 +49,8 @@ Se $\beta(w_{i},w_{i})=0$ $\forall i=1,\dots,n$ allora cerco $i,j:\beta(w_{i},w_
 
 Per quanto fatto al ***passo 1*** $\beta(w_{1},w_{1})\neq 0$
 Definiamo una nuova base $w_{1}',\dots,w_{n}'$
-- $w_{1}'=w_{1}, \forall i=2,\dots,n$ 
-- $w_{i}'=w_{i}-\displaystyle{\frac{\beta(w_{1},w_{i})}{\beta(w_{1},w_{1})}}w_{1}$
+- $w_{1}'=w_{1}$ 
+- $w_{i}'=w_{i}-\displaystyle{\frac{\beta(w_{1},w_{i})}{\beta(w_{1},w_{1})}}w_{1} \qquad \forall i=2,\dots,n$
 
 La definiamo così affinché:
 $$
