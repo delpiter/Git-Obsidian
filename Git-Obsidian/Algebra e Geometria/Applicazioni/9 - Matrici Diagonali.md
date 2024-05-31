@@ -160,7 +160,8 @@ $$
 $$
 \begin{pmatrix}
 \lambda_{1} & 0  & \dots & 0 \\
-0 & \lambda_{2}  & \dots & 0 \\
+0 & \lambda_{2}  & \dots & 0  \\
+\dots & \dots & \dots & \dots\\
 0 & 0  & \dots & \lambda_{n}
 \end{pmatrix}
 $$
