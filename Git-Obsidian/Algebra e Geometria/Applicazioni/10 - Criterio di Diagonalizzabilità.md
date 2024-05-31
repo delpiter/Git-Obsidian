@@ -41,7 +41,7 @@ $$
 >*Se non vale la condizione 2)*
 
 $$
-\text{dim}(U)=mg(\lambda_{1})+\dots+mg(\lambda_{t})<ma(\lambda_{1})+\dots+mg(\lambda_{t})=\text{dim}(V)
+\text{dim}(U)=mg(\lambda_{1})+\dots+mg(\lambda_{t})<ma(\lambda_{1})+\dots+ma(\lambda_{t})=\text{dim}(V)
 $$
 
 Quindi $\mathcal{B}$ non è una base di $V$
@@ -92,7 +92,7 @@ x+z=y
 \end{cases}\implies mg(\lambda_{1})=2
 $$
 
-- $\mathcal{B_{1}}=\{ v_{1}=(1,1,0),v_{2}=(0,1,1) \}=\{ (t,t+s,s),t,s\in \mathbb{R}\}$ base di $V\lambda_{1}$
+- $\mathcal{B}_{1}=\{ v_{1}=(1,1,0),v_{2}=(0,1,1) \}=\{ (t,t+s,s),t,s\in \mathbb{R}\}$ base di $V\lambda_{1}$
 
 >[!abstract] $V\lambda_{2}=\{ (x,y,z)\in\mathbb{R}^3:f(x,y,z)=4(x,y,z) \}$
 
@@ -107,7 +107,7 @@ x=y
 \end{cases}\implies mg(\lambda_{2})=1
 $$
 
-- $\mathcal{B_{2}}=\{ v_{3}=(1,1,2) \}=\{ (t,t,2t),t\in \mathbb{R}\}$ base di $V\lambda_{1}$
+- $\mathcal{B}_{2}=\{ v_{3}=(1,1,2) \}=\{ (t,t,2t),t\in \mathbb{R}\}$ base di $V\lambda_{1}$
 
 >[!done] $mg$ e $ma$ coincidono e quindi $f$ è diagonalizzabile
 
