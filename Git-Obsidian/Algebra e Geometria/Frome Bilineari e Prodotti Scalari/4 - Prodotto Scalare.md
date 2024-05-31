@@ -170,7 +170,7 @@ $$
 >[!question] È un prodotto scalare?
 
 Osserviamo che $\beta$ è ***bilineare*** e ***simmetrica***
-- $\beta(u,v)=b_{1}a_{1}+5b_{2}a_{2}+2b_{2}a_{2}+2b_{1}a_{2}$
+- $\beta(u,v)=b_{1}a_{1}+5b_{2}a_{2}+2b_{2}a_{1}+2b_{1}a_{2}$
 >[!question] È definita positiva?
 
 Nella base $e_{1},e_{2}$ $\beta$ ha la matrice:$\begin{pmatrix}1 & 2 \\2 & 5\end{pmatrix}$

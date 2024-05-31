@@ -121,7 +121,7 @@ $$
 >>[!abstract] Possiamo Dire:
 >>$$\beta(v,u)=\beta(a_{1}v_{1}+\dots+a_{n}v_{n},b_{1}v_{1}+\dots+b_{n}v_{n})$$
 >>$$\begin{array}\ \underset{ L^1 }{ =}a_{1}\beta(v_{1},b_{1}v_{1}+\dots+b_{n}v_{n})+\dots+a_{n}\beta(v_{n},b_{1}v_{1}+\dots+b_{n}v_{n})= \\ \underset{ L^2 }{ = }a_{1}b_{1}\beta(v_{1},v_{1})+\dots+a_{1}b_{n}\beta(v_{1},v_{n})+\dots+
-+a_{n}b_{1}\beta(v_{n},v_{1})+\dots+a_{n}b_{n}\beta(v_{n},v_{n})\end{array}$$
+a_{n}b_{1}\beta(v_{n},v_{1})+\dots+a_{n}b_{n}\beta(v_{n},v_{n})\end{array}$$
 >>Che è come dire:
 >>$$\sum_{i,j=1}^n a_{i}b_{j}\beta(v_{i},v_{j})$$
 >
