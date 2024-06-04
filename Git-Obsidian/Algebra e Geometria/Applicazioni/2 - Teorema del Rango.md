@@ -9,7 +9,7 @@
 >Sia $v_{1},\dots,v_{d}$ una base di $\mathrm{ker}f$
 
 Completiamola con una base di $V$
-- Ciò è possibile poiché $\mathrm{ker}f$ è un [[2 - Campi e Spazi Vettoriali#Sottospazio Vettoriale|sottospazio vettoriale]]
+- Ciò è possibile poiché $\mathrm{ker}f$ è un [[1 - Applicazioni Lineari#Nucleo|sottospazio vettoriale]]
 
 >$v_{1},\dots,v_{d},v_{d+1},\dots,v_{n}$
 
