@@ -101,10 +101,9 @@ Fissiamo una [[2 - Campi e Spazi Vettoriali#Base|base]] $v_{1},\dots,v_{n}$ di $
 Chiamiamo la seguente matrice la ***matrice identità***, e la indichiamo con $\text{I}_{n}$
 $$
 \begin{pmatrix}
-1 & 0 & \dots & 0 \\
-0 & 1 & \dots & 0 \\
-\dots & \dots & \dots & \dots \\
-0 & 0 & \dots & 1
+1 & \dots & 0 \\
+\vdots & \ddots & \vdots \\
+0 & \dots & 1
 \end{pmatrix}
 $$
 
