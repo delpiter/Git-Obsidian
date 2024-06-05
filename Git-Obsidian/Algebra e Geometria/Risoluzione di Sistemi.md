@@ -22,7 +22,7 @@ $$
 >[!example] Primo Step
 
 *Non tocco la prima equazione*
-Sommo a ciascuna equazione, dalla $2^a$ in poi, un *multiplo* dilla $1^a$ equazione
+Sommo a ciascuna equazione, dalla $2^a$ in poi, un *multiplo* della $1^a$ equazione
 - In modo tale che il *coefficiente* di $x_{1}$ **si annulli**
 
 $$

@@ -212,7 +212,7 @@ $$
 >>$$\mid (v,u)\mid\leq\mid\mid v\mid\mid \cdot \mid\mid u \mid\mid$$
 >>- $\forall v,u\in V$
 >
->L'uguaglianza vale $\iff$ $v,u$ sono linearmente indipendenti
+>L'uguaglianza vale $\iff$ $v,u$ sono linearmente dipendenti
 >Di conseguenza, $\forall v,u\in V$
 >- $\displaystyle{\frac{\mid(v,u)\mid}{\mid\mid v \mid\mid \cdot\mid\mid u\mid\mid}}\leq1$
 >
@@ -272,7 +272,7 @@ $$
 Osserviamo che se $a\in\mathbb{R},\mid\mid av\mid\mid = \sqrt{ (av,av) }=\mid a\mid \sqrt{ (v,v) }=\mid a\mid\cdot\mid\mid v \mid\mid$
 - In particolare, per $a=-1$
 $$
-d(P,Q)=\mid\mid \overrightarrow{PQ} \mid\mid =\mid\mid -\overrightarrow{PQ}\mid\mid= \mid-1\mid \cdot\mid\mid QP\mid\mid = \mid\mid QP\mid\mid=d(Q,P)
+d(P,Q)=\mid\mid \overrightarrow{PQ} \mid\mid =\mid\mid -\overrightarrow{QP}\mid\mid= \mid-1\mid \cdot\mid\mid QP\mid\mid = \mid\mid QP\mid\mid=d(Q,P)
 $$
 
 >3.
