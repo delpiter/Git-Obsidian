@@ -4,16 +4,46 @@
     "type": "split",
     "children": [
       {
-        "id": "91adf5d6f6bd6a18",
+        "id": "12be132c6eb16347",
         "type": "tabs",
         "children": [
           {
-            "id": "a4f0e36254656f41",
+            "id": "fa38f4f292831ef3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Obsidian/Algebra e Geometria/Applicazioni/11 - Matrici Quasi Diagonalizzabili.md",
+                "file": "Git-Obsidian/Algebra e Geometria/Frome Bilineari e Prodotti Scalari/4 - Prodotto Scalare.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "88c996bb7526f7e1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git-Obsidian/Algebra e Geometria/Frome Bilineari e Prodotti Scalari/5 - Sottospazi Ortogonali.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "1f6605befd0c2a8b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "60811d476622f47b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git-Obsidian/Markdown Keys.md",
                 "mode": "preview",
                 "source": false
               }
@@ -87,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Algebra e Geometria/Applicazioni/11 - Matrici Quasi Diagonalizzabili.md",
+                "file": "Git-Obsidian/Algebra e Geometria/Frome Bilineari e Prodotti Scalari/4 - Prodotto Scalare.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Algebra e Geometria/Applicazioni/11 - Matrici Quasi Diagonalizzabili.md",
+                "file": "Git-Obsidian/Algebra e Geometria/Frome Bilineari e Prodotti Scalari/4 - Prodotto Scalare.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git-Obsidian/Algebra e Geometria/Applicazioni/11 - Matrici Quasi Diagonalizzabili.md"
+                "file": "Git-Obsidian/Algebra e Geometria/Frome Bilineari e Prodotti Scalari/4 - Prodotto Scalare.md"
               }
             }
           },
@@ -167,8 +197,15 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "a4f0e36254656f41",
+  "active": "fa38f4f292831ef3",
   "lastOpenFiles": [
+    "Git-Obsidian/Markdown Keys.md",
+    "Git-Obsidian/Algebra e Geometria/Frome Bilineari e Prodotti Scalari/4 - Prodotto Scalare.md",
+    "Git-Obsidian/Algebra e Geometria/Frome Bilineari e Prodotti Scalari/3 - Forme Quadratiche.md",
+    "Git-Obsidian/Algebra e Geometria/Frome Bilineari e Prodotti Scalari/2 - Diagonalizzare Forme Bilineari.md",
+    "Git-Obsidian/Algebra e Geometria/Frome Bilineari e Prodotti Scalari/1 - Forme Bilineari.md",
+    "Git-Obsidian/Algebra e Geometria/Frome Bilineari e Prodotti Scalari/5 - Sottospazi Ortogonali.md",
+    "Git-Obsidian/Algebra e Geometria/Applicazioni/11 - Matrici Quasi Diagonalizzabili.md",
     "Git-Obsidian/Algebra e Geometria/Applicazioni/10 - Criterio di Diagonalizzabilità.md",
     "Git-Obsidian/Algebra e Geometria/Applicazioni/9 - Matrici Diagonali.md",
     "Git-Obsidian/Algebra e Geometria/Applicazioni/8 - Matrici Invertibili.md",
@@ -179,18 +216,12 @@
     "Git-Obsidian/Algebra e Geometria/Applicazioni/3 - Estensione Lineare.md",
     "Git-Obsidian/Algebra e Geometria/Applicazioni/2 - Teorema del Rango.md",
     "Git-Obsidian/Algebra e Geometria/Applicazioni/1 - Applicazioni Lineari.md",
-    "Git-Obsidian/Algebra e Geometria/Applicazioni/11 - Matrici Quasi Diagonalizzabili.md",
     "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/5 - Intersezione e Somma di Sottospazi.md",
     "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/4 - Forme Parametriche e Cartesiane.md",
     "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/3 - Teoremi su Spazi Vettoriali.md",
     "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/2 - Campi e Spazi Vettoriali.md",
     "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/1 - Introduzione.md",
     "Git-Obsidian/Algebra e Geometria/Risoluzione di Sistemi.md",
-    "Git-Obsidian/Algebra e Geometria/Frome Bilineari e Prodotti Scalari/1 - Forme Bilineari.md",
-    "Git-Obsidian/Algebra e Geometria/Frome Bilineari e Prodotti Scalari/2 - Diagonalizzare Forme Bilineari.md",
-    "Git-Obsidian/Algebra e Geometria/Frome Bilineari e Prodotti Scalari/3 - Forme Quadratiche.md",
-    "Git-Obsidian/Algebra e Geometria/Frome Bilineari e Prodotti Scalari/5 - Sottospazi Ortogonali.md",
-    "Git-Obsidian/Algebra e Geometria/Frome Bilineari e Prodotti Scalari/4 - Prodotto Scalare.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Confronto fra Algoritmi/Complessità di Algoritmi.md",
     "Git-Obsidian/Algebra e Geometria/Isometrie/1 - Introduzione Isometrie.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Minimum Spanning Tree.md",
@@ -199,7 +230,6 @@
     "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/attachements/Pasted image 20240219172214.png",
     "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/attachements/Pasted image 20240220175558.png",
     "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/attachements/Unione di Sottospazi.png",
-    "Git-Obsidian/Algebra e Geometria/Applicazioni Alla Geometria Analitica.md",
     "Git-Obsidian/Attachments/Geometry.png",
     "Git-Obsidian/Attachments/GreekLetters.png",
     "Git-Obsidian/Attachments/Negated Binary Relations.png",

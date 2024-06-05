@@ -88,10 +88,10 @@ $$
 >>- $\exists$ una base in cui la matrice di $\beta$ è $-I_{n}$
 >
 >>[!abstract] $3.$
->>$q$ è ***semidefinita positiva*** $\iff$ la [[2 - Diagonalizzare Forme Bilineari#Teorema di Sylvester|segnatura]] di $\beta$ è $\underbrace{ (r,0) }_{ \text{"1 e 0"} }$
+>>$q$ è ***semidefinita positiva*** $\iff$ la [[2 - Diagonalizzare Forme Bilineari#Teorema di Sylvester|segnatura]] di $\beta$ è $\underbrace{ (r,0) }_{ \text{"1 e 0"} }\qquad r<n$
 >
 >>[!example] $4.$
->>$q$ è ***semidefinita negativa*** $\iff$ la [[2 - Diagonalizzare Forme Bilineari#Teorema di Sylvester|segnatura]] di $\beta$ è $\underbrace{ (0,r) }_{ \text{"-1 e 0"} }$
+>>$q$ è ***semidefinita negativa*** $\iff$ la [[2 - Diagonalizzare Forme Bilineari#Teorema di Sylvester|segnatura]] di $\beta$ è $\underbrace{ (0,r) }_{ \text{"-1 e 0"} }\qquad r<n$
 >
 >>[!danger] $5.$
 >>$q$ è ***indefinita*** $\iff$ la [[2 - Diagonalizzare Forme Bilineari#Teorema di Sylvester|segnatura]] di $\beta$ è $(p,r-p)$ con $p>0,r-p>0$
