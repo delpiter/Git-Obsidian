@@ -4,52 +4,64 @@
     "type": "split",
     "children": [
       {
-        "id": "4494d529b339ebc4",
+        "id": "91adf5d6f6bd6a18",
         "type": "tabs",
         "children": [
           {
-            "id": "109ee961726d99a8",
+            "id": "4db2cd662bc26945",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/2 - Campi e Spazi Vettoriali.md",
+                "file": "Git-Obsidian/Algebra e Geometria/Applicazioni/7 - Determinante di una Matrice.md",
                 "mode": "preview",
                 "source": false
               }
             }
           },
           {
-            "id": "5eb0fed08210048e",
+            "id": "8471d419d41657d1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/3 - Teoremi su Spazi Vettoriali.md",
+                "file": "Git-Obsidian/Algebra e Geometria/Applicazioni/8 - Matrici Invertibili.md",
                 "mode": "preview",
                 "source": false
               }
             }
           },
           {
-            "id": "e18442a22a1e5e53",
+            "id": "66b373c67e8bdf39",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/4 - Forme Parametriche e Cartesiane.md",
+                "file": "Git-Obsidian/Algebra e Geometria/Applicazioni/9 - Matrici Diagonali.md",
                 "mode": "preview",
                 "source": false
               }
             }
           },
           {
-            "id": "d9f851bf4137b948",
+            "id": "9a65f353dc26228f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/5 - Intersezione e Somma di Sottospazi.md",
+                "file": "Git-Obsidian/Algebra e Geometria/Applicazioni/10 - Criterio di Diagonalizzabilità.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a4f0e36254656f41",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git-Obsidian/Algebra e Geometria/Applicazioni/11 - Matrici Quasi Diagonalizzabili.md",
                 "mode": "preview",
                 "source": false
               }
@@ -123,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/2 - Campi e Spazi Vettoriali.md",
+                "file": "Git-Obsidian/Algebra e Geometria/Applicazioni/7 - Determinante di una Matrice.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/2 - Campi e Spazi Vettoriali.md",
+                "file": "Git-Obsidian/Algebra e Geometria/Applicazioni/7 - Determinante di una Matrice.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/2 - Campi e Spazi Vettoriali.md"
+                "file": "Git-Obsidian/Algebra e Geometria/Applicazioni/7 - Determinante di una Matrice.md"
               }
             }
           },
@@ -203,14 +215,25 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "109ee961726d99a8",
+  "active": "4db2cd662bc26945",
   "lastOpenFiles": [
-    "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/1 - Introduzione.md",
+    "Git-Obsidian/Algebra e Geometria/Applicazioni/6 - Cambiamenti di Base.md",
+    "Git-Obsidian/Algebra e Geometria/Applicazioni/5 - Matrici di Applicazioni Lineari.md",
+    "Git-Obsidian/Algebra e Geometria/Applicazioni/4 - Isomorfismo.md",
+    "Git-Obsidian/Algebra e Geometria/Applicazioni/3 - Estensione Lineare.md",
+    "Git-Obsidian/Algebra e Geometria/Applicazioni/2 - Teorema del Rango.md",
+    "Git-Obsidian/Algebra e Geometria/Applicazioni/1 - Applicazioni Lineari.md",
+    "Git-Obsidian/Algebra e Geometria/Applicazioni/11 - Matrici Quasi Diagonalizzabili.md",
+    "Git-Obsidian/Algebra e Geometria/Applicazioni/10 - Criterio di Diagonalizzabilità.md",
+    "Git-Obsidian/Algebra e Geometria/Applicazioni/9 - Matrici Diagonali.md",
+    "Git-Obsidian/Algebra e Geometria/Applicazioni/8 - Matrici Invertibili.md",
+    "Git-Obsidian/Algebra e Geometria/Applicazioni/7 - Determinante di una Matrice.md",
     "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/5 - Intersezione e Somma di Sottospazi.md",
-    "Git-Obsidian/Algebra e Geometria/Risoluzione di Sistemi.md",
     "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/4 - Forme Parametriche e Cartesiane.md",
     "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/3 - Teoremi su Spazi Vettoriali.md",
     "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/2 - Campi e Spazi Vettoriali.md",
+    "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/1 - Introduzione.md",
+    "Git-Obsidian/Algebra e Geometria/Risoluzione di Sistemi.md",
     "Git-Obsidian/Algebra e Geometria/Frome Bilineari e Prodotti Scalari/1 - Forme Bilineari.md",
     "Git-Obsidian/Algebra e Geometria/Frome Bilineari e Prodotti Scalari/2 - Diagonalizzare Forme Bilineari.md",
     "Git-Obsidian/Algebra e Geometria/Frome Bilineari e Prodotti Scalari/3 - Forme Quadratiche.md",
@@ -219,18 +242,7 @@
     "Git-Obsidian/Algoritmi e Strutture Dati/Confronto fra Algoritmi/Complessità di Algoritmi.md",
     "Git-Obsidian/Algebra e Geometria/Isometrie/1 - Introduzione Isometrie.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Minimum Spanning Tree.md",
-    "Git-Obsidian/Algebra e Geometria/Applicazioni/6 - Cambiamenti di Base.md",
     "Git-Obsidian/Algebra e Geometria/Isometrie/Legami.canvas",
-    "Git-Obsidian/Algebra e Geometria/Applicazioni/11 - Matrici Quasi Diagonalizzabili.md",
-    "Git-Obsidian/Algebra e Geometria/Applicazioni/10 - Criterio di Diagonalizzabilità.md",
-    "Git-Obsidian/Algebra e Geometria/Applicazioni/2 - Teorema del Rango.md",
-    "Git-Obsidian/Algebra e Geometria/Applicazioni/9 - Matrici Diagonali.md",
-    "Git-Obsidian/Algebra e Geometria/Applicazioni/8 - Matrici Invertibili.md",
-    "Git-Obsidian/Algebra e Geometria/Applicazioni/7 - Determinante di una Matrice.md",
-    "Git-Obsidian/Algebra e Geometria/Applicazioni/5 - Matrici di Applicazioni Lineari.md",
-    "Git-Obsidian/Algebra e Geometria/Applicazioni/4 - Isomorfismo.md",
-    "Git-Obsidian/Algebra e Geometria/Applicazioni/3 - Estensione Lineare.md",
-    "Git-Obsidian/Algebra e Geometria/Applicazioni/1 - Applicazioni Lineari.md",
     "Untitled.canvas",
     "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/attachements/Pasted image 20240219172214.png",
     "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/attachements/Pasted image 20240220175558.png",

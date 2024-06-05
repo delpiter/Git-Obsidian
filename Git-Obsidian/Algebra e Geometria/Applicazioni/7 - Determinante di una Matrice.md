@@ -22,7 +22,7 @@
 >*Abbiamo così definito ricorsivamente una funzione*
 
 $$
-\det\mathcal{M}_{n\times n}(\mathbb{K})\to \mathbb{K}
+\det:\mathcal{M}_{n\times n}(\mathbb{K})\to \mathbb{K}
 $$
 $$
 A\mapsto \det(A)
