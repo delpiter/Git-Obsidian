@@ -351,7 +351,7 @@ $$
 #### Esempio
 >$v_{1}=(2,0), v_{2}=(-1,0)$
 
-Sono *linearmente dipendenti* perchè $v_{1} =2v_{2}$
+Sono *linearmente dipendenti* perchè $v_{1} =-2v_{2}$
 - $v_{1}$ è combinazione lineare di $v_{2}$
 	- Ovvero: $\exists a_{1}=1,a_{2}=2$ tali che $a_{1}v_{1}+a_{2}v_{2}=1(2,0)+2(-1,0) = (0,0)=\underline{0}$
 
