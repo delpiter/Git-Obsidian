@@ -66,21 +66,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "72358871336be4b0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git-Obsidian/Algebra e Geometria/Risoluzione di Sistemi.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -148,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Algebra e Geometria/Risoluzione di Sistemi.md",
+                "file": "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/1 - Introduzione.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -165,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Algebra e Geometria/Risoluzione di Sistemi.md",
+                "file": "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/1 - Introduzione.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -188,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git-Obsidian/Algebra e Geometria/Risoluzione di Sistemi.md"
+                "file": "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/1 - Introduzione.md"
               }
             }
           },
@@ -228,9 +215,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "72358871336be4b0",
+  "active": "414a53be6b7ed015",
   "lastOpenFiles": [
     "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/5 - Intersezione e Somma di Sottospazi.md",
+    "Git-Obsidian/Algebra e Geometria/Risoluzione di Sistemi.md",
     "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/4 - Forme Parametriche e Cartesiane.md",
     "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/3 - Teoremi su Spazi Vettoriali.md",
     "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/2 - Campi e Spazi Vettoriali.md",
@@ -256,7 +244,6 @@
     "Git-Obsidian/Algebra e Geometria/Applicazioni/3 - Estensione Lineare.md",
     "Git-Obsidian/Algebra e Geometria/Applicazioni/1 - Applicazioni Lineari.md",
     "Untitled.canvas",
-    "Git-Obsidian/Algebra e Geometria/Risoluzione di Sistemi.md",
     "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/attachements/Pasted image 20240219172214.png",
     "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/attachements/Pasted image 20240220175558.png",
     "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/attachements/Unione di Sottospazi.png",
