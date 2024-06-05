@@ -133,7 +133,7 @@ Quindi $f$ ha come unico autovalore $0$
 >[!info] Definizione
 >Definiamo il "***blocco di Jordan***" $J_{\lambda i,n}$ come la matrice $n\times n$:
 >$$J_{\lambda i,n}=\begin{pmatrix}\lambda_{i} & 1 & \dots & 0 \\0 & \lambda_{i} & \dots & 0 \\ \dots & \dots & \dots & \dots \\0 & 0 & \dots & 1 \\ 0 & 0 & \dots & \lambda_{i}\end{pmatrix}
-\times\begin{pmatrix} x_{1} \\ x_{2} \\ \dots \\ x_{n-1} \\ x_{n}\end{pmatrix}=\begin{pmatrix} \lambda_{i}x_{1} \\ \lambda_{i}x_{2}+x_{3} \\ \dots \\ \lambda_{i}x_{n-1}+x_{n} \\ \lambda_{i}x_{n}\end{pmatrix}$$
+\times\begin{pmatrix} x_{1} \\ x_{2} \\ \dots \\ x_{n-1} \\ x_{n}\end{pmatrix}=\begin{pmatrix} \lambda_{i}x_{1}+x_{2} \\ \lambda_{i}x_{2}+x_{3} \\ \dots \\ \lambda_{i}x_{n-1}+x_{n} \\ \lambda_{i}x_{n}\end{pmatrix}$$
 
 $$
 p(\lambda)=(\lambda_{i}-\lambda)\det(J_{\lambda i,n-1})=\dots=(\lambda i-\lambda)^n
