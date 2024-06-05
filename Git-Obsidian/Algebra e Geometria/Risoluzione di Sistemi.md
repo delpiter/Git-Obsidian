@@ -61,7 +61,7 @@ $$
 >[!example] Terzo Step
 
 *Non tocco più la prima, la seconda e la terza equazione*.
-Sommo a ciascuna equazione, dalla $4^a$ in poi, un *multiplo* dilla $3^a$ equazione
+Sommo a ciascuna equazione, dalla $4^a$ in poi, un *multiplo* della $3^a$ equazione
 - In modo tale che il *coefficiente* di $x_{3}$ **si annulli**
 $$
 \begin{matrix}

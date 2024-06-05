@@ -165,10 +165,7 @@ $$
 - $u=2v_{1}+v_{2}$
 
 $$
-\beta(v,u)=\underset{ \text{Coordinate di }v }{ \begin{pmatrix}
-1 \\
-1
-\end{pmatrix} }\begin{pmatrix}
+\beta(v,u)=\underset{ \text{ Coordinate di } v }{ (1,1) }\begin{pmatrix}
 5 & -5 \\
 1 & 3
 \end{pmatrix}\underset{ \text{Coordinate di } u }{ \begin{pmatrix}
