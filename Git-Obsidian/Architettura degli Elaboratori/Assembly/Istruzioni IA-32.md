@@ -410,17 +410,17 @@ JE Addr      // Salta ad Addr se EAX = ECX
 ```
 
 ```assembly
-CMP EAX, EX
+CMP EAX, ECX
 JB Addr      // Salta ad Addr se EAX < ECX (unsigned)
 ```
 
 ```assembly
-CMP EAX, EX
+CMP EAX, ECX
 JA Addr      // Salta ad Addr se EAX > ECX (unsigned)
 ```
 
 ```assembly
-CMP EAX, EX
+CMP EAX, ECX
 JNE Addr     // Salta ad Addr se EAX != ECX
 ```
 
