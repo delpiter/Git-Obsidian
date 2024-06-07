@@ -153,7 +153,8 @@ MOV ECX, ... //ECX contiene l'indice della colonna 0
 
 IMUL EBX, EDX, 400 //EBX = EDX * 400 -> byte da "saltare"
 
-MOV EAX, matrix[EBX][ECX*4] //Copia in EAX il valore dell'elemento  
+LEA ESI, matrix[EBX]
+MOV EAX, [ESI][ECX*4] //Copia in EAX il valore dell'elemento  
                             //alla riga EDX e colonna ECX
 ```
 
