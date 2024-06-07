@@ -166,7 +166,7 @@ MOV EAX, [ECX+2]
 
 
 
-Grazie al programma assemblatore, possiamo utilizzare *nomi simbolici per **variabili** e **indirizzi***
+Grazie al programma assemblatore, possiamo utilizzare *nomi simbolici per* ***variabili*** e ***indirizzi***
 - Se l'indirizzo `10345467h` precedente fosse l'indirizzo della variabile `pippo`
 	- Potremmo caricare il valore di `pippo` in `EAX` scrivendo:
 
