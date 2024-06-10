@@ -4,47 +4,34 @@
     "type": "split",
     "children": [
       {
-        "id": "959e3fd78c262c9e",
+        "id": "5da331ecf7e3302e",
         "type": "tabs",
         "children": [
           {
-            "id": "e261875afd05919f",
+            "id": "94cc32a2e8ccf288",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Obsidian/Architettura degli Elaboratori/Assembly/Registri.md",
-                "mode": "preview",
+                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Max Flow/Ford-Fulkersron.md",
+                "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "03d86ed12aa16b8d",
+            "id": "f35d679be885e0ff",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Obsidian/Architettura degli Elaboratori/Assembly/Istruzioni IA-32.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "641f4aa8eff61cbb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git-Obsidian/Architettura degli Elaboratori/Assembly/Istruzione Assembly.md",
+                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Max Flow/Problema.md",
                 "mode": "preview",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -95,8 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 269.5,
-    "collapsed": true
+    "width": 269.5
   },
   "right": {
     "id": "3561446b8c4d05ef",
@@ -112,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Architettura degli Elaboratori/Assembly/Istruzione Assembly.md",
+                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Max Flow/Ford-Fulkersron.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Architettura degli Elaboratori/Assembly/Istruzione Assembly.md",
+                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Max Flow/Ford-Fulkersron.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git-Obsidian/Architettura degli Elaboratori/Assembly/Istruzione Assembly.md"
+                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Max Flow/Ford-Fulkersron.md"
               }
             }
           },
@@ -194,11 +180,22 @@
       "callout-manager:Insert Callout": false
     }
   },
-  "active": "641f4aa8eff61cbb",
+  "active": "94cc32a2e8ccf288",
   "lastOpenFiles": [
-    "Git-Obsidian/Architettura degli Elaboratori/Assembly/Istruzioni IA-32.md",
+    "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Max Flow/attachements/Revisited.png",
+    "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Max Flow/attachements/FlowExample.png",
+    "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Max Flow/Problema.md",
+    "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Max Flow/Ford-Fulkersron.md",
+    "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Max Flow/attachements/Grafo Residuo.png",
+    "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Max Flow/attachements/Screenshot 2024-06-10 111745.png",
+    "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Max Flow/attachements/Cut.png",
+    "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Max Flow/attachements",
+    "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Max Flow/Struttura Max Flow.md",
+    "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Max Flow",
+    "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/attachements/FlowExample.png",
     "Git-Obsidian/Architettura degli Elaboratori/Assembly/Registri.md",
     "Git-Obsidian/Architettura degli Elaboratori/Assembly/Istruzione Assembly.md",
+    "Git-Obsidian/Architettura degli Elaboratori/Assembly/Istruzioni IA-32.md",
     "Git-Obsidian/Architettura degli Elaboratori/Assembly/Il Livello ISA.md",
     "Git-Obsidian/Architettura degli Elaboratori/Assembly/Istruzioni IA-32 Speciali.md",
     "Git-Obsidian/Algebra e Geometria/Applicazioni/2 - Teorema del Rango.md",
@@ -220,21 +217,12 @@
     "Git-Obsidian/Algebra e Geometria/Applicazioni Alla Geometria Analitica.md",
     "Git-Obsidian/Algebra e Geometria/Isometrie/1 - Introduzione Isometrie.md",
     "Git-Obsidian/Algebra e Geometria/Isometrie/3 - Isometrie nelle Dimensioni.md",
-    "Git-Obsidian/Algebra e Geometria/Isometrie/2 - Legami tra i Concetti.md",
-    "Git-Obsidian/Algebra e Geometria/Frome Bilineari e Prodotti Scalari/5 - Sottospazi Ortogonali.md",
-    "Git-Obsidian/Algebra e Geometria/Frome Bilineari e Prodotti Scalari/4 - Prodotto Scalare.md",
-    "Git-Obsidian/Markdown Keys.md",
     "Untitled.canvas",
     "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/attachements/Pasted image 20240219172214.png",
     "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/attachements/Pasted image 20240220175558.png",
     "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/attachements/Unione di Sottospazi.png",
     "Git-Obsidian/Attachments/Geometry.png",
     "Git-Obsidian/Attachments/GreekLetters.png",
-    "Git-Obsidian/Attachments/Negated Binary Relations.png",
-    "Git-Obsidian/Attachments/Relation operators.png",
-    "Git-Obsidian/Attachments/Relation Operators 2.png",
-    "Git-Obsidian/Attachments/Set Notation.png",
-    "Git-Obsidian/Attachments/balanced-binary-tree.webp",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Cammini Minimi/attachements",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Cammini Minimi",
     "Git-Obsidian/Algebra e Geometria/Isometrie",
@@ -242,8 +230,6 @@
     "Git-Obsidian/Algebra e Geometria/Frome Bilineari e Prodotti Scalari",
     "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/attachements",
     "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Programmazione Dinamica",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Greedy/attachements",
     "Git-Obsidian/Algoritmi e Strutture Dati/Untitled.canvas",
     "Untitled 2.canvas",
     "Untitled 1.canvas"
