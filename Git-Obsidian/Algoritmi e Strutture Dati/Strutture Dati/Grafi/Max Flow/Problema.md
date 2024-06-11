@@ -55,3 +55,16 @@ Introduciamo ora alcune definizioni che ci serviranno per risolvere il problema
 >>Il flusso lungo un *cammino aumentante* può essere aumentato al massimo di un quantitativo pari alla ***minima capacità residua*** $c_{f}$ degli archi del cammino
 
 ![[Grafo Residuo.png|450]]
+### Casi diversi del Problema
+>*Poiché il problema ha una vasta applicazione nella realtà, possono esistere diversi casi dove ci si deve ricondurre al caso base prima di potere procedere con la risoluzione*
+
+>[!example] Esempio
+>>[!question] Ho più sorgenti e destinazioni?
+>
+>Collego tutte le sorgenti $s_{1},\dots,s_{t}$ ad una unica sorgente $S$ e analogamente collego tutte le destinazioni $t_{1},\dots,t_{n}$ ad una unica destinazione $T$
+
+>[!example] Esempio
+>>[!question] Ho la capacità sui nodi?
+>
+>Creo due nodi adiacenti e l'arco in mezzo prende la capacità del nodo che avevo prima
+
