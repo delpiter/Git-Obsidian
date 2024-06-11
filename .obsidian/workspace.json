@@ -4,47 +4,32 @@
     "type": "split",
     "children": [
       {
-        "id": "5da331ecf7e3302e",
+        "id": "2db7af358963bb54",
         "type": "tabs",
         "children": [
           {
-            "id": "94cc32a2e8ccf288",
+            "id": "375ec8f274b5fd88",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Max Flow/Edmonds-Karp.md",
+                "file": "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/Predizione di Salto.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "5ee911c0f01ed664",
+            "id": "4a0d328f9b573dce",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Max Flow/Ford-Fulkersron.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f35d679be885e0ff",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Max Flow/Problema.md",
-                "mode": "source",
-                "source": false
+                "file": "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/attachements/Meldtown-Spectre.png"
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -112,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Max Flow/Problema.md",
+                "file": "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/Predizione di Salto.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Max Flow/Problema.md",
+                "file": "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/Predizione di Salto.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Max Flow/Problema.md"
+                "file": "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/Predizione di Salto.md"
               }
             }
           },
@@ -194,8 +179,11 @@
       "callout-manager:Insert Callout": false
     }
   },
-  "active": "f35d679be885e0ff",
+  "active": "375ec8f274b5fd88",
   "lastOpenFiles": [
+    "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/attachements/Meldtown-Spectre.png",
+    "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/Predizione di Salto.md",
+    "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/Pipelining.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Max Flow/Edmonds-Karp.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Max Flow/Ford-Fulkersron.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Max Flow/Problema.md",
@@ -231,12 +219,8 @@
     "Git-Obsidian/Algebra e Geometria/Risoluzione di Sistemi.md",
     "Git-Obsidian/Algebra e Geometria/I Tre Usi delle Matrici.md",
     "Git-Obsidian/Algebra e Geometria/Isometrie/Legami.canvas",
-    "Git-Obsidian/Algebra e Geometria/Applicazioni Alla Geometria Analitica.md",
-    "Git-Obsidian/Algebra e Geometria/Isometrie/1 - Introduzione Isometrie.md",
-    "Git-Obsidian/Algebra e Geometria/Isometrie/3 - Isometrie nelle Dimensioni.md",
     "Untitled.canvas",
     "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/attachements/Pasted image 20240219172214.png",
-    "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/attachements/Pasted image 20240220175558.png",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Cammini Minimi/attachements",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Cammini Minimi",
     "Git-Obsidian/Algebra e Geometria/Isometrie",
