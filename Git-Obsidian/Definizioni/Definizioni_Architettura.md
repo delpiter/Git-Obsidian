@@ -169,3 +169,7 @@ I termini "*code point*" e "*carattere*" non sono sinonimi
 >Tecnica che abbina core più potenti a core meno potenti
 >- Utilizzata nelle ultime `CPU` da parte di Intel (*Performance core* - *Efficiency Core*)
 
+## Scalabilità
+---
+>[!info] Definizione
+>Una architettura è detta ***scalabile*** se le sue prestazioni aumentano ***aumentando il numero di core***

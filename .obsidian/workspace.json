@@ -4,16 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "11b7f71a17dd8f33",
+        "id": "45d8c4b1b8fd9d38",
         "type": "tabs",
         "children": [
           {
-            "id": "cecab81b6f6c95c7",
+            "id": "846c6b7f3ce036af",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/Alcune Architetture.md",
+                "file": "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/Architetture Parallele.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fe0c3e675a890a9d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git-Obsidian/Definizioni/Definizioni_Architettura.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/Alcune Architetture.md",
+                "file": "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/Architetture Parallele.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/Alcune Architetture.md",
+                "file": "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/Architetture Parallele.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/Alcune Architetture.md"
+                "file": "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/Architetture Parallele.md"
               }
             }
           },
@@ -168,25 +180,29 @@
       "callout-manager:Insert Callout": false
     }
   },
-  "active": "cecab81b6f6c95c7",
+  "active": "846c6b7f3ce036af",
   "lastOpenFiles": [
-    "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/attachements/M1-Architecture.png",
-    "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/Alcune Architetture.md",
+    "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/attachements/Classificazione di sistemi Paralleli.png",
+    "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/Architetture Parallele.md",
+    "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/attachements/Flynn Taxonomy.png",
+    "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/attachements/Speed-up.png",
     "Git-Obsidian/Definizioni/Definizioni_Architettura.md",
+    "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/attachements/FatTree.png",
+    "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/attachements/Toroide3D.png",
+    "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/attachements/3Dtorus.gif",
+    "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/attachements/Topology4.png",
+    "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/attachements/Topology3.png",
+    "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/attachements/Topology2.png",
+    "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/attachements/Topology1.png",
+    "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/Alcune Architetture.md",
+    "Git-Obsidian/Architettura degli Elaboratori/Storia dei Calcolatori.md",
+    "Git-Obsidian/Architettura degli Elaboratori/Introduzione alle Basi.md",
+    "Git-Obsidian/Architettura degli Elaboratori/Appunti.md",
     "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/Predizione di Salto.md",
-    "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/attachements/Corei7DataPath.png",
-    "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/attachements/Sandy-Bridge.png",
-    "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/attachements/Meldtown-Spectre.png",
     "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/Pipelining.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Max Flow/Edmonds-Karp.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Max Flow/Ford-Fulkersron.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Max Flow/Problema.md",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Max Flow/attachements/Ford-Fulkerson2.png",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Max Flow/attachements/Ford-Fulkerson1.png",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Max Flow/attachements/Revisited.png",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Max Flow/attachements/FlowExample.png",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Max Flow/attachements/Grafo Residuo.png",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Max Flow/attachements/Screenshot 2024-06-10 111745.png",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Max Flow/attachements",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Max Flow/Struttura Max Flow.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Max Flow",
@@ -203,11 +219,7 @@
     "Git-Obsidian/Algebra e Geometria/Applicazioni/1 - Applicazioni Lineari.md",
     "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/4 - Forme Parametriche e Cartesiane.md",
     "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/5 - Intersezione e Somma di Sottospazi.md",
-    "Git-Obsidian/Algebra e Geometria/Applicazioni/10 - Criterio di Diagonalizzabilità.md",
-    "Git-Obsidian/Algebra e Geometria/Applicazioni/4 - Isomorfismo.md",
-    "smart-chats/UNTITLED CHAT 2024-06-05 15 30 50.md",
     "smart-chats",
-    "Git-Obsidian/Algebra e Geometria/Applicazioni/5 - Matrici di Applicazioni Lineari.md",
     "Git-Obsidian/Algebra e Geometria/Isometrie/Legami.canvas",
     "Untitled.canvas",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Cammini Minimi/attachements",
