@@ -162,3 +162,10 @@ I termini "*code point*" e "*carattere*" non sono sinonimi
 ---
 >[!info] Definizione
 >Un ***benchmark*** è un insieme di ***programmi di prova*** rappresentativi di una particolare classe di applicazioni
+
+## Cluster
+---
+>[!info] Definizione
+>Tecnica che abbina core più potenti a core meno potenti
+>- Utilizzata nelle ultime `CPU` da parte di Intel (*Performance core* - *Efficiency Core*)
+

@@ -46,7 +46,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "big",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -170,9 +170,11 @@
   },
   "active": "cecab81b6f6c95c7",
   "lastOpenFiles": [
-    "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/attachements/Corei7DataPath.png",
+    "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/attachements/M1-Architecture.png",
     "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/Alcune Architetture.md",
+    "Git-Obsidian/Definizioni/Definizioni_Architettura.md",
     "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/Predizione di Salto.md",
+    "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/attachements/Corei7DataPath.png",
     "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/attachements/Sandy-Bridge.png",
     "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/attachements/Meldtown-Spectre.png",
     "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/Pipelining.md",
@@ -185,7 +187,6 @@
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Max Flow/attachements/FlowExample.png",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Max Flow/attachements/Grafo Residuo.png",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Max Flow/attachements/Screenshot 2024-06-10 111745.png",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Max Flow/attachements/Cut.png",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Max Flow/attachements",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Max Flow/Struttura Max Flow.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Max Flow",
@@ -207,7 +208,6 @@
     "smart-chats/UNTITLED CHAT 2024-06-05 15 30 50.md",
     "smart-chats",
     "Git-Obsidian/Algebra e Geometria/Applicazioni/5 - Matrici di Applicazioni Lineari.md",
-    "Git-Obsidian/Algebra e Geometria/Risoluzione di Sistemi.md",
     "Git-Obsidian/Algebra e Geometria/Isometrie/Legami.canvas",
     "Untitled.canvas",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Cammini Minimi/attachements",
