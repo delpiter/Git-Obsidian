@@ -113,8 +113,8 @@ Scomponiamo la sommatoria:
 $$
 \begin{array}
 \ \underbrace{ \displaystyle\sum_{i=1}^n 1 }_{ n } + \displaystyle\sum_{i=1}^n \frac{i}{m} - \underbrace{ \displaystyle\sum_{i=1}^n \frac{1}{m} }_{ \frac{n}{m} } \\
-n+\displaystyle\frac{1}{m}\displaystyle\sum_{i=1}^ni + \frac{n}{m} \\
-n+\displaystyle\frac{1}{m}\cdot \displaystyle{\frac{n(n+1)}{2}} + \frac{n}{m} 
+n+\displaystyle\frac{1}{m}\displaystyle\sum_{i=1}^ni - \frac{n}{m} \\
+n+\displaystyle\frac{1}{m}\cdot \displaystyle{\frac{n(n+1)}{2}} - \frac{n}{m} 
 \end{array}
 $$
 

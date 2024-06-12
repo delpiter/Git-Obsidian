@@ -116,6 +116,8 @@ Istanze **grandi uguali** possono avere tempi di esecuzione **molto diversi**
 >>Un indice $i$ che indica la posizione dell'elemento $k$ all'***interno dell'array***
 >>Ritorna $-1$ se $k$ ***non è presente nella lista***
 
+^7830b9
+
 ```pseudo
 	\begin{algorithm}
 	\caption{Ricerca Sequenziale}
@@ -156,3 +158,4 @@ Non abbiamo informazione sulla *probabilità con cui si presentano i valori* nel
 >[!done] Possiamo quindi concludere che
 >$$T_{\{ Avj \}}(n)=\sum_{i=1}^np_{i}T(i)=\frac{1}{n}\sum_{i=0}^ni=\frac{1}{\cancel{ n }} \displaystyle{\frac{\cancel{ n }(n+1)}{2}}=\Theta(n)$$
 
+![[Recursive Functions]]
