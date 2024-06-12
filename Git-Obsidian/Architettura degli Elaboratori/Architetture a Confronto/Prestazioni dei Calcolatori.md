@@ -117,13 +117,13 @@ $$
 >La ***Legge di Amdhal*** afferma che il miglioramento delle prestazioni che si ottiene in un sistema di elaborazione accelerando un ***qualsiasi sottoinsieme*** del calcolatore è ***proporzionale*** alla percentuale  di tempo per cui quel sottoinsieme è ***utilizzato***
 >>[!done] Formula
 >>$$T_{es.finale} =\displaystyle{\frac{p\cdot T_{es.iniziale}}{a}}+(1-p)\cdot T_{es.iniziale}$$
->>*$p$ è l'a percentuale di tempo utilizzata dal sottoinsieme migliorato*
+>>*$p$ è la percentuale di tempo utilizzata dal sottoinsieme migliorato*
 >>*$a$ è il fattore di accelerazione*
 >
 >Si può vedere come una comune ***media pesata***
 
 ##### Esempio
->*Modificando l'unità che esegue le operazioni in virgola mobile (`FPU`) si riducie a $\frac{1}{10}$ il tempo necessario per eseguire le stesse*
+>*Modificando l'unità che esegue le operazioni in virgola mobile (`FPU`) si riduce a $\frac{1}{10}$ il tempo necessario per eseguire le stesse*
 >*Si supponga che del tempo di esecuzione solo il $40$% venga utilizzato per eseguire operazioni in virgola mobile*
 
 $$

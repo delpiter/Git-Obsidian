@@ -92,7 +92,7 @@ $$
 Effettuo il cambiamento di base
 - $4568.1875_{10} = 1000111011000.0011_{2}$
 Normalizzo la mantissa
-- $\underbrace{ 1.\overbrace{0001110110000011}^{\text{Fraction}} }_{ \text{Significant} } \times 2^12$
+- $\underbrace{ 1.\overbrace{0001110110000011}^{\text{Fraction}} }_{ \text{Significant} } \times 2^{12}$
 Esprimo l'esponente in eccesso $127$
 - $12+127 = 139 \implies 10001011$
 
