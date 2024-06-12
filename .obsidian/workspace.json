@@ -4,77 +4,29 @@
     "type": "split",
     "children": [
       {
-        "id": "39e2fce1332e1f9e",
+        "id": "f3e8c99103e43e5f",
         "type": "tabs",
         "children": [
           {
-            "id": "f4f6aadbda067f57",
+            "id": "d0c15b2d490b0c1b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Obsidian/Architettura degli Elaboratori/Algebra di Bool e Logica Digitale/Algebra di Bool.md",
+                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Confronto fra Algoritmi/Notazioni.md",
                 "mode": "preview",
                 "source": false
               }
             }
           },
           {
-            "id": "64b4e9a4b2458f21",
+            "id": "c22d1db85674f6fa",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/Prestazioni dei Calcolatori.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f53efa57b2614ba5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git-Obsidian/Architettura degli Elaboratori/Rappresentazione dell'Informazione/Il Calcolatore e i Numeri Binari.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6c1fe3df42eadb49",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git-Obsidian/Architettura degli Elaboratori/Rappresentazione dell'Informazione/Numeri Floating-Point.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8e9507eeaf45a2c1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git-Obsidian/Architettura degli Elaboratori/Assembly/Istruzioni IA-32.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c3da1d5d0877861f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git-Obsidian/Architettura degli Elaboratori/Algebra di Bool e Logica Digitale/Logica Digitale.md",
-                "mode": "preview",
+                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Confronto fra Algoritmi/Complessità di Algoritmi.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -131,7 +83,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 269.5
+    "width": 269.5,
+    "collapsed": true
   },
   "right": {
     "id": "3561446b8c4d05ef",
@@ -147,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/Prestazioni dei Calcolatori.md",
+                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Confronto fra Algoritmi/Complessità di Algoritmi.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/Prestazioni dei Calcolatori.md",
+                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Confronto fra Algoritmi/Complessità di Algoritmi.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -187,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/Prestazioni dei Calcolatori.md"
+                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Confronto fra Algoritmi/Complessità di Algoritmi.md"
               }
             }
           },
@@ -229,18 +182,34 @@
       "callout-manager:Insert Callout": false
     }
   },
-  "active": "64b4e9a4b2458f21",
+  "active": "c22d1db85674f6fa",
   "lastOpenFiles": [
+    "Git-Obsidian/Algoritmi e Strutture Dati/Dimostrazioni Algoritmi e Strutture dati.pdf",
+    "Git-Obsidian/Algoritmi e Strutture Dati/Confronto fra Algoritmi/Notazioni.md",
+    "Git-Obsidian/Algoritmi e Strutture Dati/Confronto fra Algoritmi/Confronto e Pseudocodice.md",
+    "Git-Obsidian/Algoritmi e Strutture Dati/Confronto fra Algoritmi/Complessità di Algoritmi.md",
+    "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/BUS dei Calcolatori.md",
+    "Git-Obsidian/Architettura degli Elaboratori/Algebra di Bool e Logica Digitale/Circuiti Sequenziali.md",
+    "Git-Obsidian/Architettura degli Elaboratori/Algebra di Bool e Logica Digitale/Circuiti Combinatori.md",
+    "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Interfacciamento di Periferiche.md",
+    "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Correzione di Errori.md",
+    "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Cache.md",
+    "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Motherboard.md",
+    "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Le Periferiche.md",
+    "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/La CPU.md",
+    "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/Tipologie di Architetture.md",
+    "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/Predizione di Salto.md",
+    "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/Alcune Architetture.md",
+    "Git-Obsidian/Architettura degli Elaboratori/Assembly/Istruzione Assembly.md",
+    "Git-Obsidian/Architettura degli Elaboratori/Assembly/Il Livello ISA.md",
+    "Git-Obsidian/Architettura degli Elaboratori/Assembly/IA-32.md",
+    "Git-Obsidian/Architettura degli Elaboratori/Assembly/I Tipi di Dati.md",
+    "Git-Obsidian/Architettura degli Elaboratori/Assembly/Istruzioni IA-32.md",
+    "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/Prestazioni dei Calcolatori.md",
     "Git-Obsidian/Architettura degli Elaboratori/Rappresentazione dell'Informazione/Il Calcolatore e i Numeri Binari.md",
     "Git-Obsidian/Architettura degli Elaboratori/Rappresentazione dell'Informazione/Numeri Floating-Point.md",
-    "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/Prestazioni dei Calcolatori.md",
     "Git-Obsidian/Architettura degli Elaboratori/Algebra di Bool e Logica Digitale/Algebra di Bool.md",
     "Git-Obsidian/Architettura degli Elaboratori/Algebra di Bool e Logica Digitale/Logica Digitale.md",
-    "Git-Obsidian/Architettura degli Elaboratori/Assembly/Istruzioni IA-32.md",
-    "Git-Obsidian/Architettura degli Elaboratori/Rappresentazione dell'Informazione/Mascherature dei Bit.md",
-    "Git-Obsidian/Architettura degli Elaboratori/Assembly/Istruzione Assembly.md",
-    "Git-Obsidian/Definizioni/Definizioni_Architettura.md",
-    "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/Architetture Parallele.md",
     "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/attachements/Classificazione di sistemi Paralleli.png",
     "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/attachements/Flynn Taxonomy.png",
     "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/attachements/Speed-up.png",
@@ -251,24 +220,8 @@
     "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/attachements/Topology3.png",
     "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/attachements/Topology2.png",
     "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/attachements/Topology1.png",
-    "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/Alcune Architetture.md",
-    "Git-Obsidian/Architettura degli Elaboratori/Storia dei Calcolatori.md",
-    "Git-Obsidian/Architettura degli Elaboratori/Introduzione alle Basi.md",
-    "Git-Obsidian/Architettura degli Elaboratori/Appunti.md",
-    "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/Predizione di Salto.md",
-    "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/Pipelining.md",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Max Flow/Edmonds-Karp.md",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Max Flow/Ford-Fulkersron.md",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Max Flow/Problema.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Max Flow/attachements",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Max Flow/Struttura Max Flow.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Max Flow",
-    "Git-Obsidian/Architettura degli Elaboratori/Assembly/Registri.md",
-    "Git-Obsidian/Architettura degli Elaboratori/Assembly/Il Livello ISA.md",
-    "Git-Obsidian/Architettura degli Elaboratori/Assembly/Istruzioni IA-32 Speciali.md",
-    "Git-Obsidian/Algebra e Geometria/Applicazioni/2 - Teorema del Rango.md",
-    "Git-Obsidian/Algebra e Geometria/Basi dell'algebra/3 - Teoremi su Spazi Vettoriali.md",
-    "Git-Obsidian/Algebra e Geometria/Applicazioni/9 - Matrici Diagonali.md",
     "smart-chats",
     "Git-Obsidian/Algebra e Geometria/Isometrie/Legami.canvas",
     "Untitled.canvas",
@@ -278,7 +231,6 @@
     "Git-Obsidian/Algoritmi e Strutture Dati/Programmazione Dinamica/attachements",
     "Git-Obsidian/Algebra e Geometria/Frome Bilineari e Prodotti Scalari",
     "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/attachements",
-    "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto",
     "Git-Obsidian/Algoritmi e Strutture Dati/Untitled.canvas",
     "Untitled 2.canvas",
     "Untitled 1.canvas"

@@ -105,3 +105,54 @@ Istanze **grandi uguali** possono avere tempi di esecuzione **molto diversi**
 
 >[!tip] Caso Medio
 > Il caso medio lo si ha con riferimento ***all'intero universo di input possibili***, lo si può identificare con **metodi statistici**, spesso complessi.
+
+#### Esempio: Ricerca Sequenziale
+>[!info] Problema
+>>[!abstract] Input
+>>Un array di valori di lunghezza $n$
+>>Un valore $k$ da cercare nell'*array*
+>
+>>[!caution] Output
+>>Un indice $i$ che indica la posizione dell'elemento $k$ all'***interno dell'array***
+>>Ritorna $-1$ se $k$ ***non è presente nella lista***
+
+```pseudo
+	\begin{algorithm}
+	\caption{Ricerca Sequenziale}
+	\begin{algorithmic}
+\Procedure{ProceduralSearch}{$ k,v[n] $}
+\For{$ i=1 \to n $}
+  \If{$ v[i]==val  $}
+	  \Return $ i $
+ \EndIf
+ \EndFor
+ \Return $ -1 $
+ \EndProcedure
+	\end{algorithmic}
+	\end{algorithm}
+```
+
+>[!done] Caso Ottimo
+>Nel ***Caso Ottimo*** l'elemento è all'inizio della lista e viene trovato alla prima iterazione
+>Quindi:
+>$$O(1)$$
+
+>[!fail] Caso Pessimo
+>Nel ***Caso Pessimo*** l'elemento $k$ non è presente nella lista, oppure è presente nell'ultima posizione.
+>Quindi si ***itera fra tutti gli elementi***
+>$$\Theta(n)$$
+
+>[!tip] Caso Medio
+> È necessario fare una media su tutti i possibili casi
+> - Serve fare una ***analisi statistica***
+
+##### Dimostrazione
+Non abbiamo informazione sulla *probabilità con cui si presentano i valori* nella lista, dobbiamo fare delle ***ipotesi semplificative***
+
+> *Assumiamo* che l'elemento sia sempre presente
+
+>*Assumiamo* che la probabilità $p_{i}$ che l'elemento cercato si trovi in posizione $i\in{\{ 1,\dots,n \}}$ sia $p_{i}=\frac{1}{n}$ per ogni $i$
+
+>[!done] Possiamo quindi concludere che
+>$$T_{\{ Avj \}}(n)=\sum_{i=1}^np_{i}T(i)=\frac{1}{n}\sum_{i=0}^ni=\frac{1}{\cancel{ n }} \displaystyle{\frac{\cancel{ n }(n+1)}{2}}=\Theta(n)$$
+
