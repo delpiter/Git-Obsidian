@@ -75,7 +75,7 @@ Metti insieme gli elementi di $S_{1},S_{2}$ ottenendo un unico vettore $S$ *ordi
 > L'operazione di Merge è quella che effettivamente va a ordinare i singoli elementi
 
 Si controllano i numeri coppia a coppia nei due sottovettori
-- Il più piccolo fra i due viene "*spostato*" dal **sottovettori**, all'**vettore ordinato**
+- Il più piccolo fra i due viene "*spostato*" dal **sottovettore**, all'**vettore ordinato**
 - Continua fino a che i due sottovettori sono svuotati
 
 ## Costo Computazionale
