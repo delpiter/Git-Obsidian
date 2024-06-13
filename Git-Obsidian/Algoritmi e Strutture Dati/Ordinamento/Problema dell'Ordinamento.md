@@ -1,12 +1,14 @@
 ## Ordinamento
 ---
->[!input]
->Una sequenza di $n$ numeri $<a_{1},a_{2},\dots,a_{n}>$
-
->[!done] Output
->I numeri ricevuti in input ***ordinati*** dal più *piccolo* al più *grande*, ovvero:
->$$<a_{\pi(1)},a_{\pi(2)},\dots,a_{\pi(n)}>\text{ dove } a_{\pi(i)}\leq a_{\pi(i+1)}$$
->$\pi$ è una opportuna permutazione degli indici $1,\dots,n$
+>[!Problema] Problema dell' Ordinamento
+>>[!abstract] Input
+>>Una sequenza di $n$ numeri $<a_{1},a_{2},\dots,a_{n}>$
+>
+>
+>>[!caution] Output
+>>I numeri ricevuti in input ***ordinati*** dal più *piccolo* al più *grande*, ovvero:
+>>$$<a_{\pi(1)},a_{\pi(2)},\dots,a_{\pi(n)}>\text{ dove } a_{\pi(i)}\leq a_{\pi(i+1)}$$
+>>$\pi$ è una opportuna permutazione degli indici $1,\dots,n$
 
 >[!tip] Ordinamento
 >Ordinare un insieme di elementi significa identificare una ***opportuna permutazione*** degli indici del vettore tali per cui *riposizionando gli elementi del vettore* in accordo con la ***permutazione*** si ottiene un vettore ordinato
