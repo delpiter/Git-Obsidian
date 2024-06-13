@@ -42,20 +42,37 @@
 >>[!done] Asymptotically Optimal
 >>Si dice dunque che algoritmi come *merge sort* e *heap sort* sono ***asintoticamente ottimali*** e non esiste alcun algoritmo comparison sort che è più veloce di un altro per più di un fattore costante
 
-#### Esempio
+>[!abstract] Limite inferiore per il caso pessimo
+>Possiamo rappresentare un algoritmo di Sorting con un ***albero decisionale***.
+>>[!Fact] Arrivati ad una foglia l'algoritmo ha ***stabilito un ordinamento***
+
+Poiché ogni algoritmo di sort "***corretto***" deve essere in grado di produrre qualsiasi *permutazione degli indici del suo input*
+- Ciascuna delle $n!$ permutazioni di $n$ elementi ***deve apparire come almeno una delle foglie*** dell'albero decisionale
+
+>[!caution] Lunghezza del cammino più lungo
+>La lunghezza del *cammino più lungo* dalla radice a una qualsiasi foglia di un albero decisionale rappresenta il ***numero di confronti nel caso pessimo***. 
+#### Dimostrazione
 > $n = 3 \implies \{ a_{1},a_{2},a_{3} \}$
 
-![[Pasted_image_20240306175731-removebg-preview.png]]
-*Rappresentato tramite un albero binario*
+![[Lower Bound for Comparison Sort.png]]
+>*Rappresentato tramite un albero binario*
 
-Nell'esempio, $3$ elementi
-- $3! = 6$: Numero di foglie dell'albero dei confronti
-	- Ogni cammino dalla radice ad una foglia rappresenta un ordinamento
-	- Ci sono $n!$ ordinamenti possibili
+Consideriamo un albero decisionale di altezza $h$ con $l$ foglie *raggiungibili*
+- Poiché, come abbiamo detto prima, ciascuna delle $n!$ permutazioni ***deve comparire come una o più foglie***, possiamo assumere:
+
+$$
+n!\leq l
+$$
 
 >[!question] Quanto deve essere alto un albero per avere $n!$ foglie?
 
 Un [[Gli Alberi Binari#Albero Binario|albero binario]] alto $h$ ha al massimo $2^h$ foglie
+Quindi per quanto detto prima:
+
+$$
+n!\leq l\leq2^h
+$$
+
 - Dobbiamo avere $2^h\geq n!$
 - Per la formula di Stirling: $n! >\left( \frac{n}{e} \right)^n, e=2.17\dots$
 

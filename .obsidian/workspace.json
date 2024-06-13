@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento/Problema dell'Ordinamento.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               }
             }
@@ -130,7 +130,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 269.5
+    "width": 269.5,
+    "collapsed": true
   },
   "right": {
     "id": "3561446b8c4d05ef",
@@ -230,12 +231,13 @@
   },
   "active": "e8733d89340c57fa",
   "lastOpenFiles": [
+    "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento/attachements/Lower Bound for Comparison Sort.png",
+    "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento/Problema dell'Ordinamento.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Heap.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento/Heap Sort.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento/Insertion Sort.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento/Merge Sort.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento/Quick Sort.md",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento/Problema dell'Ordinamento.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Confronto fra Algoritmi/Complessità di Algoritmi.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Dimostrazioni Algoritmi e Strutture dati.pdf",
     "Git-Obsidian/Algoritmi e Strutture Dati/Problemi e Algoritmi.md",
@@ -259,7 +261,6 @@
     "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Motherboard.md",
     "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Le Periferiche.md",
     "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/La CPU.md",
-    "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/Tipologie di Architetture.md",
     "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/attachements/Classificazione di sistemi Paralleli.png",
     "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/attachements/Flynn Taxonomy.png",
     "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/attachements/Speed-up.png",
@@ -267,7 +268,6 @@
     "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/attachements/Toroide3D.png",
     "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/attachements/3Dtorus.gif",
     "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/attachements/Topology4.png",
-    "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/attachements/Topology3.png",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Max Flow/attachements",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Max Flow",
     "smart-chats",
