@@ -119,14 +119,17 @@ Ogni dispositivo è collegato a tutte $16$ le linee
 >- $20$ linee *indirizzo*
 >- $2$ linee per *lettura/scrittura* in memoria
 >- $2$ linee per *lettura/scrittura* di $I/O$
->- Alcune linee per interrupt e #add_links DMA
+>- Alcune linee per [[Interfacciamento di Periferiche#Polling e Interrupt|polling]] e [[Interfacciamento di Periferiche#DMA|DMA]]
 >
 >In totale $63$ linee
 
 >[!abstract] BUS *ISA*
 >***I***ndustry ***S***tandard ***A***rchitecture
 >Quando *IBM* decise di *restrutturare* il `BUS` ormai obsoleto altre industrie reagirono e adottarono uno ***standard proprio***
->Il `BUS` *ISA* è sostanzialmente una variazione del `PC/AT` una variante del primo `BUS PC/IBM`
+>Il `BUS` *ISA* è sostanzialmente una variazione del `PC/AT`, una variante del primo `BUS PC/IBM`
+>>[!example] Caratteristiche Principali
+>>`BUS` di tipo [[#BUS Sincroni e Asincroni|sincrono]]
+>>Frequenza di funzionamento: $8.33MHz$
 
 >[!warning] Problema: La larghezza di banda del `BUS ISA` ($8.33MHz$) ***non era sufficiente*** per molte applicazioni e periferiche
 
@@ -205,7 +208,7 @@ Da `USB` $3.1$ è disponibile anche lo standard per cavi e connettori `USB-C`
 Presto abbandonato a favore di `USB 3` e ***Thunderbolt***
 
 >[!info] Thunderbolt
->Tecnologia sviluppata da *intel* in collaborazione con *Apple*, che combina i protocolli di trasferimento [[Schede Grafiche#Principali formati|Display Port]] e #add_links PciExpress in un ***unico flusso di dati***
+>Tecnologia sviluppata da *intel* in collaborazione con *Apple*, che combina i protocolli di trasferimento [[Schede Grafiche#Principali formati|Display Port]] e [[#PCI-Express]] in un ***unico flusso di dati***
 
 ## Architetture con BUS PCI
 ---

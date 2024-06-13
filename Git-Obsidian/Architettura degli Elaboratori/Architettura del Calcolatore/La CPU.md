@@ -73,10 +73,10 @@ La `CPU` "*legge*" le istruzioni assembler del ***programma da eseguire dalla me
 
 Le istruzioni sono internamente decodificate e passate all'***unità di controllo***
 L'*unità di controllo* può essere di ***2 tipi***:
-#add_links
-- ***Microprogrammata*** (`CPU CISC`)
+
+- ***Microprogrammata*** (`CPU` [[Tipologie di Architetture#CISC|CISC]])
 	- Ad ogni istruzione `ISA` corrisponde un *microprogramma* che indica la sequenza di *microistruzioni* da eseguire
-- ***Cablata*** (`CPU RISC`)
+- ***Cablata*** (`CPU` [[Tipologie di Architetture#RISC|RISC]])
 	- L'esecuzione avviene attraverso un *circuito digitale sequenziale* che implementa una *macchina a strati*
 
 >[!done] Execute
@@ -104,7 +104,7 @@ Questo chip è dotato di un insieme di *piedini/contatti* che servono al collega
 La tendenza attuale è di portare all'interno delle `CPU` gran parte della circuiteria che in passato stava sulla scheda madre.
 La `CPU` ha:
 - Porte dirette per l'interfacciamento con i canali della memoria principale
-- Porte per le periferiche #add_links PCIe 
+- Porte per le periferiche [[BUS dei Calcolatori#PCI-Express|PCIe]] 
 - Pin per monitoraggio della *temperatura*
 - Pin per il controllo dell'elettricità
 
