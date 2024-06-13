@@ -69,7 +69,7 @@ Ordina gli elementi in $S_{1},S_{2}$ utilizzando il metodo `MergeSort` (ricorsio
 
 Metti insieme gli elementi di $S_{1},S_{2}$ ottenendo un unico vettore $S$ *ordinato*
 
-![[Pasted_image_20240307110009-removebg-preview.png]]
+![[MergeSort.png]]
 
 ### Operazione di Merge
 > L'operazione di Merge è quella che effettivamente va a ordinare i singoli elementi
@@ -86,3 +86,6 @@ $$
 La *complessità* del **Merge Sort** non dipende dalla *configurazione iniziale* dell'array
 - Di conseguenza la complessità è la stessa nei casi *ottimo*, *pessimo* e *medio*
 
+> *Caso speciale dell'[[Recursive Functions#Albero della Ricorsione|albero della ricorsione]]*
+
+![[MergeSortProof.png]]
