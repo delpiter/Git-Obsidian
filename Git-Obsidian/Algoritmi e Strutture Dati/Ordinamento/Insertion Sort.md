@@ -10,7 +10,7 @@
   \State $ key=A[j] $
   \State $ i=j-1 $
   \While{$i>0 \text{ and } A[i]>key$}
-  \State $ A[i+1]=a[i] $
+  \State $ A[i+1]=A[i] $
   \State $ i=i-1 $
   \EndWhile
   \State $ A[i+1]=key $
