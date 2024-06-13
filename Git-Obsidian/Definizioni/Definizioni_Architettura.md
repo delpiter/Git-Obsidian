@@ -21,6 +21,13 @@ Il **firmware** è un software integrato in un componente elettronico in grado d
 >>1. Traduce
 >>2. Salva (generalmente un file in linguaggio oggetto: `.obj` o `.o`)
 >>3. Codice eseguibile in un secondo momento
+>
+>>[!warning] Attenzione
+>>Il traduttore è detto ***compilatore*** quando il linguaggio sorgente è un ***linguaggio di alto livello***
+>>È detto ***assemblatore*** quando il linguaggio sorgente è ***linguaggio assembly***
+>>>[!example] Differenza principale
+>>>Nel primo caso il rapporto istruzione sorgente $\iff$ istruzione macchina è $1$ a molti
+>>>Nel secondo caso è $1$ a $1$
 
 ### Interpretazione
 >[!tip] Definizione
