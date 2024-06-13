@@ -12,9 +12,6 @@
 ### Heap in un Vettore
 >È possibile immaginarsi un heap come una struttura: ***vettore***
 
-
-![[Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/attachements/image-removebg-preview.png]]
-
 Considerando la radice dell'albero come la posizione 1
 - Per ogni nodo in posizione $i$
 	- $\text{left-child}(i) =$ posizione $2i$
@@ -127,6 +124,7 @@ Si può assumere che **metà** del vettore è ***già un heap*** corretto (da *d
 
 In termini algoritmici
 - Sostituire una funzione costante ($\Theta(1)$) con una funzione logaritmica ($\Theta(log(n))$)
-- Sostituire una funzione lineare ($\Theta(n)$) con una funzione logaritmica ($\Theta(log(n))$) e 
+- Sostituire una funzione lineare ($\Theta(n)$) con una funzione logaritmica ($\Theta(log(n))$)
 
-È vantaggioso 
+>[!done] *È vantaggioso* 
+

@@ -42,4 +42,5 @@ La **complessità** **computazionale** dell'*heap-sort* nel caso pessimo:
 - $\text{BuildHeap}$ ripete $O(n)$ volte il ciclo interno
 - Si fanno $n-1$ chiamate a $\text{Heapify}$
 - Ogni chiamata costa $O(log(n))$
-- Quindi $\text{Heapsort}$ è $O(nlog(n))$
+
+>[!done] Quindi $\text{Heapsort}$ è$$O(n\cdot log(n))$$

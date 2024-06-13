@@ -38,7 +38,7 @@
               "type": "markdown",
               "state": {
                 "file": "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento/Quick Sort.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               }
             }
@@ -68,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -136,7 +136,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento/Merge Sort.md",
+                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento/Heap Sort.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,7 +153,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento/Merge Sort.md",
+                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento/Heap Sort.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -176,7 +176,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento/Merge Sort.md"
+                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento/Heap Sort.md"
               }
             }
           },
@@ -218,17 +218,22 @@
       "callout-manager:Insert Callout": false
     }
   },
-  "active": "32c1bffd064c8565",
+  "active": "37f2e150dee09e05",
   "lastOpenFiles": [
-    "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento/attachements/MergeSortProof.png",
+    "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Heap.md",
+    "Git-Obsidian/Algoritmi e Strutture Dati/Confronto fra Algoritmi/Confronto e Pseudocodice.md",
+    "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Alberi/Gli Alberi Binari.md",
+    "Git-Obsidian/Algoritmi e Strutture Dati/Confronto fra Algoritmi/Notazioni.md",
+    "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento/Quick Sort.md",
+    "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento/attachements/QuickSortExample.png",
+    "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento/attachements/QuickSortProof.png",
     "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento/Merge Sort.md",
+    "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento/attachements/MergeSortProof.png",
     "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento/attachements/MergeSort.png",
     "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento/Problema dell'Ordinamento.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento/Insertion Sort.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento/attachements/Lower Bound for Comparison Sort.png",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Heap.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento/Heap Sort.md",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento/Quick Sort.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Confronto fra Algoritmi/Complessità di Algoritmi.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Dimostrazioni Algoritmi e Strutture dati.pdf",
     "Git-Obsidian/Algoritmi e Strutture Dati/Problemi e Algoritmi.md",
@@ -239,10 +244,7 @@
     "Git-Obsidian/Programmazione/Funzioni/attachements/Recursion Tree.png",
     "Git-Obsidian/Programmazione/Funzioni/attachements/Pasted image 20240612163009.png",
     "Git-Obsidian/Programmazione/Funzioni/attachements",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Alberi/Gli Alberi Binari.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Divide et Impera.md",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Confronto fra Algoritmi/Notazioni.md",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Confronto fra Algoritmi/Confronto e Pseudocodice.md",
     "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/BUS dei Calcolatori.md",
     "Git-Obsidian/Architettura degli Elaboratori/Algebra di Bool e Logica Digitale/Circuiti Sequenziali.md",
     "Git-Obsidian/Architettura degli Elaboratori/Algebra di Bool e Logica Digitale/Circuiti Combinatori.md",
@@ -255,8 +257,6 @@
     "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/attachements/Classificazione di sistemi Paralleli.png",
     "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/attachements/Flynn Taxonomy.png",
     "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/attachements/Speed-up.png",
-    "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/attachements/FatTree.png",
-    "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/attachements/Toroide3D.png",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Max Flow/attachements",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Max Flow",
     "smart-chats",

@@ -16,7 +16,7 @@
 
 Il numero di elementi $n$:
 $$
-n=(1+2+4+\dots+2^{h-1})+1 = \displaystyle{\frac{2^{h+1}-1}{2-1}}+1= (2^h-1)+1 = 2^h
+n=(1+2+4+\dots+2^{h-1})+1 = \displaystyle{\frac{2^{h}-1}{2-1}}+1= (2^h-1)+1 = 2^h
 $$
 >[!example] Se il livello inferiore è pieno
 

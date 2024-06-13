@@ -65,7 +65,7 @@ Quando noto che `j<i` ho separato con successo il vettore in due sottovettori
 - Il sottovettore di sinistra contenente solo valori $\leq$ *pivot*
 - Il sottovettore di destra contenente solo valori $>$ *pivot*
 
-![[Pasted_image_20240307131522-removebg-preview.png]]
+![[QuickSortExample.png]]
 
 ## Costo Computazionale
 ---
@@ -102,7 +102,7 @@ Otteniamo la seguente equazione ricorsiva
 $$
 T(n) = T(n/10)+T(9n/10)+\Theta(n)
 $$
-![[Pasted image 20240307142205.png]]
+![[QuickSortProof.png]]
 *Albero della ricorsione del quick sort*
 
 Possiamo notare come la parte sinistra dell'albero si concluda con una altezza di solo:
