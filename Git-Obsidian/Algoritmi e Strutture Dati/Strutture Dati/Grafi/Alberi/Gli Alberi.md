@@ -20,7 +20,7 @@
 - Un nodo senza successori è detto ***foglia***
 - La ***profondità di un nodo*** è la lunghezza del cammino dalla radice al nodo
 - L'***altezza di un nodo*** è la massima lunghezza del cammino dal nodo a una foglia discendente del nodo
-- L'***altezza di un albero*** è l'altezza della nodo radice
+- L'***altezza di un albero*** è l'altezza del nodo radice
 - Un ***livello/strato*** di un albero consiste nell'insieme di tutti i nodi con la stessa *profondità*
 - Il ***numero di livelli*** di un albero è pari alla sua *altezza* +1
 

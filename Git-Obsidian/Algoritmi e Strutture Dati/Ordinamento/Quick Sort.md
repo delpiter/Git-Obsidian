@@ -6,36 +6,31 @@
 	\begin{algorithmic}
 	\Procedure{QuickSort}{$ A[],p,r $}
 	\If{$ p<r  $}
-	  \State $q=$\Call{Pivot}{$A,p,r$}
-	  \State $j=$\Call{Partition}{$A[],p,q,r$}
-	  \State \Call{QuickSort}{$A[],p,j$}
-	  \State \Call{QuickSort}{$A[],j+1,r$}
+	\State \Comment{Partition The subarray around the Pivot}
+	  \State $q=$\Call{Partition}{$A[],p,r$}
+	  \State \Call{QuickSort}{$A[],p,q-1$}
+	  \State \Call{QuickSort}{$A[],q+1,r$}
  \EndIf
 
  \EndProcedure
- \Procedure{Swap}{$A[],i,j  $}
-\State $ tmp =A[i] $
-\State $ A[i]=A[j] $
-\State $ A[j]=tmp $
- \EndProcedure
- \Procedure{Partition}{$ A[],p,q,r $}
- \State $ i=p $
- \State $ j=r $
- \State $ pivot=A[q] $
- \State \Call{Swap}{$A[],p,q$}
- \While{$i<j$}
- \While{$j>p\text{ and }pivot \leq A[j] $}
- \State $ j=j-1 $
- \EndWhile
-  \While{$i>r\text{ and }pivot > A[i] $}
+ \State \Comment{}
+
+ \Procedure{Partition}{$ A[],p,r $}
+ \State $ x = A[r] $
+	\Comment{The pivot}
+ \State $ i=p-1 $
+ 
+ \For{$ j=p \to r-1 $}
+ \If{$ A[j]\leq x  $} 
+ \Comment{Does this element belong on the low side?}
  \State $ i=i+1 $
- \EndWhile
- \If{$ i<j  $}
- \State \Call{Swap}{$A[],i,j$}
+ \State $ \text{exchange }A[i]\text{ with }A[j] $
  \EndIf
- \EndWhile
- \State \Call{Swap}{$A[],p,j$}
- \State \Return $ j $
+ \EndFor
+ \State $ \text{exchange }A[i+1] \text{ with }A[r] $
+ \Comment{The Pivot goes to the right of the low side}
+ \Return $ i+1 $
+ \Comment{Return the index of the pivot}
  \EndProcedure
 	\end{algorithmic}
 	\end{algorithm}
