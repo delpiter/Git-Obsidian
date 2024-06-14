@@ -67,7 +67,7 @@ Prendiamo $n$ come numero di nodi $+1$ di un albero binario
 >[!question] Quanti *binary search tree* esistono con $n$ nodi?
 
 Il numero di *binary search tree* possibili con $n$ nodi è rappresentato con la seguente funzione dei ***Numeri di Catalan***
-- [[Git-Obsidian/Analisi/Definizioni_Analisi#Coefficiente Binomiale|Coefficiente binomiale]]
+- [[Definizioni_Analisi#Coefficiente Binomiale|Coefficiente binomiale]]
 $$
 C_{n}=\displaystyle{\frac{1}{n+1}}\binom{2n}{n}
 $$
