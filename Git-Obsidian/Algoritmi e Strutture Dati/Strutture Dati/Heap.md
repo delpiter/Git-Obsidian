@@ -76,7 +76,7 @@ Si può assumere che **metà** del vettore è ***già un heap*** corretto (da *d
 	\begin{algorithmic}
 \Procedure{BuildHeap}{$ A[] $}
 \State \Call{HeapSize}{A} $=$ \Call{length}{A}
-\For{$ i= \lfloor $\Call{length}{A} $\rfloor \to 1$}
+\For{$ i= \lfloor $\Call{length}{A}/2 $\rfloor \to 1$}
   \State \Call{Heapify}{A,i}
  \EndFor
  \EndProcedure
