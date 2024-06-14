@@ -16,8 +16,8 @@
 	\end{algorithmic}
 	\end{algorithm}
 ```
-![[Heap#Pseudocodice H]]
-![[Heap#Pseudocodice BH]]
+![[Heap#Pseudocodice Heapify]]
+![[Heap#Pseudocodice Build Heap]]
 
 ![Heap Sort (youtube.com)](https://www.youtube.com/watch?v=_bkow6IykGM)
 

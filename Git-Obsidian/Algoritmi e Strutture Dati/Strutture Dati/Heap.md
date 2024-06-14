@@ -26,7 +26,7 @@ Considerando la radice dell'albero come la posizione 1
 	1. **Scambio** il valore appena inserito con il figlio con il valore più *alto*
 3. ***Itero*** il procedimento fino a quando non ottengo nuovamente una struttura ***heap***
 
-#### Pseudocodice H
+#### Pseudocodice Heapify
 
 ```pseudo
 	\begin{algorithm}
@@ -69,7 +69,7 @@ Si può assumere che **metà** del vettore è ***già un heap*** corretto (da *d
 - Poiché elementi singoli possono essere considerati come *heap*
 - La metà dei nodi in un *albero binario quasi completo* sono **foglie**
 
-#### Pseudocodice BH
+#### Pseudocodice Build Heap
 ```pseudo
 	\begin{algorithm}
 	\caption{Build Heap}

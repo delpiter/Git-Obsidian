@@ -20,36 +20,12 @@
             }
           },
           {
-            "id": "ba0d9dd1e122f8f5",
+            "id": "89741c3e41756836",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Alberi/Gli Alberi Binari.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5a5f268625f30567",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git-Obsidian/Definizioni/Definizioni_Analisi.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9d46e71144c258bf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Alberi/Gli Alberi.md",
+                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento/Heap Sort.md",
                 "mode": "preview",
                 "source": false
               }
@@ -123,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Alberi/Gli Alberi Binari.md",
+                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento/Heap Sort.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Alberi/Gli Alberi Binari.md",
+                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento/Heap Sort.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Alberi/Gli Alberi Binari.md"
+                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento/Heap Sort.md"
               }
             }
           },
@@ -205,13 +181,14 @@
       "callout-manager:Insert Callout": false
     }
   },
-  "active": "ba0d9dd1e122f8f5",
+  "active": "89741c3e41756836",
   "lastOpenFiles": [
-    "Git-Obsidian/Definizioni/Definizioni_Analisi.md",
+    "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Heap.md",
+    "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento/Heap Sort.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Alberi/Gli Alberi Binari.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Alberi/Gli Alberi.md",
+    "Git-Obsidian/Definizioni/Definizioni_Analisi.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento/Quick Sort.md",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Heap.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento/Merge Sort.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento/Insertion Sort.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento/Problema dell'Ordinamento.md",
@@ -229,7 +206,6 @@
     "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Interfacciamento di Periferiche.md",
     "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/Tipologie di Architetture.md",
     "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/Prestazioni dei Calcolatori.md",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento/Heap Sort.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Confronto fra Algoritmi/Confronto e Pseudocodice.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Confronto fra Algoritmi/Notazioni.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento/attachements/QuickSortExample.png",
