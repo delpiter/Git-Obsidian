@@ -24,7 +24,7 @@ $$
 ## Circuiti Integrati
 ---
 >[!info] Descrizione
-**>Le porte logiche non vengono prodotte o vendute individualmente, ma in unità chiamate ***Integrated Circuit*** o più generalmente ***chip***
+>Le porte logiche non vengono prodotte o vendute individualmente, ma in unità chiamate ***Integrated Circuit*** o più generalmente ***chip***
 >>[!tldr] Definizione
 >>Un circuito integrato è un pezzo rettangolare di ***silicio*** con dimensioni che variano da pochi $mm^2$ ad alcuni $cm^2$ su cui vengono realizzate le ***porte logiche***
 >
