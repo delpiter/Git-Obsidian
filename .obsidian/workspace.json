@@ -42,9 +42,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "1321be1def9dbf20",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento/Quick Sort.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -95,8 +107,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 269.5,
-    "collapsed": true
+    "width": 269.5
   },
   "right": {
     "id": "3561446b8c4d05ef",
@@ -112,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Alberi/Gli Alberi.md",
+                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento/Quick Sort.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Alberi/Gli Alberi.md",
+                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento/Quick Sort.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Alberi/Gli Alberi.md"
+                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento/Quick Sort.md"
               }
             }
           },
@@ -194,8 +205,9 @@
       "callout-manager:Insert Callout": false
     }
   },
-  "active": "9d46e71144c258bf",
+  "active": "1321be1def9dbf20",
   "lastOpenFiles": [
+    "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Alberi/Gli Alberi.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Alberi/Gli Alberi Binari.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Heap.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento/Quick Sort.md",
@@ -227,7 +239,6 @@
     "Git-Obsidian/Algoritmi e Strutture Dati/Dimostrazioni Algoritmi e Strutture dati.pdf",
     "Git-Obsidian/Algoritmi e Strutture Dati/Problemi e Algoritmi.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Hash/Funzione di Hash.md",
-    "Git-Obsidian/Programmazione/Funzioni/Recursive Functions.md",
     "Git-Obsidian/Programmazione/Funzioni/attachements/Recursion Tree.png",
     "Git-Obsidian/Programmazione/Funzioni/attachements/Pasted image 20240612163009.png",
     "Git-Obsidian/Programmazione/Funzioni/attachements",
