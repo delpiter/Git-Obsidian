@@ -125,7 +125,7 @@ Cioè lineare nella dimensione della rappresentazione del grafo con [[Rappresent
 >- Dato un grafo $G=(V,E)$, la `BFS` scopre tutti i vertici ***raggiungibili*** da un vertice origine $s$
 >- *Calcola* la ***distanza minima*** per ogni vertice raggiungibile
 >- *Calcola* un albero ***breadth first*** contenente tutti i vertici raggiungibili
->- Per ogni vertice $v$ raggiungibile da $s$, il cammino nell'albero ***breadth first*** da $s$ a $v$ corrisponde ad un cammini minimo in $G$
+>- Per ogni vertice $v$ raggiungibile da $s$, il cammino nell'albero ***breadth first*** da $s$ a $v$ corrisponde ad un cammino minimo in $G$
 
 ##### Alberi BFS
 >*Sottografo dei predecessori di $G$*
