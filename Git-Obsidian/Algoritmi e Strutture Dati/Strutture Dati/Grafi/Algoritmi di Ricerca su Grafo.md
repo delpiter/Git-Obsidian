@@ -274,6 +274,7 @@ $$
 >I ***tempi di visita*** hanno una struttura a parentesi
 >- Rappresentando il ***tempo di inizio visita*** di $u$ con una ***parentesi aperta***: $(u$
 >- Rappresentando il ***tempo di fine visita*** di $u$ con una ***parentesi chiusa***: $u)$
+>
 >La storia di inizi e fine visita definisce una espressione ben formata
 >- Le parentesi sono *annidate correttamente*
 
