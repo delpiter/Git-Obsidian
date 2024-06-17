@@ -58,7 +58,7 @@ Ogni vertice $v$
 >[!abstract] Parametri
 >- $V[G]\to$ *Grafo*
 >- $s\to$ *Nodo Sorgente*
->- $color[u]\to$ *Stato di colore* del nodo $u$\
+>- $color[u]\to$ *Stato di colore* del nodo $u$
 >- $d[u]\to$ *Distanza dalla sorgente* del nodo $u$ 
 >- $\pi[u]\to$ Vertice predecessore di $u$
 >- $Q\to$ *Coda* 
