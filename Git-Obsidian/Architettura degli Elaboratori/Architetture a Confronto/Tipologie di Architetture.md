@@ -61,20 +61,13 @@ Esistono diverse tecniche per migliorare le prestazioni di una `CPU`:
 ```mermaid
 mindmap
 root(Aumento delle Prestazioni)
-
-    Aumento della Frequenza di Clock
-
-      Esistono Limiti tecnologici invalicabili
-
-    Parallelismo
-
-        A livello di Istruzione
-
-            Limiti posti dalla struttura del codice
-
-        A livello di Core/Processore
-
-            Limiti Posti dalla struttura del Codice
+	Aumento della Frequenza di Clock
+		Esistono Limiti tecnologici invalicabili
+	Parallelismo
+		A livello di Istruzione
+			Limiti posti dalla struttura del codice
+		A livello di Core/Processore
+			Limiti Posti dalla struttura del Codice
 ```
 >[!caution] Parallelismo a Livello di Core
 > Più core/`CPU` cooperano per la soluzione dello stesso problema

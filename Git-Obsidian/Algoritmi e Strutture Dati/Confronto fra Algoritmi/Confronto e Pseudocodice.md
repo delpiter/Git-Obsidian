@@ -76,6 +76,7 @@ $$
 $$
 \sum^n_{i=0} x^i = \displaystyle{\frac{1}{1-x}}
 $$
+
 >[!tip] Serie Armonica $n\geq 1$
 
 $$
