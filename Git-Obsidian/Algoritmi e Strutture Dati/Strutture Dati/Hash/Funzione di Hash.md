@@ -59,7 +59,7 @@ La probabilità di collisione *cresce in modo sorprendente*
 >>- Ricerca: $\Theta(n)$
 
 
->[!warning] Caso Medio
+>[!caution] Caso Medio
 >>***Simple Uniform Hashing***
 >>La funzione di hash $h$ *suggerisce* una cella del vettore con una ***stessa probabilità*** di un'altra
 

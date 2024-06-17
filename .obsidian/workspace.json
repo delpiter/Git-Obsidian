@@ -4,94 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "83711bb25a7e7a93",
+        "id": "7b826bda1369d119",
         "type": "tabs",
         "children": [
           {
-            "id": "d505f8214a0e8773",
+            "id": "3ff16ab698f18945",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Confronto fra Algoritmi/Confronto e Pseudocodice.md",
+                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Hash/Hash Table.md",
                 "mode": "preview",
                 "source": false
               }
             }
           },
           {
-            "id": "760be4d470b22fcb",
+            "id": "42bdf9ec5c8fe78b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Confronto fra Algoritmi/Notazioni.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3e37c0914acb9d0c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento/Quick Sort.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "64929e51510ea112",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento/Problema dell'Ordinamento.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7fa68e913ccd49ad",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento/Merge Sort.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f7bdea9d2ce95084",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento/Insertion Sort.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cc84f09068517294",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento/Heap Sort.md",
+                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Hash/Funzione di Hash.md",
                 "mode": "preview",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -159,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Confronto fra Algoritmi/Confronto e Pseudocodice.md",
+                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Hash/Funzione di Hash.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -176,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Confronto fra Algoritmi/Confronto e Pseudocodice.md",
+                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Hash/Funzione di Hash.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -199,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Confronto fra Algoritmi/Confronto e Pseudocodice.md"
+                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Hash/Funzione di Hash.md"
               }
             }
           },
@@ -241,16 +182,18 @@
       "callout-manager:Insert Callout": false
     }
   },
-  "active": "d505f8214a0e8773",
+  "active": "42bdf9ec5c8fe78b",
   "lastOpenFiles": [
-    "Git-Obsidian/Algoritmi e Strutture Dati/Confronto fra Algoritmi/Complessità di Algoritmi.md",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento/Heap Sort.md",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento/Insertion Sort.md",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento/Merge Sort.md",
+    "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Hash/Hash Table.md",
+    "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Alberi/Gli Alberi Binari.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento/Problema dell'Ordinamento.md",
+    "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento/Heap Sort.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento/Quick Sort.md",
+    "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento/Merge Sort.md",
+    "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento/Insertion Sort.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Confronto fra Algoritmi/Notazioni.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Confronto fra Algoritmi/Confronto e Pseudocodice.md",
+    "Git-Obsidian/Algoritmi e Strutture Dati/Confronto fra Algoritmi/Complessità di Algoritmi.md",
     "Git-Obsidian/Architettura degli Elaboratori/Algebra di Bool e Logica Digitale/Algebra di Bool.md",
     "Git-Obsidian/Architettura degli Elaboratori/Introduzione alle Basi.md",
     "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/Prestazioni dei Calcolatori.md",
@@ -267,8 +210,6 @@
     "Git-Obsidian/Architettura degli Elaboratori/Algebra di Bool e Logica Digitale/Circuiti Digitali.md",
     "Git-Obsidian/Architettura degli Elaboratori/Algebra di Bool e Logica Digitale/Circuiti Combinatori.md",
     "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Organizzazione della Memoria.md",
-    "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/Architetture Parallele.md",
-    "Git-Obsidian/Architettura degli Elaboratori/Assembly/Registri.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento/attachements/QuickSortExample.png",
     "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento/attachements/QuickSortProof.png",
     "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento/attachements/MergeSortProof.png",
