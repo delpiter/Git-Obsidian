@@ -314,12 +314,19 @@ $$
 ##### Back Edges
 >[!abstract] Definizione
 >$(u,v)$ è un ***back edge*** se connette $u$ ad un antenato $v$ di un albero `DFS`
+>>[!done] In termini di Colori
+>>Se $color[v]=gray \implies$ $(u,v)$ è un ***Back Edge***  
 
 ##### Forward Edges
 >[!tip] Definizione
 >Un ***non-tree-edge*** $(u,v)$ che connette $u$ ad un discendente $v$
 >- Visto anche come una "***shortcut***" nel cammino
+>
+>>[!done] In breve
+>>Se $color[v]=black$ e $d[u]<f[v]\implies(u,v)$ è un ***Forward Edge***
 
 ##### Cross Edges
 >[!tldr] Definizione
 >***Tutti gli altri nodi*** che collegano o due `DFS` *tree* oppure due nodi che ***non sono antenati*** l'un l'altro
+>>[!done] In breve
+>>Se $color[v]=black$ e $d[u]>f[v]\implies (u,v)$ è un ***Cross Edge***
