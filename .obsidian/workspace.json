@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "7b826bda1369d119",
+        "id": "fd2e53862b6f8290",
         "type": "tabs",
         "children": [
           {
-            "id": "3ff16ab698f18945",
+            "id": "3abb2e484d007954",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Hash/Hash Table.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "42bdf9ec5c8fe78b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Hash/Funzione di Hash.md",
+                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Algoritmi di Ricerca su Grafo.md",
                 "mode": "preview",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -100,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Hash/Funzione di Hash.md",
+                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Algoritmi di Ricerca su Grafo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Hash/Funzione di Hash.md",
+                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Algoritmi di Ricerca su Grafo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Hash/Funzione di Hash.md"
+                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Algoritmi di Ricerca su Grafo.md"
               }
             }
           },
@@ -182,8 +169,9 @@
       "callout-manager:Insert Callout": false
     }
   },
-  "active": "42bdf9ec5c8fe78b",
+  "active": "3abb2e484d007954",
   "lastOpenFiles": [
+    "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Hash/Funzione di Hash.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Hash/Hash Table.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Alberi/Gli Alberi Binari.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento/Problema dell'Ordinamento.md",
@@ -209,7 +197,6 @@
     "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/Pipelining.md",
     "Git-Obsidian/Architettura degli Elaboratori/Algebra di Bool e Logica Digitale/Circuiti Digitali.md",
     "Git-Obsidian/Architettura degli Elaboratori/Algebra di Bool e Logica Digitale/Circuiti Combinatori.md",
-    "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Organizzazione della Memoria.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento/attachements/QuickSortExample.png",
     "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento/attachements/QuickSortProof.png",
     "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento/attachements/MergeSortProof.png",

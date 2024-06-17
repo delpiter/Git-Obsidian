@@ -14,7 +14,7 @@
 >
 >>[!tldr] *Depth First  Search*
 >>`BFS`
->>Visita i nodi andando subito il più lontano possibile dalla radice
+>>Visita i nodi andando subito il più ***lontano possibile dalla radice***
 
 ### Breadth First Search
 >[!info] Descrizione
