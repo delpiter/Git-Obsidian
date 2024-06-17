@@ -100,6 +100,9 @@ Ogni vertice $v$
 	\end{algorithmic}
 	\end{algorithm}
 ```
+#### Esempio
+![[BFS-1.png]]
+![[BFS-2.png]]
 
 #### Analisi della Complessità
 >*Dato un grafo* $G=(V,E)$
@@ -113,6 +116,7 @@ Ogni vertice $v$
 >[!info] Sezione 3
 >I vertici vengono *accodati* se il loro ***colore è bianco***
 >- Assumendo che un accodamento/rimozione richieda tempo costante, il costo totale di questa operazione è $O(V)$
+>
 >La *lista di adiacenze* di un vertice **viene percorsa** quando il vertice viene ***rimosso dalla lista***
 >- La *somma delle lunghezze* di tutte le liste è $\Theta(E)$ quindi è richiesto $O(E)$ per *percorrerle tutte*
 
@@ -220,6 +224,9 @@ Algoritmo ricorsivo diviso in due funzioni
 	\end{algorithm}
 ```
 
+#### Esempio
+![[DFS-1.png]]
+![[DFS-2.png]]
 #### Complessità Computazionale
 >[!tldr] Tempo di `CPU`
 >Il ciclo in $DFS$ richiede un tempo $\Theta(V)$, *escludendo* il tempo per eseguire $DFS-Visit$ 
