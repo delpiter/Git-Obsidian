@@ -136,7 +136,7 @@ Ogni dispositivo è collegato a tutte $16$ le linee
 ### BUS PCI
 >[!info] ***P***eripheral ***C***omponent ***I***nterconnect
 >Introdotto da *Intel* nel $1990$ per far fronte alla sempre crescente necessità di ***band width***
->Il `BUS` originale è un `BUS` sincrono con $32$ linee dati e opera a $33MHz$, consentendo una ***band width*** di $133 MB/sec$
+>Il `BUS` originale è un `BUS` *sincrono* e *parallelo* con $32$ linee dati e opera a $33MHz$, consentendo una ***band width*** di $133 MB/sec$
 >Le versioni successive hanno ulteriormente ampliato la banda massima ($528MB/sec$)
 >- Portando a $64$ le linee dati e a $66MHz$ la frequenza di funzionamento
 

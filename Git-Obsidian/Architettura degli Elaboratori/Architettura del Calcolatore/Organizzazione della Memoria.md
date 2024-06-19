@@ -251,6 +251,7 @@ Prima di poter leggere o scrivere la suddetta struttura (*tracce*, *settori*) de
 >Meglio nota come ***Serial ATA*** (`SATA`) rappresenta una rottura radicale con il passato
 >Si passa da un *trasferimento parallelo* di $16$ o $32$ `BIT` per volta
 >- Con cavi piatti a $40/80$ ***fili***
+>
 >Al ***trasferimento seriale*** di $1$ `BIT` per volta su un connettore a $7$ ***fili***
 
 ### Serial ATA
