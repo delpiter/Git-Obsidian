@@ -38,7 +38,7 @@
 \State $ f[u,v]=0 $
 \State $ f[v,u]=c[v,u]=0 $
 \EndFor
-\While{$\exist \text{a path }p\text{ from }s \text{ to }t\text{ in the residual network } G_f$}
+\While{$\exist \text{ a path }p\text{ from }s \text{ to }t\text{ in the residual network } G_f$}
 \State $ c_f(p) =min\{c_f(u,v):(u,v)\in p\}$
 \ForAll{$\text{edge }(u,v)\in p$}
 \State $ f[u,v]=f[u,v]+c_f(p) $
