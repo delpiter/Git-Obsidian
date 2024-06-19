@@ -117,6 +117,8 @@ Passo base, banale:
 
 $T$ è derivato da una unione di $T_{1}$ e $T_{2}$
 - $x$ era radice di $T_{1}$
+> Per ***ipotesi induttiva***:
+- $size[T_{1}]\geq 2^{\text{rank}[T_{1}]}$ e $size[T_{2}]\geq 2^{\text{rank}[T_{2}]}$
 
 >*Per ottenere un albero di rango $r+1$ devo unire due alberi di rango uguale*
 
@@ -124,9 +126,9 @@ Il rango di $T_{1}=r-1$
 
 >$T$ *viene dall'unione di 2 alberi di rango $\text{rank[T]-1}$*
 
-- Se fosse $r$, $\text{size[T]}>\text{size}[T_{1}]\geq2^{\text{rank[T1]}}$ per ***ipotesi induttiva***
+- Se rango di $T_{1}$ fosse $r$, $\text{size[T]}>\text{size}[T_{1}]\geq2^{\text{rank[T1]}}$ per ***ipotesi induttiva***
 
-Il rango di $T_{2}\leq$ rango di $T_{1}$, quindi rango di $T_{2}=r-1$
+Il rango di $T_{2}=$ rango di $T_{1}$, quindi rango di $T_{2}=r-1$
 
 Quindi:
 $$
