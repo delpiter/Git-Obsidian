@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "a3cc9f8ee15011cc",
+        "id": "158cc42e954a6f83",
         "type": "tabs",
         "children": [
           {
-            "id": "127a86a9231172d3",
+            "id": "96a69eefcb8b3a24",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Le Periferiche.md",
+                "mode": "preview",
+                "source": false
+              }
             }
           }
         ]
@@ -42,8 +46,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "frequenza",
-                "matchingCase": false,
+                "query": "",
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -66,8 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 269.5,
-    "collapsed": true
+    "width": 269.5
   },
   "right": {
     "id": "3561446b8c4d05ef",
@@ -83,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Le Periferiche.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Le Periferiche.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -120,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Le Periferiche.md"
+              }
             }
           },
           {
@@ -161,39 +168,39 @@
       "callout-manager:Insert Callout": false
     }
   },
-  "active": "127a86a9231172d3",
+  "active": "96a69eefcb8b3a24",
   "lastOpenFiles": [
-    "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Algoritmi di Ricerca su Grafo.md",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Ordinamento Topologico.md",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Appunti.md",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Insiemi Disgiunti.md",
+    "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Interfacciamento di Periferiche.md",
+    "Git-Obsidian/Architettura degli Elaboratori/Algebra di Bool e Logica Digitale/Arithmetic Logic Unit.md",
+    "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/RAM.md",
     "Git-Obsidian/Architettura degli Elaboratori/Algebra di Bool e Logica Digitale/Algebra di Bool.md",
-    "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/Prestazioni dei Calcolatori.md",
-    "Git-Obsidian/Definizioni/Definizioni_Architettura.md",
+    "Git-Obsidian/Architettura degli Elaboratori/Algebra di Bool e Logica Digitale/Circuiti Combinatori.md",
+    "Git-Obsidian/Architettura degli Elaboratori/Rappresentazione dell'Informazione/Rappresentazione dei Suoni.md",
+    "Git-Obsidian/Architettura degli Elaboratori/Rappresentazione dell'Informazione/Numeri Floating-Point.md",
+    "Git-Obsidian/Architettura degli Elaboratori/Rappresentazione dell'Informazione/Il Calcolatore e i Numeri Binari.md",
+    "Git-Obsidian/Architettura degli Elaboratori/Rappresentazione dell'Informazione/Rappresentazione dei Caratteri.md",
+    "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Schede Grafiche.md",
+    "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/BUS dei Calcolatori.md",
+    "Git-Obsidian/Architettura degli Elaboratori/Algebra di Bool e Logica Digitale/Organizzazione dei Chip di Memoria.md",
+    "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Organizzazione del Calcolatore.md",
+    "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Organizzazione della Memoria.md",
+    "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Motherboard.md",
+    "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Le Periferiche.md",
+    "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Le Memorie.md",
+    "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/La CPU.md",
+    "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Correzione di Errori.md",
+    "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Cache.md",
+    "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/Architetture Parallele.md",
+    "Git-Obsidian/Architettura degli Elaboratori/Algebra di Bool e Logica Digitale/Circuiti Sequenziali.md",
+    "Git-Obsidian/Architettura degli Elaboratori/Storia dei Calcolatori.md",
+    "Git-Obsidian/Architettura degli Elaboratori/Appunti.md",
+    "Git-Obsidian/Architettura degli Elaboratori/Algebra di Bool e Logica Digitale/Logica Digitale.md",
+    "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/Alcune Architetture.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/attachements/DFS-1.png",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/attachements/DFS-2.png",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/attachements/DFS2.png",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/attachements/BFS-2.png",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/attachements/BFS-1.png",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Hash/Funzione di Hash.md",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Hash/Hash Table.md",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Alberi/Gli Alberi Binari.md",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento/Problema dell'Ordinamento.md",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento/Heap Sort.md",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento/Quick Sort.md",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento/Merge Sort.md",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento/Insertion Sort.md",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Confronto fra Algoritmi/Notazioni.md",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Confronto fra Algoritmi/Confronto e Pseudocodice.md",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Confronto fra Algoritmi/Complessità di Algoritmi.md",
-    "Git-Obsidian/Architettura degli Elaboratori/Introduzione alle Basi.md",
-    "Git-Obsidian/Architettura degli Elaboratori/Storia dei Calcolatori.md",
-    "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/Tipologie di Architetture.md",
-    "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/La CPU.md",
-    "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Organizzazione del Calcolatore.md",
-    "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/Alcune Architetture.md",
-    "Git-Obsidian/Architettura degli Elaboratori/Algebra di Bool e Logica Digitale/Logica Digitale.md",
-    "Git-Obsidian/Architettura degli Elaboratori/Assembly/Istruzioni IA-32.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento/attachements/QuickSortExample.png",
     "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento/attachements/QuickSortProof.png",
     "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento/attachements/MergeSortProof.png",

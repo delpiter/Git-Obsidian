@@ -292,7 +292,7 @@ Prima di poter leggere o scrivere la suddetta struttura (*tracce*, *settori*) de
 >*Creato per colmare il divario tra le prestazioni della `CPU` e quello dei dischi*
 
 >[!info] RAID
->***R***edundant ***A***rray of ***I***nexpensive ***D***isk
+>***R***edundant ***A***rray of ***I***ndependent ***D***isk
 >Tecnologia di ***virtualizzazione dello storage*** che combina diversi ***dischi fisici*** in uno o più ***unità logiche***
 >- Può essere gestito dal `SO` (*Software Raid*) o da un ***controller Hardware***
 >- Appare al sistema come un ***disco unico***

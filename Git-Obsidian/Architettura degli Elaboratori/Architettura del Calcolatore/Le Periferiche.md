@@ -136,7 +136,7 @@ Le stampanti laser possono creare punti neri o punti bianchi
 
 >[!abstract] Soluzione
 
-La soluzione più diffusa si chiama ***halftonign***
+La soluzione più diffusa si chiama ***halftoning***
 - Si ***suddivide*** l'immagine in celle di $6\times6$ `PIXEL`
 - In base al ***livello di grigio medio*** della cella verranno *lasciati bianchi* un numero diverso di `PIXEL`
 
