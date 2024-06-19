@@ -43,3 +43,18 @@
 ---
 >[!info] Definizione
 >Il ***tabular method*** è uno dei metodi più basilari usati per *analizzare dei dati* sotto forma di tabella
+
+## Conjunctive Normal Form
+---
+>[!info] Definizione
+>Una ***CNF*** è una formula booleana del tipo:
+>$$(x_{1,1} + x_{1,2} + \dots + x_{1,k_{1}})\cdot(x_{2,1} + x_{2,2} + \dots + x_{2,k_{2}})\cdot_{\dots}\cdot(x_{n,1} + x_{n,2} + \dots + x_{n,k_{n}})$$
+>- $\underbrace{ (x_{1,1} + x_{1,2} + \dots + \underbrace{ x_{1,k_{1}} }_{ \text{Letterale} })U }_{ \text{Congiunto} }$
+
+### K-CNF
+>[!caution] $k$-CNF
+>Una forma booleana del tipo:
+>$$(x_{1,1} + x_{1,2} + \dots + x_{1},k)\cdot(x_{2,1} + x_{2,2} + \dots + x_{2},k)\cdot_{\dots}\cdot(x_{n,1} + x_{n,2} + \dots + x_{n},k)$$
+>>[!done] In breve 
+>>Una ***CNF*** dove in ogni congiunto ci sono lo ***stesso numero di letterali***
+
