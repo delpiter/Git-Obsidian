@@ -41,6 +41,8 @@ Dato un grafo $G$ stabilire se esiste un cammino che percorra tutti gli archi di
 
 >[!tip]  Problema *SAT*
 
+^969e0e
+
 Data una [[Definizioni_Algoritmi#Conjunctive Normal Form|CNF]] $F$ stabilire se $F$ è ***soddisfacibile*** (***SAT***-*isfiability*):
 - Cioè, se esiste un assegnamento di valori $0$ e $1$ alle variabili in $F$ tale per cui il valore di $F$ per quell'assegnamento è $1$
 
@@ -68,3 +70,13 @@ Questi sono [[Definizioni_Algoritmi#Problema di Ottimizzazione|Problemi di Ottim
 >>$g\leq_{p} f$
 
 ![[Reduction.png]]
+
+### Riduzione: Metodologia
+>*Riducendo a $Q$ un qualunque problema $P'$ noto essere in $NPC$, implicitamente si riducono a $Q$ tutti i problemi in $NP$*
+
+>[!abstract] Per dimostrare che un problema $Q$ è in $NPC$ si può:
+
+1. Mostrare che $Q\in NP$
+2. Selezionare un problema $P'\in NPC$
+3. Progettare un algoritmo polinomiale che calcola una funzione $h$ che fa corrispondere ad ogni istanza di $P'$ una istanza di $Q$
+4. Dimostrare che $h$ è tale per cui $x\in P'\iff h(x)\in Q,\quad\forall x$

@@ -4,71 +4,56 @@
     "type": "split",
     "children": [
       {
-        "id": "d4f4bcc02f48aa33",
+        "id": "9762d082f5872e94",
         "type": "tabs",
         "children": [
           {
-            "id": "841b76e8f0529e23",
+            "id": "321bf62edd725265",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Complessità/Classi P e NP.md",
+                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Complessità/SAT e Clique.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "b331f23c24340a7a",
+            "id": "cf434fd8b9395621",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Complessità/attachements/3sat-Clique.png"
+              }
+            }
+          },
+          {
+            "id": "63e9b9fcd57c0c8d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/Architetture Parallele.md",
+                "file": "Git-Obsidian/Markdown Keys.md",
                 "mode": "preview",
                 "source": false
               }
             }
           },
           {
-            "id": "aa91945bfa00a5e0",
+            "id": "c277e8137e668772",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Obsidian/Architettura degli Elaboratori/Assembly/Istruzioni IA-32.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "728987c5fb8aa6c4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git-Obsidian/Architettura degli Elaboratori/Assembly/Istruzioni IA-32 Speciali.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1302803bf8891203",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/Tipologie di Architetture.md",
-                "mode": "preview",
+                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Complessità/Completezza NP.md",
+                "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -95,7 +80,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "RISC",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -115,11 +100,12 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 269.5
+    "width": 269.5,
+    "collapsed": true
   },
   "right": {
     "id": "3561446b8c4d05ef",
@@ -135,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/Tipologie di Architetture.md",
+                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Complessità/SAT e Clique.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/Tipologie di Architetture.md",
+                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Complessità/SAT e Clique.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/Tipologie di Architetture.md"
+                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Complessità/SAT e Clique.md"
               }
             }
           },
@@ -217,18 +203,22 @@
       "callout-manager:Insert Callout": false
     }
   },
-  "active": "1302803bf8891203",
+  "active": "321bf62edd725265",
   "lastOpenFiles": [
+    "Git-Obsidian/Algoritmi e Strutture Dati/Complessità/attachements/3sat-Clique.png",
+    "Git-Obsidian/Algoritmi e Strutture Dati/Complessità/SAT e Clique.md",
+    "Git-Obsidian/Markdown Keys.md",
+    "Git-Obsidian/Algoritmi e Strutture Dati/Complessità/Completezza NP.md",
+    "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/Alcune Architetture.md",
+    "Git-Obsidian/Algoritmi e Strutture Dati/Complessità/Classi P e NP.md",
+    "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/Architetture Parallele.md",
+    "Git-Obsidian/Architettura degli Elaboratori/Assembly/Istruzioni IA-32.md",
     "Git-Obsidian/Architettura degli Elaboratori/Assembly/Istruzioni IA-32 Speciali.md",
+    "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/Tipologie di Architetture.md",
     "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/La CPU.md",
     "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Cache.md",
     "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/Prestazioni dei Calcolatori.md",
-    "Git-Obsidian/Architettura degli Elaboratori/Assembly/Istruzioni IA-32.md",
     "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/Pipelining.md",
-    "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/Alcune Architetture.md",
-    "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/Architetture Parallele.md",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Complessità/Completezza NP.md",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Complessità/Classi P e NP.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Complessità/attachements/Reduction.png",
     "Git-Obsidian/Algoritmi e Strutture Dati/Complessità/attachements",
     "Git-Obsidian/Definizioni/Definizioni_Algoritmi.md",
@@ -244,10 +234,6 @@
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Max Flow/Struttura Max Flow.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Max Flow/Problema.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Max Flow/Edmonds-Karp.md",
-    "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Organizzazione della Memoria.md",
-    "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/BUS dei Calcolatori.md",
-    "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Le Periferiche.md",
-    "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Interfacciamento di Periferiche.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/attachements/DFS-1.png",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/attachements/DFS-2.png",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/attachements/DFS2.png",
@@ -256,7 +242,6 @@
     "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento/attachements/QuickSortExample.png",
     "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento/attachements/QuickSortProof.png",
     "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento/attachements/MergeSortProof.png",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento/attachements/MergeSort.png",
     "Git-Obsidian/Algoritmi e Strutture Dati/Dimostrazioni Algoritmi e Strutture dati.pdf",
     "Git-Obsidian/Programmazione/Funzioni/attachements",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Max Flow/attachements",
