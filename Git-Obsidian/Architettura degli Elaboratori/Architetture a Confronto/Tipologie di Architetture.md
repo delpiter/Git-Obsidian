@@ -65,7 +65,7 @@ root(Aumento delle Prestazioni)
 		Esistono Limiti tecnologici invalicabili
 	Parallelismo
 		A livello di Istruzione
-			Limiti posti dalla struttura del codice
+			Pipelining
 		A livello di Core/Processore
 			Limiti Posti dalla struttura del Codice
 ```
