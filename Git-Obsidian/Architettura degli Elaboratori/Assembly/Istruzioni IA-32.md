@@ -10,6 +10,7 @@
 >- Per `SRC` è possibile utilizzare un indirizzamento *immediato*, *registro* o *memoria*
 >- Per `DST` è possibile utilizzare un indirizzamento di *registro* o *memoria*
 >	- Non può essere *immediato* poiché non ha senso impostare come destinazione una *costante*
+>
 >>[!warning] Indirizzamento
 >>Non è possibile utilizzare un indirizzamento in memoria per entrambi gli operandi nella stessa istruzione
 >>- Non è possibile scrivere una istruzione che copia valori da memoria a memoria

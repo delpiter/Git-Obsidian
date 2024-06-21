@@ -4,6 +4,7 @@
 *Per esempio, siano $S_{1}$ e $S_{2}$ le sequenze di DNA di due organismi diversi*
 - $S_{1}=ACCGGTCGAGTGCGCGGAAGCCGGCCGAA$
 - $S_{2}=GTCGTTCGGAATGCCGTTGCTCTGTAAA$
+
 *Una delle ragioni di confrontare queste due stringhe di DNA è quella di determinare quanto "**simili**" queste due sequenze sono, per misurare la relazione fra i due organismi*
 *Uno dei tanti modi per determinare la similarità fra $S_{1}$ e $S_{2}$ è quello di trovare una terza sequenza $S_{3}$ che appare sia in $S_{2}$ che in $S_{1}$, gli elementi di $S_{3}$ devono apparire nello stesso ordine in $S_{2}$ e $S_{3}$ ma non necessariamente consecutivamente*
 *Più $S_{3}$ è lunga, più i due organismi sono simili, nel nostro caso la sequenza $S_{3}$ più lunga è:*
@@ -46,7 +47,7 @@
 #### Sottostruttura Ottima
 >[!Teorema]
 >Siano $X= <x_{1},x_{2},\dots,x_{m}>$ e $Y= <y_{1},y_{2},\dots,y_{n}>$ due sequenze
->Sia $Z= <z_{1},z_{2},\dots,z_{k}>$ una qualsiasi `LCS` $X$ e $Y$
+>Sia $Z= <z_{1},z_{2},\dots,z_{k}>$ una qualsiasi `LCS` di $X$ e $Y$
 >>[!abstract] $1.$
 >>Se $x_{m}=y_{n}$ allora $z_{k}=x_{m}=y_{n}$ e $Z_{k-1}$ è una `LCS` di $X_{m-1}$ e $Y_{n-1}$
 >>>[!done] A parole

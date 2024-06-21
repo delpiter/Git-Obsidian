@@ -4,22 +4,83 @@
     "type": "split",
     "children": [
       {
-        "id": "e31d8d85ab8b5d23",
+        "id": "b8e87fce01bee71c",
         "type": "tabs",
         "children": [
           {
-            "id": "c076f093df5f1f87",
+            "id": "c3f24374fc9302d6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Obsidian/Architettura degli Elaboratori/Assembly/Istruzioni IA-32.md",
+                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Greedy/Gli Algoritmi Greedy.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "08c7964982b1b789",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Greedy/Activity Selection.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "328006bcb16f640c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Greedy/Knapsack.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "517891ca7f5d980b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Programmazione Dinamica/Algoritmi di Programmazione Dinamica.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "acdfaf1760cac212",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Programmazione Dinamica/Longest Common Subsequence.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4af625d815a893d2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Programmazione Dinamica/Max Subarray.md",
                 "mode": "preview",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -70,7 +131,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 269.5
+    "width": 269.5,
+    "collapsed": true
   },
   "right": {
     "id": "3561446b8c4d05ef",
@@ -86,7 +148,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Architettura degli Elaboratori/Assembly/Istruzioni IA-32.md",
+                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Programmazione Dinamica/Longest Common Subsequence.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +165,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Architettura degli Elaboratori/Assembly/Istruzioni IA-32.md",
+                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Programmazione Dinamica/Longest Common Subsequence.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +188,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git-Obsidian/Architettura degli Elaboratori/Assembly/Istruzioni IA-32.md"
+                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Programmazione Dinamica/Longest Common Subsequence.md"
               }
             }
           },
@@ -168,13 +230,21 @@
       "callout-manager:Insert Callout": false
     }
   },
-  "active": "c076f093df5f1f87",
+  "active": "acdfaf1760cac212",
   "lastOpenFiles": [
+    "Git-Obsidian/Algoritmi e Strutture Dati/Programmazione Dinamica/Algoritmi di Programmazione Dinamica.md",
+    "Git-Obsidian/Algoritmi e Strutture Dati/Programmazione Dinamica/Max Subarray.md",
+    "Git-Obsidian/Algoritmi e Strutture Dati/Programmazione Dinamica/Longest Common Subsequence.md",
+    "Git-Obsidian/Algoritmi e Strutture Dati/Greedy/Knapsack.md",
+    "Git-Obsidian/Algoritmi e Strutture Dati/Greedy/Activity Selection.md",
+    "Git-Obsidian/Algoritmi e Strutture Dati/Greedy/Gli Algoritmi Greedy.md",
+    "Git-Obsidian/Architettura degli Elaboratori/Assembly/Istruzioni IA-32.md",
+    "Git-Obsidian/Architettura degli Elaboratori/Assembly/Istruzione Assembly.md",
+    "Git-Obsidian/Architettura degli Elaboratori/Assembly/IA-32.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Complessità/SAT, Clique e Vertex Cover.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Complessità/attachements/Clique-VertexCover.png",
     "Git-Obsidian/Algoritmi e Strutture Dati/Complessità/attachements/VertexCover2.png",
     "Git-Obsidian/Algoritmi e Strutture Dati/Complessità/attachements/VertexCover1.png",
-    "Git-Obsidian/Architettura degli Elaboratori/Assembly/Istruzioni IA-32.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Complessità/Completezza NP.md",
     "Git-Obsidian/Markdown Keys.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Complessità/attachements/3sat-Clique.png",
@@ -191,17 +261,10 @@
     "Git-Obsidian/Algoritmi e Strutture Dati/Complessità/attachements",
     "Git-Obsidian/Definizioni/Definizioni_Algoritmi.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Complessità",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Programmazione Dinamica/Longest Common Subsequence.md",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Programmazione Dinamica/Algoritmi di Programmazione Dinamica.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Insiemi Disgiunti.md",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Programmazione Dinamica/Max Subarray.md",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Greedy/Knapsack.md",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Greedy/Activity Selection.md",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Greedy/Gli Algoritmi Greedy.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Max Flow/Ford-Fulkersron.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Max Flow/Struttura Max Flow.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Max Flow/Problema.md",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Max Flow/Edmonds-Karp.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/attachements/DFS-1.png",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/attachements/DFS-2.png",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/attachements/DFS2.png",
