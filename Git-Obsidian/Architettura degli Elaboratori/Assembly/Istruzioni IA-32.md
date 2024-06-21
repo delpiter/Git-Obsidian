@@ -218,6 +218,7 @@ Quando il valore da dividere occupa solamente uno dei due registri il segno del 
 `CDQ`
 - Convert Doubleword to Quadword
 - Converte, estendendo il segno la `DWORD EAX` nella `QWORD EDX:EAX`
+
 `CDW`
 - Converte un registro a `16 BIT` in un registro `16 BIT:16 BIT`
 
