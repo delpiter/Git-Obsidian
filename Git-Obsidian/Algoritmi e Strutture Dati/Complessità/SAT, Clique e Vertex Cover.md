@@ -47,7 +47,66 @@ Si parte da ***SAT***  e si assume di sapere già che ***SAT*** è $NP$-***Compl
 
 
 #### Riduzione Clique $\leq_{p}$ Vertex Cover
->[!info] Problema
+>[!info] Complemento di un Grado
 >Dato un grafo $G$, se $G'$ è il grafo complementare di $G$, allora ogni coppia di nodi è connessa in $G'\iff$ non è connessa in $G$
 >- $G'=(V,E')$ è complemento di $G=(V,E)\iff(u,v)\in E'\iff(u,v)\notin E$
 
+>[!abstract] Problema: Vertex Cover
+>$$min|S|,\quad S\subseteq V : \forall(u,v)\in E \to u\in S \text{ e/o } v\in S$$
+>>[!done] Ogni arco  del grafo ha almeno un estremo in $S$
+>
+>>[!caution] Input 
+>>$<G,k>$ di una ***Clique***
+>
+>>[!todo] Output
+>>Sia $G'$ il complemento di $G$
+>>$<G',|V|-k>$ di ***vertex Cover***
+>
+>>[!done] Teorema
+>>$G$ ha una clique di dimensione $k$ $\iff$ $G'$ ha una copertura di dimensione $|V|-k$
+
+>***Problema***
+
+Dato un grafo non orientato $G=(V,E)$ e un intero $k$:
+>[!question] C'è un sotto insieme di vertici $S\subseteq V$ tale che $|S|\leq k$ e per cui se $(v,w)\in E$ allora $v\in S$ oppure $w\in S$ oppure entrambi?
+
+![[VertexCover1.png|500]]
+>*C'è un vertex cover di dimensione 4?*
+>- *Si*
+
+![[VertexCover2.png|500]]
+
+##### Riduzione a Clique
+>[!abstract] Clique $\leq_{p}$ Vertex Cover
+>Dato un grafo non orientato $G=(V,E)$, e il suo complemento $G'=(V',E')$, dove $E'=\{ (v,w):(v,w)\notin E \}$
+>>[!done] $G$ ha una clique di dimensione $k\iff G'$ ha un vertex cover di dimensione $|V|-k$
+
+![[Clique-VertexCover.png]]
+
+###### Dimostrazione
+>$\implies$
+
+Ipotesi: $G$ ha una clique $S$ con $|S|=k$
+- Consideriamo $S'=V-S$
+- $|S'|=|V|-k$
+
+>[!abstract] Per dimostrare che $S'$ è un *vertex cover*:
+
+Consideriamo un qualunque arco $(v,w)\in E'$
+- Almeno uno fra $v$ e $w$ non è in $S$, dato che $S$ è una clique
+- Almeno uno fra $v$ e $w$ è in $S'$
+>[!done] $(v,w)$ è coperto da $S'$
+
+
+>$\impliedby$
+
+Ipotesi: $G'$ ha una cover $S'$ con $|S'|=|V|-k$
+- Consideriamo $S=V-S'$
+- Chiaramente $|S|=k$
+>[!abstract] Per mostrare che $S$ è una *clique*:
+
+Consideriamo un arco $(v,w)\in E'$
+- Se $(v,w)\in E'$ allora $v\in S'$ e/o $w\in S'$
+- Se $v\notin S'$ e $w\notin S'$, allora $(v,w)\in E$
+
+>[!done] $S$ è una *clique* in $G$

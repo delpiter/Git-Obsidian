@@ -4,50 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "9762d082f5872e94",
+        "id": "e31d8d85ab8b5d23",
         "type": "tabs",
         "children": [
           {
-            "id": "321bf62edd725265",
+            "id": "c076f093df5f1f87",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Complessità/SAT e Clique.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cf434fd8b9395621",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Complessità/attachements/3sat-Clique.png"
-              }
-            }
-          },
-          {
-            "id": "63e9b9fcd57c0c8d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git-Obsidian/Markdown Keys.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c277e8137e668772",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Complessità/Completezza NP.md",
+                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Complessità/SAT, Clique e Vertex Cover.md",
                 "mode": "source",
                 "source": false
               }
@@ -121,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Complessità/SAT e Clique.md",
+                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Complessità/SAT, Clique e Vertex Cover.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Complessità/SAT e Clique.md",
+                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Complessità/SAT, Clique e Vertex Cover.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Complessità/SAT e Clique.md"
+                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Complessità/SAT, Clique e Vertex Cover.md"
               }
             }
           },
@@ -203,16 +169,19 @@
       "callout-manager:Insert Callout": false
     }
   },
-  "active": "321bf62edd725265",
+  "active": "c076f093df5f1f87",
   "lastOpenFiles": [
-    "Git-Obsidian/Algoritmi e Strutture Dati/Complessità/attachements/3sat-Clique.png",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Complessità/SAT e Clique.md",
-    "Git-Obsidian/Markdown Keys.md",
+    "Git-Obsidian/Algoritmi e Strutture Dati/Complessità/attachements/Clique-VertexCover.png",
+    "Git-Obsidian/Algoritmi e Strutture Dati/Complessità/SAT, Clique e Vertex Cover.md",
+    "Git-Obsidian/Algoritmi e Strutture Dati/Complessità/attachements/VertexCover2.png",
+    "Git-Obsidian/Algoritmi e Strutture Dati/Complessità/attachements/VertexCover1.png",
+    "Git-Obsidian/Architettura degli Elaboratori/Assembly/Istruzioni IA-32.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Complessità/Completezza NP.md",
+    "Git-Obsidian/Markdown Keys.md",
+    "Git-Obsidian/Algoritmi e Strutture Dati/Complessità/attachements/3sat-Clique.png",
     "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/Alcune Architetture.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Complessità/Classi P e NP.md",
     "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/Architetture Parallele.md",
-    "Git-Obsidian/Architettura degli Elaboratori/Assembly/Istruzioni IA-32.md",
     "Git-Obsidian/Architettura degli Elaboratori/Assembly/Istruzioni IA-32 Speciali.md",
     "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/Tipologie di Architetture.md",
     "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/La CPU.md",
@@ -239,9 +208,6 @@
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/attachements/DFS2.png",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/attachements/BFS-2.png",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/attachements/BFS-1.png",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento/attachements/QuickSortExample.png",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento/attachements/QuickSortProof.png",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento/attachements/MergeSortProof.png",
     "Git-Obsidian/Algoritmi e Strutture Dati/Dimostrazioni Algoritmi e Strutture dati.pdf",
     "Git-Obsidian/Programmazione/Funzioni/attachements",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Max Flow/attachements",
