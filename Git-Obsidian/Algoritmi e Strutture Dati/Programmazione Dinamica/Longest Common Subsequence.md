@@ -60,9 +60,6 @@
 >>
 >>>[!abstract] $3.$
 >>>Se $x_{m}\neq y_{n}$ e $z_{k}\neq y_{n}$ allora $Z_{k}$ è `LCS` di $X$ e $Y_{n-1}$
->>
->>>[!done] A parole
->>>Se le sequenze *finiscono con una lettera diversa* e l'ultima lettera della sotto-sequenza è uguale all'ultima lettera di una sequenza allora togliendo l'ultima lettera della sequenza con la lettera diversa ho ancora una ***soluzione ottima***
 
 ##### Dimostrazione
 >1. 
