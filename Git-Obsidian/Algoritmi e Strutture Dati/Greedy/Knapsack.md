@@ -118,7 +118,7 @@ $$
 \For{$ q=1 \to W $}
   \For{$ i=1 \to n $}
   \If{$ w[i]\leq q  $}
-  \State $ f[i,q]=max\{f[i-1,q],f[i-1,q-w[i]]+w[i] \} $
+  \State $ f[i,q]=max\{f[i-1,q],f[i-1,q-w[i]]+v[i] \} $
   \Else 
  \State $ f[i,q]=f[i-1,q] $
  \EndIf
