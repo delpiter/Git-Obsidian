@@ -111,7 +111,7 @@ $$
 	  \State $ c[i,0] =0 $
  \EndFor
  \For{$ j=0 \to n $}
-	  \State $ c[i,0] =0 $
+	  \State $ c[0,j] =0 $
  \EndFor
  \For{$ i=1 \to m $}
   \For{$ j=1 \to n $}
