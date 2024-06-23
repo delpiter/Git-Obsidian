@@ -4,7 +4,7 @@
 >Algoritmo di ricerca di [[Cammini Minimi con Sorgente Singola|cammini minimi]] tramite [[Algoritmi di Programmazione Dinamica|programmazione dinamica]]
 >Risolve lo stesso problema dell'algoritmo di [[Algoritmo di Dijkstra|Dijkstra]]
 >>[!caution] Basato sulla seguente Equazione Ricorsiva
->>$$d^k[v]=\begin{cases} v=s?0:\infty \qquad \qquad \qquad k=0\\ min\{ d^{k-1}[u]+w(u,v) \}\ \ \ \  1\leq k\leq n \end{cases}$$
+>>$$d^k[v]=\begin{cases} v=s\ ?\ 0:\infty \qquad \qquad \qquad k=0\\ min\{ d^{k-1}[u]+w(u,v) \}\ \ \ \  1\leq k\leq n \end{cases}$$
 >>Dove $k$ indica il numero di archi intermedi che il cammino può utilizzare
 >>- $d^k[v]\to$ è la ***distanza minima*** per andare da una *sorgente* a una *destinazione* passando $k$ ***nodi intermedi***
 
@@ -40,7 +40,7 @@ A differenza di Dijkstra:
 \State \Call{ Initialize-Single-Source }{$ G,s $}
 \For{$ k=1 \to |V[G]-1| $}
   \For{$ (u,v)\in E[G] $}
-\State \Call{ Relax }{$ u,v,w $}
+\State \Call{ Relax }{$ u,v,w(u,v) $}
  \EndFor
  \EndFor
  \State $  $
