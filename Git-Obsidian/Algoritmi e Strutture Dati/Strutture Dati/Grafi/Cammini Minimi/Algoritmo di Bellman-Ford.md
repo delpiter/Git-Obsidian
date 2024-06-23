@@ -40,7 +40,7 @@ A differenza di Dijkstra:
 \State \Call{ Initialize-Single-Source }{$ G,s $}
 \For{$ k=1 \to |V[G]-1| $}
   \For{$ (u,v)\in E[G] $}
-\State \Call{ Relax }{$ u,v,w(u,v) $}
+\State \Call{ Relax }{$ u,v,w $}
  \EndFor
  \EndFor
  \State $  $
