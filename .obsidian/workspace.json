@@ -4,83 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "329f694e6c8f8dc9",
+        "id": "61cda8fed167346b",
         "type": "tabs",
         "children": [
           {
-            "id": "b04aee948d64f761",
+            "id": "1505a92a11ac034a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Cammini Minimi/Cammini Minimi con Sorgente Singola.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6c6a56cc1b2a88b3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Cammini Minimi/Cammini Minimi tra Tutte le Coppie.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "07b19daf622e7820",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Minimum Spanning Tree.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8242acaaeb7836d2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Ordinamento Topologico.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d8272e0f200b5630",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Cammini Minimi/Algoritmo di Dijkstra.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d87d214027fbcca1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Cammini Minimi/Algoritmo di Bellman-Ford.md",
-                "mode": "preview",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -148,7 +83,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Cammini Minimi/Algoritmo di Bellman-Ford.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -165,7 +99,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Cammini Minimi/Algoritmo di Bellman-Ford.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -187,9 +120,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Cammini Minimi/Algoritmo di Bellman-Ford.md"
-              }
+              "state": {}
             }
           },
           {
@@ -230,38 +161,38 @@
       "callout-manager:Insert Callout": false
     }
   },
-  "active": "d87d214027fbcca1",
+  "active": "1505a92a11ac034a",
   "lastOpenFiles": [
+    "Git-Obsidian/Algoritmi e Strutture Dati/Confronto fra Algoritmi/Complessità di Algoritmi.md",
+    "Git-Obsidian/Algoritmi e Strutture Dati/Confronto fra Algoritmi/Confronto e Pseudocodice.md",
+    "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Max Flow/Ford-Fulkersron.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Cammini Minimi/Algoritmo di Dijkstra.md",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Cammini Minimi/Algoritmo di Bellman-Ford.md",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Ordinamento Topologico.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Minimum Spanning Tree.md",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Cammini Minimi/Cammini Minimi tra Tutte le Coppie.md",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Cammini Minimi/Cammini Minimi con Sorgente Singola.md",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Programmazione Dinamica/Max Subarray.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Programmazione Dinamica/Longest Common Subsequence.md",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Programmazione Dinamica/Algoritmi di Programmazione Dinamica.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Greedy/Knapsack.md",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Greedy/Activity Selection.md",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Greedy/Gli Algoritmi Greedy.md",
-    "Git-Obsidian/Architettura degli Elaboratori/Assembly/Istruzioni IA-32.md",
-    "Git-Obsidian/Architettura degli Elaboratori/Assembly/Istruzione Assembly.md",
-    "Git-Obsidian/Architettura degli Elaboratori/Assembly/IA-32.md",
+    "Git-Obsidian/Algoritmi e Strutture Dati/Complessità/Classi P e NP.md",
+    "Git-Obsidian/Algoritmi e Strutture Dati/Complessità/Completezza NP.md",
+    "Git-Obsidian/Definizioni/Definizioni_Algoritmi.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Complessità/SAT, Clique e Vertex Cover.md",
+    "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento/Quick Sort.md",
+    "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento/Problema dell'Ordinamento.md",
+    "Git-Obsidian/Algoritmi e Strutture Dati/Programmazione Dinamica/Algoritmi di Programmazione Dinamica.md",
+    "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Alberi/Gli Alberi.md",
+    "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/I Grafi.md",
+    "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Algoritmi di Ricerca su Grafo.md",
+    "Git-Obsidian/Algoritmi e Strutture Dati/Greedy/Gli Algoritmi Greedy.md",
+    "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Ordinamento Topologico.md",
+    "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Cammini Minimi/Cammini Minimi con Sorgente Singola.md",
+    "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Insiemi Disgiunti.md",
+    "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Alberi/Gli Alberi Binari.md",
+    "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Hash/Funzione di Hash.md",
+    "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento/Heap Sort.md",
+    "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Heap.md",
+    "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Cammini Minimi/Cammini Minimi tra Tutte le Coppie.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Complessità/attachements/Clique-VertexCover.png",
     "Git-Obsidian/Algoritmi e Strutture Dati/Complessità/attachements/VertexCover2.png",
     "Git-Obsidian/Algoritmi e Strutture Dati/Complessità/attachements/VertexCover1.png",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Complessità/Completezza NP.md",
-    "Git-Obsidian/Markdown Keys.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Complessità/attachements/3sat-Clique.png",
-    "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/Alcune Architetture.md",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Complessità/Classi P e NP.md",
-    "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/Architetture Parallele.md",
-    "Git-Obsidian/Architettura degli Elaboratori/Assembly/Istruzioni IA-32 Speciali.md",
-    "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/Tipologie di Architetture.md",
-    "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/La CPU.md",
-    "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Cache.md",
-    "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/Prestazioni dei Calcolatori.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Complessità/attachements/Reduction.png",
     "Git-Obsidian/Algoritmi e Strutture Dati/Complessità/attachements",
     "Git-Obsidian/Algoritmi e Strutture Dati/Complessità",

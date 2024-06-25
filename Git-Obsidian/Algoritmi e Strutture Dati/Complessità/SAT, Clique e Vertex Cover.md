@@ -15,7 +15,7 @@
 
 >[!caution] Prova di $NP$-*Completezza*
 
-Si parte da ***SAT***  e si assume di sapere già che ***SAT*** è $NP$-***Completo***
+Si parte da [[Definizioni_Algoritmi#Conjunctive Normal Form|SAT]] e si assume di sapere già che ***SAT*** è $NP$-***Completo***
 ##### Clique
 >[!info] Problema
 >Dato un grafo $G=(V,E)$, un sottoinsieme $S$ dei suoi vertici forma una ***clique*** se ogni coppia di vertici $S$ è connessa
@@ -34,13 +34,15 @@ Si parte da ***SAT***  e si assume di sapere già che ***SAT*** è $NP$-***Compl
 >[!Teorema]
 >$\phi$ è soddisfacibile $\iff G$ ha una clique di $k$ vertici
 >>[!abstract] Dimostrazione
->>>$\implies$
+>>>$\phi$ è soddisfacibile $\implies$
+>>
 >>Se $\phi$ è soddisfacibile, allora $\forall C_{r},\exists \mathcal{l}_{i}^r$, un letterale che vale $1$
 >>Il letterale $\mathcal{l}_{i}^r$ corrisponde a un vertice $v_{i}^r$
 >><u>Allora</u>
 >>$V'=\{ v_{i}^r \}$ è una clique
 >>- Per $r\neq s$, $\mathcal{l}_{i}^r$ è compatibile con $\mathcal{l}_{i}^s$
->>>$\impliedby$
+>>
+>>>$G$ ha una clique di $k$ vertici $\impliedby$
 >>
 >>Nessun arco in $G$ connette vertici di una tripla $V'$ ha un vertice per tripla, $v_i^r$
 >>Si può porre $\mathcal{l}_{i}^r=1$
@@ -49,7 +51,7 @@ Si parte da ***SAT***  e si assume di sapere già che ***SAT*** è $NP$-***Compl
 #### Riduzione Clique $\leq_{p}$ Vertex Cover
 >[!info] Complemento di un Grado
 >Dato un grafo $G$, se $G'$ è il grafo complementare di $G$, allora ogni coppia di nodi è connessa in $G'\iff$ non è connessa in $G$
->- $G'=(V,E')$ è complemento di $G=(V,E)\iff(u,v)\in E'\iff(u,v)\notin E$
+>- $G'=(V,E')$ è complemento di $G=(V,E)\implies (u,v)\in E'\iff(u,v)\notin E$
 
 >[!abstract] Problema: Vertex Cover
 >$$min|S|,\quad S\subseteq V : \forall(u,v)\in E \to u\in S \text{ e/o } v\in S$$
