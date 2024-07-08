@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "61cda8fed167346b",
+        "id": "b1d5cecf332d86dc",
         "type": "tabs",
         "children": [
           {
-            "id": "1505a92a11ac034a",
+            "id": "55f0a3365e3d1fc1",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/BUS dei Calcolatori.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -42,8 +46,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
-                "matchingCase": true,
+                "query": "pci",
+                "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -62,12 +66,11 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 269.5,
-    "collapsed": true
+    "width": 269.5
   },
   "right": {
     "id": "3561446b8c4d05ef",
@@ -83,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/BUS dei Calcolatori.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/BUS dei Calcolatori.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -120,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/BUS dei Calcolatori.md"
+              }
             }
           },
           {
@@ -161,34 +168,34 @@
       "callout-manager:Insert Callout": false
     }
   },
-  "active": "1505a92a11ac034a",
+  "active": "55f0a3365e3d1fc1",
   "lastOpenFiles": [
+    "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/Predizione di Salto.md",
+    "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/Architetture Parallele.md",
+    "Git-Obsidian/Architettura degli Elaboratori/Algebra di Bool e Logica Digitale/Circuiti Combinatori.md",
+    "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/BUS dei Calcolatori.md",
+    "Git-Obsidian/Architettura degli Elaboratori/Storia dei Calcolatori.md",
+    "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/Tipologie di Architetture.md",
+    "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/Prestazioni dei Calcolatori.md",
+    "Git-Obsidian/Architettura degli Elaboratori/Assembly/Istruzione Assembly.md",
+    "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Schede Grafiche.md",
+    "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Le Periferiche.md",
+    "Git-Obsidian/Architettura degli Elaboratori/Algebra di Bool e Logica Digitale/Algebra di Bool.md",
+    "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Insiemi Disgiunti.md",
+    "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Linked Lists.md",
+    "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Cammini Minimi/Cammini Minimi con Sorgente Singola.md",
+    "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Cammini Minimi/Algoritmo di Dijkstra.md",
+    "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento/Merge Sort.md",
+    "Git-Obsidian/Architettura degli Elaboratori/Assembly/Istruzioni IA-32 Speciali.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Confronto fra Algoritmi/Complessità di Algoritmi.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Confronto fra Algoritmi/Confronto e Pseudocodice.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Max Flow/Ford-Fulkersron.md",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Cammini Minimi/Algoritmo di Dijkstra.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Minimum Spanning Tree.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Programmazione Dinamica/Longest Common Subsequence.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Greedy/Knapsack.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Complessità/Classi P e NP.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Complessità/Completezza NP.md",
     "Git-Obsidian/Definizioni/Definizioni_Algoritmi.md",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Complessità/SAT, Clique e Vertex Cover.md",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento/Quick Sort.md",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento/Problema dell'Ordinamento.md",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Programmazione Dinamica/Algoritmi di Programmazione Dinamica.md",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Alberi/Gli Alberi.md",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/I Grafi.md",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Algoritmi di Ricerca su Grafo.md",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Greedy/Gli Algoritmi Greedy.md",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Ordinamento Topologico.md",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Cammini Minimi/Cammini Minimi con Sorgente Singola.md",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Insiemi Disgiunti.md",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Alberi/Gli Alberi Binari.md",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Hash/Funzione di Hash.md",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento/Heap Sort.md",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Heap.md",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Cammini Minimi/Cammini Minimi tra Tutte le Coppie.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Complessità/attachements/Clique-VertexCover.png",
     "Git-Obsidian/Algoritmi e Strutture Dati/Complessità/attachements/VertexCover2.png",
     "Git-Obsidian/Algoritmi e Strutture Dati/Complessità/attachements/VertexCover1.png",

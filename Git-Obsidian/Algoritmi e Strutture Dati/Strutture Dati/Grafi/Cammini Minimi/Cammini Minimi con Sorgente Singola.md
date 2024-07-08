@@ -43,7 +43,7 @@ $$
 >I valori di $\pi$ inducono un *sottografo dei predecessori* $G_{\pi}=(V_{\pi},E_{\pi})$
 >$G_{\pi}$ risulterà essere un ***albero di cammini minimi***, cioè:
 >- $V_{\pi}$ è l'insieme dei ***vertici raggiungibili*** da $s$ in $G$
->- $G_{\pi}$ forma un ***albero con radice*** in $S$
+>- $G_{\pi}$ forma un ***albero con radice*** in $s$
 >- Per ogni $v\in V_{\pi}$ l'unico ***cammino semplice*** da $s$ a $v$ in $G_{\pi}$ è un ***cammino minimo*** da $s$ a $v$ in $G$
 
 ### Sottostruttura Ottima
