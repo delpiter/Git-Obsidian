@@ -245,6 +245,7 @@ Presto abbandonato a favore di `USB 3` e ***Thunderbolt***
 
 ![[PCI_e.png]]
  - *Il `BUS` `PCI-e` si comporta esattamente come un network switch*
+	 - Esegue lo scambio di dati tra *master* e *slave* tramite ***pacchetti***
 
 >[!tldr] Did you know?
 >Il nome deriva da una pura ***operazione commerciale*** legata alla fama del nome `PCI`, in quanto non si tratta di un *estensione* ma di una cosa *completamente diversa*
