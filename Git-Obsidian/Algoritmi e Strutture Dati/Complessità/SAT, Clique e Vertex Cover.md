@@ -44,7 +44,8 @@ Si parte da [[Definizioni_Algoritmi#Conjunctive Normal Form|SAT]] e si assume di
 >>
 >>>$G$ ha una clique di $k$ vertici $\impliedby$
 >>
->>Nessun arco in $G$ connette vertici di una tripla $V'$ ha un vertice per tripla, $v_i^r$
+>>Nessun arco in $G$ connette vertici di una tripla.
+>>$V'$ ha un vertice per tripla, $v_i^r$
 >>Si può porre $\mathcal{l}_{i}^r=1$
 
 
