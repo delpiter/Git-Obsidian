@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Obsidian/OOP/Appunti.md",
+                "file": "Git-Obsidian/Matematica Discreta e Probabilità/Introduzione.md",
                 "mode": "source",
                 "source": false
               }
@@ -70,7 +70,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 269.5
+    "width": 269.5,
+    "collapsed": true
   },
   "right": {
     "id": "3561446b8c4d05ef",
@@ -86,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/OOP/Appunti.md",
+                "file": "Git-Obsidian/Matematica Discreta e Probabilità/Introduzione.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/OOP/Appunti.md",
+                "file": "Git-Obsidian/Matematica Discreta e Probabilità/Introduzione.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git-Obsidian/OOP/Appunti.md"
+                "file": "Git-Obsidian/Matematica Discreta e Probabilità/Introduzione.md"
               }
             }
           },
@@ -170,8 +171,9 @@
   },
   "active": "d62949a6a487ea63",
   "lastOpenFiles": [
-    "Git-Obsidian/Matematica Discreta e Probabilità/Appunti.md",
     "Git-Obsidian/OOP/Appunti.md",
+    "Git-Obsidian/Matematica Discreta e Probabilità/Introduzione.md",
+    "Git-Obsidian/Matematica Discreta e Probabilità/Appunti.md",
     "Git-Obsidian/OOP",
     "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/Predizione di Salto.md",
     "Git-Obsidian/Matematica Discreta e Probabilità",
@@ -197,7 +199,6 @@
     "Git-Obsidian/Definizioni/Definizioni_Architettura.md",
     "Git-Obsidian/Architettura degli Elaboratori/Assembly/IA-32.md",
     "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/Architetture Parallele.md",
-    "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Schede Grafiche.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Complessità/attachements/Clique-VertexCover.png",
     "Git-Obsidian/Algoritmi e Strutture Dati/Complessità/attachements/VertexCover2.png",
     "Git-Obsidian/Algoritmi e Strutture Dati/Complessità/attachements/VertexCover1.png",
