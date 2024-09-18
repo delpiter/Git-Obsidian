@@ -174,6 +174,7 @@ Prima di poter leggere o scrivere la suddetta struttura (*tracce*, *settori*) de
 >[!tip] Latency Time
 >La ***latency time*** rappresenta il tempo necessario affinché il settore interessato all'operazione ***passi sotto la testina***.
 >Questo fattore è definito dalla velocità di rotazione del disco che varia da $3.600$ a $15.000$ `RPM` (***R***otation ***P***er ***M***inute)
+>- Con un *hard disk* moderno il latency time richiede ***qualche microsecondo***
 
 ## Solid State Drive
 ---
