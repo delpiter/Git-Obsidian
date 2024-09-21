@@ -137,3 +137,80 @@ $$(a_{1},a_{2},\dots,a_{n})$$
 >$$(m)_{n}=m\cdot(m-1)\cdot(m-2)\cdot \dots \ \cdot (m-n+1)$$
 
 
+#### Esempio
+$(12)_{5}=12\cdot 11\cdot 10\cdot 9\cdot 8$
+
+## Permutazioni
+---
+>[!Definizione]
+>Una ***permutazione*** è una *particolare disposizione* di lunghezza $|A|$ in $A$
+>>[!tip] Le permutazioni di $A$, se $|A|=n$ sono:
+>>$$(n)_{n}=n\cdot(n-1)\cdot(n-2)\cdot \dots \ \cdot 2\cdot1=n! $$
+
+#### Esempio
+- $A=\{ 1,2,3,4,5 \}$
+
+$$
+\text{ Sono due Permutazioni}
+\begin{cases}
+(1,4,5,3,2) \\
+(5,3,1,2,4)
+\end{cases}
+$$
+
+## Combinazioni
+---
+>[!Definizione]
+>Una combinazione di lunghezza $a$ in $A$ è un sottoinsieme di $a$ elementi
+>>[!question] Sia $|A|=n$, quanti sono i sottoinsiemi con $a$ elementi?
+>
+>>[!tip] Proposizione
+>>Siano $a,b>0:a+b=n$ Allora abbiamo una corrispondenza biunivoca tra:
+>>- Sottoinsiemi di $\{ 1,2,\dots,n \}$ con $a$ elementi
+>>- Sequenze binarie con $a$ volte $1$ e $b$ volte $0$
+>>- Sequenze binarie con $a$ volte $0$ e $b$ volte $1$
+>>- Sottoinsiemi di $\{ 1,2,\dots,n \}$ con $b$ elementi
+>>Questi insiemi hanno:
+>>$$\displaystyle{\frac{(n)_{a}}{a!}}=\displaystyle{\frac{(n)_{b}}{b!}}=\displaystyle{\frac{n!}{a!b!}}$$
+
+### Dimostrazione
+$$
+\begin{array}
+\ \{ 1,2,3 \} \iff (1,1,1,0,0) \iff (0,0,0,1,1)\iff\{ 4,5 \} \\
+\vdots \\
+\{ 2,3,5 \}\iff(0,1,1,0,1)\iff(1,0,0,1,0)\iff\{ 1,4 \} \\
+\vdots
+\end{array}
+$$
+>[!tip] Osservazione
+>Osserviamo che esiste una funzione che va dalle [[#Disposizioni]] di lunghezza $a$ ai sottoinsiemi con $a$ elementi
+>- La funzione $f$ è $a! \text{ a }1$ perché ad ogni sottoinsieme con $a$ elementi *corrispondono le permutazioni* dei suoi elementi
+
+Quindi il numero di sottoinsiemi con $a$ elementi è uguale al numero di disposizioni di lunghezza $a$ diviso $a!$
+$$
+\displaystyle{\frac{(n)_{a}}{a!}}
+$$
+>Inoltre
+
+$$
+\displaystyle{\frac{(n)_{a}}{a!}}=\displaystyle{\frac{n\cdot(n-1)\cdot\ \dots\ \cdot(n-a+1)}{a!}}=\displaystyle{\frac{n\cdot(n-1)\cdot\ \dots\ \cdot(b+1)}{a!}}\cdot \displaystyle{\frac{b(b-1)\cdot \ \dots \ \cdot1}{b(b-1)\cdot \ \dots \ \cdot1}}=\displaystyle{\frac{n!}{a!b!}}
+$$
+
+>[!caution] Coefficiente Binomiale
+>Questo numero: $\displaystyle{\frac{(n)_{a}}{a!}}=\displaystyle{\frac{(n)_{b}}{b!}}=\displaystyle{\frac{n!}{a!b!}}$ si indica con: $\displaystyle\binom{n}{a}=\displaystyle\binom{n}{b}=\displaystyle\binom{n}{a\ b}$
+>[[Definizioni_Analisi#Coefficiente Binomiale|Coefficiente Binomiale]]
+
+### Tipi di Combinazione
+>[!Definizioni]
+>>[!tip] $(a,b)$
+>>Una combinazione di tipo $(a,b)$ in $A$, con $|A|=n=a+b$ è una coppia ordinata di sottoinsiemi di $A$ $(S_{1},S_{2})$ con $|S_{1}|=a\quad|S_{2}|=b$
+>>$$S_{1}\cup S_{2}=A$$
+>
+>>[!hint] $(a,b,c)$
+>>Una combinazione di tipo $(a,b,c)$ in $A$, con $|A|=n=a+b+c$ è una terna ordinata di sottoinsiemi di $A$ $(S_{1},S_{2},S_{3})$ con $|S_{1}|=a\quad|S_{2}|=b\quad|S_{3}|=c$
+>>$$S_{1}\cup S_{2}\cup S_{3}=A$$
+
+#### Esempio
+>$A=\{ 1,2,3,\dots,10 \}$
+
+- $(\{ 1,3,6 \},\{ 2,5,8,9 \},\{ 4,7,10 \})$ è una combinazione di tipo $(3,4,3)$

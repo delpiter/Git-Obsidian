@@ -8,6 +8,18 @@
         "type": "tabs",
         "children": [
           {
+            "id": "6fe446b13d42ceac",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git-Obsidian/Definizioni/Definizioni_Analisi.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "d62949a6a487ea63",
             "type": "leaf",
             "state": {
@@ -18,20 +30,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "3a2757b7fa1db3d1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git-Obsidian/Markdown Keys.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -58,7 +59,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "cartesiano",
+                "query": "coefficiente binomi",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -182,8 +183,10 @@
   },
   "active": "d62949a6a487ea63",
   "lastOpenFiles": [
-    "Git-Obsidian/Markdown Keys.md",
+    "Git-Obsidian/Definizioni/Definizioni_Analisi.md",
     "Git-Obsidian/Matematica Discreta e Probabilità/1 - Combinatoria Elementare.md",
+    "Git-Obsidian/Markdown Keys.md",
+    "Git-Obsidian/Analisi/Calcolo Differenziale/Derivate di Funzioni Elementari.md",
     "Git-Obsidian/Matematica Discreta e Probabilità/0 - Introduzione.md",
     "Git-Obsidian/Sistemi Operativi/Appunti.md",
     "Git-Obsidian/OOP/Appunti.md",
@@ -209,8 +212,6 @@
     "Git-Obsidian/Architettura degli Elaboratori/Algebra di Bool e Logica Digitale/Circuiti Sequenziali.md",
     "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Le Memorie.md",
     "Git-Obsidian/Architettura degli Elaboratori/Rappresentazione dell'Informazione/Rappresentazione dei Suoni.md",
-    "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/RAM.md",
-    "Git-Obsidian/Architettura degli Elaboratori/Rappresentazione dell'Informazione/Rappresentazione di Immagini.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Complessità/attachements/Clique-VertexCover.png",
     "Git-Obsidian/Algoritmi e Strutture Dati/Complessità/attachements/VertexCover2.png",
     "Git-Obsidian/Algoritmi e Strutture Dati/Complessità/attachements/VertexCover1.png",

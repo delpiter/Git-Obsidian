@@ -41,6 +41,8 @@ $e^{i\pi}=-1\Leftrightarrow e^{i\pi}+1 = 0$
 ---
 >[!info] Notazione
 >$$\binom{n}{k} = \displaystyle{\frac{n!}{k!(n-k)!}}$$
+
+>Si legge $n$ su $k$
 ## Formula del Binomio di Newton
 ---
 >[!info] Formula
