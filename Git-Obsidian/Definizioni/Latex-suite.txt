@@ -132,6 +132,7 @@
 	{trigger: "xx", replacement: "\\times", options: "mA"},
 	{trigger: "*", replacement: "\\cdot$0", options: "mA"},
 	{trigger: "para", replacement: "\\parallel", options: "mA"},
+	{trigger: "binom", replacement: "\\binom{$0}{$1}", options: "mA"},
 
 
 	{trigger: "xnn", replacement: "x_{n}", options: "mA"},

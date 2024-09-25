@@ -203,14 +203,115 @@ $$
 ### Tipi di Combinazione
 >[!Definizioni]
 >>[!tip] $(a,b)$
->>Una combinazione di tipo $(a,b)$ in $A$, con $|A|=n=a+b$ è una coppia ordinata di sottoinsiemi di $A$ $(S_{1},S_{2})$ con $|S_{1}|=a\quad|S_{2}|=b$
->>$$S_{1}\cup S_{2}=A$$
+>>Una combinazione di tipo $(a,b)$ in $A$, con $|A|=n=a+b$ è una coppia ordinata di sottoinsiemi di $A$ $(S,T)$ con $|S|=a\quad|T|=b$
+>>$$S\cup T=A$$
 >
 >>[!hint] $(a,b,c)$
->>Una combinazione di tipo $(a,b,c)$ in $A$, con $|A|=n=a+b+c$ è una terna ordinata di sottoinsiemi di $A$ $(S_{1},S_{2},S_{3})$ con $|S_{1}|=a\quad|S_{2}|=b\quad|S_{3}|=c$
->>$$S_{1}\cup S_{2}\cup S_{3}=A$$
+>>Una combinazione di tipo $(a,b,c)$ in $A$, con $|A|=n=a+b+c$ è una coppia ordinata di sottoinsiemi di $A$ $(S,T,U)$ con $|S|=a\quad|T|=b\quad |U|=c$
+>>$$S\cup T \cup U=A$$
+>>>[!done] Formula
+>>>Le combinazioni di tipo $(a,b,c)$ sono:
+>>>$$\binom{n}{a \ b\ c}= \displaystyle{\frac{n!}{a!b!c!}}$$
 
+#### Dimostrazione
+>Sfruttando il concetto di [[#Prodotto Condizionato]]
+
+$S$ è un qualunque sottoinsieme con $a$ elementi $\implies \displaystyle\binom{n}{a}$  *scelte possibili*
+- Una volta scelto $S$, l'insieme $T$ è un sottoinsieme con $b$ elementi dei rimanenti $n-a \implies \displaystyle\binom{n-a}{b}$ *scelte possibili*
+- Una volta scelti $S$ e $T$, $U$ a questo punto è ***univocamente determinato***
+
+>[!done] Complessivamente Abbiamo:
+>$$\binom{n}{a}\cdot\binom{n-a}{b}=\displaystyle{\frac{n!}{a!\cancel{ (n-a)! }}}\cdot \displaystyle{\frac{\cancel{ (n-a)! }}{b!\underbrace{ (n-a-b)! }_{ c }}}=\displaystyle{\frac{n!}{a!b!c!}}$$
 #### Esempio
->$A=\{ 1,2,3,\dots,10 \}$
+> ***Gianluca*** deve distribuire 10 biglietti (3 in un  concerto, 4 in un secondo e 3 in un terzo) ai suoi 10 amici
+
+>[!question] In quanti modi può fare le scelte??
+
+$A=\{ 1,2,3,\dots,10 \}$
 
 - $(\{ 1,3,6 \},\{ 2,5,8,9 \},\{ 4,7,10 \})$ è una combinazione di tipo $(3,4,3)$
+
+Tutte le combinazioni di tipo $(3,4,3)$ sono:
+$$
+\binom{10}{3 \ 4\ 3}= \displaystyle{\frac{10!}{3!4!3!}}=10\cdot2 \cdot 7\cdot 6 \cdot 5
+$$
+
+>[!tldr] Osservazione
+>Le combinazioni di tipo $(a,b,c)$ sono in biezione con le sequenze ternarie, cioè con coefficiente $0,1,2$ in cui $2$ compare $a$ volte, $1$ compare $b$ volte e $0$ compare $c$ volte
+
+#### Esempio
+>Sia $A=\{ 1,2,3,\dots,9 \}$ e siano $a=2 \quad b=3\quad c=4$
+
+Una combinazione può essere:
+$$
+(\{ 1,8 \},\{ 2,6,9 \},\{ 3,4,5,7 \}) \iff(2,1,0,0,0,1,0,2,1)
+$$
+
+>[!hint] Questa corrispondenza ci permette di calcolare il numero di anagrammi di una parola data
+
+##### Esempio
+>Sia "***ATTATTOTTOA***" una parola data
+
+>[!question] Quanti anagrammi ha?
+
+- $3$ A
+- $6$ T
+- $2$ 0
+
+>[!done] Gli anagrammi sono $$\binom{11}{3\ 6\ 2}$$
+
+
+#### Proprietà
+>Siano $a,b,c: a+b+c = n$
+
+$$
+\binom{n}{a\ b\ c}=\binom{n-1}{a-1\ \ \ b\ \ \ c} +\binom{n-1}{a\ \ \ b-1\ \ \ c}+\binom{n-1}{a\ \ \ b\ \ \ c-1} 
+$$
+##### Dimostrazione
+- $A=\{ 1,2,3,\dots,n \}$
+
+>[!question] Quante sono le combinazioni $(S,T,U)$ di tipo $(a,b,c):n\in S$?
+
+Fissando un valore in uno dei $3$ insiemi
+- $\displaystyle\binom{n-1}{a-1 \ \ \ b\ \ \ c}$
+
+---
+Se abbiamo 2 indici:
+$$
+\binom{n}{a\ b}=\binom{n-1}{a-1 \ \ \ b}+\binom{n-1}{a \ \ \ b-1} = \binom{n}{a}=\binom{n-1}{a-1}+\binom{n-1}{a}
+$$
+
+### Numeri di Fibonacci
+
+>[!info] Definizione
+>$F_{n}=$ è il numero di sequenze binarie di lunghezza $n$ in cui non ci sono due "$1$" consecutivi
+
+- $F_{1}=2\implies \quad 0\quad 1$
+- $F_{2}=3\implies\quad 00\quad 01 \quad 10 \quad \cancel{ 11 }$
+- $\vdots$
+#### Formule per $F_{n}$
+
+>[!tip] Definizione
+>$F_{n,k}=$ numero di sequenze binarie di lunghezza $n$ senza "$1$" consecutivi e con esattamente $k$ volte "$1$"
+
+##### Esempio
+- $F_{4,2}=3: \quad 0101 \quad 1001\quad 1010$
+- $F_{4,3} = 0:\quad\cancel{  }$
+
+>[!caution] Osservazione
+>$$F_{n}=\sum_{k\geq 0}F_{n,k}$$
+
+Adesso vogliamo trovare una formula per $F_{n,k}$
+
+##### Esempio
+Dopo il primo $1$ c'è sempre uno $0$
+- Così anche per il secondo $1$
+
+Dopo il terzo $1$ non sappiamo cosa segue
+- $0010101$
+- $1001001$
+- $0100101$
+- $1010100$
+- $\vdots$
+
+Sostituiamo le prime due coppie di $10$

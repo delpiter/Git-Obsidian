@@ -23,3 +23,6 @@ Livello privilegio 0, la CPU consente l'esecuzione di tutte le istruzioni macchi
 	- All'interno dell'esecuzione di una applicazione utente, il livello di privilegio cambia numerose volte e il controllo dell'esecuzione passa al livello inferiore
 	- A fine esecuzione della istruzione "privilegiata" si avvia un meccanismo di ritorno al livello di privilegio precedente
 
+
+## 23/09/2024
+---

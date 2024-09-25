@@ -4,23 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "920609c35ce23649",
+        "id": "e328099ccd8fbd93",
         "type": "tabs",
         "children": [
           {
-            "id": "6fe446b13d42ceac",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git-Obsidian/Definizioni/Definizioni_Analisi.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d62949a6a487ea63",
+            "id": "8ed63cdb112b494a",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -31,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -181,14 +168,14 @@
       "callout-manager:Insert Callout": false
     }
   },
-  "active": "d62949a6a487ea63",
+  "active": "f2ffaf6360de317d",
   "lastOpenFiles": [
+    "Git-Obsidian/Sistemi Operativi/Appunti.md",
     "Git-Obsidian/Definizioni/Definizioni_Analisi.md",
-    "Git-Obsidian/Matematica Discreta e Probabilità/1 - Combinatoria Elementare.md",
     "Git-Obsidian/Markdown Keys.md",
+    "Git-Obsidian/Matematica Discreta e Probabilità/1 - Combinatoria Elementare.md",
     "Git-Obsidian/Analisi/Calcolo Differenziale/Derivate di Funzioni Elementari.md",
     "Git-Obsidian/Matematica Discreta e Probabilità/0 - Introduzione.md",
-    "Git-Obsidian/Sistemi Operativi/Appunti.md",
     "Git-Obsidian/OOP/Appunti.md",
     "Git-Obsidian/Sistemi Operativi",
     "Git-Obsidian/Matematica Discreta e Probabilità/Appunti.md",
