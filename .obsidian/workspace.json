@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Obsidian/Matematica Discreta e Probabilità/1 - Combinatoria Elementare.md",
+                "file": "Git-Obsidian/Matematica Discreta e Probabilità/Combinatoria/2 - Principio di inclusione-esclusione.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Matematica Discreta e Probabilità/1 - Combinatoria Elementare.md",
+                "file": "Git-Obsidian/Matematica Discreta e Probabilità/Combinatoria/2 - Principio di inclusione-esclusione.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Matematica Discreta e Probabilità/1 - Combinatoria Elementare.md",
+                "file": "Git-Obsidian/Matematica Discreta e Probabilità/Combinatoria/2 - Principio di inclusione-esclusione.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git-Obsidian/Matematica Discreta e Probabilità/1 - Combinatoria Elementare.md"
+                "file": "Git-Obsidian/Matematica Discreta e Probabilità/Combinatoria/2 - Principio di inclusione-esclusione.md"
               }
             }
           },
@@ -168,12 +168,17 @@
       "callout-manager:Insert Callout": false
     }
   },
-  "active": "f2ffaf6360de317d",
+  "active": "8ed63cdb112b494a",
   "lastOpenFiles": [
+    "Git-Obsidian/Matematica Discreta e Probabilità/Combinatoria/attachements/Pasted image 20240928101829.png",
+    "Git-Obsidian/Matematica Discreta e Probabilità/Combinatoria/attachements/Pasted image 20240928101710.png",
+    "Git-Obsidian/Matematica Discreta e Probabilità/Combinatoria/attachements",
+    "Git-Obsidian/Matematica Discreta e Probabilità/Combinatoria/1 - Combinatoria Elementare.md",
+    "Git-Obsidian/Matematica Discreta e Probabilità/Combinatoria/2 - Principio di inclusione-esclusione.md",
+    "Git-Obsidian/Matematica Discreta e Probabilità/Combinatoria",
     "Git-Obsidian/Sistemi Operativi/Appunti.md",
     "Git-Obsidian/Definizioni/Definizioni_Analisi.md",
     "Git-Obsidian/Markdown Keys.md",
-    "Git-Obsidian/Matematica Discreta e Probabilità/1 - Combinatoria Elementare.md",
     "Git-Obsidian/Analisi/Calcolo Differenziale/Derivate di Funzioni Elementari.md",
     "Git-Obsidian/Matematica Discreta e Probabilità/0 - Introduzione.md",
     "Git-Obsidian/OOP/Appunti.md",
@@ -197,8 +202,6 @@
     "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Le Periferiche.md",
     "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Organizzazione della Memoria.md",
     "Git-Obsidian/Architettura degli Elaboratori/Algebra di Bool e Logica Digitale/Circuiti Sequenziali.md",
-    "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Le Memorie.md",
-    "Git-Obsidian/Architettura degli Elaboratori/Rappresentazione dell'Informazione/Rappresentazione dei Suoni.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Complessità/attachements/Clique-VertexCover.png",
     "Git-Obsidian/Algoritmi e Strutture Dati/Complessità/attachements/VertexCover2.png",
     "Git-Obsidian/Algoritmi e Strutture Dati/Complessità/attachements/VertexCover1.png",
@@ -210,12 +213,9 @@
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/attachements/DFS-2.png",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/attachements/DFS2.png",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/attachements/BFS-2.png",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/attachements/BFS-1.png",
     "Git-Obsidian/Algoritmi e Strutture Dati/Dimostrazioni Algoritmi e Strutture dati.pdf",
     "Git-Obsidian/Programmazione/Funzioni/attachements",
     "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Max Flow/attachements",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Max Flow",
-    "smart-chats",
     "Git-Obsidian/Algebra e Geometria/Isometrie/Legami.canvas",
     "Untitled.canvas",
     "Git-Obsidian/Algoritmi e Strutture Dati/Untitled.canvas",
