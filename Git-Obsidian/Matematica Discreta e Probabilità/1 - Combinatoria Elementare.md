@@ -314,4 +314,38 @@ Dopo il terzo $1$ non sappiamo cosa segue
 - $1010100$
 - $\vdots$
 
-Sostituiamo le prime due coppie di $10$
+Sostituiamo le prime due coppie di $10$ e otteniamo:
+- $00111$
+- $10101$
+- $01011$
+- $11100$
+- $\vdots$
+
+Possiamo notare che è possibile tornare indietro alla sequenza originale:
+- $11010 \iff 1010010$
+
+>[!hint] Osservazione
+>Abbiamo trovato una corrispondenza biunivoca:
+>- $11010 \iff 1010010$
+>- Sequenze binarie lunghe $5$ con $3$ uno e $F_{7,3}$
+
+>[!done] In generake
+>$$F_{n,k}=\binom{n-k+1}{k}$$
+>- Quindi
+>- $$F_{n}=\sum_{k\geq 0} F_{n,k}=\sum_{k\geq 0}\binom{n-k+1}{k}$$
+
+###### Esempio
+$$
+F_{8}=\sum_{k\geq 0}\binom{8-k+1}{k}=\binom{9}{0}+\binom{8}{1}+\binom{7}{2}+\binom{6}{3}+\binom{5}{4}=55
+$$
+
+>[!question] Quante sono le sequenze binarie lunghe $n$ senza $1$ consecutivi che finiscono con $0$?
+
+- $\underbrace{ \_\ \_\ \_\ \_\ \_\ \_\ \_\ \_\ \_\ \_\ \_\ \_ }_{ F_{n-1} } \underline{0}$
+
+>[!question] Quante sono quelle che finiscono con $1$?
+
+- $\underbrace{ \_\ \_\ \_\ \_\ \_\ \_\ \_\ \_\ \_\ \_\ \_ }_{ F_{n-2} } \underline{0}\ \underline{1}$
+
+>[!done] In conclusione $F_{n}=F_{n-1}+F_{n-2}$
+
