@@ -199,6 +199,8 @@ $$
 >[!caution] Coefficiente Binomiale
 >Questo numero: $\displaystyle{\frac{(n)_{a}}{a!}}=\displaystyle{\frac{(n)_{b}}{b!}}=\displaystyle{\frac{n!}{a!b!}}$ si indica con: $\displaystyle\binom{n}{a}=\displaystyle\binom{n}{b}=\displaystyle\binom{n}{a\ b}$
 >[[Definizioni_Analisi#Coefficiente Binomiale|Coefficiente Binomiale]]
+>>[!done] Interpretazione Letterale
+>>$\displaystyle\binom{n}{m}$ sarebbe come dire, scelgo $m$ elementi, scelti da un insieme di $n$ elementi
 
 ### Tipi di Combinazione
 >[!Definizioni]
