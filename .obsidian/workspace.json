@@ -4,28 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "548be4b9104c700d",
+        "id": "780fce5f2fe2ad96",
         "type": "tabs",
         "children": [
           {
-            "id": "2c6924d6f19dd82d",
+            "id": "4b5956abb654146b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Obsidian/Matematica Discreta e Probabilità/Combinatoria/3 - Partizioni.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d8261454f907c019",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git-Obsidian/Matematica Discreta e Probabilità/Combinatoria/2 - Principio di inclusione-esclusione.md",
+                "file": "Git-Obsidian/Sistemi Operativi/Ghini/Livelli del Sistema Operativo.md",
                 "mode": "source",
                 "source": false
               }
@@ -58,7 +46,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "k-$",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +66,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -99,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Matematica Discreta e Probabilità/Combinatoria/3 - Partizioni.md",
+                "file": "Git-Obsidian/Sistemi Operativi/Ghini/Livelli del Sistema Operativo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Matematica Discreta e Probabilità/Combinatoria/3 - Partizioni.md",
+                "file": "Git-Obsidian/Sistemi Operativi/Ghini/Livelli del Sistema Operativo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git-Obsidian/Matematica Discreta e Probabilità/Combinatoria/3 - Partizioni.md"
+                "file": "Git-Obsidian/Sistemi Operativi/Ghini/Livelli del Sistema Operativo.md"
               }
             }
           },
@@ -181,19 +169,23 @@
       "callout-manager:Insert Callout": false
     }
   },
-  "active": "2c6924d6f19dd82d",
+  "active": "4b5956abb654146b",
   "lastOpenFiles": [
+    "Git-Obsidian/Sistemi Operativi/Appunti.md",
+    "Git-Obsidian/Sistemi Operativi/Ghini/Livelli del Sistema Operativo.md",
+    "Git-Obsidian/Sistemi Operativi/Ghini/attachements/OS-Levels.png",
+    "Git-Obsidian/Sistemi Operativi/Ghini/attachements/Protection-Levels.png",
+    "Git-Obsidian/Sistemi Operativi/Ghini/attachements",
+    "Git-Obsidian/Sistemi Operativi/Ferretti",
+    "Git-Obsidian/Sistemi Operativi/Ghini",
     "Git-Obsidian/Matematica Discreta e Probabilità/Combinatoria/2 - Principio di inclusione-esclusione.md",
     "Git-Obsidian/Matematica Discreta e Probabilità/Combinatoria/3 - Partizioni.md",
     "Git-Obsidian/Matematica Discreta e Probabilità/Combinatoria/attachements/Pasted image 20241002184937.png",
     "Git-Obsidian/Matematica Discreta e Probabilità/Combinatoria/1 - Combinatoria Elementare.md",
     "Git-Obsidian/Matematica Discreta e Probabilità/Combinatoria/attachements/attachements",
     "Git-Obsidian/Algebra e Geometria/Applicazioni/8 - Matrici Invertibili.md",
-    "Git-Obsidian/Sistemi Operativi/Appunti.md",
     "Git-Obsidian/Sistemi Operativi/attachements/Pasted image 20241001104841.png",
     "Git-Obsidian/Sistemi Operativi/attachements/Pasted image 20241001103334.png",
-    "Git-Obsidian/Sistemi Operativi/attachements/Pasted image 20241001101612.png",
-    "Git-Obsidian/Sistemi Operativi/attachements/Pasted image 20241001094503.png",
     "Git-Obsidian/Sistemi Operativi/attachements",
     "Git-Obsidian/Game Programming/Introduction.md",
     "Git-Obsidian/Matematica Discreta e Probabilità/Combinatoria/attachements/Pasted image 20240928101829.png",
@@ -221,13 +213,9 @@
     "Git-Obsidian/Architettura degli Elaboratori/Algebra di Bool e Logica Digitale/Circuiti Digitali.md",
     "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/Tipologie di Architetture.md",
     "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/BUS dei Calcolatori.md",
-    "Git-Obsidian/Architettura degli Elaboratori/Algebra di Bool e Logica Digitale/Arithmetic Logic Unit.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Complessità/attachements/Clique-VertexCover.png",
     "Git-Obsidian/Algoritmi e Strutture Dati/Complessità/attachements/VertexCover2.png",
     "Git-Obsidian/Algoritmi e Strutture Dati/Complessità/attachements/VertexCover1.png",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Complessità/attachements",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Complessità",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Dimostrazioni Algoritmi e Strutture dati.pdf",
     "Git-Obsidian/Algebra e Geometria/Isometrie/Legami.canvas",
     "Untitled.canvas",
     "Git-Obsidian/Algoritmi e Strutture Dati/Untitled.canvas",
