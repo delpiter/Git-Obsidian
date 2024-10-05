@@ -85,6 +85,7 @@ Dipendono dal tipo di sistema operativo in esecuzione e dall'hardware della macc
 
 Il livello $3$ è il livello di privilegio utilizzato quando viene usata una ***applicazione utente***
 
+La suddivisione in "***rings***" di protezione della `CPU` è un supporto dell'hardware che consente al sistema operativo di realizzare ***politiche di sicurezza***
 ### Cambio di Livello di privilegio
 > Nel momento in cui l'applicazione chiama una system call
  
