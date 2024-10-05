@@ -107,3 +107,78 @@ Oppure
 $$
 \overline{x}=\displaystyle{\frac{6\cdot 1+3\cdot 2 +1\cdot3+1\cdot 4}{6+3+1+1}}=\frac{19}{11}
 $$
+
+##### Cambio di variabile di primo grado
+>[!info] Proprietà
+>Sia $y=ax+b$
+>$$\overline{y}=a\overline{x}+b$$
+>>[!warning] Attenzione
+>>La proprietà funziona unicamente con ***funzioni di primo grado***
+
+###### Dimostrazione
+>Sfruttando le [[Utility#Proprietà delle Sommatorie|proprietà delle sommatorie]]
+$$
+\overline{y}=\frac{1}{n}\sum_{i=1}^ny=\frac{1}{n}\sum_{i=1}^n(ax_{i}+b)=\frac{1}{n}\left( \sum_{i=1}^nax_{i}+\sum_{i=1}^nb \right)=a\underbrace{ \frac{1}{n}\sum_{i=1}^nx_{i} }_{ \overline{x} }+\frac{1}{\cancel{ n }}b\cancel{ n }=
+$$
+
+>[!done] Conclusione
+>$$\overline{y}=a\overline{x}+b$$
+
+
+###### Esempio
+>Siano $50,55,53,44,43,48,50$ le temperature registrate in $^{\circ}F$ in una città
+
+>[!question] Qual è la temperatura media in $^\circ C$?
+
+- $x=$ temperatura in $^\circ F$
+- $y=$ temperatura in $^\circ C$
+
+$$
+y=(x-32) \frac{100}{180}\implies y=\frac{5}{9}x- \frac{160}{9}
+$$
+
+$$
+\overline{x}=\displaystyle{\frac{50+55+53+44+43+48+50}{7}}=49
+$$
+>Ora applichiamo la proprietà
+
+- $\overline{y}=\frac{5}{9}\overline{x}- \frac{160}{9}\implies\overline{y}=\frac{5}{9}\cdot49- \frac{160}{9}=9.44 ^\circ C$
+
+###### Esempio
+>$180,190,150,210,160,140,140,210,220$
+
+>[!question] Qual è la media di questi numeri?
+
+Poniamo:
+- $y=\displaystyle{\frac{x-200}{10}}$
+
+$y$ assume i valori: $-2,-1,-5,1,5,-4,-6,-6,1,2$
+
+- $\overline{y}= \displaystyle{\frac{-2-1-5+1+5-4-6-6+1+2}{10}}=-1.5$
+
+$$
+-1.5 = \displaystyle{\frac{\overline{x}-200}{10}}\implies\overline{x}=10\overline{y}+200\implies\overline{x}=-15+200=185
+$$
+
+
+#### Varianza di un Carattere
+>[!Definizione]
+>La ***varianza di un carattere*** è un *indice di dispersione*.
+>Da una misura della lontananza dei dati tra di loro
+>>[!done] ‎ 
+>>La varianza è la media dei quadrati delle distanze rispetto a $‎\overline{x}$ e si indica con $\sigma^2_{x}$
+>>Sia $\micro$ la media dei valori $x_{1},\dots,x_{n}$
+>>$$\sigma^2_{x}= \displaystyle{\frac{\displaystyle\sum_{i=1}^n(x_{i}-\micro)}{n}}$$
+
+##### Esempio
+>$x=-1,-2,3$
+>$y=-50,-70,-120$
+
+La media di $x$ e $y$ è entrambe $0$
+
+$$
+\sigma^2_{x}=\displaystyle{\frac{(-1-0)^2+(-2-0)^2+(3-0)^2}{3}}=\frac{14}{3}
+$$
+$$
+\sigma^2_{y}=\displaystyle{\frac{(-50-0)^2+(-70-0)^2+(120-0)^2}{3}}=\text{ numero grande}
+$$
