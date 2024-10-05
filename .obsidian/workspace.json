@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "44150118a8b0b8db",
+        "id": "f1f8eb223d460622",
         "type": "tabs",
         "children": [
           {
-            "id": "dd0067f463355051",
+            "id": "4a0bd8b3956fb23b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Obsidian/Matematica Discreta e Probabilità/0 - Introduzione.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "08271b6f1f5e9f8e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git-Obsidian/Matematica Discreta e Probabilità/Statistica Descrittiva/1 - Indagine Statistica.md",
+                "file": "Git-Obsidian/Matematica Discreta e Probabilità/Utility.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -99,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Matematica Discreta e Probabilità/Statistica Descrittiva/1 - Indagine Statistica.md",
+                "file": "Git-Obsidian/Matematica Discreta e Probabilità/Utility.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Matematica Discreta e Probabilità/Statistica Descrittiva/1 - Indagine Statistica.md",
+                "file": "Git-Obsidian/Matematica Discreta e Probabilità/Utility.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git-Obsidian/Matematica Discreta e Probabilità/Statistica Descrittiva/1 - Indagine Statistica.md"
+                "file": "Git-Obsidian/Matematica Discreta e Probabilità/Utility.md"
               }
             }
           },
@@ -181,16 +168,20 @@
       "callout-manager:Insert Callout": false
     }
   },
-  "active": "08271b6f1f5e9f8e",
+  "active": "4a0bd8b3956fb23b",
   "lastOpenFiles": [
+    "Git-Obsidian/Matematica Discreta e Probabilità/Statistica Descrittiva/1 - Indagine Statistica.md",
+    "Git-Obsidian/Matematica Discreta e Probabilità/Utility.md",
     "Git-Obsidian/Matematica Discreta e Probabilità/0 - Introduzione.md",
+    "Git-Obsidian/Matematica Discreta e Probabilità/Combinatoria/1 - Combinatoria Elementare.md",
+    "Git-Obsidian/Matematica Discreta e Probabilità/Combinatoria/2 - Principio di inclusione-esclusione.md",
+    "Git-Obsidian/Matematica Discreta e Probabilità/Combinatoria/3 - Partizioni.md",
     "Git-Obsidian/Analisi/Tipologie di Dimostrazioni.md",
     "Git-Obsidian/Analisi/Concetti Base.md",
     "Git-Obsidian/Analisi/Insiemi/Insiemi Numerici.md",
     "Git-Obsidian/Analisi/Limiti/Calcolo dei Limiti.md",
     "Git-Obsidian/Analisi/Successioni/Criterio del Rapporto.md",
     "Git-Obsidian/Analisi/Successioni/Operazioni con i Limiti.md",
-    "Git-Obsidian/Matematica Discreta e Probabilità/Statistica Descrittiva/1 - Indagine Statistica.md",
     "Git-Obsidian/Matematica Discreta e Probabilità/Statistica Descrittiva",
     "Git-Obsidian/Sistemi Operativi/Ghini/Livelli del Sistema Operativo.md",
     "Git-Obsidian/Sistemi Operativi/Appunti.md",
@@ -201,10 +192,7 @@
     "Git-Obsidian/Sistemi Operativi/Ghini/attachements",
     "Git-Obsidian/Sistemi Operativi/Ferretti",
     "Git-Obsidian/Sistemi Operativi/Ghini",
-    "Git-Obsidian/Matematica Discreta e Probabilità/Combinatoria/2 - Principio di inclusione-esclusione.md",
-    "Git-Obsidian/Matematica Discreta e Probabilità/Combinatoria/3 - Partizioni.md",
     "Git-Obsidian/Matematica Discreta e Probabilità/Combinatoria/attachements/Pasted image 20241002184937.png",
-    "Git-Obsidian/Matematica Discreta e Probabilità/Combinatoria/1 - Combinatoria Elementare.md",
     "Git-Obsidian/Matematica Discreta e Probabilità/Combinatoria/attachements/attachements",
     "Git-Obsidian/Algebra e Geometria/Applicazioni/8 - Matrici Invertibili.md",
     "Git-Obsidian/Sistemi Operativi/attachements",
@@ -225,7 +213,6 @@
     "Git-Obsidian/Architettura degli Elaboratori/Algebra di Bool e Logica Digitale/Algebra di Bool.md",
     "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/La CPU.md",
     "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/Alcune Architetture.md",
-    "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/Prestazioni dei Calcolatori.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Complessità/attachements/Clique-VertexCover.png",
     "Git-Obsidian/Algoritmi e Strutture Dati/Complessità/attachements/VertexCover2.png",
     "Git-Obsidian/Algoritmi e Strutture Dati/Complessità/attachements/VertexCover1.png",

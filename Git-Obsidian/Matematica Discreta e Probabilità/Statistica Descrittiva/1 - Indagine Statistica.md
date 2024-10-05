@@ -82,4 +82,28 @@ Classi: $60-70$, $71-80$, $81-90$, $91-95$, $96-100$
 #### Media
 >[!abstract] Definizione
 >Se abbiamo un *carattere quantitativo*, definiamo la ***media campionaria***:
->$$\overline{x}=\frac{1}{x}(x_{1}+\dots+x_{n})$$
+>$$\overline{x}=\frac{1}{x}(x_{1}+\dots+x_{n})=\frac{1}{n}\cdot \sum_{i=1}^nx_{i}$$
+>>[!done] Alternativa
+>>Se abbiamo le *modalità* $m_{1},\dots, m_{n}$ con le corrispettive *frequenze* $f_{1},\dots,f_{n}$
+>>$$\overline{x} =\displaystyle{\frac{f_{1}m_{1}+f_{2}m_{2}+\dots+f_{k}m_{k}}{f_{1}+f_{2}+\dots+f_{k}}}$$
+
+##### Esempio
+>I valori assunti sugli elementi del campione sono:
+
+- $1,2,1,1,4,1,2,1,1,2,2$
+
+$$
+\overline{x}=\displaystyle{\frac{1+3+1+1+4+1+2+1+1+2+2}{11}}=\frac{19}{11}
+$$
+Oppure
+
+| Modalità | Frequenza |
+| -------- | --------- |
+| 1        | 6         |
+| 2        | 3         |
+| 3        | 1         |
+| 4        | 1         |
+
+$$
+\overline{x}=\displaystyle{\frac{6\cdot 1+3\cdot 2 +1\cdot3+1\cdot 4}{6+3+1+1}}=\frac{19}{11}
+$$
