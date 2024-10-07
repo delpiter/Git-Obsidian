@@ -22,8 +22,17 @@ Le variabili possono essere ***stabilite*** e ***modificate*** sia dal *sistema 
 >>>- Una sequenza di *percorsi assoluti* nel ***file system***, concatenati dentro alla variabile
 >>>- Il valore è definito dal sistema operativo, ma è possibile modificarlo manualmente
 
+Per visualizzare le ***variabili d'ambiente***: comando `env`
+- Restituisce la lista delle ***variabili d'ambiente***
+
+Per trasformare una ***variabile locale*** in una ***variabile d'ambiente***: comando `export`
+- `export variablename`
+- `export variablename=value` 
+	- Crea direttamente una nuova variabile d'ambiente
+
 >[!quote] Variabili Locali
 >Variabili che ***non*** vengono ereditate dai processi figli
+>>[!done] Utilizzate per computazioni locali all'interno di uno script
 #### Esempio Esecuzione
 ```bash
 wich echo # /usr/bin/echo

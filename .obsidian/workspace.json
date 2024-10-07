@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "fabc9fcfce1c8fe5",
+            "id": "21f41e7118998fc5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Obsidian/Sistemi Operativi/Ghini/Variable Expansion.md",
+                "file": "Git-Obsidian/Sistemi Operativi/Ghini/Utenti e Permessi.md",
                 "mode": "source",
                 "source": false
               }
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Sistemi Operativi/Ghini/Variable Expansion.md",
+                "file": "Git-Obsidian/Sistemi Operativi/Ghini/Utenti e Permessi.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Sistemi Operativi/Ghini/Variable Expansion.md",
+                "file": "Git-Obsidian/Sistemi Operativi/Ghini/Utenti e Permessi.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git-Obsidian/Sistemi Operativi/Ghini/Variable Expansion.md"
+                "file": "Git-Obsidian/Sistemi Operativi/Ghini/Utenti e Permessi.md"
               }
             }
           },
@@ -174,15 +174,15 @@
     "type": "floating",
     "children": [
       {
-        "id": "e3f7aa3db57079aa",
+        "id": "731f646b485d8905",
         "type": "window",
         "children": [
           {
-            "id": "93fd03bc475591ab",
+            "id": "36be8f303cefe736",
             "type": "tabs",
             "children": [
               {
-                "id": "8252338c20fecbcb",
+                "id": "c7d212c3da81950d",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
@@ -206,22 +206,22 @@
       }
     ]
   },
-  "active": "fabc9fcfce1c8fe5",
+  "active": "21f41e7118998fc5",
   "lastOpenFiles": [
     "Git-Obsidian/Sistemi Operativi/Appunti.md",
-    "Git-Obsidian/Sistemi Operativi/Ghini/Variable Expansion.md",
     "Git-Obsidian/Sistemi Operativi/Ghini/Utenti e Permessi.md",
-    "Git-Obsidian/Sistemi Operativi/Ghini/Interfaccia Utente.md",
-    "Git-Obsidian/Sistemi Operativi/Ghini/Concetti Preliminali.md",
+    "Git-Obsidian/Sistemi Operativi/Ghini/Variable Expansion.md",
     "Git-Obsidian/Sistemi Operativi/Ghini/Terminale Unix.md",
+    "Git-Obsidian/Sistemi Operativi/Ghini/Servizi.md",
     "Git-Obsidian/Sistemi Operativi/Ghini/Livelli di Sicurezza.md",
     "Git-Obsidian/Sistemi Operativi/Ghini/Livelli del Sistema Operativo.md",
+    "Git-Obsidian/Sistemi Operativi/Ghini/Interfaccia Utente.md",
+    "Git-Obsidian/Sistemi Operativi/Ghini/Concetti Preliminali.md",
     "Git-Obsidian/Sistemi Operativi/attachements/Pasted image 20241001103334.png",
     "Git-Obsidian/Sistemi Operativi/Ghini/attachements/Unix-Like_fileSystem.png",
     "Git-Obsidian/Sistemi Operativi/Ghini/attachements/Bootstrap.png",
     "Git-Obsidian/Sistemi Operativi/Ghini/attachements/CLI.png",
     "Git-Obsidian/Sistemi Operativi/Ghini/attachements/GUI.png",
-    "Git-Obsidian/Sistemi Operativi/Ghini/Servizi.md",
     "Git-Obsidian/Sistemi Operativi/Ghini/Bootstrap.md",
     "Git-Obsidian/Matematica Discreta e Probabilità/Utility.md",
     "Git-Obsidian/Matematica Discreta e Probabilità/Statistica Descrittiva/1 - Indagine Statistica.md",

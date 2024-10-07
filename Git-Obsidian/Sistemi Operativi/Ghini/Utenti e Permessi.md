@@ -21,12 +21,17 @@ Ciascun ***file*** e ***directory*** è associata ad un ***gruppo***
 >Un utente può *tentare di accedere* ad un ***file***, chiedendo di ***leggere*** o ***modificare*** il contenuto, oppure di ***eseguire*** un file eseguibile, anche se non è l'***owner***
 
 Viene indicato col termine ***effective user***:
-- Un utente quando cerca di accedere ad un file
+- L'***utente*** che cerca di accedere ad un file
 - Permette di ***distinguere*** tra chi sta ***usando*** il file e chi ne è il ***proprietario***.
 	- Il proprietario di un file stabilisce chi può ***accedere*** a quel suo file, configurando i permessi di accesso a quel file.
 
-## Permessi dei File
+## Permessi
 ---
+>Comandi per i cambi dei permessi
+
+- `chown`: cambio dell'***owner*** del ***file/directory***
+- `chmod`: cambio dei ***permessi*** del ***file/directory***
+### Permessi dei File
 > I ***permessi di un file*** sono divisi in ***3 gruppi***
 
 >[!info] Permessi
@@ -67,6 +72,10 @@ Nella prima colonna escono una serie di ***10 caratteri***:
 		- `x` permesso di esecuzione (***execute***)
 	- Se è presente un `-`, significa che non c'è il permesso corrispondente
 
+>[!quote] Caso Speciale: `s`
+>La `s` inserita nella parte di permessi ***utente***, che *sostituisce* la `x` di ***esecuzione***, indica che quando il file viene eseguito da chi ha i permessi, l'esecuzioni avviene con i ***permessi del proprietario*** dell'eseguibile
+>>[!done] Serve per effettuare operazioni con i permessi dell'amministratore di sistema
+
 #### Esempio
 >Sia `-rwxr-xr-x` il permesso dato
 
@@ -88,3 +97,33 @@ I ***gruppi*** possono:
 - Leggere: `r`
 - ~~Scrivere~~: `-`
 - Eseguire `x`
+
+>[!warning] I permessi dei file non sono contenuti nel file ma sono contenuti all'interno della directory
+
+### Permessi delle Directory
+>Diversi concettualmente dai ***permessi dei file***
+
+Stesso format per *Utente*, *Gruppi* e *Altri*:
+- `drwxr-xr-x`
+
+>[!info] Permesso di Lettura alla Directory
+
+Il ***permesso di lettura alla directory***, permette di fare il *listing* dei file della directory
+- Consente l'utilizzo dell'esecuzione del comando `ls`
+
+#### Comando `ls -ld`
+La flag `-d` indica che il comando deve ritornare ***informazioni sulla directory*** specificata
+- Invece di ritornare informazioni sul contenuto della directory
+
+
+>[!attention] Permesso di Scrittura di una Directory
+
+Il ***permesso di scrittura di una directory***, permette di modificare il contenuto della directory:
+- *Creazione*
+- *Eliminazione*
+- *Rinomina* dei file
+
+>[!abstract] Permesso di Esecuzione della Directory
+
+Il ***permesso di esecuzione di una directory***, significa avere la possibilità di cambiare la directory corrente, spostandosi sulla directory specificata.
+- Se ho il permesso di *esecuzione*, posso eseguire il ***comando*** `cd` ed entrare dentro la directory
