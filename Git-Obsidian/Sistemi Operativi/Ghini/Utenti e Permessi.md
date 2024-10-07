@@ -126,4 +126,4 @@ Il ***permesso di scrittura di una directory***, permette di modificare il conte
 >[!abstract] Permesso di Esecuzione della Directory
 
 Il ***permesso di esecuzione di una directory***, significa avere la possibilità di cambiare la directory corrente, spostandosi sulla directory specificata.
-- Se ho il permesso di *esecuzione*, posso eseguire il ***comando*** `cd` ed entrare dentro la directory
+- Se ho il permesso di *esecuzione*, posso eseguire il ***comando*** `cd` ed entrare dentro la directoryP
