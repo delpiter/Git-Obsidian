@@ -160,25 +160,19 @@ $$
 -1.5 = \displaystyle{\frac{\overline{x}-200}{10}}\implies\overline{x}=10\overline{y}+200\implies\overline{x}=-15+200=185
 $$
 
-
-#### Varianza di un Carattere
->[!Definizione]
->La ***varianza di un carattere*** è un *indice di dispersione*.
->Da una misura della lontananza dei dati tra di loro
->>[!done] ‎ 
->>La varianza è la media dei quadrati delle distanze rispetto a $‎\overline{x}$ e si indica con $\sigma^2_{x}$
->>Sia $\micro$ la media dei valori $x_{1},\dots,x_{n}$
->>$$\sigma^2_{x}= \displaystyle{\frac{\displaystyle\sum_{i=1}^n(x_{i}-\micro)}{n}}$$
+#### Mediana
+>[!info] Definizione
+>La ***mediana*** di $x$ è un valore che ***divide il campione in 2 parti uguali***
+>>[!example] $n=2k+1$
+>>Se il campione ha un numero dispari di valori, e i valori sono ordinati in modo crescente
+>>$x_{1} \leq x_{2} \leq x_{3} \leq\dots \leq x_{n}$, la *mediana* è $x_{k+1}$
+>
+>>[!example] $n=2k$
+>>Se il campione ha un numero pari di valori, e i valori sono ordinati in modo crescente
+>>la *mediana* è $\displaystyle{\frac{x_{k}+x_{k+1}}{2}}$
 
 ##### Esempio
->$x=-1,-2,3$
->$y=-50,-70,-120$
+> Valori di $x$: $2,1,4,1,0,2,10,-1,257$
 
-La media di $x$ e $y$ è entrambe $0$
-
-$$
-\sigma^2_{x}=\displaystyle{\frac{(-1-0)^2+(-2-0)^2+(3-0)^2}{3}}=\frac{14}{3}
-$$
-$$
-\sigma^2_{y}=\displaystyle{\frac{(-50-0)^2+(-70-0)^2+(120-0)^2}{3}}=\text{ numero grande}
-$$
+*Mediana*:
+- $-1,0,1,1,\underbrace{ 2 }_{ mediana },2,4,10,257$
