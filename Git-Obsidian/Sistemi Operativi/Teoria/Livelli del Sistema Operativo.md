@@ -7,6 +7,12 @@
 
 > Lo scopo del sistema operativo è quello di consentire agli utenti e ai programmi di ***utilizzare le funzionalità dell'hardware***, assicurando tutte le necessarie ***garanzie di sicurezza***
 
+>[!abstract] Obbiettivi
+>>[!example] Efficienza
+>>Un *sistema operativo* cerca di utilizzare in modo efficiente le risorse del calcolatore
+>
+>>[!quote] Semplicità
+>>Un *sistema operativo* dovrebbe semplificare l'utilizzazione dell'hardware di un calcolatore
 #### Esempio di Programma in Esecuzione
 >Quando un applicativo ha bisogno di ***leggere o scrivere*** in un file all'interno della macchina:
 

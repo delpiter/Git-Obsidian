@@ -32,10 +32,21 @@ Quando una shell deve eseguire uno script, deve fare un controllo sulla prima ri
 - Indica quale interprete di comandi utilizzare
 - Se voglio eseguire uno script in un linguaggio diverso è necessario specificare l'interprete da utilizzare
 
+>[!question] Qual è l'interprete che deve essere usato per eseguire lo script?
+
 Prima riga:
 > `#!/bin/bash`
 - Va inserito il percorso dell'interprete che si vuole utilizzare
 - Se non è presente questa riga, viene utilizzato lo stesso interprete in esecuzione sul momento
+
+```bash
+#!/usr/bin/perl
+
+echo sono due
+ls -al ./
+```
+Errore:
+- _stronzo mi stai parlando in tedesco, che sono finlandese_
 
 Per l'esecuzione dello script, in ogni caso viene creato un nuovo processo figlio
 
@@ -43,4 +54,6 @@ Per l'esecuzione dello script, in ogni caso viene creato un nuovo processo figli
  - Quando il processo figlio inizia l'esecuzione, il processo padre ferma la propria esecuzione e si mette in attesa che il processo figlio finisca
  - Quando il processo figlio termina, il padre riprende il controllo
 	 - I processi figli sono in grado di restituire un valore intero che indica se l'esecuzione dello script è andata a buon fine o meno
-- 
+
+
+
