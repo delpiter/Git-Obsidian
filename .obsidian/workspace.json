@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "e81336d625cd2162",
+        "id": "361142ab907b6827",
         "type": "tabs",
         "children": [
           {
-            "id": "b1a945525e28e372",
+            "id": "7f03149f8eabc5af",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Obsidian/Matematica Discreta e Probabilità/Statistica Descrittiva/Argomenti Plus.md",
+                "file": "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/Spazi di Probabilità.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Matematica Discreta e Probabilità/Statistica Descrittiva/Argomenti Plus.md",
+                "file": "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/Spazi di Probabilità.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Matematica Discreta e Probabilità/Statistica Descrittiva/Argomenti Plus.md",
+                "file": "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/Spazi di Probabilità.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git-Obsidian/Matematica Discreta e Probabilità/Statistica Descrittiva/Argomenti Plus.md"
+                "file": "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/Spazi di Probabilità.md"
               }
             }
           },
@@ -168,10 +168,12 @@
       "callout-manager:Insert Callout": false
     }
   },
-  "active": "b1a945525e28e372",
+  "active": "7f03149f8eabc5af",
   "lastOpenFiles": [
-    "Git-Obsidian/Matematica Discreta e Probabilità/Statistica Descrittiva/1 - Indagine Statistica.md",
+    "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/Spazi di Probabilità.md",
+    "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità",
     "Git-Obsidian/Matematica Discreta e Probabilità/Statistica Descrittiva/Argomenti Plus.md",
+    "Git-Obsidian/Matematica Discreta e Probabilità/Statistica Descrittiva/1 - Indagine Statistica.md",
     "Git-Obsidian/Matematica Discreta e Probabilità/Statistica Descrittiva/Varianza.md",
     "Git-Obsidian/Matematica Discreta e Probabilità/Statistica Descrittiva/attachements/EsempioRMQ.png",
     "Git-Obsidian/Matematica Discreta e Probabilità/Statistica Descrittiva/attachements",
@@ -208,14 +210,12 @@
     "Git-Obsidian/Analisi/Insiemi/Insiemi Numerici.md",
     "Git-Obsidian/Analisi/Limiti/Calcolo dei Limiti.md",
     "Git-Obsidian/Analisi/Successioni/Criterio del Rapporto.md",
-    "Git-Obsidian/Analisi/Successioni/Operazioni con i Limiti.md",
     "Git-Obsidian/Matematica Discreta e Probabilità/Statistica Descrittiva",
     "Git-Obsidian/Sistemi Operativi/Bash/attachements",
     "Git-Obsidian/Sistemi Operativi/Teoria",
     "Git-Obsidian/Sistemi Operativi/Bash",
     "Git-Obsidian/Matematica Discreta e Probabilità/Combinatoria/attachements/attachements",
     "Git-Obsidian/Sistemi Operativi/attachements",
-    "Git-Obsidian/Matematica Discreta e Probabilità/Combinatoria/attachements",
     "Git-Obsidian/Algebra e Geometria/Isometrie/Legami.canvas",
     "Untitled.canvas",
     "Git-Obsidian/Algoritmi e Strutture Dati/Untitled.canvas",
