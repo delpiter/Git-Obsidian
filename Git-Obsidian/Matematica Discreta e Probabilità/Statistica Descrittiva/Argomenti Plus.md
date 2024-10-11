@@ -34,5 +34,6 @@ Sia $s$ la distanza tra $A$ e $B$
 
 ***Velocità media*** totale:
 $$
-\displaystyle{\frac{2\cancel{ s }}{\displaystyle{\frac{\cancel{ s }}{3}}+\displaystyle{\frac{\cancel{ s }}7{}}}}=\displaystyle{\frac{1}{}}
+\displaystyle{\frac{2\cancel{ s }}{\displaystyle{\frac{\cancel{ s }}{3}}+\displaystyle{\frac{\cancel{ s }}7{}}}}=\displaystyle{\frac{1}{\displaystyle{\frac{\frac{1}{3}+\frac{1}{7}}{2}}}}=4
 $$
+*Inverso della media degli inversi*
