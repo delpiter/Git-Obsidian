@@ -46,29 +46,36 @@ Quando si preme "***invio***" la sequneza viene ricevuta e la shell analizza il 
 #### Standard POSIX
 >[!info] Definizione
 >*Standard* che cerca di ***uniformare alcune funzionalità*** che i sistemi operativi mettono a disposizione degli utenti e linguaggi di programmazione
-### Tipi di Comando
->[!info] Comandi
->I ***Comandi propriamente detti*** sono ordini la cui *implementazione* è ***contenuta*** nel file eseguibile della ***shell*** stessa
->- Anche detti "*built-in commands*"
+
+### Avvio della shell bash
+>L'interprete bash si comporta in modo diverso in base a quali argomenti gli vengono passati all'avvio
+Separati in 3 gruppi
+
+>[!caution] Shell non interattiva
+>Una `shell` **non** interattiva è una `shell` "*figlia*" che esegue script, si crea inserendo il *flag* `-c`
+>All'esecuzione del comando `./executable.sh`, la `bash` esegue in realtà:
+>- `/bin/bash -c ./executable.sh`
+>>[!missing] Non è possibile personalizzare questa `shell`
+
+
+>[!abstract] Shell Interattiva di login
+> Una `shell` *interattiva di login* è la `shell` che viene eseguita quando un sistema operativo **non ha una interfaccia grafica**, si crea inserendo il *flag* `-l` o `--login`
 > 
->>[!warning] Non si trovano come file separati nel file system
+> Cerca di *eseguire* i seguenti file:
+>- `/etc/profile`
+>	- Viene eseguito dalla `bash` tramite il comando `source` [[Esecuzione dei File#Comando `source`|(*)]]
+>		- Il comando imposta le ***variabili di default*** della `shell`
+>- *Uno solo* (il primo trovato) tra: `.bash_profile`,`.bash_login`, `-profile`
+>- Il *file* `.bashrc` nella home directory dell'utente
 >
->Sono ordini che diamo all'interprete di comandi e che l'interprete ***esegue***, senza cercare sul disco un eseguibile corrispondente al nome che noi abbiamo dato come ordine
->>[!done] Servizi
->>Sono nomi di servizi che sono ***implementati dall'interprete stesso***
+>>[!done] Il file `.bashrc` permette di ***personalizzare*** la `shell` 
 >
->Es: comando `cd` non esiste l'eseguibile del comando, il comando è implementato direttamente all'interno dell'interprete
+>- Chiede uno *username* e successivamente una *password*
+>- Una volta **verificato l'utente** si apre una *shell interattiva*
 
->[!tldr] Eseguibili
-> *Ordini* la cui implementazione è ***contenuta fuori dalla shell***
-> Memorizzata in altri file nel *file system*
-> >[!cautiom] Ricerca
->> Sono dei file con il nome che digitiamo da tastiera che troviamo su disco
->> - L'*interprete* quando vede che il comando ***non è implementato internamente***, va a cercare l'eseguibile su disco
 
-#### Differenza fondamentale
-Un comando è ***sempre presente***, sa sempre come *eseguire* il comando
+>[!tldr] Shell interattiva non di login
+> Una `shell` che viene eseguita all'*apertura* di una finestra di un terminale
+>>[!done] Il file `.bashrc` permette di ***personalizzare*** la `shell`
 
-Un ***eseguibile*** nel file sistem ***non è detto*** che l'interprete sappia come ***rintracciare*** l'eseguibile
-- Bisogna mettere l'interprete nelle condizione di ***saper rintracciare*** l'eseguibile
-
+>Quando termina esegue il file `.bash_logout`

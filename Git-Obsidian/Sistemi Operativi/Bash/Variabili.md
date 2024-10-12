@@ -33,19 +33,14 @@ Per trasformare una ***variabile locale*** in una ***variabile d'ambiente***: co
 >[!quote] Variabili Locali
 >Variabili che ***non*** vengono ereditate dai processi figli
 >>[!done] Utilizzate per computazioni locali all'interno di uno script
-#### Esempio Esecuzione
-```bash
-wich echo # /usr/bin/echo
 
-echo ciao
-ciao
+Una *variabile* può essere ***vuota***:
+- In alcune occasioni, solamente l'*esistenza della variabile*, serve a dare una ***componete informativa***
+##### Eliminazione di una Variabile
+>Per eliminare una variabile basta usare il comando `unset`
 
-# Alternativa
-/usr/bin/echo ciao
-ciao
-```
-
-### Le Variabili nei Comandi
+- `unset variablename`
+### Variable Expansion
 >Le variabili possono essere usate quando si scrivono comandi per la `shell`
 
 La `shell` riconosce i nomi delle variabili e cambia il contenuto del comando ***sostituendo*** al *nome* il *valore* della variabile
@@ -88,25 +83,10 @@ ls: cannot acces '=content': No such file or directory
 
 La shell cerca di eseguire il comando avente nome `VARAIBILE` passandogli come contenuto `"=content"`
 
->Assegnamento con spazio dopo il simbolo `=`
+>[[Esecuzione dei File#Variabile e Esecuzione|(\*)]] Assegnamento con spazio dopo il simbolo `=` 
 
 ```bash
 VARIABLE= content
 ```
 
-La shell cerca di eseguire il comando `content` costruendo per tale comando un nuovo ambiente di esecuzione dove colloca una variabile vuota di nome `VARIABLE`
-
-### Comandi Eseguibili
->[!info] Tipologie di comandi Eseguibili
->Usando l'interfaccia utente a linea di comando, possono essere eseguiti:
->>[!summary] Comandi Built-In
->>Implementati e inclusi nella `shell` stessa
->
->>[!example] File binari e Eseguibili
->>***File*** che contengono *codice macchina* e si trovano nel ***file system***
->
->>[!tip] Script
->>***File*** di testo che contengono una *sequenza* di nomi di ***comandi*** binari e altri ***script***
-
-Per essere ***eseguito*** un file binario o uno script deve avere i [[Utenti e Permessi#Permessi dei File|permessi]] di esecuzione
-- È possibile modificare i permessi di un file o script tramite il ***comando*** `chmod`
+La shell cerca di eseguire il comando `content` costruendo per tale comando un *nuovo ambiente* di esecuzione dove colloca una variabile vuota di nome `VARIABLE`

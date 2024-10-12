@@ -76,6 +76,8 @@ Nella prima colonna escono una serie di ***10 caratteri***:
 >La `s` inserita nella parte di permessi ***utente***, che *sostituisce* la `x` di ***esecuzione***, indica che quando il file viene eseguito da chi ha i permessi, l'esecuzioni avviene con i ***permessi del proprietario*** dell'eseguibile
 >>[!done] Serve per effettuare operazioni con i permessi dell'amministratore di sistema
 
+Può capitare anche una `S` *maiuscola*, in quel caso significa che il proprietario del file ha ***commesso qualche errore*** nella configurazione del *permesso*
+
 #### Esempio
 >Sia `-rwxr-xr-x` il permesso dato
 
@@ -126,4 +128,4 @@ Il ***permesso di scrittura di una directory***, permette di modificare il conte
 >[!abstract] Permesso di Esecuzione della Directory
 
 Il ***permesso di esecuzione di una directory***, significa avere la possibilità di cambiare la directory corrente, spostandosi sulla directory specificata.
-- Se ho il permesso di *esecuzione*, posso eseguire il ***comando*** `cd` ed entrare dentro la directoryP
+- Se ho il permesso di *esecuzione*, posso eseguire il ***comando*** `cd` ed entrare dentro la directory

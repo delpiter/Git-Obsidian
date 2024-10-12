@@ -44,3 +44,9 @@ Esiste una ***partizione principale***: `/`
 
 >*Boh?*
 
+#### File Nascosti
+>[!hint] Definizione
+>I ***file nascosti*** sono file il cui nome incomincia con `.`
+
+Se un file è considerato *nascosto*
+- ***Non viene visualizzato*** se lanciato il comando `ls` senza specificare il flag `-a`
