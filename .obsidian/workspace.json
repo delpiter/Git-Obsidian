@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Obsidian/Sistemi Operativi/Bash/Interfaccia Utente.md",
+                "file": "Git-Obsidian/Sistemi Operativi/Bash/Brace Expansion.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Sistemi Operativi/Bash/Interfaccia Utente.md",
+                "file": "Git-Obsidian/Sistemi Operativi/Bash/Brace Expansion.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Sistemi Operativi/Bash/Interfaccia Utente.md",
+                "file": "Git-Obsidian/Sistemi Operativi/Bash/Brace Expansion.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git-Obsidian/Sistemi Operativi/Bash/Interfaccia Utente.md"
+                "file": "Git-Obsidian/Sistemi Operativi/Bash/Brace Expansion.md"
               }
             }
           },
@@ -207,9 +207,10 @@
   },
   "active": "0fbd1f783cb3ab38",
   "lastOpenFiles": [
-    "Git-Obsidian/Sistemi Operativi/Bash/Esecuzione dei File.md",
-    "Git-Obsidian/Sistemi Operativi/Bash/Interfaccia Utente.md",
     "Git-Obsidian/Sistemi Operativi/Appunti.md",
+    "Git-Obsidian/Sistemi Operativi/Bash/Brace Expansion.md",
+    "Git-Obsidian/Sistemi Operativi/Bash/Interfaccia Utente.md",
+    "Git-Obsidian/Sistemi Operativi/Bash/Esecuzione dei File.md",
     "Git-Obsidian/Sistemi Operativi/Bash/Tipi di Comandi.md",
     "Git-Obsidian/Sistemi Operativi/Bash/Terminale Unix.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Programmazione Dinamica/Longest Common Subsequence.md",
@@ -246,7 +247,6 @@
     "Git-Obsidian/Sistemi Operativi/Teoria/attachements/Bootstrap.png",
     "Git-Obsidian/Sistemi Operativi/Bash/attachements/Bootstrap 1.png",
     "Git-Obsidian/Sistemi Operativi/Teoria/Servizi.md",
-    "Git-Obsidian/Matematica Discreta e Probabilità/Combinatoria/2 - Principio di inclusione-esclusione.md",
     "Git-Obsidian/Matematica Discreta e Probabilità/Statistica Descrittiva",
     "Git-Obsidian/Sistemi Operativi/Bash/attachements",
     "Git-Obsidian/Sistemi Operativi/Teoria",
