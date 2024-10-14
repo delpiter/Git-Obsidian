@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "2c2ca56e7fd85e23",
+            "id": "cfa94c9e7183cb8b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Obsidian/Sistemi Operativi/Appunti.md",
+                "file": "Git-Obsidian/Sistemi Operativi/Teoria/Scheduling.md",
                 "mode": "source",
                 "source": false
               }
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Sistemi Operativi/Appunti.md",
+                "file": "Git-Obsidian/Sistemi Operativi/Teoria/Scheduling.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Sistemi Operativi/Appunti.md",
+                "file": "Git-Obsidian/Sistemi Operativi/Teoria/Scheduling.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git-Obsidian/Sistemi Operativi/Appunti.md"
+                "file": "Git-Obsidian/Sistemi Operativi/Teoria/Scheduling.md"
               }
             }
           },
@@ -169,21 +169,21 @@
       "callout-manager:Insert Callout": false
     }
   },
-  "active": "2c2ca56e7fd85e23",
+  "active": "cfa94c9e7183cb8b",
   "lastOpenFiles": [
-    "Git-Obsidian/Sistemi Operativi/attachements/Many-to-Many.png",
     "Git-Obsidian/Sistemi Operativi/Appunti.md",
-    "Git-Obsidian/Sistemi Operativi/attachements/One-to-One.png",
-    "Git-Obsidian/Sistemi Operativi/attachements/Many-to-One.png",
-    "Git-Obsidian/Sistemi Operativi/attachements/Threads.png",
+    "Git-Obsidian/Sistemi Operativi/Teoria/Scheduling.md",
+    "Git-Obsidian/Sistemi Operativi/Teoria/attachements/Many-to-Many.png",
+    "Git-Obsidian/Sistemi Operativi/Teoria/attachements/One-to-One.png",
+    "Git-Obsidian/Sistemi Operativi/Teoria/attachements/Many-to-One.png",
+    "Git-Obsidian/Sistemi Operativi/Teoria/attachements/Threads.png",
+    "Git-Obsidian/Sistemi Operativi/Teoria/attachements/ProcessTreeStructure.png",
+    "Git-Obsidian/Sistemi Operativi/Teoria/attachements/CodeProcessi2.png",
     "Git-Obsidian/Sistemi Operativi/attachements/Pasted image 20241013175003.png",
     "Git-Obsidian/Sistemi Operativi/attachements/Multithread.jpg",
     "Git-Obsidian/Sistemi Operativi/attachements/Pasted image 20241013175003.jpg",
-    "Git-Obsidian/Sistemi Operativi/attachements/Screenshot 2024-10-13 172825.png",
-    "Git-Obsidian/Sistemi Operativi/attachements/Screenshot 2024-10-13 172559.png",
-    "Git-Obsidian/Sistemi Operativi/attachements/Code dei Processi.png",
+    "Git-Obsidian/Sistemi Operativi/Teoria/attachements/Code dei Processi.png",
     "Git-Obsidian/Sistemi Operativi/Teoria/Livelli di Sicurezza.md",
-    "Git-Obsidian/Sistemi Operativi/Teoria/Scheduling.md",
     "Git-Obsidian/OOP/Appunti.md",
     "Git-Obsidian/Sistemi Operativi/Bash/Brace Expansion.md",
     "Git-Obsidian/Sistemi Operativi/Bash/Interfaccia Utente.md",

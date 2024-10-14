@@ -99,3 +99,112 @@ Se lo *scheduler* decide di eseguire un altro processo il sistema è soggetto ad
 >Il processo può ***essere eseguito***, ma attualmente il processore è ***impegnato in altre attività***
 
 ![[ProcessStates.png]]
+##### Code dei Processi
+>Tutte le volte che un processo entra nel sistema, viene inserito in una delle code gestite dallo [[#Scheduler]]
+
+![[Code dei Processi.png]]![[CodeProcessi2.png]]
+
+#### Gerarchia dei processi
+>[!struttura]
+>I [[#Processi]] sono organizzati in una *struttura gerarchica*
+>- Quando un processo crea un nuovo processo: il creante viene detto *padre* e il creato viene detto *figlio*
+>
+>>[!done] Si viene a creare una struttura ad albero di processi
+
+![[ProcessTreeStructure.png]]
+### Thread
+>[!info] Introduzione
+>Tutti i *sistemi operativi* supportano l'esistenza di processi ***multithread***
+>- In un **processo multithread** esistono molte *linee di controllo* ognuna delle quali è in grado di eseguire un insieme diverso di istruzioni
+
+>[!Definizione]
+>Un ***thread*** è l'unità di base di utilizzazione della `CPU`
+>>[!example] Ogni *thread* possiede:
+>>- La copia dello **stato del processore**
+>>- Un proprio **program counter**
+>>- Uno **stack**
+
+> I thread appartenenti allo stesso processo condividono:
+- Codice, dati e risorse `I/O`
+![[Threads.png]]
+
+>[!done] Thread: Pro
+>I *thread* sono meno costosi in termini di:
+>- **Creazione** di un novo thread in un processo
+>- **Context Switching** fra thread
+
+>Utilizzare i *thread* al posto dei *processi* rende l'implementazione più efficiente
+
+#### Implementazione Thread
+>Esistono due diverse implementazioni di *thread*: **User Thread** e **Kernel Thread**
+
+>[!example] User Thread
+>Gli *User Thread* vengono supportati ***sopra il kernel*** e sono implementati da una libreria a livello utente
+>>[!info] Libreria
+>>La *libreria* fornisce supporto per la **creazione**, **scheduling** e **gestione** dei thread senza l'intervento del kernel
+
+>[!tldr] Kernel Thread
+>I *Kernel Thread* vengono supportati direttamente dal ***sistema operativo***
+>>[!info] Implementazione
+>>**Creazione**, **scheduling** e **gestione** sono implementati a *livello kernel*
+
+#### Modelli Multithreading
+>Da queste [[#Implementazione Thread|due implementazioni]] sono stati creati tre modelli di multithreading
+
+>[!abstract] Many-to-One
+>Un certo numero di **user thread** vengono mappati su un unico **kernel thread**
+>- Modello utilizzato da *sistemi operativi* che non supportano kernel thread multipli (nessuno)
+
+![[Many-to-One.png]]
+
+>[!note] One-to-One
+>Ogni **user thread** viene mappato su un **kernel thread**
+>- Soluzione *poco scalabile*
+
+![[One-to-One.png]]
+
+>[!cite] Many-to-Many
+>Più **thread kernel** a cui associare più thread **livello user**
+
+![[Many-to-Many.png]]
+##### I Processi in Linux
+>Di seguito alcune funzioni utilizzate per la gestione di un *programma multiprocessing*
+
+>[!abstract] `fork()`
+>La funzione `fork()` crea un processo *figlio* da un processo *padre*
+>- Se la funzione ritorna un `PID` negativo, significa che la creazione ha dato errore
+>- Se ritorna un `PID` $=0$, significa che la creazione è andata a buon fine ed è in **esecuzione il processo figlio**
+>- Se ritorna un `PID` $>0$ , significa che la creazione è andata a buon fine ed è in **esecuzione il processo padre**
+
+>[!note] `wait()`
+>La funzione `wait()` lanciata dal *processo padre*, mette in attesa il processo fino alla fine dell'esecuzione del *processo figlio*
+
+```c
+int value = 5;
+
+int main()
+{
+	pid_t pid;
+	pid = fork(); // Returns 0 to the child process and the PID of the child to the parent process
+	if(pid == 0)
+	{/*if child process*/
+		value += 15;
+		printf("Child: value = %d\n",value);// value = 20
+		return 0;
+	}
+	else if (pid > 0)
+	{/*if parent process*/
+		wait(NULL);
+		printf("Parent : value = %d\n", value); // Value = 5
+		return 0;
+	}
+}
+```
+
+###### Passaggio di valori tra processi: pipe
+
+>La funzione `pipe()` crea una *pipe unidirezionale* di comunicazione che può essere utilizzata per il ***passaggio di dati fra processi***
+
+La funzione chiede come argomento un **array** di *2 posizioni*
+- `array[0]` -> estremità di **lettura** della pipe
+- `array[1]` -> estremità di **scrittura** della pipe
