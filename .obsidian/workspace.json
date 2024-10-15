@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Obsidian/Sistemi Operativi/Teoria/Scheduling.md",
+                "file": "Git-Obsidian/Sistemi Operativi/Appunti.md",
                 "mode": "source",
                 "source": false
               }
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Sistemi Operativi/Teoria/Scheduling.md",
+                "file": "Git-Obsidian/Sistemi Operativi/Appunti.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Sistemi Operativi/Teoria/Scheduling.md",
+                "file": "Git-Obsidian/Sistemi Operativi/Appunti.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git-Obsidian/Sistemi Operativi/Teoria/Scheduling.md"
+                "file": "Git-Obsidian/Sistemi Operativi/Appunti.md"
               }
             }
           },
@@ -171,7 +171,10 @@
   },
   "active": "cfa94c9e7183cb8b",
   "lastOpenFiles": [
+    "Git-Obsidian/Sistemi Operativi/Teoria/Concetti Preliminali.md",
     "Git-Obsidian/Sistemi Operativi/Appunti.md",
+    "Git-Obsidian/Sistemi Operativi/attachements/Pasted image 20241014150417.png",
+    "Git-Obsidian/Sistemi Operativi/attachements/Pasted image 20241014145818.png",
     "Git-Obsidian/Sistemi Operativi/Teoria/Scheduling.md",
     "Git-Obsidian/Sistemi Operativi/Teoria/attachements/Many-to-Many.png",
     "Git-Obsidian/Sistemi Operativi/Teoria/attachements/One-to-One.png",
@@ -181,8 +184,6 @@
     "Git-Obsidian/Sistemi Operativi/Teoria/attachements/CodeProcessi2.png",
     "Git-Obsidian/Sistemi Operativi/attachements/Pasted image 20241013175003.png",
     "Git-Obsidian/Sistemi Operativi/attachements/Multithread.jpg",
-    "Git-Obsidian/Sistemi Operativi/attachements/Pasted image 20241013175003.jpg",
-    "Git-Obsidian/Sistemi Operativi/Teoria/attachements/Code dei Processi.png",
     "Git-Obsidian/Sistemi Operativi/Teoria/Livelli di Sicurezza.md",
     "Git-Obsidian/OOP/Appunti.md",
     "Git-Obsidian/Sistemi Operativi/Bash/Brace Expansion.md",
@@ -200,7 +201,6 @@
     "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/Pipelining.md",
     "Git-Obsidian/Algebra e Geometria/Applicazioni/1 - Applicazioni Lineari.md",
     "Git-Obsidian/Sistemi Operativi/Bash/Utenti e Permessi.md",
-    "Git-Obsidian/Sistemi Operativi/Teoria/Concetti Preliminali.md",
     "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/Spazi di Probabilità.md",
     "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità",
     "Git-Obsidian/Matematica Discreta e Probabilità/Statistica Descrittiva/Argomenti Plus.md",
