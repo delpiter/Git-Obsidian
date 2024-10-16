@@ -99,6 +99,15 @@ Se lo *scheduler* decide di eseguire un altro processo il sistema è soggetto ad
 >Il processo può ***essere eseguito***, ma attualmente il processore è ***impegnato in altre attività***
 
 ![[ProcessStates.png]]
+
+##### Caratteristiche dei Processi
+>Durante l'esecuzione di un processo, la `CPU` alterna periodi di
+
+>[!info] `CPU` Burst
+> I processi Caratterizzati da `CPU` *burst* lunghi si dicono `CPU` *bound*
+
+>[!attention] `I/O` Burst
+> I processi Caratterizzati da `I/O` *burst* lunghi si dicono `I/O` *bound*
 ##### Code dei Processi
 >Tutte le volte che un processo entra nel sistema, viene inserito in una delle code gestite dallo [[#Scheduler]]
 

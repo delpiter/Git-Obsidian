@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "7501ec8e54db7f96",
+        "id": "f7bf001035a1c08d",
         "type": "tabs",
         "children": [
           {
-            "id": "cfa94c9e7183cb8b",
+            "id": "d1f2699c65115b7c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Obsidian/Sistemi Operativi/Appunti.md",
+                "file": "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/Unione di Eventi.md",
                 "mode": "source",
                 "source": false
               }
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Sistemi Operativi/Appunti.md",
+                "file": "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/Unione di Eventi.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Sistemi Operativi/Appunti.md",
+                "file": "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/Unione di Eventi.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git-Obsidian/Sistemi Operativi/Appunti.md"
+                "file": "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/Unione di Eventi.md"
               }
             }
           },
@@ -169,13 +169,20 @@
       "callout-manager:Insert Callout": false
     }
   },
-  "active": "cfa94c9e7183cb8b",
+  "active": "d1f2699c65115b7c",
   "lastOpenFiles": [
-    "Git-Obsidian/Sistemi Operativi/Teoria/Concetti Preliminali.md",
+    "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/1 - Spazi di Probabilità.md",
+    "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/Unione di Eventi.md",
+    "Git-Obsidian/Sistemi Operativi/Bash/Tilde Expanison.md",
+    "Git-Obsidian/OOP/Appunti.md",
     "Git-Obsidian/Sistemi Operativi/Appunti.md",
-    "Git-Obsidian/Sistemi Operativi/attachements/Pasted image 20241014150417.png",
+    "Git-Obsidian/Sistemi Operativi/Apertura della Macchina Virtuale.md",
+    "Git-Obsidian/Sistemi Operativi/Teoria/I Processi.md",
+    "Git-Obsidian/Sistemi Operativi/Teoria/Scheduler.md",
+    "Git-Obsidian/Sistemi Operativi/Teoria/attachements/GanttDiagram.png",
+    "Git-Obsidian/Sistemi Operativi/Teoria/Untitled.md",
+    "Git-Obsidian/Sistemi Operativi/Teoria/Concetti Preliminali.md",
     "Git-Obsidian/Sistemi Operativi/attachements/Pasted image 20241014145818.png",
-    "Git-Obsidian/Sistemi Operativi/Teoria/Scheduling.md",
     "Git-Obsidian/Sistemi Operativi/Teoria/attachements/Many-to-Many.png",
     "Git-Obsidian/Sistemi Operativi/Teoria/attachements/One-to-One.png",
     "Git-Obsidian/Sistemi Operativi/Teoria/attachements/Many-to-One.png",
@@ -185,7 +192,6 @@
     "Git-Obsidian/Sistemi Operativi/attachements/Pasted image 20241013175003.png",
     "Git-Obsidian/Sistemi Operativi/attachements/Multithread.jpg",
     "Git-Obsidian/Sistemi Operativi/Teoria/Livelli di Sicurezza.md",
-    "Git-Obsidian/OOP/Appunti.md",
     "Git-Obsidian/Sistemi Operativi/Bash/Brace Expansion.md",
     "Git-Obsidian/Sistemi Operativi/Bash/Interfaccia Utente.md",
     "Git-Obsidian/Sistemi Operativi/Bash/Esecuzione dei File.md",
@@ -201,13 +207,8 @@
     "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/Pipelining.md",
     "Git-Obsidian/Algebra e Geometria/Applicazioni/1 - Applicazioni Lineari.md",
     "Git-Obsidian/Sistemi Operativi/Bash/Utenti e Permessi.md",
-    "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/Spazi di Probabilità.md",
     "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità",
-    "Git-Obsidian/Matematica Discreta e Probabilità/Statistica Descrittiva/Argomenti Plus.md",
-    "Git-Obsidian/Matematica Discreta e Probabilità/Statistica Descrittiva/1 - Indagine Statistica.md",
-    "Git-Obsidian/Matematica Discreta e Probabilità/Statistica Descrittiva/Varianza.md",
     "Git-Obsidian/Matematica Discreta e Probabilità/Statistica Descrittiva/attachements",
-    "Git-Obsidian/Sistemi Operativi/Teoria/Livelli del Sistema Operativo.md",
     "Git-Obsidian/Sistemi Operativi/Teoria/attachements",
     "Git-Obsidian/Sistemi Operativi/Teoria/attatchements",
     "Git-Obsidian/Matematica Discreta e Probabilità/Statistica Descrittiva",
