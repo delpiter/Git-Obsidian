@@ -4,17 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "424741a6640b92bd",
+        "id": "0a3db799210ba748",
         "type": "tabs",
-        "dimension": 52.42369838420108,
         "children": [
           {
-            "id": "256c8dfcc8b4be1e",
+            "id": "cb8ce7b64f3dd057",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Obsidian/Sistemi Operativi/Bash/Comandi.md",
+                "file": "Git-Obsidian/Sistemi Operativi/Teoria/Parameter Expansion.md",
                 "mode": "source",
                 "source": false
               }
@@ -23,12 +22,11 @@
         ]
       },
       {
-        "id": "af59debfea303964",
+        "id": "b5b878c65d548ba1",
         "type": "tabs",
-        "dimension": 47.57630161579892,
         "children": [
           {
-            "id": "0d4df41617d3b48d",
+            "id": "adebe9958ce6575c",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -86,7 +84,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -107,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Sistemi Operativi/Appunti.md",
+                "file": "Git-Obsidian/Sistemi Operativi/Teoria/Parameter Expansion.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Sistemi Operativi/Appunti.md",
+                "file": "Git-Obsidian/Sistemi Operativi/Teoria/Parameter Expansion.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git-Obsidian/Sistemi Operativi/Appunti.md"
+                "file": "Git-Obsidian/Sistemi Operativi/Teoria/Parameter Expansion.md"
               }
             }
           },
@@ -189,10 +187,13 @@
       "callout-manager:Insert Callout": false
     }
   },
-  "active": "0d4df41617d3b48d",
+  "active": "cb8ce7b64f3dd057",
   "lastOpenFiles": [
-    "Git-Obsidian/Sistemi Operativi/Bash/Comandi.md",
     "Git-Obsidian/Sistemi Operativi/Appunti.md",
+    "Git-Obsidian/Sistemi Operativi/Teoria/Parameter Expansion.md",
+    "Git-Obsidian/Game Programming/Introduction.md",
+    "Git-Obsidian/OOP/Appunti.md",
+    "Git-Obsidian/Sistemi Operativi/Bash/Comandi.md",
     "Git-Obsidian/Sistemi Operativi/Bash/History Expansion.md",
     "Git-Obsidian/Sistemi Operativi/Bash/Wildcards.md",
     "Git-Obsidian/Sistemi Operativi/Bash/Untitled.md",
@@ -200,7 +201,6 @@
     "Git-Obsidian/Sistemi Operativi/Bash/Tilde Expanison.md",
     "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/2 - Unione di Eventi.md",
     "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/1 - Spazi di Probabilità.md",
-    "Git-Obsidian/OOP/Appunti.md",
     "Git-Obsidian/Sistemi Operativi/Teoria/I Processi.md",
     "Git-Obsidian/Sistemi Operativi/Teoria/Scheduler.md",
     "Git-Obsidian/Sistemi Operativi/Teoria/attachements/GanttDiagram.png",
@@ -225,8 +225,6 @@
     "Git-Obsidian/Algoritmi e Strutture Dati/Programmazione Dinamica/Algoritmi di Programmazione Dinamica.md",
     "Git-Obsidian/Sistemi Operativi/Bash/Variabili.md",
     "Git-Obsidian/Analisi/Funzioni/Funzioni di una variabile Reale.md",
-    "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/Architetture Parallele.md",
-    "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/Tipologie di Architetture.md",
     "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità",
     "Git-Obsidian/Matematica Discreta e Probabilità/Statistica Descrittiva/attachements",
     "Git-Obsidian/Sistemi Operativi/Teoria/attachements",

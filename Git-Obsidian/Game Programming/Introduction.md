@@ -106,7 +106,7 @@ Introduco un oggetto che rappresenta lo stato del gioco
 - Observer Pattern
 ## Game over
 - Definisce la conclusione del game loop
-Gestito dal game state 
+Gestito dal game state
 
 
 ## FOMO
