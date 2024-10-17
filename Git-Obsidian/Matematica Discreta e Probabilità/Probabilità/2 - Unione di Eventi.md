@@ -40,5 +40,95 @@ Dove:
 ## Probabilità Condizionata
 ---
 >[!info] Definizione
->Fissato $A$, un *evento che accade*:
+>Fissato $A$, un *evento che accade*
+>>[!question] Qual è la probabilità che accada anche $B$?
+>
+>$$\frac{\mathcal{P}(B\cap A)}{\mathcal{P}(A)}=\mathcal{P}(B|A)$$
+>>[!done] A parole
+>>Probabilità di $B$ *condizionato da / dato* $A$
+
+#### Esempio
+>Estraiamo 2 palline senza rimpiazzo fra 3 rosse e 4 blu
+
+- $B_{1}=$"Primo estratto blu"
+- $B_{2}=$"Secondo estratto blu"
+- $R_{1}=$"Primo estratto rosso"
+- $R_{2}=$"Secondo estratto rosso"
+
+$$
+\mathcal{P}(B_{2})=\frac{4}{7}
+$$
+$$
+\mathcal{P}(B_{2}|R_{1})=\frac{4}{6}
+$$
+
+#### Esempio
+>2 Urne, Urna 1 $\implies$ $3$ palline rosse e $4$ blu, Urna 2 $\implies$ $2$ palline rosse e $5$ blu
+
+Estraiamo una pallina a caso
+
+>[!question] Qual è la probabilità che questa sia rossa?
+
+$$
+\begin{array}
+\ \mathcal{P}(R)=\mathcal{P}(R\cap U_{1})+\mathcal{P}(R\cap U_{2})
+ \\=\mathcal{P}(R|U_{1})\cdot\mathcal{P}(U_{1})+\mathcal{P}(R|U_{2})\cdot\mathcal{P}(U_{2}) \\
+=\displaystyle\frac{3}{7}\cdot \frac{1}{2}+\frac{2}{8}\cdot \frac{1}{2}= \frac{19}{56}
+\end{array}
+$$
+
+
+## Formula delle Probabilità-Totali
+---
+>Siano $\{ A_{1},A_{2},\dots \}$ delle [[3 - Partizioni|partizioni]] di $\Omega$ e sia $B\subseteq \Omega$
+
+>[!note] Formula
+>$$\mathcal{P}(B\cap A_{1})+\mathcal{P}(B\cap A_{2})+\dots=$$
+>$$=\mathcal{P}(B|A_{1})\cdot \mathcal{P}(A_{1})+\mathcal{P}(B|A_{2})\cdot \mathcal{P}(A_{2})+\dots$$
+
+#### Esempio
+>Sia una urna piena di $r$ palline ***rosse*** e $b$ palline ***blu***
+
+>[!question] Qual è la probabilità che esca una pallina rossa alla seconda estrazione?
+
+$\mathcal{P}(R_{2})=\mathcal{P}(R_{2}\cap R_{1})+\mathcal{P}(R_{2}\cap B_{1})$
+- $=\mathcal{P}(R_{2}|R_{1})\cdot \mathcal{P}(R_{1})+\mathcal{P}(R_{2}|B_{1})\cdot \mathcal{P}(B_{1})=$
+- $=\displaystyle{\frac{r-1}{b+r-1}}\cdot \displaystyle{\frac{r}{b+r}}+\displaystyle{\frac{r}{b+r-1}}\cdot \displaystyle{\frac{b}{b+r}}=\frac{r}{b+r}$
+
+
+### Formula di Bayes
+>[!quote] Concetto
+>Permette di esprimere $\mathcal{P}(B|A)$ in funzione di $\mathcal{P}(A|B)$
+>>[!note] Formula
+>>$$\mathcal{P}(B|A)=\displaystyle{\frac{\mathcal{P}(A|B)\cdot\mathcal{P}(B)}{\mathcal{P}(A)}}$$
+
+##### Dimostrazione
+>$\mathcal{P}(A\cap B)=\mathcal{P}(B|A)\cdot\mathcal{P}(A)=\mathcal{P}(A|B)\cdot\mathcal{P}(B)$
+
+#### Esercizio
+>Popolazione: Popolazione della Turchia
+>- $40$% sono fumatori
+>- $25$% dei fumatori e il $4$% dei non fumatori soffrono di una malattia
+
+>[!question] 1\) Qual è la probabilità che una persona a caso sia malata?
+
+>[!question] 2\) Qual è la probabilità che una persona malata sia un fumatore
+
+***Fenomeno***: Estrazione di una persona
+
+$F=$ "Fumatori" $\quad N=$ "Non Fumatori"
+
+- $\mathcal{P}(F)=0,4\quad\mathcal{P}(N)=0,6$
+- $\mathcal{P}(M|F)=0,25\quad \mathcal{P}(M|N)=0,04$
+
+1. 
+$$\mathcal{P}(M)=\mathcal{P}(M|F)\cdot\mathcal{P}(F)+\mathcal{P}(M|N)\cdot\mathcal{P}(N)=$$
+$$
+=0,25\cdot0,4+0,04\cdot 0,6=0,142
+$$
+
+2. 
+$$
+\mathcal{P}(F|M)=\displaystyle{\frac{\mathcal{P}(M|F)\cdot \mathcal{P}(F)}{\mathcal{P}(M)}}=\displaystyle{\frac{0,25 \cdot 0,4}{0,142}}=0,704
+$$
 
