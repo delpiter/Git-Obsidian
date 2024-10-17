@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "0a3db799210ba748",
+        "id": "0a7b9d12ad495335",
         "type": "tabs",
         "children": [
           {
-            "id": "cb8ce7b64f3dd057",
+            "id": "43a25bef2cbe487a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Obsidian/Sistemi Operativi/Teoria/Parameter Expansion.md",
+                "file": "Git-Obsidian/Sistemi Operativi/Bash/Terminale Unix.md",
                 "mode": "source",
                 "source": false
               }
@@ -22,11 +22,11 @@
         ]
       },
       {
-        "id": "b5b878c65d548ba1",
+        "id": "b4f1323dd645a89f",
         "type": "tabs",
         "children": [
           {
-            "id": "adebe9958ce6575c",
+            "id": "94e0413a83e31f6e",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -88,8 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 269.5,
-    "collapsed": true
+    "width": 269.5
   },
   "right": {
     "id": "3561446b8c4d05ef",
@@ -105,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Sistemi Operativi/Teoria/Parameter Expansion.md",
+                "file": "Git-Obsidian/Sistemi Operativi/Bash/Terminale Unix.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Sistemi Operativi/Teoria/Parameter Expansion.md",
+                "file": "Git-Obsidian/Sistemi Operativi/Bash/Terminale Unix.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git-Obsidian/Sistemi Operativi/Teoria/Parameter Expansion.md"
+                "file": "Git-Obsidian/Sistemi Operativi/Bash/Terminale Unix.md"
               }
             }
           },
@@ -187,16 +186,17 @@
       "callout-manager:Insert Callout": false
     }
   },
-  "active": "cb8ce7b64f3dd057",
+  "active": "f2ffaf6360de317d",
   "lastOpenFiles": [
+    "Git-Obsidian/Sistemi Operativi/Bash/Controlli di Flusso.md",
     "Git-Obsidian/Sistemi Operativi/Appunti.md",
-    "Git-Obsidian/Sistemi Operativi/Teoria/Parameter Expansion.md",
+    "Git-Obsidian/Sistemi Operativi/Bash/Untitled 1.md",
+    "Git-Obsidian/Sistemi Operativi/Bash/Parameter Expansion.md",
     "Git-Obsidian/Game Programming/Introduction.md",
     "Git-Obsidian/OOP/Appunti.md",
     "Git-Obsidian/Sistemi Operativi/Bash/Comandi.md",
     "Git-Obsidian/Sistemi Operativi/Bash/History Expansion.md",
     "Git-Obsidian/Sistemi Operativi/Bash/Wildcards.md",
-    "Git-Obsidian/Sistemi Operativi/Bash/Untitled.md",
     "Git-Obsidian/Sistemi Operativi/Apertura della Macchina Virtuale.md",
     "Git-Obsidian/Sistemi Operativi/Bash/Tilde Expanison.md",
     "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/2 - Unione di Eventi.md",
@@ -224,7 +224,6 @@
     "Git-Obsidian/Algoritmi e Strutture Dati/Programmazione Dinamica/Longest Common Subsequence.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Programmazione Dinamica/Algoritmi di Programmazione Dinamica.md",
     "Git-Obsidian/Sistemi Operativi/Bash/Variabili.md",
-    "Git-Obsidian/Analisi/Funzioni/Funzioni di una variabile Reale.md",
     "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità",
     "Git-Obsidian/Matematica Discreta e Probabilità/Statistica Descrittiva/attachements",
     "Git-Obsidian/Sistemi Operativi/Teoria/attachements",

@@ -118,3 +118,8 @@ quote removal
 
  Le operazioni vengono fatte in questo ordine
  - ***Non*** è detto che ***tutte le espansioni*** vengano eseguite
+
+### Controlli di Flusso
+`for [condition] do [command] done`
+`while do done`
+`if then elif else`
