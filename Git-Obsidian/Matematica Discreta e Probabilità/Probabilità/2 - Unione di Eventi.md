@@ -132,3 +132,12 @@ $$
 \mathcal{P}(F|M)=\displaystyle{\frac{\mathcal{P}(M|F)\cdot \mathcal{P}(F)}{\mathcal{P}(M)}}=\displaystyle{\frac{0,25 \cdot 0,4}{0,142}}=0,704
 $$
 
+
+### Eventi Indipendenti
+>[!info] Definizione
+>$A,B$ eventi si dicono ***indipendenti*** se, il fatto che accada uno, ***non cambia*** la probabilità che accada l'altro
+>- $\mathcal{P}(A|B)=\mathcal{P}(A)$
+>- $\mathcal{P}(B|A)=\mathcal{B}(A)$
+>
+>>[!note] Conclusione
+>>$$\displaystyle{\frac{\mathcal{P}(A\cap B)}{\mathcal{P}(B)}}\implies\mathcal{P}(A\cap B)=\mathcal{P}(A)\cdot\mathcal{P}(B)$$
