@@ -4,16 +4,36 @@
     "type": "split",
     "children": [
       {
-        "id": "f7bf001035a1c08d",
+        "id": "424741a6640b92bd",
         "type": "tabs",
+        "dimension": 52.42369838420108,
         "children": [
           {
-            "id": "d1f2699c65115b7c",
+            "id": "256c8dfcc8b4be1e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/Unione di Eventi.md",
+                "file": "Git-Obsidian/Sistemi Operativi/Bash/Comandi.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "af59debfea303964",
+        "type": "tabs",
+        "dimension": 47.57630161579892,
+        "children": [
+          {
+            "id": "0d4df41617d3b48d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git-Obsidian/Sistemi Operativi/Appunti.md",
                 "mode": "source",
                 "source": false
               }
@@ -46,7 +66,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Concetti Prel",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -66,7 +86,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -87,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/Unione di Eventi.md",
+                "file": "Git-Obsidian/Sistemi Operativi/Appunti.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/Unione di Eventi.md",
+                "file": "Git-Obsidian/Sistemi Operativi/Appunti.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/Unione di Eventi.md"
+                "file": "Git-Obsidian/Sistemi Operativi/Appunti.md"
               }
             }
           },
@@ -169,14 +189,18 @@
       "callout-manager:Insert Callout": false
     }
   },
-  "active": "d1f2699c65115b7c",
+  "active": "0d4df41617d3b48d",
   "lastOpenFiles": [
-    "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/1 - Spazi di Probabilità.md",
-    "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/Unione di Eventi.md",
-    "Git-Obsidian/Sistemi Operativi/Bash/Tilde Expanison.md",
-    "Git-Obsidian/OOP/Appunti.md",
+    "Git-Obsidian/Sistemi Operativi/Bash/Comandi.md",
     "Git-Obsidian/Sistemi Operativi/Appunti.md",
+    "Git-Obsidian/Sistemi Operativi/Bash/History Expansion.md",
+    "Git-Obsidian/Sistemi Operativi/Bash/Wildcards.md",
+    "Git-Obsidian/Sistemi Operativi/Bash/Untitled.md",
     "Git-Obsidian/Sistemi Operativi/Apertura della Macchina Virtuale.md",
+    "Git-Obsidian/Sistemi Operativi/Bash/Tilde Expanison.md",
+    "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/2 - Unione di Eventi.md",
+    "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/1 - Spazi di Probabilità.md",
+    "Git-Obsidian/OOP/Appunti.md",
     "Git-Obsidian/Sistemi Operativi/Teoria/I Processi.md",
     "Git-Obsidian/Sistemi Operativi/Teoria/Scheduler.md",
     "Git-Obsidian/Sistemi Operativi/Teoria/attachements/GanttDiagram.png",
@@ -199,14 +223,10 @@
     "Git-Obsidian/Sistemi Operativi/Bash/Terminale Unix.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Programmazione Dinamica/Longest Common Subsequence.md",
     "Git-Obsidian/Algoritmi e Strutture Dati/Programmazione Dinamica/Algoritmi di Programmazione Dinamica.md",
-    "Git-Obsidian/Sistemi Operativi/Bash/History Expansion.md",
     "Git-Obsidian/Sistemi Operativi/Bash/Variabili.md",
     "Git-Obsidian/Analisi/Funzioni/Funzioni di una variabile Reale.md",
     "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/Architetture Parallele.md",
     "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/Tipologie di Architetture.md",
-    "Git-Obsidian/Architettura degli Elaboratori/Architetture a Confronto/Pipelining.md",
-    "Git-Obsidian/Algebra e Geometria/Applicazioni/1 - Applicazioni Lineari.md",
-    "Git-Obsidian/Sistemi Operativi/Bash/Utenti e Permessi.md",
     "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità",
     "Git-Obsidian/Matematica Discreta e Probabilità/Statistica Descrittiva/attachements",
     "Git-Obsidian/Sistemi Operativi/Teoria/attachements",
