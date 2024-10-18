@@ -2,21 +2,6 @@
 ## Avvio del sistema operativo
 ---
 ## Concorrenza
-Introduzione
-In un sistema operativo sono presenti un gran numero di attività che vengono eseguiti più o meno contemporaneamente dal processore e dai dispositivi presenti in un elaboratore
-
-Senza delle regole, la consistenza delle attività sarebbe difficile da descrivere e realizzare
-
-Processo
-- Una attività controllata da un programma che si svolge su un processore
-	- Programma entità statica
-		- Insieme di istruzioni
-	- Processo entità dinamica
-		- Rappresenta Il modo in cui il programma viene eseguito nel tempo
-
-Assioma di finite progress
-- Ogni processo viene eseguito ad una velocità finita ma sconosciuta
-
 
 Ad ogni istante un processo può essere interamente descritto dalle seguenti componenti
 - La sua immagine di memoria

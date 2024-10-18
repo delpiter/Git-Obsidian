@@ -1,6 +1,17 @@
-## Scheduler, Processi e Thread
+## Processi
 ---
-### Processi
+>[!info] Definizione
+>Un ***processo*** è una attività controllata da un programma che si svolge su un processore
+
+>[!warning] Processo $\neq$ Programma
+
+>Un programma è una entità statica
+- È un *insieme di istruzioni*
+
+>Un processo è una entità dinamica
+- Rappresenta il modo in cui il programma viene *eseguito nel tempo*
+
+
 >[!question] Qual è la manifestazione fisica di un processo?
 
 - Il segmento di ***codice*** da eseguire
@@ -61,7 +72,7 @@ Può essere:
 ***Informazioni per interprocess communication***
 - *Semafori*
 
-### Scheduler
+## Scheduler
 >[!abstract] Scheduler
 >Lo ***scheduler*** è la componente più importante del [[Livelli del Sistema Operativo#Kernel|kernel]]
 >*Gestisce* quale processo deve essere in ***esecuzione*** ad ogni istante
