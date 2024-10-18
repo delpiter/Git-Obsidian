@@ -3,11 +3,6 @@
 ---
 ## Concorrenza
 
-Ad ogni istante un processo può essere interamente descritto dalle seguenti componenti
-- La sua immagine di memoria
-- La sua immagine nel processore
-- Lo stato di avanzamento
-
 cos'è la concorrenza
 
 Riguarda la gestione di processi multipli

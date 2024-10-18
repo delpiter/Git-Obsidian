@@ -2,6 +2,11 @@
 ---
 >[!info] Definizione
 >Un ***processo*** è una attività controllata da un programma che si svolge su un processore
+>>[!note] Descrizione del Processo
+>>Ad ogni istante un ***processo*** può essere interamente descritto dalle seguenti componenti
+>>- La sua immagine nella *memoria*
+>>- La sua immagine nel *processore*
+>>- Il suo *stato di avanzamento*
 
 >[!warning] Processo $\neq$ Programma
 
