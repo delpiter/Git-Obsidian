@@ -123,3 +123,100 @@ $$
 >Il processo in esecuzione può essere inserito nella coda **ready**, se durante la sua esecuzione è entrato un processo con un `CPU` *burst* più *breve* di quanto rimane da eseguire al processo corrente
 >- ***Shortest Remaining Time First***
 
+### Round Robin
+>[!info] Concetto
+>Il ***round robin*** è un *algoritmo di scheduling* basato sul concetto di **time slice**
+>- Si divide l'esecuzione del programma in ***diversi periodi di tempo*** di lunghezza uguale
+>- Il processo ***rimane in esecuzione*** finché non si ferma da solo o *termina il suo quanto di tempo*
+
+L'insieme dei processi in stato `ready` è organizzato come una coda
+
+>[!attention] Due casi
+>1. Il processo lascia il processore ***volontariamente***  
+>	- Ha necessità di utilizzare un'altra *risorsa*
+>2. Il processo esaurisce il suo *time slice*
+>	- Viene reinserito in fondo alla coda dei processi `ready` 
+
+>[!danger] La durata del quanto di tempo è un parametro **critico**
+
+Se è *breve*:
+- Il sistema è poco efficiente, dovendo cambiare processo attivo molto spesso
+
+Se è *lungo*:
+- In presenza di numerosi processi pronti, ci sono ***lunghi periodi di inattività*** per ciascun processo
+
+>[!done] È necessario che l'hardware fornisca un timer (***interval timer***) che agisce sull'interruzione della `CPU`
+
+## Scheduling a Priorità
+---
+>Non tutti i processi sono uguali
+
+>[!example] Soluzione
+>Si definisce ad ogni processo una *specifica priorità*
+>Lo *scheduler* sceglierà il processo pronto con ***priorità più alta***
+
+Le priorità possono essere:
+- Definite dal sistema operativo
+> Vengono usate una o più ***quantità misurabili*** per **calcolare** la priorità di un processo
+
+- Definite esternamente
+>Non definite dal sistema operativo, ma ***imposte dal livello utente***
+
+
+![[Process_Priority_Queues.png]]
+> Divisione dei processi con *diversa priorità* in *diverse code*
+
+### Priorità Statica
+>[!info] Concetto
+>Nello *scheduling* con ***priorità statica***, la priorità del processo **non cambia mai** durante la vita del processo stesso
+
+>[!danger] Problema: Starvation
+
+Può capitare che un processo a priorità bassa, ***non venga mai eseguito***
+- Altri processi con priorità più alta continuano a "sorpassarlo"
+
+### Priorità Dinamica
+>[!info] Concetto
+>Nello *scheduling* con ***priorità dinamica***, la priorità del processo **può cambiare** durante la vita del processo stesso
+
+>[!done] Problema Risolto: Starvation
+
+> Tecnica di *scheduling*: ***Aging***
+
+L'*aging* è una tecnica che consiste nell'***incrementare gradualmente*** la priorità dei processi in attesa
+- Nessun processo rimarrà in attesa per un *tempo indefinito* perché prima o poi raggiungerà la ***priorità massima***
+
+#### Scheduling Multi-livello
+>All'interno di ogni classe di processi è possibile usare una ***politica specifica adatta*** alla caratteristica della classe
+
+>[!example] Esempio
+>- Processi server -> Priorità statica
+>- Processi utenti interattivi -> round robin
+>- Altri processi utente -> FIFO
+
+## Scheduling Real-Time
+---
+>[!info] Concetto
+>In un sistema ***real-time*** la correttezza dell'esecuzione non dipende solamente dal *valore restituito*, ma anche dall'*istante temporale* nel quale il risultato viene emesso
+
+>Scheduler Real-Time
+
+>[!note] Earliest Deadline First
+>È una *politica di scheduling* per processi periodici ***Real-Time***
+>Viene scelto di volta in volta il processo che ha la *deadline più prossima*
+>- Viene considerato algoritmo di *priorità dinamica* perché la priorità relativa di due processi ***varia in momenti diversi***
+
+### Hard Real-Time
+>[!attention] Definizione
+>La *deadline* di esecuzione dei programmi **non deve essere superata** in nessun caso
+>- L'avvenimento del caso contrario potrebbe causare ***effetti catastrofici***
+
+Sistemi come:
+- Controlli Aerei
+- Centrali Nucleari
+- Etc...
+
+### Soft Real-Time
+>[!tip] Definizione
+>La *deadline* di esecuzione dei programmi non è stretta come nei sistemi ***Hard Real-Time***
+>- Errori occasionali sono *tollerabili*
