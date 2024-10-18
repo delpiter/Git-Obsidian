@@ -106,3 +106,138 @@ $Z$:
 - $Z=0$ altrimenti
 - *Numerabile* e quindi *discreto*
 
+### Variabili Discrete
+>Lanciamo un dado 2 volte
+
+$X=\#$ di volte che esce $6$
+- $X$ può assumere i valori: $\{ 0,1,2 \}$
+
+$\mathcal{P}(X=0)=\displaystyle\frac{5}{6}\cdot \frac{5}{6}=\frac{25}{36}$
+$\mathcal{P}(X=1)=\displaystyle2\cdot \frac{5}{6}\cdot \frac{1}{6}$
+$\mathcal{P}(X=2)=\displaystyle\frac{1}{6} * \frac{1}{6}=\frac{1}{36}$
+
+>[!note] Osservazione
+>La somma dei 3 risultati è $1$
+
+
+#### Densità
+>[!info] Definizione
+>La ***densità*** di una *variabile aleatoria* **discreta** è una funzione:
+>$$\begin{array}\ dx:\mathbb{R}\to[0,1] \\k\mapsto \mathcal{P}(X=k)\end{array}$$
+
+>Dall'esempio di prima
+
+$$
+dx(k)=\begin{cases}
+\displaystyle{\frac{25}{36}}\quad \text{ se }k=0 \\
+\displaystyle{\frac{10}{36}}\quad \text{ se }k=1 \\
+\displaystyle{\frac{1}{36}}\quad \text{ se }k=2
+\end{cases}
+$$
+
+>[!note] Osservazione
+>Se $dx$ è la ***densità*** di $X$
+><u>Allora</u>
+>- $dx(k)\geq 0$
+>- $dx(k)>0$ per una quantità discreta di valori $k$
+>- $\displaystyle\sum_{k}dx(k)=1$
+
+
+##### Densità Discreta Astratta
+>[!abstract] Definizione
+>Una funzione $d:\mathbb{R}\to\mathbb{R}$ si dice ***densità discreta astratta*** se:
+>- $dx(k)\geq 0$
+>- $dx(k)>0$ per una quantità discreta di valori $k$
+>- $\displaystyle\sum_{k}dx(k)=1$
+
+###### Esempio
+>Insieme finito
+$$
+d(k)=\begin{cases}
+\displaystyle{\frac{1}{4}}\quad \text{se }k=\{ -1,3 \} \\
+\displaystyle{\frac{1}{2}}\quad \text{se } k=10 \\
+\ 0 \ \quad \text{altrimenti}
+\end{cases}
+$$
+>Esempio di ***densità discreta astratta***
+
+
+###### Esempio
+>Insieme Numerabile
+
+$$
+d(k)=\begin{cases}
+2^{-k}\quad \text{ se } k=\{ 1,2,3,\dots \}\\
+0 \qquad \text{ altrimenti}
+\end{cases}
+$$
+
+>[!done] 1\) $d(k)\geq 0$
+
+>[!done] 2\) $d(k)> 0$
+>Solo se $k$ è intero positivo
+
+>[!done] 3\) $\frac{1}{2}+\frac{1}{4}+\frac{1}{8}+\dots$
+>Serie che converge verso $1$
+
+
+### Variabili Discrete e Densità Uniforme
+>[!info] Definizione
+>Dato un insieme $A=\{ a_{1},a_{2},\dots,a_{n} \}\subseteq \mathbb{R}$, consideriamo la funzione:
+>$$d(k)=\begin{cases}\displaystyle{\frac{1}{n}}\quad \text{ se } k=a_{1},a_{2},\dots,a_{n} \\\ 0 \quad \ \text{ altrimenti}\end{cases}$$
+>Una funzione di ***densità astratta uniforme*** su $A$
+>>[!note] Notazione
+>>Se $X$ è una variabile aleatoria t.c. $dx=d$
+>>Diciamo che $X$ è uniforme su $A$ e scriviamo
+>>$$X \sim U(A)$$
+
+##### Esempio
+>Consideriamo il lancio di un dado
+
+$X=$ Il *risultato*
+
+$$
+dx(k)=\begin{cases}
+\frac{1}{6}\quad \text{ se } k=\{ 1,\dots,6 \} \\
+\ 0 \quad \text{ altrimenti}
+\end{cases}
+$$
+
+- $X\sim U(\{ 1,2,3,4,5,6 \})$
+
+#### Variabili e Densità di Bernoulli
+>([Bernoulli](https://pixarcars.fandom.com/wiki/Francesco_Bernoulli))
+
+>[!info] Definizione
+>Una variabile aleatoria $X$ è di Bernoulli se assume solo valori $0$ e $1$
+>$$dx(k)=\begin{cases}p \qquad \quad\text{ se } k=1 \\1-p \quad \ \text{ se } k=0 \\0 \qquad \quad \text{ altrimenti}\end{cases}$$
+>>[!Note] Notazione
+>>Scriviamo in questo caso:
+>>$$X \sim B(1,p)$$
+
+>Se $E$ è un *evento*
+
+La funzione indicatrice di $E$ è:
+$$
+X_{E}=\begin{cases}
+1 \quad \text{se }\ E \ \text{ accade} \\
+0 \quad \text{se }\ E \ \text{ non accade}
+\end{cases}
+$$
+- $X_{E}\sim B(1,\mathcal{P}(E))$
+##### Esempio
+>Consideriamo il lancio di un dado
+
+$$
+X=\begin{cases}
+1 \quad \text{se il risultato } \geq 5 \\
+0 \quad \text{se il risultato } < 5 
+\end{cases}
+$$
+- $\mathcal{P}(X=1)=\displaystyle{\frac{1}{3}}$
+- $\mathcal{P}(X=0)=\displaystyle{\frac{2}{3}}$
+
+$$
+X\sim B(1,3)
+$$
+

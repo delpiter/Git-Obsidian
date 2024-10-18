@@ -20,34 +20,6 @@
               "icon": "lucide-file",
               "title": "3 - Variabili Aleatorie"
             }
-          },
-          {
-            "id": "1b23c94332d1b600",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/2 - Unione di Eventi.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2 - Unione di Eventi"
-            }
-          },
-          {
-            "id": "be0a2dc4d21f6d8b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git-Obsidian/Matematica Discreta e Probabilità/Combinatoria/2 - Principio di inclusione-esclusione.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2 - Principio di inclusione-esclusione"
-            }
           }
         ]
       }
@@ -106,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 269.5,
-    "collapsed": true
+    "width": 269.5
   },
   "right": {
     "id": "3561446b8c4d05ef",
@@ -222,6 +193,8 @@
     "Git-Obsidian/Matematica Discreta e Probabilità/Combinatoria/2 - Principio di inclusione-esclusione.md",
     "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/3 - Variabili Aleatorie.md",
     "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/2 - Unione di Eventi.md",
+    "Git-Obsidian/Markdown Keys.md",
+    "Git-Obsidian/Algoritmi e Strutture Dati/Ordinamento/Merge Sort.md",
     "Git-Obsidian/Sistemi Operativi/Appunti.md",
     "Git-Obsidian/OOP/Appunti.md",
     "Untitled.md",
@@ -253,8 +226,6 @@
     "Git-Obsidian/Sistemi Operativi/Teoria/Livelli di Sicurezza.md",
     "Git-Obsidian/Sistemi Operativi/Bash/Brace Expansion.md",
     "Git-Obsidian/Sistemi Operativi/Bash/Interfaccia Utente.md",
-    "Git-Obsidian/Sistemi Operativi/Bash/Esecuzione dei File.md",
-    "Git-Obsidian/Sistemi Operativi/Bash/Tipi di Comandi.md",
     "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità",
     "Git-Obsidian/Matematica Discreta e Probabilità/Statistica Descrittiva/attachements",
     "Git-Obsidian/Sistemi Operativi/Teoria/attachements",
