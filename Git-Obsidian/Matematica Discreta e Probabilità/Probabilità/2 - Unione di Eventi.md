@@ -141,3 +141,14 @@ $$
 >
 >>[!note] Conclusione
 >>$$\displaystyle{\frac{\mathcal{P}(A\cap B)}{\mathcal{P}(B)}}\implies\mathcal{P}(A\cap B)=\mathcal{P}(A)\cdot\mathcal{P}(B)$$
+
+#### Esempio
+>Urna con 3 palline rosse e 2 blu
+
+***Fenomeno***: Estrazione di due palline con rimpiazzo
+
+- $B_{1}$ e $R_{2}$ sono *eventi indipendenti*
+
+$$
+\mathcal{P}(B_{1}\cap R_{2})= \mathcal{P}(B_{1})\cdot \mathcal{P}(R_{2})
+$$

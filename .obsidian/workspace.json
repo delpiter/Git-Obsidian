@@ -8,7 +8,21 @@
         "type": "tabs",
         "children": [
           {
-            "id": "73d646835c6b3ca0",
+            "id": "154c6c9de19d017f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/3 - Variabili Aleatorie.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "3 - Variabili Aleatorie"
+            }
+          },
+          {
+            "id": "1b23c94332d1b600",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -16,7 +30,23 @@
                 "file": "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/2 - Unione di Eventi.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "2 - Unione di Eventi"
+            }
+          },
+          {
+            "id": "be0a2dc4d21f6d8b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git-Obsidian/Matematica Discreta e Probabilità/Combinatoria/2 - Principio di inclusione-esclusione.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2 - Principio di inclusione-esclusione"
             }
           }
         ]
@@ -37,7 +67,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           },
           {
@@ -52,7 +84,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -62,7 +96,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           }
         ],
@@ -87,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/2 - Unione di Eventi.md",
+                "file": "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/3 - Variabili Aleatorie.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +131,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 3 - Variabili Aleatorie"
             }
           },
           {
@@ -104,10 +142,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/2 - Unione di Eventi.md",
+                "file": "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/3 - Variabili Aleatorie.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 3 - Variabili Aleatorie"
             }
           },
           {
@@ -118,7 +158,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -127,8 +169,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/2 - Unione di Eventi.md"
-              }
+                "file": "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/3 - Variabili Aleatorie.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 3 - Variabili Aleatorie"
             }
           },
           {
@@ -136,7 +180,9 @@
             "type": "leaf",
             "state": {
               "type": "advanced-tables-toolbar",
-              "state": {}
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
             }
           },
           {
@@ -144,7 +190,9 @@
             "type": "leaf",
             "state": {
               "type": "calendar",
-              "state": {}
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
             }
           }
         ],
@@ -169,21 +217,25 @@
       "callout-manager:Insert Callout": false
     }
   },
-  "active": "73d646835c6b3ca0",
+  "active": "154c6c9de19d017f",
   "lastOpenFiles": [
-    "Git-Obsidian/Sistemi Operativi/Bash/Terminale Unix.md",
+    "Git-Obsidian/Matematica Discreta e Probabilità/Combinatoria/2 - Principio di inclusione-esclusione.md",
+    "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/3 - Variabili Aleatorie.md",
+    "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/2 - Unione di Eventi.md",
     "Git-Obsidian/Sistemi Operativi/Appunti.md",
+    "Git-Obsidian/OOP/Appunti.md",
+    "Untitled.md",
+    "Git-Obsidian/Sistemi Operativi/attachements/Pasted image 20241018113704.png",
+    "Git-Obsidian/Sistemi Operativi/Bash/Terminale Unix.md",
     "Git-Obsidian/Sistemi Operativi/Bash/Controlli di Flusso.md",
     "Git-Obsidian/Sistemi Operativi/Bash/Untitled 1.md",
     "Git-Obsidian/Sistemi Operativi/Bash/Parameter Expansion.md",
     "Git-Obsidian/Game Programming/Introduction.md",
-    "Git-Obsidian/OOP/Appunti.md",
     "Git-Obsidian/Sistemi Operativi/Bash/Comandi.md",
     "Git-Obsidian/Sistemi Operativi/Bash/History Expansion.md",
     "Git-Obsidian/Sistemi Operativi/Bash/Wildcards.md",
     "Git-Obsidian/Sistemi Operativi/Apertura della Macchina Virtuale.md",
     "Git-Obsidian/Sistemi Operativi/Bash/Tilde Expanison.md",
-    "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/2 - Unione di Eventi.md",
     "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/1 - Spazi di Probabilità.md",
     "Git-Obsidian/Sistemi Operativi/Teoria/I Processi.md",
     "Git-Obsidian/Sistemi Operativi/Teoria/Scheduler.md",
@@ -198,15 +250,11 @@
     "Git-Obsidian/Sistemi Operativi/Teoria/attachements/ProcessTreeStructure.png",
     "Git-Obsidian/Sistemi Operativi/Teoria/attachements/CodeProcessi2.png",
     "Git-Obsidian/Sistemi Operativi/attachements/Pasted image 20241013175003.png",
-    "Git-Obsidian/Sistemi Operativi/attachements/Multithread.jpg",
     "Git-Obsidian/Sistemi Operativi/Teoria/Livelli di Sicurezza.md",
     "Git-Obsidian/Sistemi Operativi/Bash/Brace Expansion.md",
     "Git-Obsidian/Sistemi Operativi/Bash/Interfaccia Utente.md",
     "Git-Obsidian/Sistemi Operativi/Bash/Esecuzione dei File.md",
     "Git-Obsidian/Sistemi Operativi/Bash/Tipi di Comandi.md",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Programmazione Dinamica/Longest Common Subsequence.md",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Programmazione Dinamica/Algoritmi di Programmazione Dinamica.md",
-    "Git-Obsidian/Sistemi Operativi/Bash/Variabili.md",
     "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità",
     "Git-Obsidian/Matematica Discreta e Probabilità/Statistica Descrittiva/attachements",
     "Git-Obsidian/Sistemi Operativi/Teoria/attachements",
