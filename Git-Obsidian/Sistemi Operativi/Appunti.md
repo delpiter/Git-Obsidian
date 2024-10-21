@@ -47,3 +47,5 @@ Race condition
 Definizione
 - Si dice che un sistema di processi multipli presenta una race condition qualora il risultato finale dell'esecuzione dipenda dalla temporizzazione con cui vengono eseguiti i processi
 	- per scirvere un programma concorrente, si deve eliminare la race condition
+
+![[Process_States.png]]

@@ -35,8 +35,7 @@
               "title": "Processi, Schedule e Thread"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "4670270066998e56",
@@ -224,11 +223,14 @@
       "callout-manager:Insert Callout": false
     }
   },
-  "active": "9d26f79d3eaa75ab",
+  "active": "0db55f971feb060a",
   "lastOpenFiles": [
     "Git-Obsidian/Sistemi Operativi/Appunti.md",
-    "Git-Obsidian/Sistemi Operativi/Teoria/Processi, Schedule e Thread.md",
+    "Git-Obsidian/Sistemi Operativi/attachements/Process_States.png",
     "Git-Obsidian/Sistemi Operativi/Teoria/Concorrenza.md",
+    "Git-Obsidian/Sistemi Operativi/Teoria/attachements/Interleaving.png",
+    "Git-Obsidian/Sistemi Operativi/Teoria/attachements/Overlapping.png",
+    "Git-Obsidian/Sistemi Operativi/Teoria/Processi, Schedule e Thread.md",
     "Git-Obsidian/Sistemi Operativi/Teoria/Scheduler.md",
     "Git-Obsidian/Sistemi Operativi/Teoria/attachements/Process_Priority_Queues.png",
     "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/3 - Variabili Aleatorie.md",
@@ -256,9 +258,6 @@
     "Git-Obsidian/Sistemi Operativi/Teoria/attachements/One-to-One.png",
     "Git-Obsidian/Sistemi Operativi/Teoria/attachements/Many-to-One.png",
     "Git-Obsidian/Sistemi Operativi/Teoria/attachements/Threads.png",
-    "Git-Obsidian/Sistemi Operativi/Teoria/attachements/ProcessTreeStructure.png",
-    "Git-Obsidian/Sistemi Operativi/Teoria/attachements/CodeProcessi2.png",
-    "Git-Obsidian/Sistemi Operativi/attachements/Pasted image 20241013175003.png",
     "Git-Obsidian/Sistemi Operativi/Teoria/Livelli di Sicurezza.md",
     "Git-Obsidian/Sistemi Operativi/Bash/Brace Expansion.md",
     "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità",
