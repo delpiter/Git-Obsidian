@@ -114,7 +114,7 @@ Se lo *scheduler* decide di eseguire un altro processo il sistema è soggetto ad
 >[!done] Ready
 >Il processo può ***essere eseguito***, ma attualmente il processore è ***impegnato in altre attività***
 
-![[ProcessStates.png]]
+![[Process_States.png]]
 
 ##### Caratteristiche dei Processi
 >Durante l'esecuzione di un processo, la `CPU` alterna periodi di
