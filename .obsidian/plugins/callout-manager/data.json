@@ -1,6 +1,8 @@
 {
   "callouts": {
-    "custom": [],
+    "custom": [
+      "def"
+    ],
     "settings": {
       "tip": [
         {
@@ -48,6 +50,29 @@
         {
           "changes": {
             "icon": "lucide-cable"
+          }
+        }
+      ],
+      "def": [
+        {
+          "changes": {
+            "icon": "lucide-book-up"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "light"
+          },
+          "changes": {
+            "color": "227, 107, 167"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "dark"
+          },
+          "changes": {
+            "color": "82, 139, 212"
           }
         }
       ]
