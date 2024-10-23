@@ -241,3 +241,160 @@ $$
 X\sim B(1,3)
 $$
 
+
+### Variabili Binomiali
+##### Esempio Introduttivo
+>Roulette con 3 puntate sul ***rosso*** (18 rossi, 18 neri, 1 verde)
+
+- $X=\#$ di vittorie
+
+$\mathcal{P}(X=0)=\left( \displaystyle{\frac{19}{37}} \right)^3$
+- $\frac{19}{37}\to$ Possibili permutazioni delle *non vincite*
+$\mathcal{P}(X=1)=3\cdot \displaystyle{\frac{18}{37}}\cdot\left( \displaystyle{\frac{19}{37}} \right)^2$
+- $3\to$ *Vincita* di ***una*** delle 3 puntate, $\frac{18}{37}\to$Probabilità di *vincita*
+$\mathcal{P}(X=2)=\displaystyle\binom{3}{2}\cdot \left(\displaystyle{\frac{18}{37}}\right)^2\cdot\displaystyle{\frac{19}{37}}$
+$\mathcal{P}(X=3)=\left(\displaystyle{\frac{18}{37}}\right)^3$
+
+### Schema Successo-Insuccesso a Prove Indipendenti
+>[!def] Definizione
+>Effettuiamo $n$ *prove* o *tentativi*, ognuna delle quali può dare ***successo*** o ***insuccesso***, **indipendente** l'uno dall'altro
+>Ogni prova ha probabilità $p$ di avare *successo*
+>>[!note] Variabile Binomiale
+>>Tale variabile $X$ si dice ***binomiale*** di parametri $n$ e $p$
+>>$$X\sim B(n,p)$$
+
+$$
+dx(k)=\begin{cases}
+\displaystyle\binom{n}{k}\cdot p^k\cdot (1-p)^{n-k} \quad \text{se } k=0,1,\dots,n \\
+0 \qquad\qquad\qquad\qquad\quad\  \text{altrimenti}
+\end{cases}
+$$
+- Il *coefficiente binomiale* indica i modi di scegliere le $k$ prove che danno successo fra le $n$ disponibili
+
+#### Esempio
+>10 studenti ad un esame
+
+Ognuno ha la probabilità di passare l'esame $=\displaystyle\frac{2}{3}$
+
+>[!question] Qual è la probabilità che esattamente $7$ di loro passino l'esame?
+
+$X=\#$ di studenti che *passano* l'esame
+
+$$
+\mathcal{P}(X=7)=\binom{10}{7}\left( \displaystyle{\frac{2}{3}} \right)^7\left( \displaystyle{\frac{1}{3}} \right)^3 
+$$
+
+### Schema Successo-Insuccesso senza Rimpiazzo
+>[!def] Definizione
+>Effettuiamo $n$ *prove* o *tentativi*, ognuna delle quali può dare ***successo*** o ***insuccesso***
+>
+>>[!caution] Nota Bene
+>>Le prove sono ***dipendenti*** anche se ciascuna ha la *stessa probabilità* di dare successo
+>
+>>[!note] Variabile Ipergeometrica
+>>$$X\sim H(b,r;n)$$
+>>$b\to$ Successi
+>>$r\to$ Insuccessi
+
+$$
+dx(k)=\begin{cases}
+\displaystyle{\frac{\displaystyle\binom{b}{k}\binom{r}{b-k}}{\displaystyle{\binom{b+r}{n}}}}\quad \text{se }k=0,1,2,\dots,n \\
+0 \qquad\qquad\qquad\  \text{ altrimenti}
+\end{cases}
+$$
+- Numeratore -> Casi *Favorevoli*
+- Denominatore -> Casi *Possibili*
+
+#### Esempio
+>$b=5$ palline blu, $r=4$ palline rosse, $n=6$ estrazioni
+
+$X=\#$ ***successi*** $=\#$ palline blu estratte
+
+>[!question] Qual è la probabilità di estrarre $3$ palline blu?
+
+$$
+\mathcal{P}(X=3)=\displaystyle{\frac{\displaystyle\binom{5}{3}\binom{4}{6-3}}{\displaystyle\binom{5+4}{6}}}=\frac{10}{21}
+$$
+#### Doppio Esempio
+>[!note] Problema 1
+>Ho delle confezioni da $3$ bulloni, ogni bullone ha il $20$% di probabilità di essere difettoso
+>>[!question] Qual è la probabilità che una confezione contenga ***al più*** 1 bullone difettoso
+
+
+>[!done] In entrambi i casi ho al massimo $1$ ***insuccesso***
+
+1. $X=\#$ di bulloni buoni
+
+$X\sim B(3,0.8)$
+- $\mathcal{P}(X\geq 2)=\mathcal{P}(X=2)+\mathcal{P}(X=3)=\displaystyle\binom{3}{2}\cdot 0.8 * 0.2 +0.8^3=0.896$
+
+2. $Y=\#$ Palline rosse estratte
+
+$Y\sim H(8,2,3)$
+- $\mathcal{P}(Y\geq2)=\mathcal{P}(Y=2)+\mathcal{P}(Y=3)=$
+$$
+\displaystyle{\frac{\displaystyle\binom{2}{8}\cdot \displaystyle\binom{2}{1}}{\displaystyle\binom{10}{3}}}+\displaystyle{\frac{\displaystyle\binom{3}{8}\cdot \displaystyle\binom{2}{0}}{\displaystyle\binom{10}{3}}}=0,933
+$$
+
+### Schema Successo-Insuccesso a Prove Indipendenti
+>[!def] Densità Geometrica
+>Fissiamo il numero di Prove e procediamo finché otteniamo un successo
+>$X=\#$ di *insuccessi* prima di un *successo*
+>$p=$ probabilità do avere successo in *ogni tentativo*
+>>[!note] Notazione
+>>$$X\sim G(p)$$
+
+>Prova: Lancio di un dado
+
+***Successo***= uscita del numero 6
+
+- $\mathcal{P}(X=0)=\frac{1}{6}$
+- $\mathcal{P}(X=1)=\frac{1}{6}\cdot \frac{5}{6}$
+- $\mathcal{P}(X=2)=\frac{1}{6}\cdot \left( \frac{5}{6} \right)^2$
+- $\dots$
+- $\mathcal{P}(X=k)=\frac{1}{6}\cdot (\frac{5}{6})^k$
+
+
+$$
+dx(k)=\begin{cases}
+(1-p)^k\cdot p \quad \text{se } k=0,1,2,\dots \\
+0 \qquad\qquad \quad \text{altrimenti}
+\end{cases}
+$$
+
+>[!hint] Osservazione
+>Osserviamo che assume infiniti valori, abbiamo:
+> $$\sum_{k=0}^\infty(1-p)^k\cdot p=1$$
+
+##### Dimostrazione
+>Verifichiamo:
+
+$$
+\begin{array}
+\ 1-a^{n+1}=(1-a)(1+a+a^2+a^3+\dots+a^n)= \\
+=1\cancel{ +a }\cancel{ -a }\cancel{ +a^2 }\cancel{ -a^2 }+\dots\cancel{ +a^n }\cancel{ -a^n }-a^{n+1}
+\end{array}
+$$
+Quindi:
+$$
+\sum_{k=0}^na^k=\frac{1-a^{n+1}}{1-a}
+$$
+>Se $0<a<1$ e $n\to \infty$
+
+$$
+\sum_{k=0}^\infty a^k=\frac{1}{1-a}
+$$
+- Poniamo $a=1-p$
+
+#### Mancanza di Memoria
+>[!note] Problema
+>Se ho ottenuto $k$ ***insuccessi***, la probabilità di ottenerne altri $m$ è uguale alla probabilità di avere $m$ ***insuccessi*** dall'inizio
+
+##### Dimostrazione
+>$$
+\mathcal{P}(X\geq k+m|X\geq k)=\mathcal{P}(X\geq m)
+$$
+
+$$
+\frac{\mathcal{P}(X\geq k+m)}{\mathcal{P}(X\geq k)}=\frac{(1-p)^{k+m}}{(1-p)^{k}}=(1-p)^m=\mathcal{P}(X\geq m)
+$$
