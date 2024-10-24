@@ -108,4 +108,3 @@
 
 >[!error] `false`
 >Restituisce exit status 1 (non vero)
-

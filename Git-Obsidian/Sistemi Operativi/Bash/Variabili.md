@@ -90,3 +90,21 @@ VARIABLE= content
 ```
 
 La shell cerca di eseguire il comando `content` costruendo per tale comando un *nuovo ambiente* di esecuzione dove colloca una variabile vuota di nome `VARIABLE`
+
+#### Operatore `!`
+>Supponiamo di avere una prima variabile `varA` che contiene un valore qualunque
+>Supponiamo di avere una altra variabile il cui valore è *il nome della prima variabile*.
+
+>[!hint] Obbiettivo
+>Voglio usare il valore della *prima variabile* sfruttando solo il nome della *seconda variabile* il cui valore è proprio il nome della prima variabile.
+
+Si dice che la seconda variabile è un ***riferimento indiretto*** alla prima variabile. 
+- Accedere al valore di una prima variabile ***il cui nome è il valore di una seconda variabile***. 
+```bash
+varA=pippo
+nomevar=varA
+
+echo ${!nomevar}
+
+# Prints "pippo"
+```

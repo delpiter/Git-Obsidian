@@ -40,3 +40,37 @@ Un comando è ***sempre presente***, sa sempre come *eseguire* il comando
 
 Un ***eseguibile*** nel file sistem ***non è detto*** che l'interprete sappia come ***rintracciare*** l'eseguibile
 - Bisogna mettere l'interprete nelle condizione di ***saper rintracciare*** l'eseguibile
+
+## Liste di Comandi
+---
+>[!def] Definizione
+>Una ***lista di Comandi*** è un elenco di comandi da lanciare in esecuzione in *successione*
+>Sintatticamente, ciascun elemento dell'elenco deve essere **separato** dal successivo da un `;`
+
+>Ciascun elemento dell'elenco può essere:
+- *Comando Semplice*
+- Espressione valutata *Aritmeticamente*
+- Sequenza di Comandi *connessi da Pipe* (`|`)
+- Sequenza di comandi *condizionali*
+- *Raggruppamento* di comandi
+- Espressione *condizionale*
+
+### Comandi Composti
+>[!info] Controllo di Flusso
+>`for [condition]; do [command]; done`
+>`while [condition]; do [command]; done`
+>`if [condition]; then [command]; elif [command]; else[command]; fi`
+
+### Sequenza di Comandi Condizionali
+>Sequenze di comandi **non** condizionali
+- Sono comandi separati dal `;`, i comandi sono eseguiti in *successione*
+
+>[!def] Definizione
+>Sono sequenze di comandi che vengono eseguite *secondo delle condizioni*
+>>[!abstract] Caratteri
+>>`||` Viene utilizzato per eseguire due comandi in sequenza
+>>- Il secondo viene eseguito solo se il primo termina con un [[Exit Status|exit code]] diverso da $0$ (***fail***)
+>>
+>>`&&` Viene utilizzato per eseguire due comandi in sequenza
+>>- Il secondo viene eseguito solo se il primo termina con un [[Exit Status|exit code]] uguale a $0$ (***success***)
+
