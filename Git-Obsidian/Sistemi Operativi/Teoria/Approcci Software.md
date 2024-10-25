@@ -1,3 +1,7 @@
+>L'implementazione di algoritmi per risolvere la concorrenza sono [[Sezioni Critiche#Approcci|approcci software]]
+
+## Algoritmo di Dekker
+---
 ```pseudo
 	\begin{algorithm}
 	\caption{Dekker's Algorithm}
@@ -69,6 +73,7 @@ Uno dei due entra per *primo*
 >$needq$ sarà `true` fino a quando $Q$ non uscirà dal ciclo
 
 Poiché $P$ entra nella ***critical section*** mentre $Q$ è nella ***critical section*** significa che esiste un istante temporale in cui $needq=false$ e $Q$ è in una ***critical section***
+
 
 >[!danger] Assurdo
 ### Assenza di Deadlock
@@ -153,3 +158,7 @@ Esiste un istante $t$ dopo di che $needp$ e $needq$ sono sempre `true`
 >[!def] Facile
 >L'algoritmo di *Peterson* è più semplice e lineare di quello di *Dekker*
 >È inoltre più facilmente generalizzabile al caso di ***processi multipli***
+
+
+>[!done] Le soluzioni di Dekker e Peterson prevedono come uniche [[Condivisione di Risorse#Azioni Atomiche|Istruzioni atomiche]] le operazioni di ***load*** e ***store***
+
