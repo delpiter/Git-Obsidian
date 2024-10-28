@@ -386,15 +386,140 @@ $$
 $$
 - Poniamo $a=1-p$
 
+>[!done] Abbiamo verificato che la densità geometrica è una densità *discreta*
+
+#### Variabile Geometrica Modificata
+>Talvolta consideriamo la variabile $T=$"***Tempo di primo successo***" data dal numero di tentativi per ottenere il primo successo
+
+>[!hint] Osservazione
+>$$T-1\sim G(p)$$
+>$T$ si dice "***Geometrica Modificata***"
+
+$$
+T\sim\tilde{G}(p)
+$$
+$$
+d_{T}(k)=\begin{cases}
+(1-p)^{k-1}\cdot p \quad \text{se } k=1,2,3,\dots \\
+0 \qquad \qquad \qquad \text{altrimenti}
+\end{cases}
+$$
+#####  Esempio
+>Lanciamo un dado tante volte fino ad ottenere 6
+
+>[!question] Qual è la probabilità di fare 4 lanci?
+
+$X=\#$ di lanci $\sim\tilde{G}\left( \frac{1}{6} \right)$
+$$
+\mathcal{P}(X=4)=\left( \displaystyle{\frac{5}{6}} \right)^3\cdot \frac{1}{6} 
+$$
+###### Esempio più complesso
+>Lanciamo 2 dadi ripetutamente fino ad ottenere due 6
+
+$X=\#$ di lanci per ottenere il primo 6 con il primo dado
+$Y=\#$ di lanci per ottenere il primo 6 con il secondo dado
+$Z=\#$ di lanci totale
+
+>[!question] Determinare: La densità di $X,Y,Z$; La probabilità $\mathcal{P}(X<Y)$
+>
+
+1. $X\sim \tilde{G}\left( \frac{1}{6} \right)$
+2. $Y\sim \tilde{G}\left( \frac{1}{6} \right)$
+3. $Z\sim \tilde{G}\left( \frac{1}{36} \right)$
+
+$$
+\begin{array}
+\ \mathcal{P}(X<Y) + \mathcal{P}(X>Y)+\mathcal{P}(X=Y)=1 \\
+2\mathcal{P}(X<Y) +\mathcal{P}(X=Y)=1
+\end{array}
+$$
+- Calcoliamo $\mathcal{P}(X=Y)$
+
+$$
+\begin{array}
+\ \mathcal{P}(X=Y)=\displaystyle\sum_{k=1}^\infty\mathcal{P}(X=Y=k)=\displaystyle\sum_{k=1}^\infty\mathcal{P}(X=k)\cdot\mathcal{P}(Y=k) =\\
+=\displaystyle\sum_{k=1}^\infty\left( \frac{5}{6} \right)^{k-1}\cdot \frac{1}{6}\cdot\left( \frac{5}{6} \right)^{k-1}\cdot \frac{1}{6}= \\
+\displaystyle\sum_{k=1}^\infty\left( \frac{25}{36} \right)^{k-1}\cdot \frac{1}{36}=\frac{1}{36}\cdot\displaystyle\sum_{h=0}^\infty\left( \frac{25}{36} \right)^h= \\
+=\displaystyle\frac{36}{11}\cdot \frac{1}{36}=\frac{1}{11}
+\end{array}
+$$
+>Quindi
+
+$\mathcal{P}(X<Y)=\frac{1-\mathcal{P}(X=Y)}{2}=\frac{5}{11}$
+
 #### Mancanza di Memoria
 >[!note] Problema
 >Se ho ottenuto $k$ ***insuccessi***, la probabilità di ottenerne altri $m$ è uguale alla probabilità di avere $m$ ***insuccessi*** dall'inizio
 
 ##### Dimostrazione
->$$
+$$
 \mathcal{P}(X\geq k+m|X\geq k)=\mathcal{P}(X\geq m)
 $$
 
 $$
 \frac{\mathcal{P}(X\geq k+m)}{\mathcal{P}(X\geq k)}=\frac{(1-p)^{k+m}}{(1-p)^{k}}=(1-p)^m=\mathcal{P}(X\geq m)
+$$
+
+### Variabili di Poisson
+>In *Italia* nascono 1 milione di ***bambini l'anno***, una ***malattia*** colpisce un bambino ogni ***200.000***
+
+>[!question] Qual è la probabilità che in un anno nascano più di ***5*** bambini ***malati***?
+
+$X=\#$ di bambini malati $\sim B\left( 10^6, \displaystyle{\frac{1}{200.000}} \right)$
+
+>[!warning] I calcoli sono fatti su numeri talmente grandi che neanche la *calcolatrice* è in grado di farli
+ 
+>[!def] Definizione
+>Le ***variabili di Poisson*** vengono usate quando il numero degli *insuccessi* è **molto più grande** del numero dei *successi*
+>Consideriamo
+>$$d(k)=\begin{cases}e^{ -\lambda }\cdot \displaystyle{\frac{\lambda^k}{k!}} \quad \text{se }k=0,1,2,\dots \\0 \qquad\qquad \text{altrimenti}\end{cases}$$
+>Dove $\lambda>0$ è un parametro in $\mathbb{R}$
+>>[!question] È una densità astratta?
+
+##### Verifica
+> 1. È Sempre maggiore di $0$?
+
+$e^{ -\lambda }\cdot \displaystyle{\frac{\lambda^k}{k!}}>0 \quad \forall k\in\mathbb{R}$
+
+> 2. 
+
+$d(k)\neq 0$ Per una ***quantità discreta*** di valori
+
+> 3. $\displaystyle\sum_{k=0}^\infty e^{ -\lambda }\cdot \displaystyle{\frac{\lambda^k}{k!}}=1$? 
+
+- Per la [[Formule di Taylor di Funzioni Elementari|formula di Taylor]]:
+$e^x=\displaystyle\sum_{k=0}^\infty \frac{x^k}{k!}$
+
+Quindi:
+$$
+e^{-\lambda}\sum_{k=0}^\infty \frac{\lambda^k}{k!}=e^{ -\lambda }\cdot e^{ \lambda }=1
+$$
+>[!done] È una densità astratta
+
+#### Applicazione
+>Consideriamo una variabile ***binomiale*** con $n$ grande e $p$ piccolo
+
+$p=\frac{\lambda}{n}$
+
+$$
+X\sim B\left( n, \frac{\lambda}{n} \right)
+$$
+$\mathcal{P}(X=k)=\displaystyle\binom{n}{k}\cdot \left( \frac{\lambda}{n} \right)^k\cdot \left( 1- \frac{\lambda}{n} \right)^{n-k}$
+- $=\displaystyle{\frac{n(n-1)\dots(n-k+1)}{k!}}\cdot \frac{\lambda^k}{n^k}\cdot\left( 1- \frac{\lambda}{n} \right)^n\cdot\left( 1- \frac{\lambda}{n} \right)^k=$
+- $=\displaystyle\frac{\lambda^k}{k!}\cdot\underbrace{ \frac{n(n-1)\dots(n-k+1)}{n^k} }_{ \text{ tende a 1 per }n\to\infty }\cdot\underbrace{ \left( 1- \frac{\lambda}{n} \right)^n }_{ e^-\lambda }\cdot\underbrace{ \left( 1- \frac{\lambda}{n} \right)^k }_{ 1 }$
+
+>Tornando all'esempio iniziale:
+
+$X\sim B\left( 10^6, \displaystyle{\frac{1}{200.000}} \right)$
+- Può essere approssimato con una ***variabile di Poisson***
+	- Con $\lambda=10^6\cdot \frac{1}{200000}=5$
+
+Quindi:
+$$
+\mathcal{P}(X>5)=1-\mathcal{P}(X\leq 5)=1-e^{-5}\left( \frac{5^0}{0!}+\frac{5^1}{1!}+\frac{5^2}{2!}+\frac{5^3}{3!}+\frac{5^4}{4!}+\frac{5^5}{5!} \right)=0,384
+$$
+>Usando la binomiale:
+
+$$
+\mathcal{P}(X=5)=\binom{1000000}{5}\cdot\left( \frac{1}{200000} \right)^5\cdot\left( \frac{199999}{200000} \right)^{9999995}
 $$
