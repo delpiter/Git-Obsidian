@@ -1,7 +1,9 @@
-Possibile valutare una stringa come se fosse una espressione costruita da operazioni aritmetiche tra soli numeri interi
-- Per valutare operazioni con valori non solo interi:
-	- Si utilizza il programma Basic Calculator
-	- Comando `bc`
+>È possibile *valutare una stringa* come se fosse una ***espressione costruita da operazioni aritmetiche*** tra soli numeri **interi**
+
+>[!cite] Valutare operazioni con valori *non solo interi*
+> Esiste un programma specifico: `Basic Calculator`
+> Usato tramite il comando `bc`
+> >[!danger] Rospi Maledetti, basta sapere che esiste
 
 Esempio
 ```bash

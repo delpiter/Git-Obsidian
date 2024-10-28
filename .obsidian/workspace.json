@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/4 - Variabili Aleatori Multidimensionali.md",
+                "file": "Git-Obsidian/Sistemi Operativi/Appunti.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4 - Variabili Aleatori Multidimensionali"
+              "title": "Appunti"
+            }
+          },
+          {
+            "id": "b2285901df4aaaa5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git-Obsidian/Sistemi Operativi/Bash/Exit Status.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Exit Status"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -73,8 +88,7 @@
               "title": "Files"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -94,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/4 - Variabili Aleatori Multidimensionali.md",
+                "file": "Git-Obsidian/Sistemi Operativi/Bash/Exit Status.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +118,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 4 - Variabili Aleatori Multidimensionali"
+              "title": "Backlinks for Exit Status"
             }
           },
           {
@@ -187,10 +201,12 @@
       "callout-manager:Insert Callout": false
     }
   },
-  "active": "8efd44ce772c13b1",
+  "active": "2bd67af1e9b8b8f7",
   "lastOpenFiles": [
-    "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/3 - Variabili Aleatorie.md",
+    "Git-Obsidian/Sistemi Operativi/Appunti.md",
+    "Git-Obsidian/Sistemi Operativi/Bash/Valutazioni Aritmetiche.md",
     "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/4 - Variabili Aleatori Multidimensionali.md",
+    "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/3 - Variabili Aleatorie.md",
     "Git-Obsidian/Markdown Keys.md",
     "Git-Obsidian/Matematica Discreta e Probabilità/Statistica Descrittiva/3 - Varianza.md",
     "Git-Obsidian/Matematica Discreta e Probabilità/Statistica Descrittiva/2 - Argomenti Plus.md",
@@ -201,7 +217,6 @@
     "Git-Obsidian/Sistemi Operativi/Teoria/Scheduler.md",
     "Git-Obsidian/Sistemi Operativi/Teoria/Sezioni Critiche.md",
     "Git-Obsidian/Sistemi Operativi/Bash/Terminale Unix.md",
-    "Git-Obsidian/Sistemi Operativi/Bash/Valutazioni Aritmetiche.md",
     "Git-Obsidian/Sistemi Operativi/Bash/Exit Status.md",
     "Git-Obsidian/Sistemi Operativi/Bash/File Descriptor.md",
     "Git-Obsidian/Sistemi Operativi/Bash/Tipi di Comandi.md",
@@ -209,7 +224,6 @@
     "Git-Obsidian/Sistemi Operativi/Bash/Esecuzione dei File.md",
     "Git-Obsidian/Sistemi Operativi/Bash/Comandi.md",
     "Git-Obsidian/Sistemi Operativi/Bash/Tilde Expanison.md",
-    "Git-Obsidian/Sistemi Operativi/Appunti.md",
     "Git-Obsidian/Sistemi Operativi/Bash/Variabili.md",
     "Git-Obsidian/OOP/Appunti.md",
     "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/1 - Spazi di Probabilità.md",
