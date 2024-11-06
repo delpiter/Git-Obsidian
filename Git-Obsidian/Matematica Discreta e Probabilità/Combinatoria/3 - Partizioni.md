@@ -114,7 +114,7 @@ Fissato $5$ in uno dei due *blocchi*, gli altri numeri dello stesso blocco li po
 >$S_{n,1}=1$
 
 >[!summary] Proposizione
->$S_{n,k}=k\cdot S_{n-1,4}+S_{n-1,k-1}$
+>$S_{n,k}=k\cdot S_{n-1,k}+S_{n-1,k-1}$
 
 ##### Dimostrazione
 >Se $n$ sta da solo

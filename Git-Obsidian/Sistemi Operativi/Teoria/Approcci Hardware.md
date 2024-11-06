@@ -11,6 +11,17 @@ Il sistema operativo deve la sciare ai processi la responsabilità di riattivare
 
 Inoltre non funziona su ***sistemi multiprocessore***
 
+###### Pro e Contro
+>[!done] Vantaggi
+
+- Concetti applicabili a qualsiasi numero di processi, sia su sistemi mono processore che multiprocessore
+- Può essere usato per supportare sezioni ***critiche multiple***
+
+>[!fail] Svantaggi
+
+- Viene utilizzato il ***busy-waiting***
+- I problemi di [[Condivisione di Risorse#Starvation|starvation]] ***non*** sono eliminati
+- Complessi da programmare
 ### Test e Set
 >[!abstract] Istruzioni Speciali
 >Sono istruzioni che realizzano due azioni in modo ***atomico***
@@ -48,11 +59,11 @@ Inoltre non funziona su ***sistemi multiprocessore***
 	\begin{algorithm}
 	\begin{algorithmic}
 \Procedure{Q}{$  $}
-\State $ \text{int }vp  $
+\State $ \text{int }vq  $
 \While{$true$}
 \Repeat
-\State \Call{TS}{$ lock,vp $}
-\Until{$vp$}
+\State \Call{TS}{$ lock,vq $}
+\Until{$vq$}
  \State $ \text{Critical Section} $
  \State $ lock = 0 $
  \State $  \text{Non-Critical Section} $

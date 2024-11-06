@@ -98,7 +98,8 @@ Nei programmi sequenziali:
 ```c
 process name {
 	...statements...
-}```
+}
+```
 
 >[!hint] Notazione *cobegin*/*coend* 
 >Ogni statement viene eseguito in ***concorrenza***
