@@ -122,4 +122,3 @@ void Philo[i]{
 
 In pratica:
 > La bacchetta può essere vista come [[Semafori#Semafori Binari|semaforo binario]]
-

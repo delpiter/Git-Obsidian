@@ -41,6 +41,28 @@ $Z=\#$ centri totali della squadra
 >[!cite] Allora
 >$$d_{Z}(k)=\sum_{\underset{ F(l,m)=k }{ l,m\  t.c. }}d_{X,Y}(l,m)$$
 
+#### Esempio
+>$x\mapsto x^2$
+
+>[!question] Come si ottiene la densità della variabile trasformata?
+
+$$
+d_{X}(k)=\begin{cases}
+\frac{1}{4} \quad \text{se }k=1 \\
+\frac{1}{2} \quad \text{se }k=2 \\
+\frac{1}{4} \quad \text{se }k=-2 \\
+0 \quad \ \text{altrimenti}
+\end{cases}
+$$
+Diventa:
+
+$$
+d_{X^2}(k)=\begin{cases}
+\frac{1}{4} \quad \text{se }k=1 \\
+\frac{3}{4} \quad \text{se }k=4 \\
+0 \quad \ \text{altrimenti}
+\end{cases}
+$$
 ### Caso Speciale
 >$Z=F(X,Y)=max(X,Y)$
 
@@ -90,3 +112,15 @@ $$
 > Andando a sostituire:
 
 - $\displaystyle\frac{1}{2^k}+\frac{5^{k-1}}{6^k}-\frac{7}{12}\cdot \frac{5^{k-1}}{12^k}$
+
+## Somma di Variabili di Poisson Indipendenti
+---
+>[!def] Definizione
+>Siano:
+>- $X\sim P(\lambda)$ una [[3 - Variabili Aleatorie#Variabili di Poisson|variabile di Poisson]] di parametro $\lambda$
+>- $Y\sim P(\mu)$ una ***variabile di Poisson*** di parametro $\mu$
+>>[!question] $X+Y=$ ?
+>
+>>[!done] In Generale
+>>$$X+Y\sim P(\lambda +\mu)$$
+
