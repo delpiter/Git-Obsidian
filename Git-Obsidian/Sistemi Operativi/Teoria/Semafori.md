@@ -112,4 +112,3 @@ Infatti, vengono semplicemente "*spostati*":
 Il semaforo viene implementato tramite due semafori binari
 - Uno che *blocca* i processi che vogliono *diminuire* il valore a $-1$
 - Uno che *blocca* i processi che vogliono *aumentare* il valore a $2$
-

@@ -518,15 +518,15 @@
             "textColour": "#866704"
           },
           "languageTag": {
-            "backgroundColour": "#A4A196",
-            "textColour": "#9CCBC8"
+            "backgroundColour": "#B4AA91",
+            "textColour": "#5C817E"
           },
           "externalReference": {
             "displayRepositoryColour": "#941100",
             "displayVersionColour": "#ff9300",
             "displayTimestampColour": "#808080"
           },
-          "lineColour": "#EDD489"
+          "lineColour": "#D6CB58"
         },
         "highlights": {
           "activeCodeblockLineColour": "#eee8d5",
