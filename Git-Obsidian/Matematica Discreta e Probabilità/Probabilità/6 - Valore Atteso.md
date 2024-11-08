@@ -122,3 +122,130 @@ $X=\#$ vaschette da aprire
 - $X=X_{1}+X_{2}+\dots+X_{6}$
 
 >[!done] $E[X]=E[X_{1}]+\dots+E[X_{6}]=3\cdot0.92+3\cdot 0.69=4.83$
+
+#### Valore Atteso di una Variabile Uniforme
+>Calcoliamo, ora, il ***valore atteso*** di $X\sim U(\{ a_{1},a_{2},\dots,a_{n} \})$: [[3 - Variabili Aleatorie#Variabili Discrete e Densità Uniforme|variabile uniforme]]
+
+$$
+E[X]=\sum_{k}a_{k}d_{X}(a_{k})=\frac{\sum_{k}a_{k}}{n}
+$$
+>[!done] Semplicemente: La media dei valori che assume
+
+#### Valore Atteso di una Variabile Geometrica
+##### Geometrica Modificata
+>Calcoliamo, ora, il ***valore atteso*** di $X\sim\tilde{G}(p)$
+
+$X=$ Primo tentativo che da ***successo***
+
+$$
+d_{X}=\begin{cases}
+(1-p)^{k-1}\cdot p \quad k=1,2,3,\dots \\
+0 \qquad\qquad\qquad \text{altrimenti}
+\end{cases}
+$$
+
+>[!example] Esempio
+
+>Lancio di un Dado, ***successo*** $=$ uscita del numero 6
+
+>[!question] Quanti lanci ci aspettiamo di fare prima di ottenere un 6?
+
+***Risposta***: $6$
+
+>Perché?
+
+$X\sim\tilde{G}\left( \frac{1}{6} \right)$
+
+$$
+E[X]=\sum_{k=1}^\infty k\left( \frac{5}{6} \right)^{k-1}\cdot \frac{1}{6}
+$$
+>[!question] Come si Calcola?
+
+>Ricordiamo la ***serie geometrica***
+
+$$
+\sum_{i=0}^\infty x^i = \frac{1}{1-x}\quad 0<x<1
+$$
+***Deriviamo:***
+$$
+\sum_{i=1}^\infty ix^{i-1}=\frac{1}{(1-x)^2}
+$$
+- "La $i$ può partire da 1 poiché la derivata del termine con $0$ è $0$"
+
+>[!note] Abbiamo ottenuto quello che volevamo
+
+$x=\displaystyle\frac{5}{6}$, e otteniamo:
+
+$$
+\sum_{k=1}^\infty k\left( \frac{5}{6} \right)^{k-1}\cdot \frac{1}{6}=\frac{1}{\left( 1-\frac{5}{6} \right)^2}\cdot \frac{1}{6}=\frac{1}{\frac{1}{6^2}}\cdot \frac{1}{6} = 6
+$$
+>[!def] In Generale
+>$X\sim\tilde{G}(p)$
+>$$E[X]=\frac{1}{p}$$
+
+###### Variabile Geometrica
+>[!question] E se $X$ fosse una variabile Geometrica "normale"?
+
+$$
+\begin{array} 
+\ Y\sim G(p) \\
+Y+1\sim\tilde{G}(p)
+\end{array}
+$$
+***Quindi***:
+
+$$
+E[Y+1]=\frac{1}{p}=E[Y]+\underbrace{ E[1] }_{ 1 } \implies E[Y]=\frac{1}{p}-1
+$$
+
+#### Esempio
+>Lanciamo un dado fino ad ottenere $6$ due volte
+- "Tempo di ***secondo*** successo"
+
+$X=\#$ ***lanci***
+>[!question] $E[X]$?
+
+- $X_{1}=\#$ lanci per ottenere il *primo* 6
+	- $X_{1}\sim\tilde{G}\left( \frac{1}{6} \right)$
+- $X_{2}=\#$ lanci per ottenere il *secondo* 6 ***dopo*** avere ottenuto il *primo*
+	- $X_{2}\sim\tilde{G}(p)$
+
+$$
+E[X]=E[X_{1}+X_{2}]=E[X_{1}]+E[X_{2}]=6+6=12
+$$
+Proviamo a calcolare la densità di $x$
+
+$\mathcal{P}(X=k)=\mathcal{P}(2^\circ$ sei esce al $k$-esimo tentativo $)=$
+$=\mathcal{P(1^\circ}$ sei esce nei primi $k-1$ tentativi e uno nel $k$-esimo$)=$
+$=\displaystyle\binom{k-1}{1}\cdot \frac{1}{6}\cdot\left( \frac{5}{6} \right)^{k-2}\cdot \frac{1}{6}=(k-1)\cdot \frac{1}{6^2}\cdot\left( \frac{5}{6} \right)^{k-2}$
+
+### Valore Atteso del Prodotto
+>Che cosa possiamo dire del *valore atteso* del ***prodotto di variabili***?
+$$
+E[XY]
+$$
+##### Esempio
+>2 Estrazioni *senza rimpiazzo*
+
+- 2 palline rosse
+- 3 blu
+
+$$
+X_{i}=\begin{cases}
+1\quad \text{se la }i \text{-esima è blu} \\
+0\quad \text{se è rossa}
+\end{cases}
+$$
+
+- $X_{1}\sim B\left( 1, \frac{3}{5} \right)$
+- $X_{2}\sim B\left( 1, \frac{3}{5} \right)$
+
+$$
+X_{1}X_{2}\sim B(1,p)
+$$
+- $\displaystyle p=\mathcal{P}(X_{1}X_{2}=1)=\mathcal{P}(X_{1}=1,X_{2}=1)=\frac{3}{5 }\cdot \frac{1}{2}=\frac{3}{10}$
+
+Confrontiamo $\frac{3}{10}$ con il ***valore atteso***
+
+$\displaystyle\frac{3}{10}=E[X]\neq E[X_{1}]\cdot E[X_{2}]=\frac{9}{25}$
+
