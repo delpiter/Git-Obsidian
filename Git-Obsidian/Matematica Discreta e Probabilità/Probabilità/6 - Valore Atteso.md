@@ -103,7 +103,7 @@ $i=1,2,3,4,5,6$
 
 >2.
 
-Le variabili $X_{i}$ sono ***indipendenti***:
+Le variabili $X_{i}$ sono ***dipendenti***:
 - Se *nessuno* sceglie la prima scatola, è *più probabile* che le altre vengano scelte
 
 >1. 

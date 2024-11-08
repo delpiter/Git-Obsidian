@@ -122,3 +122,73 @@ void Philo[i]{
 
 In pratica:
 > La bacchetta può essere vista come [[Semafori#Semafori Binari|semaforo binario]]
+
+##### Soluzione
+```c++ title:"cena dei filosofi"
+Semaphore chopsticks[5] = { new Semaphore(1), ..., new Semaphore(1) };
+
+process Philo[0]{
+	while(true){
+		//think
+		chopstick[1].P();
+		chopstick[0].P();
+		eat();
+		chopstick[1].V();
+		chopstick[0].V();
+	}
+}
+
+process Philo[i]{ /* i = 1, 2, 3, 4 */
+	while(true){
+		//think
+		chopstick[i].P();
+		chopstick[(i + 1) % 5].P();
+		eat();
+		chopstick[i].V();
+		chopstick[(i + 1) % 5].V();
+	}
+}
+```
+
+>[!question] Perché il primo filosofo da la priorità alla bacchetta di sinistra?
+
+Serve per rimuovere la *simmetria*
+- Così facendo, si garantisce che ***c'è sempre qualcuno che riesce a mangiare in casi estremi***
+
+###### Starvation
+>[!question] È possibile che nessuno mangi mai?
+
+No.
+
+## Lettori e Scrittori
+---
+>[!info] Concetti Base
+>Un ***database*** è condiviso tra un certo numero di *processi*
+>Esistono *due tipologie* di processi
+>>[!hint] Lettori
+>>I ***lettori*** accedono al database per leggere il contenuto
+>
+>>[!cite] Scrittori
+>>Gli ***scrittori*** accedono al database per aggiornare il contenuto
+
+#### Proprietà
+>Se uno scrittore accede al ***database***:
+
+- Esso lavora in mutua esclusione
+- Nessun altro lettore o scrittore può accedere al *database*
+
+>Se ***nessuno*** scrittore sta accedendo al ***database***
+
+- Un numero arbitrario di lettori può accedere al *database*
+
+>[!abstract] Invariante
+>$$(nr > 0 \text{ AND }nw == 0) \mid \mid (nr== 0 \text{  AND } nw \leq 1)$$
+
+#### Priorità
+>[!info] Priorità ai Lettori
+>Se un *lettore* vuole accedere al database, lo potrà fare a patto che uno scrittore ***non*** l'abbia occupato
+>>[!warning] Scrittori: possibilità di [[Condivisione di Risorse#Starvation|starvation]]
+
+>[!list] Priorità ai Lettori
+>Uno *scrittore* attenderà il ***tempo minimo possibile*** prima di accedere al database
+>>[!warning] Lettori: possibilità di [[Condivisione di Risorse#Starvation|starvation]]
