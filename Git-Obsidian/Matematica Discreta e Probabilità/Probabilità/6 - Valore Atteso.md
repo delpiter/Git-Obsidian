@@ -20,6 +20,7 @@ $X\sim B\left( 2, \displaystyle{\frac{2}{3}} \right)$
 
 
 ### Proprietà del Valore Atteso
+
 >Problema principale:
 >- Studiare $E[X+Y]$
 
@@ -28,6 +29,9 @@ $X\sim B\left( 2, \displaystyle{\frac{2}{3}} \right)$
 ><u>Allora</u>
 >$$E[Z]=\sum_{h,k}F(h,k)\cdot d_{x,y}(h,k)$$
 
+^3cc60c
+
+^prop
 ##### Corollario
 >[!hint] Se $X$ e $Y$ sono ***variabili aleatorie discrete***
 >$$E[X+Y]=E[X]+E[Y]$$
@@ -248,4 +252,54 @@ $$
 Confrontiamo $\frac{3}{10}$ con il ***valore atteso***
 
 $\displaystyle\frac{3}{10}=E[X]\neq E[X_{1}]\cdot E[X_{2}]=\frac{9}{25}$
+
+
+#### Valore Atteso del Quadrato
+>Sia $X\sim B(1,q)$
+
+>[!hint] Formula
+>$$E[X^2]=E[X]=p$$
+- $X^2=X$ poiché $X$ assume valori $0$ e $1$ $\implies 0^2 = 0,\quad1^2=1$
+
+#### Esempio
+>Estrazioni ***con Rimpiazzo***
+
+- $X_{1} \sim B\left( 1, \frac{3}{5} \right)$
+- $X_{2} \sim B\left( 1, \frac{3}{5} \right)$
+
+$$
+X_{1}X_{2} \sim B\left( 1, \frac{9}{25} \right)
+$$
+>Controlliamo:
+
+$\mathcal{P}(X_{1}X_{2}=1)=\mathcal{P}(X_{1}=1,X_{2}=1)$
+E poiché gli eventi sono ***Indipendenti***:
+$$
+\mathcal{P}(X_{1}=1)\cdot\mathcal{P}(X_{2}=1)=\frac{9}{25}
+$$
+>[!done] E abbiamo:
+>$$E[X_{1}X_{2}]=E[X_{1}]\cdot E[X_{2}]$$
+
+
+>[!info] Proposizione
+>Se $X$ e $Y$ sono ***indipendenti***
+><u>Allora</u>
+>$$E[XY]=E[X]\cdot E[Y]$$
+
+###### Dimostrazione
+>Ricordiamo la [[#^3cc60c|Formula]] per calcolare il ***valore atteso***
+
+$$
+\sum_{h,k}h\cdot k\cdot d_{X,Y}(h,k)
+$$
+Siccome le variabili sono ***indipendenti***:
+- $d_{X,Y}(h,k)=d_{X}(h)\cdot d_{Y}(k)$
+
+Quindi otteniamo:
+$$
+\sum_{h,k}h\cdot k\cdot d_{X}(h)\cdot d_{Y}(k)=\underbrace{ \sum_{h}h\cdot d_{X}(h) }_{ E[X] }\cdot\underbrace{ \sum_{k}k\cdot d_{Y}(k) }_{ E[Y] }
+$$
+
+>[!warning] ***Non*** è detto l'inverso
+
 
