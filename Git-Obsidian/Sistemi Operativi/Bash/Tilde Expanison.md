@@ -1,6 +1,6 @@
 
 ---
->[!info] `~` Expansion
+>[!info]  `~` Expansion
 >La *tilde expansion* è una [[Terminale Unix#Espansioni|espansione]] che riguarda una stringa che è iniziata dal carattere: `~`
 >È una espansione che riguarda diverse ***tipologie*** di stringhe
 

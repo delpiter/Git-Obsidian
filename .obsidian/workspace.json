@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "fff54978b4428556",
+        "id": "af980abf88dbc168",
         "type": "tabs",
         "children": [
           {
-            "id": "b8a36b252d9eac22",
+            "id": "491a0b23a1238f7d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Git-Obsidian/Sistemi Operativi/Bash/Variabili.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Variabili"
             }
           }
         ]
@@ -46,7 +50,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#wtf",
+                "query": "sequenze",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -196,37 +200,37 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b8a36b252d9eac22",
+  "active": "491a0b23a1238f7d",
   "lastOpenFiles": [
-    "Git-Obsidian/Sistemi Operativi/Teoria/Monitor.md",
-    "Git-Obsidian/Sistemi Operativi/Teoria/Conditional Critical Regions.md",
-    "Git-Obsidian/Sistemi Operativi/Bash/Tipi di Comandi.md",
-    "Git-Obsidian/Sistemi Operativi/Teoria/Problemi della Programmazione Concorrente.md",
+    "Git-Obsidian/Sistemi Operativi/Bash/Lettura da Standard Input.md",
+    "Git-Obsidian/Sistemi Operativi/Bash/Espressioni Condizionali.md",
+    "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/2 - Unione di Eventi.md",
     "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/3 - Variabili Aleatorie.md",
-    "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/7 - La Varianza.md",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Algoritmi di Ricerca su Grafo.md",
-    "Git-Obsidian/Sistemi Operativi/Teoria/Semafori.md",
-    "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/6 - Valore Atteso.md",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Cammini Minimi/Algoritmo di Dijkstra.md",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/Minimum Spanning Tree.md",
+    "Git-Obsidian/Matematica Discreta e Probabilità/Combinatoria/3 - Partizioni.md",
+    "Git-Obsidian/Matematica Discreta e Probabilità/Combinatoria/2 - Principio di inclusione-esclusione.md",
+    "Git-Obsidian/Matematica Discreta e Probabilità/Combinatoria/1 - Combinatoria Elementare.md",
+    "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/1 - Spazi di Probabilità.md",
+    "Git-Obsidian/Matematica Discreta e Probabilità/Statistica Descrittiva/1 - Indagine Statistica.md",
+    "Git-Obsidian/Matematica Discreta e Probabilità/Statistica Descrittiva/3 - Varianza.md",
+    "Git-Obsidian/Sistemi Operativi/Bash/Parameter Expansion.md",
+    "Git-Obsidian/Sistemi Operativi/Bash/Terminale Unix.md",
+    "Git-Obsidian/Sistemi Operativi/Bash/Tilde Expanison.md",
+    "Git-Obsidian/Sistemi Operativi/Bash/Tipi di Comandi.md",
+    "Git-Obsidian/Sistemi Operativi/Bash/Utenti e Permessi.md",
+    "Git-Obsidian/Sistemi Operativi/Bash/Valutazioni Aritmetiche.md",
+    "Git-Obsidian/Sistemi Operativi/Bash/Variabili.md",
+    "Git-Obsidian/Sistemi Operativi/Bash/Wildcards.md",
+    "Git-Obsidian/Sistemi Operativi/Bash/Esecuzione dei File.md",
+    "Git-Obsidian/Sistemi Operativi/Bash/Interfaccia Utente.md",
+    "Git-Obsidian/Sistemi Operativi/Bash/History Expansion.md",
+    "Git-Obsidian/Sistemi Operativi/Bash/File Descriptor.md",
+    "Git-Obsidian/Sistemi Operativi/Bash/Exit Status.md",
+    "Git-Obsidian/Sistemi Operativi/Bash/Brace Expansion.md",
+    "Git-Obsidian/Sistemi Operativi/Bash/Comandi.md",
+    "Git-Obsidian/Sistemi Operativi/Bash/Command Substitution.md",
     "Git-Obsidian/Sistemi Operativi/Teoria/attachements/Process_States.png",
-    "Git-Obsidian/Programmazione/I File/Tipo di dato FILE.md",
-    "Git-Obsidian/Programmazione/I File/Introduzione ai Files.md",
-    "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/4 - Variabili Aleatori Multidimensionali.md",
-    "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/5 - Trasformazioni di Variabili Aleatorie.md",
-    "Git-Obsidian/Matematica Discreta e Probabilità/Utility.md",
     "Git-Obsidian/Sistemi Operativi/Teoria/attachements/PhilosopherDinner.png",
     "Git-Obsidian/Sistemi Operativi/Teoria/attachements/CircularArray.png",
-    "Git-Obsidian/Sistemi Operativi/Teoria/Concetti Preliminali.md",
-    "Git-Obsidian/Sistemi Operativi/Teoria/Concorrenza.md",
-    "Git-Obsidian/Sistemi Operativi/Teoria/Condivisione di Risorse.md",
-    "Git-Obsidian/Sistemi Operativi/Teoria/Approcci Software.md",
-    "Git-Obsidian/Sistemi Operativi/Teoria/Sezioni Critiche.md",
-    "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Cache.md",
-    "Git-Obsidian/Sistemi Operativi/Teoria/Approcci Hardware.md",
-    "Git-Obsidian/Game Programming/Introduction.md",
-    "Git-Obsidian/Sistemi Operativi/Bash/Espressioni Condizionali.md",
-    "Git-Obsidian/Matematica Discreta e Probabilità/Combinatoria/3 - Partizioni.md",
     "Git-Obsidian/Sistemi Operativi/Teoria/attachements/Starvation&Deadlock.png",
     "Git-Obsidian/Sistemi Operativi/Teoria/attachements/Interleaving.png",
     "Git-Obsidian/Sistemi Operativi/Teoria/attachements/Overlapping.png",

@@ -114,7 +114,7 @@ $X=\#$ di volte che esce $6$
 
 $\mathcal{P}(X=0)=\displaystyle\frac{5}{6}\cdot \frac{5}{6}=\frac{25}{36}$
 $\mathcal{P}(X=1)=\displaystyle2\cdot \frac{5}{6}\cdot \frac{1}{6}$
-$\mathcal{P}(X=2)=\displaystyle\frac{1}{6} * \frac{1}{6}=\frac{1}{36}$
+$\mathcal{P}(X=2)=\displaystyle\frac{1}{6} \cdot \frac{1}{6}=\frac{1}{36}$
 
 >[!note] Osservazione
 >La somma dei 3 risultati è $1$

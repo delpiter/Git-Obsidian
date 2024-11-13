@@ -83,7 +83,7 @@ ls: cannot acces '=content': No such file or directory
 
 La shell cerca di eseguire il comando avente nome `VARAIBILE` passandogli come contenuto `"=content"`
 
->[[Esecuzione dei File#Variabile e Esecuzione|(\*)]] Assegnamento con spazio dopo il simbolo `=` 
+>[[Esecuzione dei File#Variabile e Esecuzione|(*)]] Assegnamento con spazio dopo il simbolo `=` 
 
 ```bash
 VARIABLE= content
@@ -107,4 +107,13 @@ nomevar=varA
 echo ${!nomevar}
 
 # Prints "pippo"
+```
+
+#### Operatore `#`
+>[!hint] Funzionamento
+>L'operatore `#` permette di restituire il ***numero di caratteri*** di cui è composta la variabile che si sta *espandendo*
+
+```bash
+VAR=lollolacusta
+echo ${#VAR} # 12
 ```
