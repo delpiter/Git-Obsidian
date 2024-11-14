@@ -123,12 +123,12 @@ $\mathcal{P}(X=2)=\displaystyle\frac{1}{6} \cdot \frac{1}{6}=\frac{1}{36}$
 #### Densità
 >[!info] Definizione
 >La ***densità*** di una *variabile aleatoria* **discreta** è una funzione:
->$$\begin{array}\ dx:\mathbb{R}\to[0,1] \\k\mapsto \mathcal{P}(X=k)\end{array}$$
+>$$\begin{array}\ d_{X}:\mathbb{R}\to[0,1] \\k\mapsto \mathcal{P}(X=k)\end{array}$$
 
 >Dall'esempio di prima
 
 $$
-dx(k)=\begin{cases}
+d_{X}(k)=\begin{cases}
 \displaystyle{\frac{25}{36}}\quad \text{ se }k=0 \\
 \displaystyle{\frac{10}{36}}\quad \text{ se }k=1 \\
 \displaystyle{\frac{1}{36}}\quad \text{ se }k=2
@@ -136,10 +136,10 @@ dx(k)=\begin{cases}
 $$
 
 >[!note] Osservazione
->Se $dx$ è la ***densità*** di $X$
+>Se $d_{X}$ è la ***densità*** di $X$
 ><u>Allora</u>
->- $dx(k)\geq 0$
->- $dx(k)>0$ per una quantità discreta di valori $k$
+>- $d_{X}(k)\geq 0$
+>- $d_{X}(k)>0$ per una quantità discreta di valori $k$
 >- $\displaystyle\sum_{k}dx(k)=1$
 
 
