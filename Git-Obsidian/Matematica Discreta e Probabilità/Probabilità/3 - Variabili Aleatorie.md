@@ -140,15 +140,15 @@ $$
 ><u>Allora</u>
 >- $d_{X}(k)\geq 0$
 >- $d_{X}(k)>0$ per una quantità discreta di valori $k$
->- $\displaystyle\sum_{k}dx(k)=1$
+>- $\displaystyle\sum_{k}d_{X}(k)=1$
 
 
 ##### Densità Discreta Astratta
 >[!abstract] Definizione
 >Una funzione $d:\mathbb{R}\to\mathbb{R}$ si dice ***densità discreta astratta*** se:
->- $dx(k)\geq 0$
->- $dx(k)>0$ per una quantità discreta di valori $k$
->- $\displaystyle\sum_{k}dx(k)=1$
+>- $d_{X}(k)\geq 0$
+>- $d_{X}(k)>0$ per una quantità discreta di valori $k$
+>- $\displaystyle\sum_{k}d_{X}(k)=1$
 
 ###### Esempio
 >Insieme finito
@@ -210,7 +210,7 @@ $$
 
 >[!info] Definizione
 >Una variabile aleatoria $X$ è di Bernoulli se assume solo valori $0$ e $1$
->$$dx(k)=\begin{cases}p \qquad \quad\text{ se } k=1 \\1-p \quad \ \text{ se } k=0 \\0 \qquad \quad \text{ altrimenti}\end{cases}$$
+>$$d_{X}(k)=\begin{cases}p \qquad \quad\text{ se } k=1 \\1-p \quad \ \text{ se } k=0 \\0 \qquad \quad \text{ altrimenti}\end{cases}$$
 >>[!Note] Notazione
 >>Scriviamo in questo caso:
 >>$$X \sim B(1,p)$$

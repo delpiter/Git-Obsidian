@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "7032816d9e319710",
+        "id": "e10400bb365be28e",
         "type": "tabs",
         "children": [
           {
-            "id": "867319b03bb36fe3",
+            "id": "66d42c5f83524905",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/3 - Variabili Aleatorie.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "3 - Variabili Aleatorie"
+              "title": "New tab"
             }
           }
         ]
@@ -200,13 +196,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "867319b03bb36fe3",
+  "active": "66d42c5f83524905",
   "lastOpenFiles": [
+    "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/3 - Variabili Aleatorie.md",
     "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/2 - Unione di Eventi.md",
     "Git-Obsidian/Sistemi Operativi/Bash/Variabili.md",
     "Git-Obsidian/Sistemi Operativi/Bash/Lettura da Standard Input.md",
     "Git-Obsidian/Sistemi Operativi/Bash/Espressioni Condizionali.md",
-    "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/3 - Variabili Aleatorie.md",
     "Git-Obsidian/Matematica Discreta e Probabilità/Combinatoria/3 - Partizioni.md",
     "Git-Obsidian/Matematica Discreta e Probabilità/Combinatoria/2 - Principio di inclusione-esclusione.md",
     "Git-Obsidian/Matematica Discreta e Probabilità/Combinatoria/1 - Combinatoria Elementare.md",
