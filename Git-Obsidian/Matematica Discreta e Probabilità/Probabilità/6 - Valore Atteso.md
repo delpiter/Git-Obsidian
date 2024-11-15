@@ -280,7 +280,7 @@ $$
 >[!done] E abbiamo:
 >$$E[X_{1}X_{2}]=E[X_{1}]\cdot E[X_{2}]$$
 
-
+###### Prodotto di Valori Attesi
 >[!info] Proposizione
 >Se $X$ e $Y$ sono ***indipendenti***
 ><u>Allora</u>
