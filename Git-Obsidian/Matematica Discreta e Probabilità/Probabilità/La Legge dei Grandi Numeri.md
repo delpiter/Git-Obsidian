@@ -72,3 +72,51 @@ $$
 
 >Fissiamo $0.51$ (un po' più di $\frac{1}{2}$)
 
+>[!question] Con $n=10$, $\mathcal{P}\left( \displaystyle\frac{x}{10}>0.51 \right)$ ?
+
+>[!question] Con $n=100$, $\mathcal{P}\left( \displaystyle\frac{x}{10}>0.51 \right)$ ?
+
+>[!question] Con $n=1000$, $\mathcal{P}\left( \displaystyle\frac{x}{10}>0.51 \right)$ ?
+
+- $\dots$
+
+>[!note] Ci aspettiamo che questa probabilità tenda a $0$
+
+>[!def] Definizione
+>Sia $Y_{1},Y_{2},Y_{3},\dots$ una *successione* di ***variabili aleatorie***.
+>Diciamo che questa successione tende ad una costante $a$ se:
+>$\forall \varepsilon > 0$
+>***Vale***
+>$$\mathcal{P}(\mid Y_{n}-a\mid >\varepsilon)\underset{n \mapsto \infty}{ \longrightarrow } 0$$
+
+## Legge dei Grandi Numeri
+---
+>[!def] Definizione
+>Siano $X_{1},X_{2},X_{3},\dots$ [[3 - Variabili Aleatorie|variabili aleatorie]] *indipendenti* che abbiano tutte la ***stessa densità*** con [[6 - Valore Atteso|valore atteso]] $\mu$ e [[3 - Varianza|varianza]] $\sigma^2$
+><u>Allora</u>
+>La *successione*
+>$$Y_{1} = X_{1}\qquad Y_{2}= \displaystyle{\frac{X_{1}+X_{2}}{2}}\qquad Y_{3}= \displaystyle{\frac{X_{1}+X_{2}+X_{3}}{3}}$$
+>Converge a $\mu$
+
+
+##### Dimostrazione
+>$Y_{n}= \frac{1}{n}(X_{1}+\dots+X_{n})$
+
+$$
+\begin{array}
+\ E[Y_{n}]= \displaystyle{\frac{1}{n}}(\underbrace{ E[X_{1}]+\dots+E[X_{n}] }_{ \displaystyle n\cdot\mu })= \\
+=\displaystyle\frac{1}{\cancel{ n }}\cdot \cancel{ n }\cdot \mu
+\end{array}
+$$
+$$
+\begin{array}
+\ Var(Y_{n})=Var\left( \displaystyle \frac{1}{n}(X_{1}+\dots+X_{n}) \right)=\\
+=\displaystyle \frac{1}{n^2}\cdot n\cdot \sigma^2
+\end{array}
+$$
+
+>[!caution] Applichiamo ora la ***disuguaglianza di Chebyshev*** a $Y_{n}$
+
+$$
+\mathcal{P}(\mid Y_{n}-\mu \mid > \varepsilon)\leq \underbrace{ \displaystyle{\frac{\sigma^2}{n \varepsilon^2}} }_{ \displaystyle \underset{ n \mapsto \infty }{ \longrightarrow 0 }}
+$$
