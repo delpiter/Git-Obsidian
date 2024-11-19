@@ -23,3 +23,25 @@ while true ;do
 	fi 
 done
 ```
+
+#### Lettura di Multipli Valori
+>[!info] Più Variabili
+>Se nel comando `read` vengono specificate più di una variabile ***allora***
+>il contenuto della variabile `IFS` viene usato per separare la linea letta alla read
+
+>Se eseguo il *comando* `read varA varB varC` 
+
+- E scrivo a tastiera la frase: "***prima seconda terza***"
+
+Le *variabili* assumono valore:
+- `varA="prima" varB="seconda" varC="terza"`
+
+>Se invece scrivo a tastiera la frase "***prima seconda terza quarta***"
+
+Le *variabili* assumono valore:
+- `varA="prima" varB="seconda" varC=“terza quarta"`
+
+>Se invece scrivo a tastiera la "***prima seconda***":
+
+Le *variabili* assumono valore:
+- `varA="prima" varB="seconda" varC=""`
