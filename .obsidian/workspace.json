@@ -4,49 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "746a33688a993bfc",
+        "id": "6030f53e57b9b586",
         "type": "tabs",
         "children": [
           {
-            "id": "c2e26215b79fb010",
+            "id": "82c51d01e18251c9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/La Legge dei Grandi Numeri.md",
+                "file": "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/8 - Variabili Aleatorie Continue.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "La Legge dei Grandi Numeri"
-            }
-          },
-          {
-            "id": "97ec4aa6ff60e9a3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/6 - Valore Atteso.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "6 - Valore Atteso"
-            }
-          },
-          {
-            "id": "0babc8df08be46c9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/7 - La Varianza.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "7 - La Varianza"
+              "title": "8 - Variabili Aleatorie Continue"
             }
           }
         ]
@@ -106,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 269.5
+    "width": 269.5,
+    "collapsed": true
   },
   "right": {
     "id": "3561446b8c4d05ef",
@@ -227,11 +200,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c2e26215b79fb010",
+  "active": "82c51d01e18251c9",
   "lastOpenFiles": [
-    "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/7 - La Varianza.md",
+    "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/attachements/Pasted image 20241119105934.png",
+    "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/attachements/TMP2.png",
+    "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/8 - Variabili Aleatorie Continue.md",
+    "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/attachements/TMP.png",
+    "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/attachements/Pasted image 20241119103201.png",
+    "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/attachements",
     "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/6 - Valore Atteso.md",
     "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/La Legge dei Grandi Numeri.md",
+    "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/7 - La Varianza.md",
     "Git-Obsidian/Markdown Keys.md",
     "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/3 - Variabili Aleatorie.md",
     "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/2 - Unione di Eventi.md",
@@ -253,8 +232,6 @@
     "Git-Obsidian/Sistemi Operativi/Bash/Wildcards.md",
     "Git-Obsidian/Sistemi Operativi/Bash/Esecuzione dei File.md",
     "Git-Obsidian/Sistemi Operativi/Bash/Interfaccia Utente.md",
-    "Git-Obsidian/Sistemi Operativi/Bash/History Expansion.md",
-    "Git-Obsidian/Sistemi Operativi/Bash/File Descriptor.md",
     "Git-Obsidian/Sistemi Operativi/Teoria/attachements/Process_States.png",
     "Git-Obsidian/Sistemi Operativi/Teoria/attachements/PhilosopherDinner.png",
     "Git-Obsidian/Sistemi Operativi/Teoria/attachements/CircularArray.png",
@@ -262,9 +239,6 @@
     "Git-Obsidian/Sistemi Operativi/Teoria/attachements/Interleaving.png",
     "Git-Obsidian/Sistemi Operativi/Teoria/attachements/Overlapping.png",
     "Git-Obsidian/Sistemi Operativi/Teoria/attachements/Process_Priority_Queues.png",
-    "Git-Obsidian/Sistemi Operativi/Teoria/attachements/GanttDiagram.png",
-    "Git-Obsidian/Sistemi Operativi/attachements/Pasted image 20241014145818.png",
-    "Git-Obsidian/Sistemi Operativi/Teoria/attachements/Many-to-Many.png",
     "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità",
     "Git-Obsidian/Matematica Discreta e Probabilità/Statistica Descrittiva/attachements",
     "Git-Obsidian/Sistemi Operativi/Teoria/attachements",
@@ -274,7 +248,6 @@
     "Git-Obsidian/Sistemi Operativi/Teoria",
     "Git-Obsidian/Sistemi Operativi/Bash",
     "Git-Obsidian/Matematica Discreta e Probabilità/Combinatoria/attachements/attachements",
-    "Git-Obsidian/Sistemi Operativi/attachements",
     "Git-Obsidian/Algebra e Geometria/Isometrie/Legami.canvas",
     "Untitled.canvas",
     "Git-Obsidian/Algoritmi e Strutture Dati/Untitled.canvas",

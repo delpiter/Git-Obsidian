@@ -120,3 +120,4 @@ $$
 $$
 \mathcal{P}(\mid Y_{n}-\mu \mid > \varepsilon)\leq \underbrace{ \displaystyle{\frac{\sigma^2}{n \varepsilon^2}} }_{ \displaystyle \underset{ n \mapsto \infty }{ \longrightarrow 0 }}
 $$
+
