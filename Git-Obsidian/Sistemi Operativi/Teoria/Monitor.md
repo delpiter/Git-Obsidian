@@ -75,3 +75,51 @@ I meccanismi di sincronizzazione sono ***operazioni definite*** sulle *CV*
 >La `{cpp}c.signal()` segnala solamente che un processo *può continuare*, il chiamante ***prosegue l'esecuzione***
 >- Quando lascia il monito viene riattivato il *processo segnalato*
 
+#### Implementazione Tramite Semafori
+>[!info] Componenti Necessari
+>1. Una struttura dati per la ***gestione dello stack***
+>2. Un [[Semafori|semaforo]] di [[Condivisione di Risorse#Mutua Esclusione|mutua esclusione]] `{cpp} mutex`
+>3. Per ogni variabile di condizione $cond_{i}$, una coppia $(c_{i},nc_{i})$
+>	- $c_{i}$ è un *semaforo* correlato alla *condizione*, inizializzato a $0$
+>	- $nc_{i}$ è il *numero di processi* che sono in attesa del verificarsi della condizione
+>4. Un "***allocatore***" di semafori
+
+```cpp title:Inizialization
+Semaphore e = new Semaphore(1);
+Stack stack = new Stack();
+```
+
+```cpp title="Monitor Entrance/Exit"
+// Entrance
+e.P();
+
+// Exit
+if(!stack.empty()){
+	Semaphore s = stack.pop();
+	s.V();
+} else{
+	e.V();
+}
+```
+
+```cpp title="Wait & Signal"
+// wait condition i
+nci++;
+if(!stack.empty()){
+	Semaphore s = stack.pop();
+	s.V();
+} else{
+	e.V();
+}
+ci.P();
+
+// signal condition i
+if (nci > 0) { 
+	nci--; 
+	ci .V(); 
+	Semaphore s = new Semaphore(0); 
+	stack.push(s); 
+	s.P(); 
+}
+```
+
