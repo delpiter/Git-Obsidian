@@ -50,3 +50,10 @@ Esiste una ***partizione principale***: `/`
 
 Se un file è considerato *nascosto*
 - ***Non viene visualizzato*** se lanciato il comando `ls` senza specificare il flag `-a`
+
+#### Directory Non Salvate nel Disco Rigido
+>[!info] `/proc`
+>La cartella `/proc` contiene delle ***informazioni sul sistema operativo*** e sui ***processi attivi*** al momento
+>>[!warning] Questa cartella è una rappresentazione della struttura interna del kernel
+>>Di conseguenza ***non è salvata*** da alcuna parte (o *salvata* in "`RAM`")
+

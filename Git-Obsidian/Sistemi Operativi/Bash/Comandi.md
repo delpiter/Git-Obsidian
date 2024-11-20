@@ -34,6 +34,8 @@
 >[!question] `which [executable_file_name]`
 >Visualizza il percorso in cui si trova (solo se nella variabile `PATH`) l’eseguibile
 
+>[!summary] `exec`
+>Utilizzato per l'***apertura***/***chiusura*** dei file [[Lettura da Standard Input#Apertura di un File|*]]
 
 >[!abstract] `mv [file_path]`
 >Sposta il file specificato in una nuova posizione

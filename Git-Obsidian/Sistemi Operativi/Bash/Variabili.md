@@ -118,13 +118,5 @@ VAR=lollolacusta
 echo ${#VAR} # 12
 ```
 
-### Lettura con più Variabili
->[!info] In Breve
->Se al *comando* `read` vengono passati come argomenti ***una*** o ***più variabili***, allora il contenuto della variabile `IFS` viene usato per *separare* la linea letta in parole e per *assegnare* alle variabili passate le parole lette
+#### Variabile `$$`
 
-```bash
-read varA varB varC
-	first second third
-
-# varA="first" varB="second" varC="third"
-```

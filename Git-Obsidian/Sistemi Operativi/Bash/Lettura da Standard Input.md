@@ -66,6 +66,8 @@ All'apertura del file, l'*utente* è in grado di scegliere il ***file descriptor
 >>`{bash} exec {variableName}< filePath`
 
 >[!tldr] Scrittura
+>Se il file ***non esiste***, crea il *file*.
+>Se il file ***esiste***, viene eliminato il contenuto e inserito il puntatore alla riga corrente alla prima riga del *file*
 >>[!info] Utente sceglie il *file descriptor*
 >>`{bash} exec n> filePath`
 >
@@ -73,7 +75,9 @@ All'apertura del file, l'*utente* è in grado di scegliere il ***file descriptor
 >>`{bash} exec {variableName}> filePath`
 
 >[!summary] Aggiunta in Coda
->Append
+>Se il file ***esiste***, viene inserito il puntatore all'ultima riga scritta.
+>- ***Non*** viene eliminato il *contenuto* precedente
+>
 >>[!info] Utente sceglie il *file descriptor*
 >>`{bash} exec n>> filePath`
 >
@@ -86,4 +90,32 @@ All'apertura del file, l'*utente* è in grado di scegliere il ***file descriptor
 >
 >>[!cite] Sistema operativo sceglie il *file descriptor*
 >>`{bash} exec {variableName}<> filePath`
+
+>[!danger] Vanno assolutamente rispettati gli ***spazi***
+>Prima della ***variabile***(`{variableName}`) e dopo i ***simboli*** (`< > >> <<`)
+
+##### Esempio
+```bash title:"Lettura da File"
+exec {FD}< /home/userName/file.txt
+if $? then
+	while read -u ${FD} stringRead;
+	do
+		echo "read: ${stringRead}"
+	done
+fi
+```
+
+```bash title:"Scrittura da File"
+exec {FD}> /home/userName/file.txt 
+for name in pippo pippa pippi ; do 
+	echo "insert ${name}" 1>&${FD}
+	# redirect from stout (1) to the file indicated by the FD
+done
+```
+
+### Chiusura del File
+>[!info] Chiusura dei File
+>Qualunque sia il ***modo di apertura*** con cui ho aperto un *file*, la chiusura di un *file* può essere effettuata utilizzando il comando `{bash}exec` con il ***seguente operatore***
+>`{bash}exec {FD}>&-`
+
 
