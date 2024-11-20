@@ -45,3 +45,45 @@ Le *variabili* assumono valore:
 
 Le *variabili* assumono valore:
 - `varA="prima" varB="seconda" varC=""`
+
+### Apertura di un File
+>[!info] Concetto
+>Uno *script* può avere necessità di usare dei ***file*** su disco per fare `I/O`
+>È possibile *aprire un file* da disco, ottenere un [[File Descriptor|file descriptor]] che lo rappresenta ed ***utilizzare*** quel file descriptor per ***accedere*** al file aperto
+
+All'apertura del file, l'*utente* è in grado di scegliere il ***file descriptor*** (numero) che rappresenterà il *file aperto*
+- Se tale file descriptor è già usato **avvengono dei problemi**
+
+>[!note] In alternativa si può ***chiedere al sistema operativo*** di sceglierne uno libero
+
+#### Operatori
+
+>[!caution] Lettura
+>>[!info] Utente sceglie il *file descriptor*
+>>`{bash} exec n< filePath`
+>
+>>[!cite] Sistema operativo sceglie il *file descriptor*
+>>`{bash} exec {variableName}< filePath`
+
+>[!tldr] Scrittura
+>>[!info] Utente sceglie il *file descriptor*
+>>`{bash} exec n> filePath`
+>
+>>[!cite] Sistema operativo sceglie il *file descriptor*
+>>`{bash} exec {variableName}> filePath`
+
+>[!summary] Aggiunta in Coda
+>Append
+>>[!info] Utente sceglie il *file descriptor*
+>>`{bash} exec n>> filePath`
+>
+>>[!cite] Sistema operativo sceglie il *file descriptor*
+>>`{bash} exec {variableName}>> filePath`
+
+>[!tip] Lettura e Scrittura
+>>[!info] Utente sceglie il *file descriptor*
+>>`{bash} exec n<> filePath`
+>
+>>[!cite] Sistema operativo sceglie il *file descriptor*
+>>`{bash} exec {variableName}<> filePath`
+
