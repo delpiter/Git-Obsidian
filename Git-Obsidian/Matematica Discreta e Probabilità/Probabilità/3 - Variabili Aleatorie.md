@@ -298,7 +298,7 @@ $$
 
 $$
 dx(k)=\begin{cases}
-\displaystyle{\frac{\displaystyle\binom{b}{k}\binom{r}{b-k}}{\displaystyle{\binom{b+r}{n}}}}\quad \text{se }k=0,1,2,\dots,n \\
+\displaystyle{\frac{\displaystyle\binom{b}{k}\binom{r}{n-k}}{\displaystyle{\binom{b+r}{n}}}}\quad \text{se }k=0,1,2,\dots,n \\
 0 \qquad\qquad\qquad\  \text{ altrimenti}
 \end{cases}
 $$
@@ -320,6 +320,9 @@ $$
 >Ho delle confezioni da $3$ bulloni, ogni bullone ha il $20$% di probabilità di essere difettoso
 >>[!question] Qual è la probabilità che una confezione contenga ***al più*** 1 bullone difettoso
 
+>[!note] Problema 2
+>Un'urna contiene $8$ palline rosse e 2 bianche. Ne estraiamo $3$ senza rimpiazzo.
+>>[!question] Qual è la probabilità di estrarre al più una bianca?
 
 >[!done] In entrambi i casi ho al massimo $1$ ***insuccesso***
 
