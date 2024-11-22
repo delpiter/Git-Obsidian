@@ -92,4 +92,4 @@ L'immagine contiene altre ***informazioni***
 
 >[!warning] Attenzione
 >Le immagini container possono essere *scaricate* da internet
->- Un qualunque malintenzionato può caricare una immagine che esegue ***istruzioni non sicure***p
+>- Un qualunque malintenzionato può caricare una immagine che esegue ***istruzioni non sicure***
