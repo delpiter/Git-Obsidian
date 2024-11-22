@@ -107,7 +107,7 @@ void handleMessage() {
 	msg = sreceive(*); 
 	if (msg == ) { 
 		if (waiting[p,q]>0) { 
-			ssend(m, p); 
+			ssend(m, q); 
 			waiting[p,q]--; 
 		} else { 
 			queue[p,q].add(m); 
