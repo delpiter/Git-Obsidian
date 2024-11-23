@@ -31,7 +31,7 @@ Il passaggio dai *due spazi di indirizzamento* è mediato dal ***sistema operati
 
 >[!abstract] Recieve
 >Sintassi:
->- `{cpp}m = srecieve(p)`
+>- `{cpp}m = q.srecieve(p)`
 >
 > Il *destinatario* `q` riceve il messaggio `m` dal processo `p`
 > Se il *mittente* non ha ancora spedito alcun messaggio, il *destinatario* si ***blocca*** in attesa di ricevere un messaggio
@@ -46,7 +46,7 @@ Il passaggio dai *due spazi di indirizzamento* è mediato dal ***sistema operati
 
 >[!abstract] Recieve
 >Sintassi:
->- `{cpp}m = arecieve(p)`
+>- `{cpp}m = q.arecieve(p)`
 >
 > Il *destinatario* `q` riceve il messaggio `m` dal processo `p`
 > Se il *mittente* non ha ancora spedito alcun messaggio, il *destinatario* si ***blocca*** in attesa di ricevere un messaggio

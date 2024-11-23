@@ -35,7 +35,7 @@ $Z=$ Valore tra un anno
 - $\displaystyle\mathcal{P}(X=0)=\frac{1}{4}\quad \mathcal{P}(X=1)=\frac{1}{2}\quad \mathcal{P}(X=2)=\frac{1}{4}$
 >[!question] Chi è la funzione di ripartizione?
 
-![[TMP.png]]
+![[FxDiscreta.png]]
 
 - $F_{X}(1.1)=\mathcal{P}(X\geq 1.1)=\mathcal{P}(X=0)+\mathcal{P}(X= 1)=\displaystyle \frac{1}{4}+\frac{1}{2} = \frac{3}{4}$
 
@@ -44,9 +44,7 @@ $Z=$ Valore tra un anno
 >[!def] Definizione
 >Una [[3 - Variabili Aleatorie|Variabile Aleatoria]] $X$ si dice ***Continua*** se $F_{X}(t)$ è *continua*
 
-![[TMP2.png]]
-
-"*i prossimi calcoli non riflettono l'immagine*"
+![[Funzione di Ripartizione Continua.png]]
 
 - $\mathcal{P}(X\leq -1)=F_{X}(-1) = 0$
 - $\mathcal{P}\left( X> \frac{3}{2} \right)=1-\mathcal{P}\left( X\leq \frac{3}{2} \right)=1-F_{X}\left( \frac{3}{2} \right)=1-\frac{3}{4}=\frac{1}{4}$
@@ -92,7 +90,7 @@ $\mathcal{P}(a<X<b)=F_{X}(b)-F_{X}(a)$
 
 
 #### Esempio
-> #to_modify *inserisci funzione tutta a 0 tranne tra 0 e 1 che vale 1*
+![[DensitaContinua.png]]
 
 $\displaystyle\mathcal{P}\left( \frac{1}{3}<X<1 \right)=\int_{1}^{1/3} f_{X}(s)\, ds=\frac{2}{3}$
 $\displaystyle\mathcal{P}\left( \frac{1}{2}<X<2 \right)=\int_{1}^{1/2} f_{X}(s)\, ds+\underbrace{ \int_{2}^{1} f_{X}(s) }_{ 0 }\, ds=\frac{1}{2}$
@@ -112,3 +110,88 @@ $\displaystyle\mathcal{P}\left( \frac{1}{2}<X<2 \right)=\int_{1}^{1/2} f_{X}(s)\
 >
 >>[!warning] Attenzione
 >>La densità ***non*** è necessariamente una *funzione continua*
+
+>[!question] Chi è $F_{X}(t)$ ?
+
+- $F_{X}(2)=\mathcal{P}(X\leq 2)=\displaystyle\int_{-\infty}^2 f(s)\, ds=1$
+>Sia $0<t<1$
+
+- $F_{X}(t)=\mathcal{P}(X\leq t)=\displaystyle\int_{0}^t f(s)\, ds=t$
+
+***Quindi***:
+
+$$
+F_{X}(t)=\begin{cases}
+0 \quad \text{se }t\leq0 \\
+t \quad \text{se } 0\leq t \leq 1 \\
+1 \quad \text{se } t\geq 1
+\end{cases}
+$$
+![[FX data la Densità.png]]
+
+### Legame fra i due Concetti
+>Calcoliamo la Probabilità che $a\leq X\leq b$
+
+>[!note] Legame
+>$$\int_{a}^b f_{X}(s)\, ds = F_{X}(b)-F_{X}(a)$$
+
+>***Conseguenza***:
+
+$$
+F'_{X} =f_{X}
+$$
+- *Viceversa*
+
+$$
+F_{X}(t)=\int_{-\infty}^t f_{X}(s)\, ds 
+$$
+#### Esercizio
+>Data la seguente ***densità continua***
+
+$$
+f(s)=\begin{cases}
+0 \quad \text{se }s\leq 0  \ \vee \ s\geq 2 \\
+s^2 \quad \text{se } 0\leq s \leq 1 \\
+\frac{2}{3}\quad \text{se } 1\leq s\leq 2
+\end{cases}
+$$
+
+![[EsempioRelazione.png]]
+
+>[!question] È una ***densità continua***?
+
+
+1. $f(s)\geq 0$
+>[!done] Si 
+
+2. $$\int_{-\infty}^{+\infty}f(s)  \, ds =1$$
+
+>Controlliamo
+
+$$
+\int_{0}^1 s^2 \, ds+\int_{1}^2 \frac{2}{3}\, ds = \left[ \frac{s^3}{3} \right]_{0}^1 +\frac{2}{3}=1 
+$$
+>[!done] Verificato
+
+>[!question] Chie è la ***funzione di ripartizione***?
+
+>Per $t\geq2$
+
+Abbiamo appena calcolato che:
+$$
+\int_{-\infty}^{t} f(s)\, ds=1 
+$$
+>Per $0<t<1$
+
+$$
+F_{X}(t)=\mathcal{P}(X\leq t)=\int_{-\infty}^t f(s)\, ds =\int_{0}^t s^2\, ds = \frac{t^3}{3} 
+$$
+
+>Per $1<t<2$
+
+$$
+F_{X}(t)=\mathcal{P}(X\leq t)=\int_{-\infty}^t f(s)\, ds =\underbrace{ \int_{0}^1 f(s)\, ds }_{ \frac{1}{3} }+\underbrace{ \int_{1}^t f(s)\, ds }_{ (t-1) \frac{2}{3} }  = \frac{2}{3}t-\frac{1}{3}
+$$
+
+![[FunzioneRipartizioneEsercizio.png]]
+

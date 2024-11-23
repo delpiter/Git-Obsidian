@@ -13,12 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Obsidian/Sistemi Operativi/Teoria/Message Passing.md",
+                "file": "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/Variabili Continue/10 - Variabili Continue Uniformi.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Message Passing"
+              "title": "10 - Variabili Continue Uniformi"
+            }
+          },
+          {
+            "id": "f9498346ecceb76d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/Variabili Continue/8 - Variabili Aleatorie Continue.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "8 - Variabili Aleatorie Continue"
             }
           }
         ]
@@ -78,8 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 269.5,
-    "collapsed": true
+    "width": 269.5
   },
   "right": {
     "id": "3561446b8c4d05ef",
@@ -202,6 +215,19 @@
   },
   "active": "e6f890d8fac55b40",
   "lastOpenFiles": [
+    "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/Variabili Continue/9 - Valore Atteso e Varianza.md",
+    "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/Variabili Continue/10 - Variabili Continue Uniformi.md",
+    "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/Variabili Continue/Variabili Continue Uniformi.md",
+    "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/Variabili Continue/8 - Variabili Aleatorie Continue.md",
+    "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/Variabili Continue",
+    "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/attachements/FunzioneRipartizioneEsercizio.png",
+    "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/attachements/FX data la Densità.png",
+    "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/Pasted image 20241123160647.png.md",
+    "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/attachements/EsempioRelazione.png",
+    "Git-Obsidian/Markdown Keys.md",
+    "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/attachements/DensitaContinua.png",
+    "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/attachements/FxDiscreta.png",
+    "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/attachements/Funzione di Ripartizione Continua.png",
     "Git-Obsidian/Sistemi Operativi/Teoria/Message Passing.md",
     "Git-Obsidian/Sistemi Operativi/Bash/Espressioni Condizionali.md",
     "Git-Obsidian/Sistemi Operativi/Teoria/Virtualizzazione.md",
@@ -219,26 +245,14 @@
     "Git-Obsidian/Sistemi Operativi/Teoria/Monitor.md",
     "Git-Obsidian/Sistemi Operativi/Bash/Valutazioni Aritmetiche.md",
     "Git-Obsidian/Sistemi Operativi/Apertura della Macchina Virtuale.md",
-    "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/8 - Variabili Aleatorie Continue.md",
     "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/attachements/Pasted image 20241119105934.png",
     "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/attachements/TMP2.png",
-    "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/attachements/TMP.png",
-    "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/attachements/Pasted image 20241119103201.png",
     "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/attachements",
     "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/La Legge dei Grandi Numeri.md",
     "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/7 - La Varianza.md",
-    "Git-Obsidian/Markdown Keys.md",
     "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/2 - Unione di Eventi.md",
     "Git-Obsidian/Matematica Discreta e Probabilità/Combinatoria/3 - Partizioni.md",
     "Git-Obsidian/Matematica Discreta e Probabilità/Combinatoria/2 - Principio di inclusione-esclusione.md",
-    "Git-Obsidian/Matematica Discreta e Probabilità/Combinatoria/1 - Combinatoria Elementare.md",
-    "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/1 - Spazi di Probabilità.md",
-    "Git-Obsidian/Matematica Discreta e Probabilità/Statistica Descrittiva/1 - Indagine Statistica.md",
-    "Git-Obsidian/Matematica Discreta e Probabilità/Statistica Descrittiva/3 - Varianza.md",
-    "Git-Obsidian/Sistemi Operativi/Teoria/attachements/Process_States.png",
-    "Git-Obsidian/Sistemi Operativi/Teoria/attachements/PhilosopherDinner.png",
-    "Git-Obsidian/Sistemi Operativi/Teoria/attachements/CircularArray.png",
-    "Git-Obsidian/Sistemi Operativi/Teoria/attachements/Starvation&Deadlock.png",
     "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità",
     "Git-Obsidian/Matematica Discreta e Probabilità/Statistica Descrittiva/attachements",
     "Git-Obsidian/Sistemi Operativi/Teoria/attachements",
@@ -247,7 +261,6 @@
     "Git-Obsidian/Sistemi Operativi/Bash/attachements",
     "Git-Obsidian/Sistemi Operativi/Teoria",
     "Git-Obsidian/Sistemi Operativi/Bash",
-    "Git-Obsidian/Matematica Discreta e Probabilità/Combinatoria/attachements/attachements",
     "Git-Obsidian/Algebra e Geometria/Isometrie/Legami.canvas",
     "Untitled.canvas",
     "Git-Obsidian/Algoritmi e Strutture Dati/Untitled.canvas",
