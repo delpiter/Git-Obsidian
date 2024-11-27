@@ -43,3 +43,28 @@ $$
 $$
 \displaystyle{\frac{\mathcal{P}(X\geq t+m)}{\mathcal{P}(X\geq m)}}=\displaystyle{\frac{e^{ -a(t+m) }}{e^{ -am }}}=e^{ -at }
 $$
+
+#### Utilizzo
+>[!info] Se $X$ ha densità ***esponenziale***
+>Allora possiamo scrivere:
+>$$X\sim Exp(a)$$
+
+>[!question] Quando si usa?
+
+Tipicamente viene usata per ***tempi di attesa*** che per la loro natura hanno *mancanza di memoria*
+
+### Valore Atteso
+
+>[!abstract] Formula
+>$$E[X]=\int_{-\infty}^\infty sf_{X}(s) \, ds =\int_{0}^\infty sae^{ -as } \, ds$$
+
+>Utilizziamo l'[[Calcolo Integrale#Integrazione per Parti|Integrazione per Parti]]
+
+- $s=f\quad ae^{ -as }=g'$
+	- $g=-e^{ -as }$
+
+$$
+=\underbrace{ [-se^{ -as }]_{0}^\infty-\int _{0}^\infty }_{ 0 } -e^{ -as }\, ds = \int _{0}^\infty e^{ -as }\, ds = \frac{1}{a}\underbrace{ \int _{0}^\infty ae^{ -as }\, ds }_{ 1 }=\frac{1}{a}  
+$$
+
+##### Esempio

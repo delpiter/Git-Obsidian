@@ -97,7 +97,7 @@ All'apertura del file, l'*utente* è in grado di scegliere il ***file descriptor
 ##### Esempio
 ```bash title:"Lettura da File"
 exec {FD}< /home/userName/file.txt
-if $? then
+if (( $? == 0 )); then
 	while read -u ${FD} stringRead;
 	do
 		echo "read: ${stringRead}"
