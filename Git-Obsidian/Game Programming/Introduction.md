@@ -27,6 +27,11 @@ Fissato un certo frame rate
 - Se necessario il game loop aspetta per processare il prossimo frame
 - Vengono "loccati" gli fps
 - Elapsed conterrà la varizione di tempo dall'ultimo ciclo
+
+### Modeling
+>Game Object
+
+> World
 ### Command
 #### Input Processing
 Lettura degli input asincroni
