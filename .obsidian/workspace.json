@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "a6c6e9cffaf3d8ab",
+        "id": "4fd7f96f0ab64978",
         "type": "tabs",
         "children": [
           {
-            "id": "50f651353ffbe42f",
+            "id": "d7bbe06ce2ea1a5e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git-Obsidian/Sistemi Operativi/Bash/Redirection.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Redirection"
+              "title": "New tab"
             }
           }
         ]
@@ -73,12 +69,12 @@
               "title": "Files"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 269.5,
-    "collapsed": true
+    "width": 269.5
   },
   "right": {
     "id": "3561446b8c4d05ef",
@@ -199,13 +195,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "50f651353ffbe42f",
+  "active": "d7bbe06ce2ea1a5e",
   "lastOpenFiles": [
-    "Git-Obsidian/Sistemi Operativi/Bash/Tipi di Comandi.md",
+    "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/Variabili Continue/11 - Variabili Esponenziali.md",
+    "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/Variabili Continue/attachements/Esempio Trasformazione.png",
+    "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/Variabili Continue/8 - Variabili Aleatorie Continue.md",
+    "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/Variabili Continue/attachements/Esempio Trasformazione 2.png",
+    "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/Variabili Continue/attachements/Esempio Fine Trasformazione.png",
     "Git-Obsidian/Sistemi Operativi/Bash/Redirection.md",
+    "Git-Obsidian/Sistemi Operativi/Bash/Tipi di Comandi.md",
     "Git-Obsidian/Game Programming/Introduction.md",
     "Git-Obsidian/Sistemi Operativi/Bash/Valutazioni Aritmetiche.md",
-    "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/Variabili Continue/11 - Variabili Esponenziali.md",
     "Git-Obsidian/Sistemi Operativi/Bash/Variabili.md",
     "Git-Obsidian/Sistemi Operativi/Bash/Lettura da Standard Input.md",
     "Git-Obsidian/Sistemi Operativi/Bash/Parameter Expansion.md",
@@ -223,7 +223,6 @@
     "Git-Obsidian/Sistemi Operativi/Bash/Comandi.md",
     "Git-Obsidian/Sistemi Operativi/Bash/Wildcards.md",
     "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/3 - Variabili Aleatorie.md",
-    "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/Variabili Continue/8 - Variabili Aleatorie Continue.md",
     "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/2 - Unione di Eventi.md",
     "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/Variabili Continue/attachements/F di Ripartizione Esponenziale.png",
     "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/Variabili Continue/attachements/Pasted image 20241124121749.png",
@@ -233,12 +232,8 @@
     "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/Variabili Continue/attachements/VariabileUniforme-CasoGenerale.png",
     "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/Variabili Continue/attachements/Densità Uniforme Esempio.png",
     "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/Variabili Continue/attachements/Pasted image 20241123165503.png",
-    "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/Variabili Continue/attachements/Var Continua Uniforme.png",
     "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/Variabili Continue/attachements",
-    "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/Variabili Continue/9 - Valore Atteso e Varianza.md",
     "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/Variabili Continue",
-    "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/attachements/FunzioneRipartizioneEsercizio.png",
-    "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/attachements/FX data la Densità.png",
     "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/attachements",
     "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità",
     "Git-Obsidian/Matematica Discreta e Probabilità/Statistica Descrittiva/attachements",

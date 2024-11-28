@@ -68,3 +68,34 @@ $$
 $$
 
 ##### Esempio
+>Supponiamo che mediamente passa una ***porche*** ogni 4 ore
+
+>[!question] Qual è la probabilità che passi una porche entro 3 ore?
+
+- $X\sim Exp\left( \frac{1}{4} \right)$
+
+$$
+\mathcal{P}(X\leq 3) = F_{X}(3)=1-e^{ -3/4 }=0.527
+$$
+
+### Varianza 
+>[!abstract] Formula
+> $$Var(X)=E[X^2]-E[X]^2$$
+
+$$
+E[X^2]=\int_{0}^\infty s^2ae^{ -as } \, ds
+$$
+>Utilizziamo l'[[Calcolo Integrale#Integrazione per Parti|Integrazione per Parti]]
+
+- $s=f\quad ae^{ -as }=g'$
+	- $g=-e^{ -as }$
+
+$$
+=\underbrace{ [-s^2e^{ -as }]_{0}^\infty }_{ 0 }-\int _{0}^\infty-2se^{ -as } \, ds=\frac{2}{a}\underbrace{ \int _{0^\infty} ase^{ -as }\, ds }_{ 1/a } =\frac{2}{a}\cdot \frac{1}{a}
+$$
+
+>Quindi, per concludere:
+
+$$
+Var(X)=E[X^2]-E[X]^2=\frac{2}{a^2}-\frac{1}{a^2} = \frac{1}{a^2}
+$$

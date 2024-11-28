@@ -195,3 +195,84 @@ $$
 
 ![[FunzioneRipartizioneEsercizio.png]]
 
+
+## Trasformazione di Variabile Continua
+---
+>[!def] Concetti
+>Sia $Z=\Phi(X)$
+>Per calcolare $F_{Z}(t)$:
+>$$F_{Z}(t)=\mathcal{P}(Z\leq t)=\mathcal{P}(\Phi(X)\leq t)$$
+>>[!abstract] Bisogna scrivere $\Phi(X)\leq t$ in funzione di $F_{X}(t)$
+
+#### Esempio
+>[!caution] $\Phi(X)=X^2=Z$
+
+- $F_{Z}(t)=\mathcal{P}(X^2\leq t)$
+
+>Se $t < 0$
+
+$F_{Z}(t)=0$
+
+>Se $t\geq 0$
+
+$$
+\mathcal{P}(X^2\leq t)=\mathcal{P}(-\sqrt{ t }\leq X \leq \sqrt{ t })=F_{X}(\sqrt{ t })-F_{X}(-\sqrt{ t })
+$$
+>[!note] Prendiamo $X\sim U([-1,2])$
+>>[!question] Che densità ha $X^2$ ?
+
+$X^2$ assume valori in $[0,4]$
+
+![[Esempio Trasformazione.png]]
+
+>[!tl;dr] Sia $t$ tra $0$ e $4$
+
+$$
+F_{X^2}=\mathcal{P}(X^2\leq t)=F_{X}(\sqrt{ t })-F_{X}(-\sqrt{ t }) 
+$$
+- Ricordiamo $F_{X}$:
+$$
+F_{X}(t)=\begin{cases}
+\displaystyle{\frac{t+1}{3}}\quad \text{se } -1<t<2 \\
+0 \qquad\quad \text{altrimenti} 
+\end{cases}
+$$
+>Se $0<t<1$
+
+$$
+\begin{array}
+\ F_{X^2}(t)=F_{X}(\sqrt{ t })-F_{X}(-\sqrt{ t })= \\
+= \displaystyle{\frac{\sqrt{ t }+1}{3}}-\displaystyle{\frac{-\sqrt{ t }+1}{3}}= \frac{2}{3}\sqrt{ t }
+\end{array}
+$$
+>Se $1<t<4$
+
+$$
+F_{X^2}(t)=F_{X}(\sqrt{ t })=\frac{\sqrt{ t}+1}{3}
+$$
+>[!done] Quindi:
+
+$$
+F_{X^2}(t)=\begin{cases}
+0\qquad\quad \text{se }t\leq0 \\
+\displaystyle\frac{2}{3}\sqrt{ t }\quad \text{ se }0\leq t\leq 1 \\
+\displaystyle{\frac{\sqrt{ t }+1}{3}} \text{ se } 1\leq t \leq 4\\
+1 \qquad \quad \text{ se } t\geq 4
+\end{cases}
+$$
+
+![[Esempio Fine Trasformazione.png]]
+
+#### Esempio
+>[!caution] $X\sim U([1,2])$
+
+$Z=log(x)$
+
+- $Z$, siccome $log$ è una funzione *crescente*, assume valori tra $\underbrace{ log(1) }_{ 0 }$ e $log(2)$
+
+>Sia $0\leq t \leq log(2)$
+
+$$
+F_{log_{X}}(t)=\mathcal{P}(log(X)\leq t) = \mathcal{P}(X\leq e^{ t })=\displaystyle{\frac{e^{ t -1}}{2-1}}=e^{ t }-1
+$$
+![[Esempio Trasformazione 2.png]]
