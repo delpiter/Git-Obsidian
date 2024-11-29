@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/Variabili Continue/12 - Variabile Normale o Gaussiana.md",
+                "file": "Git-Obsidian/Markdown Keys.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "12 - Variabile Normale o Gaussiana"
+              "title": "Markdown Keys"
             }
           },
           {
@@ -35,8 +35,7 @@
               "title": "11 - Variabili Esponenziali"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -214,7 +213,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b3baf79c3c945533",
+  "active": "d7bbe06ce2ea1a5e",
   "lastOpenFiles": [
     "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/Variabili Continue/12 - Variabile Normale o Gaussiana.md",
     "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/Variabili Continue/11 - Variabili Esponenziali.md",

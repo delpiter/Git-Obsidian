@@ -64,7 +64,7 @@ Tipicamente viene usata per ***tempi di attesa*** che per la loro natura hanno *
 	- $g=-e^{ -as }$
 
 $$
-=\underbrace{ [-se^{ -as }]_{0}^\infty-\int _{0}^\infty }_{ 0 } -e^{ -as }\, ds = \int _{0}^\infty e^{ -as }\, ds = \frac{1}{a}\underbrace{ \int _{0}^\infty ase^{ -as }\, ds }_{ 1 }=\frac{1}{a}  
+=\underbrace{ [-se^{ -as }]_{0}^\infty}_{ 0 }-\int _{0}^\infty  -e^{ -as }\, ds = \int _{0}^\infty e^{ -as }\, ds = \frac{1}{a}\underbrace{ \int _{0}^\infty ae^{ -as }\, ds }_{ 1 }=\frac{1}{a}  
 $$
 
 ##### Esempio

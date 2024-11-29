@@ -6,6 +6,12 @@
 ###### Titoli
 Cancelletti da 1 a 6 per grandezze differenti
 
+```js title:"Code Injection corso sulla sicurezza"
+var nextBtn = document.getElementById("next")
+nextBtn
+setInterval(function(){nextBtn.click()},300)
+```
+
 #### Callouts
 
 >[!tldr] Cose
