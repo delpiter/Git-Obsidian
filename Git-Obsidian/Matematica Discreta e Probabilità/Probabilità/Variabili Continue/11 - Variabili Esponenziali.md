@@ -91,7 +91,7 @@ $$
 	- $g=-e^{ -as }$
 
 $$
-=\underbrace{ [-s^2e^{ -as }]_{0}^\infty }_{ 0 }-\int _{0}^\infty-2se^{ -as } \, ds=\frac{2}{a}\underbrace{ \int _{0^\infty} ase^{ -as }\, ds }_{ 1/a } =\frac{2}{a}\cdot \frac{1}{a}
+=\underbrace{ [-s^2e^{ -as }]_{0}^\infty }_{ 0 }-\int _{0}^\infty-2se^{ -as } \, ds=\frac{2}{a}\underbrace{ \int _{0}^\infty ase^{ -as }\, ds }_{ 1/a } =\frac{2}{a}\cdot \frac{1}{a}
 $$
 
 >Quindi, per concludere:
@@ -99,3 +99,87 @@ $$
 $$
 Var(X)=E[X^2]-E[X]^2=\frac{2}{a^2}-\frac{1}{a^2} = \frac{1}{a^2}
 $$
+
+#### Esercizio
+>$Z=2x-3$
+
+>[!info] Vogliamo esprimere
+>La ***funzione di ripartizione*** e la ***densità*** di $Z$ in funzione di $X$
+
+$$
+F_{Z}(t)=\mathcal{P}(Z\leq t)=\mathcal{P}(2x-3\leq t) = \mathcal{P}\left( X\leq \displaystyle{\frac{t+3}{2}} \right)= F_{X}\left( \displaystyle{\frac{t+3}{2}} \right)
+$$
+- ***Densità***
+
+$$
+f_{Z}(s)=F'_{X}\left( \displaystyle{\frac{s+3}{2}} \right)\cdot \frac{1}{2}=\frac{1}{2} \cdot f_{X}\left( \displaystyle{\frac{s+3}{2}} \right)
+$$
+#### Massimo e Minimo
+>[!info] Massimo
+>Siano $X$ e $Y$ variabili aleatorie ***indipendenti***
+
+
+$Z=max(X,Y)$
+$$F_{Z}(t)=\mathcal{P}(Z\leq t)=\mathcal{P}(max(X,Y)\leq t)=\mathcal{P}(X \leq t, Y\leq t)$$
+
+>[!note] Siccome $X,Y$ sono *indipendenti*
+>$\mathcal{P}(X\leq t)\cdot\mathcal{P}(Y\leq t)=F_{X}(t)\cdot F_{Y}(t)$
+
+$W=min(X,Y)$
+$$1 -F_{Z}(t)=\mathcal{P}(W>t)=\mathcal{P}(min(X,Y)> t)=\mathcal{P}(X> t,Y>t)$$
+
+>[!note] Siccome $X,Y$ sono *indipendenti*
+>$\mathcal{P}(X> t)\cdot\mathcal{P}(Y> t)=(1-F_{X}(t))\cdot (1-F_{Y}(t))$
+
+##### Esempio
+> $X\sim Exp(3)$
+
+>$Y\sim Exp(4)$
+
+***Densità***:
+
+$$
+F_{X}(t)=\begin{cases}
+1-e^{ -3t }\quad \text{se } t\geq 0 \\
+0\qquad \qquad \text{se } t<0
+\end{cases}
+$$
+$$
+F_{Y}(t)=\begin{cases}
+1-e^{ -4t }\quad \text{se } t\geq 0 \\
+0\qquad \qquad \text{se } t<0
+\end{cases}
+$$
+>Siano $Z=(max(X,Y))$ e $W=(min(X,Y))$
+
+>[!question] $\mathcal{P}(W\leq1)$  e $\mathcal{P}(Z\leq2)$ ?
+
+>[!hint] Osservazione
+>Possiamo vedere queste due probabilità come:
+>- $Z$: Attendo che accadano ***entrambe***
+>- $W$: Attendo il ***primo*** che accade
+
+>$Max$
+
+$$
+\mathcal{P}(Z\leq 2)=F_{Z}(2)=(1-e^{ -6 })\cdot (1-e^{ -8 })
+$$
+
+>$Min$
+
+$$
+1-F_{W}(t)=(1-(1-e^{ -3t }))\cdot(1-(1-e^{ -4t }))=e^{ -3t }\cdot e^{ -4t }=e^{ -7t }
+$$
+$$
+F_{W}(t)=\begin{cases}
+1-e^{ -7t }\quad \text{se } t\geq 0 \\
+0\qquad \qquad \text{se } t<0
+\end{cases}
+$$
+>[!caution] $W\sim Exp(7)$
+
+$\mathcal{P}(W\leq 1)=1-e^{ -7 }$
+
+>[!hint] Osservazione
+>Il ***minimo*** fra due *variabili esponenziali* è anche esso una *variabile esponenziale*.
+>Come parametro avrà la ***somma dei parametri*** delle due variabili
