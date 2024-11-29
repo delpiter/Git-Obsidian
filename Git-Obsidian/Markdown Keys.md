@@ -11,7 +11,7 @@ var nextBtn = document.getElementById("next")
 nextBtn
 setInterval(function(){nextBtn.click()},300)
 ```
-
+globalspeed
 #### Callouts
 
 >[!tldr] Cose
