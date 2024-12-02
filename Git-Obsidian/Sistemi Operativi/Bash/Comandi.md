@@ -26,6 +26,24 @@
 >[!tl;dr] `cat [file_path]`
 >Visualizza in output il contenuto del file specificato
 
+>[!tl;dr] `tail -n [num] [file_path]` e `head -n [num] [file_path]`
+>>[!info] `tail` Visualizza in output le ultime `num` righe del file
+>
+>>[!abstract] `head` Visualizza in output le prime `num` righe del file
+
+>[!tl;dr] `tee [file_path]`
+>Visualizza in output il contenuto dello `stdin` ma lo salva anche nel file specificato
+>- "***Duplicazione dell'output***"
+
+>[!hint] `grep string [file_name]`
+>Cerca tra le righe di file quelle che contengono alcune parole
+>- Stampa in `stdout` *solo* le righe che contengono la stringa `string`
+
+>[!caution] `sed [transform] [file_name]`
+>Il comando `sed` agisce sulle righe dei file specificati e opera una trasformazione
+>- La *trasformazione* ha una sintassi specifica
+
+> Gli ultimi ***6 comandi*** sono spesso *accorpati assieme*.
 
 >[!todo] `env`
 >Visualizza le variabili ed il loro valore
@@ -76,13 +94,6 @@
 >[!tl;dr] `more [file_path]`
 >Mostra il file specificato un poco alla volta mostra
 
->[!abstract] `head [file_path]`
->Visualizza le prime 10 linee del file specificato
-
-
->[!abstract] `tail [file_path]`
->Visualizza le ultime 10 linee del file specificato
-
 
 >[!cite] `man [command_name]`
 >È il manuale, fornisce informazioni sul comando specificato
@@ -90,11 +101,6 @@
 
 >[!caution] `find [path] [options] [expression]`
 >Serve per cercare dei files in una cartella specificata
-
-
->[!hint] `grep [file_name]`
->Cerca tra le righe di file quelle che contengono alcune parole
-
 
 >[!quote] `read [variable_name]`
 >Legge input da standard input e lo inserisce nella variabile specificata

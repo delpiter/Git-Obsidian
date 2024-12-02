@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "bb9be733828cca50",
+        "id": "4b8c507bfc175ee0",
         "type": "tabs",
         "children": [
           {
             "id": "61cf8545fc9f094e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Git-Obsidian/Sistemi Operativi/Bash/Comandi.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Comandi"
             }
           }
         ]
@@ -74,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 269.5
+    "width": 269.5,
+    "collapsed": true
   },
   "right": {
     "id": "3561446b8c4d05ef",
@@ -197,6 +202,11 @@
   },
   "active": "61cf8545fc9f094e",
   "lastOpenFiles": [
+    "Git-Obsidian/Sistemi Operativi/Bash/Tipi di Comandi.md",
+    "Git-Obsidian/Sistemi Operativi/Bash/Command Substitution.md",
+    "Git-Obsidian/Sistemi Operativi/Bash/Comandi.md",
+    "Git-Obsidian/Sistemi Operativi/Bash/Raggruppamento di Comandi.md",
+    "Git-Obsidian/Sistemi Operativi/Bash/Redirection.md",
     "Git-Obsidian/Markdown Keys.md",
     "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/Variabili Continue/11 - Variabili Esponenziali.md",
     "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/Variabili Continue/12 - Variabile Normale o Gaussiana.md",
@@ -206,8 +216,6 @@
     "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/Variabili Continue/8 - Variabili Aleatorie Continue.md",
     "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/Variabili Continue/attachements/Esempio Trasformazione 2.png",
     "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/Variabili Continue/attachements/Esempio Fine Trasformazione.png",
-    "Git-Obsidian/Sistemi Operativi/Bash/Redirection.md",
-    "Git-Obsidian/Sistemi Operativi/Bash/Tipi di Comandi.md",
     "Git-Obsidian/Game Programming/Introduction.md",
     "Git-Obsidian/Sistemi Operativi/Bash/Valutazioni Aritmetiche.md",
     "Git-Obsidian/Sistemi Operativi/Bash/Variabili.md",
@@ -223,10 +231,7 @@
     "Git-Obsidian/Sistemi Operativi/Bash/Brace Expansion.md",
     "Git-Obsidian/Sistemi Operativi/Bash/History Expansion.md",
     "Git-Obsidian/Sistemi Operativi/Bash/File Descriptor.md",
-    "Git-Obsidian/Sistemi Operativi/Bash/Command Substitution.md",
-    "Git-Obsidian/Sistemi Operativi/Bash/Comandi.md",
     "Git-Obsidian/Sistemi Operativi/Bash/Wildcards.md",
-    "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/3 - Variabili Aleatorie.md",
     "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/Variabili Continue/attachements/F di Ripartizione Esponenziale.png",
     "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/Variabili Continue/attachements/Pasted image 20241124121749.png",
     "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/Variabili Continue/attachements/Densita Esponenziale.png",

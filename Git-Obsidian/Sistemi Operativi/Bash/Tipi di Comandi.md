@@ -74,3 +74,8 @@ Un ***eseguibile*** nel file sistem ***non è detto*** che l'interprete sappia c
 >>`&&` Viene utilizzato per eseguire due comandi in sequenza
 >>- Il secondo viene eseguito solo se il primo termina con un [[Exit Status|exit code]] uguale a $0$ (***success***)
 
+>[!info] Raggrupamento Tramite `()`
+>Se si ***racchiude*** una *sequenza di comandi* tra parentesi tonde
+>- In esecuzione viene creata una `subshell` per eseguire quella sequenza di comandi
+
+In un certo senso "***raggruppo***" anche quello che viene mandato nello `stdout`
