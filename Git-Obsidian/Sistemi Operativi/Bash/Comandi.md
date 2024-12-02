@@ -41,9 +41,21 @@
 
 >[!caution] `sed [transform] [file_name]`
 >Il comando `sed` agisce sulle righe dei file specificati e opera una trasformazione
->- La *trasformazione* ha una sintassi specifica
+>- La *trasformazione* ha una sintassi specifica 
 
-> Gli ultimi ***6 comandi*** sono spesso *accorpati assieme*.
+>[!warning] `cut [option] [file_name]`
+>Stampa parti selezionate dal file
+>>[!summary] `[option]` principali
+>>- `cut -b n-`
+>>	- Stampa il file togliendo da ogni riga i primi `n` caratteri
+>>- `cut -b -n`
+>>	- Stampa il file togliendo da ogni riga gli ultimi `n` caratteri
+>>- `cut -b m-n` 
+>>	- Stampa il file togliendo da ogni riga i primi `m` caratteri e gli ultimi `n`
+>
+>Ci possono essere più `option` *concatenate* da una `,`
+
+> Gli ultimi ***7 comandi*** sono spesso *accorpati assieme*.
 
 >[!todo] `env`
 >Visualizza le variabili ed il loro valore
