@@ -118,3 +118,34 @@ $\mathcal{P}(\zeta\geq 14.5) = \mathcal{P}\left( \zeta_{0}> \displaystyle{\frac{
 >[!hint] Osservazione
 >$\mathcal{P}(X_{1}+\dots+X_{30}=15)=\mathcal{P}(14.5<\zeta<15.5)$
 
+#### Eserczio
+>$55$% di voti ad un partito
+
+Scelti 100 votanti a caso
+
+>[!question] Qual è la probabilità che almeno la metà abbia votato quel partito?
+
+$$
+X_{i}=\begin{cases}
+1 \quad \text{se } i \text{ ha votato il partito} \\
+0 \quad \text{altrimenti}
+\end{cases}
+$$
+- $X_{i}\sim B(1,0.55)$
+
+$$
+\mathcal{P}(X_{1}+\dots+x_{100}\geq 50)
+$$
+
+>[!hint] Osservazione
+>$X_{1}+\dots+X_{100}\sim B(100, 0.55)$
+>
+>Si ***potrebbe*** calcolare come una [[3 - Variabili Aleatorie#Variabili Binomiali|variabile binomiale]] ma verrebbe un calcolo *inutilmente complesso*
+
+>Approssimiamo con il ***teorema centrale del limite***
+
+$$
+X_{1}+\dots+X_{100}\sim N(55,100\cdot 0.55 \cdot0.45)
+$$
+
+- $\mathcal{P}(X_{1}+\dots+x_{100}\geq 50)=\mathcal{P}(\zeta>49)$
