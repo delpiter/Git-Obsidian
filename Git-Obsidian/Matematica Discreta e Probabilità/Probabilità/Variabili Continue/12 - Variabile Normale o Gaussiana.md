@@ -6,7 +6,7 @@ $$
 \int e^{ -s^2/2 } \, ds 
 $$
 >[!fail] Impossibile
->Non si può scrivere usando le funzioni che ***conosciamo***
+>La *funzione di ripartizione* ***NON*** si può scrivere con una formula, tramite funzioni che ***conosciamo***
 
 ***È però possibile calolarne***:
 
@@ -129,3 +129,39 @@ $\mathcal{P}(XS)=\mathcal{P}(\zeta<162)=\mathcal{P}(9\zeta_{0}+173<162)=\mathcal
 $\mathcal{P}(S)=\mathcal{P}(162<\zeta< 170)=\mathcal{P}\left( \displaystyle{\frac{162-173}{9}}<\zeta_{0}<\displaystyle{\frac{170-173}{9}} \right)=\mathcal{P}(-1.22<\zeta_{0}< -0.33)=$
 $=1-\Phi(-0.33)-\Phi(1.22)=1-\Phi(0.33)-(1-\Phi(1.22))=0.25947$
 
+- $\dots$
+
+#### Esempio
+> $X=$ Lunghezza di una foglia di *lauro*
+
+- $\mu=151mm$
+- $\sigma=15mm$
+
+>[!question] Determinare la probabilità che la foglia abbia:
+>1. Lunghezza tra $120$ e $155mm$
+>2. Lunghezza $>185mm$
+
+$X=\zeta\sim N(151,225)$
+
+$$
+\mathcal{P}(120<\zeta<155)
+$$
+>[!caution] Standardizzazione
+
+$$
+\zeta=\sigma\zeta_{0}+\mu
+$$
+$\mathcal{P}(120<\sigma\zeta_{0}+\mu<155)=$
+- $\mathcal{P}(120-\mu<\sigma\zeta_{0}<155-\mu)$
+- $\mathcal{P}\left( \displaystyle{\frac{120-\mu}{\sigma}}<\zeta_{0}< \displaystyle{\frac{155-\mu}{\sigma}} \right)$
+
+>[!hint]
+>$\displaystyle{\frac{120-\mu}{\sigma}}$ e $\displaystyle{\frac{155-\mu}{\sigma}}$ si dicono ***standardizzazioni*** di $120$ e $155$
+
+
+$\mathcal{P}\left( \displaystyle{\frac{120-151}{15}}<\zeta_{0}< \displaystyle{\frac{155-151}{15}} \right)=\mathcal{P}(-2.07<\zeta_{0}<0.27)=$
+$=\Phi(0.27)-1+\Phi(2.07)=0.6064+09808-1=0.587$
+
+2. 
+
+$\mathcal{P}(\zeta>185)=\mathcal{P}\left( \zeta_{0}> \displaystyle{\frac{185-151}{15}} \right)=1-\Phi(2,27)=0.0116$

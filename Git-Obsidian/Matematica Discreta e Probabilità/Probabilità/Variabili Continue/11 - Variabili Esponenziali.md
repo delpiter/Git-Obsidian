@@ -1,4 +1,4 @@
->[!info] Concetto Importante
+>	[!info] Concetto Importante
 >$$\int e^{ -at } \, dt =\frac{e^{ -at }}{-a}$$
 
 ## Variabile Esponenziale Continua
