@@ -64,6 +64,10 @@ $\mathcal{P}(\zeta>7)=\mathcal{P}\left( \zeta_{0}> \displaystyle\frac{7}{\sqrt{ 
 >$$X_{1}+X_{2}+\dots+X_{n}\sim N(n\mu,n\sigma^2)$$
 >>[!done] Con "***Buona Approssimazione***"
 
+La somma $X_{1}+X_{2}+\dots+X_{n}$ si scrive anche come:
+$$
+S_{n}
+$$
 #### Esempio
 >Un componente elettronico ha un tempo di vita [[11 - Variabili Esponenziali|esponenziale]] di media $10$ giorni
 
@@ -80,6 +84,28 @@ $$
 $$
 $\mathcal{P}(\zeta>365)=\mathcal{P}\left( \zeta_{0}> \displaystyle{\frac{365-400}{\sqrt{ 4000 }}} \right)=\mathcal{P}(\zeta_{0}>-0.55)=\Phi(0.55)=0.7088$
 
+###### Procedimento inverso
+>[!question] Quanti componenti mi servono per avere la probabilità del $90$% che bastino per un anno?
+>$\mathcal{P}(S_{n}>365)\geq 90$ %
+
+$S_{n}\sim N(10n,100n)$
+- $S_{n}=10\sqrt{ n }\zeta_{0}+10n$
+>[!caution] Standardizzo
+
+$\mathcal{P}\left( \zeta_{0}> \displaystyle{\frac{365-10n}{10\sqrt{ n }}} \right)\geq 0.9$
+
+Cerchiamo dentro la ***tabella*** il valore $0.9$:
+- $\Phi(1,28)=0,9$
+![[InversoTCL.png]]
+
+Quindi:
+$$
+\displaystyle{\frac{365-10n}{10\sqrt{ n }}} \leq -1.28
+$$
+Risolvendo la *disequazione*:
+$$
+n\geq 46
+$$
 ##### Con Variabili Discrete
 >[!question] Il teorema vale anche per le variabili discrete?
 
@@ -149,3 +175,34 @@ X_{1}+\dots+X_{100}\sim N(55,100\cdot 0.55 \cdot0.45)
 $$
 
 - $\mathcal{P}(X_{1}+\dots+x_{100}\geq 50)=\mathcal{P}(\zeta>49)$
+
+#### Esercizio
+>Vogliamo organizzare una gita
+>- Abbiamo 24 posti disponibili
+>- Ogni persona che compra il biglietto non si presenta con probabilità del $30$%
+
+>[!question] Quanti biglietti possiamo vendere accettando un rischio del $10$% che qualcuno si presenti e non trovi posto?
+
+$n=\#$ biglietti venduti
+
+Siano $X_{1},\dots,X_{n}$ tali che:
+- $X_{i}\sim B(1,0.7)$
+	- $1$ se la persona si *presenta*
+	- $0$ se la persona ***non*** si *presenta*
+
+$$
+X_{1}+\dots+X_{n}\sim N(n\cdot 0.7,n\cdot 0.7\cdot 0.3)
+$$
+
+$\mathcal{P}(S_{n}>24)\leq0.1$
+- $\mathcal{P}\left( \zeta_{0}> \displaystyle{\frac{24.5-n\cdot 0.7}{\sqrt{ n\cdot 0.7\cdot 0.3 }}} \right)\leq 0.1$
+
+![[EsercizioVacanze.png]]
+
+$$
+\begin{array}
+\ \displaystyle{\frac{24.5-n\cdot 0.7}{\sqrt{ n \cdot 0.7\cdot 0.3 }}}\geq 1.28 \\
+n\leq 30
+\end{array}
+
+$$

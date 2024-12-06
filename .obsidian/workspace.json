@@ -4,21 +4,47 @@
     "type": "split",
     "children": [
       {
-        "id": "14832d84f399500c",
+        "id": "dc5a3df056321591",
         "type": "tabs",
         "children": [
           {
-            "id": "faa566010c552a3c",
+            "id": "ceea3a900141cd19",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/Variabili Continue/Teorema Centrale del Limite.md",
+                "file": "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/Variabili Continue/13 -Teorema Centrale del Limite.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Teorema Centrale del Limite"
+              "title": "13 -Teorema Centrale del Limite"
+            }
+          },
+          {
+            "id": "b175706f1cb88c89",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/Variabili Continue/attachements/EsercizioVacanze.png"
+              },
+              "icon": "lucide-image",
+              "title": "EsercizioVacanze"
+            }
+          },
+          {
+            "id": "b1bc9378213fee5b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/Variabili Continue/12 - Variabile Normale o Gaussiana.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "12 - Variabile Normale o Gaussiana"
             }
           }
         ]
@@ -78,8 +104,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 269.5,
-    "collapsed": true
+    "width": 269.5
   },
   "right": {
     "id": "3561446b8c4d05ef",
@@ -200,15 +225,21 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "faa566010c552a3c",
+  "active": "ceea3a900141cd19",
   "lastOpenFiles": [
+    "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/Variabili Continue/attachements/EsercizioVacanze.png",
+    "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/Variabili Continue/13 -Teorema Centrale del Limite.md",
+    "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/Variabili Continue/attachements/EsercizioVacanza.png",
+    "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/Variabili Continue/attachements/InversoTCL.png",
+    "Git-Obsidian/Definizioni/Definizioni_Algoritmi.md",
+    "Git-Obsidian/Definizioni/Definizioni_Analisi.md",
+    "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/Variabili Continue/attachements/Pasted image 20241206124232.png",
+    "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/Variabili Continue/12 - Variabile Normale o Gaussiana.md",
     "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/Variabili Continue/11 - Variabili Esponenziali.md",
-    "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/Variabili Continue/Teorema Centrale del Limite.md",
     "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/Variabili Continue/attachements/TeoremaCentraleDiscreto.png",
     "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/Variabili Continue/attachements/TeoremaCentrale2.png",
     "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/Variabili Continue/attachements/TeoremaCentrale1.png",
     "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/Variabili Continue/attachements/Pasted image 20241205093517.png",
-    "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/Variabili Continue/12 - Variabile Normale o Gaussiana.md",
     "Git-Obsidian/Sistemi Operativi/Bash/Comandi.md",
     "Git-Obsidian/Sistemi Operativi/Bash/Tipi di Comandi.md",
     "Git-Obsidian/Sistemi Operativi/Bash/Command Substitution.md",
@@ -219,8 +250,6 @@
     "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/Variabili Continue/attachements/NormalDistribution.png",
     "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/Variabili Continue/attachements/Esempio Trasformazione.png",
     "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/Variabili Continue/8 - Variabili Aleatorie Continue.md",
-    "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/Variabili Continue/attachements/Esempio Trasformazione 2.png",
-    "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/Variabili Continue/attachements/Esempio Fine Trasformazione.png",
     "Git-Obsidian/Game Programming/Introduction.md",
     "Git-Obsidian/Sistemi Operativi/Bash/Valutazioni Aritmetiche.md",
     "Git-Obsidian/Sistemi Operativi/Bash/Variabili.md",
@@ -233,10 +262,6 @@
     "Git-Obsidian/Sistemi Operativi/Bash/Exit Status.md",
     "Git-Obsidian/Sistemi Operativi/Bash/Espressioni Condizionali.md",
     "Git-Obsidian/Sistemi Operativi/Bash/Esecuzione dei File.md",
-    "Git-Obsidian/Sistemi Operativi/Bash/Brace Expansion.md",
-    "Git-Obsidian/Sistemi Operativi/Bash/History Expansion.md",
-    "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/Variabili Continue/attachements/F di Ripartizione Esponenziale.png",
-    "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/Variabili Continue/attachements/Pasted image 20241124121749.png",
     "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/Variabili Continue/attachements",
     "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/Variabili Continue",
     "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/attachements",
