@@ -68,6 +68,13 @@ La somma $X_{1}+X_{2}+\dots+X_{n}$ si scrive anche come:
 $$
 S_{n}
 $$
+###### Alternativa
+>[!info] Versione Equivalente
+>$S_{n}=X_{1}+\dots+x_{n}\sim N(n\mu,n\sigma^2)$
+>
+
+$$\overline{X_{n}}=\frac{S_{n}}{n}=\frac{X_{1}+\dots+X_{n}}{n}\sim N\left( \frac{\cancel{ n }\mu}{\cancel{ n }}, \frac{\cancel{ n }\sigma^2}{n^\cancel{ 2 }} \right)=N\left( \mu, \frac{\sigma^2}{n} \right)$$
+
 #### Esempio
 >Un componente elettronico ha un tempo di vita [[11 - Variabili Esponenziali|esponenziale]] di media $10$ giorni
 
