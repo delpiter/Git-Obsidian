@@ -57,3 +57,10 @@ echo "ciao" &
 # [1]+ Done
 ```
 
+##### Disown
+>[!note] Comando disown
+>Il comando `disown` lanciato dalla shell interattiva, *sgancia* dalla shell l'ultimo job messo in ***background***
+>- `-r` sgancia tutti i job in esecuzione
+>- `-a` sgancia tutti i job in esecuzione e sospesi
+>- `%jobid` sgancia il job specificato
+

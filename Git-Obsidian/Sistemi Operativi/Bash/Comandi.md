@@ -94,6 +94,10 @@
 >[!abstract] `fg`
 >Porta il job più recente in primo piano
 
+>Negli ultimi due comandi è possibile
+- Identificare con un ***process identifier*** mettendo solo il numero del processo
+- Identificare con un ***Job identifier*** mettendo il numero preceduto dal `%`
+
 
 >[!tl;dr] `df`
 >Mostra spazio libero dei filesystem montati
@@ -112,7 +116,22 @@
 
 
 >[!caution] `find [path] [options] [expression]`
->Serve per cercare dei files in una cartella specificata
+>Serve per cercare dei *files* in una cartella specificata da `[path]`
+>>[!note] Parametri Comuni
+>>`-iname [string]`
+>>- Cerca ***tutti*** i file e directory con quel ***nome*** specifico (si possono usare [[Wildcards]])
+>>
+>>`-maxdepth [n]` / `-mindepth [n]`
+>>- Cerca ***tutti*** i file e directory con una *profondità di ricerca* di al massimo/minimo `n`
+>>
+>>`-type [f/d]`
+>>- Cerca ***solo file*** `f` o ***solo directory*** `d`
+>>
+>>`-exec`
+>>- *Esegue* per ***ciascuno dei file*** che trova i comandi che seguono
+>>	- Esempio: `find /usr/ -type f -exec head -n 1 '{}' \;`
+>>	- Cerca tutti i file dentro la cartella `usr` e ne mostra la prima riga
+>>	- `'{}'` contiene il ***nome del file*** trovato
 
 >[!quote] `read [variable_name]`
 >Legge input da standard input e lo inserisce nella variabile specificata
