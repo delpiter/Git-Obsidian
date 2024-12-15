@@ -120,3 +120,5 @@ echo ${#VAR} # 12
 
 #### Variabile `$$`
 
+>[!abstract] Contenuto
+>La variabile `$` contiene al proprio interno il *valore* del ***process id*** del processo

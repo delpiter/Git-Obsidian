@@ -1,6 +1,6 @@
 {
   "accentColor": "#56b397",
-  "cssTheme": "",
-  "theme": "obsidian",
+  "cssTheme": "Primary",
+  "theme": "moonstone",
   "baseFontSize": 17
 }
