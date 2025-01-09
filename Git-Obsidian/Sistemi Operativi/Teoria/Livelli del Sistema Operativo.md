@@ -3,6 +3,8 @@
 >[!definizione] Sistema Operativo
 >Il sistema operativo è un ***insieme di programmi*** che ***controllano*** l'esecuzione dei programmi applicativi e agisce come ***interfaccia*** tra le applicazioni e l'hardware del calcolatore
 
+^9f2787
+
 >[!caution] Scopo
 
 > Lo scopo del sistema operativo è quello di consentire agli utenti e ai programmi di ***utilizzare le funzionalità dell'hardware***, assicurando tutte le necessarie ***garanzie di sicurezza***

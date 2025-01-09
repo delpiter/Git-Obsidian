@@ -43,7 +43,7 @@
 >[!info] Process ID
 > Il ***process id*** è un identificatore di processo o `PID`
 
-Può essere:
+Può *essere*:
 
 >[!abstract] Identificatore di processo
 - Semplicemente un indice in una ***tabella di processi***

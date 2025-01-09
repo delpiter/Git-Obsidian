@@ -64,6 +64,8 @@ $$
 >>[!tip] Grafo Orientato
 >>In un Grafo Orientato è detto *circuito*
 
+^e45e8d
+
 *Nell'immagine precedente, l'insieme di vertici: $\{ d,c,e,d \}$ è un ciclo*
 
 ### Grafo Connesso
