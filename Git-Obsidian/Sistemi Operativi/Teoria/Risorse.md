@@ -300,16 +300,45 @@ La risoluzione delle situazioni indesiderate può avvenire in modo:
 >>Non sempre l'*insieme di richieste* è **noto** dall'inizio
 >>Si riduce il ***parallelismo***
 
+>[!warning] Problema
+>Anche se un processo ha necessità di risorsa per poco tempo
+>deve allocarla per tutta la propria esistenza
 ##### Rimozione della Assenza di Prerilascio
->[!warning] Attenzione
+>[!tip] Attenzione
 >Come detto prima:
 >- Non sempre è possibile
 >- Può richiedere interventi manuali
 
+##### Rimozione della Attesa Circolare
+>[!summary] Allocazione Gerarchica
+>Alle *classi di risorse* vengono associati ***valori di priorità***
+>Ad ogni istante un processo può allocare *solamente* **risorse** di ***priorità maggiore*** a quelle che già possiede
+>- Se deve allocare una risorsa di ***priorità inferiore***, deve prima *rilasciare* tutte le risorse con ***priorità superiore o uguale***
+
+>[!warning] Problemi
+>L'indisponibilità di una risorsa ad alta priorità ritarda processi che già detengono risorse ad alta prirorità
 #### Avoidance
 >[!info] Definizione
 >*Prima di assegnare* una risorsa ad un processo, si controlla se l'operazione può portare al ***pericolo di deadlock***
 >- Nel caso, l'operazione ***viene ritardata***
+
+##### Algoritmo del Banchiere
+>[!info] 
+>Algoritmo per evitare lo ***stallo*** sviluppato da ***Dijkstra***
+
+>[!summary] Descrizione
+>Il nome deriva dal metodo utilizzato da un *ipotetico banchiere* che ha un **capitale fisso** e deve gestire un gruppo prefissato di clienti che *richiedono del credito*
+>- Ogni cliente specifica in ***anticipo*** **massima somma** della quale hanno necessità, che non deve superare il *capitale del banchiere*
+>- Non tutti i clienti avranno bisogno dello stesso credito simultaneamente
+>>[!todo] Clienti
+>>I clienti fanno due tipi di prestito
+>>- ***Richiesta***
+>>- ***Restituzione***
+>>
+>>Ogni cliente può fare ***richieste multiple***
+>>Il cliente deve ***garantire la restituzione*** in un tempo *finito*
+
+
 ### Ostrich Algorithm
 >[!abstract] Algoritmo dello "Struzzo"
 >***Ignorare il Problema***, cioè:
