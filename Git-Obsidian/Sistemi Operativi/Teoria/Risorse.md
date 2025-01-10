@@ -1,124 +1,152 @@
-Un sistema di elaborazione è composto da un insieme di risorse da assegnare ai processi
-I processi competono nell'accesso
-Esempi:
-- Memoria
-- Processore
-- Dischi
-- Interfacce di rete
+>Un *sistema di elaborazione* è composto da un insieme di ***risorse*** da assegnare ai processi
 
-### Suddivisione in Classi - Guarda Libro
-> Le risorse possono essere suddivise in classi
+I **processi** competono nell'accesso alle ***risorse***
+- Effettuando delle *richieste* per ottenere l'assegnazione di quanto 
+necessario per poter evolvere
 
-Risorse appartenenti alla stessa classe sono equivalenti
-![[ResourceClassification.png]]
-Esempio
-La RAM è la classe delle risorse e le singole celle sono le istanze della risorsa: la ca-
-pacità totale di memoria è la molteplicità della risorsa
-#### Definizione
+>[!example] Alcuni esempi di Risorse
+>- Memoria
+>- Processore
+>- Dischi
+>- Interfacce di rete
+
+## Risorsa
+ >[!def] Definizione
+ >Ogni *componente* riusabile o meno, sia *hardware* sia *software* necessario al processo o al sistema si chiama ***risorsa***
+
+#### Definizioni
+>Le risorse possono essere suddivise in ***classi***
+-  Risorse appartenenti alla *stessa classe* sono ***equivalenti***
+
 >[!info] Istanza
 >Le risorse di una classe vengono dette istanze della classe
 
 >[!note] Molteplicità
 >Il numero di risorse in una classe viene detto molteplicità del tipo di risorsa
 
-# Risorse ad ...
-## Assegnazione Statica
-Avviene al momento della creazione del processo e rimane valida fino al termine
+![[ResourceClassification.png]]
+>[!example] Esempio
+> La `RAM` è la ***classe*** delle risorse e le singole celle sono le ***istanze*** della risorsa
+> - La capacità totale di memoria è la ***molteplicità*** della risorsa
+
+## Classificazioni
+>In merito all’*interazione* tra **risorse** e **processi** possiamo effettuare una classificazione in base:
+- Al ***tipo*** di richieste
+- Alla modalità di ***assegnazione***
+### Classificazione delle Richieste
+>Quando un processo ***necessita di una risorsa*** generalmente **non** può richiedere una *particolare risorsa* ma solo una “*generica*” ***istanza*** di quella specifica classe.
+#### Secondo il Numero
+
+>[!info] Singola
+>La ***richiesta singola*** è il caso normale.
+>Si riferisce a una ***singola risorsa*** di una *classe* definita
+
+>[!caution] Multipla
+>Si riferisce a **una o più classi**, e per ogni classe, a **una o più risorse**
+>La richiesta ***deve essere soddisfatta*** integralmente per poter eseguire il processo
+
+#### Secondo il Tipo
+>[!hint] Bloccante
+>Il processo *richiedente* si *sospende* se non ottiene immediatamente l'assegnazione.
+>La richiesta **rimane pendente** e viene riconsiderata dalla *funzione di gestione* ad ogni rilascio
+
+>[!note] Non Bloccante
+>La mancata *assegnazione* viene notificata al processo richiedente,
+>***senza provocare la sospensione***
+
+### Classificazione dell'Assegnazione
+>[!summary] Statica
+> Avviene al **momento della creazione del processo** e rimane valida *fino al termine*
+> 
 - Descrittore del processo
 
-## Assegnazione Dinamica
-I processi richiedono le risorse durante la loro esecuzione e le usano una volta ottenute, le rilasciano quando non più necessarie
+>[!abstract] Dinamica
+> I processi ***richiedono*** le risorse durante la loro esecuzione e le usano una volta ottenute.
+> Le rilasciano quando non più necessarie
 - Periferiche di I/O
 
-
-## Tipi di Richieste
-Quando un processo necessita di una risorsa generalmente non può richiedere una particolare risorsa ma solo 
-una “generica” istanza di quella specifica classe: quindi una richiesta di risorse viene fatta per una classe di risorse 
-e può essere soddisfatta da parte del SO assegnando al richiedente una qualsiasi istanza di quel tipo
-#### Richiesta singola
-È il caso normale
-- Si riferisce a una singola risorsa di una classe definita
-#### Richiesta multipla
-- Si riferisce a una o più classi e per ogni classe ad una o più risorse
-
-#### Bloccante
-il processo richiedente si sospende se non ottiene immediatamente l'assegnazione ○ la richiesta rimane pendente e viene riconsiderata dalla funzione di gestione ad ogni rilascio
-#### Non Bloccante
-la mancata assegnazione viene notificata al processo richiedente, senza provocare la sospensione
-
-
 ### Tipi di Risorse
-Risorse Seriali
-- O con accesso mutualmente esclusivo
-- Accetta solo richieste in "serie", uno alla volta
-- Es
-	- Processore 
-	- Stampanti
+#### Secondo la Mutua Esclusività
+>[!info] Seriali
+>È il caso di risorse che **non** possono essere assegnate a più processi *contemporaneamente*
+>Anche dette: "*con accesso mutualmente esclusivo*"
+>- Accetta solo richieste in "***serie***", uno alla volta
 
-Risorse non Seriali
-Es
+###### Esempi
+- Processore 
+- Stampanti
+
+>[!caution] Non Seriali
+> Sono le risorse che ***ammettono l'accesso contemporaneo*** di più  processi
+
+###### Esempi
 - File di sola lettura
 
-### Risorse Prerilasciabili
-Preemptable
-- una risorsa si dice prerilasciabile se la funzione di gestione può sottrarla ad un processo prima che questo l'abbia effettivamente rilasciata
+#### Secondo la Modalità di Utilizzo
+>[!note] Prerilasciabili
+>Una *risorsa* si dice ***prerilasciabile*** o ***preemptive*** se la *funzione di gestione* può **sottrarla** ad un processo prima che questo l'abbia effettivamente rilasciata
 
 Meccanismo:
-- il processo che subisce il prerilascio deve sospendersi ○ la risorsa prerilasciata sarà successivamente restituita al processo
+- Il processo che subisce il ***prerilascio*** deve sospendersi
+- La risorsa ***prerilasciata*** sarà successivamente *restituita* al processo
 
-Una risorsa è prerilasciabile
-- Se il suo stato non si modifica durante l'utilizzo
-- Il suo stato può essere facilmente salvato e ripristinato
+Una risorsa è ***prerilasciabile*** se:
+- Il suo *stato* **non** si modifica durante l'utilizzo
+- Il suo *stato* può essere facilmente ***salvato e ripristinato***
 
-Esempi:
+###### Esempio
 - Processore
 
-## Risorse Non Prerilasciabili
-Def
-- La funz di gestione non può sottrarre al processo le risorse che gli sono assegnate
-- Sono non prerilasciabili le risorse il cui stato non può essere salvato e ripristinato
+>[!tldr] Non Prerilasciabili
+> La *funzione di gestione* **non** può sottrarre al processo le risorse che gli sono assegnate.
+> Sono **non prerilasciabili** le risorse il cui stato ***non può essere salvato*** e ***ripristinato***
 
-Es
+###### Esempi
 - Stampanti
 - Classi di Sezioni Critiche
 
-### Deadlock
-[[Condivisione di Risorse#Deadlock|Deadlock]]
-Le risorse bloccate in deadlock non possono essere utilizzate da altri processi
+## Deadlock
+>Le risorse bloccate in [[Condivisione di Risorse#Deadlock|Deadlock]] ***non*** possono essere utilizzate da altri processi
 #### Condizioni per deadlock
-- Mutua Esclusione
-	- Le risorse Coinvolte devono essere seriali
-- Risorsa non Prerilasciabile
-	- Le risorse non possono essere prerilasciate, devono essere lasciate volontariamente
-- Richieste bloccanti
-	- Le richieste di risorse devono essere bloccanti
+>[!info] Mutua Esclusione
+> Le *risorse* coinvolte devono essere ***seriali***
 
-### Attesa Circolare
->[!def] Definizione
->Esiste una sequenza di processi $P_{0},P_{1},\dots,P_{n}$, tali per cui $P_{0}$ attende una risorsa controllate da $P_{1}$, $P_{1}$ attende una risorsa controllata da $P_{2}$, $\dots$, $P_{n}$ attende una risorsa controllata da $P_{0}$
+>[!example] Risorsa non Prerilasciabile
+> Le risorse non possono essere ***prerilasciate***, devono essere lasciate *volontariamente*
 
-La presenza di queste condizione è necessario e sufficiente
-- Devono valere tutte contemporaneamente affinche un deadlock si presenti nel sistema
+>[!todo] Richieste bloccanti
+> Le richieste di risorse devono essere ***bloccanti***
 
-### Grafo di Holt
-sistema di rappresentazione mediante un grafo che permette di rappresentare tutte le situazioni in cui si possono venire a trovare i processi e le richieste di risorse
+>[!def] Attesa Circolare
+>Esiste una **sequenza di processi** $P_{0},P_{1},\dots,P_{n}$, tali per cui $P_{0}$ attende una risorsa *controllata* da $P_{1}$, $P_{1}$ attende una risorsa *controllata* da $P_{2}$, $\dots$, $P_{n}$ attende una risorsa *controllata* da $P_{0}$
 
-È un [[I Grafi|grado diretto e bipartito]]
-- Gli Archi hanno una direzione
-- I nodi sono suddivisi in due sottoinsiemi e non esistono archi che collegano nodi dello stesso sottoinsieme
+La *presenza* di queste condizioni è ***necessaria e sufficiente***
+- Devono valere tutte contemporaneamente affinché un *deadlock* si presenti nel sistema
+## Grafo di Holt
+>[!info] 
+>Il ***Grafo di Holt*** è un *sistema di rappresentazione* mediante un [[I Grafi|grafo]] che permette di rappresentare tutte le situazioni in cui si possono venire a trovare i *processi* e le *richieste di risorse*
+>>[!done] Grafo diretto e bipartito
+>>Gli Archi hanno una ***direzione***.
+>>I nodi sono ***suddivisi*** in due sottoinsiemi e non esistono archi che collegano nodi dello stesso sottoinsieme
 
-Sottoinsiemi
-- Risorse e Processi
-	 - di forma rettangolare le classi di risorsa
-		 - Le risorse sono come punti all'interno delle classi (l'istanza è il punto)
-	 - di forma rotonda i processi
+##### Sottoinsiemi
+>[!hint] Risorse
+>Di forma *rettangolare*
+>Le ***istanze*** sono come punti all'interno delle *classi di risorsa*
 
-gli archi risorsa -> processo indicano che la risorsa è assegnata al processo
-gli archi processo → risorsa indicano che il processo ha richiesto la risorsa
+>[!example] Processi
+>Di forma *rotonda*
+
+>[!done] Significato Arco
+>Gli archi *risorsa* $\to$ *processo*
+>- Indicano che la **risorsa** è **assegnata** al processo
+>
+>Gli archi *processo*$\to$ *risorsa*
+>- Indicano che il **processo** ha **richiesto** la risorsa
 
 ![[Pasted image 20250109114134.png]]
-
-Non si rappresentano grafi di holt con archi relativi a richieste che possono essere soddisfatte
+>[!note] Nota
+> **Non si rappresentano** grafi di holt con archi relativi a richieste che possono essere soddisfatte
 
 ## Metodi di gestione dei Deadlock
 
@@ -132,7 +160,7 @@ Non si rappresentano grafi di holt con archi relativi a richieste che possono es
 >Permette al sistema di **entrare in stati di deadlock**
 >Si utilizza un *algoritmo* per ***rilevare*** questo stato ed eventualmente eseguire un'azione di ***recovery***
 
-#### Deadlock Detection
+#### Detection
 ##### Caso 1 una risorsa per Classe
 
 >[!teor] Teorema
@@ -207,7 +235,7 @@ La presenza di un *ciclo* nel caso di Holt ***non è sufficiente*** per avere de
 ><u>Allora</u>
 >Il grafo rappresenta uno *stato di deadlock* ***se e solo se*** esiste un *knot*
 
-### Deadlock Recovery
+### Recovery
 >Il sistema deve essere continuamente monitorato per riconoscere le situazioni di ***stallo***, utilizzando i *grafi di Holt* e quando si individua un problema si ***interviene per eliminarlo***
 
 La risoluzione delle situazioni indesiderate può avvenire in modo:
@@ -246,10 +274,46 @@ La risoluzione delle situazioni indesiderate può avvenire in modo:
 >[!abstract] Preemption
 >Fare ***preemption*** *non* è sempre possibile in automatico e può richiedere **interventi manuali**
 
-
-
+### Deadlock Prevention / Avoidance
 >[!hint] Deadlock Prevention / Avoidance
 >Si impedisce al sistema di entrare in uno stato di deadlock
 
->[!abstract] Ostrich Algorithm
->Ignorare il Problema
+#### Prevention
+>[!info] Definizione
+>Per evitare il *deadlock* si elimina una delle ***quattro condizioni*** del *deadlock*
+>- Il deadlock viene *eliminato* ***strutturalmente***
+
+##### Rimozione Mutua Esclusione
+>[!done] Significato
+>Permette la condivisione "*apparente*" delle risorse
+>>[!example] Esempio
+>>***Spool*** di stampa:
+>>- Tutti i processi pensano che la stampa sia avvenuta, mentre in realtà le stampe sono state inserite in una coda
+
+###### Spooling
+>[!danger] Non sempre applicabile
+
+##### Rimozione della Richiesta Bloccante
+>[!abstract] Allocazione Totale
+>È possibile richiedere che un **processo** richieda ***tutte le risorse*** all'inizio della computazione
+>>[!warning] Problemi
+>>Non sempre l'*insieme di richieste* è **noto** dall'inizio
+>>Si riduce il ***parallelismo***
+
+##### Rimozione della Assenza di Prerilascio
+>[!warning] Attenzione
+>Come detto prima:
+>- Non sempre è possibile
+>- Può richiedere interventi manuali
+
+#### Avoidance
+>[!info] Definizione
+>*Prima di assegnare* una risorsa ad un processo, si controlla se l'operazione può portare al ***pericolo di deadlock***
+>- Nel caso, l'operazione ***viene ritardata***
+### Ostrich Algorithm
+>[!abstract] Algoritmo dello "Struzzo"
+>***Ignorare il Problema***, cioè:
+>- Ipotizzare che i *deadlock* non si possano ***mai verificare***
+>
+>Spesso è ***troppo costoso*** mettere in atto le precauzione e si preferisce ignorare il problema
+

@@ -20,20 +20,6 @@
               "icon": "lucide-file",
               "title": "Risorse"
             }
-          },
-          {
-            "id": "2d2bdf07b7e64826",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git-Obsidian/Sistemi Operativi/Teoria/Livelli del Sistema Operativo.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Livelli del Sistema Operativo"
-            }
           }
         ]
       }
@@ -92,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 269.5
+    "width": 269.5,
+    "collapsed": true
   },
   "right": {
     "id": "3561446b8c4d05ef",
@@ -213,12 +200,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f2ffaf6360de317d",
+  "active": "9681e1434f652cb6",
   "lastOpenFiles": [
-    "Git-Obsidian/Sistemi Operativi/Teoria/Concetti Preliminali.md",
     "Git-Obsidian/Sistemi Operativi/Teoria/Livelli del Sistema Operativo.md",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/I Grafi.md",
     "Git-Obsidian/Sistemi Operativi/Teoria/Risorse.md",
+    "Git-Obsidian/Sistemi Operativi/Teoria/Concetti Preliminali.md",
+    "Git-Obsidian/Algoritmi e Strutture Dati/Strutture Dati/Grafi/I Grafi.md",
     "Git-Obsidian/Sistemi Operativi/Teoria/attachements/EsDeadlock2.png",
     "Git-Obsidian/Sistemi Operativi/Teoria/attachements/EsDeadlock.png",
     "Git-Obsidian/Sistemi Operativi/Teoria/attachements/HoltReduction.png",
