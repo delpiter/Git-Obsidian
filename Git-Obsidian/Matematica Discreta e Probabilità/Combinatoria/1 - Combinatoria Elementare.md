@@ -333,10 +333,10 @@ Possiamo notare che è possibile tornare indietro alla sequenza originale:
 >- $11010 \iff 1010010$
 >- Sequenze binarie lunghe $5$ con $3$ uno e $F_{7,3}$
 
->[!done] In generake
+>[!done] In generale
 >$$F_{n,k}=\binom{n-k+1}{k}$$
 >- Quindi
->- $$F_{n}=\sum_{k\geq 0} F_{n,k}=\sum_{k\geq 0}\binom{n-k+1}{k}$$
+>$$F_{n}=\sum_{k\geq 0} F_{n,k}=\sum_{k\geq 0}\binom{n-k+1}{k}$$
 
 ###### Esempio
 $$
