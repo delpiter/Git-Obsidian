@@ -95,12 +95,14 @@ $$
 >Osserviamo che se $S$ è un prodotto condizionato di tipo $(m,n,r)$ allora la [[0 - Introduzione#Cardinalità|cardinalità]] di $S$: $\mid S\mid = m\cdot n\cdot r$
 
 #### Esempio
->Consideriamo $S=\{ (a,b,c):a,b,c\in \mathbb{N},\quad a\leq 10 ,\ 0\leq b-a\leq 10,\ 0\leq c-a-b\leq 10\}$$
+>Consideriamo $S=\{ (a,b,c):a,b,c\in \mathbb{N},\quad a\leq 10 ,\ 0\leq b-a\leq 10,\ 0\leq c-a-b\leq 10\}$
 
 Posso scegliere la coordinata $a$ in $11$ modi
 - da $0$ a $10$
+
 Posso scegliere la coordinata $b$ in $11$ modi
 - In base al valore di $a$: se $a=2 \implies 2\leq b\leq 12$
+
 Posso scegliere la coordinata $c$ in $11$ modi
 - In base ai valori di $a$ e $b$
 
