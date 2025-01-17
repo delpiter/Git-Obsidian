@@ -140,7 +140,7 @@ $=1-\Phi(-0.33)-\Phi(1.22)=1-\Phi(0.33)-(1-\Phi(1.22))=0.25947$
 >[!question] Determinare la probabilità che la foglia abbia:
 >1. Lunghezza tra $120$ e $155mm$
 >2. Lunghezza $>185mm$
-
+ 
 $X=\zeta\sim N(151,225)$
 
 $$

@@ -33,7 +33,7 @@ $$
 \sigma^2_{x}=\frac{1}{n}\sum_{i=1}^n(x_{i}-\overline{x})^2=\frac{1}{n}\sum_{i=1}^n(x_{i}^2-2\overline{x}x_{i}+\overline{x}^2)=
 $$
 $$
-=\underbrace{ \frac{1}{n}\sum_{i=1}^n x_{i}^2C }_{ \overline{x^2} }-\underbrace{ \frac{2\overline{x}}{n}\sum_{i=1}^nx_{i} }_{ -2\overline{x}\cdot\overline{x} }+\frac{1}{\cancel{ n } }\cdot \cancel{ n }\overline{x}^2
+=\underbrace{ \frac{1}{n}\sum_{i=1}^n x_{i}^2 }_{ \overline{x^2} }-\underbrace{ \frac{2\overline{x}}{n}\sum_{i=1}^nx_{i} }_{ -2\overline{x}\cdot\overline{x} }+\frac{1}{\cancel{ n } }\cdot \cancel{ n }\overline{x}^2
 $$
 $$
 \overline{x^2}-2\overline{x}^2+\overline{x}^2=\overline{x^2}-\overline{x}^2
@@ -55,13 +55,13 @@ $$
 ##### Dimostrazione
 $$
 \begin{array}
- \\
-\sigma^2_{y}=\overline{y^2}-\overline{y}^2= \\
+\ \sigma^2_{y}=\overline{y^2}-\overline{y}^2= \\
 \overline{(ax)^2}-\overline{ax}^2= \\
 =a^2(\overline{x^2}-\overline{x}^2)= \\
 =a^2\sigma^2_{x}
 \end{array}
-$$.
+$$
+
 >[!example] Mettendo insieme le formule
 >$$y=ax+b\implies \sigma^2_{y}=a^2\sigma^2_{x}$$
 
