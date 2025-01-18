@@ -146,9 +146,9 @@ $$
 ##### Densità Discreta Astratta
 >[!abstract] Definizione
 >Una funzione $d:\mathbb{R}\to\mathbb{R}$ si dice ***densità discreta astratta*** se:
->- $d_{X}(k)\geq 0$
->- $d_{X}(k)>0$ per una quantità discreta di valori $k$
->- $\displaystyle\sum_{k}d_{X}(k)=1$
+>- $d(k)\geq 0$
+>- $d(k)>0$ per una quantità discreta di valori $k$
+>- $\displaystyle\sum_{k}d(k)=1$
 
 ###### Esempio
 >Insieme finito

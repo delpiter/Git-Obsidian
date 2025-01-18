@@ -124,12 +124,12 @@ $F=$ "Fumatori" $\quad N=$ "Non Fumatori"
 1. 
 $$\mathcal{P}(M)=\mathcal{P}(M|F)\cdot\mathcal{P}(F)+\mathcal{P}(M|N)\cdot\mathcal{P}(N)=$$
 $$
-=0,25\cdot0,4+0,04\cdot 0,6=0,142
+=0,25\cdot0,4+0,04\cdot 0,6=0,124
 $$
 
 2. 
 $$
-\mathcal{P}(F|M)=\displaystyle{\frac{\mathcal{P}(M|F)\cdot \mathcal{P}(F)}{\mathcal{P}(M)}}=\displaystyle{\frac{0,25 \cdot 0,4}{0,142}}=0,704
+\mathcal{P}(F|M)=\displaystyle{\frac{\mathcal{P}(M|F)\cdot \mathcal{P}(F)}{\mathcal{P}(M)}}=\displaystyle{\frac{0,25 \cdot 0,4}{0,142}}=0,806
 $$
 
 

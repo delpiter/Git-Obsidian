@@ -255,7 +255,7 @@ $\displaystyle\frac{3}{10}=E[X]\neq E[X_{1}]\cdot E[X_{2}]=\frac{9}{25}$
 
 
 #### Valore Atteso del Quadrato
->Sia $X\sim B(1,q)$
+>Sia $X\sim B(1,p)$
 
 >[!hint] Formula
 >$$E[X^2]=E[X]=p$$

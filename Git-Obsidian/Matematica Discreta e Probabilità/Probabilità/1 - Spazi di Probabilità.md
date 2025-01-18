@@ -125,7 +125,7 @@ $\displaystyle\binom{87}{2}$
 
 >[!question] Qual è la probabilità di indovinare un solo numero estratto?
 
-$\mathcal{P}($*"Esce 1"*$)$=$\mathcal{P}($*"Esce 1 al primo estratto"*$)+\mathcal{P}(2^\circ$*"estratto"$=1)+\mathcal{P}($"$3^\circ=1$"$)+\mathcal{P}($"$4^\circ=1$"$)+\mathcal{P}($"$5^\circ=1$"$)$
+$\mathcal{P}($*"Esce 1"*$)$=$\mathcal{P}($*"Esce 1 al primo estratto"*$)+\mathcal{P}(2^\circ$ *"estratto"*$=1)+\mathcal{P}($"$3^\circ=1$"$)+\mathcal{P}($"$4^\circ=1$"$)+\mathcal{P}($"$5^\circ=1$"$)$
 - $\displaystyle\frac{1}{90}+\frac{1}{90}+\frac{1}{90}+\frac{1}{90}+\frac{1}{90}=\frac{5}{90}$
 
 #### Osservazione

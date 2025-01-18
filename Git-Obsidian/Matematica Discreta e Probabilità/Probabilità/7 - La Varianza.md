@@ -110,7 +110,7 @@ $$
 >[!done] Conclusione
 >Sia $X\sim P(X)$ 
 ><u>Allora</u>
->$$E[X]=\lambda\quad Var[X]=\lambda$$
+>$$E[X]=\lambda\quad Var(X)=\lambda$$
 
 #### Esercizio
 >$X\sim H(b,r;2)$
