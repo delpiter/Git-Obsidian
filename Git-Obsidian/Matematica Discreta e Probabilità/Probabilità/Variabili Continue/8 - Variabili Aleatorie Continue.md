@@ -37,7 +37,7 @@ $Z=$ Valore tra un anno
 
 ![[FxDiscreta.png]]
 
-- $F_{X}(1.1)=\mathcal{P}(X\geq 1.1)=\mathcal{P}(X=0)+\mathcal{P}(X= 1)=\displaystyle \frac{1}{4}+\frac{1}{2} = \frac{3}{4}$
+- $F_{X}(1.1)=\mathcal{P}(X\leq 1.1)=\mathcal{P}(X=0)+\mathcal{P}(X= 1)=\displaystyle \frac{1}{4}+\frac{1}{2} = \frac{3}{4}$
 
 ## Variabile Aleatoria Continua
 ---
@@ -146,7 +146,7 @@ $$
 F_{X}(t)=\int_{-\infty}^t f_{X}(s)\, ds 
 $$
 #### Esercizio
->Data la seguente ***densità continua***
+>Data la seguente ***densità***
 
 $$
 f(s)=\begin{cases}
@@ -173,7 +173,7 @@ $$
 $$
 >[!done] Verificato
 
->[!question] Chie è la ***funzione di ripartizione***?
+>[!question] Chi è la ***funzione di ripartizione***?
 
 >Per $t\geq2$
 
@@ -237,6 +237,7 @@ F_{X}(t)=\begin{cases}
 0 \qquad\quad \text{altrimenti} 
 \end{cases}
 $$
+
 >Se $0<t<1$
 
 $$
@@ -276,3 +277,19 @@ $$
 F_{log_{X}}(t)=\mathcal{P}(log(X)\leq t) = \mathcal{P}(X\leq e^{ t })=\displaystyle{\frac{e^{ t -1}}{2-1}}=e^{ t }-1
 $$
 ![[Esempio Trasformazione 2.png]]
+### Massimo e Minimo
+>[!info] Massimo
+>Siano $X$ e $Y$ variabili aleatorie ***indipendenti***
+
+
+$Z=max(X,Y)$
+$$F_{Z}(t)=\mathcal{P}(Z\leq t)=\mathcal{P}(max(X,Y)\leq t)=\mathcal{P}(X \leq t, Y\leq t)$$
+
+>[!note] Siccome $X,Y$ sono *indipendenti*
+>$\mathcal{P}(X\leq t)\cdot\mathcal{P}(Y\leq t)=F_{X}(t)\cdot F_{Y}(t)$
+
+$W=min(X,Y)$
+$$1 -F_{W}(t)=\mathcal{P}(W>t)=\mathcal{P}(min(X,Y)> t)=\mathcal{P}(X> t,Y>t)$$
+
+>[!note] Siccome $X,Y$ sono *indipendenti*
+>$\mathcal{P}(X> t)\cdot\mathcal{P}(Y> t)=(1-F_{X}(t))\cdot (1-F_{Y}(t))$

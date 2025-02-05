@@ -1,4 +1,4 @@
->	[!info] Concetto Importante
+>[!info] Concetto Importante
 >$$\int e^{ -at } \, dt =\frac{e^{ -at }}{-a}$$
 
 ## Variabile Esponenziale Continua
@@ -114,23 +114,9 @@ $$
 $$
 f_{Z}(s)=F'_{X}\left( \displaystyle{\frac{s+3}{2}} \right)\cdot \frac{1}{2}=\frac{1}{2} \cdot f_{X}\left( \displaystyle{\frac{s+3}{2}} \right)
 $$
+
 #### Massimo e Minimo
->[!info] Massimo
->Siano $X$ e $Y$ variabili aleatorie ***indipendenti***
-
-
-$Z=max(X,Y)$
-$$F_{Z}(t)=\mathcal{P}(Z\leq t)=\mathcal{P}(max(X,Y)\leq t)=\mathcal{P}(X \leq t, Y\leq t)$$
-
->[!note] Siccome $X,Y$ sono *indipendenti*
->$\mathcal{P}(X\leq t)\cdot\mathcal{P}(Y\leq t)=F_{X}(t)\cdot F_{Y}(t)$
-
-$W=min(X,Y)$
-$$1 -F_{Z}(t)=\mathcal{P}(W>t)=\mathcal{P}(min(X,Y)> t)=\mathcal{P}(X> t,Y>t)$$
-
->[!note] Siccome $X,Y$ sono *indipendenti*
->$\mathcal{P}(X> t)\cdot\mathcal{P}(Y> t)=(1-F_{X}(t))\cdot (1-F_{Y}(t))$
-
+[[8 - Variabili Aleatorie Continue#Massimo e Minimo| Riprendendo questo concetto.]]
 ##### Esempio
 > $X\sim Exp(3)$
 

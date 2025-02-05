@@ -322,23 +322,7 @@ La risoluzione delle situazioni indesiderate può avvenire in modo:
 >*Prima di assegnare* una risorsa ad un processo, si controlla se l'operazione può portare al ***pericolo di deadlock***
 >- Nel caso, l'operazione ***viene ritardata***
 
-##### Algoritmo del Banchiere
->[!info] 
->Algoritmo per evitare lo ***stallo*** sviluppato da ***Dijkstra***
-
->[!summary] Descrizione
->Il nome deriva dal metodo utilizzato da un *ipotetico banchiere* che ha un **capitale fisso** e deve gestire un gruppo prefissato di clienti che *richiedono del credito*
->- Ogni cliente specifica in ***anticipo*** **massima somma** della quale hanno necessità, che non deve superare il *capitale del banchiere*
->- Non tutti i clienti avranno bisogno dello stesso credito simultaneamente
->>[!todo] Clienti
->>I clienti fanno due tipi di prestito
->>- ***Richiesta***
->>- ***Restituzione***
->>
->>Ogni cliente può fare ***richieste multiple***
->>Il cliente deve ***garantire la restituzione*** in un tempo *finito*
-
-
+[[Algoritmo del Banchiere]]
 ### Ostrich Algorithm
 >[!abstract] Algoritmo dello "Struzzo"
 >***Ignorare il Problema***, cioè:

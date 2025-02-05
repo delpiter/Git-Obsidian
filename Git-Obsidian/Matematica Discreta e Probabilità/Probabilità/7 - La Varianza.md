@@ -108,7 +108,7 @@ $$
 Var(X)=\cancel{ n }\cdot \frac{\lambda}{\cancel{ n }}\underbrace{ \left( 1- \frac{\lambda}{n} \right)}_{ \to 1 }=\lambda
 $$
 >[!done] Conclusione
->Sia $X\sim P(X)$ 
+>Sia $X\sim P(\lambda)$ 
 ><u>Allora</u>
 >$$E[X]=\lambda\quad Var(X)=\lambda$$
 

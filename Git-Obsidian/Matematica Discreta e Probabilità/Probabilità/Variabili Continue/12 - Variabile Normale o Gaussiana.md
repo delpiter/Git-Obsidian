@@ -69,7 +69,7 @@ $$
 >$$\mathcal{P}(\zeta_{0}<a)=1-\mathcal{P}(\zeta_{0}< -a)$$
 
 ##### Esempio
->$\mathcal{P}(\zeta_{0}<0.68)$
+>$\mathcal{P}(\zeta_{0}< -0.68)$
 
 $$
 1-\mathcal{P}(\zeta_{0} < 0.68)=1-0.7517 \simeq 0.25
