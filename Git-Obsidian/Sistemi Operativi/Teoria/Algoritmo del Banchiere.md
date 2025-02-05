@@ -32,3 +32,28 @@ Il banchiere deve essere in grado di soddisfare tutte le richieste dei clienti
 #### Stato Unsafe
 >[!def] Definizione
 >È condizione ***necessaria*** ma ***non sufficiente*** per avere [[Condivisione di Risorse#Deadlock|deadlock]]
+
+## Similitudine con il Sistema Operativo
+---
+> Il banchiere è il *sistema operativo* che gestisce le risorse
+
+>[!info] Nota bene
+>L'algoritmo si basa sull'utilizzo di ***una sola risorsa*** (una unica moneta)
+>Il *sistema operativo* deve essere in grado di gestire [[Risorse#Definizioni|più classi]]
+
+>[!warning] Attenzione
+>>[!question] Non basterebbe avere più banchieri?
+>> ***NO***.
+>> Un banchiere deve avere coscienza delle risorse in prestito ad un cliente, o potrebbe causare del [[Condivisione di Risorse#Deadlock|deadlock]]
+
+### Algoritmo del Banchiere Multivaluta
+#### Variabili
+>[!summary] Descrizione
+>- $N$: Numero di *clienti*
+>- $IC_{k}$: *Capitale* Iniziale della valuta $k$
+>- $c_{i,k}$: ***Limite*** di *credito* in valuta $k$ del cliente $i$ ($c_{i,k}<IC_{k}$)
+>- $p_{i,k}$: Denaro ***prestato*** in valuta $k$ al cliente $i$ ($p_{i,k}\leq c_{i,k}$)
+>- $n_{i,k}=c_{i,k}-p_{i,k}$: Credito ***residuo*** in valuta $k$ del cliente $i$
+>- $SC_{k} = IC_{k} -\sum_{i=1}^n p_{i,K}$: ***Saldo*** di cassa in valuta $k$
+
+- I ragionamenti per controllare stati ***safe*** e ***unsafe*** sono uguali all'algoritmo con *singola valuta*
