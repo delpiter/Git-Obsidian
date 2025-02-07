@@ -17,7 +17,7 @@ La suddivisione in "***rings***" di protezione della `CPU` è un supporto dell'h
 ### Cambio di Livello di privilegio
 > Nel momento in cui l'applicazione chiama una system call
  
-Il meccanismo con cui la [[Livelli del Sistema Operativo#System Call|system call]] viene chiamata, cambia lo ***stato di esecuzione*** e il ***livello di privilegio*** della `CPU` per poter eseguire quella istruzione
+Il meccanismo con cui la [[3 - Livelli del Sistema Operativo#System Call|system call]] viene chiamata, cambia lo ***stato di esecuzione*** e il ***livello di privilegio*** della `CPU` per poter eseguire quella istruzione
 - Quando la *system call* finisce, si esegue l'***operazione opposta***, torna al livello di protezione precedente
 
 >[!info] Cambi Continui

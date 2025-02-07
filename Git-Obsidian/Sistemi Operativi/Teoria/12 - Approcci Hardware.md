@@ -1,8 +1,8 @@
->Di seguito vedremo come risolvere il problema della concorrenza [[Sezioni Critiche#Approcci|modificando l'hardware]]
+>Di seguito vedremo come risolvere il problema della concorrenza [[9 - Sezioni Critiche#Approcci|modificando l'hardware]]
 
 >[!tldr] Idea
 >Si può pensare di fornire alcune *istruzioni hardware* speciali per semplificare la realizzazione di ***sezioni critiche***
->Nei sistemi uniprocessore, i processi concorrenti vengono "[[Concorrenza#Multiprogramming|alternati]]" tramite il meccanismo degli ***interrupt***
+>Nei sistemi uniprocessore, i processi concorrenti vengono "[[8 - Concorrenza#Multiprogramming|alternati]]" tramite il meccanismo degli ***interrupt***
 
 >[!question] Risolve il problema, disabilitare gli interrupt?
 
@@ -20,7 +20,7 @@ Inoltre non funziona su ***sistemi multiprocessore***
 >[!fail] Svantaggi
 
 - Viene utilizzato il ***busy-waiting***
-- I problemi di [[Condivisione di Risorse#Starvation|starvation]] ***non*** sono eliminati
+- I problemi di [[10 - Condivisione di Risorse#Starvation|starvation]] ***non*** sono eliminati
 - Complessi da programmare
 ### Test e Set
 >[!abstract] Istruzioni Speciali

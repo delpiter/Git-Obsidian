@@ -1,4 +1,4 @@
->[!warning] Problema: Se le sequenze di istruzioni non vengono eseguite in modo [[Condivisione di Risorse#Azioni Atomiche|atomico]] come possiamo garantire la non-interferenza??
+>[!warning] Problema: Se le sequenze di istruzioni non vengono eseguite in modo [[10 - Condivisione di Risorse#Azioni Atomiche|atomico]] come possiamo garantire la non-interferenza??
 
 >Dobbiamo specificare che certe parti dei programmi devono essere eseguite in *modo atomico*
 
@@ -7,7 +7,7 @@
 
 > Obbiettivi
 - Vogliamo ***garantire*** che le sezioni critiche siano eseguite in modo *mutualmente esclusivo*
-- Vogliamo ***evitare*** situazione di blocco ([[Condivisione di Risorse#Deadlock|Deadlock]] o [[Condivisione di Risorse#Starvation|Starvation]])
+- Vogliamo ***evitare*** situazione di blocco ([[10 - Condivisione di Risorse#Deadlock|Deadlock]] o [[10 - Condivisione di Risorse#Starvation|Starvation]])
  
 >[!note] Assunzione
 >Un processo può terminare solamente ***fuori dalla sua sezione critica***
@@ -23,9 +23,9 @@
 #### Requisiti
 >[!abstract] In una ***Critical Section*** devono valere le seguenti proprietà: 
 
-1. [[Condivisione di Risorse#Mutua Esclusione|Mutua Esclusione]]
+1. [[10 - Condivisione di Risorse#Mutua Esclusione|Mutua Esclusione]]
 	- Solo *un processo alla volta* deve essere all'interno della ***critical section***
-2. Assenza di [[Condivisione di Risorse#Deadlock|Deadlock]]
+2. Assenza di [[10 - Condivisione di Risorse#Deadlock|Deadlock]]
 	- Uno scenario dove tutti i processi **rimangono bloccati** definitivamente *non è ammissibile*
 3. Assenza di ***dalay*** non necessari
 	- Un *processo* appena uscito dalla ***critical section*** non deve ritardare l'ingresso nella ***critical section*** da parte di un *altro processo*

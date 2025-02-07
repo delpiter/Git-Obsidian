@@ -35,7 +35,7 @@
 
 >[!info] Semafori `FIFO`
 >La politica più semplice è quella `FIFO`, il processo che è stato in ***sospeso più a lungo*** viene "*svegliato*" per primo
->- Garantisce assenza di [[Condivisione di Risorse#Starvation|starvation]] 
+>- Garantisce assenza di [[10 - Condivisione di Risorse#Starvation|starvation]] 
 >- Struttura dati usata: ***Coda***
 
 ```c title:"Implementazione Semafori"
@@ -73,7 +73,7 @@ Infatti, vengono semplicemente "*spostati*":
 >[!def] Definizione
 >I ***semafori binari*** sono una variante dei semafori il cui valore può assumere solo i valori `0` e `1`
 >>[!question] A cosa servono?
->>Servono a garantire [[Condivisione di Risorse#Mutua Esclusione|mutua esclusione]]
+>>Servono a garantire [[10 - Condivisione di Risorse#Mutua Esclusione|mutua esclusione]]
 >>
 
 #### Semaforo creato tramite Semafori Binari

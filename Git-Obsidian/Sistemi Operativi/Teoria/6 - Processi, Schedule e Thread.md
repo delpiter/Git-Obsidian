@@ -79,7 +79,7 @@ Può *essere*:
 
 ## Scheduler
 >[!abstract] Scheduler
->Lo ***scheduler*** è la componente più importante del [[Livelli del Sistema Operativo#Kernel|kernel]]
+>Lo ***scheduler*** è la componente più importante del [[3 - Livelli del Sistema Operativo#Kernel|kernel]]
 >*Gestisce* quale processo deve essere in ***esecuzione*** ad ogni istante
 >Interviene quando viene richiesta o termina un'operazione di `I/O`
 
@@ -95,7 +95,7 @@ Può *essere*:
 >Lo ***scheduler*** è la componente software che calcola lo *schedule*
 
 #### Mode Switching e Context Switching
->Ogni volta che avviene un ***interrupt*** il processore è soggetto ad un [[Livelli di Sicurezza#Cambio di Livello di privilegio|mode switching]]
+>Ogni volta che avviene un ***interrupt*** il processore è soggetto ad un [[4 - Livelli di Sicurezza#Cambio di Livello di privilegio|mode switching]]
 
 Se lo *scheduler* decide di eseguire un altro processo il sistema è soggetto ad un ***context switching***
 - Lo stato del ***processo attuale*** viene salvato nel `PCB` corrispondente

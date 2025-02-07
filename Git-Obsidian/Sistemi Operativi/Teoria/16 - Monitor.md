@@ -14,7 +14,7 @@ Un processo entra in un ***monitor*** invocando una delle sue *procedure*
 
 Solo **un processo alla volta** può essere all'interno del ***monitor***:
 - Gli altri processi che invocano un monitor sono *sospesi*
-- Il ***monitor*** fornisce un semplice meccanismo di [[Condivisione di Risorse#Mutua Esclusione|mutua esclusione]]
+- Il ***monitor*** fornisce un semplice meccanismo di [[10 - Condivisione di Risorse#Mutua Esclusione|mutua esclusione]]
 
 ### Implementazione
 ```pascal title:monitor
@@ -48,7 +48,7 @@ I meccanismi di sincronizzazione sono ***operazioni definite*** sulle *CV*
 
 >[!caution] `{cpp} c.wait()`
 >Attende il ***verificarsi*** della condizione
->- Viene rilasciata la [[Condivisione di Risorse#Mutua Esclusione|mutua esclusione]]
+>- Viene rilasciata la [[10 - Condivisione di Risorse#Mutua Esclusione|mutua esclusione]]
 >
 >Il processo che chiama `{cpp} c.wait()` viene *sospeso* in una ***coda*** di attesa della condizione `{cpp}c`
 
@@ -78,7 +78,7 @@ I meccanismi di sincronizzazione sono ***operazioni definite*** sulle *CV*
 #### Implementazione Tramite Semafori
 >[!info] Componenti Necessari
 >1. Una struttura dati per la ***gestione dello stack***
->2. Un [[Semafori|semaforo]] di [[Condivisione di Risorse#Mutua Esclusione|mutua esclusione]] `{cpp} mutex`
+>2. Un [[13 - Semafori|semaforo]] di [[10 - Condivisione di Risorse#Mutua Esclusione|mutua esclusione]] `{cpp} mutex`
 >3. Per ogni variabile di condizione $cond_{i}$, una coppia $(c_{i},nc_{i})$
 >	- $c_{i}$ è un *semaforo* correlato alla *condizione*, inizializzato a $0$
 >	- $nc_{i}$ è il *numero di processi* che sono in attesa del verificarsi della condizione

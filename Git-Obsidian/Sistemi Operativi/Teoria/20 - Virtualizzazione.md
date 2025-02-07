@@ -1,7 +1,7 @@
 ## Virtualizzazione vs Emulazione
 ---
 >[!def] Virtualizzazione
->Tramite ***virtualizzazione*** è possibile eseguire uno o più *sistemi operativi* su un ***unico dispositivo***.
+>Tramite ***virtualizzazione*** è possibile eseguire uno o più [[3 - Livelli del Sistema Operativo#^9f2787|sistemi operativi]] su un ***unico dispositivo***.
 >Ciò avviene in un ambiente *protetto* e *monitorato* che prende il nome di **macchina virtuale**
 
 Il *sistema operativo* in cui viene eseguita la macchina virtuale, viene detto
@@ -47,7 +47,7 @@ Il codice della ***macchina virtuale*** viene eseguito direttamente dall'***host
 >
 >>[!warning] Limitazione
 >>Il *sistema operativo* del ***container*** è deve essere lo stesso della macchina ***host***
->>- Le [[Livelli del Sistema Operativo#System Call|system call]] chiamate dal ***container*** sono le stesse del sistema operativo ***host***
+>>- Le [[3 - Livelli del Sistema Operativo#System Call|system call]] chiamate dal ***container*** sono le stesse del sistema operativo ***host***
 
 
 ![[Type_of_Virtualization.png]]

@@ -106,7 +106,7 @@ Una risorsa è ***prerilasciabile*** se:
 - Classi di Sezioni Critiche
 
 ## Deadlock
->Le risorse bloccate in [[Condivisione di Risorse#Deadlock|Deadlock]] ***non*** possono essere utilizzate da altri processi
+>Le risorse bloccate in [[10 - Condivisione di Risorse#Deadlock|Deadlock]] ***non*** possono essere utilizzate da altri processi
 #### Condizioni per deadlock
 >[!info] Mutua Esclusione
 > Le *risorse* coinvolte devono essere ***seriali***
@@ -246,7 +246,7 @@ La risoluzione delle situazioni indesiderate può avvenire in modo:
 >È richiesto all'operatore di *intervenire* per risolvere la situazione a favore di uno dei processi in **modo da sbloccare il sistema**
 
 >[!Abstract] Soluzione Automatica
->Il [[Livelli del Sistema Operativo#^9f2787|sistema operativo]] è in grado di risolvere *automaticamente* lo ***stallo*** applicando *meccanismi opportuni*
+>Il [[3 - Livelli del Sistema Operativo#^9f2787|sistema operativo]] è in grado di risolvere *automaticamente* lo ***stallo*** applicando *meccanismi opportuni*
 
 #### Soluzioni
 >Le soluzioni per entrambe le modalità sono:
@@ -269,7 +269,7 @@ La risoluzione delle situazioni indesiderate può avvenire in modo:
 >**Uccidere** un processo che è in esecuzione da *parecchio tempo* significa perdere completamente tutto il lavoro da esso effettuato
 
 >[!caution] Risorse in uno stato inconsistente
->Se un processo viene terminato nel mezzo di una [[Sezioni Critiche|sezione critica]] si rischia di lasciare le risorse in uno ***stato inconsistente***
+>Se un processo viene terminato nel mezzo di una [[9 - Sezioni Critiche|sezione critica]] si rischia di lasciare le risorse in uno ***stato inconsistente***
 
 >[!abstract] Preemption
 >Fare ***preemption*** *non* è sempre possibile in automatico e può richiedere **interventi manuali**
@@ -322,7 +322,7 @@ La risoluzione delle situazioni indesiderate può avvenire in modo:
 >*Prima di assegnare* una risorsa ad un processo, si controlla se l'operazione può portare al ***pericolo di deadlock***
 >- Nel caso, l'operazione ***viene ritardata***
 
-[[Algoritmo del Banchiere]]
+[[18.1 - Algoritmo del Banchiere]]
 ### Ostrich Algorithm
 >[!abstract] Algoritmo dello "Struzzo"
 >***Ignorare il Problema***, cioè:

@@ -16,7 +16,7 @@ Le variabili possono essere ***stabilite*** e ***modificate*** sia dal *sistema 
 >Sono variabili che vengono ***ereditate*** dai *processi figli*
 >>[!example] Esempio
 >>La variabile d'ambiente `PATH`
->>- Serve all'interprete per cercare dentro il [[Concetti Preliminali#File System|file system]] gli *eseguibili* che l'interprete *vorrebbe eseguire* ma per cui ***non è stato specificato il percorso***.
+>>- Serve all'interprete per cercare dentro il [[1 - Concetti Preliminali#File System|file system]] gli *eseguibili* che l'interprete *vorrebbe eseguire* ma per cui ***non è stato specificato il percorso***.
 >>>[!done] Contenuto
 >>>`/bin:/sbin:/usr/bin:/usr/local/bin:/home/vittorio`
 >>>- Una sequenza di *percorsi assoluti* nel ***file system***, concatenati dentro alla variabile

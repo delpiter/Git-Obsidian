@@ -5,7 +5,7 @@
 >[!warning] Senza delle regole, la consistenza delle attività sarebbe ***difficile*** da descrivere e realizzare
 
 >[!todo] Assioma di *Finite Progress*
->Ogni [[Processi, Schedule e Thread#Processi|processo]] viene eseguito ad una velocità ***finita***, ma ***sconosciuta***
+>Ogni [[6 - Processi, Schedule e Thread#Processi|processo]] viene eseguito ad una velocità ***finita***, ma ***sconosciuta***
 
 
 >[!question] Che cos'è la ***concorrenza***?
@@ -159,8 +159,8 @@ coend
 ---
 | Tipo                              | Relazione               | Meccanismo       | Problemi di Controllo                                               |
 |:--------------------------------- | ----------------------- | ---------------- | ------------------------------------------------------------------- |
-| Processi "ignari"                 | Competizione            | Sincronizzazione | [[Condivisione di Risorse]]: Mutua esclusione, deadlock e starvation |
-| Processi con conoscenza indiretta | Cooperazione(*sharing*) | Sincronizzazione | [[Condivisione di Risorse]]: Mutua esclusione, deadlock e starvation |
-|      Processi con conoscenza diretta     |Cooperazione (*comunicazione*)  |       Comunicazione| [[Condivisione di Risorse]]: Deadlock e starvation|
+| Processi "ignari"                 | Competizione            | Sincronizzazione | [[10 - Condivisione di Risorse]]: Mutua esclusione, deadlock e starvation |
+| Processi con conoscenza indiretta | Cooperazione(*sharing*) | Sincronizzazione | [[10 - Condivisione di Risorse]]: Mutua esclusione, deadlock e starvation |
+|      Processi con conoscenza diretta     |Cooperazione (*comunicazione*)  |       Comunicazione| [[10 - Condivisione di Risorse]]: Deadlock e starvation|
 
 

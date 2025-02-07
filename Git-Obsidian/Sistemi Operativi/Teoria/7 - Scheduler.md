@@ -1,12 +1,12 @@
 ## Scheduling
 ---
->Per rappresentare uno [[Processi, Schedule e Thread#Schedule|schedule]] si utilizzano i diagrammi di Gantt
+>Per rappresentare uno [[6 - Processi, Schedule e Thread#Schedule|schedule]] si utilizzano i diagrammi di Gantt
 
 ![[GanttDiagram.png]]
 - Ogni *linea* rappresenta una *risorsa diversa*, in questo caso sarebbe un **processore con due core**
 
 ### Politiche di Scheduling
-> Esistono due tipi di scheduler che si basano sugli eventi che possono causare un [[Processi, Schedule e Thread#Mode Switching e Context Switching|Context Switch]]
+> Esistono due tipi di scheduler che si basano sugli eventi che possono causare un [[6 - Processi, Schedule e Thread#Mode Switching e Context Switching|Context Switch]]
 
 >[!info] Cambio di Stato del Processo
 >1.  Da **Running** a *Waiting*

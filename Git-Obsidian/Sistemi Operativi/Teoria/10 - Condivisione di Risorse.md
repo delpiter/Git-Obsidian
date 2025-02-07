@@ -34,7 +34,7 @@
 Le singole azioni del linguaggio macchina sono *atomiche*
 
 >[!tldr] Caso: Interrupt
->Nel caso degli *interrupt*, il meccanismo di interruzione garantisce che un interrupt venga eseguito **prima** o **dopo** un'istruzione
+>Nel caso degli [[Interfacciamento di Periferiche#Interrupt|interrupt]], il meccanismo di interruzione garantisce che un interrupt venga eseguito **prima** o **dopo** un'istruzione
 
 >Assumiamo che in ogni istante vi possa essere al *massimo* un accesso alla memoria alla volta
 
