@@ -3,7 +3,7 @@
 >[!question] Che cosa fa il Sistema Operativo?
 ### Risorse
 >[!info] Controllo delle risorse
->Il ***sistema operativo*** prende possesso delle risorse come:
+>Il ***sistema operativo*** prende possesso delle [[18 - Risorse|risorse]] come:
 >
 >>[!tip] Allocazione
 >>Il sistema operativo alloca ai processi:

@@ -5,7 +5,7 @@
 >La `CPU` è fatta per lavorare con uno stato di esecuzione:
 >Quando la `CPU` è nello stato di livello di privilegio $0$, consente l'esecuzione di quasi tutte le operazioni
 >>[!abstract] Differenza di privilegi
->>Più il livello di privilegio ***aumenta***, il *set di istruzioni* viene ***ristretto*** sempre di più
+>>Più il livello di privilegio ***aumenta***, più il *set di istruzioni* viene ***ristretto***
 >>- Diminuisce man mano quello che la `CPU` è in grado di fare
 
 ![[Protection-Levels.png|400]]

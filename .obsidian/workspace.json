@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "34910a061fee4d4e",
+        "id": "6b8e66de95d4b1bc",
         "type": "tabs",
         "children": [
           {
-            "id": "2d0db3c06558426b",
+            "id": "24fb61e66188b3ba",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -196,8 +196,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2d0db3c06558426b",
+  "active": "24fb61e66188b3ba",
   "lastOpenFiles": [
+    "Git-Obsidian/Sistemi Operativi/Teoria/5 - Servizi.md",
+    "Git-Obsidian/Sistemi Operativi/Teoria/4 - Livelli di Sicurezza.md",
+    "Git-Obsidian/Sistemi Operativi/Teoria/3 - Livelli del Sistema Operativo.md",
+    "Git-Obsidian/Sistemi Operativi/Teoria/2 - Bootstrap.md",
+    "Git-Obsidian/Sistemi Operativi/Teoria/1 - Concetti Preliminali.md",
     "Git-Obsidian/Sistemi Operativi/Teoria/18.1 - Algoritmo del Banchiere.md",
     "Git-Obsidian/Sistemi Operativi/Teoria/19 - Gestione della Memoria.md",
     "Git-Obsidian/Sistemi Operativi/Teoria/18 - Risorse.md",
@@ -212,13 +217,8 @@
     "Git-Obsidian/Sistemi Operativi/Teoria/11 - Approcci Software.md",
     "Git-Obsidian/Sistemi Operativi/Teoria/9 - Sezioni Critiche.md",
     "Git-Obsidian/Sistemi Operativi/Teoria/8 - Concorrenza.md",
-    "Git-Obsidian/Sistemi Operativi/Teoria/5 - Servizi.md",
     "Git-Obsidian/Sistemi Operativi/Teoria/6 - Processi, Schedule e Thread.md",
     "Git-Obsidian/Sistemi Operativi/Teoria/7 - Scheduler.md",
-    "Git-Obsidian/Sistemi Operativi/Teoria/4 - Livelli di Sicurezza.md",
-    "Git-Obsidian/Sistemi Operativi/Teoria/3 - Livelli del Sistema Operativo.md",
-    "Git-Obsidian/Sistemi Operativi/Teoria/2 - Bootstrap.md",
-    "Git-Obsidian/Sistemi Operativi/Teoria/1 - Concetti Preliminali.md",
     "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/Interfacciamento di Periferiche.md",
     "Git-Obsidian/Architettura degli Elaboratori/Architettura del Calcolatore/BUS dei Calcolatori.md",
     "Git-Obsidian/Sistemi Operativi/Teoria/0 - Storia.md",

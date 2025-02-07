@@ -11,7 +11,7 @@
 
 >[!abstract] Obbiettivi
 >>[!example] Efficienza
->>Un *sistema operativo* cerca di utilizzare in modo efficiente le risorse del calcolatore
+>>Un *sistema operativo* cerca di utilizzare in modo efficiente le [[18 - Risorse|risorse]] del calcolatore
 >
 >>[!quote] Semplicità
 >>Un *sistema operativo* dovrebbe semplificare l'utilizzazione dell'hardware di un calcolatore
@@ -55,7 +55,7 @@ Il ***kernel*** svolge una operazione molto complessa e per ciò ha ***diritti m
 Entrambe queste due sezioni hanno ***accesso ad un insieme sempre più piccolo*** di istruzioni hardware
 - Non hanno accesso a istruzioni ***con accesso pericoloso*** all'hardware
 
->[!question] Come fanno i programmi ad accedere alle funzioni hardware, se non hanno accesso diretto a tutte l istruzioni?
+>[!question] Come fanno i programmi ad accedere alle funzioni hardware, se non hanno accesso diretto a tutte le istruzioni?
 
 Il ***kernel*** mette a disposizione delle *funzionalità* che possono essere usate dai programmi degli utenti: le ***system call***
 
@@ -73,7 +73,7 @@ Quando un processo cerca di ***danneggiare*** altri processi o anche il *sistema
 >>	- cambia il modo di esecuzione della `CPU` da "*Modo User*" a "*Modo kernel*"
 
 Si possono vedere come una "***interfaccia del kernel***"
-- Il sistema operativo mette a disposizione le funzionalità che possono essere invocate di "***livelli superiori***"
+- Il sistema operativo mette a disposizione le funzionalità che possono essere invocate dai "***livelli superiori***"
 
 Dipendono dal tipo di sistema operativo in esecuzione e dall'hardware della macchina
 - Sono le ***librerie standard di sistema*** che "*traducono*" le operazioni generali e le mette in istruzioni ***specifiche per l'hardware***
