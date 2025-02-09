@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Obsidian/Sistemi Operativi/Teoria/7 - Scheduler.md",
-                "mode": "source",
+                "file": "Git-Obsidian/Sistemi Operativi/Teoria/19 - Gestione della Memoria.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "7 - Scheduler"
+              "title": "19 - Gestione della Memoria"
             }
           },
           {
@@ -150,7 +150,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 269.5
+    "width": 269.5,
+    "collapsed": true
   },
   "right": {
     "id": "3561446b8c4d05ef",
@@ -273,9 +274,9 @@
   },
   "active": "d6d804c26ec8ac52",
   "lastOpenFiles": [
+    "Git-Obsidian/Sistemi Operativi/Teoria/7 - Scheduler.md",
     "Git-Obsidian/Sistemi Operativi/Teoria/18.1 - Algoritmo del Banchiere.md",
     "Git-Obsidian/Sistemi Operativi/Teoria/18 - Risorse.md",
-    "Git-Obsidian/Sistemi Operativi/Teoria/7 - Scheduler.md",
     "Git-Obsidian/Sistemi Operativi/Teoria/6 - Processi, Schedule e Thread.md",
     "Git-Obsidian/Sistemi Operativi/Teoria/17 - Problemi della Programmazione Concorrente.md",
     "Git-Obsidian/Sistemi Operativi/Teoria/8 - Concorrenza.md",

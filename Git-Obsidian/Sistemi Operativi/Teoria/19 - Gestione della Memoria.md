@@ -33,7 +33,7 @@ Il ***memory manager*** ha due compiti principali:
 - Non funziona con la *multiprogrammazione*
 
 ---
->[!info] Durante il Caricamento
+>[!abstract] Durante il Caricamento
 >Il codice generato dal compilatore non contiene ***indirizzi*** assoluti ma ***relativi***
 >- Durante il caricamento il loader si preoccupa di ***aggiornare tutti i riferimenti*** agli *indirizzi* di memoria.
 
@@ -49,7 +49,7 @@ Il ***memory manager*** ha due compiti principali:
 - Richiede una ***traduzione degli indirizzi*** da parte del loader
 
 ---
->[!info] Durante l'esecuzione
+>[!abstract] Durante l'esecuzione
 >L'individuazione dell'indirizzo di memoria effettivo viene effettuato durante l'esecuzione da un componente hardware specifico:
 >>[!tldr] Memory Management Unit
 
@@ -61,16 +61,15 @@ Il ***memory manager*** ha due compiti principali:
 >[!fail] Svantaggi
 
 - Richiede ***hardware specifico***
-###### Indirizzi Logici e Fisici
->Spazio di Indirizzamento Logico
+#### Indirizzi Logici e Fisici
+>[!info] Spazio di Indirizzamento Logico
+>Ogni processo è associato ad uno ***spazio di indirizzamento logico***
+>- Gli indirizzi usati sono *indirizzi logici*, **riferimenti** a questo spazio di indirizzamento
 
-Ogni processo è associato ad uno ***spazio di indirizzamento logico***
-- Gli indirizzi usati sono *indirizzi logici*, **riferimenti** a questo spazio di indirizzamento
+>[!caution] Spazio di Indirizzamento Fisico
+>Ad ogni indirizzo logico *corrisponde* un indirizzo fisico
+>- È il compito dell'`MMU` di tradurre ogni ***indirizzo logico in indirizzo fisico***
 
->Spazio di Indirizzamento Fisico
-
-Ad ogni indirizzo logico *corrisponde* un indirizzo fisico
-- È il compito dell'`MMU` di tradurre ogni ***indirizzo logico in indirizzo fisico***
 
 >[!abstract] Registro di Rilocazione
 >Se il valore del ***registro di rilocazione*** è $R$, uno spazio logico $0,\dots,Max$ viene tradotto in uno spazio fisico $R, \dots, R+Max$
@@ -78,13 +77,13 @@ Ad ogni indirizzo logico *corrisponde* un indirizzo fisico
 >> Il ***registro limite*** viene usato per implementare meccanismi di protezione della memoria:
 >> Se l'indirizzo da convertire è $\leq$ del ***registro limite*** allora procedi con la *rilocazione*, altrimenti *lancia un errore*
 
-###### Loading Dinamico
+##### Loading Dinamico
 >[!def] Significato
 >Consente di poter *caricare* alcune ***routine di libreria*** solo quando vengono richiamate
 
 - Tutte le routine a ***caricamento dinamico*** risiedono su un *disco*, e quando servono, *vengono caricate*
 
-###### Linking Dinamico
+##### Linking Dinamico
 >Se il *linker* collega e risolve tutti i riferimenti dei programmi, si dice ***linking statico***
 >- Le routine di libreria vengono ***copiate in ogni programma*** che le usa
 
@@ -92,7 +91,8 @@ Ad ogni indirizzo logico *corrisponde* un indirizzo fisico
 >È possibile *posticipare il linking* delle routine di libreria al momento del ***primo riferimento*** durante l'*esecuzione*
 >- Consente di avere eseguibili più **compatti**
 >- In memoria esiste una sola istanza della libreria, e tutti i programmi eseguono codice di questa istanza
-> Questa libreria si chiama ***codice reentrant***.
+>
+> Questa libreria si chiama [[#^8c1dc6|codice reentrant]].
 
 
 >[!done] Vantaggi
@@ -103,6 +103,11 @@ Ad ogni indirizzo logico *corrisponde* un indirizzo fisico
 >[!fail] Svantaggi
 
 - Può causare problemi di "***versioning***"
+
+>[!def] Codice Reentrant
+>Il ***codice reentrant*** (*multi-instance*) è una routine riutilizzabile che diversi programmi possono chiamare, interrompere e riprendere simultaneamente
+
+^8c1dc6
 
 ## Allocazione
 ---
@@ -155,7 +160,7 @@ Allocazione di tipo Statica e Contigua
 >La memoria disponibile viene *assegnata* nella ***quantità richiesta*** ai vari processi richiedenti
 >Nella memoria possono essere presenti ***zone inutilizzate*** per effetto della terminazione dei processi
 
-Allocazione statica e contigua
+Allocazione ***statica*** e ***contigua***
 
 >[!warning] Problema
 >Dopo un certo numero di allocazioni e deallocazioni di memoria, lo spazio libero appare suddiviso in piccole aree
@@ -196,7 +201,7 @@ La ***dimensione dell'unità*** di allocazione è un parametro importante
 >[!fail] Svantaggi
 
 - Per individuare uno spazio di memoria di dimensione $k$ è necessario cercare una sequenza di $k$ bit $0$ consecutivi
-	- Tale operazione è $O(n)$ - $n$: numero di unità di allocazione
+	- Tale operazione è $O(n)$, dove, $n$ è il numero di unità di allocazione
 
 #### Lista di Puntatori
 >[!info]
@@ -286,8 +291,10 @@ La dimensione delle pagine deve essere una ***potenza di due*** per *semplificar
 >> *Aree Text*:
 >> - Contengono il codice **eseguibile**
 >> - Condivise da più processi
+>> 
 >> *Aree dati*
 >> - Possono essere condivise o no
+>>
 >> *Area Stack*
 >> - Read/Write, non può essere condivisa
 
@@ -314,8 +321,8 @@ Lo ***spazio di indirizzamento logico*** è dato da un insieme di segmenti
 ## Memoria Virtuale
 ---
 >[!def] Definizione
->Tecnica che permette l'esecuzione di processi che non sono completamente in memoria
->- Permette di eseguire in concorrenza processi che hanno necessità di memoria maggiore di quella disponibile
+>Tecnica che permette l'*esecuzione* di processi che ***non*** sono ***completamente in memoria***
+>- Permette di eseguire in concorrenza processi che hanno necessità di *memoria maggiore di quella disponibile*
 >
 >>[!warning] Tecnica che può diminuire le prestazioni se usata nel modo sbagliato
 
