@@ -8,7 +8,7 @@
 #### Proprietà da Garantire
 - `Producer` ***non*** deve *scrivere* l'area di memoria condivisa prima che `Consumer` abbia effettivamente *usato* il ***valore precedente***
 - `Consumer` ***non*** deve *leggere* due volte lo stesso valore
-- Assenza di [[10 - Condivisione di Risorse#Deadlock|deadlock]]
+- Assenza di [[9 - Condivisione di Risorse#Deadlock|deadlock]]
 
 #### Implementazione
 ```c++ title="Produttore/Consumatore"
@@ -43,7 +43,7 @@ void Consumer(){
 
 #### Proprietà da Garantire
 Le proprietà da garantire sono le [[#Proprietà da Garantire|stesse]] con l'aggiunta:
-- Assenza di [[10 - Condivisione di Risorse#Starvation|starvation]]
+- Assenza di [[9 - Condivisione di Risorse#Starvation|starvation]]
 
 #### Implementazione
 >Si utilizzano due indici `front` e `rear` che indicano rispettivamente il ***prossimo elemento*** da *scrivere*/*leggere*
@@ -51,13 +51,13 @@ Le proprietà da garantire sono le [[#Proprietà da Garantire|stesse]] con l'agg
 Gli indici vengono utilizzati in ***modo ciclico***
 ![[CircularArray.png]]
 
-```c++ title="Produttore/Consumatore"
+```cpp title="Produttore/Consumatore"
 shared Object buffer[SIZE];
 
 int front = 0;
 int rear = 0;
 
-Semaphore empty = new Semaphore(1);
+Semaphore empty = new Semaphore(SIZE);
 Semaphore full = new Semaphore (0);
 
 void Producer(){
@@ -187,8 +187,8 @@ No.
 #### Priorità
 >[!info] Priorità ai Lettori
 >Se un *lettore* vuole accedere al database, lo potrà fare a patto che uno scrittore ***non*** l'abbia occupato
->>[!warning] Scrittori: possibilità di [[10 - Condivisione di Risorse#Starvation|starvation]]
+>>[!warning] Scrittori: possibilità di [[9 - Condivisione di Risorse#Starvation|starvation]]
 
 >[!list] Priorità ai Lettori
 >Uno *scrittore* attenderà il ***tempo minimo possibile*** prima di accedere al database
->>[!warning] Lettori: possibilità di [[10 - Condivisione di Risorse#Starvation|starvation]]
+>>[!warning] Lettori: possibilità di [[9 - Condivisione di Risorse#Starvation|starvation]]

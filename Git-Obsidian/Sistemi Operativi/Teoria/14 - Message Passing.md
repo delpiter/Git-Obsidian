@@ -8,7 +8,7 @@
 >[!info] Definizione
 >Un ***messaggio*** è un insieme di informazioni formattate da un processo *mittente* e interpretate da un processo destinatari
 >>[!summary] Meccanismo di Scambio
->>Vengono *copiate* le ***informazioni*** di un messaggio da uno **spazio di indirizzamento** di un processo allo spazio di indirizzamento di un altro
+>>Vengono *copiate* le ***informazioni*** di un messaggio da uno [[19 - Gestione della Memoria#Indirizzi Logici e Fisici|spazio di indirizzamento]] di un processo allo spazio di indirizzamento di un altro
 
 Il passaggio dai *due spazi di indirizzamento* è mediato dal ***sistema operativo***
 - Per garantire la ***protezione della memoria***

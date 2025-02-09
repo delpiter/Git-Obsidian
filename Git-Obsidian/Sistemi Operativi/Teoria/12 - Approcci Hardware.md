@@ -1,4 +1,4 @@
->Di seguito vedremo come risolvere il problema della concorrenza [[9 - Sezioni Critiche#Approcci|modificando l'hardware]]
+>Di seguito vedremo come risolvere il problema della concorrenza [[10 - Sezioni Critiche#Approcci|modificando l'hardware]]
 
 >[!tldr] Idea
 >Si può pensare di fornire alcune *istruzioni hardware* speciali per semplificare la realizzazione di ***sezioni critiche***
@@ -19,8 +19,8 @@ Inoltre non funziona su ***sistemi multiprocessore***
 
 >[!fail] Svantaggi
 
-- Viene utilizzato il ***busy-waiting***
-- I problemi di [[10 - Condivisione di Risorse#Starvation|starvation]] ***non*** sono eliminati
+- Viene utilizzato il [[10 - Sezioni Critiche#Busy-Waiting|Busy-Waiting]]
+- I problemi di [[9 - Condivisione di Risorse#Starvation|starvation]] ***non*** sono eliminati
 - Complessi da programmare
 ### Test e Set
 >[!abstract] Istruzioni Speciali

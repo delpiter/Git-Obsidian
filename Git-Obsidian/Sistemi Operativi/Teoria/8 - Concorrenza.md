@@ -159,8 +159,8 @@ coend
 ---
 | Tipo                              | Relazione               | Meccanismo       | Problemi di Controllo                                               |
 |:--------------------------------- | ----------------------- | ---------------- | ------------------------------------------------------------------- |
-| Processi "ignari"                 | Competizione            | Sincronizzazione | [[10 - Condivisione di Risorse]]: Mutua esclusione, deadlock e starvation |
-| Processi con conoscenza indiretta | Cooperazione(*sharing*) | Sincronizzazione | [[10 - Condivisione di Risorse]]: Mutua esclusione, deadlock e starvation |
-|      Processi con conoscenza diretta     |Cooperazione (*comunicazione*)  |       Comunicazione| [[10 - Condivisione di Risorse]]: Deadlock e starvation|
+| Processi "ignari"                 | Competizione            | Sincronizzazione | [[9 - Condivisione di Risorse]]: Mutua esclusione, deadlock e starvation |
+| Processi con conoscenza indiretta | Cooperazione(*sharing*) | Sincronizzazione | [[9 - Condivisione di Risorse]]: Mutua esclusione, deadlock e starvation |
+|      Processi con conoscenza diretta     |Cooperazione (*comunicazione*)  |       Comunicazione| [[9 - Condivisione di Risorse]]: Deadlock e starvation|
 
 

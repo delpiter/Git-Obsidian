@@ -63,7 +63,7 @@
 
 >[!note] Tempo di Risposta
 
->Tempo che intercorre fra *sottomissione* di un processo e il tempo di *prima risposta*
+>Tempo trascorso fra *sottomissione* di un processo e il tempo di *prima esecuzione*
 
 ## Algoritmi di Scheduling
 ---

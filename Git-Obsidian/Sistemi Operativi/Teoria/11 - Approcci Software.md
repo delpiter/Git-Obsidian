@@ -1,4 +1,4 @@
->L'implementazione di algoritmi per risolvere la concorrenza sono [[9 - Sezioni Critiche#Approcci|approcci software]]
+>L'implementazione di algoritmi per risolvere la concorrenza sono [[10 - Sezioni Critiche#Approcci|approcci software]]
 
 ## Algoritmo di Dekker
 ---
@@ -61,8 +61,8 @@
 ## Dimostrazioni
 ---
 ### Mutua Esclusione
->[!abstract] Dimostrazione [[10 - Condivisione di Risorse#Mutua Esclusione|Mutua Esclusione]]
->Assumiamo per ***assurdo*** che $P$ e $Q$ siano in una [[9 - Sezioni Critiche|sezione critica]] contemporaneamente
+>[!abstract] Dimostrazione [[9 - Condivisione di Risorse#Mutua Esclusione|Mutua Esclusione]]
+>Assumiamo per ***assurdo*** che $P$ e $Q$ siano in una [[10 - Sezioni Critiche|sezione critica]] contemporaneamente
 
 >Poiché gli accessi in memoria sono esclusivi
 - Per entrare devono almeno aggiornare/valutare entrambe le variabili: $needp$ e $needq$
@@ -77,7 +77,7 @@ Poiché $P$ entra nella ***critical section*** mentre $Q$ è nella ***critical s
 
 >[!danger] Assurdo
 ### Assenza di Deadlock
->[!abstract] Dimostrazione di assenza di [[10 - Condivisione di Risorse#Deadlock|Deadlock]]
+>[!abstract] Dimostrazione di assenza di [[9 - Condivisione di Risorse#Deadlock|Deadlock]]
 >Assumiamo per ***assurdo*** che né $P$ né $Q$ possano entrare in una ***critical section***
 
 >$P$ e $Q$ devono essere bloccati nel primo `while`
@@ -97,7 +97,7 @@ Esiste un istante $t$ dopo di che $needp$ e $needq$ sono sempre `true`
 >$P$ può entrare nella ***critical section***
 
 ### Assenza di Starvation
->[!abstract] Dimostrazione di assenza di [[10 - Condivisione di Risorse#Starvation|Starvation]]
+>[!abstract] Dimostrazione di assenza di [[9 - Condivisione di Risorse#Starvation|Starvation]]
 >Se $Q$ richiede di accedere alla ***critical section***
 >- $needq=true$
 
@@ -160,5 +160,5 @@ Esiste un istante $t$ dopo di che $needp$ e $needq$ sono sempre `true`
 >È inoltre più facilmente generalizzabile al caso di ***processi multipli***
 
 
->[!done] Le soluzioni di Dekker e Peterson prevedono come uniche [[10 - Condivisione di Risorse#Azioni Atomiche|Istruzioni atomiche]] le operazioni di ***load*** e ***store***
+>[!done] Le soluzioni di Dekker e Peterson prevedono come uniche [[9 - Condivisione di Risorse#Azioni Atomiche|Istruzioni atomiche]] le operazioni di ***load*** e ***store***
 

@@ -106,7 +106,7 @@ Se lo *scheduler* decide di eseguire un altro processo il sistema è soggetto ad
 #### Stati dei Processi
 
 >[!caution] Running
->Il Processo è in esecuzione
+>Il Processo è in ***esecuzione***
 
 >[!abstract] Waiting
 >Il processo è in ***attesa*** di qualche ***evento esterno***
@@ -139,7 +139,7 @@ Se lo *scheduler* decide di eseguire un altro processo il sistema è soggetto ad
 ![[ProcessTreeStructure.png]]
 ### Thread
 >[!info] Introduzione
->Tutti i *sistemi operativi* supportano l'esistenza di processi ***multithread***
+>Tutti i [[3 - Livelli del Sistema Operativo#Introduzione|sistemi operativi]] odierni supportano l'esistenza di processi ***multithread***
 >- In un **processo multithread** esistono molte *linee di controllo* ognuna delle quali è in grado di eseguire un insieme diverso di istruzioni
 
 >[!Definizione]

@@ -106,7 +106,7 @@ Una risorsa è ***prerilasciabile*** se:
 - Classi di Sezioni Critiche
 
 ## Deadlock
->Le risorse bloccate in [[10 - Condivisione di Risorse#Deadlock|Deadlock]] ***non*** possono essere utilizzate da altri processi
+>Le risorse bloccate in [[9 - Condivisione di Risorse#Deadlock|Deadlock]] ***non*** possono essere utilizzate da altri processi
 #### Condizioni per deadlock
 >[!info] Mutua Esclusione
 > Le *risorse* coinvolte devono essere ***seriali***
@@ -269,7 +269,7 @@ La risoluzione delle situazioni indesiderate può avvenire in modo:
 >**Uccidere** un processo che è in esecuzione da *parecchio tempo* significa perdere completamente tutto il lavoro da esso effettuato
 
 >[!caution] Risorse in uno stato inconsistente
->Se un processo viene terminato nel mezzo di una [[9 - Sezioni Critiche|sezione critica]] si rischia di lasciare le risorse in uno ***stato inconsistente***
+>Se un processo viene terminato nel mezzo di una [[10 - Sezioni Critiche|sezione critica]] si rischia di lasciare le risorse in uno ***stato inconsistente***
 
 >[!abstract] Preemption
 >Fare ***preemption*** *non* è sempre possibile in automatico e può richiedere **interventi manuali**

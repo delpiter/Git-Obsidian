@@ -1,7 +1,7 @@
 ## Regioni Critiche Condizionali
 ---
 >[!def] Definizione
->Le ***regioni critiche condizionali*** sono costrutti che specificano *operazioni* su dati *condivisi* da eseguire in [[10 - Condivisione di Risorse#Mutua Esclusione|mutua esclusione]] 
+>Le ***regioni critiche condizionali*** sono costrutti che specificano *operazioni* su dati *condivisi* da eseguire in [[9 - Condivisione di Risorse#Mutua Esclusione|mutua esclusione]] 
 >Possono determinare la *sospensione* e la *riattivazione* dei ***processi***
 
 ##### Sintassi
@@ -37,7 +37,8 @@
 #### Implementazione tramite semafori
 
 ```cpp title:"resource name (var declaration)"
-/* Mutual exclusion semaphore, one for each critical region */ Semaphore mutex_name = new Semaphore(1); 
+/* Mutual exclusion semaphore, one for each critical region */
+Semaphore mutex_name = new Semaphore(1); 
 
 /* Processes for which the condition is false must be suspended */ 
 Semaphore suspended_name = new Semaphore(0);
@@ -57,7 +58,8 @@ while (!condition) {
 	mutex_name.V();
 	suspended_name.P(); 
 	/* when process is reactived, it must re-gain access to the mutual exclusion */ 
-	mutex_name.P(); } 
+	mutex_name.P();
+} 
 	/* condition is true */ 
 	statement; 
 	/* after statement, one or more conditions may be true */ 
