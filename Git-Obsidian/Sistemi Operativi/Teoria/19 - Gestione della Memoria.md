@@ -407,7 +407,14 @@ Il processore genera un *trap* (***page fault***)
 > Tutte le volte che una pagine è acceduta, il reference bit associato alla pagina viene aggiornato a $1$
 
 Periodicamente è possibile osservare quali ***pagine sono state accedute*** e non, osservando i ***reference bit***
-- Non conosciamo l'*ordine* in cui sono state usate
+
+>[!abstract] Meccanismo
+>Quando bisogna *sostituire una pagina*, viene scansionata la [[#Page Table]]:
+>Se la pagina scansionata risiede nella `RAM`:
+>- Se il **reference** `BIT` è uguale a $1$, viene **impostato** a $0$
+>- Se il **reference** `BIT` è uguale a $0$, viene **rimossa** la pagina
+
+Non conosciamo l'*ordine* in cui sono state usate
 - Possiamo usare queste informazioni per *approssimare* l'algoritmo `LRU`
 ### Swapper
 >[!def] Swap
