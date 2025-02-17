@@ -19,7 +19,7 @@
 >>[!caution] Qualitativo
 >>Un *carattere* è ***qualitativo*** quando non è *quantitativo*
 >
->Un *carattere* si dice ***Discreto*** se i valori che può assumere sono finiti o [[0 - Introduzione#Insiemi Numerabili|numerabili]]
+>Un *carattere* si dice ***Discreto*** se i valori che può assumere sono finiti o [[Git-Obsidian/Matematica Discreta e Probabilità/0 - Introduzione#Insiemi Numerabili|numerabili]]
 
 #### Esempio
 >*Popolazione:* Lanci di una moneta (tutti i modi possibili di lanciare la moneta)

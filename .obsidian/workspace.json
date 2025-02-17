@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "ec670a6f5f90852c",
+        "id": "476293327e2d5af0",
         "type": "tabs",
         "children": [
           {
-            "id": "31c42a9b9e88531c",
+            "id": "f094f1d87fe93b44",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Git-Obsidian/DataBase/0 - Introduzione.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "0 - Introduzione"
             }
           }
         ]
@@ -75,7 +79,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 269.5
+    "width": 269.5,
+    "collapsed": true
   },
   "right": {
     "id": "3561446b8c4d05ef",
@@ -196,8 +201,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "31c42a9b9e88531c",
+  "active": "f094f1d87fe93b44",
   "lastOpenFiles": [
+    "Git-Obsidian/DataBase/Modello Entità Relazione.md",
+    "Git-Obsidian/DataBase/Modello Relazionale.md",
+    "Git-Obsidian/DataBase/0 - Introduzione.md",
+    "Git-Obsidian/DataBase/Normalizzazione.md",
+    "Git-Obsidian/DataBase/Algebra Relazionale.md",
+    "Git-Obsidian/DataBase/Progettazione Logica.md",
+    "Git-Obsidian/DataBase",
+    "Git-Obsidian/Untitled.md",
     "Git-Obsidian/Sistemi Operativi/Teoria/13 - Semafori.md",
     "Git-Obsidian/Sistemi Operativi/Teoria/19 - Gestione della Memoria.md",
     "Git-Obsidian/Sistemi Operativi/Teoria/14 - Message Passing.md",
@@ -216,14 +229,6 @@
     "Git-Obsidian/Sistemi Operativi/Bash/Tipi di Comandi.md",
     "Git-Obsidian/Sistemi Operativi/Bash/Utenti e Permessi.md",
     "Git-Obsidian/Sistemi Operativi/Bash/Valutazioni Aritmetiche.md",
-    "Git-Obsidian/Sistemi Operativi/Bash/Variabili.md",
-    "Git-Obsidian/Sistemi Operativi/Bash/Wildcards.md",
-    "Git-Obsidian/Sistemi Operativi/Teoria/7 - Scheduler.md",
-    "Git-Obsidian/Sistemi Operativi/Teoria/6 - Processi, Schedule e Thread.md",
-    "Git-Obsidian/Sistemi Operativi/Teoria/18 - Risorse.md",
-    "Git-Obsidian/Sistemi Operativi/Teoria/8 - Concorrenza.md",
-    "Git-Obsidian/Sistemi Operativi/Teoria/15 - Conditional Critical Regions.md",
-    "Git-Obsidian/Sistemi Operativi/Teoria/12 - Approcci Hardware.md",
     "Git-Obsidian/Sistemi Operativi/Teoria/attachements/TraslationLookasideBuffer.jpg",
     "Git-Obsidian/Sistemi Operativi/Teoria/attachements/Paging.png",
     "Git-Obsidian/Sistemi Operativi/Teoria/attachements/Pasted image 20250205112820.png",
@@ -243,7 +248,6 @@
     "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità",
     "Git-Obsidian/Matematica Discreta e Probabilità/Statistica Descrittiva/attachements",
     "Git-Obsidian/Sistemi Operativi/Teoria/attachements",
-    "Git-Obsidian/Sistemi Operativi/Teoria/attatchements",
     "Git-Obsidian/Algebra e Geometria/Isometrie/Legami.canvas",
     "Untitled.canvas",
     "Git-Obsidian/Algoritmi e Strutture Dati/Untitled.canvas",

@@ -92,7 +92,7 @@ $$
 >4. La $n$-*esima* coordinata di un elemento di $S$ si può scegliere in $a_{n}$
  modi
 
->Osserviamo che se $S$ è un prodotto condizionato di tipo $(m,n,r)$ allora la [[0 - Introduzione#Cardinalità|cardinalità]] di $S$: $\mid S\mid = m\cdot n\cdot r$
+>Osserviamo che se $S$ è un prodotto condizionato di tipo $(m,n,r)$ allora la [[Git-Obsidian/Matematica Discreta e Probabilità/0 - Introduzione#Cardinalità|cardinalità]] di $S$: $\mid S\mid = m\cdot n\cdot r$
 
 #### Esempio
 >Consideriamo $S=\{ (a,b,c):a,b,c\in \mathbb{N},\quad a\leq 10 ,\ 0\leq b-a\leq 10,\ 0\leq c-a-b\leq 10\}$
