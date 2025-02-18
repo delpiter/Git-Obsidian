@@ -53,16 +53,16 @@ Specifica per ogni partecipazione di entità a una relazione e descrive il numer
 ## GENERALIZZAZIONE/GERARCHIA
 Legame logico tra un’entità **E** (entità genitore) e una o più entità **E1, E2, ...** (entità figlie), in cui **E** è il caso generale e **E1, E2, ...** sono i casi particolari.
 
-### Caratteristiche
-- Ogni occorrenza di un’entità figlia è anche occorrenza dell’entità genitore.
-- Ogni proprietà dell’entità genitore è anche proprietà delle entità figlie.
-
 ### Tipologie
 - **Generalizzazione con una sola entità figlia** → Sottoinsieme
 - **Gerarchia di generalizzazione** → Un’entità figlia è a sua volta entità padre di altre entità figlie.
 - **Classificazione**
+
+Confronto fra unione delle specializzazioni e classe generalizzata
   - **TOTALE**: Ogni occorrenza dell’entità genitore è almeno una delle entità figlie.
   - **PARZIALE**: Non vale la condizione sopra.
+
+Confronto fra le classi specializzate
   - **ESCLUSIVA**: Ogni occorrenza dell’entità genitore è al più una delle entità figlie.
   - **SOVRAPPOSTA**: Non vale la condizione sopra.
 

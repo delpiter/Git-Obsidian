@@ -4,24 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "476293327e2d5af0",
+        "id": "b926427a1bdc8b4d",
         "type": "tabs",
         "children": [
           {
-            "id": "f094f1d87fe93b44",
+            "id": "35b1183e58ce8263",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Obsidian/DataBase/0 - Introduzione.md",
+                "file": "Git-Obsidian/DataBase/UML.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "0 - Introduzione"
+              "title": "UML"
+            }
+          },
+          {
+            "id": "ba9bc08a10896940",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git-Obsidian/DataBase/Modello Entità Relazione.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Modello Entità Relazione"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -201,11 +216,19 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f094f1d87fe93b44",
+  "active": "ba9bc08a10896940",
   "lastOpenFiles": [
+    "Git-Obsidian/DataBase/UML.md",
     "Git-Obsidian/DataBase/Modello Entità Relazione.md",
-    "Git-Obsidian/DataBase/Modello Relazionale.md",
     "Git-Obsidian/DataBase/0 - Introduzione.md",
+    "Git-Obsidian/Algebra e Geometria/Isometrie/2 - Legami tra i Concetti.md",
+    "Untitled.canvas",
+    "Git-Obsidian/Algebra e Geometria/Isometrie/3 - Isometrie nelle Dimensioni.md",
+    "Git-Obsidian/Algebra e Geometria/Isometrie/Legami.canvas",
+    "Untitled 3.canvas",
+    "Untitled 2.canvas",
+    "Untitled 1.canvas",
+    "Git-Obsidian/DataBase/Modello Relazionale.md",
     "Git-Obsidian/DataBase/Normalizzazione.md",
     "Git-Obsidian/DataBase/Algebra Relazionale.md",
     "Git-Obsidian/DataBase/Progettazione Logica.md",
@@ -227,8 +250,6 @@
     "Git-Obsidian/Sistemi Operativi/Bash/Terminale Unix.md",
     "Git-Obsidian/Sistemi Operativi/Bash/Tilde Expanison.md",
     "Git-Obsidian/Sistemi Operativi/Bash/Tipi di Comandi.md",
-    "Git-Obsidian/Sistemi Operativi/Bash/Utenti e Permessi.md",
-    "Git-Obsidian/Sistemi Operativi/Bash/Valutazioni Aritmetiche.md",
     "Git-Obsidian/Sistemi Operativi/Teoria/attachements/TraslationLookasideBuffer.jpg",
     "Git-Obsidian/Sistemi Operativi/Teoria/attachements/Paging.png",
     "Git-Obsidian/Sistemi Operativi/Teoria/attachements/Pasted image 20250205112820.png",
@@ -248,10 +269,6 @@
     "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità",
     "Git-Obsidian/Matematica Discreta e Probabilità/Statistica Descrittiva/attachements",
     "Git-Obsidian/Sistemi Operativi/Teoria/attachements",
-    "Git-Obsidian/Algebra e Geometria/Isometrie/Legami.canvas",
-    "Untitled.canvas",
-    "Git-Obsidian/Algoritmi e Strutture Dati/Untitled.canvas",
-    "Untitled 2.canvas",
-    "Untitled 1.canvas"
+    "Git-Obsidian/Algoritmi e Strutture Dati/Untitled.canvas"
   ]
 }

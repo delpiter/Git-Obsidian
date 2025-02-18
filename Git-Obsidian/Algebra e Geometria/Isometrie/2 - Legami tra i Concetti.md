@@ -1,5 +1,4 @@
 *Vogliamo chiarire i legami fra tre concetti*
-
 ## Teorema 1
 ---
 >[!inf] Teorema $T_{1}$
