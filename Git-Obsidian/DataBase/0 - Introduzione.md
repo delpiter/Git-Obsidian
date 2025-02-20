@@ -2,7 +2,7 @@
 ---
 ### Sistema Informativo
 >[!def] Definizione
->Complesso ***sistema di procedure***, informatizzate e non, che permettono di gestire le informazioni *utili* ai processi aziendali.
+>Un ***sistema informativo*** è una componente di un'organizzazione il cui scopo è quello di *gestire le informazioni utili* ai fini dell'organizzazione stessa.
 >Componente che gestisce **informazioni di interesse**
 
 Un *sistema informativo* deve provvedere alla raccolta e alla classificazione delle informazioni.
@@ -43,7 +43,7 @@ Nell'ambito informatico si presentano sotto varie forme:
 > *Sottoinsieme* del sistema informativo.
 > Tutto ciò che aumenta la *conoscenza* e deriva dall’***elaborazione di dati***
 
-## PROBLEMI DELL’APPROCCIO BASATO SUL FILE SYSTEM
+## Problemi dell'Approccio Basato su File System
 ---
 ### Dipendenze
 >[!tldr] Logica
@@ -69,85 +69,81 @@ Nell'ambito informatico si presentano sotto varie forme:
 
 ***Gestione della concorrenza***
 
-## DATABASE
+## Database
 ---
 >[!def] Definizione
->Collezione di ***dati di interesse*** per una o più applicazioni
->È un *insieme di dati* **organizzato** e **multidimensionale**
+>Collezione di ***dati di interesse*** per una o più applicazioni.
+>È un *insieme di dati* **organizzato** e **multidimensionale**.
 
 #### DBMS
-Software utilizzato per la gestione di un DB
-Sistema software in grado di gestire efficientemente le informazioni necessarie ad un sistema informatico
-Rappresenta i dati in forma integrata, secondo un modello logico, garantendo:
-- Persistenza
-- Condivisione
-- Affidabilità
-- Riservatezza
+>[!info] 
+>Software utilizzato per la *gestione* di un DB
+> Sistema in grado di gestire ***efficientemente*** le informazioni necessarie ad un ***sistema informatico***
 
+*Rappresenta i dati* in forma integrata, secondo un modello logico, garantendo:
+- **Persistenza**
+- **Condivisione**
+- **Affidabilità**
+- **Riservatezza**
 ### Architettura a 3 livelli
 Ad ogni livello appartiene uno schema secondo un modello:
 
-- **Livello Esterno**: Come si presenta il DB agli utenti
-- **Livello Logico**: Cosa rappresenta il DB
-- **Livello Fisico**: Come vengono memorizzati i dati
+>[!tip] Livello esterno
+>Come si presenta il ***DB*** agli *utenti*
+
+>[!tldr] Livello Logico
+>Cosa rappresenta il ***DB***
+
+>[!cite] Livello Fisico
+>Come vengono ***memorizzati*** i dati
 
 #### Attori Principali
-Database Administrator (DBA)
-- Installa, configura e gestisce il DBMS
-	- Crea gli oggetti logici necessarie per le applicazioni
-	- Crea gli utenti e concede i dovuti privilegi
-	- Garantisce la sicurezza e l'integrità dei DB
-	- Effettua controllo e monitoraggio degli accessi
-	- Monitora e ottimizza le performance dei DB
-	- Pianifica strategie di backup e recovery
+##### Database Administrator
+>Il  ***DBA*** h ail compito di installare, configurare e gestire il ***DBMS***
 
-Data Base Designer:
-- Cura la progettazione di un modello dettagliato del DB da implementare
+>[!example] Compiti
 
-Software Engineer
-- Analisti di sistema e programmatori di applicazioni 
+>Il *database administrator*:
+- Crea gli ***oggetti*** logici necessarie per le applicazioni
+- Crea gli ***utenti*** e concede i dovuti ***privilegi***
+- Garantisce la ***sicurezza*** e l'***integrità*** dei DB
+- Effettua controllo e monitoraggio degli ***accessi***
+- Monitora e ottimizza le ***performance*** dei DB
+- Pianifica strategie di ***backup*** e ***recovery***
 
-End User
-- Persone che interagiscono con una o più basi di dati per lo svolgimento delle proprie attività
+##### Data Base Designer
+>[!info] Compito
+>Cura la ***progettazione*** di un modello dettagliato del ***DB*** da implementare
 
-## MODELLO
+##### Software Engineer
+>[!question] Chi sono?
+>***Analisti*** di sistema e ***programmatori*** di applicazioni 
 
-Fornisce regole per schemi e istanze
+##### End User
+>[!cite] Utenti
+>Persone che ***interagiscono*** con una o più basi di *dati* per lo svolgimento delle proprie attività
 
-### SCHEMA
-Struttura del DB
-
-### ISTANZA
-Contenuto del DB
-
-## MODELLO CONCETTUALE
-Descrive i concetti del mondo reale usati nella fase di programmazione
-
-## MODELLO LOGICO
-Descrive l’organizzazione dei dati in modo visibile all’utente
-
+## Progettazione di una Base di Dati
 ---
+>Nella progettazione di una Base di Dati ci sono 4 fasi:
 
-# PROGETTAZIONE DEL DB
+>[!tl;dr] Raccolta informazioni e Analisi dettagliata
+>- Specifiche sui *dati*
+>- Specifiche sulle *informazioni*
 
-## 4 Fasi
+>[!summary] Progettazione concettuale
+>- Scelta della ***tipologia di schema*** per la rappresentazione concettuale
+>- Creazione dello ***schema concettuale*** (*Diagramma* `E/R`)
+>- Non ci si preoccupa dell’efficienza
 
-1. **Raccolta informazioni e Analisi dettagliata**
-   - Specifiche sui dati
-   - Specifiche sulle informazioni
-2. **Progettazione concettuale**
-   - Scelta della tipologia di schema per la rappresentazione concettuale
-   - Creazione dello schema concettuale
-   - Diagramma E/R
-   - Non ci si preoccupa dell’efficienza
-3. **Progettazione logica**
-   - Creazione dello schema logico
-   - Tabelle modello relazionale
-   - Importante iniziare a pensare all’efficienza
-   - Necessario scegliere la categoria del DBMS (modello relazionale / non realzionale)
-4. **Progettazione fisica**
-   - Creazione dello schema fisico
-   - Database fisico
+ >[!abstract] Progettazione logica
+>- Creazione dello ***schema logico*** (Tabelle *modello relazionale*)
+>- Importante iniziare a pensare all’**efficienza**
+>- Necessario scegliere la *categoria* del **DBMS** (modello *relazionale* / *non realzionale*)
+
+ >[!example] Progettazione fisica
+> - Creazione dello ***schema fisico***
+> - **Database** fisico
 
 ---
 
@@ -156,8 +152,3 @@ Descrive l’organizzazione dei dati in modo visibile all’utente
 - Serie di frasi in linguaggio naturale
 - Ipotesi aggiuntive
 - Glossario/Dizionario dei dati
-
-## CONCETTO
-
-| CONCETTO | TIPO | DESC | ATTRIBUTI | ID  |
-| -------- | ---- | ---- | --------- | --- |

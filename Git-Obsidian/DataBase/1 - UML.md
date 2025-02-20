@@ -111,3 +111,4 @@ Dal punto di vista della modellazione è importante caratterizzare queste corris
 >[!tip] Many-to-Many
 >$max-card(C_{1}, A) = n$
 >$max-card(C_{2}, A) = m$
+
