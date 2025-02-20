@@ -145,10 +145,8 @@ Ad ogni livello appartiene uno schema secondo un modello:
 > - Creazione dello ***schema fisico***
 > - **Database** fisico
 
----
-
 # DOCUMENTAZIONE SCHEMI ER
-
+---
 - Serie di frasi in linguaggio naturale
 - Ipotesi aggiuntive
 - Glossario/Dizionario dei dati

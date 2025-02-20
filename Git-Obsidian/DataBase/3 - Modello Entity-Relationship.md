@@ -121,9 +121,9 @@ Ogni attributo è definito su un ***dominio di valori***.
 
 >[!example] Tipi di attributi
 >- **Semplice**
->- **Composto**: (Es: indirizzo(via, nCivico, cap))
->- **Multivalore** (con cardinalità, es. persona con più numeri di telefono)
-
+>- [[#^75c92b|Multivalore]] (con cardinalità, es. persona con più numeri di telefono)
+>- **Composto**: (Es: indirizzo(via, numero civico, cap))
+>	- Attributi *multivalore* che sono ***semanticamente correlati***
 #### Vincoli
 >In ogni schema E/R sono presenti ***vincoli***
 
@@ -135,30 +135,87 @@ Alcuni vincoli sono *impliciti*:
 >Altri vincoli sono **espliciti** e sono definiti da chi progetta lo schema **E/R** sulla base della *conoscenza della realtà* che sta modellando
 
 #### Vincoli di Cardinalità
->[!info] Definizione
->Per un attributo è possibile specificare anche il numero minimo e il numero massimo di valori che possono essere associati 
+##### Attributi
+>[!info] Uso
+>Per un attributo è possibile specificare anche il ***numero minimo*** e il ***numero massimo*** di valori che possono essere associati
+>
 
-### IDENTIFICATORE
-Attributo o insieme di attributi che identificano l’occorrenza di un’entità o relazione.
-- **Interno**
-- **Esterno** (Identifica insieme all’ID associato all’occorrenza dell’entità “padre”)
+Un attributo è detto:
 
+>[!question] Opzionale
 
----
+Se la ***cardinalità minima*** è $0$
 
-## CARDINALITÀ
-Specifica per ogni partecipazione di entità a una relazione e descrive il numero minimo (N-min) e massimo (N-max) di occorrenze di relazione a cui un’entità può partecipare.
+>[!attention] Monovalore
 
-### Tipologie
-- **Partecipazione**
-  - Partecipazione Facoltativa (0;N)
-  - Partecipazione Obbligatoria (1;N)
-- **Associazione**
+Se la ***cardinalità massima*** è $1$
+
+>[!summary] Multivalore
+
+^75c92b
+
+Se la ***cardinalità massima*** è $n$
+
+##### Associazioni
+>[!def] Definizione
+>I ***vincoli di cardinalità di associazioni*** sono coppie di valori $(min-card, max-card)$ che vengono specificate per *ogni partecipazione* di entità ad un'associazione e descrivono **numero minimo** e **numero massimo** di occorrenze di relazione a cui una entità può partecipare
+
+>[!example] Esempio
+
+Se i *vincoli di cardinalità* per un’entità $E$ relativamente a un’associazione $A$ sono $(1,n)$ ciò significa che:
+- **Ogni istanza** di $E$ partecipa ***almeno a una*** istanza di $A$
+- **Ogni istanza** di $E$ può partecipare a ***più istanze*** di $A$.
+
+>Graficamente:
+
+![[RelationCardinality.png]]
+###### Tipi di Associazioni
+
+*Associazione*
   - Associazione 1 a 1
   - Associazione 1 a molti
   - Associazione molti a molti
 
----
+>[!abstract] Sulla base della cardinalità minima
+>***Opzionale***
+>- Se $min-card(E, A) = 0$
+>
+>***Obbligatoria***
+>- Se $min-card(E, A)>0$
+
+>[!hint] Sulla base della cardinalità massima
+>***A valore singolo***
+>- Se $max-card(E, A) = 1$
+>
+>***A valore multiplo***
+>- Se $max-card(E, A)>1$
+
+#### Identificatori
+>[!def] Definizione
+> Un ***identificatore*** è un attributo o insieme di attributi che identificano l’occorrenza di un’entità o relazione.
+> Un ***vincolo d’identificazione*** per un’entità $E$ definisce un *identificatore* per $E$
+
+> ***Proprietà di Minimalità***
+- Per ogni estensione ammissibile di un’entità ***nessun sottoinsieme proprio dell’identificatore*** deve essere a sua volta un *identificatore*
+
+>[!warning] Attenzione
+>***Deve*** valere:
+>$$min-card(A, B) = max-card(A, B) = 1$$
+
+Ogni entità deve avere ***almeno un identificatore***, ma ne può avere ***più di uno***
+- In fase di *progettazione logica*, uno di essi sarà scelto come #addLink ***chiave primaria***, per gli altri si dovrà comunque imporre un **vincolo di unicità**
+
+Nel caso di *più identificatori* è ammesso che gli attributi o le entità coinvolti in alcune identificazioni, **tranne una**, possano essere ***opzionali***
+##### Tipologie
+>[!abstract] Interno
+>Si usano ***uno o più*** attributi dell'entità $E$
+
+>[!caution] Esterno
+>Si usano ***altre*** (una o più) ***entità***, collegate a $E$ da associazioni, più *eventuali attributi propri* di $E$.
+
+>Graficamente:
+
+![[Identifiers.png]]
 
 ## GENERALIZZAZIONE/GERARCHIA
 Legame logico tra un’entità **E** (entità genitore) e una o più entità **E1, E2, ...** (entità figlie), in cui **E** è il caso generale e **E1, E2, ...** sono i casi particolari.
