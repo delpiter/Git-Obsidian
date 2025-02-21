@@ -3882,5 +3882,7 @@ settings:
 .markdown-preview-view img,
 .markdown-rendered img {
     border: 1px solid #ccc;
-    margin: 0.25rem 0.25rem 0.75rem 0.25rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }

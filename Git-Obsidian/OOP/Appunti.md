@@ -20,41 +20,39 @@ javac *.java
 
 ```mermaid
 classDiagram
-    Position2D <|-- RobotPosition
-    Position2D --o RobotEnvironment
-    BaseRobot o-- RobotEnvironment
-    Robot <|-- BaseRobot
-    <<Interface>> Robot
-    <<Interface>> Position2D
-    class Position2D {
-        getX() int
-        getY() int
-        plus(Position2D) int
-        plus(int, int) int
+    class MapConstraint{
+        <<Interface>>
+        + checkConstraint(Positions)boolean
     }
-    class Robot {
-        moveUp() boolean
-        moveDown() boolean
-        moveLeft() boolean
-        moveRight() boolean
-        recharge() void
-        getBatteryLevel() double
-        getPosition() Position2D
+    class MapConstraintFactory{
+        <<Interface>>
+        + adjacencyConstraint()MapConstraint
+        + singleBlockConstraint()MapConstraint
+        + maxNumberOfBlocks(maxBlocks)MapConstraint
+        + minNumberOfBlocks(minBlocks)MapConstraint
     }
-    class BaseRobot {
-        -batteryLevel : double
-        -environment : RobotEnvironment
-        -robotName : String
-        BaseRobot(String)
-        #consumeBattery(double)
-        #isBatteryEnough(double) boolean
+    class MapConstraintProvider{
+        <<Interface>>
+        + createNormal()MapConstraintsContainer
+        + createSandbox()MapConstraintsContainer
     }
-    class RobotEnvironment {
-        -position : Position2D
-        RobotEnvironment(Position2D)
-        move(Position2D) : boolean
-        move(int, int) : boolean
+    class Grid{
+        <<Interface>>
+        + setConstraints(EditorType)
     }
+    class MapConstraintsContainer {
+        <<Interface>>
+        + checkConstraint(Positions,ObjectType)
+        + checkBeforeStartConstraints()
+    }
+
+
+    MapConstraintsContainer *-- MapConstraint : "contains many"
+    Grid ..> MapConstraintProvider
+    MapConstraintProvider ..> MapConstraintFactory
+    MapConstraint <.. MapConstraintFactory : "creates"
+    MapConstraintProvider ..> MapConstraintsContainer : "creates"
+    Grid o-- MapConstraintsContainer
 ```
 
 ```mermaid
@@ -93,4 +91,3 @@ classDiagram
     }
 ```
 
-eastwood? myzsh??
