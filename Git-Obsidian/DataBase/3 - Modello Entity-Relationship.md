@@ -93,7 +93,7 @@ Graficamente un'*associazione* si rappresenta con un **rombo** al cui interno ne
 ***Associazione Ternaria***:
 - *Grado* 3
 - Un'istanza è una ***terna*** di istanze di entità
-##### Associazioni Ricorsive
+##### Associazioni ad Anello
 >[!info] Definizione
 >Legame fra un’entità e un’***occorrenza di se stessa***
 >Un'associazione ricorsiva può essere o meno:
@@ -101,13 +101,15 @@ Graficamente un'*associazione* si rappresenta con un **rombo** al cui interno ne
 >- *Riflessiva*: $(a,a) \in A$
 >- *Transitiva*: $(a,b) \in A, (b,c) \in A \implies (a,c) \in A$
 
-###### Tipi di associazioni ricorsive:
+###### Tipi di associazioni ad Anello:
 
 **Simmetrica**
-- *Persona* collega di *Persona* (bidirezionale)
+- *Persona* collega di *Persona* (**many to many**)
 
 **Asimmetrica**
-- *Persona* erede di *Persona* (unidirezionale)
+- *Persona* erede di *Persona* (**one to many**)
+- *Persona* sposata ad una *Persona* (**one to one**)
+
 #### Attributo
 >[!def] Definizione
 >Un ***attributo*** è una *proprietà elementare* di un'entità o di un'associazione
@@ -190,6 +192,7 @@ Se i *vincoli di cardinalità* per un’entità $E$ relativamente a un’associa
 >***A valore multiplo***
 >- Se $max-card(E, A)>1$
 
+
 #### Identificatori
 >[!def] Definizione
 > Un ***identificatore*** è un attributo o insieme di attributi che identificano l’occorrenza di un’entità o relazione.
@@ -217,24 +220,42 @@ Nel caso di *più identificatori* è ammesso che gli attributi o le entità coin
 
 ![[Identifiers.png]]
 
-## GENERALIZZAZIONE/GERARCHIA
-Legame logico tra un’entità **E** (entità genitore) e una o più entità **E1, E2, ...** (entità figlie), in cui **E** è il caso generale e **E1, E2, ...** sono i casi particolari.
+#### Reificazione
+>[!def] Definizione
+>L'operazione di ***reificazione*** consiste nel "*trasformare*" un'**associazione** in una **Entità**
 
-### Tipologie
-- **Generalizzazione con una sola entità figlia** → Sottoinsieme
-- **Gerarchia di generalizzazione** → Un’entità figlia è a sua volta entità padre di altre entità figlie.
-- **Classificazione**
+Nasce dalla necessità di avere identificatori all'*interno di una relazione*.
 
-Confronto fra unione delle specializzazioni e classe generalizzata
-  - **TOTALE**: Ogni occorrenza dell’entità genitore è almeno una delle entità figlie.
-  - **PARZIALE**: Non vale la condizione sopra.
+>Il seguente schema:
+![[Reification.png]]
 
-Confronto fra le classi specializzate
-  - **ESCLUSIVA**: Ogni occorrenza dell’entità genitore è al più una delle entità figlie.
-  - **SOVRAPPOSTA**: Non vale la condizione sopra.
+>Verrebbe reificato in questo schema.
+![[Pasted image 20250224154820.png]]
 
----
 
+#### Generalizzazione
+>[!abstract] Definizione
+>La ***generalizzazione*** è un *legame logico* tra un’entità $E$ (**entità genitore**) e una o più entità $E_{1},E_{2},\dots$ (**entità figlie**), in cui $E$ è il caso *generale* e $E_{1},E_{2},\dots$ sono i casi *particolari*.
+
+>Medesimo concetto nell'[[1 - UML#Generalizzazione|UML]]
+
+Le proprietà di $E$ sono *ereditate* da $E_{1},E_{2},\dots$
+- Ogni $E_{i}$ **possiede** gli attributi di $E$ e **partecipa** alle associazioni definite per $E$
+- **Non vale** l'inverso
+
+>[!done] Una entità può essere madre di diverse entità in diverse generalizzazioni
+
+>[!fail] Una gerarchia di generalizzazione impone il vincolo che ciascuna sottoclasse abbia una sola superclasse
+
+>[!Gerarchia di generalizzazione]
+>Un’entità ***figlia*** è a sua volta entità ***padre*** di altre entità ***figlie***
+##### Proprietà di Copertura
+![[Generalization.png]]
+##### Subset
+>[!summary] Definizione
+>Il ***subset*** è un caso particolare di *gerarchia* che si ha quando si evidenzia **una sola classe** specializzata.
+
+![[Subset.png|300]]
 ## BUSINESS RULES
 
 ### 2 Tipi

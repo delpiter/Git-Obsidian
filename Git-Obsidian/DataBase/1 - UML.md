@@ -36,8 +36,8 @@
 
 >[!caution] Specializzazione
 >La specializzazione è il processo inverso della generalizzazione
-### Copertura delle Generalizzazioni
-#### Specializzazione e Classe Generalizzata
+#### Copertura delle Generalizzazioni
+##### Specializzazione e Classe Generalizzata
 >[!todo] Totale
 >La classe *generalizzata* è l'***unione delle specializzazioni***
 >>[!done] In altre parole
@@ -49,7 +49,7 @@
 >> Qualche *istanza* della classe generalizzata ***potrebbe non essere*** una ***specializzazione***
 
 
-#### Confronto fra le Classi Specializzate
+##### Confronto fra le Classi Specializzate
 
 >[!todo] Esclusiva
 >Gli insiemi delle *generalizzazioni* sono fra loro ***disgiunti***
@@ -111,4 +111,3 @@ Dal punto di vista della modellazione è importante caratterizzare queste corris
 >[!tip] Many-to-Many
 >$max-card(C_{1}, A) = n$
 >$max-card(C_{2}, A) = m$
-
