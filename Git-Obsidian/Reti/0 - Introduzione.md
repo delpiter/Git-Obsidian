@@ -63,3 +63,23 @@ Le telecomunicazioni utilizzano ***canali di comunicazione***
 > #addLink ***Multicast***
 > - Un nodo trasmette allo stesso tempo ad un ***sottoinsieme dei nodi***
 
+## Rete di Accesso
+---
+>[!abstract] Definizione
+>La ***rete di accesso*** è la parte della rete che collega l'*utente finale* (come un'azienda) alla rete di comunicazione più ampia
+
+Le *reti di accesso* si trovano tra il **punto di distribuzione centrale** e l'**utente finale**
+
+## Rete di Transito
+---
+>[!caution] Definizione
+>La ***rete di transito*** è la parte di rete che gestisce il *traffico di dati* da una **zona geografica all'altra**.
+>Solitamente più **robuste** e di **maggiore capacità** rispetto alle *reti di accesso*
+
+È una rete che permette ai dati di ***viaggiare tra punti di accesso*** a livello globale o nazionale.
+
+>Le reti di transito *includono*:
+
+- Le ***grandi dorsali*** in fibra che attraversano i continenti
+- Reti di telecomunicazione ***intercontinentale***
+- Reti di ***backbone*** che gestiscono il traffico tra diversi *provider di servizi*
