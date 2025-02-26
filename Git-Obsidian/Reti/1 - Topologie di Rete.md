@@ -52,7 +52,7 @@
 
 ### Topologia a Maglia
 >[!def] Definizione
->Nella ***topologia a maglia completa*** ogni nodo è *connesso direttamente* ad ogni altro nodo.
+>Nella ***topologia a maglia completa*** (***fully connected***) ogni nodo è *connesso direttamente* ad ogni altro nodo.
 >È presente un collegamento per **ogni coppia di nodi**
 
 $n$ nodi implicano: $\displaystyle{\frac{n(n-1)}{2}}$ collegamenti.
@@ -63,9 +63,25 @@ $n$ nodi implicano: $\displaystyle{\frac{n(n-1)}{2}}$ collegamenti.
 - **Alta** *complessità* e costi
 - **Massimizza** i collegamenti
 
+>[!tldr] Mesh
+>La ***mesh*** è una *topologia* a ***maglia parzialmente connessa*** dove, dati $n$ nodi, utilizza solo un **sottoinsieme di tutti i collegamenti** diretti definibili tra i nodi
+
+$n$ nodi implicano: $(n-1)<R< \displaystyle\frac{n(n-1)}{2}$
+
+>[!done] Pro
+
+- Costi *inferiori* di installazione e mantenimento
+
+>[!fail] Contro
+
+- Minore *fault tollerance*
+
+![[Mesh.png]]
 ## Rete Gerarchica
 ---
 >[!info]
 > Una ***rete gerarchica*** è una rete *organizzata su più livelli*
 > I **terminali** sono connessi ai **nodi periferici**.
-> 
+> I *nodi periferici* sono connessi tramite **nodi intermedi**
+
+Consente una *interconnessione a lunga distanza* con **nodi di transito** tipicamente interconnessi a ***maglia completa***

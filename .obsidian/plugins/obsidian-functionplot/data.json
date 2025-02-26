@@ -6,5 +6,5 @@
   "gridWidth": 1,
   "fontColor": "var(--text-normal)",
   "lineColor": "gray",
-  "gridColor": "var(--interactive-hover)"
+  "gridColor": "#D2D2D2"
 }

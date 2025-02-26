@@ -22,6 +22,7 @@ $$f(A)=\{y\in B\;|\;\exists x\in A:f(x)=y\}$$
 $$y_f =\{(a,b) \in A\times B \; | b=f(a)\}$$
 
 
+
 ```functionplot
 ---
 title: Piano Cartesiano
