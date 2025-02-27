@@ -69,6 +69,7 @@ Ogni porta `XOR` confronta una coppia di `BIT`
 >- La direzione è impostata da un `BIT` di controllo $C$
 
 ![[Shifter Circuit.png]]
+
 >*Shifter a `8-BIT`*
 
 ### Adder
@@ -79,6 +80,7 @@ Ogni porta `XOR` confronta una coppia di `BIT`
 
 #### Half-Adder
 ![[Half Adder.png]]
+
 - La **somma** (*sum*) vale $1$ solo se i 2 `BIT` di input sono diversi (`XOR`, $\oplus$)
 - Il **riporto** (*carry*) vale $1$ solo se entrambi gli input sono $1$ (`AND`)
 
@@ -129,5 +131,3 @@ $$
 >Per la moltiplicazione sono necessarie semplici operazioni di ***somma e shift***
 >In teoria non occorre un circuito specifico e la moltiplicazione può essere implementata con un microprogramma usando semplice `ALU`
 >Moltiplicatori ***hardware ottimizzati*** richiedono un minor numero di somme che possono essere parallelizzate
-
-![[Binary Multiplication.png]]

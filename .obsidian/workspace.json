@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "ef3b42dbddd08d73",
+        "id": "0f2a66b2d038d613",
         "type": "tabs",
         "children": [
           {
-            "id": "ae1a48b829e3b5e5",
+            "id": "1ff34021748c34cf",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Git-Obsidian/Reti/4 - Multiplexing.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "4 - Multiplexing"
             }
           }
         ]
@@ -46,7 +50,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "Multiple",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -75,7 +79,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 269.5
+    "width": 269.5,
+    "collapsed": true
   },
   "right": {
     "id": "3561446b8c4d05ef",
@@ -196,9 +201,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ae1a48b829e3b5e5",
+  "active": "1ff34021748c34cf",
   "lastOpenFiles": [
+    "Git-Obsidian/Reti/0 - Introduzione.md",
+    "Git-Obsidian/Reti/4 - Multiplexing.md",
     "Git-Obsidian/Reti/3 - Servizi.md",
+    "Git-Obsidian/Reti/attachements/TDMUnslotted.png",
+    "Git-Obsidian/Reti/attachements/TDMSlotted.png",
+    "Git-Obsidian/Reti/1 - Topologie di Rete.md",
+    "Git-Obsidian/Architettura degli Elaboratori/Algebra di Bool e Logica Digitale/Circuiti Combinatori.md",
     "Git-Obsidian/Reti/attachements/TemporalTransparency.png",
     "Git-Obsidian/Reti/attachements/SemanticTransparency.png",
     "Git-Obsidian/Reti/attachements/Temporal&SemanticTransparency.png",
@@ -211,8 +222,6 @@
     "Git-Obsidian/Reti/attachements/Spectrum.png",
     "Git-Obsidian/Reti/Pasted image 20250226141414.png.md",
     "Git-Obsidian/Reti/attachements/Pasted image 20250226141414.png",
-    "Git-Obsidian/Reti/0 - Introduzione.md",
-    "Git-Obsidian/Reti/1 - Topologie di Rete.md",
     "Git-Obsidian/Reti/attachements/Mesh.png",
     "Git-Obsidian/Fisica/Misurazione.md",
     "Git-Obsidian/Fisica/Metodo Scientifico.md",
@@ -222,8 +231,6 @@
     "Git-Obsidian/Analisi/Funzioni/Introduzione Funzioni.md",
     "Git-Obsidian/Analisi/Funzioni/Funzioni di una variabile Reale.md",
     "Git-Obsidian/DataBase/0 - Introduzione.md",
-    "Git-Obsidian/DataBase/attachements/Subset.png",
-    "Git-Obsidian/DataBase/attachements/Generalization.png",
     "Git-Obsidian/DataBase/1 - UML.md",
     "Git-Obsidian/DataBase/Untitled.md",
     "Git-Obsidian/Reti/attachements",
@@ -234,8 +241,6 @@
     "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/Variabili Continue/8 - Variabili Aleatorie Continue.md",
     "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/Variabili Continue/13 -Teorema Centrale del Limite.md",
     "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/Variabili Continue/12 - Variabile Normale o Gaussiana.md",
-    "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/Variabili Continue/11 - Variabili Esponenziali.md",
-    "Git-Obsidian/Matematica Discreta e Probabilità/Probabilità/Variabili Continue/10 - Variabili Continue Uniformi.md",
     "Git-Obsidian/DataBase/attachements",
     "Untitled.canvas",
     "Git-Obsidian/Algebra e Geometria/Isometrie/Legami.canvas",
