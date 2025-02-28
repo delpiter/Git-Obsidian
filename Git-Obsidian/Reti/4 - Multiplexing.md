@@ -61,3 +61,4 @@ Questo approccio è tipico quando le **risorse sono limitate** e devono essere *
 Un flusso che ha bisogno di più banda può richiedere una **porzione maggiore di banda**
 - Se un flusso non utilizza tutta la banda di cui *dispone*, altri flussi possono utilizzare quella porzione ***inattiva***.
 
+>L'assegnazione ***dinamica della banda*** può essere effettuata sia nel caso *slotted* che *unslotted*
