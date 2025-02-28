@@ -51,6 +51,7 @@ $$
 $$
 ###### Spiegazione grafica
 ![[definizioneLimite.png]]
+
 >[!done] In Breve
 >Fissato un $\mathcal{E} >0$, esiste un $\delta>0$
 >Tale che $\forall x$ nell'intervallo $(c-\delta,c+\delta)$ si ha che $f(x)$ deve cadere nell'intervallo $(l-\mathcal{E},l+\mathcal{E})$
