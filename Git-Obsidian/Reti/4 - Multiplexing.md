@@ -43,7 +43,21 @@ Si può realizzare utilizzando:
 
 ## Assegnazione della Banda
 ---
->[!def] Assegnazione Statica
->Nella ***assegnazione statica*** il flusso informativo
->La banda ***non può cambiare*** a comunicazione in corso.
+### Assegnazione Statica
+>[!def] Concetto
+>Nella ***assegnazione statica*** la quantità di banda che viene riservata per una comunicazione è *fissa* durante l'intera durata della comunicazione.
+>- La banda dedicata è espressa in **bit per secondo** (`bit/sec`).
+
+Questo approccio è tipico quando le **risorse sono limitate** e devono essere ***gestite in modo rigoroso***
+
+### Assegnazione Dinamica
+>[!abstract] Concetto
+>L'***assegnazione dinamica*** della banda è un approccio che contrasta con l'assegnazione statica e introduce *maggiore flessibilità* nella gestione delle risorse.
+>- In un sistema con **assegnazione dinamica della banda**, la banda disponibile viene condivisa tra i flussi in *base alla necessità*.
 >
+>>[!done] Cambiamento
+>>La **banda** che un flusso può utilizzare ***non è fissa***, ma può *variare* durante la comunicazione
+
+Un flusso che ha bisogno di più banda può richiedere una **porzione maggiore di banda**
+- Se un flusso non utilizza tutta la banda di cui *dispone*, altri flussi possono utilizzare quella porzione ***inattiva***.
+
