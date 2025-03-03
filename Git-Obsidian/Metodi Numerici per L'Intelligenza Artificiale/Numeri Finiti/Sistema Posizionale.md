@@ -45,5 +45,41 @@ Il numero è rappresentato come un prodotto di:
 >Sia $\alpha\in\mathbb{R}\setminus\{0\}$, scelta una base $\beta$
 ><u> Allora </u>
 >E una rappresentazione univoca di $\alpha$ in base $\beta$
->$$\alpha=\pm 0.a_{n}a_{n-1}\dots a_{0}.b_{1}b_{2}\dots\  \cdot\beta^k$$
+>$$\alpha=\pm 0.a_{1}a_{2}a_{3}\dots \ \cdot\beta^p= \pm\left( \sum_{i=1}^\infty a_{i}\beta^{-i} \right)\cdot\beta^p=\pm m\cdot\beta^p$$
+>
+>Dove:
+>- $p\in\mathbb{Z}$
+>- Le cifre $a_{i}$ sono numeri interi tali che:
+>$$0\leq a_{i}\leq \beta-1,\quad i=1,2,\dots, \quad a_{1}\neq 0$$
+>
+>>[!example] Mantissa
+>>Il numero $m$ si chiama ***Mantissa*** e soddisfa la condizione:
+>>$$\beta^{-1}\leq m<1$$
+>
+>>[!hint] Esponente
+>>$\beta^p$ si definisce ***parte esponente*** di $\alpha$ e $p$ si chiama esponente di $\alpha$
 
+##### Numeri Finiti: Floating Point
+>Un numero reale è caratterizzato da **segno**, **esponente** e **mantissa**
+
+In un *calcolatore* ognuna di queste parti deve essere ***limitata***
+
+>[!def] Definizione dell'Insieme di numeri Floating Point
+>Per un calcolatore che utsa:
+>- Base di rappresentazione $\beta$
+>- $t$ cifre per la *mantissa*
+>- Esponenti *minimi* e *massimi*: $L$ e $U$ ($L<0, \quad U>0$)
+>
+>L'insieme ***Floating Point***è definito come l'insieme dei numeri reali rappresentabili.
+>- $F(\beta,t,L,U)=$
+>$$\{ 0 \}\cup \left\{ \alpha \in\mathbb{R}\setminus\{0\}:\alpha=sign(\alpha)0.a_{1}a_{2}\dots a_{t}\cdot\beta^p=sign(\alpha)\left( \sum_{i=1}^\infty a_{i}\beta^{-i} \right)\cdot\beta^p \right\}$$
+>
+>>[!caution] Condizioni
+>>$$0\leq a_{i} \leq \beta-1, \quad i=1,2,\dots,\quad a_{1}\neq0, \quad L\leq p \leq U, \quad L<0, \quad U>0$$
+
+L'insieme dei ***numeri macchina*** include *tutti* i numeri che possono essere rappresentati **esattamente** usando la *base* $\beta$, $t$ cifre per la *mantissa* e gli *esponenti* $L$ e $U$
+
+###### Underflow e Overflow
+>Se $p\notin$
+
+>[!abstract] Underflow

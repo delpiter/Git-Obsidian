@@ -84,7 +84,7 @@ Dal punto di vista della modellazione è importante caratterizzare queste corris
 >È il ***numero minimo di corrispondenze*** nell'associazione $A$ alle quali ogni istanza di $C_{1}$ deve partecipare
 
 >[!help] $max-card(C_{1}, A)$
->Cardinalità minima di $C_{1}$ in $A$
+>Cardinalità massima di $C_{1}$ in $A$
 >È il ***numero massimo di corrispondenze*** nell'associazione $A$ alle quali ogni istanza di $C_{1}$ può partecipare
 
 ###### Vincoli di Cardinalità Minima
