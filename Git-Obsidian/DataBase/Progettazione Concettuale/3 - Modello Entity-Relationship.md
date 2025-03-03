@@ -230,7 +230,7 @@ Nasce dalla necessità di avere identificatori all'*interno di una relazione*.
 ![[Reification.png]]
 
 >Verrebbe reificato in questo schema.
-![[Pasted image 20250224154820.png]]
+![[Example.png]]
 
 
 #### Generalizzazione

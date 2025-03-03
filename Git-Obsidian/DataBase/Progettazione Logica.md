@@ -1,3 +1,5 @@
+
+
 # RISTRUTTURAZIONE
 
 Prima di tradurre il modello E/R è necessario ristrutturarlo per motivi di correttezza ed efficienza.
