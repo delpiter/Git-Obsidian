@@ -98,4 +98,41 @@ Si applica quando un numero reale $\alpha$ è ***esattamente equidistante*** tra
 ### Numeri più Piccoli e Grandi Rappresentabili
 >Considerando $F(\beta,t,L,U)$
 
->[!]
+>[!hint] Mantissa più Piccola
+>$$1\cdot\beta^{-1}+0\cdot\beta^{-2}+\dots+0\cdot\beta^{-t}=\beta^{-1}$$
+
+Il numero ***più piccolo*** rappresentabile quindi sarà:
+$$\alpha_{min}=\beta^{-1}\beta^L$$
+- $L$ è l'*esponente* più piccolo possibile.
+
+>[!tldr] Mantissa più Grande
+>$$\begin{array}\ (\beta-1)\cdot\beta^{-1}+(\beta-1)\cdot\beta^{-2}+\dots+(\beta-1)\cdot\beta^{-t}= \\=\beta^0 \cancel{ -\beta^{-1} }+\cancel{ \beta^{-1} } -\cancel{ \beta^{-2} }+\dots+\cancel{ \beta^{-t+1} } -\beta^{-t}=1-\beta^{-t}\end{array}$$
+
+Il numero ***più grande*** *rappresentabile* quindi sarà:
+$$\alpha_{max}=(1-\beta^{-t})\beta^U$$
+- $U$ è l'*esponente* più grande possibile.
+## Cardinalità dei Floating Point
+---
+>L'insieme $F(\beta,t,L,U)$ è sottoinsieme di $\mathbb{R}$ e ha cardinalità finita.
+
+>[!cite] Teorema
+>Sia $F(\beta,t,L,U)$  l'*insieme dei numeri floating point*.
+><u>Allora</u>
+>esso possiede $fl(0)$ e $(\beta-1)\cdot\beta^{t-1}(U-L+1)$ numeri positivi ***non uniformemente distribuiti*** in $[\beta^{L-1},\beta^U)$ e altrettanti numeri negativi in $[-\beta^U, -\beta^{L-1})$
+
+##### Dimostrazione
+>Ragionando per i ***numeri positivi***
+
+Poiché con $t$ cifre in base $\beta$ si possono formare $\beta^t$ *mantisse diverse*
+- Escludendo quelle in cui la prima cifra è nulla: $\beta^t-\beta^{t-1}$
+
+Per ogni mantissa si hanno $(U-L+1)$ esponenti possibili.
+
+La cardinalità di $F$:
+$$
+|F| = 2\cdot(\beta-1)\cdot\beta^{t-1}(U-L+1)+1
+$$
+$\#$
+
+## Spacing
+---
