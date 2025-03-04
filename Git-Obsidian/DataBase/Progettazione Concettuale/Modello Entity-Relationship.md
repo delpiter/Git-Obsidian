@@ -237,7 +237,7 @@ Nasce dalla necessità di avere identificatori all'*interno di una relazione*.
 >[!abstract] Definizione
 >La ***generalizzazione*** è un *legame logico* tra un’entità $E$ (**entità genitore**) e una o più entità $E_{1},E_{2},\dots$ (**entità figlie**), in cui $E$ è il caso *generale* e $E_{1},E_{2},\dots$ sono i casi *particolari*.
 
->Medesimo concetto nell'[[1 - UML#Generalizzazione|UML]]
+>Medesimo concetto nell'[[UML#Generalizzazione|UML]]
 
 Le proprietà di $E$ sono *ereditate* da $E_{1},E_{2},\dots$
 - Ogni $E_{i}$ **possiede** gli attributi di $E$ e **partecipa** alle associazioni definite per $E$
@@ -256,13 +256,19 @@ Le proprietà di $E$ sono *ereditate* da $E_{1},E_{2},\dots$
 >Il ***subset*** è un caso particolare di *gerarchia* che si ha quando si evidenzia **una sola classe** specializzata.
 
 ![[Subset.png|300]]
+
+## Limiti del Modello E/R
+---
+>Uno ***schema E/R*** non è *sufficiente* a rappresentare *tutti gli aspetti di interesse*
+
+>[!missing] Limiti Principali
+>- I nomi dei vari concetti **possono non essere sufficienti** per comprendere il significato
+>- Non tutti i **vincoli di integrità** sono esprimibili in uno schema ***E/R***
+>	- Es. Propedeuticità degli esami.
+
+In fase di progettazione bisogna fornire un'ulteriore documentazione appropriata per consentire di affrontare correttamente le fasi successive di sviluppo
 ## BUSINESS RULES
 
 ### 2 Tipi
 - **Regole di Vincolo** → `<Concetto> DEVE / NON DEVE <ESPRESSIONE SUL CONCETTO>`
 - **Regole di Derivazione** → `<Concetto> SI OTTIENE <ESPRESSIONE SUL CONCETTO>`
-
-### Implementazione
-- Aggiungendo clausole SQL
-- Utilizzando dei **trigger** (regole attive che si attivano a seguito di un evento)
-- A livello di logica applicativa (**da codice**)

@@ -1,11 +1,4 @@
 
-# DOCUMENTAZIONE SCHEMI ER
-
----
-#progettazione_concettuale
-- Serie di frasi in linguaggio naturale
-- Ipotesi aggiuntive
-- Glossario/Dizionario dei dati
 # PROGETTAZIONE LOGICA
 
 Traduzione dello schema concettuale in uno schema logico.
