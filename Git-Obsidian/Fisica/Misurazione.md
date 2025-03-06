@@ -17,7 +17,7 @@ Per la meccanica occorrono ***3 unità fondamentali***
 
 >[!abstract] Lunghezza
 >Per la ***lunghezza*** l'unità fondamentale è il ***metro*** ($m$).
->$1$ *metro* corrisponde alla distanza percorsa dalla luce nel vuoto in un tempo pare a $1/c$, con $c=299792458 \quad m/s$
+>$1$ *metro* corrisponde alla distanza percorsa dalla luce nel vuoto in un tempo pari a $1/c$, con $c=299792458 \quad m/s$
 
 >[!attention] Tempo
 >Per il ***tempo*** l'unità fondamentale è il ***secondo*** ($s$).
