@@ -1,5 +1,5 @@
 >[!def] Definizione
->Il ***multiplexing*** è il meccanismo per cui più *canali trasmissivi in ingresso* condividono lo stesso [[Git-Obsidian/Reti/0 - Introduzione#Canale|canale]] per trasferire più flussi di informazione in **un solo segnale** (detto _multiplato_).
+>Il ***multiplexing*** è il meccanismo per cui più *canali trasmissivi in ingresso* condividono lo stesso [[Git-Obsidian/Reti/Introduzione/Introduzione#Canale|canale]] per trasferire più flussi di informazione in **un solo segnale** (detto _multiplato_).
 
 Più canali sono trasportati dallo stesso ***mezzo di trasmissione***.
 

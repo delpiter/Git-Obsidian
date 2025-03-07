@@ -1,4 +1,4 @@
->[!question] Come è fatte l'Informazione
+>[!question] Come è fatta l'Informazione
 ## Segnale Analogico
 ---
 >[!info] Segnale analogico

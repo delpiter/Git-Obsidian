@@ -1,5 +1,5 @@
 >[!def] Definizione
->La ***topologia di*** [[Git-Obsidian/Reti/0 - Introduzione|rete]] è il modello geometrico finalizzato a rappresentare le *relazioni di connettività*.
+>La ***topologia di*** [[Git-Obsidian/Reti/Introduzione/Introduzione|rete]] è il modello geometrico finalizzato a rappresentare le *relazioni di connettività*.
 
 È possibile descrivere una rete utilizzando un [[I Grafi|grafo]] 
 
