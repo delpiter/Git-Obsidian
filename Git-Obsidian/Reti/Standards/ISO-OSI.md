@@ -56,3 +56,14 @@ Una **PDU** è costituita dall'informazione di ***controllo del protocollo*** e 
 $$
 n\text{-}PDU = n\text{-}PCI +n\text{-}SDU
 $$
+## TCP-IP
+---
+>"***Modello di Internet***"
+
+Stesso concetto dello stack ***ISO-OSI***
+
+>[!differenza]
+>Alcuni layer nello stack **ISO-OSI** sono raggruppati in un unico layer nello stack **TCP-IP**
+
+
+![[TCP-IP.png|300]]
