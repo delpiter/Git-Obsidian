@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Obsidian/Reti/Standards/Enti Importanti.md",
+                "file": "Git-Obsidian/Metodi Numerici per L'Intelligenza Artificiale/Numeri Finiti/Errore di Rappresentazione.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Enti Importanti"
+              "title": "Errore di Rappresentazione"
             }
           }
         ]
@@ -203,8 +203,12 @@
   },
   "active": "de161b895bacbb75",
   "lastOpenFiles": [
-    "Git-Obsidian/Reti/Standards/ISO-OSI.md",
+    "Git-Obsidian/Metodi Numerici per L'Intelligenza Artificiale/Numeri Finiti/Floating Point.md",
+    "Git-Obsidian/Metodi Numerici per L'Intelligenza Artificiale/Numeri Finiti/Errore di Rappresentazione.md",
+    "Git-Obsidian/Reti/Indirizzamento/Introduzione.md",
     "Git-Obsidian/Reti/Standards/Enti Importanti.md",
+    "Git-Obsidian/Reti/Indirizzamento",
+    "Git-Obsidian/Reti/Standards/ISO-OSI.md",
     "Git-Obsidian/Reti/Introduzione/Topologie di Rete.md",
     "Git-Obsidian/Reti/Standards/attachements/TCP-IP.png",
     "Git-Obsidian/Reti/Standards/Descrizione dei Livelli.md",
@@ -213,7 +217,6 @@
     "Git-Obsidian/Reti/Introduzione/attachements/Pasted image 20250307135655.png",
     "Git-Obsidian/Reti/Introduzione/attachements/Pasted image 20250307135603.png",
     "Git-Obsidian/Reti/Standards",
-    "Git-Obsidian/Metodi Numerici per L'Intelligenza Artificiale/Numeri Finiti/Floating Point.md",
     "Git-Obsidian/Metodi Numerici per L'Intelligenza Artificiale/Numeri Finiti/Introduzione.md",
     "Git-Obsidian/Metodi Numerici per L'Intelligenza Artificiale/Numeri Finiti/Sistema Posizionale.md",
     "Git-Obsidian/Reti/Introduzione/Fasi della Comunicazione.md",
@@ -241,14 +244,11 @@
     "Git-Obsidian/DataBase/Progettazione Concettuale/attachements/RelationCardinality.png",
     "Git-Obsidian/DataBase/Progettazione Concettuale/attachements/Example.png",
     "Git-Obsidian/DataBase/Progettazione Concettuale",
-    "Git-Obsidian/Architettura degli Elaboratori/Rappresentazione dell'Informazione/Numeri Floating-Point.md",
     "Git-Obsidian/Metodi Numerici per L'Intelligenza Artificiale/Numeri Finiti",
     "Git-Obsidian/Metodi Numerici per L'Intelligenza Artificiale/Numeri Finiti/attachements/FinateNumbers.png",
     "Git-Obsidian/Metodi Numerici per L'Intelligenza Artificiale/Numeri Finiti/attachements",
     "Git-Obsidian/Metodi Numerici per L'Intelligenza Artificiale",
-    "Git-Obsidian/Definizioni/Definizioni_Algoritmi.md",
     "Git-Obsidian/Reti/Introduzione/attachements/TDMUnslotted.png",
-    "Git-Obsidian/Fisica",
     "Untitled.canvas",
     "Git-Obsidian/Algebra e Geometria/Isometrie/Legami.canvas",
     "Untitled 3.canvas",

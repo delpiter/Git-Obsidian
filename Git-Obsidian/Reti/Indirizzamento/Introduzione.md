@@ -1,0 +1,1 @@
+>[!Question] La comunicazione coinvolge due o più entità: Come fa il chiamante a specificare il chiamato

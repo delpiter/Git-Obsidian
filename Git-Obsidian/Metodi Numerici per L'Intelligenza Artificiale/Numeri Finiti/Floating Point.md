@@ -136,3 +136,29 @@ $\#$
 
 ## Spacing
 ---
+>Calcoliamo la distanza tra due numeri consecutivi di $F$ appartenenti a $[\beta^p,\beta^{p+1}]$
+
+Ricordiamo che possiamo scrivere $\beta^p=\beta^{-1}\cdot\beta^{p+1}$
+
+>[!done] Il numero finito consecutivo a $\beta^p$ può essere scritto come:
+>$$0.100000\dots000\cdot\beta^{p+1}=(\beta^{-1}+\beta^{-t})\beta^{p+1}$$
+
+Calcoliamo la differenza:
+$$
+s:=(\beta^{-1}+\beta^{-t})\beta^{p+1}-(\beta^{-1})\beta^{p+1}=\beta^{p+1-t}
+$$
+
+>[!def] Spacing
+>$s$ prende il nome di formula dello ***spacing*** tra $\beta^p$ e $\beta^{  p+1}$
+
+#### Conclusioni
+>[!fail] $F$ non è una perfetta simulazione di $\mathbb{R}$
+
+- I numeri in $F$ ***non sono uniformemente distribuiti*** sull'asse reale.
+- La loro distribuzione ***è uniforme tra due potenze successive*** di $\beta$
+- La loro ***densità decresce*** con l'aumentare del valore assoluto del numero.
+
+>[!info] Precisione di Macchina
+>$esp$ è lo spacing tra $\beta^0$ e $\beta^1$
+>$$p=0 \implies esp=\beta^{1-t}$$
+
