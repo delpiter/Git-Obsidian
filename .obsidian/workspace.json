@@ -11,14 +11,38 @@
             "id": "2f89fdf5662d07f3",
             "type": "leaf",
             "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          },
+          {
+            "id": "12749bc5b12c5c19",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Obsidian/Metodi Numerici per L'Intelligenza Artificiale/Numeri Finiti/Aritmetica in Virgola Mobile.md",
+                "file": "Git-Obsidian/Analisi/Insiemi/Insiemi Numerici.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Aritmetica in Virgola Mobile"
+              "title": "Insiemi Numerici"
+            }
+          },
+          {
+            "id": "48c7a156d41ed4cb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git-Obsidian/Definizioni/Definizioni_Analisi.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Definizioni_Analisi"
             }
           },
           {
@@ -35,7 +59,8 @@
               "title": "Markdown Keys"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -64,7 +89,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "prodotto scalare",
+                "query": "corrispondenza",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -89,12 +114,11 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 269.5,
-    "collapsed": true
+    "width": 269.5
   },
   "right": {
     "id": "3561446b8c4d05ef",
@@ -215,14 +239,21 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2f89fdf5662d07f3",
+  "active": "12749bc5b12c5c19",
   "lastOpenFiles": [
-    "Git-Obsidian/Markdown Keys.md",
-    "Git-Obsidian/Metodi Numerici per L'Intelligenza Artificiale/Numeri Finiti/Aritmetica in Virgola Mobile.md",
+    "Git-Obsidian/Analisi/Insiemi/Insiemi Numerici.md",
+    "Git-Obsidian/Definizioni/Definizioni_Analisi.md",
+    "Git-Obsidian/Matematica Discreta e Probabilità/Statistica Descrittiva/3 - Varianza.md",
+    "Git-Obsidian/Analisi/Definizioni_Analisi.md",
+    "Git-Obsidian/Reti/Indirizzamento/Introduzione.md",
     "Git-Obsidian/Analisi/Successioni/Limiti di Successioni.md",
+    "EsempioRMQ.png.md",
+    "Git-Obsidian/DataBase/Progettazione Logica/Modello Relazionale.md",
+    "Git-Obsidian/DataBase/Progettazione Logica",
+    "Git-Obsidian/Metodi Numerici per L'Intelligenza Artificiale/Numeri Finiti/Aritmetica in Virgola Mobile.md",
+    "Git-Obsidian/Markdown Keys.md",
     "Git-Obsidian/Metodi Numerici per L'Intelligenza Artificiale/Numeri Finiti/Errore di Rappresentazione.md",
     "Git-Obsidian/Metodi Numerici per L'Intelligenza Artificiale/Numeri Finiti/Floating Point.md",
-    "Git-Obsidian/Reti/Indirizzamento/Introduzione.md",
     "Git-Obsidian/Reti/Standards/Enti Importanti.md",
     "Git-Obsidian/Reti/Indirizzamento",
     "Git-Obsidian/Reti/Standards/ISO-OSI.md",
@@ -245,23 +276,16 @@
     "Git-Obsidian/Algebra e Geometria/Frome Bilineari e Prodotti Scalari/4 - Prodotto Scalare.md",
     "Git-Obsidian/Fisica/Misurazione.md",
     "Git-Obsidian/Fisica/Cinematica/Moto Rettilineo.md",
-    "Git-Obsidian/Algebra e Geometria/Isometrie/1 - Introduzione Isometrie.md",
-    "Git-Obsidian/Algebra e Geometria/Isometrie/2 - Legami tra i Concetti.md",
     "Git-Obsidian/Fisica/Cinematica/attachements/DiagrammaOrario.png",
     "Git-Obsidian/Fisica/Cinematica/attachements/LeggeOraria.png",
     "Git-Obsidian/Fisica/Cinematica/attachements",
     "Git-Obsidian/Fisica/Cinematica",
-    "Git-Obsidian/DataBase/Progettazione Concettuale/Fasi della Progettazione.md",
-    "Git-Obsidian/DataBase/Introduzione.md",
-    "Git-Obsidian/DataBase/Modello Relazionale.md",
-    "Git-Obsidian/DataBase/Progettazione Concettuale/Modello Entity-Relationship.md",
     "Git-Obsidian/DataBase/Progettazione Concettuale/attachements/RelationCardinality.png",
     "Git-Obsidian/DataBase/Progettazione Concettuale/attachements/Example.png",
     "Git-Obsidian/DataBase/Progettazione Concettuale",
     "Git-Obsidian/Metodi Numerici per L'Intelligenza Artificiale/Numeri Finiti",
     "Git-Obsidian/Metodi Numerici per L'Intelligenza Artificiale/Numeri Finiti/attachements/FinateNumbers.png",
     "Git-Obsidian/Metodi Numerici per L'Intelligenza Artificiale/Numeri Finiti/attachements",
-    "Git-Obsidian/Metodi Numerici per L'Intelligenza Artificiale",
     "Git-Obsidian/Reti/Introduzione/attachements/TDMUnslotted.png",
     "Untitled.canvas",
     "Git-Obsidian/Algebra e Geometria/Isometrie/Legami.canvas",
