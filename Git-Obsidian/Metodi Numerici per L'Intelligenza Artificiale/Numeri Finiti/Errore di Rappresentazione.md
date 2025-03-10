@@ -5,10 +5,14 @@ Poiché in un calcolatore il numero reale $\alpha\neq 0$ è sostituito con $fl(\
 >[!danger] Errore Assoluto
 >Si definisce ***errore assoluto*** di approssimazione la quantità:
 >$$E_{\alpha}=\mid \alpha -fl(\alpha)\mid$$
+>>[!note] Nota
+>>L’errore assoluto è influenzato dall’*ordine di grandezza* di $\alpha$
 
 >[!important] Errore Relativo
 >Si definisce ***errore relativo*** di arrotondamento di $\alpha\neq0$ la quantità:
 >$$E_{rel}=\displaystyle{\frac{\mid \alpha -fl(\alpha)\mid}{\mid\alpha\mid}}$$
+>>[!note] Nota
+>>L’errore relativo non dipende dall’**esponente** di $\alpha$, ma dalla sua **mantissa**, e dà indicazioni sull’*approssimazione* operata sulla mantissa.
 
 >[!cite] Teorema
 >Sia $\alpha\neq 0$ un numero reale rappresentato in base $\beta$ come:
@@ -21,4 +25,6 @@ Poiché in un calcolatore il numero reale $\alpha\neq 0$ è sostituito con $fl(\
 >Con:
 >- $K=1$ nel caso di [[Floating Point#Troncamento e Arrotondamento|troncamento]]
 >- $K=\frac{1}{2}$ nel caso di [[Floating Point#Troncamento e Arrotondamento|arrotondamento]]
+
+> In generale, per la stima dell'errore si preferisce considerare l'errore relativo invece di quello assoluto.
 

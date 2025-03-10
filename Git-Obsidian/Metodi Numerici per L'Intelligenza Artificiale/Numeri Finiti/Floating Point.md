@@ -161,4 +161,12 @@ $$
 >[!info] Precisione di Macchina
 >$esp$ è lo spacing tra $\beta^0$ e $\beta^1$
 >$$p=0 \implies esp=\beta^{1-t}$$
+>>[!def] Definizione
+>>È il più ***piccolo numero positivo*** di macchina tale che sommato all'unità rende una quantità più grande di $1$
 
+$$
+\displaystyle{\frac{\mid\alpha-fl(\alpha)\mid}{\mid\alpha\mid}}\leq \begin{cases}
+\beta ^{1-t}\quad \text{ troncamento} \\
+\frac{1}{2}\beta^{1-t}=u \quad \text{arrotondamento}
+\end{cases}
+$$
