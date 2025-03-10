@@ -47,3 +47,44 @@ $$Err_{rel_{s}}\leq 3u$$
 
 Le quantità $\left|\displaystyle{\frac{x}{x+y}}\right|$ e $\left|\displaystyle{\frac{y}{x+y}}\right|$ possono assumere ***qualunque grandezza***, quindi **non possiamo controllare l'errore a priori**.
 
+## Propagazione degli Errori nella Moltiplicazione
+---
+>[!cite] Moltiplicazione
+>Assumiamo $x,y\in \mathbb{R}$, ma $x,y\notin F$
+>- $x$ e $y$ devono essere arrotondati in $F$:
+>$x \to fl(x)=x(1+\mathcal{E}_{x})\in F$
+>$y \to fl(y)=y(1+\mathcal{E}_{y})\in F$
+>
+>I due numeri di $F$ vengono quindi ***sommati***, ottenendo:
+>$$fl((fl(x))\otimes(fl(y)))=[x(1+\mathcal{E}_{x})\cdot y(1+\mathcal{E}_{y})](1+\mathcal{E}_{p})$$
+>
+>Con:
+>- $\mid\mathcal{E}_{x}\mid,\mid\mathcal{E}_{y}\mid,\mid\mathcal{E}_{p}\mid \leq u$
+
+#### Errore Relativo
+>Il risultato finale sarà $[x(1+\mathcal{E}_{x})\cdot y(1+\mathcal{E}_{y})](1+\mathcal{E}_{p})$ da confrontare con il vero risultato $x\cdot y$.
+
+$$
+Err_{rel_{p}}=\displaystyle{\frac{\mid xy(1+\mathcal{E}_{x})(1+\mathcal{E}_{y})(1+\mathcal{E}_{p})-xy\mid}{\mid xy\mid}}=
+$$
+- Semplificando per $xy$ si ottiene:
+$$
+Err_{rel_{p}}=\mid (1+\mathcal{E}_{x})(1+\mathcal{E}_{y})(1+\mathcal{E}_{p})-1\mid=
+$$
+Da cui si ottiene:
+$$
+\mid \mathcal{E}_{x}+\mathcal{E}_{y}+\mathcal{E}_{p}+\mathcal{E}_{x}\mathcal{E}_{y}+\mathcal{E}_{x}\mathcal{E}_{p}+\mathcal{E}_{y}\mathcal{E}_{p}+\mathcal{E}_{x}\mathcal{E}_{y}\mathcal{E}_{p}\mid
+$$
+Con:
+- $\mid\mathcal{E}_{x}\mid,\mid\mathcal{E}_{y}\mid,\mid\mathcal{E}_{p}\mid \leq u$
+
+- Assumendo che la [[Floating Point#Conclusioni|roundoff unit]] "$u$" sia molto più piccola di $1$, in modo da poter trascurare $u^2$ rispetto a $u$.
+
+Trascurando i termini moltiplicati:
+$$
+Err_{rel_{p}}\approx \mid \mathcal{E}_{x}+\mathcal{E}_{y}+\mathcal{E}_{p}\mid \leq 3u
+$$
+
+>[!done] Conclusione
+>Qualunque siano i numeri $x,y\in \mathbb{R}$, l'**errore relativo** sul prodotto è sempre ***minore o uguale*** a $3u$
+>Di conseguenza il prodotto è sempre una operazione sicura (**stabile**).
