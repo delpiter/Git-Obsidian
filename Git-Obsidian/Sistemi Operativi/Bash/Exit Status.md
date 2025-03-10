@@ -6,7 +6,7 @@
 >[!done] L'***exit status*** restituisce $0$
 - Altrimenti ritorna un *valore* che indica il **tipo di errore** accaduto
 
-[[Comandi^|Comando]]: `exit [0-255]`
+[[Comandi|Comando]]: `exit [0-255]`
 - ***Termina*** uno script e ritorna il *valore*
 
 >[!question] Come catturare il ***risultato*** di un programma?

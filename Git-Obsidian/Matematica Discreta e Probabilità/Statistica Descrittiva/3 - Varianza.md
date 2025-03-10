@@ -125,7 +125,6 @@ $$
 | 25  | 18  |
 _Vogliamo stimare la $y$ con la retta_
 
-![[EsempioRMQ.png]]
 >[!example] Equazione della retta
 
 $$
