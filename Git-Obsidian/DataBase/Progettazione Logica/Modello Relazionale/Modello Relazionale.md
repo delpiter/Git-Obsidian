@@ -53,7 +53,7 @@
 >Una ***istanza*** (o ***stato***/***estensione***) di *relazione* su $X$ è l'insieme $r$ di *tuple* su $X$
 >- L'istanza di una Relazione definisce a livello [[Modello Entity-Relationship#Entità|estensionale]] una relazione
 
-![[Screenshot 2025-03-11 154833.png]]
+![[RelationTable.png]]
 #### Tabelle
 >Le tabelle sono formate da diverse parti e devono seguire alcune regole.
 
