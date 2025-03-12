@@ -1,129 +1,85 @@
-
-# PROGETTAZIONE LOGICA
-
-Traduzione dello schema concettuale in uno schema logico.
-
-## Modello logico
-
-- Insieme di concetti per organizzare i dati relativi a un certo dominio di interesse.
-- Insieme di regole per modellare eventuali vincoli e restrizioni sui dati.
-
+## Modello Logico-Relazionale
 ---
+>[!note] Note
+>Il ***modello relazionale*** è un [[Definizioni Importanti#Modello Logico|modello logico]] , nel senso che risponde al requisito di **indipendenza** dalla particolare *rappresentazione dei dati* a livello fisico.
 
-# MODELLO RELAZIONALE
+>[!tip] Progettazione Logica
+>La fase di ***progettazione logica*** consiste nella **traduzione** dello [[Definizioni Importanti#Modello Concettuale|schema concettuale]] in uno schema logico.
 
-I dati sono divisi in record di dimensione fissa e organizzati in tabelle.
+## Modello Relazionale
+---
+>[!info] Concetto
+>Nel ***Modello Relazionale*** i dati sono *divisi in record* di dimensione fissa e **organizzati in tabelle**.
 
-## Tabelle
+### Relazione nel Modello Relazionale
+#### Attributo
+>[!todo] Definizione
+>Ad ogni occorrenza di **dominio**, si associa un nome univoco nella **relazione**.
+>- Specifica il ruolo che quel dominio ***svolge nella relazione***
+>
 
-- **Intestazione della tabella**
-- **Schema della relazione** (nome tabella + attributi)
-- **Colonne** → Attributi
-- **Righe** → Istanze della relazione
-- NON possono esistere attributi uguali.
-- NON possono esistere righe uguali.
-- I dati di una colonna devono essere omogenei (di un solo tipo).
-- Ogni attributo dispone di un **dominio**, che definisce l’insieme dei valori validi per quell’attributo.
+>[!example] Esempio.
+
+| TeamCasa         | TeamOspite           | PuntiCasa | PuntiOspite |
+| ---------------- | -------------------- | --------- | ----------- |
+| Enel Brindisi    | Sidigas Avellino     | $92$      | $88$        |
+| MIA Cantù        | Virtus Bologna       | $94$      | $87$        |
+| Fiat Torino      | Vanoli Cremona       | $88$      | $80$        |
+| The Flex Pistoia | Consultinvest Pesaro | $86$      | $83$        |
+> La struttura non è più ***posizionale***
+- L'***ordine*** degli attributi **non ha più rilevanza**
+	- Si supera il problema della non commutatività del [[Concetti Matematici#Prodotto Cartesiano|prodotto cartesiano]]
+
+##### Dominio di un attributo
+>[!done] Definizione
+>Ogni attributo dispone di un ***dominio*** che definisce l'insieme dei valori *validi per quell'attributo*
+
+#### Relazione
+>Si indichi con $dom(A)$ il ***dominio*** dell'attributo $A$ e si consideri un insieme di attributi $x=\{ A_{1},A_{2},\dots,A_{n} \}$
+
+>[!summary] Tupla
+>Una **tupla** su $X$ è una *funzione* che associa a ogni $A_{i}\in X$ un valore di $dom(A_{i})$
+
+>[!example] Schema di Relazione
+>Uno schema di relazione $R(X)$ è definito da un nome della relazione $R$ e dall'insieme di attributi $X=\{ A_{1},A_{2},\dots,A_{n} \}$
+>- Lo schema $R(X)$ definisce a livello [[Modello Entity-Relationship#Entità|intensionale]] una relazione
+
+**Scelta del nome**:
+- È importante che la scelta dei nomi diano **immediatamente** il significato di "*cosa contiene*"
+- Per questo motivo si preferisce avere come nome di uno schema un nome al **plurale**
+	- *Persona* -> *Persone*
+
+>[!abstract] Istanza di Relazione $R(X)$
+>Una ***istanza*** (o ***stato***/***estensione***) di *relazione* su $X$ è l'insieme $r$ di *tuple* su $X$
+>- L'istanza di una Relazione definisce a livello [[Modello Entity-Relationship#Entità|estensionale]] una relazione
+
+![[Screenshot 2025-03-11 154833.png]]
+#### Tabelle
+>Le tabelle sono formate da diverse parti e devono seguire alcune regole.
+
+- ***Intestazione* della tabella**
+	- **Schema della relazione** (nome tabella + attributi)
+- **Colonne**
+	- *Attributi*
+- **Righe**
+	- *Tuple* della relazione
+
+>[!important] Regole
+>- ***NON*** possono esistere *attributi uguali*.
+>- ***NON*** possono esistere *righe uguali*.
+>- I dati di una colonna **devono essere omogenei** (di un solo tipo).
+
+### Data Base Relazionale
+>[!example] Schema di un *DB*
+>Lo ***schema*** di un *database* relazionale è un insieme di schemi di relazioni con nomi distinti.
+>$$R=\{ R_{1}(X_{1}),R_{2}(X_{2}),\dots,R_{m}(X_{m}) \}$$
+
+>[!abstract] Istanza di un *DB*
+>Una ***istanza*** (o ***stato***/***estensione***) di un *database*: $R=\{ R_{1}(X_{1}),R_{2}(X_{2}),\dots,R_{m}(X_{m}) \}$ 
+> è un insieme di ***istanze di relazioni***:
+> $$r=\{ r_{1},r_{2},\dots,r_{n} \}$$
+> con $r_{i}$ istanza di relazione su $R_{i}(X_{i})$
 
 ## Forme Normali
 
 Le relazioni devono rispettare determinate proprietà matematiche per garantire coerenza e minimizzazione della ridondanza.
-
-## Relazioni Matematiche
-
-- **Sottoinsieme del prodotto cartesiano**
-- **Prodotto cartesiano**: insieme delle tuple ordinate.
-- Nei database, la rappresentazione NON è posizionale: (a; b) == (b; a).
-
-## Definizioni Rigorose
-
-- **Schema di Relazione R(X)**: un nome R con un insieme di attributi A1, A2, ..., Ax → X.
-- **Istanza di una relazione su uno schema R(X)**: insieme r di ennuple su X.
-- **Schema di Database**: insieme di schemi di relazioni → R = {R1(X1), ..., Rk(Xk)}.
-- **Istanza di Database**: insieme delle istanze di relazioni → r = {r1, ..., rk}.
-
----
-
-# ENNUPLA SENZA INFORMAZIONE
-
-## Casi
-
-- **Valore non noto**
-- **Valore inesistente**
-- **Valore senza informazione**
-
-## Soluzioni
-
-- Applicare un valore di **default**.
-- Valori speciali per ogni attributo (le applicazioni devono conoscerli).
-- Applicare un valore **NULL**:
-  - Per definizione **NULL != NULL**.
-  - Gestisce i tre casi possibili.
-
----
-
-# VINCOLI DI INTEGRITÀ
-
-Funzione booleana che associa un’istanza r di un database definito su uno schema a un valore di verità.
-
-## Istanza lecita
-
-Un’istanza che soddisfa i vincoli definiti.
-
-## Tipologie di vincoli
-
-### Intra-Relazionali (sulla singola tabella)
-
-- **Vincoli di ennupla**: condizioni su ciascuna ennupla singolarmente (espresse con espressioni booleane).
-- **Vincoli di Chiave**: garantiscono l’unicità delle tuple.
-
-### Inter-Relazionali (fra più relazioni)
-
-- **Collegamenti tra relazioni** espressi mediante valori comuni in attributi replicati.
-- Ogni riga della tabella referenziante si collega al massimo con una riga della tabella referenziata.
-
-#### Vincolo di Integrità Referenziale
-
-**Foreign Key**: impone che i valori, diversi da NULL, su un attributo X in R1 compaiano come valori della chiave primaria di R2.
-
-### Errori
-
-- Un’operazione di modifica su una relazione causa una violazione di VIR su altre relazioni.
-
-### Soluzioni
-
-- **Eliminazione a cascata**.
-- **Non consentire l’operazione**.
-- **Inserimento di valori NULL**.
-
----
-
-# CHIAVI
-
-Insieme di attributi che consente di identificare univocamente un’enntupla di una relazione.
-
-## Utilizzo
-
-- Accesso a ciascuna ennupla della base di dati.
-- Correlazione dei dati tra relazioni diverse.
-
-### Superchiave
-
-Un sottoinsieme k di attributi è detto **superchiave** se NON contiene due ennuple distinte t1 e t2 con t1[k] = t2[k].
-
-### Definizione formale di chiave
-
-- Una **chiave** di una relazione è una **superchiave minimale** di r.
-- Non esiste una superchiave k’ in k.
-- Esiste sempre almeno una chiave/superchiave.
-
-### Caso estremo
-
-- Tutti gli attributi possono costituire una superchiave.
-- Possono esistere più chiavi/superchiavi.
-
-### Chiave Primaria
-
-- Chiave di una relazione su cui NON sono ammessi valori **NULL**.
-- Ogni relazione deve averne una.
-- Può essere composta da uno o più attributi.

@@ -16,5 +16,9 @@
 ---
 >[!tldr] Definizione
 >Il ***modello concettuale*** ha lo scopo di creare uno schema che rappresenti la *realtà di interesse* in modo indipendente dal **DBMS**
-## MODELLO LOGICO
-Descrive l’organizzazione dei dati in modo visibile all’utente
+## Modello Logico
+---
+>Descrive l’***organizzazione dei dati*** in modo visibile all’utente
+
+>[!info] Definizione
+>Il ***modello logico*** è un insieme di concetti per organizzare i dati relativi a un certo **dominio di interesse** e un **insieme di regole** per modellare eventuali [[Vincoli di Integrità|vincoli]] e *restrizioni* sui dati.
