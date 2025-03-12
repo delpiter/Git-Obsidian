@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "d1e0e12281a3f73e",
+        "id": "4cd9f8b0853e58dd",
         "type": "tabs",
         "children": [
           {
-            "id": "568bd850ecf441cc",
+            "id": "9148a00d0320e16a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "README"
             }
           }
         ]
@@ -196,8 +200,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "568bd850ecf441cc",
+  "active": "9148a00d0320e16a",
   "lastOpenFiles": [
+    "Git-Obsidian/Markdown Keys.md",
+    "README.md",
     "Git-Obsidian/DataBase/Progettazione Logica/Modello Relazionale/Vincoli di Integrità.md",
     "Git-Obsidian/DataBase/Progettazione Logica/Modello Relazionale/attachements/RelationTable.png",
     "Git-Obsidian/DataBase/Progettazione Logica/Modello Relazionale/attachements/NamesAndID.png",
@@ -220,7 +226,6 @@
     "Git-Obsidian/Algebra e Geometria/Isometrie/1 - Introduzione Isometrie.md",
     "Git-Obsidian/Sistemi Operativi/Bash/Exit Status.md",
     "Git-Obsidian/Matematica Discreta e Probabilità/Statistica Descrittiva/3 - Varianza.md",
-    "Git-Obsidian/Markdown Keys.md",
     "Git-Obsidian/Definizioni/Definizioni_Analisi.md",
     "Git-Obsidian/Analisi/Insiemi/Insiemi Numerici.md",
     "Git-Obsidian/Reti/Indirizzamento/Introduzione.md",

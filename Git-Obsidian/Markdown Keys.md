@@ -45,6 +45,9 @@ Asterisco
 **Bold**
 Doppio asterisco
 
+~~Strikethrough~~
+Doppia Tilde
+
 Lists
 - trattino singolo
 - ok
