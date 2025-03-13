@@ -50,3 +50,19 @@ Al termine del dialogo il circuito deve essere rilasciato al fine di poter esser
 >Il singolo ***flusso informativo*** è identificato da:
 >- [[Protocollo IP|IP]] **sorgente** e **destinatario**.
 >- [[Livello di Trasporto#Numero di Porta|Numero di Porta]] **sorgente** e **destinatario**.
+
+## Server e Client
+---
+>[!caution] Server
+> I ***server*** sono calcolatori disposti a comunicare con gli altri.
+> Con il termine ***server*** indichiamo un'applicazione che rende disponibile un *servizio* mediante un'*interfaccia standard* (***protocollo***).
+
+>[!tip] Client
+>Con il termine ***client*** indichiamo un'*applicazione* che è in grado di **utilizzare i** [[Servizi]] messi a disposizione da un **server**.
+
+>[!warning] Problema
+>Il Client deve conoscere [[Protocollo IP|IP]] e [[Livello di Trasporto#Numero di Porta|numero di porta]] del server
+>>[!question] Come fa il client a conoscerli?
+
+Per il ***livello transport***:
+- [[Livello di Trasporto#Well Known Port|Well Known Ports]]
