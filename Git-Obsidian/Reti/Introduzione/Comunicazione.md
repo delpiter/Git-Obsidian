@@ -56,9 +56,13 @@ Al termine del dialogo il circuito deve essere rilasciato al fine di poter esser
 >[!caution] Server
 > I ***server*** sono calcolatori disposti a comunicare con gli altri.
 > Con il termine ***server*** indichiamo un'applicazione che rende disponibile un *servizio* mediante un'*interfaccia standard* (***protocollo***).
+>>[!done] Apertura Passiva
+>>Il processo *server* si predispone a ricevere una connessione eseguendo una ***apertura passiva***.
 
 >[!tip] Client
 >Con il termine ***client*** indichiamo un'*applicazione* che è in grado di **utilizzare i** [[Servizi]] messi a disposizione da un **server**.
+>>[!done] Apertura Attiva
+>>Il processo *client* è colui che fa partire un **software in modo attivo** per comunicare con qualcun altro.
 
 >[!warning] Problema
 >Il Client deve conoscere [[Protocollo IP|IP]] e [[Livello di Trasporto#Numero di Porta|numero di porta]] del server
@@ -66,3 +70,19 @@ Al termine del dialogo il circuito deve essere rilasciato al fine di poter esser
 
 Per il ***livello transport***:
 - [[Livello di Trasporto#Well Known Port|Well Known Ports]]
+
+## Peer to Peer
+---
+>Variante del concetto di *Client-Server*.
+
+>[!summary] **P2P**
+>Nel ***Peer to Peer*** gli host in rete sono tutti equivalenti e fungono *alternativamente* sia da **client** sia da **server**.
+
+In una rete ***P2P*** qualsiasi nodo utilizza e mette a disposizione contemporaneamente risorse e informazioni in rete.
+
+*Auto Scalabile*: 
+- Nuovi **peer** agenti da *server* possono essere aggiunti fornendo nuove capacità e funzionalità
+
+>[!example] Esempio
+
+- [µTorrent](https://www.utorrent.com/)

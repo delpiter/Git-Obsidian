@@ -32,3 +32,5 @@ I vari protocolli sono frutto del lavoro di gruppi di ricerca
 >L'***Internet Assigned Number Authority*** ha la responsabilità nell'assegnazione degli indirizzi **IP**.
 >Mantiene i *database* dei numeri che hanno *significati convenzionali* nei protocolli internet.
 
+^a9b820
+
