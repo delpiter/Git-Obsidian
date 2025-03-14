@@ -107,3 +107,57 @@ La ***risoluzione del nome*** avviene nei seguenti passi:
 ![[RecursiveSearch.png|600]]
 
 - *Procedura Ricorsiva di Risoluzione*
+
+### Formato dei Messaggi
+>[[ISO-OSI#Trasferimento dei Dati|PDU]] del protocollo `DNS` diviso in due:
+
+>[!quote] Header
+>Contenente **informazioni** riguardo al **body**.
+
+>[!abstract] Body
+>Contenente le **informazioni** del protocollo (*richiesta* o *risposta*)
+
+![[DNSPCI.png]]
+
+>[!info] Identifier
+> L'***identifier*** contiene il codice che consente di **associare univocamente** un messaggio di *risposta* a uno specifico messaggio di *domanda*.
+
+>[!Flags]
+>Il formato ha diversi ***flags***, i più importanti riportati di seguito:
+>- **QR**: $1$ `bit` Distingue un messaggio di richiesta (**QR**$=0$) da uno di risposta (**QR**$=1$).
+>- **Rcode**: $4$`bit` In un messaggio di **risposta**, indica la *motivazione della mancata risposta* a una richiesta ricevuta.
+
+>[!abstract] QDcount
+>Indica il numero di record **RR** (*resource record*) richiesti nel **successivo campo question**.
+
+>[!help] ANcount
+>Indica il numero di record **RR** forniti nel **successivo campo answer**.
+
+>[!summary] NScount
+>Indica il numero di record **RR** forniti da altri *name server autorevoli* presenti nel **successivo campo authority**.
+
+>[!hint] ARcount
+>Indica il numero di record **RR** presenti nel **successivo campo additional** relativi alla richiesta ricevuta
+
+#### Formato della Domanda
+>[!cite] Contenuto nel Body
+>***Qname***:
+>- Un nome di dominio per cui si effettua la richiesta
+>
+> ***Qtype***:
+> - Tipo della richiesta
+> 
+> ***Qclass***:
+> - Classe della domanda
+
+#### Formato della Risposta
+>[!abstract] Contenuto nel Body
+>***Name***:
+>- Un nome di dominio per cui si effettua la richiesta.
+>
+>***Type***:
+>- Tipo della risposta.
+>
+>***TTL***:
+>- **Time To Leave**
+>- Durata in secondi del tempo per il quale la risposta può essere mantenuta in memoria
